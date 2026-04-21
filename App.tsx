@@ -627,7 +627,7 @@ export default function App() {
       )}
 
       {/* Legend */}
-      <div className={`absolute z-20 bg-[#0B0C15]/80 backdrop-blur-md border border-white/10 rounded-xl transition-all duration-300 ease-in-out ${isMobile ? 'top-4 right-4' : 'bottom-6 right-6'} ${isLegendOpen ? 'p-4' : 'p-2'}`}>
+      <div className={`absolute z-20 bg-[#0B0C15]/80 backdrop-blur-md border border-white/10 rounded-xl transition-all duration-300 ease-in-out ${isMobile ? 'top-4 right-4' : 'bottom-24 right-6'} ${isLegendOpen ? 'p-4' : 'p-2'}`}>
         <button
           onClick={() => setIsLegendOpen(!isLegendOpen)}
           className="flex items-center gap-2 w-full text-left"

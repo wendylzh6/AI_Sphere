@@ -198,13 +198,13 @@ export default function AIChatbot() {
 
   return (
     <>
-      {/* Floating Action Button — bottom-left so it doesn't collide with
-          AI Sphere's legend in the bottom-right. */}
+      {/* Floating Action Button — bottom-right, sits directly below the
+          Legend sector on desktop. */}
       <button
         type="button"
         aria-label={isOpen ? "Close chat" : "Open chat"}
         onClick={() => setIsOpen((v) => !v)}
-        className="fixed bottom-6 left-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-indigo-600 shadow-lg shadow-indigo-500/30 transition hover:scale-105 hover:bg-indigo-700 focus:outline-none focus:ring-4 focus:ring-indigo-300"
+        className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-indigo-600 shadow-lg shadow-indigo-500/30 transition hover:scale-105 hover:bg-indigo-700 focus:outline-none focus:ring-4 focus:ring-indigo-300"
       >
         {isOpen ? (
           <span className="text-2xl text-white">×</span>
@@ -237,7 +237,7 @@ export default function AIChatbot() {
         <div
           role="dialog"
           aria-label="AI assistant"
-          className="fixed bottom-24 left-6 z-50 flex h-[32rem] w-[22rem] max-w-[calc(100vw-2rem)] flex-col overflow-hidden rounded-2xl border border-white/10 bg-[#0B0C15] text-white shadow-2xl sm:w-96"
+          className="fixed bottom-24 right-6 z-50 flex h-[32rem] w-[22rem] max-w-[calc(100vw-2rem)] flex-col overflow-hidden rounded-2xl border border-white/10 bg-[#0B0C15] text-white shadow-2xl sm:w-96"
         >
           {/* Header */}
           <div className="flex items-center justify-between bg-gradient-to-r from-indigo-600 to-purple-600 px-4 py-3 text-white">
