@@ -112,7 +112,22 @@
     .career-step-connector .c-line {
       flex: 1; height: 1px; background: rgba(99,102,241,0.3);
     }
-    .career-step:last-child .c-line { display: none; }
+    /* Arrow for the most recent (rightmost) step */
+    .c-arrow-right {
+      flex: 1; display: flex; align-items: center;
+    }
+    .c-arrow-right::before {
+      content: ''; flex: 1; height: 1px;
+      background: rgba(99,102,241,0.6);
+    }
+    .c-arrow-right::after {
+      content: '';
+      width: 0; height: 0;
+      border-top: 4px solid transparent;
+      border-bottom: 4px solid transparent;
+      border-left: 6px solid rgba(99,102,241,0.8);
+      flex-shrink: 0;
+    }
     .career-step-body {
       text-align: center;
       padding: 0 4px;
@@ -1011,18 +1026,24 @@
     // ── Career Timeline (horizontal, oldest → newest left to right) ──
     const history = [...(careerHistory[p.id] || [])].reverse();
     document.getElementById('career-timeline').innerHTML = history.length
-      ? history.map(h => `
+      ? history.map((h, i) => {
+          const isLast = i === history.length - 1;
+          const connector = isLast
+            ? '<div class="c-arrow-right"></div>'
+            : '<div class="c-line"></div>';
+          return `
           <div class="career-step">
             <div class="career-step-connector">
               <div class="c-dot"></div>
-              <div class="c-line"></div>
+              ${connector}
             </div>
             <div class="career-step-body">
               <div class="text-[9px] text-indigo-400 font-mono mb-0.5">${h.y}</div>
               <div class="text-[11px] font-semibold text-white leading-tight mb-0.5">${h.c}</div>
               <div class="text-[9px] text-slate-400 leading-tight">${h.r}</div>
             </div>
-          </div>`).join('')
+          </div>`;
+        }).join('')
       : '<p class="text-[11px] text-slate-600 italic">No career data available.</p>';
 
     // ── Sentiment ──
