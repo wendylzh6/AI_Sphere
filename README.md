@@ -29,9 +29,26 @@ There are millions of pieces of AI news and information generated every second o
 
 ---
 
+## 🤖 In-App AI Assistant
+
+AI Sphere ships with a floating Gemini-powered chatbot ("Tauhid D. Luffy")
+in the bottom-left corner. It has been pre-briefed on the app's layout,
+features, and methodology, so users can ask things like:
+
+- "What do the node colors mean?"
+- "How is the sentiment analysis computed?"
+- "How do I filter by researchers only?"
+
+The component lives in `components/AIChatbot.tsx` and reads the same
+`GEMINI_API_KEY` env var that the sentiment analyzer uses.
+
+---
+
 ## 🚀 Run Locally
 
 **Prerequisites:** Node.js
 
 1. Install dependencies: `npm install`
-2. Run the app: `npm run dev`
+2. Copy `.env.example` to `.env.local` and paste your Gemini API key
+   (get one at https://aistudio.google.com/app/apikey).
+3. Run the app: `npm run dev`

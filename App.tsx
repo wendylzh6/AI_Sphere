@@ -1,5 +1,6 @@
 import React, { useState, useMemo, useRef, useEffect, useCallback } from 'react';
 import Graph3D from './components/Graph3D';
+import AIChatbot from './components/AIChatbot';
 import { INITIAL_DATA, LAST_UPDATED } from './constants';
 import { GraphData, GraphNode, SentimentScores } from './types';
 import { analyzeSentiment } from './services/geminiService';
@@ -749,6 +750,9 @@ export default function App() {
           100% { left: calc(100% + 6px); }
         }
       `}</style>
+
+      {/* In-app AI assistant (Gemini-powered) */}
+      <AIChatbot />
     </div>
   );
 }
