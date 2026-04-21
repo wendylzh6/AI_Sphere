@@ -1257,8 +1257,8 @@
       { key: 'age', label: 'Agents',     color: '#C084FC' },
     ];
 
-    const W = 480, H = 110;
-    const PAD = { top: 10, right: 14, bottom: 32, left: 20 };
+    const W = 480, H = 120;
+    const PAD = { top: 10, right: 14, bottom: 32, left: 46 };
     const chartW = W - PAD.left - PAD.right;
     const chartH = H - PAD.top - PAD.bottom;
     const n = stages.length;
@@ -1267,14 +1267,28 @@
     const yScale = v => PAD.top + chartH * (1 - (v + 1) / 2);
     const xScale = i => PAD.left + i * xStep;
 
-    // Gridlines at -1, -0.5, 0, 0.5, 1
+    // Y-axis gridlines + labels
+    const yTicks = [
+      { v: 1,    label: 'Positive' },
+      { v: 0,    label: 'Neutral'  },
+      { v: -1,   label: 'Negative' },
+    ];
     let gridLines = '';
-    [-1, -0.5, 0, 0.5, 1].forEach(v => {
+    yTicks.forEach(({ v, label }) => {
       const y = yScale(v);
       const isZero = v === 0;
       gridLines += `<line x1="${PAD.left}" y1="${y}" x2="${W - PAD.right}" y2="${y}"
-        stroke="${isZero ? 'rgba(255,255,255,0.12)' : 'rgba(255,255,255,0.05)'}"
+        stroke="${isZero ? 'rgba(255,255,255,0.15)' : 'rgba(255,255,255,0.06)'}"
         stroke-width="${isZero ? 1 : 0.5}" stroke-dasharray="${isZero ? '' : '3,3'}"/>`;
+      gridLines += `<text x="${PAD.left - 4}" y="${y + 3}" text-anchor="end"
+        font-size="7.5" fill="${isZero ? 'rgba(203,213,225,0.7)' : 'rgba(148,163,184,0.5)'}"
+        font-family="Inter,sans-serif">${label}</text>`;
+    });
+    // Faint mid-ticks at 0.5 and -0.5 (no label)
+    [-0.5, 0.5].forEach(v => {
+      const y = yScale(v);
+      gridLines += `<line x1="${PAD.left}" y1="${y}" x2="${W - PAD.right}" y2="${y}"
+        stroke="rgba(255,255,255,0.04)" stroke-width="0.5" stroke-dasharray="2,4"/>`;
     });
 
     // Polylines + dots
@@ -1297,7 +1311,7 @@
     });
 
     // Legend
-    const legendItems = dims.map((d, i) =>
+    const legendItems = dims.map(d =>
       `<span style="display:inline-flex;align-items:center;gap:3px;margin-right:8px;">
          <svg width="12" height="4"><line x1="0" y1="2" x2="12" y2="2" stroke="${d.color}" stroke-width="1.5"/></svg>
          <span style="font-size:9px;color:rgba(203,213,225,0.85)">${d.label}</span>
