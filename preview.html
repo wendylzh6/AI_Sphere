@@ -346,6 +346,14 @@
         </div>
       </div>
       <div id="sentiment-bars"></div>
+      <!-- Sentiment Evolution chart -->
+      <div class="mt-3 pt-3 border-t border-white/8">
+        <div class="flex items-center gap-1.5 mb-2">
+          <svg class="w-3 h-3 text-indigo-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"/></svg>
+          <span class="text-[10px] font-semibold text-slate-300">Sentiment Evolution Across Career</span>
+        </div>
+        <div id="sentiment-evolution-chart"></div>
+      </div>
     </div>
 
     <!-- ── ROW 4: AI Topics ── -->
@@ -791,6 +799,150 @@
   };
 
   // ═══════════════════════════════════════════════
+  // SENTIMENT EVOLUTION PER CAREER STAGE
+  // Arrays ordered newest→oldest (matching careerHistory).
+  // Keys: reg=regulation, use=usage, tru=trust, age=agents
+  // ═══════════════════════════════════════════════
+  const sentimentEvolution = {
+    sama:            [{reg:0.30, use:0.90, tru:0.75, age:0.90},   // OpenAI
+                      {reg:-0.05,use:0.75, tru:0.60, age:0.50},   // Y Combinator
+                      {reg:-0.20,use:0.60, tru:0.50, age:0.25}],  // Loopt
+    satyanadella:    [{reg:0.55, use:0.85, tru:0.70, age:0.80},
+                      {reg:0.40, use:0.75, tru:0.65, age:0.60},
+                      {reg:0.25, use:0.65, tru:0.60, age:0.40}],
+    levie:           [{reg:0.20, use:0.85, tru:0.65, age:0.80},
+                      {reg:0.10, use:0.70, tru:0.55, age:0.45}],
+    karpathy:        [{reg:-0.10,use:0.80, tru:0.65, age:0.70},   // Eureka Labs
+                      {reg:-0.05,use:0.85, tru:0.70, age:0.65},   // Tesla — more deployment-focused
+                      {reg:-0.15,use:0.75, tru:0.60, age:0.55}],  // OpenAI — research-cautious
+    barmstrong:      [{reg:-0.70,use:0.70, tru:0.55, age:0.60},
+                      {reg:-0.40,use:0.60, tru:0.50, age:0.40},
+                      {reg:-0.20,use:0.55, tru:0.50, age:0.30}],
+    andrewng:        [{reg:-0.20,use:0.90, tru:0.70, age:0.90},   // DeepLearning.AI
+                      {reg:-0.15,use:0.85, tru:0.65, age:0.80},   // Baidu — industry scale-up
+                      {reg:-0.10,use:0.80, tru:0.65, age:0.65},   // Coursera
+                      {reg:-0.05,use:0.75, tru:0.65, age:0.50}],  // Google Brain — early days
+    ylecun:          [{reg:-0.50,use:0.70, tru:0.60, age:-0.30},  // Meta — skeptical of AGI hype
+                      {reg:-0.35,use:0.68, tru:0.58, age:-0.20},  // Meta early / NYU dual role
+                      {reg:-0.20,use:0.62, tru:0.58, age:-0.10}], // Bell Labs — pre-deep-learning era
+    gdb:             [{reg:0.40, use:0.80, tru:0.65, age:0.80},   // OpenAI
+                      {reg:0.10, use:0.72, tru:0.62, age:0.50},   // Stripe — infra mindset
+                      {reg:0.00, use:0.65, tru:0.58, age:0.35}],  // Early startups
+    demishassabis:   [{reg:0.50, use:0.60, tru:0.45, age:0.80},   // Google DeepMind
+                      {reg:0.40, use:0.65, tru:0.52, age:0.75},   // DeepMind — built it up
+                      {reg:0.20, use:0.70, tru:0.58, age:0.50}],  // UCL — academic optimism
+    palmerluckey:    [{reg:-0.40,use:0.80, tru:0.55, age:0.75},   // Anduril — defense AI
+                      {reg:-0.20,use:0.75, tru:0.62, age:0.55}],  // Oculus — consumer AI
+    fchollet:        [{reg:0.30, use:0.60, tru:0.20, age:-0.10},  // Google — skeptical of scaling
+                      {reg:0.20, use:0.65, tru:0.32, age:0.05}],  // Halide — early career
+    ilyasut:         [{reg:0.60, use:0.40, tru:0.20, age:0.50},   // SSI — safety-first pivot
+                      {reg:0.45, use:0.50, tru:0.30, age:0.45},   // OpenAI late — escalating concern
+                      {reg:0.15, use:0.72, tru:0.58, age:0.30}],  // Google Brain — enthusiastic
+    drfeifei:        [{reg:0.60, use:0.50, tru:0.45, age:0.30},   // World Labs
+                      {reg:0.55, use:0.52, tru:0.47, age:0.28},   // Stanford HAI — equity focus
+                      {reg:0.40, use:0.60, tru:0.55, age:0.25},   // Google Cloud — commercialisation
+                      {reg:0.35, use:0.65, tru:0.62, age:0.18}],  // Stanford early — pure research
+    geoffreyhinton:  [{reg:0.90, use:0.20, tru:-0.90,age:-0.40},  // Independent — alarmed
+                      {reg:0.55, use:0.40, tru:-0.30,age:-0.25},  // Google Brain — growing concern
+                      {reg:0.10, use:0.65, tru:0.42, age:-0.10}], // U of Toronto — academic optimism
+    paraga:          [{reg:0.30, use:0.75, tru:0.50, age:0.60},
+                      {reg:0.28, use:0.75, tru:0.52, age:0.58},
+                      {reg:0.22, use:0.72, tru:0.55, age:0.50},
+                      {reg:0.15, use:0.65, tru:0.55, age:0.40}],
+    akhaliq:         [{reg:0.10, use:0.90, tru:0.70, age:0.70},
+                      {reg:0.05, use:0.85, tru:0.65, age:0.60}],
+    austen:          [{reg:0.00, use:0.90, tru:0.65, age:0.80},   // Gauntlet AI — AI-native
+                      {reg:0.05, use:0.82, tru:0.60, age:0.68}],  // Lambda — access focus
+    miramurati:      [{reg:0.50, use:0.70, tru:0.55, age:0.75},   // Stealth
+                      {reg:0.45, use:0.72, tru:0.52, age:0.73},   // OpenAI CTO
+                      {reg:0.35, use:0.76, tru:0.60, age:0.65}],  // OpenAI VP product
+    jeffdean:        [{reg:0.30, use:0.90, tru:0.60, age:0.75},   // Google DeepMind
+                      {reg:0.25, use:0.88, tru:0.62, age:0.70},   // Google Brain SVP
+                      {reg:0.15, use:0.85, tru:0.65, age:0.55}],  // Google early — infrastructure focus
+    rasbt:           [{reg:0.20, use:0.85, tru:0.65, age:0.65},
+                      {reg:0.15, use:0.80, tru:0.62, age:0.55},
+                      {reg:0.10, use:0.72, tru:0.60, age:0.42}],
+    hardmaru:        [{reg:0.20, use:0.80, tru:0.60, age:0.70},   // Sakana AI — nature-inspired
+                      {reg:0.15, use:0.78, tru:0.62, age:0.65},   // Google Brain
+                      {reg:0.10, use:0.70, tru:0.60, age:0.50}],  // PhD — academic
+    alexwang:        [{reg:0.30, use:0.90, tru:0.65, age:0.70},   // Meta CAO — shifted to gov/defense
+                      {reg:0.22, use:0.90, tru:0.65, age:0.68}],  // Scale AI — data infra
+    addyosmani:      [{reg:0.20, use:0.85, tru:0.65, age:0.75},
+                      {reg:0.15, use:0.80, tru:0.65, age:0.62}],
+    iangoodfellow:   [{reg:0.20, use:0.75, tru:0.45, age:0.55},   // Post-Apple independent
+                      {reg:0.25, use:0.70, tru:0.42, age:0.50},   // Apple — more cautious
+                      {reg:0.15, use:0.78, tru:0.52, age:0.55},   // Google Brain — open research
+                      {reg:0.10, use:0.82, tru:0.58, age:0.52}],  // OpenAI/PhD — excited
+    jimfan:          [{reg:0.20, use:0.85, tru:0.65, age:0.90},   // NVIDIA — embodied AI conviction
+                      {reg:0.15, use:0.78, tru:0.65, age:0.78}],  // Stanford postdoc
+    minchoi:         [{reg:0.10, use:0.90, tru:0.70, age:0.75},
+                      {reg:0.05, use:0.78, tru:0.65, age:0.58}],
+    deryaunutmaz:    [{reg:0.40, use:0.70, tru:0.50, age:0.50},
+                      {reg:0.30, use:0.62, tru:0.55, age:0.38}],
+    emostaque:       [{reg:-0.30,use:0.85, tru:0.50, age:0.60},   // Post-Stability — libertarian
+                      {reg:-0.35,use:0.88, tru:0.52, age:0.62},   // Stability AI CEO — open-source zealot
+                      {reg:-0.10,use:0.58, tru:0.55, age:0.32}],  // Quant — finance mindset
+    sriramk:         [{reg:0.60, use:0.75, tru:0.45, age:0.65},   // White House — policy-first
+                      {reg:0.45, use:0.78, tru:0.48, age:0.65},   // a16z — investor optimism + caution
+                      {reg:0.35, use:0.70, tru:0.52, age:0.55}],  // M12 — enterprise lens
+    omarsar0:        [{reg:0.30, use:0.85, tru:0.60, age:0.65},
+                      {reg:0.25, use:0.85, tru:0.62, age:0.62}],
+    soumith:         [{reg:0.00, use:0.85, tru:0.65, age:0.65},
+                      {reg:-0.05,use:0.80, tru:0.65, age:0.52}],
+    logank:          [{reg:0.20, use:0.90, tru:0.70, age:0.80},   // Google — Gemini ecosystem
+                      {reg:0.15, use:0.88, tru:0.68, age:0.75},   // OpenAI — GPT ecosystem
+                      {reg:0.10, use:0.78, tru:0.65, age:0.58}],  // Apple — conservative
+    jeremyhoward:    [{reg:0.40, use:0.85, tru:0.55, age:0.65},   // fast.ai — democratize AI
+                      {reg:0.30, use:0.85, tru:0.58, age:0.60},   // Enlitic — medical AI
+                      {reg:0.20, use:0.72, tru:0.62, age:0.38}],  // FastMail — pre-AI era
+    steipete:        [{reg:0.10, use:0.85, tru:0.60, age:0.70},
+                      {reg:0.05, use:0.75, tru:0.60, age:0.55}],
+    tunguz:          [{reg:0.10, use:0.85, tru:0.60, age:0.60},
+                      {reg:0.08, use:0.82, tru:0.62, age:0.55},
+                      {reg:0.05, use:0.72, tru:0.60, age:0.42}],
+    bcherny:         [{reg:0.30, use:0.85, tru:0.65, age:0.80},   // Anthropic — safety-aware
+                      {reg:0.20, use:0.82, tru:0.65, age:0.70},   // Meta — scale/products
+                      {reg:0.10, use:0.72, tru:0.60, age:0.50}],  // Early startups
+    mustafasuleyman: [{reg:0.65, use:0.70, tru:0.25, age:0.65},   // Microsoft AI — gov engagement
+                      {reg:0.60, use:0.72, tru:0.28, age:0.62},   // Inflection — consumer pivot
+                      {reg:0.40, use:0.76, tru:0.42, age:0.55}],  // DeepMind — research optimism
+    gavinbaker:      [{reg:0.20, use:0.85, tru:0.65, age:0.75},   // Atreides — AI compounders
+                      {reg:0.10, use:0.68, tru:0.60, age:0.48}],  // Fidelity — traditional investing
+    eliezeryud:      [{reg:0.95, use:0.10, tru:-0.95,age:-0.90}], // MIRI — single-stage
+    yacinemtb:       [{reg:0.10, use:0.85, tru:0.65, age:0.90},
+                      {reg:0.05, use:0.72, tru:0.60, age:0.68}],
+    kazufujisawa:    [{reg:0.20, use:0.80, tru:0.60, age:0.70},
+                      {reg:0.15, use:0.68, tru:0.55, age:0.52}],
+    oriolvinyals:    [{reg:0.35, use:0.70, tru:0.55, age:0.60},   // Google DeepMind
+                      {reg:0.30, use:0.72, tru:0.58, age:0.58},   // Google Brain
+                      {reg:0.20, use:0.68, tru:0.60, age:0.42}],  // UCSD postdoc
+    clementdelangue: [{reg:0.20, use:0.95, tru:0.75, age:0.70},   // HuggingFace — open-source mission
+                      {reg:0.14, use:0.88, tru:0.70, age:0.55},   // HF early
+                      {reg:0.10, use:0.75, tru:0.65, age:0.38}],  // ML engineer pre-HF
+    aelluswamy:      [{reg:0.10, use:0.90, tru:0.70, age:0.85},   // Tesla — FSD conviction
+                      {reg:0.05, use:0.78, tru:0.65, age:0.68}],  // Startups
+    schmidhuber:     [{reg:0.40, use:0.60, tru:0.40, age:0.30},   // KAUST
+                      {reg:0.35, use:0.62, tru:0.42, age:0.28},   // IDSIA
+                      {reg:0.25, use:0.58, tru:0.48, age:0.18}],  // U of Colorado
+    rileygoodside:   [{reg:0.20, use:0.90, tru:0.65, age:0.70},
+                      {reg:0.15, use:0.83, tru:0.62, age:0.62}],
+    mitchellh:       [{reg:0.15, use:0.85, tru:0.60, age:0.75},   // Building with AI — all-in
+                      {reg:0.10, use:0.72, tru:0.62, age:0.55}],  // HashiCorp — infra cautious
+    darioamodei:     [{reg:0.70, use:0.50, tru:0.15, age:0.60},   // Anthropic CEO — safety paramount
+                      {reg:0.55, use:0.55, tru:0.20, age:0.55},   // OpenAI VP — safety growing
+                      {reg:0.35, use:0.65, tru:0.38, age:0.45}],  // OpenAI researcher — optimistic
+    arankomatsuzaki: [{reg:0.20, use:0.75, tru:0.55, age:0.60},
+                      {reg:0.15, use:0.75, tru:0.55, age:0.58},
+                      {reg:0.10, use:0.80, tru:0.60, age:0.50}],
+    chrmanning:      [{reg:0.45, use:0.65, tru:0.45, age:0.35},   // Stanford now — policy-aware
+                      {reg:0.35, use:0.65, tru:0.52, age:0.22}],  // CMU — pure NLP research
+    elonmusk:        [{reg:-0.90,use:0.90, tru:0.10, age:0.90},   // xAI — anti-establishment
+                      {reg:-0.75,use:0.88, tru:0.18, age:0.85},   // Twitter/X — free speech AI
+                      {reg:-0.60,use:0.85, tru:0.30, age:0.80},   // Tesla — applied AI
+                      {reg:-0.30,use:0.78, tru:0.48, age:0.65}],  // SpaceX early — pragmatic
+  };
+
+  // ═══════════════════════════════════════════════
   // STATE
   // ═══════════════════════════════════════════════
   let selectedPerson = null;
@@ -1038,6 +1190,7 @@
 
     // ── Sentiment ──
     renderSentiment(p.sentiment);
+    renderSentimentEvolution(p.id);
 
     // ── AI Topics ──
     document.getElementById('card-topics').innerHTML = p.bioTags.map(t =>
@@ -1082,6 +1235,82 @@
         dot.style.left = dot.dataset.target + '%';
       });
     }));
+  }
+
+  function renderSentimentEvolution(personId) {
+    const container = document.getElementById('sentiment-evolution-chart');
+    const evoData = sentimentEvolution[personId];
+    const careerData = careerHistory[personId];
+    if (!evoData || evoData.length < 2 || !careerData || careerData.length < 2) {
+      container.innerHTML = '<p class="text-[11px] text-slate-600 italic py-1">Single career stage — no evolution to show.</p>';
+      return;
+    }
+
+    // Reverse both arrays so oldest is on left
+    const stages = [...evoData].reverse();
+    const career = [...careerData].reverse();
+
+    const dims = [
+      { key: 'reg', label: 'Regulation', color: '#60A5FA' },
+      { key: 'use', label: 'Usage',      color: '#34D399' },
+      { key: 'tru', label: 'Trust',      color: '#FB923C' },
+      { key: 'age', label: 'Agents',     color: '#C084FC' },
+    ];
+
+    const W = 480, H = 110;
+    const PAD = { top: 10, right: 14, bottom: 32, left: 20 };
+    const chartW = W - PAD.left - PAD.right;
+    const chartH = H - PAD.top - PAD.bottom;
+    const n = stages.length;
+    const xStep = n > 1 ? chartW / (n - 1) : 0;
+
+    const yScale = v => PAD.top + chartH * (1 - (v + 1) / 2);
+    const xScale = i => PAD.left + i * xStep;
+
+    // Gridlines at -1, -0.5, 0, 0.5, 1
+    let gridLines = '';
+    [-1, -0.5, 0, 0.5, 1].forEach(v => {
+      const y = yScale(v);
+      const isZero = v === 0;
+      gridLines += `<line x1="${PAD.left}" y1="${y}" x2="${W - PAD.right}" y2="${y}"
+        stroke="${isZero ? 'rgba(255,255,255,0.12)' : 'rgba(255,255,255,0.05)'}"
+        stroke-width="${isZero ? 1 : 0.5}" stroke-dasharray="${isZero ? '' : '3,3'}"/>`;
+    });
+
+    // Polylines + dots
+    let lines = '';
+    dims.forEach(d => {
+      const pts = stages.map((s, i) => `${xScale(i)},${yScale(s[d.key])}`).join(' ');
+      lines += `<polyline points="${pts}" fill="none" stroke="${d.color}" stroke-width="1.5" stroke-linejoin="round" opacity="0.85"/>`;
+      stages.forEach((s, i) => {
+        lines += `<circle cx="${xScale(i)}" cy="${yScale(s[d.key])}" r="2.5" fill="${d.color}" opacity="0.9"/>`;
+      });
+    });
+
+    // X-axis labels (company name, truncated)
+    let xLabels = '';
+    career.forEach((step, i) => {
+      const label = (step.c || '').length > 10 ? step.c.slice(0, 9) + '…' : (step.c || '');
+      const anchor = i === 0 ? 'start' : i === n - 1 ? 'end' : 'middle';
+      xLabels += `<text x="${xScale(i)}" y="${H - 4}" text-anchor="${anchor}"
+        font-size="7.5" fill="rgba(148,163,184,0.8)" font-family="Inter,sans-serif">${label}</text>`;
+    });
+
+    // Legend
+    const legendItems = dims.map((d, i) =>
+      `<span style="display:inline-flex;align-items:center;gap:3px;margin-right:8px;">
+         <svg width="12" height="4"><line x1="0" y1="2" x2="12" y2="2" stroke="${d.color}" stroke-width="1.5"/></svg>
+         <span style="font-size:9px;color:rgba(203,213,225,0.85)">${d.label}</span>
+       </span>`
+    ).join('');
+
+    container.innerHTML = `
+      <div style="margin-bottom:5px;display:flex;flex-wrap:wrap;">${legendItems}</div>
+      <svg viewBox="0 0 ${W} ${H}" style="width:100%;height:auto;display:block;">
+        ${gridLines}
+        ${lines}
+        ${xLabels}
+      </svg>`;
   }
 
   function closeCard() {
