@@ -119,7 +119,7 @@
       </div>
 
       <!-- Legend -->
-      <div class="absolute bottom-6 right-6 bg-[#0B0C15]/80 backdrop-blur-md border border-white/10 rounded-xl p-3 z-20">
+      <div class="absolute bottom-24 right-6 bg-[#0B0C15]/80 backdrop-blur-md border border-white/10 rounded-xl p-3 z-20">
         <div class="text-[10px] text-slate-500 uppercase tracking-wider mb-2 font-medium">Legend</div>
         <div class="flex flex-col gap-2">
           <div class="flex items-center gap-2">
@@ -761,6 +761,351 @@
     simulation.force('center', d3.forceCenter(c.clientWidth/2, c.clientHeight/2));
     simulation.alpha(0.15).restart();
   });
+  </script>
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       IN-APP AI ASSISTANT — "Tauhid D. Luffy"
+       Calls Gemini REST API directly. On first use, prompts the viewer
+       for their own Gemini API key and stores it in localStorage, so
+       no secret is committed to this public static page.
+       ═══════════════════════════════════════════════════════════════ -->
+
+  <!-- Chatbot floating action button -->
+  <button id="chatbot-fab" type="button" aria-label="Open chat"
+    class="fixed bottom-6 right-6 z-[60] flex h-14 w-14 items-center justify-center rounded-full bg-indigo-600 shadow-lg shadow-indigo-500/30 transition hover:scale-105 hover:bg-indigo-700 focus:outline-none focus:ring-4 focus:ring-indigo-300">
+    <span class="block h-9 w-9 overflow-hidden rounded-full bg-[#b6dba1]">
+      <img src="public/chatbot-logo.png" alt="Chatbot"
+        onerror="this.style.display='none'"
+        class="h-full w-full object-cover object-center" style="transform:scale(1.04)" />
+    </span>
+  </button>
+
+  <!-- Chatbot backdrop -->
+  <div id="chatbot-backdrop" class="hidden fixed inset-0 z-[55] bg-slate-900/40 backdrop-blur-sm"></div>
+
+  <!-- Chatbot window -->
+  <div id="chatbot-window"
+    class="hidden fixed bottom-24 right-6 z-[60] flex-col overflow-hidden rounded-2xl border border-white/10 bg-[#0B0C15] text-white shadow-2xl"
+    style="width: min(384px, calc(100vw - 32px)); height: 32rem;">
+
+    <!-- Header -->
+    <div class="flex items-center justify-between bg-gradient-to-r from-indigo-600 to-purple-600 px-4 py-3 text-white">
+      <div class="flex items-center gap-2">
+        <div class="h-8 w-8 overflow-hidden rounded-full bg-[#b6dba1] ring-2 ring-white/60">
+          <img src="public/chatbot-logo.png" alt="Chatbot"
+            onerror="this.style.display='none'"
+            class="h-full w-full object-cover object-center" style="transform:scale(1.04)" />
+        </div>
+        <div>
+          <p class="text-sm font-semibold leading-none">Tauhid D. Luffy</p>
+          <p class="text-[11px] opacity-80">Powered by Gemini</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-1">
+        <button id="chatbot-key-btn" type="button" title="Update API key"
+          class="rounded-full p-1 text-white/80 transition hover:bg-white/20 hover:text-white">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="8" cy="15" r="4"/><path d="M10.85 12.15 19 4"/><path d="M18 5l2 2"/><path d="M15 8l2 2"/>
+          </svg>
+        </button>
+        <button id="chatbot-close" type="button" aria-label="Close chat"
+          class="rounded-full p-1 text-white/80 transition hover:bg-white/20 hover:text-white">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- API key prompt (shown when no key saved) -->
+    <div id="chatbot-key-panel" class="hidden border-b border-white/10 bg-[#05060A] px-4 py-3 text-xs text-slate-300">
+      <p class="mb-2">
+        To chat, paste a free Gemini API key
+        (<a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener" class="text-indigo-400 hover:underline">get one here</a>).
+        It's stored only in your browser.
+      </p>
+      <div class="flex items-center gap-2">
+        <input id="chatbot-key-input" type="password" placeholder="AIza…"
+          class="flex-1 rounded-lg border border-white/10 bg-slate-900/60 px-2.5 py-1.5 text-xs text-slate-100 placeholder:text-slate-500 focus:border-indigo-500/60 focus:outline-none focus:ring-2 focus:ring-indigo-500/30" />
+        <button id="chatbot-key-save" type="button"
+          class="rounded-lg bg-indigo-600 px-3 py-1.5 text-xs font-medium text-white hover:bg-indigo-700">Save</button>
+      </div>
+    </div>
+
+    <!-- Messages -->
+    <div id="chatbot-messages" class="flex-1 space-y-3 overflow-y-auto bg-[#05060A] px-4 py-4 custom-scroll"></div>
+
+    <!-- Error strip -->
+    <div id="chatbot-error" class="hidden bg-red-950/60 px-4 py-1 text-[11px] text-red-300"></div>
+
+    <!-- Input -->
+    <div class="border-t border-white/10 bg-[#0B0C15] p-3">
+      <div class="flex items-end gap-2">
+        <textarea id="chatbot-input" rows="1" placeholder="Ask about AI Sphere…"
+          class="max-h-28 flex-1 resize-none rounded-xl border border-white/10 bg-slate-900/60 px-3 py-2 text-sm text-slate-100 placeholder:text-slate-500 focus:border-indigo-500/60 focus:bg-slate-900 focus:outline-none focus:ring-2 focus:ring-indigo-500/30"></textarea>
+        <button id="chatbot-send" type="button"
+          class="rounded-xl bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow transition hover:bg-indigo-700 disabled:cursor-not-allowed disabled:bg-slate-700 disabled:text-slate-400">Send</button>
+      </div>
+      <p class="mt-1 text-[10px] text-slate-500">Press Enter to send · Shift+Enter for newline</p>
+    </div>
+  </div>
+
+  <script>
+  (function () {
+    const BOT_NAME = "Tauhid D. Luffy";
+    const MODEL_NAME = "gemini-2.5-flash";
+    const API_KEY_STORAGE = "aisphere_gemini_api_key";
+
+    const APP_CONTEXT = `
+You are "${BOT_NAME}", a friendly, concise in-app assistant embedded
+inside the AI Sphere preview page. Your job is to help users understand
+and use AI Sphere. Always stay on-topic; if a user asks something
+unrelated, politely redirect them back to the app. If someone asks your
+name, say it is ${BOT_NAME}.
+
+=== ABOUT THE APP ===
+Name: AI Sphere (preview page)
+One-line pitch: An interactive 2D/3D map of the top AI influencers on X
+(Twitter) — explore who they are, what they do, and how they're
+connected.
+Target users: Anyone trying to navigate the AI community on X — newcomers
+who want to figure out which accounts to follow, and existing users who
+want to visualize the AI ecosystem.
+
+=== CORE EXPERIENCE (this preview) ===
+The preview shows the top ~50 individuals as a force-directed graph
+(powered by D3). Node color = category. Clicking a node highlights its
+connections and opens a detail card on the right with an AI Sentiment
+Analysis panel.
+
+=== UI LAYOUT ===
+- Left sidebar: ranked list of influencers with a search box and
+  category filter chips (All / Founder / Researcher / Investor).
+- Main area: the force-directed 2D graph of people and follows.
+- Floating detail card (top-right, appears when a node is selected):
+  X-style profile (avatar, handle, bio, follower count) plus a
+  Sentiment Analysis panel with four dimensions — Regulation, AI Usage,
+  Trust vs. Risk, AI Agents — and an overall outlook
+  (optimistic / pessimistic / neutral), inferred via Gemini.
+- Legend (bottom-right, above the chatbot button): color key for
+  Founder / Builder (blue), Researcher / Academia (purple),
+  Investor (green).
+
+=== KEY WORKFLOWS ===
+1. Find an influencer: type a name, handle, role, or focus area in the
+   left search box, or scroll the ranked list.
+2. See connections: click a node to highlight their follows.
+3. Filter by role: click a category chip at the top of the sidebar
+   (All / Founder / Researcher / Investor).
+4. Check someone's AI stance: select a node; the Sentiment card shows
+   four inferred dimensions + overall outlook.
+
+=== COMMON QUESTIONS ===
+Q: What do node colors mean?
+A: Blue = Founder / Builder, Purple = Researcher / Academia,
+Green = Investor.
+
+Q: Is AI Sphere free?
+A: Yes — it's an open project by Jenny (@Jenny_the_Bunny on X).
+
+Q: How is sentiment inferred?
+A: Google's Gemini model reads the person's role, bio, and focus tags
+and returns four -1..+1 scores plus an outlook label. It's an
+inference, not a direct quote.
+
+=== STYLE & TONE ===
+- Friendly, clear, and brief (2–4 short sentences by default).
+- Use bullet points for step-by-step instructions.
+- If you don't know, say so and point the user to @Jenny_the_Bunny on X.
+- Never invent features that aren't listed above.
+    `.trim();
+
+    const fab = document.getElementById('chatbot-fab');
+    const win = document.getElementById('chatbot-window');
+    const backdrop = document.getElementById('chatbot-backdrop');
+    const closeBtn = document.getElementById('chatbot-close');
+    const keyBtn = document.getElementById('chatbot-key-btn');
+    const keyPanel = document.getElementById('chatbot-key-panel');
+    const keyInput = document.getElementById('chatbot-key-input');
+    const keySave = document.getElementById('chatbot-key-save');
+    const msgsEl = document.getElementById('chatbot-messages');
+    const errEl = document.getElementById('chatbot-error');
+    const inputEl = document.getElementById('chatbot-input');
+    const sendBtn = document.getElementById('chatbot-send');
+
+    // Conversation history in Gemini REST format.
+    const history = [];
+    let loading = false;
+
+    function getApiKey() {
+      try { return localStorage.getItem(API_KEY_STORAGE) || ""; }
+      catch (_) { return ""; }
+    }
+    function setApiKey(k) {
+      try { localStorage.setItem(API_KEY_STORAGE, k); } catch (_) {}
+    }
+    function showKeyPanel(show) {
+      keyPanel.classList.toggle('hidden', !show);
+    }
+    function setError(msg) {
+      if (!msg) { errEl.classList.add('hidden'); errEl.textContent = ''; return; }
+      errEl.textContent = msg;
+      errEl.classList.remove('hidden');
+    }
+
+    function escapeHtml(s) {
+      return s.replace(/[&<>"']/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
+    }
+
+    function addMessage(role, content) {
+      const wrap = document.createElement('div');
+      wrap.className = 'flex ' + (role === 'user' ? 'justify-end' : 'justify-start');
+      const bubble = document.createElement('div');
+      bubble.className =
+        'max-w-[85%] whitespace-pre-wrap rounded-2xl px-3.5 py-2 text-sm shadow-sm ' +
+        (role === 'user'
+          ? 'rounded-br-sm bg-indigo-600 text-white'
+          : 'rounded-bl-sm border border-white/10 bg-slate-900/70 text-slate-100');
+      bubble.innerHTML = escapeHtml(content);
+      wrap.appendChild(bubble);
+      msgsEl.appendChild(wrap);
+      msgsEl.scrollTop = msgsEl.scrollHeight;
+    }
+
+    function addTyping() {
+      const wrap = document.createElement('div');
+      wrap.id = 'chatbot-typing';
+      wrap.className = 'flex justify-start';
+      wrap.innerHTML =
+        '<div class="flex items-center gap-1 rounded-2xl rounded-bl-sm border border-white/10 bg-slate-900/70 px-3 py-2 shadow-sm">' +
+          '<span class="h-1.5 w-1.5 animate-bounce rounded-full bg-indigo-400" style="animation-delay:-0.3s"></span>' +
+          '<span class="h-1.5 w-1.5 animate-bounce rounded-full bg-indigo-400" style="animation-delay:-0.15s"></span>' +
+          '<span class="h-1.5 w-1.5 animate-bounce rounded-full bg-indigo-400"></span>' +
+        '</div>';
+      msgsEl.appendChild(wrap);
+      msgsEl.scrollTop = msgsEl.scrollHeight;
+    }
+    function removeTyping() {
+      const el = document.getElementById('chatbot-typing');
+      if (el) el.remove();
+    }
+
+    async function callGemini(userText) {
+      const key = getApiKey();
+      if (!key) throw new Error("Please paste your Gemini API key first (key icon in header).");
+
+      history.push({ role: 'user', parts: [{ text: userText }] });
+
+      const res = await fetch(
+        `https://generativelanguage.googleapis.com/v1beta/models/${MODEL_NAME}:generateContent?key=${encodeURIComponent(key)}`,
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            systemInstruction: { parts: [{ text: APP_CONTEXT }] },
+            contents: history,
+            generationConfig: { temperature: 0.4, maxOutputTokens: 512 },
+          }),
+        }
+      );
+
+      if (!res.ok) {
+        const text = await res.text().catch(() => '');
+        throw new Error(`Gemini API error ${res.status}: ${text.slice(0, 200)}`);
+      }
+      const data = await res.json();
+      const reply = data?.candidates?.[0]?.content?.parts?.map(p => p.text).join('') ?? '';
+      history.push({ role: 'model', parts: [{ text: reply }] });
+      return reply;
+    }
+
+    async function send() {
+      const text = inputEl.value.trim();
+      if (!text || loading) return;
+      setError('');
+
+      if (!getApiKey()) {
+        showKeyPanel(true);
+        keyInput.focus();
+        setError('Paste your Gemini API key above to start chatting.');
+        return;
+      }
+
+      addMessage('user', text);
+      inputEl.value = '';
+      loading = true;
+      sendBtn.disabled = true;
+      addTyping();
+
+      try {
+        const reply = await callGemini(text);
+        removeTyping();
+        addMessage('model', reply || '(no response)');
+      } catch (err) {
+        removeTyping();
+        console.error(err);
+        setError(err.message || 'Something went wrong.');
+        addMessage('model', 'Sorry — I ran into an error reaching the AI service. Please try again.');
+      } finally {
+        loading = false;
+        sendBtn.disabled = false;
+        inputEl.focus();
+      }
+    }
+
+    function openChat() {
+      win.classList.remove('hidden');
+      win.classList.add('flex');
+      backdrop.classList.remove('hidden');
+      fab.setAttribute('aria-label', 'Close chat');
+      if (!msgsEl.dataset.seeded) {
+        addMessage(
+          'model',
+          `Hi, I'm ${BOT_NAME} — your guide to AI Sphere. Ask me how to find an influencer, what the colors mean, or how the sentiment analysis works.`
+        );
+        msgsEl.dataset.seeded = '1';
+      }
+      if (!getApiKey()) showKeyPanel(true);
+      setTimeout(() => inputEl.focus(), 0);
+    }
+    function closeChat() {
+      win.classList.add('hidden');
+      win.classList.remove('flex');
+      backdrop.classList.add('hidden');
+      fab.setAttribute('aria-label', 'Open chat');
+    }
+
+    fab.addEventListener('click', () => {
+      if (win.classList.contains('hidden')) openChat(); else closeChat();
+    });
+    closeBtn.addEventListener('click', closeChat);
+    backdrop.addEventListener('click', closeChat);
+
+    keyBtn.addEventListener('click', () => {
+      showKeyPanel(keyPanel.classList.contains('hidden'));
+      if (!keyPanel.classList.contains('hidden')) {
+        keyInput.value = getApiKey();
+        keyInput.focus();
+      }
+    });
+    keySave.addEventListener('click', () => {
+      const v = keyInput.value.trim();
+      if (!v) return;
+      setApiKey(v);
+      keyInput.value = '';
+      showKeyPanel(false);
+      setError('');
+      addMessage('model', 'API key saved to this browser. What would you like to know about AI Sphere?');
+    });
+    keyInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') { e.preventDefault(); keySave.click(); }
+    });
+
+    sendBtn.addEventListener('click', send);
+    inputEl.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); send(); }
+    });
+  })();
   </script>
 </body>
 </html>

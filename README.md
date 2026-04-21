@@ -32,8 +32,9 @@ There are millions of pieces of AI news and information generated every second o
 ## 🤖 In-App AI Assistant
 
 AI Sphere ships with a floating Gemini-powered chatbot ("Tauhid D. Luffy")
-in the bottom-left corner. It has been pre-briefed on the app's layout,
-features, and methodology, so users can ask things like:
+in the bottom-right corner (just below the Legend). It has been pre-briefed
+on the app's layout, features, and methodology, so users can ask things
+like:
 
 - "What do the node colors mean?"
 - "How is the sentiment analysis computed?"
@@ -41,6 +42,11 @@ features, and methodology, so users can ask things like:
 
 The component lives in `components/AIChatbot.tsx` and reads the same
 `GEMINI_API_KEY` env var that the sentiment analyzer uses.
+
+On the static GitHub Pages preview (`preview.html`) the chatbot uses
+Gemini's REST API directly and prompts each visitor for their own
+Gemini API key, which is stored only in their browser's `localStorage`
+(no secrets are committed to the repo).
 
 ---
 
