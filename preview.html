@@ -37,21 +37,6 @@
       transition: left 0.9s cubic-bezier(0.34,1.56,0.64,1);
     }
 
-    .cat-btn {
-      border: 1px solid rgba(255,255,255,0.08);
-      color: rgba(148,163,184,1);
-      transition: all 0.2s;
-    }
-    .cat-btn.active {
-      background: rgba(99,102,241,0.2);
-      border-color: rgba(99,102,241,0.5);
-      color: #a5b4fc;
-    }
-    .cat-btn:not(.active):hover {
-      background: rgba(255,255,255,0.05);
-      color: #e2e8f0;
-    }
-
     .badge-founder    { background: rgba(56,189,248,0.15);  color: #38BDF8; }
     .badge-researcher { background: rgba(232,121,249,0.15); color: #E879F9; }
     .badge-investor   { background: rgba(74,222,128,0.15);  color: #4ADE80; }
@@ -65,7 +50,7 @@
       flex-shrink: 0;
     }
     #sidebar-inner {
-      width: 300px; /* fixed inner width so content doesn't reflow */
+      width: 320px; /* fixed inner width so content doesn't reflow (matches React app w-80) */
       overflow: hidden;
       height: 100%;
     }
@@ -144,7 +129,7 @@
   <div class="relative z-10 flex w-full h-full">
 
     <!-- ── LEFT SIDEBAR ────────────────────────────────── -->
-    <div id="sidebar" style="width:300px" class="h-full z-20 relative">
+    <div id="sidebar" style="width:320px" class="h-full z-20 relative">
     <!-- Sidebar toggle tab (always visible on right edge) -->
     <button id="sidebar-toggle-tab" onclick="toggleSidebar()"
       class="absolute -right-5 top-1/2 -translate-y-1/2 z-30 flex items-center justify-center w-5 h-16 bg-black/70 backdrop-blur-md border border-white/15 border-l-0 rounded-r-xl text-slate-400 hover:text-white hover:bg-white/15 transition-all shadow-lg">
@@ -154,42 +139,29 @@
     </button>
     <div id="sidebar-inner" class="h-full bg-black/40 backdrop-blur-xl border-r border-white/10 flex flex-col">
 
-      <!-- Header -->
-      <div class="px-4 py-4 border-b border-white/10">
-        <div class="flex items-center gap-2 mb-0.5">
-          <div class="w-7 h-7 rounded-full bg-gradient-to-br from-blue-400 via-indigo-500 to-purple-600 flex items-center justify-center text-sm font-bold shadow-[0_0_12px_rgba(99,102,241,0.5)]">⬡</div>
-          <h1 class="text-lg font-bold tracking-tight">AI Sphere</h1>
-          <span class="text-[9px] font-semibold text-indigo-300 bg-indigo-500/20 border border-indigo-500/30 px-1.5 py-0.5 rounded-full uppercase tracking-widest">Preview</span>
-        </div>
-        <p class="text-[11px] text-slate-500 pl-9">Top 50 AI Individuals · Sentiment Analysis</p>
+      <!-- Header — mirrors the React app sidebar -->
+      <div class="px-4 py-3 border-b border-white/10 bg-[#05060A]/50">
+        <h1 class="text-xl font-bold text-white tracking-tight">Top AI Influencers on X</h1>
+        <p class="text-xs text-slate-400 mt-0.5">Data last updated: February 11, 2026</p>
       </div>
 
-      <!-- Search -->
-      <div class="px-3 py-2.5 border-b border-white/10">
+      <!-- Search — mirrors the React app sidebar -->
+      <div class="p-3 border-b border-white/10">
         <div class="relative">
-          <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
           </svg>
-          <input id="search-input" type="text" placeholder="Search name, role, tag…"
-            class="w-full pl-8 pr-3 py-1.5 bg-white/5 border border-white/10 rounded-lg text-xs text-white placeholder-slate-600 focus:outline-none focus:border-indigo-500/50 focus:ring-1 focus:ring-indigo-500/30" />
+          <input id="search-input" type="text" placeholder="Search by name, handle, or role..."
+            class="w-full pl-10 pr-4 py-2 bg-slate-800/50 border border-white/10 rounded-lg text-sm text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500/50 focus:ring-1 focus:ring-indigo-500/50" />
         </div>
-      </div>
-
-      <!-- Category filters -->
-      <div class="px-3 py-2 border-b border-white/10 flex gap-1.5">
-        <button class="cat-btn active text-[11px] px-2.5 py-1 rounded-full" data-cat="all">All</button>
-        <button class="cat-btn text-[11px] px-2.5 py-1 rounded-full" data-cat="founder">Founder</button>
-        <button class="cat-btn text-[11px] px-2.5 py-1 rounded-full" data-cat="researcher">Researcher</button>
-        <button class="cat-btn text-[11px] px-2.5 py-1 rounded-full" data-cat="investor">Investor</button>
       </div>
 
       <!-- Ranked list -->
       <div id="person-list" class="flex-1 overflow-y-auto custom-scroll p-2"></div>
 
-      <!-- Footer stats -->
-      <div class="px-4 py-2.5 border-t border-white/10 flex justify-between items-center text-[10px] text-slate-600">
-        <span id="stat-count">15 individuals</span>
-        <span id="stat-links">35 connections</span>
+      <!-- Footer — mirrors the React app "Created by WoW" -->
+      <div class="border-t border-white/10 bg-[#05060A]/50 px-4 py-3 text-center">
+        <span class="text-xs text-slate-500">Created by WoW</span>
       </div>
     </div><!-- /sidebar-inner -->
     </div><!-- /sidebar -->
@@ -199,27 +171,80 @@
     <div class="flex-1 relative overflow-hidden" id="graph-container">
       <svg id="graph-svg"></svg>
 
-      <!-- Instructions pill -->
-      <div class="absolute top-4 left-1/2 -translate-x-1/2 text-[11px] text-slate-600 bg-black/40 backdrop-blur-sm px-3 py-1 rounded-full border border-white/5 pointer-events-none select-none">
-        Click a node to explore · Scroll to zoom · Drag to pan
+      <!-- Legend — mirrors the React app (bottom-right, clickable filter, methodology link) -->
+      <div id="legend" class="absolute z-20 bottom-24 right-6 p-4 bg-[#0B0C15]/80 backdrop-blur-md border border-white/10 rounded-xl transition-all duration-300 ease-in-out">
+        <button id="legend-toggle" class="flex items-center gap-2 w-full text-left">
+          <div class="text-xs text-slate-400 uppercase tracking-wider font-medium">Legend</div>
+          <svg id="legend-chevron" class="w-3 h-3 text-slate-400 transition-transform duration-300 rotate-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          </svg>
+        </button>
+        <div id="legend-body" class="flex flex-col gap-1 overflow-hidden transition-all duration-300 ease-in-out mt-3 max-h-60 opacity-100">
+          <button class="legend-cat flex items-center gap-2 px-2 py-1 rounded-md transition-all duration-200 text-left hover:bg-white/5" data-cat="founder">
+            <div class="w-3 h-3 rounded-full flex-shrink-0" style="background:#38BDF8;box-shadow:0 0 8px #38BDF8"></div>
+            <span class="text-xs text-slate-300">Founder / Builder</span>
+          </button>
+          <button class="legend-cat flex items-center gap-2 px-2 py-1 rounded-md transition-all duration-200 text-left hover:bg-white/5" data-cat="researcher">
+            <div class="w-3 h-3 rounded-full flex-shrink-0" style="background:#E879F9;box-shadow:0 0 8px #E879F9"></div>
+            <span class="text-xs text-slate-300">Researcher / Academia</span>
+          </button>
+          <button class="legend-cat flex items-center gap-2 px-2 py-1 rounded-md transition-all duration-200 text-left hover:bg-white/5" data-cat="investor">
+            <div class="w-3 h-3 rounded-full flex-shrink-0" style="background:#4ADE80;box-shadow:0 0 8px #4ADE80"></div>
+            <span class="text-xs text-slate-300">Investor</span>
+          </button>
+          <button id="legend-clear" class="hidden text-[10px] text-indigo-400 hover:text-indigo-300 transition-colors mt-1 px-2 text-left">
+            Clear filter
+          </button>
+          <div class="border-t border-white/10 my-2"></div>
+          <button id="methodology-btn" class="flex items-center gap-1.5 text-xs text-indigo-400 hover:text-indigo-300 transition-colors">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="10" stroke-width="2"/>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/>
+              <line stroke-linecap="round" stroke-width="2" x1="12" y1="17" x2="12.01" y2="17"/>
+            </svg>
+            <span>Methodology</span>
+          </button>
+        </div>
       </div>
+    </div>
+  </div>
 
-      <!-- Legend -->
-      <div class="absolute bottom-6 left-6 bg-[#0B0C15]/80 backdrop-blur-md border border-white/10 rounded-xl p-3 z-20">
-        <div class="text-[10px] text-slate-500 uppercase tracking-wider mb-2 font-medium">Legend</div>
-        <div class="flex flex-col gap-2">
-          <div class="flex items-center gap-2">
-            <div class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background:#38BDF8;box-shadow:0 0 6px #38BDF866"></div>
-            <span class="text-[11px] text-slate-300">Founder / Builder</span>
+  <!-- ── METHODOLOGY MODAL — mirrors the React app ────────── -->
+  <div id="methodology-modal" class="hidden fixed inset-0 z-[100] flex items-center justify-center p-4">
+    <div id="methodology-backdrop" class="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
+    <div class="relative bg-[#0B0C15] border border-white/10 rounded-2xl shadow-2xl max-w-lg w-full max-h-[80vh] overflow-y-auto custom-scroll">
+      <div class="sticky top-0 bg-[#0B0C15] border-b border-white/10 px-6 py-4 flex items-center justify-between">
+        <h2 class="text-lg font-bold text-white">Methodology</h2>
+        <button id="methodology-close" class="p-1.5 hover:bg-white/10 rounded-full text-slate-400 hover:text-white transition-colors">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+      <div class="px-5 py-3 space-y-2.5">
+        <div>
+          <h3 class="text-xs font-semibold text-indigo-400 uppercase tracking-wider mb-1">Discovery &amp; Selection</h3>
+          <p class="text-xs text-slate-300 leading-relaxed">
+            Starting from <span class="text-white font-medium">seed accounts</span> (OpenAI, Anthropic, DeepMind, top researchers), we crawl who they follow to find AI voices. If multiple trusted sources follow someone, they matter. The shortlist is then scored by:
+          </p>
+          <div class="bg-slate-800/50 border border-white/10 rounded-md px-2.5 py-1.5 font-mono text-xs text-white mt-1.5 mb-1">
+            Score = log<sub>10</sub>(followers) x seed_connections
           </div>
-          <div class="flex items-center gap-2">
-            <div class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background:#E879F9;box-shadow:0 0 6px #E879F966"></div>
-            <span class="text-[11px] text-slate-300">Researcher / Academia</span>
-          </div>
-          <div class="flex items-center gap-2">
-            <div class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background:#4ADE80;box-shadow:0 0 6px #4ADE8066"></div>
-            <span class="text-[11px] text-slate-300">Investor</span>
-          </div>
+          <p class="text-xs text-slate-400">
+            Log scale prevents mega-accounts from dominating. Minimum 1K followers, AI keywords in bio, blocklist for general media.
+          </p>
+        </div>
+        <div>
+          <h3 class="text-xs font-semibold text-indigo-400 uppercase tracking-wider mb-1">Graph &amp; Connections</h3>
+          <p class="text-xs text-slate-300 leading-relaxed">
+            The default view shows all connections. <span class="text-white font-medium">Click a node</span> to see who they follow. Node sizes reflect followers. Filter by category using the legend.
+          </p>
+        </div>
+        <div class="pt-2 border-t border-white/10">
+          <p class="text-xs text-slate-400">
+            This methodology may not be perfect. Have ideas?
+            <a href="https://x.com/Jenny_the_Bunny" target="_blank" rel="noopener noreferrer" class="text-indigo-400 hover:text-indigo-300">Hit me up on X</a>
+          </p>
         </div>
       </div>
     </div>
@@ -570,15 +595,15 @@
     karpathy:        'https://www.linkedin.com/in/karpathy/',
     barmstrong:      'https://www.linkedin.com/in/barmstrong/',
     andrewng:        'https://www.linkedin.com/in/andrewyng/',
-    ylecun:          'https://www.linkedin.com/in/yann-lecun/',
+    ylecun:          'https://www.linkedin.com/in/ylecun/',
     gdb:             'https://www.linkedin.com/in/thegdb/',
     demishassabis:   'https://www.linkedin.com/in/demishassabis/',
     palmerluckey:    'https://www.linkedin.com/in/palmer-luckey-21a16959/',
     fchollet:        'https://www.linkedin.com/in/fchollet/',
     ilyasut:         'https://www.linkedin.com/in/ilya-sutskever/',
-    drfeifei:        null, // URL linkedin.com/in/feifei-li-3667885 is a different Feifei Li (CIO Kavout Algo Financial), not the Stanford professor
+    drfeifei:        'https://www.linkedin.com/in/fei-fei-li-4541247/',
     geoffreyhinton:  null,
-    paraga:          'https://www.linkedin.com/in/paragagrawalcmu/',
+    paraga:          'https://www.linkedin.com/in/paragagr/',
     akhaliq:         'https://www.linkedin.com/in/ahsenkhaliq/',
     austen:          'https://www.linkedin.com/in/austenallred/',
     miramurati:      'https://www.linkedin.com/in/mira-murati-4b39a066/',
@@ -588,11 +613,11 @@
     alexwang:        'https://www.linkedin.com/in/alexandrwang/',
     addyosmani:      'https://www.linkedin.com/in/addyosmani/',
     iangoodfellow:   'https://www.linkedin.com/in/ian-goodfellow-b7187213/',
-    jimfan:          null, // URL linkedin.com/in/jim-fan is a different Jim Fan (IT PM at MARTA Atlanta), not the NVIDIA Embodied AI researcher
-    minchoi:         null, // URL linkedin.com/in/min-choi is a different Min Choi (Director of Tech at Canari Media DC), not the AI educator
+    jimfan:          'https://www.linkedin.com/in/drjimfan/',
+    minchoi:         'https://www.linkedin.com/in/min-choi/',
     deryaunutmaz:    'https://www.linkedin.com/in/deryaunutmaz/',
     emostaque:       'https://www.linkedin.com/in/emad-mostaque-9840ba274/',
-    sriramk:         null, // URL linkedin.com/in/sriramkrishnan is a different Sriram K. (Co-Founder Kearny Jackson NYC), not the White House AI Policy advisor
+    sriramk:         'https://www.linkedin.com/in/sriramkrishnan/',
     omarsar0:        'https://www.linkedin.com/in/omarsanseviero/',
     soumith:         'https://www.linkedin.com/in/soumith/',
     logank:          'https://www.linkedin.com/in/logankilpatrick/',
@@ -1028,48 +1053,97 @@
 
   function renderSidebar() {
     const filtered = getFiltered();
-    document.getElementById('stat-count').textContent = `${filtered.length} individual${filtered.length!==1?'s':''}`;
-    document.getElementById('stat-links').textContent = `${links.length} connections`;
 
     document.getElementById('person-list').innerHTML = filtered.map((p, i) => {
-      const sel   = selectedPerson?.id === p.id;
-      const color = GROUP_COLORS[p.group];
+      const sel = selectedPerson?.id === p.id;
       return `
         <button onclick="selectPerson('${p.id}')"
           class="w-full text-left p-3 rounded-xl mb-1 flex items-center gap-3 transition-all duration-200 border
-                 ${sel ? 'bg-indigo-600/20 border-indigo-500/40 shadow-md shadow-indigo-900/20'
+                 ${sel ? 'bg-indigo-600/20 border-indigo-500/50 shadow-lg shadow-indigo-900/20'
                        : 'hover:bg-white/5 border-transparent'}">
-          <div class="w-7 h-7 rounded-full flex items-center justify-center text-[11px] font-bold shrink-0
-                      ${sel ? 'bg-indigo-500 text-white' : 'bg-slate-800/70 text-slate-400'}">
+          <div class="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold shrink-0
+                      ${sel ? 'bg-indigo-500 text-white' : 'bg-slate-800 text-slate-400'}">
             ${i+1}
           </div>
           <div class="min-w-0 flex-1">
             <div class="flex items-baseline gap-1.5 truncate">
-              <span class="text-xs font-semibold truncate ${sel ? 'text-white':'text-slate-200'}">${p.name}</span>
-              <span class="text-[10px] text-slate-600 font-mono shrink-0">@${p.handle}</span>
+              <span class="text-sm font-semibold ${sel ? 'text-white':'text-slate-200'}">${p.name}</span>
+              <span class="text-xs text-slate-500 font-mono truncate">@${p.handle}</span>
             </div>
-            <div class="flex items-center justify-between mt-0.5">
-              <span class="text-[10px] text-slate-500 truncate flex-1">${p.role} @ ${p.associated}</span>
-              <span class="text-[10px] text-slate-600 shrink-0 ml-1">${fmt(p.followers)}</span>
+            <div class="flex items-center justify-between gap-2 mt-0.5">
+              <span class="text-xs text-slate-500 truncate flex-1">${p.role}${p.associated && p.associated !== p.name ? ' @ ' + p.associated : ''}</span>
+              <span class="text-[10px] text-slate-600 whitespace-nowrap shrink-0">${fmt(p.followers)}</span>
             </div>
           </div>
-          <div class="w-2 h-2 rounded-full shrink-0" style="background:${color};box-shadow:0 0 5px ${color}88"></div>
         </button>`;
     }).join('');
   }
 
   // ═══════════════════════════════════════════════
-  // CATEGORY BUTTONS
+  // LEGEND-BASED CATEGORY FILTER (mirrors React app)
   // ═══════════════════════════════════════════════
-  document.querySelectorAll('.cat-btn').forEach(btn => {
+  function applyCategoryFilter(cat) {
+    activeCategory = cat;
+    // Sync visual state on legend buttons
+    document.querySelectorAll('.legend-cat').forEach(b => {
+      const isActive = b.dataset.cat === cat;
+      b.classList.toggle('bg-white/10', isActive);
+      b.classList.toggle('ring-1', isActive);
+      b.classList.toggle('ring-white/20', isActive);
+      b.classList.toggle('opacity-40', cat !== 'all' && !isActive);
+      b.classList.toggle('opacity-100', cat === 'all' || isActive);
+    });
+    document.getElementById('legend-clear').classList.toggle('hidden', cat === 'all');
+    renderSidebar();
+    updateGraphDim();
+  }
+
+  document.querySelectorAll('.legend-cat').forEach(btn => {
     btn.addEventListener('click', () => {
-      activeCategory = btn.dataset.cat;
-      document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      renderSidebar();
-      updateGraphDim();
+      const cat = btn.dataset.cat;
+      applyCategoryFilter(activeCategory === cat ? 'all' : cat);
+      // Clear any selected card when filter changes (matches React behavior)
+      if (selectedPerson) closeCard();
     });
   });
+
+  document.getElementById('legend-clear').addEventListener('click', () => {
+    applyCategoryFilter('all');
+    if (selectedPerson) closeCard();
+  });
+
+  // Legend collapse/expand (mirrors React chevron toggle)
+  let legendOpen = true;
+  document.getElementById('legend-toggle').addEventListener('click', () => {
+    legendOpen = !legendOpen;
+    const body = document.getElementById('legend-body');
+    const chevron = document.getElementById('legend-chevron');
+    const legend = document.getElementById('legend');
+    if (legendOpen) {
+      body.classList.remove('max-h-0', 'opacity-0');
+      body.classList.add('max-h-60', 'opacity-100', 'mt-3');
+      chevron.classList.add('rotate-90');
+      legend.classList.remove('p-2');
+      legend.classList.add('p-4');
+    } else {
+      body.classList.remove('max-h-60', 'opacity-100', 'mt-3');
+      body.classList.add('max-h-0', 'opacity-0');
+      chevron.classList.remove('rotate-90');
+      legend.classList.remove('p-4');
+      legend.classList.add('p-2');
+    }
+  });
+
+  // Methodology modal (mirrors React app)
+  const methBtn    = document.getElementById('methodology-btn');
+  const methModal  = document.getElementById('methodology-modal');
+  const methBack   = document.getElementById('methodology-backdrop');
+  const methClose  = document.getElementById('methodology-close');
+  function openMethodology()  { methModal.classList.remove('hidden'); }
+  function closeMethodology() { methModal.classList.add('hidden');    }
+  methBtn.addEventListener('click',   openMethodology);
+  methBack.addEventListener('click',  closeMethodology);
+  methClose.addEventListener('click', closeMethodology);
 
   document.getElementById('search-input').addEventListener('input', e => {
     searchQuery = e.target.value;
@@ -1106,7 +1180,7 @@
   }
   function expandSidebar() {
     sidebarOpen = true;
-    document.getElementById('sidebar').style.width = '300px';
+    document.getElementById('sidebar').style.width = '320px';
     // Flip chevron to point left (collapse)
     document.getElementById('sidebar-chevron').innerHTML =
       '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7"/>';
@@ -1117,7 +1191,7 @@
     card.classList.remove('hidden');
     card.classList.add('flex');
     card.scrollTop = 0;
-    collapseSidebar();
+    // Note: React app leaves the sidebar open on desktop when a node is selected.
 
     // Restart animations
     card.querySelectorAll('.slide-in').forEach(el => {
@@ -1377,7 +1451,6 @@
     const card = document.getElementById('detail-card');
     card.classList.add('hidden');
     card.classList.remove('flex');
-    expandSidebar();
     clearHighlight();
     renderSidebar();
   }
@@ -1658,24 +1731,30 @@ connections and opens a detail card on the right with an AI Sentiment
 Analysis panel.
 
 === UI LAYOUT ===
-- Left sidebar: ranked list of influencers with a search box and
-  category filter chips (All / Founder / Researcher / Investor).
-- Main area: the force-directed 2D graph of people and follows.
+- Left sidebar ("Top AI Influencers on X"): ranked list of ~50 individuals
+  with a search box (search by name, handle, or role). Footer reads
+  "Created by WoW".
+- Main area: the force-directed graph of people and follows.
 - Floating detail card (top-right, appears when a node is selected):
-  X-style profile (avatar, handle, bio, follower count) plus a
-  Sentiment Analysis panel with four dimensions — Regulation, AI Usage,
-  Trust vs. Risk, AI Agents — and an overall outlook
-  (optimistic / pessimistic / neutral), inferred via Gemini.
+  X snapshot + LinkedIn snapshot side by side, followed by Sentiment
+  Shift Across Career, Career Mobility timeline, AI Sentiment panel
+  (Regulation, AI Usage, Trust vs. Risk, AI Agents + optimistic /
+  pessimistic / neutral outlook, inferred via Gemini), and AI Topics
+  they follow.
 - Legend (bottom-right, above the chatbot button): color key for
   Founder / Builder (blue), Researcher / Academia (purple),
-  Investor (green).
+  Investor (green). Click a legend item to filter the graph and list
+  by that category; a "Clear filter" link appears while a filter is
+  active. A Methodology button below opens a modal explaining how the
+  shortlist is curated.
 
 === KEY WORKFLOWS ===
-1. Find an influencer: type a name, handle, role, or focus area in the
-   left search box, or scroll the ranked list.
+1. Find an influencer: type a name, handle, or role in the left search
+   box, or scroll the ranked list.
 2. See connections: click a node to highlight their follows.
-3. Filter by role: click a category chip at the top of the sidebar
-   (All / Founder / Researcher / Investor).
+3. Filter by role: click a category in the legend
+   (Founder / Researcher / Investor); click again or use "Clear filter"
+   to reset.
 4. Check someone's AI stance: select a node; the Sentiment card shows
    four inferred dimensions + overall outlook.
 
