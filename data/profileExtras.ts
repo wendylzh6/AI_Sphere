@@ -27,7 +27,7 @@ export const linkedinUrls: Record<string, string | null> = {
   karpathy:        'https://www.linkedin.com/in/karpathy/',
   brian_armstrong: 'https://www.linkedin.com/in/barmstrong/',
   andrewyng:       'https://www.linkedin.com/in/andrewyng/',
-  ylecun:          'https://www.linkedin.com/in/ylecun/',
+  ylecun:          'https://www.linkedin.com/in/yann-lecun/',
   gdb:             'https://www.linkedin.com/in/thegdb/',
   demishassabis:   'https://www.linkedin.com/in/demishassabis/',
   palmerluckey:    'https://www.linkedin.com/in/palmer-luckey-21a16959/',
