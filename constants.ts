@@ -4,7 +4,7 @@ import { GraphData } from "./types";
 // Top 300 AI Influencers ranked by: log₁₀(followers) × seed_connections
 // Minimum followers: 1,000 | AI-relevance filter: enabled
 
-export const LAST_UPDATED = "February 11, 2026";
+export const LAST_UPDATED = "April 23, 2026";
 
 /**
  * Curated 51-person shortlist that matches the `preview.html` static
