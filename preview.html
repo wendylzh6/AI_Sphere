@@ -1242,12 +1242,11 @@
     const evoData = sentimentEvolution[personId];
     const careerData = careerHistory[personId];
     if (!evoData || evoData.length < 2 || !careerData || careerData.length < 2) {
-      container.innerHTML = '<p class="text-[11px] text-slate-600 italic py-1">Single career stage — no evolution to show.</p>';
+      container.innerHTML = '';
       return;
     }
 
-    // Reverse both arrays so oldest is on left
-    const stages = [...evoData].reverse();
+    const stages = [...evoData].reverse();   // oldest → newest
     const career = [...careerData].reverse();
 
     const dims = [
@@ -1257,24 +1256,41 @@
       { key: 'age', label: 'Agents',     color: '#C084FC' },
     ];
 
-    const W = 480, H = 120;
-    const PAD = { top: 10, right: 14, bottom: 32, left: 46 };
+    // ── Significance filter: only dims with any shift ≥ 0.3 ───────────
+    const THRESHOLD = 0.3;
+    const significantDims = dims.filter(d => {
+      for (let i = 1; i < stages.length; i++) {
+        if (Math.abs(stages[i][d.key] - stages[i-1][d.key]) >= THRESHOLD) return true;
+      }
+      return false;
+    });
+
+    if (significantDims.length === 0) {
+      container.innerHTML = '<p class="text-[11px] text-slate-600 italic py-1">Sentiment stayed consistent across career stages — no major shift detected.</p>';
+      return;
+    }
+
+    // ── Find the single biggest jump (for annotation bubble) ──────────
+    let bigJump = { dim: null, stageIdx: -1, delta: 0 };
+    significantDims.forEach(d => {
+      for (let i = 1; i < stages.length; i++) {
+        const delta = Math.abs(stages[i][d.key] - stages[i-1][d.key]);
+        if (delta > bigJump.delta) bigJump = { dim: d, stageIdx: i, delta };
+      }
+    });
+
+    const W = 480, H = 128;
+    const PAD = { top: 16, right: 14, bottom: 32, left: 46 };
     const chartW = W - PAD.left - PAD.right;
     const chartH = H - PAD.top - PAD.bottom;
     const n = stages.length;
     const xStep = n > 1 ? chartW / (n - 1) : 0;
-
     const yScale = v => PAD.top + chartH * (1 - (v + 1) / 2);
     const xScale = i => PAD.left + i * xStep;
 
     // Y-axis gridlines + labels
-    const yTicks = [
-      { v: 1,    label: 'Positive' },
-      { v: 0,    label: 'Neutral'  },
-      { v: -1,   label: 'Negative' },
-    ];
     let gridLines = '';
-    yTicks.forEach(({ v, label }) => {
+    [{ v: 1, label: 'Positive' }, { v: 0, label: 'Neutral' }, { v: -1, label: 'Negative' }].forEach(({ v, label }) => {
       const y = yScale(v);
       const isZero = v === 0;
       gridLines += `<line x1="${PAD.left}" y1="${y}" x2="${W - PAD.right}" y2="${y}"
@@ -1284,45 +1300,71 @@
         font-size="7.5" fill="${isZero ? 'rgba(203,213,225,0.7)' : 'rgba(148,163,184,0.5)'}"
         font-family="Inter,sans-serif">${label}</text>`;
     });
-    // Faint mid-ticks at 0.5 and -0.5 (no label)
-    [-0.5, 0.5].forEach(v => {
-      const y = yScale(v);
-      gridLines += `<line x1="${PAD.left}" y1="${y}" x2="${W - PAD.right}" y2="${y}"
-        stroke="rgba(255,255,255,0.04)" stroke-width="0.5" stroke-dasharray="2,4"/>`;
-    });
 
-    // Polylines + dots
+    // Faint vertical dividers at each career transition
+    let transLines = '';
+    for (let i = 1; i < n; i++) {
+      const x = (xScale(i-1) + xScale(i)) / 2;
+      transLines += `<line x1="${x}" y1="${PAD.top}" x2="${x}" y2="${H - PAD.bottom}"
+        stroke="rgba(255,255,255,0.06)" stroke-width="0.5" stroke-dasharray="2,3"/>`;
+    }
+
+    // Lines + dots — dim non-significant dims
     let lines = '';
     dims.forEach(d => {
+      const sig = significantDims.includes(d);
       const pts = stages.map((s, i) => `${xScale(i)},${yScale(s[d.key])}`).join(' ');
-      lines += `<polyline points="${pts}" fill="none" stroke="${d.color}" stroke-width="1.5" stroke-linejoin="round" opacity="0.85"/>`;
+      lines += `<polyline points="${pts}" fill="none" stroke="${d.color}"
+        stroke-width="${sig ? 1.8 : 0.8}" stroke-linejoin="round" opacity="${sig ? 0.9 : 0.15}"/>`;
       stages.forEach((s, i) => {
-        lines += `<circle cx="${xScale(i)}" cy="${yScale(s[d.key])}" r="2.5" fill="${d.color}" opacity="0.9"/>`;
+        lines += `<circle cx="${xScale(i)}" cy="${yScale(s[d.key])}"
+          r="${sig ? 2.5 : 1.5}" fill="${d.color}" opacity="${sig ? 0.95 : 0.15}"/>`;
       });
     });
 
-    // X-axis labels (company name, truncated)
+    // Annotation bubble at the midpoint of the biggest jump
+    let annotation = '';
+    if (bigJump.dim) {
+      const i = bigJump.stageIdx;
+      const d = bigJump.dim;
+      const prevV = stages[i-1][d.key], currV = stages[i][d.key];
+      const dir = currV > prevV ? '↑' : '↓';
+      const cx = (xScale(i-1) + xScale(i)) / 2;
+      const cy = Math.min(yScale(prevV), yScale(currV)) - 6;
+      const lbl = `${dir} ${d.label}`;
+      const bw = lbl.length * 5.2 + 10;
+      annotation += `<rect x="${cx - bw/2}" y="${cy - 9}" width="${bw}" height="13" rx="3"
+        fill="${d.color}" fill-opacity="0.15" stroke="${d.color}" stroke-opacity="0.55" stroke-width="0.8"/>`;
+      annotation += `<text x="${cx}" y="${cy + 1}" text-anchor="middle"
+        font-size="7.5" font-weight="600" fill="${d.color}" font-family="Inter,sans-serif">${lbl}</text>`;
+    }
+
+    // X-axis labels
     let xLabels = '';
     career.forEach((step, i) => {
-      const label = (step.c || '').length > 10 ? step.c.slice(0, 9) + '…' : (step.c || '');
+      const raw = step.c || '';
+      const lbl = raw.length > 10 ? raw.slice(0, 9) + '…' : raw;
       const anchor = i === 0 ? 'start' : i === n - 1 ? 'end' : 'middle';
       xLabels += `<text x="${xScale(i)}" y="${H - 4}" text-anchor="${anchor}"
-        font-size="7.5" fill="rgba(148,163,184,0.8)" font-family="Inter,sans-serif">${label}</text>`;
+        font-size="7.5" fill="rgba(148,163,184,0.8)" font-family="Inter,sans-serif">${lbl}</text>`;
     });
 
-    // Legend
-    const legendItems = dims.map(d =>
-      `<span style="display:inline-flex;align-items:center;gap:3px;margin-right:8px;">
-         <svg width="12" height="4"><line x1="0" y1="2" x2="12" y2="2" stroke="${d.color}" stroke-width="1.5"/></svg>
-         <span style="font-size:9px;color:rgba(203,213,225,0.85)">${d.label}</span>
-       </span>`
-    ).join('');
+    // Legend — fade non-significant dims
+    const legendItems = dims.map(d => {
+      const sig = significantDims.includes(d);
+      return `<span style="display:inline-flex;align-items:center;gap:3px;margin-right:8px;opacity:${sig ? 1 : 0.3}">
+        <svg width="12" height="4"><line x1="0" y1="2" x2="12" y2="2" stroke="${d.color}" stroke-width="1.5"/></svg>
+        <span style="font-size:9px;color:rgba(203,213,225,0.85)">${d.label}</span>
+      </span>`;
+    }).join('');
 
     container.innerHTML = `
       <div style="margin-bottom:5px;display:flex;flex-wrap:wrap;">${legendItems}</div>
       <svg viewBox="0 0 ${W} ${H}" style="width:100%;height:auto;display:block;">
         ${gridLines}
+        ${transLines}
         ${lines}
+        ${annotation}
         ${xLabels}
       </svg>`;
   }
