@@ -26,3 +26,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local source data (not published)
+top51_ai_influencers_x+linkedin.xlsx
