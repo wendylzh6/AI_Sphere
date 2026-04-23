@@ -4,10 +4,7 @@ An interactive 3D map of the top AI influencers — explore who they are, what t
 
 ## 🌐 Live Site
 
-**[wendylzh6.github.io/AI_Sphere](https://wendylzh6.github.io/AI_Sphere/)** — full 3D React app (auto-deployed from `main` via GitHub Actions).
-
-Lightweight 2D D3 preview also available at
-[`/preview.html`](https://wendylzh6.github.io/AI_Sphere/preview.html).
+**[wendylzh6.github.io/AI_Sphere/preview.html](https://wendylzh6.github.io/AI_Sphere/preview.html)**
 
 ---
 
