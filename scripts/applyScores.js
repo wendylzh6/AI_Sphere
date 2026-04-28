@@ -58,7 +58,7 @@ for (const [personId, result] of Object.entries(scores)) {
 
   // ── Patch bioTags (topics) ───────────────────────────────────────────────
   if (topics && topics.length > 0) {
-    const tagsStr = topics.map(t => `'${t}'`).join(',');
+    const tagsStr = topics.map(t => `'${t.replace(/'/g, '')}'`).join(',');
     const bioTagsPattern = new RegExp(
       `(id:'${personId}'[^}]*?bioTags:\\[)[^\\]]*\\]`,
       's'
