@@ -358,5 +358,195 @@
       "Token Economics"
     ],
     "tweetCount": 60
+  },
+  "hardmaru": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0,
+      "usage": 0.8,
+      "trust": 0.65,
+      "agent": 0.9,
+      "reasoning": "David Ha consistently promotes nature-inspired AI and autonomous research agents at Sakana AI, with strong conviction in agentic systems' ability to conduct full scientific discovery cycles — including autonomous publishing in Nature — while staying neutral on regulation and showing steady trust in AI capabilities.",
+      "source": "tweets"
+    },
+    "topics": [
+      "Nature-Inspired AI Research",
+      "AI Scientist & Autonomous Research Agents",
+      "AI for Defense & National Security",
+      "World Models & Neural Computers",
+      "Open Research & Academic Collaboration"
+    ],
+    "tweetCount": 623
+  },
+  "omarsar0": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0,
+      "usage": 0.8,
+      "trust": 0.5,
+      "agent": 0.7,
+      "reasoning": "Omar Sresa is enthusiastic about AI research agents and long-horizon task automation, regularly sharing papers on agent state management and LLM capabilities, while maintaining a balanced view on AI trust — excited about progress but attentive to limitations like reasoning compression and session reliability.",
+      "source": "tweets"
+    },
+    "topics": [
+      "AI Research Agents & Long-Horizon Tasks",
+      "Agent State Management",
+      "LLM Capabilities & Benchmarks",
+      "AI Education & Paper Curation",
+      "Personal AI Knowledge Tools (PaperWiki)"
+    ],
+    "tweetCount": 2143
+  },
+  "soumith": {
+    "sentiment": {
+      "trends": "cautious",
+      "regulation": 0,
+      "usage": 0.6,
+      "trust": 0.35,
+      "agent": 0.35,
+      "reasoning": "Soumith Chintala prioritizes human augmentation over automation, focusing on PyTorch infrastructure and open-source AI while expressing measured skepticism about replacing human judgment. He values AI for amplifying capability but consistently centers the human in AI workflows.",
+      "source": "tweets"
+    },
+    "topics": [
+      "PyTorch & AI Infrastructure",
+      "Open Source AI",
+      "AI Hardware & Compute (NVIDIA Partnership)",
+      "Human-AI Collaboration",
+      "AI Training & Compiler Optimization"
+    ],
+    "tweetCount": 497
+  },
+  "logank": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0,
+      "usage": 0.95,
+      "trust": 0.8,
+      "agent": 0.9,
+      "reasoning": "Logan Kilpatrick is extremely bullish on AI, actively championing Gemini models, Google AI Studio tooling, prepaid API billing, and vibe coding experiences. He ships fast and promotes agentic features like robotics models and TTS with high enthusiasm and trust.",
+      "source": "tweets"
+    },
+    "topics": [
+      "Gemini Models & API",
+      "Google AI Studio",
+      "AI Developer Tools & Billing",
+      "Agentic & Vibe Coding Experiences",
+      "Robotics & Multimodal AI"
+    ],
+    "tweetCount": 113
+  },
+  "jeremyhoward": {
+    "sentiment": {
+      "trends": "cautious",
+      "regulation": 0,
+      "usage": 0.55,
+      "trust": 0.2,
+      "agent": -0.5,
+      "reasoning": "Jeremy Howard is skeptical of fully autonomous AI agents, frequently critiquing their current limitations and hype while advocating for practical, democratized AI in coding and science. He values human-in-the-loop AI and is cautious about trusting agents to replace human code review and judgment.",
+      "source": "tweets"
+    },
+    "topics": [
+      "AI-Assisted Coding & Human-AI Collaboration",
+      "LLM Limitations & Critical Analysis",
+      "AI Education & Democratization (fast.ai)",
+      "Open Source AI Tools",
+      "AI for Science & Healthcare"
+    ],
+    "tweetCount": 3547
+  },
+  "steipete": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0,
+      "usage": 0.8,
+      "trust": 0.5,
+      "agent": 0.7,
+      "reasoning": "Peter Steinberger is an enthusiastic early adopter of AI coding tools, actively building AI-powered developer tooling and integrating Claude Code and agent harnesses into his workflow. He is pragmatic about current limitations — noting DDoS-level user requests, model reliability issues, and real tradeoffs — while remaining broadly bullish on the direction.",
+      "source": "tweets"
+    },
+    "topics": [
+      "AI Coding Agents & Claude Code Integration",
+      "Developer Tools & SDKs",
+      "AI Model Reliability & Tradeoffs",
+      "Open Source AI Projects",
+      "AI Agent Harness Design"
+    ],
+    "tweetCount": 2676
+  },
+  "tunguz": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": -0.6,
+      "usage": 0.75,
+      "trust": 0.55,
+      "agent": 0.5,
+      "reasoning": "Bojan Tunguz is broadly optimistic about AI's transformative potential and actively uses AI tools like ChatGPT, but is strongly opposed to public funding and regulatory intervention. He holds a philosophical view of human-AI symbiosis and is measured about agent autonomy, preferring practical usage over hype.",
+      "source": "tweets"
+    },
+    "topics": [
+      "AI & Data Science Applications",
+      "AI Economics & Market Dynamics",
+      "Human-AI Symbiosis",
+      "Anti-Regulation & Public Funding Criticism",
+      "AI Capabilities & Benchmarks"
+    ],
+    "tweetCount": 4679
+  },
+  "bcherny": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0.1,
+      "usage": 0.9,
+      "trust": 0.45,
+      "agent": 0.95,
+      "reasoning": "Boris Cherny, lead developer of Claude Code at Anthropic, is deeply invested in AI coding agents and showcases dramatic enterprise productivity gains. He actively engages with users on limitations and trust-related concerns (e.g., permission rules, token caching), reflecting responsible optimism about AI's current and near-term agentic capability.",
+      "source": "tweets"
+    },
+    "topics": [
+      "Claude Code Development & Features",
+      "AI Coding Agents & Enterprise Adoption",
+      "AI Infrastructure & Performance",
+      "Responsible AI Development",
+      "Developer Experience & Tooling"
+    ],
+    "tweetCount": 155
+  },
+  "mustafasuleyman": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0.5,
+      "usage": 0.8,
+      "trust": 0.45,
+      "agent": 0.75,
+      "reasoning": "Mustafa Suleyman is optimistic about AI's transformative potential in healthcare, enterprise, and infrastructure, actively launching powerful MAI models and large-scale compute partnerships. He advocates for thoughtful governance and acknowledges real risks in multi-agent coordination while remaining bullish on frontier AI development.",
+      "source": "tweets"
+    },
+    "topics": [
+      "Microsoft AI Models (MAI)",
+      "AI Infrastructure & Compute Partnerships",
+      "AI for Healthcare & Medical Superintelligence",
+      "Multi-Agent Systems & Risks",
+      "Frontier AI & Industry Transformation"
+    ],
+    "tweetCount": 680
+  },
+  "gavinbaker": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": -0.3,
+      "usage": 0.9,
+      "trust": 0.8,
+      "agent": 0.85,
+      "reasoning": "Gavin Baker is extremely bullish on AI investment themes — particularly the token consumption explosion and GPU/compute infrastructure buildout — with high trust in AI's near-term capabilities and strong conviction that AI agents will drive unprecedented market transformation. He opposes regulation that would slow AI adoption and views open agentic development as a major long-term compounder.",
+      "source": "tweets"
+    },
+    "topics": [
+      "AI Token Economics & Consumption Growth",
+      "AI Infrastructure Investment (GPU/Compute)",
+      "AI Market Valuation & Compounders",
+      "AI Adoption & Industry Transformation",
+      "AI Agents & Agentic Systems"
+    ],
+    "tweetCount": 960
   }
 }
