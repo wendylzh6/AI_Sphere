@@ -49,7 +49,7 @@ export const linkedinUrls: Record<string, string | null> = {
   minchoi:         'https://www.linkedin.com/in/min-choi/',
   deryatr_:        'https://www.linkedin.com/in/deryaunutmaz/',
   emostaque:       'https://www.linkedin.com/in/emad-mostaque-9840ba274/',
-  sriramk:         'https://www.linkedin.com/in/sriramkrishnan/',
+  sriramk:         'https://www.linkedin.com/in/sriramkrishnan01/',
   omarsar0:        'https://www.linkedin.com/in/omarsanseviero/',
   soumithchintala: 'https://www.linkedin.com/in/soumith/',
   officiallogank:  'https://www.linkedin.com/in/logankilpatrick/',
