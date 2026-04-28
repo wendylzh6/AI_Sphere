@@ -1,8 +1,12 @@
 /**
  * scoreSentiment.js
  *
- * Reads tweet JSON files from ~/Desktop/tweets data/,
- * scores each person's AI sentiment + extracts their top AI topics via Gemini.
+ * Scores AI sentiment + extracts topics for all 18 people with tweet data.
+ *
+ * Strategy:
+ *   - Enough tweets (≥15 AI tweets): score from tweets alone
+ *   - Too few tweets (<15): use Gemini with Google Search grounding to
+ *     supplement — Gemini searches online for the person's public AI views
  *
  * Inspired by: github.com/wendylzh6/Tweet-Analysis
  *
@@ -13,13 +17,6 @@
  *   GEMINI_API_KEY=...
  *
  * Output: scripts/sentimentOutput.json
- *   {
- *     "personId": {
- *       "sentiment": { trends, regulation, usage, trust, agent },
- *       "topics": ["LLMs", "AI Safety", ...],
- *       "tweetCount": 42
- *     }
- *   }
  */
 
 import 'dotenv/config';
@@ -34,8 +31,9 @@ const GEMINI_KEY = process.env.GEMINI_API_KEY;
 
 if (!GEMINI_KEY) { console.error('Missing GEMINI_API_KEY in env'); process.exit(1); }
 
-// ── Filename → app person ID ──────────────────────────────────────────────────
-// Maps the JSON file keys / tweet handles to IDs used in preview.html
+const TWEET_THRESHOLD = 15; // below this, supplement with web search
+
+// ── Handle → app person ID ────────────────────────────────────────────────────
 const HANDLE_MAP = {
   elonmusk:        'elonmusk',
   sama:            'sama',
@@ -59,10 +57,31 @@ const HANDLE_MAP = {
   austen:          'austen',
 };
 
+// Full names for web search fallback
+const PERSON_NAMES = {
+  elonmusk:       'Elon Musk',
+  sama:           'Sam Altman',
+  satyanadella:   'Satya Nadella',
+  levie:          'Aaron Levie',
+  karpathy:       'Andrej Karpathy',
+  barmstrong:     'Brian Armstrong',
+  andrewng:       'Andrew Ng',
+  ylecun:         'Yann LeCun',
+  gdb:            'Greg Brockman',
+  demishassabis:  'Demis Hassabis',
+  palmerluckey:   'Palmer Luckey',
+  fchollet:       'François Chollet',
+  ilyasut:        'Ilya Sutskever',
+  drfeifei:       'Fei-Fei Li',
+  geoffreyhinton: 'Geoffrey Hinton',
+  paraga:         'Parag Agrawal',
+  akhaliq:        'AK (@_akhaliq)',
+  austen:         'Austen Allred',
+};
+
 // ── Helpers ───────────────────────────────────────────────────────────────────
 const delay = ms => new Promise(r => setTimeout(r, ms));
 
-// Parse "2.6K" / "1.2M" / "441" → number  (mirrors Tweet-Analysis formatNumber)
 function parseNum(s) {
   const str = String(s || 0).replace(/,/g, '').trim();
   if (/k$/i.test(str)) return parseFloat(str) * 1e3;
@@ -70,16 +89,14 @@ function parseNum(s) {
   return parseFloat(str) || 0;
 }
 
-// Engagement score: likes + retweets×3
-// (views are all 0 in these files so we can't use likes/views ratio)
 function engagement(t) {
   return parseNum(t.likes) + parseNum(t.retweets) * 3;
 }
 
-// ── Load + consolidate all JSON tweet files ───────────────────────────────────
+// ── Load all JSON tweet files ─────────────────────────────────────────────────
 function loadTweets() {
-  const byPerson = {};  // personId → Tweet[]
-  const seen     = {};  // personId → Set<tweetId>  (dedup)
+  const byPerson = {};
+  const seen     = {};
 
   function add(personId, tweet) {
     if (!personId) return;
@@ -90,9 +107,7 @@ function loadTweets() {
     byPerson[personId].push(tweet);
   }
 
-  // Only process .json files
-  const jsonFiles = fs.readdirSync(TWEETS_DIR)
-    .filter(f => f.endsWith('.json'));
+  const jsonFiles = fs.readdirSync(TWEETS_DIR).filter(f => f.endsWith('.json'));
 
   for (const file of jsonFiles) {
     let data;
@@ -100,25 +115,20 @@ function loadTweets() {
     catch (e) { console.warn(`  ⚠ Skip ${file}: ${e.message}`); continue; }
 
     if (Array.isArray(data)) {
-      // Individual file: array of tweet objects
       for (const t of data) {
         const handle = (t.handle || '').toLowerCase().replace(/^@/, '');
         add(HANDLE_MAP[handle], t);
       }
     } else if (data && typeof data === 'object') {
-      // Bulk file: { handle: tweets[] }
       for (const [handle, tweets] of Object.entries(data)) {
         const personId = HANDLE_MAP[handle.toLowerCase().replace(/^@/, '')];
         if (Array.isArray(tweets)) tweets.forEach(t => add(personId, t));
       }
     }
   }
-
   return byPerson;
 }
 
-// ── Select best tweets for analysis ──────────────────────────────────────────
-// Drop retweets, sort by engagement, take top N (mirrors Tweet-Analysis sampling)
 function selectTweets(tweets, max = 80) {
   return tweets
     .filter(t => {
@@ -129,7 +139,7 @@ function selectTweets(tweets, max = 80) {
     .slice(0, max);
 }
 
-// ── Gemini call (structured JSON output, mirrors Tweet-Analysis approach) ─────
+// ── Gemini: standard call (structured JSON) ───────────────────────────────────
 async function callGemini(prompt, schema) {
   const res = await fetch(
     `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_KEY}`,
@@ -138,7 +148,7 @@ async function callGemini(prompt, schema) {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         system_instruction: {
-          parts: [{ text: 'You are an expert AI research analyst. You analyze social media posts to understand a person\'s views on artificial intelligence. Your analysis is evidence-based, citing only what is present in the tweets provided.' }]
+          parts: [{ text: 'You are an expert AI research analyst. You analyse social media posts and public statements to understand a person\'s views on artificial intelligence. Your analysis is evidence-based.' }]
         },
         contents: [{ parts: [{ text: prompt }] }],
         generationConfig: {
@@ -155,96 +165,162 @@ async function callGemini(prompt, schema) {
   return JSON.parse(text);
 }
 
-// ── Sentiment analysis ────────────────────────────────────────────────────────
-async function analyzeSentiment(personId, tweets) {
-  // Use top 60 tweets by engagement (mirrors 50-tweet sample in Tweet-Analysis)
-  const sample = tweets.slice(0, 60)
-    .map(t => `[${(t.timestamp || '').slice(0, 7)}] ${t.text.replace(/\n+/g, ' ').trim()}`)
-    .join('\n---\n');
-
-  const prompt = `Analyze the AI-related opinions of @${personId} based on these tweets (2023–2026), sorted by engagement (most impactful first):
-
-${sample}
-
-Score their stance on each dimension based strictly on evidence in these tweets:
-- trends: overall outlook on AI progress
-- regulation: stance on AI regulation
-- usage: enthusiasm vs caution about using AI
-- trust: trust in AI safety vs existential risk concerns
-- agent: stance on AI agents specifically`;
-
-  const schema = {
-    type: 'OBJECT',
-    properties: {
-      trends:     { type: 'STRING',  description: 'optimistic, pessimistic, or neutral' },
-      regulation: { type: 'NUMBER',  description: '-1 (against) to 1 (pro regulation)' },
-      usage:      { type: 'NUMBER',  description: '-1 (restrictive) to 1 (enthusiastic)' },
-      trust:      { type: 'NUMBER',  description: '-1 (existential risk) to 1 (high trust)' },
-      agent:      { type: 'NUMBER',  description: '-1 (skeptical) to 1 (bullish on agents)' },
-      reasoning:  { type: 'STRING',  description: 'one sentence explaining the key signal' },
-    },
-    required: ['trends', 'regulation', 'usage', 'trust', 'agent', 'reasoning'],
-  };
-
-  const result = await callGemini(prompt, schema);
-  const clamp = v => Math.max(-1, Math.min(1, Number(v) || 0));
-  const validTrends = ['optimistic', 'pessimistic', 'neutral'];
-
-  return {
-    trends:     validTrends.includes(result.trends) ? result.trends : 'neutral',
-    regulation: clamp(result.regulation),
-    usage:      clamp(result.usage),
-    trust:      clamp(result.trust),
-    agent:      clamp(result.agent),
-    reasoning:  result.reasoning || '',
-  };
+// ── Gemini: with Google Search grounding (for thin-tweet fallback) ────────────
+// Mirrors the URL-grounding approach in Tweet-Analysis/services/geminiService.ts
+async function callGeminiWithSearch(prompt, schema) {
+  const res = await fetch(
+    `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_KEY}`,
+    {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        system_instruction: {
+          parts: [{ text: 'You are an expert AI research analyst. Use Google Search to find recent public statements, interviews, and articles about the person, then score their AI sentiment based on the evidence you find.' }]
+        },
+        contents: [{ parts: [{ text: prompt }] }],
+        tools: [{ google_search: {} }],
+        generationConfig: {
+          // Note: structured JSON output cannot be combined with search grounding,
+          // so we parse the free-text response manually
+          temperature: 0.1,
+        },
+      }),
+    }
+  );
+  const data = await res.json();
+  // Search grounding returns free text — extract JSON block from the response
+  const text = data?.candidates?.[0]?.content?.parts?.map(p => p.text).join('') || '';
+  const jsonMatch = text.match(/```json([\s\S]*?)```/) || text.match(/\{[\s\S]*\}/);
+  if (!jsonMatch) throw new Error('No JSON found in grounded response');
+  return JSON.parse(jsonMatch[1] || jsonMatch[0]);
 }
 
-// ── Topic extraction (mirrors analyzeTopics from Tweet-Analysis) ──────────────
-async function extractTopics(personId, tweets) {
-  // Use first 100 tweets (chronological gives broader topic coverage)
-  const sample = tweets.slice(0, 100)
-    .map(t => t.text.replace(/\n+/g, ' ').trim())
-    .join('\n---\n');
+const SENTIMENT_SCHEMA = {
+  type: 'OBJECT',
+  properties: {
+    trends:     { type: 'STRING', description: 'optimistic, pessimistic, or neutral' },
+    regulation: { type: 'NUMBER', description: '-1 (against) to 1 (pro regulation)' },
+    usage:      { type: 'NUMBER', description: '-1 (restrictive) to 1 (enthusiastic)' },
+    trust:      { type: 'NUMBER', description: '-1 (existential risk) to 1 (high trust)' },
+    agent:      { type: 'NUMBER', description: '-1 (skeptical) to 1 (bullish on agents)' },
+    reasoning:  { type: 'STRING', description: 'one sentence key signal' },
+    source:     { type: 'STRING', description: 'tweets, web-search, or mixed' },
+  },
+  required: ['trends', 'regulation', 'usage', 'trust', 'agent', 'reasoning', 'source'],
+};
 
-  const prompt = `Analyze these tweets from @${personId} and identify their top AI-related content topics.
+// ── Sentiment analysis: tweets → (if thin) supplement with web search ─────────
+async function analyzeSentiment(personId, tweets) {
+  const clamp = v => Math.max(-1, Math.min(1, Number(v) || 0));
+  const validTrends = ['optimistic', 'pessimistic', 'neutral'];
+  const name = PERSON_NAMES[personId] || personId;
 
-Tweets:
+  if (tweets.length >= TWEET_THRESHOLD) {
+    // ── Path A: enough tweets — score from tweets only ──────────────────────
+    const sample = tweets.slice(0, 60)
+      .map(t => `[${(t.timestamp || '').slice(0, 7)}] ${t.text.replace(/\n+/g, ' ').trim()}`)
+      .join('\n---\n');
+
+    const prompt = `Analyze the AI-related opinions of ${name} based on their tweets (2023–2026), sorted by engagement:
+
 ${sample}
 
-Identify up to 5 specific AI topics or themes this person tweets about most (e.g. "LLMs", "AI Safety", "Robotics", "AI Policy", "Open Source AI"). Be specific, not generic.`;
+Score their stance on each dimension based strictly on evidence in these tweets.
+Set source to "tweets".`;
 
-  const schema = {
-    type: 'OBJECT',
-    properties: {
-      topics: {
-        type: 'ARRAY',
-        items: { type: 'STRING', description: 'A specific AI topic or theme, 1-3 words' },
-        description: 'Top AI topics this person tweets about, max 5',
+    const result = await callGemini(prompt, SENTIMENT_SCHEMA);
+    return {
+      trends:     validTrends.includes(result.trends) ? result.trends : 'neutral',
+      regulation: clamp(result.regulation),
+      usage:      clamp(result.usage),
+      trust:      clamp(result.trust),
+      agent:      clamp(result.agent),
+      reasoning:  result.reasoning || '',
+      source:     'tweets',
+    };
+
+  } else {
+    // ── Path B: too few tweets — use web search to supplement ───────────────
+    const tweetSnippet = tweets.length > 0
+      ? `\n\nTheir ${tweets.length} available tweet(s):\n` +
+        tweets.map(t => `- ${t.text.replace(/\n+/g, ' ').trim()}`).join('\n')
+      : '';
+
+    const prompt = `I need to score ${name}'s stance on AI across 5 dimensions.
+${tweetSnippet}
+
+The tweet data is too thin to be conclusive. Please search online for:
+- ${name}'s recent interviews, blog posts, or public statements about AI
+- Their known positions on AI regulation, AI safety, AI agents, and AI usage
+
+Then return a JSON object with these exact fields:
+{
+  "trends": "optimistic" | "pessimistic" | "neutral",
+  "regulation": <number -1 to 1>,
+  "usage": <number -1 to 1>,
+  "trust": <number -1 to 1>,
+  "agent": <number -1 to 1>,
+  "reasoning": "<one sentence summarising the key evidence>",
+  "source": "web-search" | "mixed"
+}`;
+
+    const result = await callGeminiWithSearch(prompt, null);
+    return {
+      trends:     validTrends.includes(result.trends) ? result.trends : 'neutral',
+      regulation: clamp(result.regulation),
+      usage:      clamp(result.usage),
+      trust:      clamp(result.trust),
+      agent:      clamp(result.agent),
+      reasoning:  result.reasoning || '',
+      source:     result.source || 'web-search',
+    };
+  }
+}
+
+// ── Topic extraction ──────────────────────────────────────────────────────────
+async function extractTopics(personId, tweets) {
+  const name = PERSON_NAMES[personId] || personId;
+
+  if (tweets.length >= TWEET_THRESHOLD) {
+    const sample = tweets.slice(0, 100)
+      .map(t => t.text.replace(/\n+/g, ' ').trim())
+      .join('\n---\n');
+
+    const prompt = `Analyze these tweets from ${name} and identify up to 5 specific AI topics they tweet about most (e.g. "LLMs", "AI Safety", "Robotics"). Be specific, not generic.\n\n${sample}`;
+
+    const schema = {
+      type: 'OBJECT',
+      properties: {
+        topics: { type: 'ARRAY', items: { type: 'STRING' } },
       },
-    },
-    required: ['topics'],
-  };
+      required: ['topics'],
+    };
+    const result = await callGemini(prompt, schema);
+    return (result.topics || []).slice(0, 5);
 
-  const result = await callGemini(prompt, schema);
-  return (result.topics || []).slice(0, 5);
+  } else {
+    // Use web search to find their known AI focus areas
+    const prompt = `Search online for ${name}'s main areas of focus in AI. What specific AI topics do they research, build, or publicly discuss most? Return a JSON object: { "topics": ["topic1", "topic2", ...] } with up to 5 short topic labels (1-3 words each).`;
+
+    const result = await callGeminiWithSearch(prompt, null);
+    return (result.topics || []).slice(0, 5);
+  }
 }
 
 // ── Main ──────────────────────────────────────────────────────────────────────
 async function main() {
-  console.log('=== AI Sentiment Scorer (tweet-based) ===\n');
+  console.log('=== AI Sentiment Scorer ===\n');
+  console.log(`Threshold: tweets < ${TWEET_THRESHOLD} → supplement with Google Search\n`);
 
-  // Resume support
   let results = {};
   if (fs.existsSync(OUTPUT)) {
     results = JSON.parse(fs.readFileSync(OUTPUT, 'utf8'));
     console.log(`Resuming — ${Object.keys(results).length} already done\n`);
   }
 
-  console.log(`Loading JSON files from: ${TWEETS_DIR}`);
+  console.log('Loading tweet files...');
   const byPerson = loadTweets();
-  const people   = Object.keys(byPerson);
-  console.log(`Found tweet data for ${people.length} people: ${people.join(', ')}\n`);
+  console.log(`Tweet data found for: ${Object.keys(byPerson).join(', ')}\n`);
 
   for (const [personId, allTweets] of Object.entries(byPerson)) {
     if (results[personId]) {
@@ -253,25 +329,17 @@ async function main() {
     }
 
     const selected = selectTweets(allTweets);
-    console.log(`\n▶ ${personId}: ${allTweets.length} tweets → ${selected.length} selected`);
-
-    if (selected.length < 5) {
-      console.log(`  Too few tweets — keeping existing hardcoded score`);
-      results[personId] = null;
-      fs.writeFileSync(OUTPUT, JSON.stringify(results, null, 2));
-      continue;
-    }
+    const mode = selected.length >= TWEET_THRESHOLD ? 'tweets' : 'tweets + web search';
+    console.log(`\n▶ ${personId} (${selected.length} AI tweets) → using ${mode}`);
 
     try {
-      // Sentiment
       process.stdout.write('  Sentiment... ');
       const sentiment = await analyzeSentiment(personId, selected);
-      console.log(`✓ ${sentiment.trends} | reg=${sentiment.regulation.toFixed(2)} use=${sentiment.usage.toFixed(2)} tru=${sentiment.trust.toFixed(2)} age=${sentiment.agent.toFixed(2)}`);
+      console.log(`✓ [${sentiment.source}] ${sentiment.trends} | reg=${sentiment.regulation.toFixed(2)} use=${sentiment.usage.toFixed(2)} tru=${sentiment.trust.toFixed(2)} age=${sentiment.agent.toFixed(2)}`);
       console.log(`  → ${sentiment.reasoning}`);
 
       await delay(800);
 
-      // Topics
       process.stdout.write('  Topics... ');
       const topics = await extractTopics(personId, selected);
       console.log(`✓ ${topics.join(', ')}`);
@@ -283,16 +351,16 @@ async function main() {
     }
 
     fs.writeFileSync(OUTPUT, JSON.stringify(results, null, 2));
-    await delay(1200); // stay within Gemini free-tier rate limit
+    await delay(1500);
   }
 
-  // ── Summary ──
   console.log('\n=== Complete ===');
-  const scored  = Object.values(results).filter(Boolean).length;
-  const skipped = Object.values(results).filter(v => v === null).length;
-  console.log(`Scored: ${scored} | Skipped: ${skipped}`);
-  console.log(`Output: ${OUTPUT}`);
-  console.log('\nNext step: run applyScores.js to patch preview.html with the new values');
+  const fromTweets = Object.values(results).filter(r => r?.sentiment?.source === 'tweets').length;
+  const fromSearch = Object.values(results).filter(r => r?.sentiment?.source !== 'tweets' && r).length;
+  const failed     = Object.values(results).filter(r => r === null).length;
+  console.log(`From tweets: ${fromTweets} | Web search supplement: ${fromSearch} | Failed: ${failed}`);
+  console.log(`\nOutput → ${OUTPUT}`);
+  console.log('Next: node scripts/applyScores.js --dry-run');
 }
 
 main().catch(console.error);
