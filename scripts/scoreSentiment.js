@@ -142,7 +142,7 @@ function selectTweets(tweets, max = 80) {
 // ── Gemini: standard call (structured JSON) ───────────────────────────────────
 async function callGemini(prompt, schema) {
   const res = await fetch(
-    `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_KEY}`,
+    `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_KEY}`,
     {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -169,30 +169,32 @@ async function callGemini(prompt, schema) {
 // Mirrors the URL-grounding approach in Tweet-Analysis/services/geminiService.ts
 async function callGeminiWithSearch(prompt, schema) {
   const res = await fetch(
-    `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_KEY}`,
+    `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_KEY}`,
     {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         system_instruction: {
-          parts: [{ text: 'You are an expert AI research analyst. Use Google Search to find recent public statements, interviews, and articles about the person, then score their AI sentiment based on the evidence you find.' }]
+          parts: [{ text: 'You are an expert AI research analyst. Use Google Search to find recent public statements, interviews, and articles about the person, then score their AI sentiment. Always end your response with a JSON code block containing the scores.' }]
         },
         contents: [{ parts: [{ text: prompt }] }],
         tools: [{ google_search: {} }],
         generationConfig: {
-          // Note: structured JSON output cannot be combined with search grounding,
-          // so we parse the free-text response manually
           temperature: 0.1,
         },
       }),
     }
   );
   const data = await res.json();
+  if (data?.error) throw new Error(JSON.stringify(data.error));
   // Search grounding returns free text — extract JSON block from the response
-  const text = data?.candidates?.[0]?.content?.parts?.map(p => p.text).join('') || '';
-  const jsonMatch = text.match(/```json([\s\S]*?)```/) || text.match(/\{[\s\S]*\}/);
-  if (!jsonMatch) throw new Error('No JSON found in grounded response');
-  return JSON.parse(jsonMatch[1] || jsonMatch[0]);
+  const text = data?.candidates?.[0]?.content?.parts?.filter(p => p.text).map(p => p.text).join('') || '';
+  // Try ```json ... ``` first, then bare { ... }
+  const fenced = text.match(/```json\s*([\s\S]*?)```/);
+  if (fenced) return JSON.parse(fenced[1].trim());
+  const bare = text.match(/\{[\s\S]*"trends"[\s\S]*\}/);
+  if (bare) return JSON.parse(bare[0]);
+  throw new Error('No JSON found in grounded response. Raw: ' + text.slice(0, 300));
 }
 
 const SENTIMENT_SCHEMA = {
