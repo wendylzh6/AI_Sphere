@@ -1317,18 +1317,16 @@
     ];
 
     document.getElementById('sentiment-bars').innerHTML = bars.map(b => `
-      <div class="mb-1.5">
-        <div class="flex justify-between items-center mb-0.5">
-          <span class="text-[9px] font-medium text-slate-300">${b.label}</span>
-          <div class="flex gap-2">
-            <span class="text-[8px] text-slate-600">${b.left}</span>
-            <span class="text-[8px] text-slate-600">${b.right}</span>
+      <div class="mb-2">
+        <div class="text-[9px] font-medium text-slate-300 mb-1">${b.label}</div>
+        <div class="flex items-center gap-1.5">
+          <span class="text-[8px] text-slate-500 w-14 text-right flex-shrink-0">${b.left}</span>
+          <div class="relative flex-1 h-1 bg-slate-700/50 rounded-full">
+            <div class="sentiment-dot absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-2 h-2 rounded-full
+                        bg-indigo-400 shadow-[0_0_5px_rgba(129,140,248,.9)]"
+                 style="left:50%" data-target="${((b.value+1)/2*100).toFixed(1)}"></div>
           </div>
-        </div>
-        <div class="relative h-1 bg-slate-700/50 rounded-full">
-          <div class="sentiment-dot absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-2 h-2 rounded-full
-                      bg-indigo-400 shadow-[0_0_5px_rgba(129,140,248,.9)]"
-               style="left:50%" data-target="${((b.value+1)/2*100).toFixed(1)}"></div>
+          <span class="text-[8px] text-slate-500 w-14 flex-shrink-0">${b.right}</span>
         </div>
       </div>`).join('');
 
