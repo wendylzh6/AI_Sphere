@@ -339,5 +339,24 @@
       "Automated AI Research"
     ],
     "tweetCount": 56
+  },
+  "sriramk": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": -0.5,
+      "usage": 0.85,
+      "trust": 0.75,
+      "agent": 0.65,
+      "reasoning": "Sriram Krishnan consistently opposes safety-driven regulation (explicitly against SB1047 and global AI governance), celebrates open-source and local model access, dismisses doomer/existential risk framing, and is bullish on agent workflows — all through the lens of US AI dominance over China.",
+      "source": "tweets"
+    },
+    "topics": [
+      "AI Policy & US Competitiveness",
+      "Open Source & Local Models",
+      "AI Safety Criticism",
+      "AI Agents & Harnesses",
+      "Token Economics"
+    ],
+    "tweetCount": 60
   }
 }
