@@ -164,9 +164,45 @@
       <!-- Ranked list -->
       <div id="person-list" class="flex-1 overflow-y-auto custom-scroll p-2"></div>
 
-      <!-- Footer — mirrors the React app "Created by WoW" -->
-      <div class="border-t border-white/10 bg-[#05060A]/50 px-4 py-3 text-center">
-        <span class="text-xs text-slate-500">Created by WoW</span>
+      <!-- Footer: Legend (left, collapsible) + Created by WoW (right) -->
+      <div class="border-t border-white/10 bg-[#05060A]/50 px-3 py-2">
+        <!-- Legend toggle row -->
+        <div class="flex items-center justify-between">
+          <button id="legend-toggle" class="flex items-center gap-1.5 text-left">
+            <svg id="legend-chevron" class="w-3 h-3 text-slate-500 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+            </svg>
+            <span class="text-[11px] text-slate-500 uppercase tracking-wider font-medium">Legend</span>
+          </button>
+          <span class="text-xs text-slate-500 ml-4">Created by WoW</span>
+        </div>
+        <!-- Legend body — collapsed by default -->
+        <div id="legend-body" class="flex flex-col gap-0.5 overflow-hidden transition-all duration-200 ease-in-out max-h-0 opacity-0">
+          <div class="pt-2 flex flex-col gap-0.5">
+            <button class="legend-cat flex items-center gap-2 px-1 py-0.5 rounded-md transition-all duration-200 text-left hover:bg-white/5" data-cat="founder">
+              <div class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background:#38BDF8;box-shadow:0 0 6px #38BDF8"></div>
+              <span class="text-[11px] text-slate-300">Founder / Builder</span>
+            </button>
+            <button class="legend-cat flex items-center gap-2 px-1 py-0.5 rounded-md transition-all duration-200 text-left hover:bg-white/5" data-cat="researcher">
+              <div class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background:#E879F9;box-shadow:0 0 6px #E879F9"></div>
+              <span class="text-[11px] text-slate-300">Researcher / Academia</span>
+            </button>
+            <button class="legend-cat flex items-center gap-2 px-1 py-0.5 rounded-md transition-all duration-200 text-left hover:bg-white/5" data-cat="investor">
+              <div class="w-2.5 h-2.5 rounded-full flex-shrink-0" style="background:#4ADE80;box-shadow:0 0 6px #4ADE80"></div>
+              <span class="text-[11px] text-slate-300">Investor</span>
+            </button>
+            <button id="legend-clear" class="hidden text-[10px] text-indigo-400 hover:text-indigo-300 transition-colors mt-0.5 px-1 text-left">Clear filter</button>
+            <div class="border-t border-white/10 my-1.5"></div>
+            <button id="methodology-btn" class="flex items-center gap-1.5 text-[11px] text-indigo-400 hover:text-indigo-300 transition-colors px-1">
+              <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10" stroke-width="2"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/>
+                <line stroke-linecap="round" stroke-width="2" x1="12" y1="17" x2="12.01" y2="17"/>
+              </svg>
+              <span>Methodology</span>
+            </button>
+          </div>
+        </div>
       </div>
     </div><!-- /sidebar-inner -->
     </div><!-- /sidebar -->
@@ -175,42 +211,6 @@
     <!-- ── GRAPH AREA ────────────────────────────────── -->
     <div class="flex-1 relative overflow-hidden" id="graph-container">
       <svg id="graph-svg"></svg>
-
-      <!-- Legend — mirrors the React app (bottom-right, clickable filter, methodology link) -->
-      <div id="legend" class="absolute z-20 bottom-24 right-6 p-4 bg-[#0B0C15]/80 backdrop-blur-md border border-white/10 rounded-xl transition-all duration-300 ease-in-out">
-        <button id="legend-toggle" class="flex items-center gap-2 w-full text-left">
-          <div class="text-xs text-slate-400 uppercase tracking-wider font-medium">Legend</div>
-          <svg id="legend-chevron" class="w-3 h-3 text-slate-400 transition-transform duration-300 rotate-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
-          </svg>
-        </button>
-        <div id="legend-body" class="flex flex-col gap-1 overflow-hidden transition-all duration-300 ease-in-out mt-3 max-h-60 opacity-100">
-          <button class="legend-cat flex items-center gap-2 px-2 py-1 rounded-md transition-all duration-200 text-left hover:bg-white/5" data-cat="founder">
-            <div class="w-3 h-3 rounded-full flex-shrink-0" style="background:#38BDF8;box-shadow:0 0 8px #38BDF8"></div>
-            <span class="text-xs text-slate-300">Founder / Builder</span>
-          </button>
-          <button class="legend-cat flex items-center gap-2 px-2 py-1 rounded-md transition-all duration-200 text-left hover:bg-white/5" data-cat="researcher">
-            <div class="w-3 h-3 rounded-full flex-shrink-0" style="background:#E879F9;box-shadow:0 0 8px #E879F9"></div>
-            <span class="text-xs text-slate-300">Researcher / Academia</span>
-          </button>
-          <button class="legend-cat flex items-center gap-2 px-2 py-1 rounded-md transition-all duration-200 text-left hover:bg-white/5" data-cat="investor">
-            <div class="w-3 h-3 rounded-full flex-shrink-0" style="background:#4ADE80;box-shadow:0 0 8px #4ADE80"></div>
-            <span class="text-xs text-slate-300">Investor</span>
-          </button>
-          <button id="legend-clear" class="hidden text-[10px] text-indigo-400 hover:text-indigo-300 transition-colors mt-1 px-2 text-left">
-            Clear filter
-          </button>
-          <div class="border-t border-white/10 my-2"></div>
-          <button id="methodology-btn" class="flex items-center gap-1.5 text-xs text-indigo-400 hover:text-indigo-300 transition-colors">
-            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <circle cx="12" cy="12" r="10" stroke-width="2"/>
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/>
-              <line stroke-linecap="round" stroke-width="2" x1="12" y1="17" x2="12.01" y2="17"/>
-            </svg>
-            <span>Methodology</span>
-          </button>
-        </div>
-      </div>
     </div>
   </div>
 
@@ -1120,25 +1120,20 @@
     if (selectedPerson) closeCard();
   });
 
-  // Legend collapse/expand (mirrors React chevron toggle)
-  let legendOpen = true;
+  // Legend collapse/expand — starts collapsed
+  let legendOpen = false;
   document.getElementById('legend-toggle').addEventListener('click', () => {
     legendOpen = !legendOpen;
-    const body = document.getElementById('legend-body');
+    const body    = document.getElementById('legend-body');
     const chevron = document.getElementById('legend-chevron');
-    const legend = document.getElementById('legend');
     if (legendOpen) {
       body.classList.remove('max-h-0', 'opacity-0');
-      body.classList.add('max-h-60', 'opacity-100', 'mt-3');
+      body.classList.add('max-h-60', 'opacity-100');
       chevron.classList.add('rotate-90');
-      legend.classList.remove('p-2');
-      legend.classList.add('p-4');
     } else {
-      body.classList.remove('max-h-60', 'opacity-100', 'mt-3');
+      body.classList.remove('max-h-60', 'opacity-100');
       body.classList.add('max-h-0', 'opacity-0');
       chevron.classList.remove('rotate-90');
-      legend.classList.remove('p-4');
-      legend.classList.add('p-2');
     }
   });
 
