@@ -307,9 +307,54 @@ export default function App() {
             })}
         </div>
 
-        {/* Creator Profile */}
-        <div className="border-t border-white/10 bg-[#05060A]/50 px-4 py-3 text-center">
-          <span className="text-xs text-slate-500">Created by WoW</span>
+        {/* Legend + Footer */}
+        <div className="border-t border-white/10 bg-[#05060A]/50 flex-shrink-0">
+          {/* Expandable legend items (slides up) */}
+          <div className={`overflow-hidden transition-all duration-300 ease-in-out ${isLegendOpen ? 'max-h-60 opacity-100' : 'max-h-0 opacity-0'}`}>
+            <div className="px-4 pt-3 pb-1 flex flex-col gap-1">
+              {[
+                { key: 'founder', color: '#38BDF8', label: 'Founder / Builder' },
+                { key: 'researcher', color: '#E879F9', label: 'Researcher / Academia' },
+                { key: 'investor', color: '#4ADE80', label: 'Investor' },
+              ].map(cat => (
+                <button
+                  key={cat.key}
+                  onClick={() => handleCategoryClick(cat.key)}
+                  className={`flex items-center gap-2 px-2 py-1 rounded-md transition-all duration-200 text-left ${selectedCategory === cat.key ? 'bg-white/10 ring-1 ring-white/20' : 'hover:bg-white/5'} ${selectedCategory && selectedCategory !== cat.key ? 'opacity-40' : 'opacity-100'}`}
+                >
+                  <div className="w-3 h-3 rounded-full flex-shrink-0" style={{ backgroundColor: cat.color, boxShadow: `0 0 8px ${cat.color}` }} />
+                  <span className="text-xs text-slate-300">{cat.label}</span>
+                </button>
+              ))}
+              {selectedCategory && (
+                <button
+                  onClick={() => { setSelectedCategory(null); setSelectedNode(null); }}
+                  className="text-[10px] text-indigo-400 hover:text-indigo-300 transition-colors mt-1 px-2"
+                >
+                  Clear filter
+                </button>
+              )}
+              <div className="border-t border-white/10 mt-2" />
+              <button
+                onClick={() => setShowMethodology(true)}
+                className="flex items-center gap-1.5 px-2 py-1 text-xs text-indigo-400 hover:text-indigo-300 transition-colors"
+              >
+                <HelpCircle className="w-3.5 h-3.5" />
+                <span>Methodology</span>
+              </button>
+            </div>
+          </div>
+          {/* Footer row */}
+          <div className="flex items-center justify-between px-4 py-3">
+            <button
+              onClick={() => setIsLegendOpen(!isLegendOpen)}
+              className="flex items-center gap-1.5 text-left"
+            >
+              <ChevronRight className={`w-3 h-3 text-slate-400 transition-transform duration-300 ${isLegendOpen ? 'rotate-90' : ''}`} />
+              <span className="text-xs text-slate-400 uppercase tracking-wider font-medium">Legend</span>
+            </button>
+            <span className="text-xs text-slate-500">Created by WoW</span>
+          </div>
         </div>
       </div>
 
@@ -413,49 +458,6 @@ export default function App() {
 
         </div>
       )}
-
-      {/* Legend */}
-      <div className={`absolute z-20 bg-[#0B0C15]/80 backdrop-blur-md border border-white/10 rounded-xl transition-all duration-300 ease-in-out ${isMobile ? 'top-4 right-4' : 'bottom-24 right-6'} ${isLegendOpen ? 'p-4' : 'p-2'}`}>
-        <button
-          onClick={() => setIsLegendOpen(!isLegendOpen)}
-          className="flex items-center gap-2 w-full text-left"
-        >
-          <div className="text-xs text-slate-400 uppercase tracking-wider font-medium">Legend</div>
-          <ChevronRight className={`w-3 h-3 text-slate-400 transition-transform duration-300 ${isLegendOpen ? 'rotate-90' : ''}`} />
-        </button>
-        <div className={`flex flex-col gap-1 overflow-hidden transition-all duration-300 ease-in-out ${isLegendOpen ? 'mt-3 max-h-60 opacity-100' : 'max-h-0 opacity-0'}`}>
-          {[
-            { key: 'founder', color: '#38BDF8', label: 'Founder / Builder' },
-            { key: 'researcher', color: '#E879F9', label: 'Researcher / Academia' },
-            { key: 'investor', color: '#4ADE80', label: 'Investor' },
-          ].map(cat => (
-            <button
-              key={cat.key}
-              onClick={() => handleCategoryClick(cat.key)}
-              className={`flex items-center gap-2 px-2 py-1 rounded-md transition-all duration-200 text-left ${selectedCategory === cat.key ? 'bg-white/10 ring-1 ring-white/20' : 'hover:bg-white/5'} ${selectedCategory && selectedCategory !== cat.key ? 'opacity-40' : 'opacity-100'}`}
-            >
-              <div className="w-3 h-3 rounded-full flex-shrink-0" style={{ backgroundColor: cat.color, boxShadow: `0 0 8px ${cat.color}` }} />
-              <span className="text-xs text-slate-300">{cat.label}</span>
-            </button>
-          ))}
-          {selectedCategory && (
-            <button
-              onClick={() => { setSelectedCategory(null); setSelectedNode(null); }}
-              className="text-[10px] text-indigo-400 hover:text-indigo-300 transition-colors mt-1 px-2"
-            >
-              Clear filter
-            </button>
-          )}
-          <div className="border-t border-white/10 my-2" />
-          <button
-            onClick={() => setShowMethodology(true)}
-            className="flex items-center gap-1.5 text-xs text-indigo-400 hover:text-indigo-300 transition-colors"
-          >
-            <HelpCircle className="w-3.5 h-3.5" />
-            <span>Methodology</span>
-          </button>
-        </div>
-      </div>
 
       {/* Methodology Modal */}
       {showMethodology && (
