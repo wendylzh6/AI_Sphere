@@ -344,6 +344,7 @@ export const careerHistory: Record<string, CareerStage[]> = {
     { y: '2020–22', r: 'Research Engineer',          c: 'Various companies' },
   ],
   mitchellh: [
+    { y: '2026–',   r: 'Board Member',               c: 'Vercel' },
     { y: '2023–',   r: 'Founder / Building with AI', c: 'Independent' },
     { y: '2012–23', r: 'Co-founder & CTO',           c: 'HashiCorp' },
   ],
@@ -590,6 +591,7 @@ export const sentimentEvolution: Record<string, SentimentStage[]> = {
     { reg: 0.15, use: 0.83, tru: 0.62, age: 0.62 },
   ],
   mitchellh: [
+    { reg: 0.20, use: 0.90, tru: 0.65, age: 0.80 },
     { reg: 0.15, use: 0.85, tru: 0.60, age: 0.75 },
     { reg: 0.10, use: 0.72, tru: 0.62, age: 0.55 },
   ],

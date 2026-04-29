@@ -255,7 +255,7 @@
   </div>
 
   <!-- ── FLOATING DETAIL CARD ────────────────────────── -->
-  <div id="detail-card" class="fixed top-4 right-4 w-[420px] max-h-[calc(100vh-32px)] z-50 hidden flex-col gap-2">
+  <div id="detail-card" class="fixed top-4 right-4 w-[420px] max-h-[calc(100vh-90px)] z-50 hidden flex-col gap-2">
 
     <!-- ── ROW 1: X + LinkedIn snapshots side by side ── -->
     <div class="flex gap-2.5">
@@ -277,11 +277,11 @@
           <!-- Name info on left, avatar on right (overflows banner with -mt-6) — matches LinkedIn card -->
           <div class="flex justify-between items-start">
             <div class="mt-2 mb-1.5 flex-1 min-w-0">
-              <h2 id="card-name" class="text-sm font-bold text-white leading-tight mb-0 truncate"></h2>
-              <div id="card-handle" class="text-slate-500 text-[10px] mb-1 truncate"></div>
+              <h2 id="card-name" class="text-base font-bold text-white leading-tight mb-0 truncate"></h2>
+              <div id="card-handle" class="text-slate-500 text-xs mb-1 truncate"></div>
               <div class="flex items-center gap-1.5 flex-wrap">
-                <span id="card-group-badge" class="text-[9px] font-semibold px-1.5 py-0.5 rounded-full"></span>
-                <span id="card-role" class="text-[10px] text-slate-400 truncate max-w-[140px]"></span>
+                <span id="card-group-badge" class="text-[10px] font-semibold px-1.5 py-0.5 rounded-full"></span>
+                <span id="card-role" class="text-xs text-slate-400 truncate max-w-[150px]"></span>
               </div>
             </div>
             <div class="relative -mt-6 mb-1.5 ml-2 flex-shrink-0">
@@ -290,24 +290,23 @@
             </div>
           </div>
           <!-- Bio -->
-          <p id="card-bio" class="text-[10px] text-slate-300 leading-relaxed mb-2 line-clamp-3"></p>
-          <!-- Stats -->
-          <div class="flex gap-3 pt-1 border-t border-white/5 mb-2">
+          <p id="card-bio" class="text-xs text-slate-300 leading-relaxed mb-2 line-clamp-4"></p>
+          <!-- Stats + Follow button in one row -->
+          <div class="flex items-center gap-3 pt-1.5 border-t border-white/5">
             <div class="text-center">
-              <div id="card-followers" class="font-bold text-white text-xs"></div>
-              <div class="text-slate-600 text-[9px]">Followers</div>
+              <div id="card-followers" class="font-bold text-white text-sm"></div>
+              <div class="text-slate-500 text-[10px]">Followers</div>
             </div>
             <div class="text-center">
-              <div id="card-connections" class="font-bold text-white text-xs"></div>
-              <div class="text-slate-600 text-[9px]">Network links</div>
+              <div id="card-connections" class="font-bold text-white text-sm"></div>
+              <div class="text-slate-500 text-[10px]">Network links</div>
             </div>
+            <a id="card-follow" href="#" target="_blank" rel="noopener noreferrer"
+              class="ml-auto inline-flex items-center gap-1 px-2.5 py-1 bg-white hover:bg-white/90 text-black font-semibold text-[10px] rounded-full transition-all flex-shrink-0">
+              <svg class="w-2.5 h-2.5" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.742l7.737-8.835L1.254 2.25H8.08l4.253 5.622 5.912-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              Follow on X
+            </a>
           </div>
-          <!-- Follow on X button at bottom (same location as View on LinkedIn) -->
-          <a id="card-follow" href="#" target="_blank" rel="noopener noreferrer"
-            class="inline-flex items-center gap-1 px-2.5 py-1 bg-white hover:bg-white/90 text-black font-semibold text-[10px] rounded-full transition-all">
-            <svg class="w-2.5 h-2.5" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.742l7.737-8.835L1.254 2.25H8.08l4.253 5.622 5.912-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-            Follow on X
-          </a>
         </div>
       </div>
 
@@ -468,6 +467,8 @@
 
   const links = [
     // OpenAI cluster
+    // NOTE: D3 mutates source/target to node objects after simulation init.
+    // Use rawLinks (below) for any string-based ID lookups.
     {source:'sama',          target:'gdb'},
     {source:'sama',          target:'ilyasut'},
     {source:'sama',          target:'miramurati'},
@@ -588,6 +589,8 @@
     {source:'fchollet',      target:'ylecun'},
     {source:'rasbt',         target:'jeremyhoward'},
   ];
+  // Raw string-keyed copy for ID lookups (D3 mutates links[].source/target to objects)
+  const rawLinks = links.map(l => ({source: l.source, target: l.target}));
 
   // ═══════════════════════════════════════════════
   // LINKEDIN URL MAP
@@ -621,7 +624,7 @@
     minchoi:         'https://www.linkedin.com/in/min-choi/',
     deryaunutmaz:    'https://www.linkedin.com/in/deryaunutmaz/',
     emostaque:       'https://www.linkedin.com/in/emad-mostaque-9840ba274/',
-    sriramk:         'https://www.linkedin.com/in/sriramkrishnan/',
+    sriramk:         'https://www.linkedin.com/in/sriramkrishnan01/',
     omarsar0:        'https://www.linkedin.com/in/omarsanseviero/',
     soumith:         'https://www.linkedin.com/in/soumith/',
     logank:          'https://www.linkedin.com/in/logankilpatrick/',
@@ -821,7 +824,8 @@
                      {y:'1992–95', r:'Postdoctoral Researcher',      c:'University of Colorado'}],
     rileygoodside:   [{y:'2022–',   r:'Staff Prompt Engineer',        c:'Google DeepMind'},
                      {y:'2020–22', r:'Research Engineer',            c:'Various companies'}],
-    mitchellh:       [{y:'2023–',   r:'Founder / Building with AI',   c:'Independent'},
+    mitchellh:       [{y:'2026–',   r:'Board Member',                 c:'Vercel'},
+                     {y:'2023–',   r:'Founder / Building with AI',   c:'Independent'},
                      {y:'2012–23', r:'Co-founder & CTO',             c:'HashiCorp'}],
     darioamodei:     [{y:'2021–',   r:'CEO & Co-founder',             c:'Anthropic'},
                      {y:'2019–21', r:'VP of Research',               c:'OpenAI'},
@@ -1226,7 +1230,7 @@
     document.getElementById('card-bio').textContent  = p.bio;
 
     document.getElementById('card-followers').textContent = fmt(p.followers);
-    const connCount = links.filter(l => l.source===p.id || l.target===p.id || l.source?.id===p.id || l.target?.id===p.id).length;
+    const connCount = rawLinks.filter(l => l.source===p.id || l.target===p.id).length;
     document.getElementById('card-connections').textContent = connCount;
 
     // ── LinkedIn Snapshot ──

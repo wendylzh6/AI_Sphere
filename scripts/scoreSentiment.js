@@ -1,7 +1,7 @@
 /**
  * scoreSentiment.js
  *
- * Scores AI sentiment + extracts topics for all 18 people with tweet data.
+ * Scores AI sentiment + extracts topics for all people with tweet data.
  *
  * Strategy:
  *   - Enough tweets (≥15 AI tweets): score from tweets alone
@@ -25,7 +25,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname  = path.dirname(fileURLToPath(import.meta.url));
-const TWEETS_DIR = path.join(process.env.HOME, 'Desktop', 'tweets data');
+const TWEETS_DIR = process.env.TWEETS_DIR || path.join(process.env.HOME, 'Desktop', 'tweets data');
 const OUTPUT     = path.join(__dirname, 'sentimentOutput.json');
 const GEMINI_KEY = process.env.GEMINI_API_KEY;
 
@@ -55,6 +55,39 @@ const HANDLE_MAP = {
   _akhaliq:        'akhaliq',
   akhaliq:         'akhaliq',
   austen:          'austen',
+  jeffdean:        'jeffdean',
+  miramurati:      'miramurati',
+  esyudkowsky:     'eliezeryud',
+  yacinemtb:       'yacinemtb',
+  kazu_fujisawa:   'kazufujisawa',
+  oriolvinyalsml:  'oriolvinyals',
+  clementdelangue: 'clementdelangue',
+  aelluswamy:      'aelluswamy',
+  schmidhuberai:   'schmidhuber',
+  goodside:        'rileygoodside',
+  mitchellh:       'mitchellh',
+  darioamodei:     'darioamodei',
+  arankomatsuzaki: 'arankomatsuzaki',
+  chrmanning:      'chrmanning',
+};
+
+// Tweet exports may use source.influencerId, which is sometimes different
+// from the hand-curated person id in preview.html.
+const INFLUENCER_ID_MAP = {
+  esyudkowsky:     'eliezeryud',
+  yacinemtb:       'yacinemtb',
+  kazu_fujisawa:   'kazufujisawa',
+  oriolvinyals:    'oriolvinyals',
+  goodside:        'rileygoodside',
+  schmidhuberai:   'schmidhuber',
+  aelluswamy:      'aelluswamy',
+  clementdelangue: 'clementdelangue',
+  jeffdean:        'jeffdean',
+  miramurati:      'miramurati',
+  mitchellh:       'mitchellh',
+  darioamodei:     'darioamodei',
+  arankomatsuzaki: 'arankomatsuzaki',
+  chrmanning:      'chrmanning',
 };
 
 // Full names for web search fallback
@@ -77,6 +110,20 @@ const PERSON_NAMES = {
   paraga:         'Parag Agrawal',
   akhaliq:        'AK (@_akhaliq)',
   austen:         'Austen Allred',
+  jeffdean:        'Jeff Dean',
+  miramurati:      'Mira Murati',
+  eliezeryud:      'Eliezer Yudkowsky',
+  yacinemtb:       'kache',
+  kazufujisawa:    'Kazuki Fujisawa',
+  oriolvinyals:    'Oriol Vinyals',
+  clementdelangue: 'Clément Delangue',
+  aelluswamy:      'Ashok Elluswamy',
+  schmidhuber:     'Jürgen Schmidhuber',
+  rileygoodside:   'Riley Goodside',
+  mitchellh:       'Mitchell Hashimoto',
+  darioamodei:     'Dario Amodei',
+  arankomatsuzaki: 'Aran Komatsuzaki',
+  chrmanning:      'Christopher Manning',
 };
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
@@ -91,6 +138,20 @@ function parseNum(s) {
 
 function engagement(t) {
   return parseNum(t.likes) + parseNum(t.retweets) * 3;
+}
+
+function normalizeKey(value) {
+  return String(value || '').toLowerCase().replace(/^@/, '');
+}
+
+function personIdFromMeta(meta) {
+  if (!meta) return null;
+  const influencerId = normalizeKey(meta.influencerId);
+  const handle = normalizeKey(meta.handle);
+  return INFLUENCER_ID_MAP[influencerId] ||
+    HANDLE_MAP[influencerId] ||
+    HANDLE_MAP[handle] ||
+    null;
 }
 
 // ── Load all JSON tweet files ─────────────────────────────────────────────────
@@ -116,12 +177,22 @@ function loadTweets() {
 
     if (Array.isArray(data)) {
       for (const t of data) {
-        const handle = (t.handle || '').toLowerCase().replace(/^@/, '');
+        const handle = normalizeKey(t.handle);
         add(HANDLE_MAP[handle], t);
       }
     } else if (data && typeof data === 'object') {
+      if (Array.isArray(data.tweets)) {
+        const personId = personIdFromMeta(data.source);
+        if (!personId) {
+          console.warn(`  ⚠ Skip ${file}: no mapped handle or influencerId`);
+          continue;
+        }
+        data.tweets.forEach(t => add(personId, t));
+        continue;
+      }
+
       for (const [handle, tweets] of Object.entries(data)) {
-        const personId = HANDLE_MAP[handle.toLowerCase().replace(/^@/, '')];
+        const personId = HANDLE_MAP[normalizeKey(handle)];
         if (Array.isArray(tweets)) tweets.forEach(t => add(personId, t));
       }
     }
@@ -203,8 +274,8 @@ const SENTIMENT_SCHEMA = {
     trends:     { type: 'STRING', description: 'optimistic, pessimistic, or neutral' },
     regulation: { type: 'NUMBER', description: '-1 (against) to 1 (pro regulation)' },
     usage:      { type: 'NUMBER', description: '-1 (restrictive) to 1 (enthusiastic)' },
-    trust:      { type: 'NUMBER', description: '-1 (existential risk) to 1 (high trust)' },
-    agent:      { type: 'NUMBER', description: '-1 (skeptical) to 1 (bullish on agents)' },
+    trust:      { type: 'NUMBER', description: '-1 (emphasizes existential/catastrophic risk) to 1 (high trust in AI safety and deployment)' },
+    agent:      { type: 'NUMBER', description: '-1 (skeptical or worried about autonomous agents) to 1 (bullish on deploying agents)' },
     reasoning:  { type: 'STRING', description: 'one sentence key signal' },
     source:     { type: 'STRING', description: 'tweets, web-search, or mixed' },
   },
@@ -220,7 +291,7 @@ async function analyzeSentiment(personId, tweets) {
   if (tweets.length >= TWEET_THRESHOLD) {
     // ── Path A: enough tweets — score from tweets only ──────────────────────
     const sample = tweets.slice(0, 60)
-      .map(t => `[${(t.timestamp || '').slice(0, 7)}] ${t.text.replace(/\n+/g, ' ').trim()}`)
+      .map(t => `[${(t.timestamp || t.createdAt || t.date || '').slice(0, 7)}] ${t.text.replace(/\n+/g, ' ').trim()}`)
       .join('\n---\n');
 
     const prompt = `Analyze the AI-related opinions of ${name} based on their tweets (2023–2026), sorted by engagement:
@@ -228,6 +299,8 @@ async function analyzeSentiment(personId, tweets) {
 ${sample}
 
 Score their stance on each dimension based strictly on evidence in these tweets.
+For trust, negative means they emphasize existential risk, catastrophic risk, or low confidence in AI labs/systems; positive means they express high confidence in AI safety and deployment.
+For agent, negative means they are skeptical of or worried about autonomous agents; positive means they are bullish on deploying AI agents.
 Set source to "tweets".`;
 
     const result = await callGemini(prompt, SENTIMENT_SCHEMA);
@@ -260,8 +333,8 @@ Then return a JSON object with these exact fields:
   "trends": "optimistic" | "pessimistic" | "neutral",
   "regulation": <number -1 to 1>,
   "usage": <number -1 to 1>,
-  "trust": <number -1 to 1>,
-  "agent": <number -1 to 1>,
+  "trust": <number -1 to 1, where negative means emphasis on existential/catastrophic risk or low confidence in AI safety>,
+  "agent": <number -1 to 1, where negative means skepticism/fear about autonomous agents and positive means bullishness on deploying agents>,
   "reasoning": "<one sentence summarising the key evidence>",
   "source": "web-search" | "mixed"
 }`;

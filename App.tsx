@@ -14,7 +14,7 @@ export default function App() {
   const [data] = useState<GraphData>(INITIAL_DATA);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
   const [isSidebarOpen, setIsSidebarOpen] = useState(window.innerWidth >= 768);
-  const [isLegendOpen, setIsLegendOpen] = useState(true);
+  const [isLegendOpen, setIsLegendOpen] = useState(false);
   const [showMethodology, setShowMethodology] = useState(false);
 
   // Selection State
@@ -324,7 +324,7 @@ export default function App() {
 
       {/* FLOATING DETAILS CARD (Replacing Right Sidebar) */}
       {selectedNode && (
-        <div className={`fixed z-50 animate-in fade-in duration-300 pointer-events-none flex flex-col gap-2.5 overflow-y-auto details-panel-scroll ${isMobile ? 'bottom-20 left-4 right-4 max-h-[calc(100vh-160px)]' : `top-6 right-6 w-[580px] max-w-[calc(100vw-48px)] max-h-[calc(100vh-48px)] slide-in-from-right-10`}`}>
+        <div className={`fixed z-50 animate-in fade-in duration-300 pointer-events-none flex flex-col gap-2.5 overflow-y-auto details-panel-scroll ${isMobile ? 'bottom-20 left-4 right-4 max-h-[calc(100vh-160px)]' : `top-6 right-6 w-[420px] max-w-[calc(100vw-48px)] max-h-[calc(100vh-90px)] slide-in-from-right-10`}`}>
 
                 {/* Row 1 — X snapshot + LinkedIn snapshot side-by-side */}
                 <ProfileCardsRow

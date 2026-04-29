@@ -100,19 +100,19 @@ export function XProfileCard({ node, connectionCount, onClose, showClose }: XPro
         {/* Name info on left, avatar on right (overflows banner with -mt-6) */}
         <div className="flex justify-between items-start">
           <div className="mt-2 mb-1.5 flex-1 min-w-0">
-            <h2 className="text-sm font-bold text-white leading-tight mb-0 truncate flex items-center gap-1">
+            <h2 className="text-base font-bold text-white leading-tight mb-0 truncate flex items-center gap-1">
               {node.name}
               {node.verified === 'gold' && <BadgeCheck className="w-3.5 h-3.5 text-amber-400 fill-amber-400/20 flex-shrink-0" />}
               {node.verified === 'blue' && <BadgeCheck className="w-3.5 h-3.5 text-blue-400 fill-blue-400/20 flex-shrink-0" />}
             </h2>
-            {node.handle && <div className="text-slate-500 text-[10px] mb-1 truncate">@{node.handle}</div>}
+            {node.handle && <div className="text-slate-500 text-xs mb-1 truncate">@{node.handle}</div>}
             {(node.group || node.role) && (
               <div className="flex items-center gap-1.5 flex-wrap">
-                <span className={`text-[9px] font-semibold px-1.5 py-0.5 rounded-full ${badgeClass}`}>
+                <span className={`text-[10px] font-semibold px-1.5 py-0.5 rounded-full ${badgeClass}`}>
                   {node.group.charAt(0).toUpperCase() + node.group.slice(1)}
                 </span>
                 {node.role && (
-                  <span className="text-[10px] text-slate-400 truncate max-w-[160px]">
+                  <span className="text-xs text-slate-400 truncate max-w-[160px]">
                     {node.role}
                     {node.associated && node.associated !== node.name ? ` · ${node.associated}` : ''}
                   </span>
@@ -135,29 +135,25 @@ export function XProfileCard({ node, connectionCount, onClose, showClose }: XPro
 
         {/* Bio */}
         {node.bio && (
-          <p className="text-[10px] text-slate-300 leading-relaxed mb-2 line-clamp-3">{node.bio}</p>
+          <p className="text-xs text-slate-300 leading-relaxed mb-2 line-clamp-4">{node.bio}</p>
         )}
 
-        {/* Stats */}
-        <div className="flex gap-3 pt-1 border-t border-white/5 mb-2">
+        {/* Stats + Follow on X inline */}
+        <div className="flex items-center gap-3 pt-1.5 border-t border-white/5">
           <div className="text-center">
-            <div className="font-bold text-white text-xs">{formatFollowers(node.followers)}</div>
-            <div className="text-slate-600 text-[9px]">Followers</div>
+            <div className="font-bold text-white text-sm">{formatFollowers(node.followers)}</div>
+            <div className="text-slate-500 text-[10px]">Followers</div>
           </div>
           <div className="text-center">
-            <div className="font-bold text-white text-xs">{connectionCount}</div>
-            <div className="text-slate-600 text-[9px]">Network links</div>
+            <div className="font-bold text-white text-sm">{connectionCount}</div>
+            <div className="text-slate-500 text-[10px]">Network links</div>
           </div>
-        </div>
-
-        {/* Follow on X button — pinned to card bottom so both cards align */}
-        <div className="mt-auto pt-1">
           {node.handle && (
             <a
               href={`https://x.com/${node.handle}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 px-2.5 py-1 bg-white hover:bg-white/90 text-black font-semibold text-[10px] rounded-full transition-all"
+              className="ml-auto inline-flex items-center gap-1 px-2.5 py-1 bg-white hover:bg-white/90 text-black font-semibold text-[10px] rounded-full transition-all"
             >
               <XLogo className="w-2.5 h-2.5" fill="currentColor" />
               Follow on X
@@ -237,20 +233,20 @@ export function LinkedInProfileCard({ node, onClose }: LinkedInProfileCardProps)
 
         {/* Bio */}
         {node.bio && (
-          <p className="text-[10px] text-slate-300 leading-relaxed mb-2 line-clamp-3">{node.bio}</p>
+          <p className="text-xs text-slate-300 leading-relaxed mb-2 line-clamp-4">{node.bio}</p>
         )}
 
         {/* Stats */}
-        <div className="flex gap-3 pt-1 border-t border-white/5 mb-2">
+        <div className="flex gap-3 pt-1.5 border-t border-white/5 mb-2">
           <div className="text-center">
-            <div className="font-bold text-white text-xs">{extras?.connections ?? '500+'}</div>
-            <div className="text-slate-600 text-[9px]">Connections</div>
+            <div className="font-bold text-white text-sm">{extras?.connections ?? '500+'}</div>
+            <div className="text-slate-500 text-[10px]">Connections</div>
           </div>
           <div className="text-center flex items-center gap-1">
-            <MapPin className="w-2.5 h-2.5 text-slate-600" />
+            <MapPin className="w-2.5 h-2.5 text-slate-500" />
             <div>
-              <div className="font-bold text-white text-xs truncate max-w-[110px]">{extras?.location ?? '—'}</div>
-              <div className="text-slate-600 text-[9px]">Location</div>
+              <div className="font-bold text-white text-sm truncate max-w-[110px]">{extras?.location ?? '—'}</div>
+              <div className="text-slate-500 text-[10px]">Location</div>
             </div>
           </div>
         </div>

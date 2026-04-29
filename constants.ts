@@ -85,7 +85,7 @@ const PREVIEW_PATCH_NODES = [
     associated: 'xAI',
     verified: 'gold' as const,
     joinedDate: 'Jun 2009',
-    bioTags: ['xAI', 'AGI', 'Grok', 'Robots'],
+    bioTags: ['Autonomous Driving (Tesla FSD)', 'Grok (xAI LLM)', 'Grok Imagine (AI Image Generation)', 'Neuralink (Brain-Computer Interfaces)', 'LLM Development'],
     bio: 'CEO of xAI, Tesla, SpaceX. Building Grok. Most followed person on X.',
     followers: 170000000,
     following: 1000,
@@ -148,7 +148,7 @@ export const ALL_INITIAL_DATA: GraphData = {
         "associated": "",
         "verified": "blue",
         "joinedDate": "Jul 2006",
-        "bioTags": [],
+        "bioTags": ["LLMs/AI Models", "ChatGPT", "AI Agents", "AI Infrastructure & Compute", "AGI & Superintelligence"],
         "bio": "AI is cool i guess",
         "followers": 4317707,
         "following": 984,
@@ -165,7 +165,7 @@ export const ALL_INITIAL_DATA: GraphData = {
         "associated": "",
         "verified": "blue",
         "joinedDate": "Feb 2009",
-        "bioTags": [],
+        "bioTags": ["AI Assistants (e.g., Microsoft Copilot)", "Large Language Models (LLMs) & Generative AI", "Agentic AI", "AI Platforms & Infrastructure", "Quantum Computing (and its convergence with AI)"],
         "bio": "Chairman and CEO at Microsoft",
         "followers": 3609962,
         "following": 308,
@@ -199,7 +199,7 @@ export const ALL_INITIAL_DATA: GraphData = {
         "associated": "",
         "verified": "blue",
         "joinedDate": "Mar 2007",
-        "bioTags": [],
+        "bioTags": ["AI Agents (Development & Application)", "Context Engineering & Prompt Design", "AI-driven Productivity & Workflow Transformation", "Enterprise AI Adoption & Strategy", "AI Model Evolution & Architecture"],
         "bio": "ceo @box - your business lives in content. unleash it with AI",
         "followers": 2450909,
         "following": 774,
@@ -266,9 +266,7 @@ export const ALL_INITIAL_DATA: GraphData = {
         "associated": "",
         "verified": "blue",
         "joinedDate": "Apr 2009",
-        "bioTags": [
-            "Neural Networks"
-        ],
+        "bioTags": ["LLM-powered Coding Agents", "LLM Training & Development (e.g., nanochat)", "AI Hardware & Infrastructure", "LLM Capabilities & Diverse Applications", "Automated AI Research"],
         "bio": "Building @EurekaLabsAI. Previously Director of AI @ Tesla, founding team @ OpenAI, CS231n/PhD @ Stanford. I like to train large deep neural nets.",
         "followers": 1762686,
         "following": 1050,
@@ -285,10 +283,7 @@ export const ALL_INITIAL_DATA: GraphData = {
         "associated": "",
         "verified": "blue",
         "joinedDate": "Apr 2008",
-        "bioTags": [
-            "Research",
-            "Founder"
-        ],
+        "bioTags": ["AI Agents", "AI in Software Development", "AI for Business Operations", "AI for Data Analysis", "Pace of AI Innovation"],
         "bio": "Co-founder & CEO at @Coinbase. Creating more economic freedom in the world. ENS: barmstrong.eth Co-founder @researchhub @newlimit",
         "followers": 1725389,
         "following": 801,
@@ -305,9 +300,7 @@ export const ALL_INITIAL_DATA: GraphData = {
         "associated": "",
         "verified": "blue",
         "joinedDate": "Nov 2010",
-        "bioTags": [
-            "Founder"
-        ],
+        "bioTags": ["Agentic AI", "AI-Assisted Coding", "Large Language Models (LLMs)", "AI Applications Development", "Open Source AI"],
         "bio": "Co-Founder of Coursera; Stanford CS adjunct faculty. Former head of Baidu AI Group/Google Brain. #ai #machinelearning, #deeplearning #MOOCs",
         "followers": 1357621,
         "following": 1062,
@@ -373,11 +366,7 @@ export const ALL_INITIAL_DATA: GraphData = {
         "associated": "",
         "verified": "blue",
         "joinedDate": "Jun 2009",
-        "bioTags": [
-            "Robotics",
-            "Research",
-            "Professor"
-        ],
+        "bioTags": ["World Models", "Self-Supervised Learning", "Reasoning & Planning", "Physical Understanding", "Persistent Memory"],
         "bio": "Professor at NYU & Executive Chairman at AMI Labs. \nEx-Chief AI Scientist at Meta.\nResearcher in AI, Machine Learning, Robotics, etc.\nACM Turing Award Laureate.",
         "followers": 1029016,
         "following": 773,
@@ -394,9 +383,7 @@ export const ALL_INITIAL_DATA: GraphData = {
         "associated": "",
         "verified": "blue",
         "joinedDate": "Jul 2010",
-        "bioTags": [
-            "Founder"
-        ],
+        "bioTags": ["AI for Software Development", "AI for Scientific Discovery", "Large Language Model (LLM) Capabilities", "AI Compute Infrastructure", "AI Business Applications"],
         "bio": "President & Co-Founder @OpenAI",
         "followers": 909490,
         "following": 8,
@@ -452,10 +439,7 @@ export const ALL_INITIAL_DATA: GraphData = {
         "associated": "",
         "verified": "blue",
         "joinedDate": "Jun 2013",
-        "bioTags": [
-            "AGI",
-            "Founder"
-        ],
+        "bioTags": ["Gemini Models", "Video Generation", "AI for Science", "AI Agents", "Image Generation"],
         "bio": "Nobel Laureate. Co-Founder & CEO @GoogleDeepMind - working on AGI. Solving disease @IsomorphicLabs. Trying to understand the fundamental nature of reality.",
         "followers": 639495,
         "following": 164,
@@ -472,9 +456,7 @@ export const ALL_INITIAL_DATA: GraphData = {
         "associated": "",
         "verified": "blue",
         "joinedDate": "May 2011",
-        "bioTags": [
-            "Founder"
-        ],
+        "bioTags": ["Autonomous Defense Systems", "Underwater Robotics/Sensing", "Robotics Interaction/Control", "AI Regulation"],
         "bio": "I am a technology enthusiast, writer, and modder. Founder of @ModRetro, @Oculus VR, and @Anduriltech. Keeping American superheroes safe with autonomous systems.",
         "followers": 620679,
         "following": 1941,
@@ -508,11 +490,7 @@ export const ALL_INITIAL_DATA: GraphData = {
         "associated": "",
         "verified": "blue",
         "joinedDate": "Aug 2009",
-        "bioTags": [
-            "AGI",
-            "Deep Learning",
-            "Founder"
-        ],
+        "bioTags": ["Artificial General Intelligence (AGI)", "ARC-AGI Benchmarks", "Large Language Models (LLMs)", "Workforce Impact of AI", "Autonomous Driving"],
         "bio": "Co-founder @ndea. Co-founder @arcprize. Creator of Keras and ARC-AGI. Author of 'Deep Learning with Python'.",
         "followers": 603663,
         "following": 825,
@@ -529,7 +507,7 @@ export const ALL_INITIAL_DATA: GraphData = {
         "associated": "",
         "verified": "blue",
         "joinedDate": "Sep 2013",
-        "bioTags": [],
+        "bioTags": ["AI Alignment (including Superalignment)", "Weak-to-strong generalization", "Large Language Models (LLMs) / GPT Models", "AI Applications (e.g., Code Interpreter, AI Therapy)", "Superintelligence"],
         "bio": "SSI @SSI",
         "followers": 586952,
         "following": 3,
@@ -562,10 +540,7 @@ export const ALL_INITIAL_DATA: GraphData = {
         "associated": "",
         "verified": "blue",
         "joinedDate": "Apr 2010",
-        "bioTags": [
-            "Robotics",
-            "Founder"
-        ],
+        "bioTags": ["Spatial Intelligence & 3D World Generation", "Robotics & Embodied AI", "AI Policy & Governance", "Large Language Models (LLMs) & Generative AI", "Computer Vision & Visual-Language Models (VLMs)"],
         "bio": "Prof (CS @Stanford), Co-Director @StanfordHAI, Cofounder/CEO @theworldlabs, #AI #SpatialIntelligence #GenAI #computervision #robotics #AI-healthcare",
         "followers": 554995,
         "following": 1156,
@@ -582,9 +557,7 @@ export const ALL_INITIAL_DATA: GraphData = {
         "associated": "",
         "verified": "blue",
         "joinedDate": "Jan 2019",
-        "bioTags": [
-            "Deep Learning"
-        ],
+        "bioTags": ["AI Safety & Existential Risk", "AGI", "AI Regulation", "LLMs", "Robotics"],
         "bio": "deep learning",
         "followers": 547323,
         "following": 28,
@@ -618,9 +591,7 @@ export const ALL_INITIAL_DATA: GraphData = {
         "associated": "",
         "verified": "blue",
         "joinedDate": "Apr 2008",
-        "bioTags": [
-            "Founder"
-        ],
+        "bioTags": ["AI Web Infrastructure", "Real-time AI Research", "AI Agent Interaction", "Reducing AI Hallucinations", "Enterprise AI Automation"],
         "bio": "founder/ceo @p0 https://t.co/KLxULH5Io7, device following @vintweeta",
         "followers": 545363,
         "following": 1443,
@@ -693,9 +664,7 @@ export const ALL_INITIAL_DATA: GraphData = {
         "associated": "",
         "verified": "blue",
         "joinedDate": "Apr 2014",
-        "bioTags": [
-            "Research"
-        ],
+        "bioTags": ["Large Language Models (LLMs)", "AI Agents", "Vision-Language Models (VLMs)", "Image and Video Generation/Editing", "Efficient/Small AI Models"],
         "bio": "AI research paper tweets, ML @Gradio (acq. by @HuggingFace 🤗) dm for promo ,submit papers here: https://t.co/UzmYN5XOCi",
         "followers": 454313,
         "following": 3157,
@@ -712,9 +681,7 @@ export const ALL_INITIAL_DATA: GraphData = {
         "associated": "",
         "verified": "blue",
         "joinedDate": "Dec 2010",
-        "bioTags": [
-            "Founder"
-        ],
+        "bioTags": ["AI in Software Development", "AI Industry Competition", "AI Impact on Careers", "AI Model Practicality/Demos", "AI for Assistive Technology"],
         "bio": "Founder https://t.co/m6TigM4CJT: Free AI training for the smartest engineers. Will tweet as I wish and suffer the consequences. Accelerando: @kellyclaudeai",
         "followers": 445345,
         "following": 1423,
