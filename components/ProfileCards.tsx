@@ -138,26 +138,25 @@ export function XProfileCard({ node, connectionCount, onClose, showClose }: XPro
           <p className="text-xs text-slate-300 leading-relaxed mb-2 line-clamp-4">{node.bio}</p>
         )}
 
-        {/* Stats + CTA — LinkedIn-style inline metrics + primary blue action */}
-        <div className="mt-auto flex flex-col gap-2 pt-2 border-t border-white/10">
-          <p className="text-[13px] leading-snug text-slate-400">
-            <span className="font-semibold tabular-nums text-white">{formatFollowers(node.followers)}</span>
-            <span> followers</span>
-            <span className="mx-1.5 text-slate-600" aria-hidden>
-              ·
-            </span>
-            <span className="font-semibold tabular-nums text-white">{connectionCount}</span>
-            <span> connections</span>
-          </p>
+        {/* Stats + Follow on X inline */}
+        <div className="flex items-center gap-3 pt-1.5 border-t border-white/5">
+          <div className="text-center">
+            <div className="font-bold text-white text-sm">{formatFollowers(node.followers)}</div>
+            <div className="text-slate-500 text-[10px]">Followers</div>
+          </div>
+          <div className="text-center">
+            <div className="font-bold text-white text-sm">{connectionCount}</div>
+            <div className="text-slate-500 text-[10px]">Network links</div>
+          </div>
           {node.handle && (
             <a
               href={`https://x.com/${node.handle}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex h-8 w-full items-center justify-center gap-2 rounded-full border border-[#0A66C2] bg-[#0A66C2] px-4 text-sm font-semibold text-white transition-colors hover:bg-[#004182] hover:border-[#004182] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#70B5F9] focus-visible:ring-offset-2 focus-visible:ring-offset-[#090A10]"
+              className="ml-auto inline-flex items-center gap-1 px-2.5 py-1 bg-white hover:bg-white/90 text-black font-semibold text-[10px] rounded-full transition-all"
             >
-              <XLogo className="h-4 w-4 shrink-0" fill="white" />
-              <span className="whitespace-nowrap">Follow on X</span>
+              <XLogo className="w-2.5 h-2.5" fill="currentColor" />
+              Follow on X
             </a>
           )}
         </div>

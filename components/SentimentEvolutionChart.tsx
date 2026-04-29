@@ -77,8 +77,8 @@ export default function SentimentEvolutionChart({ personId }: SentimentEvolution
   }
 
   return (
-    <div className="pointer-events-auto rounded-xl border border-white/10 bg-[#090A10]/95 px-3 py-2 shadow-2xl backdrop-blur-xl">
-      <div className="mb-1.5 flex items-center gap-2">
+    <div className="bg-[#090A10]/95 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl pointer-events-auto p-3.5">
+      <div className="flex items-center gap-2 mb-2.5">
         <LineChart className="w-3.5 h-3.5 text-indigo-400 flex-shrink-0" />
         <h3 className="text-xs font-semibold text-white">Sentiment Shift Across Career</h3>
       </div>

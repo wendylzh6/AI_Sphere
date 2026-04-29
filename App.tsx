@@ -1,6 +1,5 @@
 import { useState, useMemo, useRef, useEffect } from 'react';
 import Graph3D from './components/Graph3D';
-import StarsBackground from './components/StarsBackground';
 import AIChatbot from './components/AIChatbot';
 import { ProfileCardsRow } from './components/ProfileCards';
 import CareerMobility from './components/CareerMobility';
@@ -9,11 +8,12 @@ import TopicChips from './components/TopicChips';
 import { INITIAL_DATA, LAST_UPDATED } from './constants';
 import { GraphData, GraphLink, GraphNode, SentimentScores } from './types';
 import { analyzeSentiment } from './services/geminiService';
-import { X as XIcon, ChevronLeft, ChevronRight, Search, HelpCircle } from 'lucide-react';
+import { X as XIcon, ChevronLeft, ChevronRight, Menu, Search, HelpCircle } from 'lucide-react';
 
 export default function App() {
   const [data] = useState<GraphData>(INITIAL_DATA);
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(window.innerWidth >= 768);
   const [isLegendOpen, setIsLegendOpen] = useState(false);
   const [showMethodology, setShowMethodology] = useState(false);
 
@@ -29,7 +29,24 @@ export default function App() {
   const [sentimentLoading, setSentimentLoading] = useState(false);
   const sentimentCache = useRef<Map<string, SentimentScores>>(new Map());
 
+  // Refs for scrolling
+  const listContainerRef = useRef<HTMLDivElement>(null);
   const itemRefs = useRef<Map<string, HTMLButtonElement>>(new Map());
+
+  // Handle responsive layout
+  useEffect(() => {
+    const handleResize = () => {
+      const mobile = window.innerWidth < 768;
+      setIsMobile(mobile);
+      // Auto-close sidebar on mobile, auto-open on desktop
+      if (mobile && isSidebarOpen && window.innerWidth < 768) {
+        setIsSidebarOpen(false);
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   // Only show individual categories — exclude company and media
   const INDIVIDUAL_GROUPS = new Set(['founder', 'researcher', 'investor']);
@@ -184,6 +201,10 @@ export default function App() {
       return;
     }
     setSelectedNode(node);
+    // Auto-close sidebar on mobile when selecting a node
+    if (isMobile) {
+      setIsSidebarOpen(false);
+    }
   };
 
   const closeSelection = () => {
@@ -196,275 +217,245 @@ export default function App() {
   };
 
   return (
-    <div className="relative h-screen w-full overflow-hidden bg-[#0B0C15] font-sans text-white">
-      <StarsBackground />
+    <div className="w-full h-screen relative overflow-hidden bg-[#0B0C15] text-white font-sans">
+      
+      {/* 3D Graph Layer */}
+      <Graph3D
+        data={filteredGraphData}
+        onNodeClick={handleNodeClick}
+        onClearSelection={closeSelection}
+        selectedNode={selectedNode}
+        keepOrphans={!!selectedCategory}
+      />
 
-      <div className="relative z-10 flex h-full w-full">
-        <div
-          className="relative z-20 h-full flex-shrink-0 overflow-visible transition-[width] duration-300 ease-[cubic-bezier(0.22,1,0.36,1)]"
-          style={{ width: isSidebarOpen ? 320 : 0 }}
-        >
-          <button
-            type="button"
-            aria-label={isSidebarOpen ? 'Collapse sidebar' : 'Expand sidebar'}
-            onClick={() => setIsSidebarOpen((o) => !o)}
-            className={`absolute top-1/2 z-30 flex h-16 w-5 -translate-y-1/2 items-center justify-center rounded-r-xl border border-l-0 border-white/15 bg-black/70 text-slate-400 shadow-lg backdrop-blur-md transition-all hover:bg-white/15 hover:text-white ${isSidebarOpen ? '-right-5' : 'right-[-12px]'}`}
-          >
-            {isSidebarOpen ? (
-              <ChevronLeft className="h-2.5 w-2.5" strokeWidth={2.5} />
-            ) : (
-              <ChevronRight className="h-2.5 w-2.5" strokeWidth={2.5} />
-            )}
-          </button>
+      {/* LEFT SIDEBAR - RANKED LIST */}
+      <div
+        className={`absolute top-0 left-0 h-full bg-[#05060A]/80 backdrop-blur-xl border-r border-white/10 z-30 transition-all duration-300 ease-in-out flex flex-col ${isMobile ? (isSidebarOpen ? 'w-72 translate-x-0' : 'w-72 -translate-x-72') : (isSidebarOpen ? 'w-80 translate-x-0' : 'w-80 -translate-x-80')}`}
+      >
+        <div className="px-4 py-3 border-b border-white/10 bg-[#05060A]/50">
+            <h1 className="text-xl font-display font-bold text-white tracking-tight">Top AI Influencers on X</h1>
+            <p className="text-xs text-slate-400 mt-0.5">Data last updated: {LAST_UPDATED}</p>
+        </div>
 
-          <div className="flex h-full w-[320px] flex-col overflow-hidden border-r border-white/10 bg-black/40 backdrop-blur-xl">
-            <div className="border-b border-white/10 bg-[#05060A]/50 px-4 py-3">
-              <h1 className="text-xl font-bold tracking-tight text-white">Top AI Influencers on X</h1>
-              <p className="mt-0.5 text-xs text-slate-400">Data last updated: {LAST_UPDATED}</p>
-            </div>
-
-            <div className="border-b border-white/10 p-3">
-              <div className="relative">
-                <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
-                <input
-                  type="text"
-                  placeholder="Search by name, handle, or role..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full rounded-lg border border-white/10 bg-slate-800/50 py-2 pl-10 pr-4 text-sm text-white placeholder-slate-500 focus:border-indigo-500/50 focus:outline-none focus:ring-1 focus:ring-indigo-500/50"
-                />
-                {searchQuery && (
-                  <button
-                    type="button"
-                    onClick={() => setSearchQuery('')}
-                    className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white"
-                  >
-                    <XIcon className="h-4 w-4" />
-                  </button>
-                )}
-              </div>
-            </div>
-
-            <div className="custom-scroll flex-1 overflow-y-auto overflow-x-hidden p-2">
-              {filteredNodes.map((node) => {
-                const isSelected = selectedNode?.id === node.id;
-                return (
-                  <button
-                    key={node.id}
-                    ref={(el) => {
-                      if (el) itemRefs.current.set(node.id, el);
-                      else itemRefs.current.delete(node.id);
-                    }}
-                    type="button"
-                    onClick={() => handleNodeClick(node)}
-                    className={`mb-1 flex w-full items-center gap-3 rounded-xl border p-3 text-left transition-all duration-200 ${
-                      isSelected
-                        ? 'border-indigo-500/50 bg-indigo-600/20 shadow-lg shadow-indigo-900/20'
-                        : 'border-transparent hover:bg-white/5'
-                    }`}
-                  >
-                    <div
-                      className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-xs font-bold ${
-                        isSelected ? 'bg-indigo-500 text-white' : 'bg-slate-800 text-slate-400'
-                      }`}
-                    >
-                      {nodeRankMap.get(node.id)}
-                    </div>
-                    <div className="min-w-0 flex-1">
-                      <div className="flex items-baseline gap-1.5 truncate">
-                        <span className={`text-sm font-semibold ${isSelected ? 'text-white' : 'text-slate-200'}`}>
-                          {node.name}
-                        </span>
-                        {node.handle && (
-                          <span className="truncate font-mono text-xs text-slate-500">@{node.handle}</span>
-                        )}
-                      </div>
-                      <div className="mt-0.5 flex items-center justify-between gap-2">
-                        <span className="flex-1 truncate text-xs text-slate-500">
-                          {node.role
-                            ? `${node.role}${node.associated && node.associated !== node.name ? ` @ ${node.associated}` : ''}`
-                            : '\u00A0'}
-                        </span>
-                        <span className="shrink-0 whitespace-nowrap text-[10px] text-slate-600">
-                          {node.followers
-                            ? node.followers >= 1_000_000
-                              ? `${(node.followers / 1_000_000).toFixed(1)}M`
-                              : `${Math.round(node.followers / 1000)}K`
-                            : `${node.val} conn.`}
-                        </span>
-                      </div>
-                    </div>
-                  </button>
-                );
-              })}
-            </div>
-
-            <div className="border-t border-white/10 bg-[#05060A]/50 px-3 py-2">
-              <div className="flex items-center justify-between">
-                <button
-                  type="button"
-                  onClick={() => setIsLegendOpen((o) => !o)}
-                  className="flex items-center gap-1.5 text-left"
-                >
-                  <ChevronRight
-                    className={`h-3 w-3 text-slate-500 transition-transform duration-200 ${isLegendOpen ? 'rotate-90' : ''}`}
-                  />
-                  <span className="text-[11px] font-medium uppercase tracking-wider text-slate-500">Legend</span>
-                </button>
-                <span className="ml-4 text-xs text-slate-500">Created by WoW</span>
-              </div>
-              <div
-                className={`flex flex-col gap-0.5 overflow-hidden transition-all duration-200 ease-in-out ${
-                  isLegendOpen ? 'max-h-60 opacity-100' : 'max-h-0 opacity-0'
-                }`}
+        {/* Search Bar */}
+        <div className="p-3 border-b border-white/10">
+          <div className="relative">
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
+            <input
+              type="text"
+              placeholder="Search by name, handle, or role..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full pl-10 pr-4 py-2 bg-slate-800/50 border border-white/10 rounded-lg text-sm text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500/50 focus:ring-1 focus:ring-indigo-500/50"
+            />
+            {searchQuery && (
+              <button
+                onClick={() => setSearchQuery('')}
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white"
               >
-                <div className="flex flex-col gap-0.5 pt-2">
-                  {[
-                    { key: 'founder', color: '#38BDF8', label: 'Founder / Builder' },
-                    { key: 'researcher', color: '#E879F9', label: 'Researcher / Academia' },
-                    { key: 'investor', color: '#4ADE80', label: 'Investor' },
-                  ].map((cat) => (
-                    <button
-                      key={cat.key}
-                      type="button"
-                      onClick={() => handleCategoryClick(cat.key)}
-                      className={`flex items-center gap-2 rounded-md px-1 py-0.5 text-left transition-all duration-200 hover:bg-white/5 ${
-                        selectedCategory === cat.key ? 'bg-white/10 ring-1 ring-white/20' : ''
-                      } ${selectedCategory && selectedCategory !== cat.key ? 'opacity-40' : 'opacity-100'}`}
-                    >
-                      <div
-                        className="h-2.5 w-2.5 flex-shrink-0 rounded-full"
-                        style={{ backgroundColor: cat.color, boxShadow: `0 0 6px ${cat.color}` }}
-                      />
-                      <span className="text-[11px] text-slate-300">{cat.label}</span>
-                    </button>
-                  ))}
-                  {selectedCategory && (
-                    <button
-                      type="button"
-                      onClick={() => {
-                        setSelectedCategory(null);
-                        setSelectedNode(null);
-                      }}
-                      className="mt-0.5 px-1 text-left text-[10px] text-indigo-400 transition-colors hover:text-indigo-300"
-                    >
-                      Clear filter
-                    </button>
-                  )}
-                  <div className="my-1.5 border-t border-white/10" />
-                  <button
-                    type="button"
-                    onClick={() => setShowMethodology(true)}
-                    className="flex items-center gap-1.5 px-1 text-[11px] text-indigo-400 transition-colors hover:text-indigo-300"
-                  >
-                    <HelpCircle className="h-3 w-3" />
-                    <span>Methodology</span>
-                  </button>
-                </div>
-              </div>
-            </div>
+                <XIcon className="w-4 h-4" />
+              </button>
+            )}
           </div>
         </div>
 
-        <div className="relative min-h-0 min-w-0 flex-1 overflow-hidden">
-          <Graph3D
-            data={filteredGraphData}
-            onNodeClick={handleNodeClick}
-            selectedNode={selectedNode}
-            keepOrphans={!!selectedCategory}
-          />
+        {/* Scrollable List */}
+        <div className="flex-1 overflow-y-auto overflow-x-hidden p-2 custom-scrollbar">
+            {filteredNodes.map((node, idx) => {
+                const isSelected = selectedNode?.id === node.id;
+                return (
+                    <button
+                        key={node.id}
+                        ref={(el) => {
+                            if (el) itemRefs.current.set(node.id, el);
+                            else itemRefs.current.delete(node.id);
+                        }}
+                        onClick={() => handleNodeClick(node)}
+                        className={`w-full text-left p-3 rounded-xl mb-1 flex items-center gap-3 transition-all duration-200 border ${isSelected ? 'bg-indigo-600/20 border-indigo-500/50 shadow-lg shadow-indigo-900/20' : 'hover:bg-white/5 border-transparent'}`}
+                    >
+                        <div className={`w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold shrink-0 ${isSelected ? 'bg-indigo-500 text-white' : 'bg-slate-800 text-slate-400'}`}>
+                           {nodeRankMap.get(node.id)}
+                        </div>
+                        <div className="min-w-0 flex-1">
+                            <div className="flex items-baseline gap-1.5 truncate">
+                                <span className={`text-sm font-semibold ${isSelected ? 'text-white' : 'text-slate-200'}`}>
+                                    {node.name}
+                                </span>
+                                {node.handle && (
+                                    <span className="text-xs text-slate-500 font-mono truncate">
+                                        @{node.handle}
+                                    </span>
+                                )}
+                            </div>
+                            <div className="flex items-center justify-between gap-2 mt-0.5">
+                                <span className="text-xs text-slate-500 truncate flex-1">
+                                    {node.role
+                                      ? `${node.role}${node.associated && node.associated !== node.name ? ` @ ${node.associated}` : ''}`
+                                      : '\u00A0'}
+                                </span>
+                                <span className="text-[10px] text-slate-600 whitespace-nowrap shrink-0">
+                                    {node.followers
+                                      ? node.followers >= 1000000
+                                        ? `${(node.followers / 1000000).toFixed(1)}M`
+                                        : `${Math.round(node.followers / 1000)}K`
+                                      : `${node.val} conn.`}
+                                </span>
+                            </div>
+                        </div>
+                    </button>
+                )
+            })}
+        </div>
+
+        {/* Creator Profile */}
+        <div className="border-t border-white/10 bg-[#05060A]/50 px-4 py-3 text-center">
+          <span className="text-xs text-slate-500">Created by WoW</span>
         </div>
       </div>
 
+      {/* Sidebar Toggle Button */}
+      <button
+        onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+        className={`absolute top-6 z-40 p-2 bg-slate-800/80 text-white border border-white/10 rounded-r-lg hover:bg-slate-700 transition-all duration-300 ${isMobile ? (isSidebarOpen ? 'left-72' : 'left-0') : (isSidebarOpen ? 'left-80' : 'left-0')}`}
+      >
+        {isSidebarOpen ? <ChevronLeft className="w-4 h-4" /> : <Menu className="w-4 h-4" />}
+      </button>
+
+
+      {/* FLOATING DETAILS CARD (Replacing Right Sidebar) */}
       {selectedNode && (
-        <div className="details-panel-scroll pointer-events-none fixed right-4 top-4 z-50 flex max-h-[calc(100vh-90px)] w-[420px] max-w-[min(420px,calc(100vw-2rem))] flex-col gap-2 overflow-y-auto">
-          <ProfileCardsRow
-            node={selectedNode}
-            connectionCount={connectionCountMap.get(selectedNode.id) || 0}
-            onClose={closeSelection}
-          />
+        <div className={`fixed z-50 animate-in fade-in duration-300 pointer-events-none flex flex-col gap-2.5 overflow-y-auto details-panel-scroll ${isMobile ? 'bottom-20 left-4 right-4 max-h-[calc(100vh-160px)]' : `top-6 right-6 w-[420px] max-w-[calc(100vw-48px)] max-h-[calc(100vh-90px)] slide-in-from-right-10`}`}>
 
-          <SentimentEvolutionChart personId={selectedNode.id} />
+                {/* Row 1 — X snapshot + LinkedIn snapshot side-by-side */}
+                <ProfileCardsRow
+                    node={selectedNode}
+                    connectionCount={connectionCountMap.get(selectedNode.id) || 0}
+                    onClose={closeSelection}
+                />
 
-          <CareerMobility personId={selectedNode.id} />
+                {/* Row 2 — Sentiment Shift (only renders when a meaningful transition exists) */}
+                <SentimentEvolutionChart personId={selectedNode.id} />
 
-          <div className="pointer-events-auto rounded-xl border border-white/10 bg-[#090A10]/95 p-3 shadow-2xl backdrop-blur-xl">
-            <div className="mb-2 flex items-center justify-between">
-              <div className="flex items-center gap-2">
-                <h3 className="text-xs font-semibold text-white">AI Sentiment</h3>
-              </div>
-              <div className="flex items-center gap-1.5">
-                {sentimentScores && (
-                  <>
-                    <span className="text-[9px] text-slate-400">Trends:</span>
-                    <span
-                      className={`rounded-full px-1.5 py-0.5 text-[9px] font-semibold ${
-                        sentimentScores.trends === 'optimistic'
-                          ? 'bg-emerald-500/20 text-emerald-300'
-                          : sentimentScores.trends === 'pessimistic'
+                {/* Row 3 — Career Mobility timeline */}
+                <CareerMobility personId={selectedNode.id} />
+
+                {/* Row 4 — AI Sentiment (Gemini) */}
+                <div className="bg-[#090A10]/95 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl pointer-events-auto p-3.5">
+                  <div className="flex items-center justify-between mb-2">
+                    <div className="flex items-center gap-2">
+                      <h3 className="text-sm font-semibold text-white">AI Sentiment</h3>
+                      <span className="text-[9px] font-semibold text-indigo-400 bg-indigo-500/10 border border-indigo-500/20 px-1.5 py-0.5 rounded-full">Gemini</span>
+                    </div>
+                    {sentimentLoading && (
+                      <div className="flex items-center gap-1.5">
+                        <div className="w-1.5 h-1.5 rounded-full bg-indigo-400 animate-bounce" style={{ animationDelay: '0ms' }} />
+                        <div className="w-1.5 h-1.5 rounded-full bg-indigo-400 animate-bounce" style={{ animationDelay: '150ms' }} />
+                        <div className="w-1.5 h-1.5 rounded-full bg-indigo-400 animate-bounce" style={{ animationDelay: '300ms' }} />
+                      </div>
+                    )}
+                  </div>
+
+                  {sentimentLoading && !sentimentScores && (
+                    <p className="text-xs text-slate-500 italic">Analyzing profile…</p>
+                  )}
+
+                  {sentimentScores && (
+                    <>
+                      {/* AI Trends badge */}
+                      <div className="flex items-center gap-2 mb-3">
+                        <span className="text-xs text-slate-400">AI Trends Outlook:</span>
+                        <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${
+                          sentimentScores.trends === 'optimistic'
+                            ? 'bg-emerald-500/20 text-emerald-300'
+                            : sentimentScores.trends === 'pessimistic'
                             ? 'bg-red-500/20 text-red-300'
                             : 'bg-slate-500/20 text-slate-300'
-                      }`}
-                    >
-                      {sentimentScores.trends.charAt(0).toUpperCase() + sentimentScores.trends.slice(1)}
-                    </span>
-                  </>
-                )}
-                <span className="rounded-full border border-indigo-500/20 bg-indigo-500/10 px-1.5 py-0.5 text-[8px] font-semibold text-indigo-400">
-                  Gemini
-                </span>
-                {sentimentLoading && (
-                  <div className="flex items-center gap-1.5">
-                    <div className="h-1.5 w-1.5 animate-bounce rounded-full bg-indigo-400" style={{ animationDelay: '0ms' }} />
-                    <div className="h-1.5 w-1.5 animate-bounce rounded-full bg-indigo-400" style={{ animationDelay: '150ms' }} />
-                    <div className="h-1.5 w-1.5 animate-bounce rounded-full bg-indigo-400" style={{ animationDelay: '300ms' }} />
-                  </div>
-                )}
-              </div>
-            </div>
+                        }`}>
+                          {sentimentScores.trends.charAt(0).toUpperCase() + sentimentScores.trends.slice(1)}
+                        </span>
+                      </div>
 
-            {sentimentLoading && !sentimentScores && (
-              <p className="text-xs italic text-slate-500">Analyzing profile…</p>
-            )}
+                      <SentimentBar
+                        label="Regulation"
+                        value={sentimentScores.regulation}
+                        leftLabel="Against"
+                        rightLabel="Pro"
+                      />
+                      <SentimentBar
+                        label="AI Usage"
+                        value={sentimentScores.usage}
+                        leftLabel="Restrictive"
+                        rightLabel="Enthusiastic"
+                      />
+                      <SentimentBar
+                        label="Trust vs. Risk"
+                        value={sentimentScores.trust}
+                        leftLabel="High Risk"
+                        rightLabel="High Trust"
+                      />
+                      <SentimentBar
+                        label="AI Agents"
+                        value={sentimentScores.agent}
+                        leftLabel="Skeptical"
+                        rightLabel="Bullish"
+                      />
+                      <p className="text-[10px] text-slate-600 mt-2 italic">Inferred from bio & focus areas via Gemini</p>
+                    </>
+                  )}
 
-            {sentimentScores && (
-              <>
-                <SentimentBar
-                  label="Regulation"
-                  value={sentimentScores.regulation}
-                  leftLabel="Against"
-                  rightLabel="Pro"
-                />
-                <SentimentBar
-                  label="AI Usage"
-                  value={sentimentScores.usage}
-                  leftLabel="Restrictive"
-                  rightLabel="Enthusiastic"
-                />
-                <SentimentBar
-                  label="Trust vs. Risk"
-                  value={sentimentScores.trust}
-                  leftLabel="High Risk"
-                  rightLabel="High Trust"
-                />
-                <SentimentBar
-                  label="AI Agents"
-                  value={sentimentScores.agent}
-                  leftLabel="Skeptical"
-                  rightLabel="Bullish"
-                />
-                <p className="mt-2 text-[10px] italic text-slate-600">Inferred from bio & focus areas via Gemini</p>
-              </>
-            )}
+                  {!sentimentLoading && !sentimentScores && (
+                    <p className="text-xs text-slate-500 italic">No API key configured for sentiment analysis.</p>
+                  )}
+                </div>
 
-            {!sentimentLoading && !sentimentScores && (
-              <p className="text-xs italic text-slate-500">No API key configured for sentiment analysis.</p>
-            )}
-          </div>
+                {/* Row 5 — AI Topics chips */}
+                <TopicChips topics={selectedNode.bioTags} />
 
-          <TopicChips topics={selectedNode.bioTags} />
         </div>
       )}
+
+      {/* Legend */}
+      <div className={`absolute z-20 bg-[#0B0C15]/80 backdrop-blur-md border border-white/10 rounded-xl transition-all duration-300 ease-in-out ${isMobile ? 'top-4 right-4' : 'bottom-24 right-6'} ${isLegendOpen ? 'p-4' : 'p-2'}`}>
+        <button
+          onClick={() => setIsLegendOpen(!isLegendOpen)}
+          className="flex items-center gap-2 w-full text-left"
+        >
+          <div className="text-xs text-slate-400 uppercase tracking-wider font-medium">Legend</div>
+          <ChevronRight className={`w-3 h-3 text-slate-400 transition-transform duration-300 ${isLegendOpen ? 'rotate-90' : ''}`} />
+        </button>
+        <div className={`flex flex-col gap-1 overflow-hidden transition-all duration-300 ease-in-out ${isLegendOpen ? 'mt-3 max-h-60 opacity-100' : 'max-h-0 opacity-0'}`}>
+          {[
+            { key: 'founder', color: '#38BDF8', label: 'Founder / Builder' },
+            { key: 'researcher', color: '#E879F9', label: 'Researcher / Academia' },
+            { key: 'investor', color: '#4ADE80', label: 'Investor' },
+          ].map(cat => (
+            <button
+              key={cat.key}
+              onClick={() => handleCategoryClick(cat.key)}
+              className={`flex items-center gap-2 px-2 py-1 rounded-md transition-all duration-200 text-left ${selectedCategory === cat.key ? 'bg-white/10 ring-1 ring-white/20' : 'hover:bg-white/5'} ${selectedCategory && selectedCategory !== cat.key ? 'opacity-40' : 'opacity-100'}`}
+            >
+              <div className="w-3 h-3 rounded-full flex-shrink-0" style={{ backgroundColor: cat.color, boxShadow: `0 0 8px ${cat.color}` }} />
+              <span className="text-xs text-slate-300">{cat.label}</span>
+            </button>
+          ))}
+          {selectedCategory && (
+            <button
+              onClick={() => { setSelectedCategory(null); setSelectedNode(null); }}
+              className="text-[10px] text-indigo-400 hover:text-indigo-300 transition-colors mt-1 px-2"
+            >
+              Clear filter
+            </button>
+          )}
+          <div className="border-t border-white/10 my-2" />
+          <button
+            onClick={() => setShowMethodology(true)}
+            className="flex items-center gap-1.5 text-xs text-indigo-400 hover:text-indigo-300 transition-colors"
+          >
+            <HelpCircle className="w-3.5 h-3.5" />
+            <span>Methodology</span>
+          </button>
+        </div>
+      </div>
 
       {/* Methodology Modal */}
       {showMethodology && (
@@ -529,16 +520,6 @@ export default function App() {
       )}
 
       <style>{`
-        .custom-scroll::-webkit-scrollbar {
-          width: 4px;
-        }
-        .custom-scroll::-webkit-scrollbar-track {
-          background: transparent;
-        }
-        .custom-scroll::-webkit-scrollbar-thumb {
-          background: rgba(255, 255, 255, 0.1);
-          border-radius: 4px;
-        }
         .custom-scrollbar::-webkit-scrollbar {
           width: 6px;
         }
@@ -553,7 +534,13 @@ export default function App() {
           background: rgba(255, 255, 255, 0.2);
         }
         .details-panel-scroll { scrollbar-width: thin; scrollbar-color: rgba(255,255,255,0.12) transparent; }
-        .details-panel-scroll::-webkit-scrollbar { display: none; }
+        .details-panel-scroll::-webkit-scrollbar { width: 4px; }
+        .details-panel-scroll::-webkit-scrollbar-track { background: transparent; }
+        .details-panel-scroll::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.12); border-radius: 4px; }
+        @keyframes moveRight {
+          0% { left: -6px; }
+          100% { left: calc(100% + 6px); }
+        }
       `}</style>
 
       {/* In-app AI assistant (Gemini-powered) */}
