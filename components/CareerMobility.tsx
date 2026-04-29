@@ -14,7 +14,7 @@ export default function CareerMobility({ personId }: CareerMobilityProps) {
   const history = careerHistory[personId];
 
   return (
-    <div className="bg-[#090A10]/95 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl px-3.5 py-3 pointer-events-auto">
+    <div className="bg-[#090A10]/95 backdrop-blur-xl border border-white/10 rounded-xl shadow-2xl px-3 py-2 pointer-events-auto">
       <div className="flex items-center gap-2 mb-2.5">
         <Briefcase className="w-3.5 h-3.5 text-indigo-400" />
         <h3 className="text-xs font-semibold text-white">Career Mobility</h3>
@@ -28,7 +28,7 @@ export default function CareerMobility({ personId }: CareerMobilityProps) {
           {[...history].reverse().map((step, i, arr) => {
             const isLast = i === arr.length - 1;
             return (
-              <div key={`${step.y}-${step.c}-${i}`} className="flex flex-col items-center relative" style={{ flex: 1, minWidth: 90 }}>
+              <div key={`${step.y}-${step.c}-${i}`} className="flex flex-col items-center relative" style={{ flex: 1, minWidth: 68 }}>
                 <div className="flex items-center w-full mb-1.5">
                   <div
                     className="w-2 h-2 rounded-full flex-shrink-0"

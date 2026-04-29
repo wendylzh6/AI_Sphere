@@ -237,16 +237,16 @@ export function LinkedInProfileCard({ node, onClose }: LinkedInProfileCardProps)
         )}
 
         {/* Stats */}
-        <div className="flex gap-3 pt-1.5 border-t border-white/5 mb-2">
+        <div className="flex gap-3 pt-1 border-t border-white/5 mb-2">
           <div className="text-center">
-            <div className="font-bold text-white text-sm">{extras?.connections ?? '500+'}</div>
-            <div className="text-slate-500 text-[10px]">Connections</div>
+            <div className="font-bold text-white text-xs">{extras?.connections ?? '500+'}</div>
+            <div className="text-slate-600 text-[9px]">Connections</div>
           </div>
           <div className="text-center flex items-center gap-1">
-            <MapPin className="w-2.5 h-2.5 text-slate-500" />
+            <MapPin className="w-2.5 h-2.5 text-slate-600" />
             <div>
-              <div className="font-bold text-white text-sm truncate max-w-[110px]">{extras?.location ?? '—'}</div>
-              <div className="text-slate-500 text-[10px]">Location</div>
+              <div className="font-bold text-white text-xs truncate max-w-[110px]">{extras?.location ?? '—'}</div>
+              <div className="text-slate-600 text-[9px]">Location</div>
             </div>
           </div>
         </div>
