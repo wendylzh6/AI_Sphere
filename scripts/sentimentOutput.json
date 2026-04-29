@@ -548,5 +548,24 @@
       "AI Agents & Agentic Systems"
     ],
     "tweetCount": 960
+  },
+  "rasbt": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0.0,
+      "usage": 0.80,
+      "trust": 0.55,
+      "agent": 0.65,
+      "reasoning": "Sebastian Raschka is an ML educator and researcher deeply focused on open-weight LLMs, architecture comparisons, and hands-on learning. His tweets contain zero regulatory opinions — purely technical. He celebrates open-weight releases enthusiastically, actively builds and writes about coding agents, and dismisses safety concerns about open-weight models as unfounded. No existential risk framing; pragmatic and constructive throughout.",
+      "source": "tweets"
+    },
+    "topics": [
+      "Open-Weight LLM Architectures",
+      "LLM Education & Books",
+      "Coding Agents & Inference Scaling",
+      "RL Training (GRPO, RLVR)",
+      "Model Benchmarking & Comparisons"
+    ],
+    "tweetCount": 450
   }
 }
