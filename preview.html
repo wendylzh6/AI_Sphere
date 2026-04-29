@@ -1230,7 +1230,11 @@
     document.getElementById('card-bio').textContent  = p.bio;
 
     document.getElementById('card-followers').textContent = fmt(p.followers);
-    const connCount = rawLinks.filter(l => l.source===p.id || l.target===p.id).length;
+    const connCount = new Set(
+      rawLinks
+        .filter(l => l.source===p.id || l.target===p.id)
+        .map(l => [l.source, l.target].sort().join('|'))
+    ).size;
     document.getElementById('card-connections').textContent = connCount;
 
     // ── LinkedIn Snapshot ──
