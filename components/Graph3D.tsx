@@ -7,12 +7,11 @@ import { GraphData, GraphNode } from '../types';
 interface Graph3DProps {
   data: GraphData;
   onNodeClick: (node: GraphNode) => void;
-  onClearSelection: () => void;
   selectedNode?: GraphNode | null;
   keepOrphans?: boolean;
 }
 
-const Graph3D: React.FC<Graph3DProps> = ({ data, onNodeClick, onClearSelection, selectedNode, keepOrphans = false }) => {
+const Graph3D: React.FC<Graph3DProps> = ({ data, onNodeClick, selectedNode, keepOrphans = false }) => {
   const graphRef = useRef<ForceGraphMethods>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const labelsRef = useRef<Map<string, { element: HTMLDivElement; object: THREE.Object3D }>>(new Map());
@@ -392,75 +391,8 @@ const Graph3D: React.FC<Graph3DProps> = ({ data, onNodeClick, onClearSelection, 
     return 'rgba(255, 255, 255, 0.4)';
   }, [selectedNode]);
 
-  // Zoom controls
-  const handleZoomIn = useCallback(() => {
-    const fg = graphRef.current;
-    if (fg) {
-      const camera = fg.camera();
-      const controls = fg.controls() as { update?: () => void } | null;
-      if (camera && controls) {
-        const distance = camera.position.length();
-        const newDistance = distance * 0.7;
-        const direction = camera.position.clone().normalize();
-        camera.position.copy(direction.multiplyScalar(newDistance));
-        controls.update?.();
-      }
-    }
-  }, []);
-
-  const handleZoomOut = useCallback(() => {
-    const fg = graphRef.current;
-    if (fg) {
-      const camera = fg.camera();
-      const controls = fg.controls() as { update?: () => void } | null;
-      if (camera && controls) {
-        const distance = camera.position.length();
-        const newDistance = distance * 1.4;
-        const direction = camera.position.clone().normalize();
-        camera.position.copy(direction.multiplyScalar(newDistance));
-        controls.update?.();
-      }
-    }
-  }, []);
-
-  const handleResetView = useCallback(() => {
-    const fg = graphRef.current;
-    if (fg) {
-      fg.zoomToFit(500, 100); // 500ms animation, positive padding = more zoomed out
-    }
-    onClearSelection(); // Clear any selected node
-  }, [onClearSelection]);
-
   return (
-    <div ref={containerRef} className="absolute inset-0 z-0 bg-[#0B0C15]">
-      {/* Zoom Controls - bottom center, horizontal */}
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-50 flex flex-row bg-black/40 backdrop-blur-md rounded-lg border border-white/10 overflow-hidden">
-        <button
-          onClick={handleZoomOut}
-          className="px-4 py-2 text-white hover:bg-white/10 transition-colors border-r border-white/10"
-          title="Zoom Out"
-        >
-          <span className="text-lg font-light">−</span>
-        </button>
-        <button
-          onClick={handleResetView}
-          className="px-4 py-2 text-white hover:bg-white/10 transition-colors border-r border-white/10"
-          title="Reset View"
-        >
-          <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
-            <path d="M3 3v5h5" />
-          </svg>
-        </button>
-        <button
-          onClick={handleZoomIn}
-          className="px-4 py-2 text-white hover:bg-white/10 transition-colors"
-          title="Zoom In"
-        >
-          <span className="text-lg font-light">+</span>
-        </button>
-      </div>
-
+    <div ref={containerRef} className="relative z-0 h-full w-full min-h-0 min-w-0 bg-[#0B0C15]">
       <ForceGraph3D
         ref={graphRef}
         graphData={processedData}
