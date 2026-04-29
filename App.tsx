@@ -146,10 +146,14 @@ export default function App() {
 
   // Per-node connection counts used in the X snapshot card (Network links stat).
   const connectionCountMap = useMemo(() => {
+    const pairsSeen = new Set<string>();
     const map = new Map<string, number>();
     data.links.forEach((link: GraphLink) => {
       const s = typeof link.source === 'object' ? (link.source as any).id : link.source;
       const t = typeof link.target === 'object' ? (link.target as any).id : link.target;
+      const key = [s, t].sort().join('|');
+      if (pairsSeen.has(key)) return;
+      pairsSeen.add(key);
       map.set(s, (map.get(s) || 0) + 1);
       map.set(t, (map.get(t) || 0) + 1);
     });
