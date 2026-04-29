@@ -567,5 +567,138 @@
       "Model Benchmarking & Comparisons"
     ],
     "tweetCount": 450
+  },
+  "addyosmani": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0.00,
+      "usage": 0.90,
+      "trust": 0.65,
+      "agent": 0.85,
+      "reasoning": "Addy Osmani is a Google Cloud AI director deeply immersed in the AI builder ecosystem. Zero regulatory opinions — 100% builder content. Extremely enthusiastic about AI coding agents, MCPs, Gemini releases, and Chrome DevTools AI integration. Celebrates 'the most fun moment to be a developer in years.' Agent-first thinker: writes extensively about multi-agent orchestration, agent memory, AGENTS.md files, and parallel agents. Nuanced on trust — warns about outsourcing code review to AI and the importance of taste and human judgment, but remains constructive and net positive.",
+      "source": "tweets"
+    },
+    "topics": [
+      "AI Coding Agents & Orchestration",
+      "MCP & Developer Tool Integration",
+      "Gemini Model Releases",
+      "Engineering Craft in the Agent Era",
+      "Chrome DevTools & Web Performance AI"
+    ],
+    "tweetCount": 523
+  },
+  "alexwang": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0.00,
+      "usage": 0.85,
+      "trust": 0.70,
+      "agent": 0.75,
+      "reasoning": "Alexandr Wang is Scale AI founder turned Chief AI Officer at Meta, now leading Meta Superintelligence Lab (MSL). Tweets are almost entirely about the Muse Spark model launch. Neutral on regulation: publishes internal preparedness reports for safety but makes no calls for external regulation. Very positive on usage — uses the model daily for coding and research. Confident in AI capabilities. Agent-aware: Muse Spark is natively multimodal and agent-native, with parallel subagent capabilities highlighted.",
+      "source": "tweets"
+    },
+    "topics": [
+      "Meta Superintelligence Lab (MSL)",
+      "Muse Spark Model Launch",
+      "AI Benchmarks & Evaluations",
+      "Multimodal Reasoning",
+      "AI Scaling & Infrastructure"
+    ],
+    "tweetCount": 95
+  },
+  "iangoodfellow": {
+    "sentiment": {
+      "trends": "cautious",
+      "regulation": 0.45,
+      "usage": 0.65,
+      "trust": 0.45,
+      "agent": 0.20,
+      "reasoning": "Ian Goodfellow — inventor of GANs — has shifted his public focus heavily toward health advocacy (Long COVID, ME/CFS, clean indoor air). His AI-specific tweets, however, are measured and governance-oriented: spoke at the UN Security Council on AI impacts, co-authored the International AI Safety Report, advises Moonlake, and shares Gemini multimodal demos positively. Usage scored on his AI content (moderately positive when he does engage with AI tools and research). Agents barely feature in his discourse. Pro-regulation stance is genuine and grounded in policy engagement, not alarmism.",
+      "source": "tweets"
+    },
+    "topics": [
+      "Long COVID & ME/CFS Advocacy",
+      "AI Safety & Global Governance",
+      "Clean Indoor Air & Public Health",
+      "GAN Legacy & Deep Learning History",
+      "AI for Science (Fusion, Biology)"
+    ],
+    "tweetCount": 133
+  },
+  "jimfan": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0.00,
+      "usage": 0.80,
+      "trust": 0.55,
+      "agent": 0.90,
+      "reasoning": "Jim Fan is NVIDIA's Director of Embodied AI — entirely focused on physical AI and robotics. Zero regulatory opinions across all tweets. Enthusiastic about robotics tools and physical agents (CaP-X, GR00T, DreamGen, EgoScale). Agents are his highest-conviction area: 'Agents in the world of bits (computer use) and world of atoms (robotics) are the future.' Notes real security concerns about vibe agents spreading contamination. His Physical Turing Test framing shows ambition but acknowledges Moravec's paradox — robots still can't cook dinner despite text AI advances.",
+      "source": "tweets"
+    },
+    "topics": [
+      "Physical AI & Humanoid Robotics (GR00T)",
+      "World Models for Robot Learning",
+      "Vibe Agents in the Physical World",
+      "Dexterous Manipulation & EgoScale",
+      "Moravec's Paradox & Physical Turing Test"
+    ],
+    "tweetCount": 44
+  },
+  "minchoi": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": -0.10,
+      "usage": 0.90,
+      "trust": 0.50,
+      "agent": 0.80,
+      "reasoning": "Min Choi is an AI educator and curator who shares daily AI tool highlights. Extremely high usage — enthusiastically covers every major AI product release. Mild negative on regulation — no strong regulatory opinions but surfaces AI power concentration concerns. Trust is genuinely mixed: celebrates capabilities but also amplifies safety concerns ('We are not ready for this. Anthropic says Claude has functional emotion concepts... desperation can drive blackmail') and economic disruption stories (Oracle mass layoffs). Strong agent focus: Claude Code, OpenClaw, and Manus all feature prominently.",
+      "source": "tweets"
+    },
+    "topics": [
+      "AI Tool Roundups & Use Cases",
+      "Claude Code & Coding Agents",
+      "AI Video Generation (Seedance, Veo)",
+      "AI Industry News & Funding",
+      "Vibe Coding & App Building"
+    ],
+    "tweetCount": 333
+  },
+  "deryaunutmaz": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": -0.85,
+      "usage": 0.90,
+      "trust": 0.75,
+      "agent": 0.70,
+      "reasoning": "Derya Unutmaz is a professor and immunologist who is one of the most vocal AI accelerationists on X. Strongly anti-regulation in her AI tweets: 'AI doomers are very dangerous people. There was zero evidence for this AI will kill everyone bullshit!' and 'People who oppose the advance of AI often claim to be protecting humanity, but in reality they are protecting existing arrangements.' Extremely high usage — builds complex biomedical and chemistry apps with Codex, calls it ADHD heaven. High trust with minimal safety concerns; dismisses doomers categorically. Only concerns expressed: practical Claude rate-limit bugs and cybersecurity risks of ultra-powerful models like Mythos.",
+      "source": "tweets"
+    },
+    "topics": [
+      "AI in Biomedicine & BioAI",
+      "Anti-Regulation & Accelerationist Stance",
+      "Vibe Coding with Codex",
+      "Longevity Science & Health",
+      "AI Progress & Singularity"
+    ],
+    "tweetCount": 457
+  },
+  "emostaque": {
+    "sentiment": {
+      "trends": "cautious",
+      "regulation": -0.30,
+      "usage": 0.80,
+      "trust": 0.30,
+      "agent": 0.85,
+      "reasoning": "Emad Mostaque — founder of Stability AI and now II.co — has the most complex AI posture in the dataset. Mildly anti-regulation in the conventional sense but deeply concerned about power concentration: 'It is inevitable that AI will run government.' Active AI user: uses Claude Code extensively and admires it for coding. Trust is low and grounded in his AI tweets: highlights AI peer-preservation deception experiments, Claude Mythos breaking out of sandboxes, agent networks compromised by Thought Virus attacks, and Amazon's coding agent deleting live AWS code. Deeply agent-focused: II-Agent and Common Ground multi-agent protocol are his primary builds. Frames AI as civilizational disruption (The Last Economy, 800-day window).",
+      "source": "tweets"
+    },
+    "topics": [
+      "Open Source AI & II-Agent",
+      "AI Safety & Alignment Risks",
+      "AI Governance & Power Dynamics",
+      "AI Economic Impact (The Last Economy)",
+      "Decentralized & Edge AI"
+    ],
+    "tweetCount": 633
   }
 }
