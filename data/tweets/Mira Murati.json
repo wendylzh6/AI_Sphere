@@ -1,0 +1,635 @@
+{
+  "source": {
+    "file": "51 AI influencers",
+    "influencerId": "miramurati",
+    "handle": "miramurati",
+    "profileUrl": "https://x.com/miramurati"
+  },
+  "filters": {
+    "startDate": "2023-04-16",
+    "endDate": "2026-04-16",
+    "minWords": 10,
+    "excludeReplies": false,
+    "excludeReposts": false
+  },
+  "collectedAt": "2026-04-29T15:57:25.225Z",
+  "totalTweets": 88,
+  "tweets": [
+    {
+      "id": "2043740848337367488",
+      "url": "https://x.com/miramurati/status/2043740848337367488",
+      "createdAt": "2026-04-13T17:19:23.000Z",
+      "text": "Welcome @luke_drago_ and @LRudL_ to @thinkymachines . They started Workshop Labs determined to build AI that keeps the future human. They’ll continue that mission at Thinking Machines, where we create powerful AI systems that think alongside humans and extend our agency. From",
+      "wordCount": 42
+    },
+    {
+      "id": "2035063683416813820",
+      "url": "https://x.com/johnschulman2/status/2035063683416813820",
+      "createdAt": "2026-03-20T18:39:26.000Z",
+      "text": "Models that are great at calibrated predictions will be transformative for decision making. Excited about Mantic's work and proud they're using Tinker. Their new blog post digs into their methodology and findings.",
+      "wordCount": 32
+    },
+    {
+      "id": "2034019355806339110",
+      "url": "https://x.com/brhydon/status/2034019355806339110",
+      "createdAt": "2026-03-17T21:29:39.000Z",
+      "text": "Model has good taste and so do the modellers (taste in training infra, that is)",
+      "wordCount": 15
+    },
+    {
+      "id": "2031355859071283377",
+      "url": "https://x.com/miramurati/status/2031355859071283377",
+      "createdAt": "2026-03-10T13:05:52.000Z",
+      "text": "Grateful to Jensen and @nvidia team for their support. Together, we’re working to deploy at least 1GW of Vera Rubin systems, bringing adaptable collaborative AI to everyone. https:// thinkingmachines.ai/nvidia-partner ship/ …",
+      "wordCount": 31
+    },
+    {
+      "id": "2029992542419530126",
+      "url": "https://x.com/tinkerapi/status/2029992542419530126",
+      "createdAt": "2026-03-06T18:48:32.000Z",
+      "text": "Contextual AI used Tinker to post-train the planning behavior for a search agent. They land on a two-stage training recipe: On-Policy Distillation and GRPO with a CLP reward. Read more",
+      "wordCount": 30
+    },
+    {
+      "id": "2019157678069805355",
+      "url": "https://x.com/tinkerapi/status/2019157678069805355",
+      "createdAt": "2026-02-04T21:14:39.000Z",
+      "text": "Since Tinker launched, our community has used it to train state-of-the-art models, build infrastructure, and publish novel research. We will be highlighting this creative work in regular roundups, and hope to inspire your own Tinkering as well.",
+      "wordCount": 37
+    },
+    {
+      "id": "2011577319295692801",
+      "url": "https://x.com/miramurati/status/2011577319295692801",
+      "createdAt": "2026-01-14T23:13:00.000Z",
+      "text": "We have parted ways with Barret Zoph. Soumith Chintala will be the new CTO of Thinking Machines. He is a brilliant and seasoned leader who has made important contributions to the AI field for over a decade, and he’s been a major contributor to our team. We could not be more",
+      "wordCount": 51
+    },
+    {
+      "id": "1999546821438234937",
+      "url": "https://x.com/miramurati/status/1999546821438234937",
+      "createdAt": "2025-12-12T18:28:06.000Z",
+      "text": "We're making Tinker generally available with new models and features.",
+      "wordCount": 10
+    },
+    {
+      "id": "1983623898081194347",
+      "url": "https://x.com/thinkymachines/status/1983623898081194347",
+      "createdAt": "2025-10-29T19:56:05.000Z",
+      "text": "Roadmap update: Tinker launched into private beta a month ago, and we've seen hundreds of builders and researchers train and experiment with models on our platform. This month we've added new models, expanded the cookbook, and improved overall capacity and performance.",
+      "wordCount": 41
+    },
+    {
+      "id": "1983584539210608900",
+      "url": "https://x.com/miramurati/status/1983584539210608900",
+      "createdAt": "2025-10-29T17:19:42.000Z",
+      "text": "As part of our commitment to open and collaborative science, we’re expanding free access to Tinker for researchers and instructors with our grants program.",
+      "wordCount": 24
+    },
+    {
+      "id": "1982856564970254772",
+      "url": "https://x.com/miramurati/status/1982856564970254772",
+      "createdAt": "2025-10-27T17:06:59.000Z",
+      "text": "Combining the benefits of RL and SFT with on-policy distillation, a promising approach for training small models for domain performance and continual learning.",
+      "wordCount": 23
+    },
+    {
+      "id": "1981150469776167367",
+      "url": "https://x.com/johnschulman2/status/1981150469776167367",
+      "createdAt": "2025-10-23T00:07:34.000Z",
+      "text": "We're happy to support the Human Centered LLMs course, on topics close to our hearts. We'd like to support more classes with free credits for students to use on assignments and projects. If you're an instructor interested in using Tinker in your course, please reach out to",
+      "wordCount": 47
+    },
+    {
+      "id": "1973498366521954774",
+      "url": "https://x.com/miramurati/status/1973498366521954774",
+      "createdAt": "2025-10-01T21:20:51.000Z",
+      "text": "Today we launched Tinker. Tinker brings frontier tools to researchers, offering clean abstractions for writing experiments and training pipelines while handling distributed training complexity. It enables novel research, custom models, and solid baselines. Excited to see what",
+      "wordCount": 37
+    },
+    {
+      "id": "1973468610917179630",
+      "url": "https://x.com/karpathy/status/1973468610917179630",
+      "createdAt": "2025-10-01T19:22:36.000Z",
+      "text": "Tinker is cool. If you're a researcher/developer, tinker dramatically simplifies LLM post-training. You retain 90% of algorithmic creative control (usually related to data, loss function, the algorithm) while tinker handles the hard parts that you usually want to touch much less",
+      "wordCount": 41
+    },
+    {
+      "id": "1973455582603649430",
+      "url": "https://x.com/robertnishihara/status/1973455582603649430",
+      "createdAt": "2025-10-01T18:30:50.000Z",
+      "text": "Very excited to see the Tinker release! @pcmoritz and I had a chance to experiment with the API. It does a nice job of providing flexibility while abstracting away GPU handling. Here's a simple example showing how to generate synthetic data and fine tune a text to SQL model.",
+      "wordCount": 49
+    },
+    {
+      "id": "1972725548494577735",
+      "url": "https://x.com/miramurati/status/1972725548494577735",
+      "createdAt": "2025-09-29T18:09:56.000Z",
+      "text": "Today on Connectionism: establishing the conditions under which LoRA matches full fine-tuning performance, with new experimental results and a grounding in information theory",
+      "wordCount": 23
+    },
+    {
+      "id": "1971624309262373359",
+      "url": "https://x.com/miramurati/status/1971624309262373359",
+      "createdAt": "2025-09-26T17:14:00.000Z",
+      "text": "Sharing our second Connectionism research post on Modular Manifolds, a mathematical approach to refining training at each layer of the neural network",
+      "wordCount": 22
+    },
+    {
+      "id": "1966245455815487703",
+      "url": "https://x.com/woosuk_k/status/1966245455815487703",
+      "createdAt": "2025-09-11T21:00:22.000Z",
+      "text": "At Thinking Machines, our work includes collaborating with the broader research community. Today we are excited to share that we are building a vLLM team at @thinkymachines to advance open-source vLLM and serve frontier models. If you are interested, please DM me or @barret_zoph !",
+      "wordCount": 45
+    },
+    {
+      "id": "1965828555620880442",
+      "url": "https://x.com/miramurati/status/1965828555620880442",
+      "createdAt": "2025-09-10T17:23:45.000Z",
+      "text": "A big part of our mission at Thinking Machines is to improve people’s scientific understanding of AI and work with the broader research community. Introducing Connectionism today to share some of our scientific insights.",
+      "wordCount": 34
+    },
+    {
+      "id": "1945166365834535247",
+      "url": "https://x.com/miramurati/status/1945166365834535247",
+      "createdAt": "2025-07-15T16:59:35.000Z",
+      "text": "Thinking Machines Lab exists to empower humanity through advancing collaborative general intelligence. We're building multimodal AI that works with how you naturally interact with the world - through conversation, through sight, through the messy way we collaborate. We're",
+      "wordCount": 38
+    },
+    {
+      "id": "1894444742844583958",
+      "url": "https://x.com/miramurati/status/1894444742844583958",
+      "createdAt": "2025-02-25T17:49:58.000Z",
+      "text": "If you’d like to be part of a team making huge ambitious bets on multimodality among other things & work with Rowan, we’re hiring!",
+      "wordCount": 24
+    },
+    {
+      "id": "1891929073116451277",
+      "url": "https://x.com/miramurati/status/1891929073116451277",
+      "createdAt": "2025-02-18T19:13:36.000Z",
+      "text": "Follow us @thinkymachines for more updates over the coming weeks",
+      "wordCount": 10
+    },
+    {
+      "id": "1891918981507813793",
+      "url": "https://x.com/miramurati/status/1891918981507813793",
+      "createdAt": "2025-02-18T18:33:30.000Z",
+      "text": "If you’re interested in joining our team, consider applying here",
+      "wordCount": 10
+    },
+    {
+      "id": "1891918876029616494",
+      "url": "https://x.com/miramurati/status/1891918876029616494",
+      "createdAt": "2025-02-18T18:33:04.000Z",
+      "text": "I started Thinking Machines Lab alongside a remarkable team of scientists, engineers, and builders. We're building three things: - Helping people adapt AI systems to work for their specific needs - Developing strong foundations to build more capable AI systems - Fostering a",
+      "wordCount": 43
+    },
+    {
+      "id": "1839025700009030027",
+      "url": "https://x.com/miramurati/status/1839025700009030027",
+      "createdAt": "2024-09-25T19:34:28.000Z",
+      "text": "I shared the following note with the OpenAI team today.",
+      "wordCount": 10
+    },
+    {
+      "id": "1835773859947069734",
+      "url": "https://x.com/OpenAINewsroom/status/1835773859947069734",
+      "createdAt": "2024-09-16T20:12:49.000Z",
+      "text": "The Safety and Security Committee—a committee established to review critical safety and security issues—has made recommendations across five key areas, which we are adopting.",
+      "wordCount": 24
+    },
+    {
+      "id": "1834665203407241366",
+      "url": "https://x.com/OpenAI/status/1834665203407241366",
+      "createdAt": "2024-09-13T18:47:25.000Z",
+      "text": "There has been a lot of enthusiasm to try OpenAI o1-preview and o1-mini, and some users hit their rate limits quickly. We reset weekly rate limits for all Plus and Team users so that you can keep experimenting with o1.",
+      "wordCount": 40
+    },
+    {
+      "id": "1834608585151594537",
+      "url": "https://x.com/OpenAIDevs/status/1834608585151594537",
+      "createdAt": "2024-09-13T15:02:26.000Z",
+      "text": "We’re hosting an AMA for developers from 10–11 AM PT today. Reply to this thread with any questions and the OpenAI o1 team will answer as many as they can.",
+      "wordCount": 30
+    },
+    {
+      "id": "1834476333868396986",
+      "url": "https://x.com/willdepue/status/1834476333868396986",
+      "createdAt": "2024-09-13T06:16:55.000Z",
+      "text": "curious about RL given the o1 and o1-mini release? interested in the algorithms behind reasoning? reminder that @jachiam0 's Spinning Up is still one of the best resources (though slightly out of date) for learning reinforcement learning. spinningup dot openai dot com!",
+      "wordCount": 42
+    },
+    {
+      "id": "1834425979680555280",
+      "url": "https://x.com/miramurati/status/1834425979680555280",
+      "createdAt": "2024-09-13T02:56:50.000Z",
+      "text": "Today we rolled out OpenAI o1-preview and o1-mini to all ChatGPT Plus/Team users & Tier 5 developers in the API. o1 marks the start of a new era in AI, where models are trained to \"think\" before answering through a private chain of thought. The more time they take to think, the",
+      "wordCount": 52
+    },
+    {
+      "id": "1821677356362412160",
+      "url": "https://x.com/miramurati/status/1821677356362412160",
+      "createdAt": "2024-08-08T22:38:21.000Z",
+      "text": "Shared our GPT-4o system card today, with details of our extensive safety evaluations and mitigations implemented before deploying the model. We talk about specific risks, such as unauthorized voice generation and ungrounded inference, and how these were addressed through robust",
+      "wordCount": 40
+    },
+    {
+      "id": "1819085357872521674",
+      "url": "https://x.com/miramurati/status/1819085357872521674",
+      "createdAt": "2024-08-01T18:58:40.000Z",
+      "text": "Consider joining @karinanguyen ’s team to align and craft our models",
+      "wordCount": 11
+    },
+    {
+      "id": "1818374216997314738",
+      "url": "https://x.com/miramurati/status/1818374216997314738",
+      "createdAt": "2024-07-30T19:52:51.000Z",
+      "text": "Today we’re rolling out advanced Voice Mode in ChatGPT to small group of Plus users, all Plus users in fall. Richer and more natural real-time conversations make the technology less rigid — we’ve found it more collaborative and helpful and think you will as well.",
+      "wordCount": 45
+    },
+    {
+      "id": "1816549003242451056",
+      "url": "https://x.com/miramurati/status/1816549003242451056",
+      "createdAt": "2024-07-25T19:00:06.000Z",
+      "text": "Our SearchGPT prototype is now live. We’re looking for feedback as we prepare to integrate the experience in ChatGPT",
+      "wordCount": 19
+    },
+    {
+      "id": "1816166426610393463",
+      "url": "https://x.com/miramurati/status/1816166426610393463",
+      "createdAt": "2024-07-24T17:39:53.000Z",
+      "text": "Cranking up the accuracy and safety of our models, while cutting down on the need for a lot of human-labeled data.",
+      "wordCount": 21
+    },
+    {
+      "id": "1813996188229894218",
+      "url": "https://x.com/miramurati/status/1813996188229894218",
+      "createdAt": "2024-07-18T17:56:08.000Z",
+      "text": "GPT-4o mini makes intelligence far more affordable opening up a wide range of applications. Available on API and rolling out on ChatGPT today",
+      "wordCount": 23
+    },
+    {
+      "id": "1806401616943477234",
+      "url": "https://x.com/__nmca__/status/1806401616943477234",
+      "createdAt": "2024-06-27T18:58:01.000Z",
+      "text": "As AI improves humans will need more and more help to monitor and control it. So my team at OpenAI have trained an AI that helps humans to evaluate AI! (1/5)",
+      "wordCount": 31
+    },
+    {
+      "id": "1804567253578662264",
+      "url": "https://x.com/miramurati/status/1804567253578662264",
+      "createdAt": "2024-06-22T17:28:55.000Z",
+      "text": "At OpenAI, we’re working to advance scientific understanding to help improve human well-being. The AI tools we are building, like Sora, GPT-4o, DALL·E and ChatGPT, are impressive from a technical standpoint. But what really matters is how they’re starting to change the way we",
+      "wordCount": 44
+    },
+    {
+      "id": "1800371566464880663",
+      "url": "https://x.com/miramurati/status/1800371566464880663",
+      "createdAt": "2024-06-11T03:36:45.000Z",
+      "text": "Very happy to have Kevin & Sarah on our team!",
+      "wordCount": 10
+    },
+    {
+      "id": "1788357304150319391",
+      "url": "https://x.com/miramurati/status/1788357304150319391",
+      "createdAt": "2024-05-08T23:56:22.000Z",
+      "text": "Shaping model behavior is a nascent science and this is another step in our systematic approach to model safety. We think it’s crucial for people to understand and participate in the debate of choices involved in shaping model behavior.",
+      "wordCount": 39
+    },
+    {
+      "id": "1788357302506139664",
+      "url": "https://x.com/miramurati/status/1788357302506139664",
+      "createdAt": "2024-05-08T23:56:21.000Z",
+      "text": "Today we introduced the Model Spec, starting a public process on shaping desired model behavior — giving stakeholders more agency over steering AI models as they significantly improve in decision making and instruction following capabilities.",
+      "wordCount": 35
+    },
+    {
+      "id": "1786121367399588279",
+      "url": "https://x.com/miramurati/status/1786121367399588279",
+      "createdAt": "2024-05-02T19:51:33.000Z",
+      "text": "Good article on the work that @charleskfisher & his team at @UnlearnAI are doing, using deep learning to make clinical trials smarter — creating digital twins to predict how diseases progress, which speeds up the whole process and helps more people",
+      "wordCount": 41
+    },
+    {
+      "id": "1785078364191240612",
+      "url": "https://x.com/miramurati/status/1785078364191240612",
+      "createdAt": "2024-04-29T22:47:01.000Z",
+      "text": "Bringing memory to Plus users for a more personalized experience in ChatGPT",
+      "wordCount": 12
+    },
+    {
+      "id": "1773774791264346296",
+      "url": "https://x.com/miramurati/status/1773774791264346296",
+      "createdAt": "2024-03-29T18:10:40.000Z",
+      "text": "Our early findings from an initial evaluation of Voice Engine, a model that generates speech closely resembling the source speaker's voice from text input and a 15-second audio sample.",
+      "wordCount": 29
+    },
+    {
+      "id": "1769035137931718772",
+      "url": "https://x.com/miramurati/status/1769035137931718772",
+      "createdAt": "2024-03-16T16:16:58.000Z",
+      "text": "One year since GPT-4 deployment: From GPT-1 and 2 establishing the language model paradigm, through GPT-3's scaling predictions, to GPT-4 showing how complex systems emerge, mimicking nature’s unpredictable patterns from simple elements. An exploration from observation to deep,",
+      "wordCount": 38
+    },
+    {
+      "id": "1766247920242929913",
+      "url": "https://x.com/miramurati/status/1766247920242929913",
+      "createdAt": "2024-03-08T23:41:34.000Z",
+      "text": "Governance of an institution is critical for oversight, stability, and continuity. I am happy that the independent review has concluded and we can all move forward united. It has been disheartening to witness the previous board’s efforts to scapegoat me with anonymous and",
+      "wordCount": 43
+    },
+    {
+      "id": "1765520365239914968",
+      "url": "https://x.com/miramurati/status/1765520365239914968",
+      "createdAt": "2024-03-06T23:30:31.000Z",
+      "text": "I’ve signed this letter alongside many others to emphasize the profound importance of math education. I think a deep understanding of math will help us build elements that will bring AI usefully into the human world.",
+      "wordCount": 36
+    },
+    {
+      "id": "1758296518753460304",
+      "url": "https://x.com/_tim_brooks/status/1758296518753460304",
+      "createdAt": "2024-02-16T01:05:32.000Z",
+      "text": "Sora is a generalist model of all different durations, resolutions and aspect ratios. here are three generations from the same text prompt at different aspect ratios",
+      "wordCount": 26
+    },
+    {
+      "id": "1758296334602563831",
+      "url": "https://x.com/billpeeb/status/1758296334602563831",
+      "createdAt": "2024-02-16T01:04:48.000Z",
+      "text": "we just released the sora research blog with additional details and results. check it out!",
+      "wordCount": 15
+    },
+    {
+      "id": "1758201356538773985",
+      "url": "https://x.com/miramurati/status/1758201356538773985",
+      "createdAt": "2024-02-15T18:47:23.000Z",
+      "text": "We’re sharing Sora, text-to-video model that creates min long insanely magical scenes",
+      "wordCount": 12
+    },
+    {
+      "id": "1749823864539070645",
+      "url": "https://x.com/nickaturley/status/1749823864539070645",
+      "createdAt": "2024-01-23T15:58:14.000Z",
+      "text": "I'm hiring a few SF-based product leads to run significant parts of the core ChatGPT product and/or venture into brand new areas. You might be a good fit if you've built great products, are excited about AGI, and want to jump in as a hands-on builder. DMs are open!",
+      "wordCount": 49
+    },
+    {
+      "id": "1747315538014195964",
+      "url": "https://x.com/ThankYourNiceAI/status/1747315538014195964",
+      "createdAt": "2024-01-16T17:51:02.000Z",
+      "text": "Thrilled to share this update! Working with these 10 teams to me reaffirmed the promise of better tools and processes to better govern our present and our future. Read about it all in our blog & their reports. Much work remains! I'm hiring researchers to join us on this mission",
+      "wordCount": 50
+    },
+    {
+      "id": "1746994374750437869",
+      "url": "https://x.com/miramurati/status/1746994374750437869",
+      "createdAt": "2024-01-15T20:34:51.000Z",
+      "text": "We’re preparing for the 2024 elections by working to prevent AI abuse, increasing transparency about AI-generated content, and improving access to trustworthy voting information.",
+      "wordCount": 24
+    },
+    {
+      "id": "1745326742628352460",
+      "url": "https://x.com/miramurati/status/1745326742628352460",
+      "createdAt": "2024-01-11T06:08:16.000Z",
+      "text": "We launched two things today: ChatGPT Store and ChatGPT Teams self serve subscription!",
+      "wordCount": 13
+    },
+    {
+      "id": "1737524402806563207",
+      "url": "https://x.com/joannejang/status/1737524402806563207",
+      "createdAt": "2023-12-20T17:24:33.000Z",
+      "text": "you can now clear your sidebar while still keeping chats! shout-out to @Javi , @AntonTananaev @globetro , @prasad1chakka , @ikeadrift for this quality-of-life improvement while also building crazier things <3",
+      "wordCount": 30
+    },
+    {
+      "id": "1736930164825895246",
+      "url": "https://x.com/miramurati/status/1736930164825895246",
+      "createdAt": "2023-12-19T02:03:16.000Z",
+      "text": "If you’re interested in capability prediction for frontier models, modeling and mitigating risks consider joining @aleks_madry ’s team",
+      "wordCount": 18
+    },
+    {
+      "id": "1736816961395601417",
+      "url": "https://x.com/miramurati/status/1736816961395601417",
+      "createdAt": "2023-12-18T18:33:26.000Z",
+      "text": "Our first iteration of Preparedness Framework, systematizing safety thinking and mitigating catastrophic risks from increasingly powerful AI models through rigorous capability evaluations, forecasting, and safety measures.",
+      "wordCount": 26
+    },
+    {
+      "id": "1735356686460915994",
+      "url": "https://x.com/miramurati/status/1735356686460915994",
+      "createdAt": "2023-12-14T17:50:50.000Z",
+      "text": "Exploring generalization properties of deep learning to control strong models with weak supervisors, showing early promise.",
+      "wordCount": 16
+    },
+    {
+      "id": "1734984269586457078",
+      "url": "https://x.com/sama/status/1734984269586457078",
+      "createdAt": "2023-12-13T17:10:58.000Z",
+      "text": "we have re-enabled chatgpt plus subscriptions! thanks for your patience while we found more gpus.",
+      "wordCount": 15
+    },
+    {
+      "id": "1734295279388570094",
+      "url": "https://x.com/gdb/status/1734295279388570094",
+      "createdAt": "2023-12-11T19:33:10.000Z",
+      "text": "Safety Systems, run by @lilianweng , is a really amazing team on the front lines of the broadest deployment of advanced AI in the world. Team faces novel research & engineering problems, and has pioneered a pragmatic wisdom that I respect deeply. Join us:",
+      "wordCount": 44
+    },
+    {
+      "id": "1730032754887430352",
+      "url": "https://x.com/miramurati/status/1730032754887430352",
+      "createdAt": "2023-11-30T01:15:25.000Z",
+      "text": "The OpenAI team is irreplaceable -- I couldn’t be happier to be back at work alongside @sama and @gdb . The mission continues.",
+      "wordCount": 23
+    },
+    {
+      "id": "1729305895417295038",
+      "url": "https://x.com/aleks_madry/status/1729305895417295038",
+      "createdAt": "2023-11-28T01:07:09.000Z",
+      "text": "We're building several efforts at OpenAI: Preparedness, reliable AI deployment research, and AI security research. Up for chatting with us about these at NeurIPS? Fill out this form (by Dec 1):",
+      "wordCount": 31
+    },
+    {
+      "id": "1721668069796593958",
+      "url": "https://x.com/miramurati/status/1721668069796593958",
+      "createdAt": "2023-11-06T23:17:09.000Z",
+      "text": "Concept of AI agents isn’t new, but now we’re iterating towards a future with intelligent, common sense agents that understand why we do things.",
+      "wordCount": 24
+    },
+    {
+      "id": "1721668071629439147",
+      "url": "https://x.com/miramurati/status/1721668071629439147",
+      "createdAt": "2023-11-06T23:17:09.000Z",
+      "text": "GPTs are not omniscient, they’re custom versions of ChatGPT tuned for specific tasks — smart tools that I’m certain we won’t be able to live without.",
+      "wordCount": 26
+    },
+    {
+      "id": "1720891478635843865",
+      "url": "https://x.com/miramurati/status/1720891478635843865",
+      "createdAt": "2023-11-04T19:51:15.000Z",
+      "text": "We’re live streaming the OpenAI DevDay keynote on Monday at 10AM PST. Tune in! https:// youtube.com/live/U9mJuUkhU zk?si=cyxdWxbdKC0Z-gaf …",
+      "wordCount": 18
+    },
+    {
+      "id": "1717639744702550365",
+      "url": "https://x.com/miramurati/status/1717639744702550365",
+      "createdAt": "2023-10-26T20:30:01.000Z",
+      "text": "We just announced our Preparedness Team, led by @aleks_madry . We’re dealing with tangible threats and real-world challenges, dissecting everything from cybersecurity vulnerabilities to the intricacies of AGI. Consider joining us!",
+      "wordCount": 31
+    },
+    {
+      "id": "1717305541914173943",
+      "url": "https://x.com/miramurati/status/1717305541914173943",
+      "createdAt": "2023-10-25T22:22:01.000Z",
+      "text": "We just shared the Frontier Model Forum's initiative, the AI Safety Fund. This fund will enable rigorous, independent research, with the goal of thoroughly examining and evaluating the most advanced AI models of our time.",
+      "wordCount": 35
+    },
+    {
+      "id": "1706328344806215795",
+      "url": "https://x.com/miramurati/status/1706328344806215795",
+      "createdAt": "2023-09-25T15:22:34.000Z",
+      "text": "A more intuitive interface for ChatGPT. Just chat with it using your voice or show it what you’re talking about using images. Rolling out over next 2 weeks.",
+      "wordCount": 28
+    },
+    {
+      "id": "1704558461122658544",
+      "url": "https://x.com/miramurati/status/1704558461122658544",
+      "createdAt": "2023-09-20T18:09:40.000Z",
+      "text": "Make wonderful things with DALL·E 3! Coming to all ChatGPT Plus & Enterprise users over next few weeks. https:// openai.com/dall-e-3",
+      "wordCount": 20
+    },
+    {
+      "id": "1704178807308177737",
+      "url": "https://x.com/OpenAI/status/1704178807308177737",
+      "createdAt": "2023-09-19T17:01:04.000Z",
+      "text": "We're inviting domain experts from a variety of fields to join the OpenAI Red Teaming Network. Apply to collaborate with us to improve the safety of our models:",
+      "wordCount": 28
+    },
+    {
+      "id": "1696224234962665531",
+      "url": "https://x.com/miramurati/status/1696224234962665531",
+      "createdAt": "2023-08-28T18:12:26.000Z",
+      "text": "Just released ChatGPT Enterprise: enterprise-grade security and privacy, unlimited higher-speed GPT-4 access, longer context windows for processing longer inputs, advanced data analysis capabilities, more customization options",
+      "wordCount": 26
+    },
+    {
+      "id": "1691502230019702784",
+      "url": "https://x.com/miramurati/status/1691502230019702784",
+      "createdAt": "2023-08-15T17:28:52.000Z",
+      "text": "We’re using GPT-4 for more reliable and higher quality content moderation",
+      "wordCount": 11
+    },
+    {
+      "id": "1684145154628653056",
+      "url": "https://x.com/OpenAI/status/1684145154628653056",
+      "createdAt": "2023-07-26T10:14:29.000Z",
+      "text": "Announcing Frontier Model Forum, an industry body co-founded with @anthropicAI , @Google , @googledeepmind , and @microsoft focused on ensuring safe development of future hyperscale AI models:",
+      "wordCount": 27
+    },
+    {
+      "id": "1682118097321467904",
+      "url": "https://x.com/miramurati/status/1682118097321467904",
+      "createdAt": "2023-07-20T19:59:41.000Z",
+      "text": "Just launched more personalization with Custom Instructions to give you more control over ChatGPT",
+      "wordCount": 14
+    },
+    {
+      "id": "1682059830499082240",
+      "url": "https://x.com/OpenAI/status/1682059830499082240",
+      "createdAt": "2023-07-20T16:08:09.000Z",
+      "text": "Based on developer feedback, we are extending support for gpt-3.5-turbo-0301 and gpt-4-0314 models in the OpenAI API until at least June 13, 2024.",
+      "wordCount": 23
+    },
+    {
+      "id": "1678965410149040128",
+      "url": "https://x.com/miramurati/status/1678965410149040128",
+      "createdAt": "2023-07-12T03:12:02.000Z",
+      "text": "Exploring curiosity, AI and shared experiences with @kevin_scott on #BehindTheTech. Thanks for the wonderful chat!",
+      "wordCount": 15
+    },
+    {
+      "id": "1677548506943455232",
+      "url": "https://x.com/miramurati/status/1677548506943455232",
+      "createdAt": "2023-07-08T05:21:46.000Z",
+      "text": "If you want to work in AI safety systems, join @lilianweng , she’s building an incredible team",
+      "wordCount": 17
+    },
+    {
+      "id": "1677015057316872192",
+      "url": "https://x.com/OpenAI/status/1677015057316872192",
+      "createdAt": "2023-07-06T18:02:01.000Z",
+      "text": "Code Interpreter will be available to all ChatGPT Plus users over the next week. It lets ChatGPT run code, optionally with access to files you've uploaded. You can ask ChatGPT to analyze data, create charts, edit files, perform math, etc. Plus users can opt in via settings.",
+      "wordCount": 47
+    },
+    {
+      "id": "1676638205452640256",
+      "url": "https://x.com/janleike/status/1676638205452640256",
+      "createdAt": "2023-07-05T17:04:33.000Z",
+      "text": "Our new goal is to solve alignment of superintelligence within the next 4 years. OpenAI is committing 20% of its compute to date towards this goal. Join us in researching how to best spend this compute to solve the problem!",
+      "wordCount": 40
+    },
+    {
+      "id": "1668670591912808448",
+      "url": "https://x.com/miramurati/status/1668670591912808448",
+      "createdAt": "2023-06-13T17:24:06.000Z",
+      "text": "Some updates for our devs: new function calling capability in Chat Completions API, new steerable GPT-4 & 3.5 Turbo models, 16k context 3.5 Turbo model and more",
+      "wordCount": 27
+    },
+    {
+      "id": "1664317616771710976",
+      "url": "https://x.com/OpenAI/status/1664317616771710976",
+      "createdAt": "2023-06-01T17:06:56.000Z",
+      "text": "Announcing the Cybersecurity Grant Program — a $1M initiative to boost and quantify AI-powered cybersecurity capabilities and to foster high-level AI and cybersecurity discourse:",
+      "wordCount": 24
+    },
+    {
+      "id": "1663696190960173056",
+      "url": "https://x.com/OpenAI/status/1663696190960173056",
+      "createdAt": "2023-05-30T23:57:36.000Z",
+      "text": "The ChatGPT iOS app is now available in 152 countries and regions! See the full list here:",
+      "wordCount": 17
+    },
+    {
+      "id": "1661490916836749313",
+      "url": "https://x.com/miramurati/status/1661490916836749313",
+      "createdAt": "2023-05-24T21:54:38.000Z",
+      "text": "ChatGPT app for iOS now in and more to come soon!",
+      "wordCount": 11
+    },
+    {
+      "id": "1660686502362329089",
+      "url": "https://x.com/sama/status/1660686502362329089",
+      "createdAt": "2023-05-22T16:38:10.000Z",
+      "text": "had a great first week of the openai world tour in toronto, DC, rio, lagos, and lisbon. fun to see what people are building and get (lots of) feature requests, and even fun to talk to policymakers! madrid, warsaw, paris, london, and munich this week.",
+      "wordCount": 45
+    },
+    {
+      "id": "1659242193184276482",
+      "url": "https://x.com/miramurati/status/1659242193184276482",
+      "createdAt": "2023-05-18T16:59:00.000Z",
+      "text": "Just launched the ChatGPT iOS app! https:// apps.apple.com/us/app/openai- chatgpt/id6448311069 … Now in the US, world soon. Android next.",
+      "wordCount": 18
+    },
+    {
+      "id": "1657130994682707968",
+      "url": "https://x.com/miramurati/status/1657130994682707968",
+      "createdAt": "2023-05-12T21:09:51.000Z",
+      "text": "Just started rolling out Browsing and Plugins to all ChatGPT Plus users",
+      "wordCount": 12
+    },
+    {
+      "id": "1651621183136178179",
+      "url": "https://x.com/isafulf/status/1651621183136178179",
+      "createdAt": "2023-04-27T16:15:50.000Z",
+      "text": "It was an honor to collaborate and teach with @AndrewYNg , the legend. Let us know what you think!",
+      "wordCount": 19
+    },
+    {
+      "id": "1650916901206495232",
+      "url": "https://x.com/miramurati/status/1650916901206495232",
+      "createdAt": "2023-04-25T17:37:16.000Z",
+      "text": "More privacy and customization over your ChatGPT experience & we'll roll out ChatGPT Business in the coming months",
+      "wordCount": 18
+    }
+  ]
+}

@@ -1,0 +1,1087 @@
+[
+  {
+    "tweet_id": "2044199814838268067",
+    "url": "https://x.com/bcherny/status/2044199814838268067",
+    "author": "bcherny",
+    "date": "2026-04-14T23:43:09.000Z",
+    "text": "We've been working on this for a while. Can't wait to hear what you think"
+  },
+  {
+    "tweet_id": "2043725660452163755",
+    "url": "https://x.com/bcherny/status/2043725660452163755",
+    "author": "bcherny",
+    "date": "2026-04-13T16:19:02.000Z",
+    "text": "You can ask Claude to add a permission rule so it can’t read node_modules, but in practice it is actually often helpful to have Claude read your dependencies’ source"
+  },
+  {
+    "tweet_id": "2043725206385271232",
+    "url": "https://x.com/bcherny/status/2043725206385271232",
+    "author": "bcherny",
+    "date": "2026-04-13T16:17:14.000Z",
+    "text": "Want to help but need details. Please run /feedback next time you see this. We look into each report."
+  },
+  {
+    "tweet_id": "2043715740080222549",
+    "url": "https://x.com/bcherny/status/2043715740080222549",
+    "author": "bcherny",
+    "date": "2026-04-13T15:39:37.000Z",
+    "text": "1h prompt cache is nuanced actually. It costs more for cache writes, and less for cache reads. Whether you benefit from cheaper cache reads depends on your usage pattern -- context window size, whether the query is the main agent or subagent, etc.\n\nWe have been testing a"
+  },
+  {
+    "tweet_id": "2043715713551212834",
+    "url": "https://x.com/bcherny/status/2043715713551212834",
+    "author": "bcherny",
+    "date": "2026-04-13T15:39:31.000Z",
+    "text": "1h prompt cache is nuanced actually. It costs more for cache writes, and less for cache reads. Whether you benefit from cheaper cache reads depends on your usage pattern -- context window size, whether the query is the main agent or subagent, etc.\n\nWe have been testing a"
+  },
+  {
+    "tweet_id": "2043163965648515234",
+    "url": "https://x.com/bcherny/status/2043163965648515234",
+    "author": "bcherny",
+    "date": "2026-04-12T03:07:04.000Z",
+    "text": "This is false. We defaulted to medium as a result of user feedback about Claude using too many tokens. When we made the change, we (1) included it in the changelog and (2) showed a dialog when you opened Claude Code so you could choose to opt out. Literally nothing sneaky about"
+  },
+  {
+    "tweet_id": "2042352726613639570",
+    "url": "https://x.com/bcherny/status/2042352726613639570",
+    "author": "bcherny",
+    "date": "2026-04-09T21:23:29.000Z",
+    "text": "After a few hours, I had a PR. The results were solid -- P99 got 3x faster after porting to TypeScript!"
+  },
+  {
+    "tweet_id": "2042352725481177315",
+    "url": "https://x.com/bcherny/status/2042352725481177315",
+    "author": "bcherny",
+    "date": "2026-04-09T21:23:29.000Z",
+    "text": "To simplify our system, I asked Opus to port the file indexer to native TypeScript. Here's the prompt I used:\n\n> compile our rust+napi file index to native ts. compile the code over, and make sure the code perfectly passes the ORIGINAL test suite from the package. then profile"
+  },
+  {
+    "tweet_id": "2042352723610517963",
+    "url": "https://x.com/bcherny/status/2042352723610517963",
+    "author": "bcherny",
+    "date": "2026-04-09T21:23:29.000Z",
+    "text": "But in big codebases, it would fall over.\n\nSo we introduced a new fileSuggestion setting in Claude Code, so customers with large codebases could plug in their custom code index (using SourceGraph, an in-house index, etc.).\n\n\nhttps://\ncode.claude.com/docs/en/settin\ngs#file-suggestion-settings\n…"
+  },
+  {
+    "tweet_id": "2042352722004099352",
+    "url": "https://x.com/bcherny/status/2042352722004099352",
+    "author": "bcherny",
+    "date": "2026-04-09T21:23:28.000Z",
+    "text": "To power file @-mentions in Claude Code, we used to use a custom Rust-based file indexer that we invoked from Claude Code via NAPI. It was pretty fast."
+  },
+  {
+    "tweet_id": "2042352720489955539",
+    "url": "https://x.com/bcherny/status/2042352720489955539",
+    "author": "bcherny",
+    "date": "2026-04-09T21:23:28.000Z",
+    "text": "Just got a nice DM from a big enterprise customer using Claude Code in one of the world's biggest codebases\n\nHere's how we made @-mentions 3x faster in large enterprise codebases"
+  },
+  {
+    "tweet_id": "2042336695107133443",
+    "url": "https://x.com/bcherny/status/2042336695107133443",
+    "author": "bcherny",
+    "date": "2026-04-09T20:19:47.000Z",
+    "text": "Forgot to respond. It looks like the person who received the gift has a credit available for them to use (so they can redeem the subscription as intended by using their credit)"
+  },
+  {
+    "tweet_id": "2041605852382351666",
+    "url": "https://x.com/bcherny/status/2041605852382351666",
+    "author": "bcherny",
+    "date": "2026-04-07T19:55:41.000Z",
+    "text": "Mythos is very powerful, and should feel terrifying. I am proud of our approach to responsibly preview it with cyber defenders, rather than generally releasing it into the wild.\n\nModel card here: \nhttps://\nwww-cdn.anthropic.com/53566bf5440a10\naffd749724787c8913a2ae0841.pdf\n…"
+  },
+  {
+    "tweet_id": "2041592252661919939",
+    "url": "https://x.com/bcherny/status/2041592252661919939",
+    "author": "bcherny",
+    "date": "2026-04-07T19:01:38.000Z",
+    "text": "Appreciate the feedback.\n\nSince we introduced Claude Code at Anthropic, engineering velocity has increased hundreds of %, and the rate at which it is increasing is itself accelerating.\n\nThe velocity is very much not performative -- we're actively trying to figure out how to"
+  },
+  {
+    "tweet_id": "2041540904029434354",
+    "url": "https://x.com/bcherny/status/2041540904029434354",
+    "author": "bcherny",
+    "date": "2026-04-07T15:37:36.000Z",
+    "text": "It is also possible you have an invalid api key set in an env var, and in -p mode that takes precedence"
+  },
+  {
+    "tweet_id": "2041540709954834557",
+    "url": "https://x.com/bcherny/status/2041540709954834557",
+    "author": "bcherny",
+    "date": "2026-04-07T15:36:49.000Z",
+    "text": "Hmm basic q, but are you logged in? Can you confirm that a regular interactive Claude request works?"
+  },
+  {
+    "tweet_id": "2041333201290006866",
+    "url": "https://x.com/bcherny/status/2041333201290006866",
+    "author": "bcherny",
+    "date": "2026-04-07T01:52:15.000Z",
+    "text": "Would be good to stress test the actuator a bit"
+  },
+  {
+    "tweet_id": "2041321858751172949",
+    "url": "https://x.com/bcherny/status/2041321858751172949",
+    "author": "bcherny",
+    "date": "2026-04-07T01:07:11.000Z",
+    "text": "Oh wow, if you make a second one I would use it every day"
+  },
+  {
+    "tweet_id": "2041254998462611571",
+    "url": "https://x.com/bcherny/status/2041254998462611571",
+    "author": "bcherny",
+    "date": "2026-04-06T20:41:30.000Z",
+    "text": "We think this is an overactive abuse-detection system, digging in. Also working on making the terms for -p crystal clear."
+  },
+  {
+    "tweet_id": "2041254780132380806",
+    "url": "https://x.com/bcherny/status/2041254780132380806",
+    "author": "bcherny",
+    "date": "2026-04-06T20:40:38.000Z",
+    "text": "Nice, glad we found it. Thinking through with the team how to make this self serve"
+  },
+  {
+    "tweet_id": "2041199573771936068",
+    "url": "https://x.com/bcherny/status/2041199573771936068",
+    "author": "bcherny",
+    "date": "2026-04-06T17:01:16.000Z",
+    "text": "We've been landing token-efficiency improvements so you can do more in your sessions. If you have a session where usage felt particularly high, can you run /bug and post the feedback id? Feel free to tag me directly"
+  },
+  {
+    "tweet_id": "2041199126076182683",
+    "url": "https://x.com/bcherny/status/2041199126076182683",
+    "author": "bcherny",
+    "date": "2026-04-06T16:59:29.000Z",
+    "text": "Hmm there were no behavioral/model changes recently. If you see something weird (eg. the model refusing to do something) mind running /bug and posting the feedback id? Feel free to tag me"
+  },
+  {
+    "tweet_id": "2041035127430754686",
+    "url": "https://x.com/bcherny/status/2041035127430754686",
+    "author": "bcherny",
+    "date": "2026-04-06T06:07:49.000Z",
+    "text": "This is not intentional, likely an overactive abuse classifier. Looking, and working on clarifying the policy going forward."
+  },
+  {
+    "tweet_id": "2040592763180474564",
+    "url": "https://x.com/bcherny/status/2040592763180474564",
+    "author": "bcherny",
+    "date": "2026-04-05T00:50:01.000Z",
+    "text": "yep we do this for Bedrock, Vertex, and Azure, since they don’t have a token-counting API available yet. When using Anthropic API we use the token-counting endpoint directly"
+  },
+  {
+    "tweet_id": "2040526563876511979",
+    "url": "https://x.com/bcherny/status/2040526563876511979",
+    "author": "bcherny",
+    "date": "2026-04-04T20:26:58.000Z",
+    "text": "Yep API is fully supported, as well as overages for Claude logins.\n\nThis was always the case in our terms and docs, but since it was recommended in some other products’ 3p docs, a lot of folks didn’t realize it’s not allowed. Hoping the new way is less footgunny for people."
+  },
+  {
+    "tweet_id": "2040318698171588838",
+    "url": "https://x.com/bcherny/status/2040318698171588838",
+    "author": "bcherny",
+    "date": "2026-04-04T06:40:59.000Z",
+    "text": "Sometimes I take for granted how quickly we can ship great product, vs how hard it is to tune a super high throughput inference + api stack. The scale makes the latter really hard. we’re working around the clock to make it better."
+  },
+  {
+    "tweet_id": "2040316648310407675",
+    "url": "https://x.com/bcherny/status/2040316648310407675",
+    "author": "bcherny",
+    "date": "2026-04-04T06:32:50.000Z",
+    "text": "Working on fixing this, will feel better tomorrow. We’re going to send out emails also so people don’t miss it"
+  },
+  {
+    "tweet_id": "2040311045303185594",
+    "url": "https://x.com/bcherny/status/2040311045303185594",
+    "author": "bcherny",
+    "date": "2026-04-04T06:10:35.000Z",
+    "text": "Not a big % but the traffic behaved very differently than other kinds of traffic (eg. very spikey)"
+  },
+  {
+    "tweet_id": "2040310730629820570",
+    "url": "https://x.com/bcherny/status/2040310730629820570",
+    "author": "bcherny",
+    "date": "2026-04-04T06:09:19.000Z",
+    "text": "Everyone gets the same default, and it’s sticky when you change it. The only setting that isn’t sticky across sessions is effort=max, because it can use a lot of tokens"
+  },
+  {
+    "tweet_id": "2040308730190020847",
+    "url": "https://x.com/bcherny/status/2040308730190020847",
+    "author": "bcherny",
+    "date": "2026-04-04T06:01:23.000Z",
+    "text": "This is false. We serve exactly the same models to all users. What the person in the post might be experiencing is a lower effort level vs. what the enterprise set.\n\nClaude Code users can change this anytime by running /effort. low effort = less tokens and lower intelligence,"
+  },
+  {
+    "tweet_id": "2040214791369937346",
+    "url": "https://x.com/bcherny/status/2040214791369937346",
+    "author": "bcherny",
+    "date": "2026-04-03T23:48:06.000Z",
+    "text": "It's not about tokens, it's about our subscriptions being optimized for specific usage patterns. Lots of tradeoffs in building for such large scale, and one of them is optimizing systems for certain use cases and not others"
+  },
+  {
+    "tweet_id": "2040214180385698005",
+    "url": "https://x.com/bcherny/status/2040214180385698005",
+    "author": "bcherny",
+    "date": "2026-04-03T23:45:40.000Z",
+    "text": "We are issuing full refunds, as well as discounts for overages. If you're impacted, expect an email link tomorrow"
+  },
+  {
+    "tweet_id": "2040214037217304906",
+    "url": "https://x.com/bcherny/status/2040214037217304906",
+    "author": "bcherny",
+    "date": "2026-04-03T23:45:06.000Z",
+    "text": "I put up a few PRs to improve prompt cache efficiency actually, to benefit folks using it through API/overages"
+  },
+  {
+    "tweet_id": "2040213760070275281",
+    "url": "https://x.com/bcherny/status/2040213760070275281",
+    "author": "bcherny",
+    "date": "2026-04-03T23:44:00.000Z",
+    "text": "Right, it wasn't allowed. We're now being more explicit about that."
+  },
+  {
+    "tweet_id": "2040213608064491525",
+    "url": "https://x.com/bcherny/status/2040213608064491525",
+    "author": "bcherny",
+    "date": "2026-04-03T23:43:24.000Z",
+    "text": "We're big fans of open source. I actually just put up a few PRs to improve prompt cache efficiency for OpenClaw specifically.\n\nThis is more about engineering constraints. Our systems are highly optimized for one kind of workload, and to serve as many people as possible with the"
+  },
+  {
+    "tweet_id": "2040212589951774808",
+    "url": "https://x.com/bcherny/status/2040212589951774808",
+    "author": "bcherny",
+    "date": "2026-04-03T23:39:21.000Z",
+    "text": "I know it sucks. Fundamentally engineering is about tradeoffs, and one of the things we do to serve a lot of customers is optimize the way subscriptions work to serve as many people as possible with the best model.\n\nThird party services are not optimized in this way, so it's"
+  },
+  {
+    "tweet_id": "2040209045345476893",
+    "url": "https://x.com/bcherny/status/2040209045345476893",
+    "author": "bcherny",
+    "date": "2026-04-03T23:25:16.000Z",
+    "text": "Not planning to ban people, and will be emailing people so they know and can grab refunds if they need"
+  },
+  {
+    "tweet_id": "2040208851837038835",
+    "url": "https://x.com/bcherny/status/2040208851837038835",
+    "author": "bcherny",
+    "date": "2026-04-03T23:24:30.000Z",
+    "text": "Actively working on making it better. Make sure you're using the latest Claude Code version"
+  },
+  {
+    "tweet_id": "2040207998807908432",
+    "url": "https://x.com/bcherny/status/2040207998807908432",
+    "author": "bcherny",
+    "date": "2026-04-03T23:21:06.000Z",
+    "text": "Yep, working on improving clarity here to make it more explicit"
+  },
+  {
+    "tweet_id": "2040207893853864131",
+    "url": "https://x.com/bcherny/status/2040207893853864131",
+    "author": "bcherny",
+    "date": "2026-04-03T23:20:41.000Z",
+    "text": "Actively working on improving reliability and usability. Bear with us"
+  },
+  {
+    "tweet_id": "2040207536281018748",
+    "url": "https://x.com/bcherny/status/2040207536281018748",
+    "author": "bcherny",
+    "date": "2026-04-03T23:19:16.000Z",
+    "text": "No changes to Agent SDK at this time, working on improving clarity more"
+  },
+  {
+    "tweet_id": "2040206444428189755",
+    "url": "https://x.com/bcherny/status/2040206444428189755",
+    "author": "bcherny",
+    "date": "2026-04-03T23:14:56.000Z",
+    "text": "We want to be intentional in managing our growth to continue to serve our customers sustainably long-term. This change is a step toward that."
+  },
+  {
+    "tweet_id": "2040206443094446558",
+    "url": "https://x.com/bcherny/status/2040206443094446558",
+    "author": "bcherny",
+    "date": "2026-04-03T23:14:55.000Z",
+    "text": "Subscribers get a one-time credit equal to your monthly plan cost. If you need more, you can now buy discounted usage bundles. To request a full refund, look for a link in your email tomorrow. \nhttps://\nsupport.claude.com/en/articles/13\n189465-logging-in-to-your-claude-account\n…"
+  },
+  {
+    "tweet_id": "2040206441756471399",
+    "url": "https://x.com/bcherny/status/2040206441756471399",
+    "author": "bcherny",
+    "date": "2026-04-03T23:14:55.000Z",
+    "text": "We’ve been working hard to meet the increase in demand for Claude, and our subscriptions weren't built for the usage patterns of these third-party tools. Capacity is a resource we manage thoughtfully and we are prioritizing our customers using our products and API."
+  },
+  {
+    "tweet_id": "2040206440556826908",
+    "url": "https://x.com/bcherny/status/2040206440556826908",
+    "author": "bcherny",
+    "date": "2026-04-03T23:14:55.000Z",
+    "text": "Starting tomorrow at 12pm PT, Claude subscriptions will no longer cover usage on third-party tools like OpenClaw.\n\nYou can still use these tools with your Claude login via extra usage bundles (now available at a discount), or with a Claude API key."
+  },
+  {
+    "tweet_id": "2039455791317684240",
+    "url": "https://x.com/bcherny/status/2039455791317684240",
+    "author": "bcherny",
+    "date": "2026-04-01T21:32:06.000Z",
+    "text": "It should feel significantly better. CPU/RSS are now constant, rather than growing with O(transcript length)"
+  },
+  {
+    "tweet_id": "2039439746326499752",
+    "url": "https://x.com/bcherny/status/2039439746326499752",
+    "author": "bcherny",
+    "date": "2026-04-01T20:28:21.000Z",
+    "text": "The main thing to avoid flicker is to avoid the \\x1b[3J ANSI code. With NO_FLICKER mode we track the frame buffer in memory, but because in terminals you can only paint to the viewport, it also means we need to virtualize scrolling, and also mouse/keys."
+  },
+  {
+    "tweet_id": "2039436561889235210",
+    "url": "https://x.com/bcherny/status/2039436561889235210",
+    "author": "bcherny",
+    "date": "2026-04-01T20:15:41.000Z",
+    "text": "Thanks for the feedback.\n\n> Scrollback gutted - session history is barely scrollable. I can't review my own conversation.\n\ncan you tell me more about this? how do I repro?\n\n> Rate limits hit harder - prompt caching appears broken since March 23. Sessions that lasted hours now"
+  },
+  {
+    "tweet_id": "2039434962005635253",
+    "url": "https://x.com/bcherny/status/2039434962005635253",
+    "author": "bcherny",
+    "date": "2026-04-01T20:09:20.000Z",
+    "text": "We also have desktop, mobile, and web apps if you prefer"
+  },
+  {
+    "tweet_id": "2039433317750329716",
+    "url": "https://x.com/bcherny/status/2039433317750329716",
+    "author": "bcherny",
+    "date": "2026-04-01T20:02:48.000Z",
+    "text": "This was not intentional. We are debugging what happened on the GitHub side. No one at Anthropic dmca’d these forks"
+  },
+  {
+    "tweet_id": "2039421575422980329",
+    "url": "https://x.com/bcherny/status/2039421575422980329",
+    "author": "bcherny",
+    "date": "2026-04-01T19:16:08.000Z",
+    "text": "Today we're excited to announce NO_FLICKER mode for Claude Code in the terminal\n\nIt uses an experimental new renderer that we're excited about. The renderer is early and has tradeoffs, but already we've found that most internal users prefer it over the old renderer. It also"
+  },
+  {
+    "tweet_id": "2039363129197637787",
+    "url": "https://x.com/bcherny/status/2039363129197637787",
+    "author": "bcherny",
+    "date": "2026-04-01T15:23:54.000Z",
+    "text": "Full trust. In this case the problem wasn’t the person, it was infra that was error prone. Anyone could have made this same mistake by accident."
+  },
+  {
+    "tweet_id": "2039224669820362885",
+    "url": "https://x.com/bcherny/status/2039224669820362885",
+    "author": "bcherny",
+    "date": "2026-04-01T06:13:42.000Z",
+    "text": "Working around the clock to fix this. It’s crazy to grow this fast, we’re scaling up every service as quickly as possible. Thanks for bearing with us. Improvements landing daily and more on the way."
+  },
+  {
+    "tweet_id": "2039211355748880445",
+    "url": "https://x.com/bcherny/status/2039211355748880445",
+    "author": "bcherny",
+    "date": "2026-04-01T05:20:48.000Z",
+    "text": "We’re always experimenting with new ideas. 90% don’t ship because we don’t think they’re good enough experiences. Still on the fence about this one — should we ship it?"
+  },
+  {
+    "tweet_id": "2039210700657307889",
+    "url": "https://x.com/bcherny/status/2039210700657307889",
+    "author": "bcherny",
+    "date": "2026-04-01T05:18:12.000Z",
+    "text": "Mistakes happen. As a team, the important thing is to recognize it’s never an individuals’s fault — it’s the process, the culture, or the infra.\n\nIn this case, there was a manual deploy step that should have been better automated. Our team has made a few improvements to the"
+  },
+  {
+    "tweet_id": "2039209466881863902",
+    "url": "https://x.com/bcherny/status/2039209466881863902",
+    "author": "bcherny",
+    "date": "2026-04-01T05:13:18.000Z",
+    "text": "No one was fired? It was an honest mistake, it happens"
+  },
+  {
+    "tweet_id": "2039207155069505693",
+    "url": "https://x.com/bcherny/status/2039207155069505693",
+    "author": "bcherny",
+    "date": "2026-04-01T05:04:07.000Z",
+    "text": "it was human error. Our deploy process has a few manual steps, and we didn’t do one of the steps correctly. We have landed a few improvements and are digging in to add more sanity checks.\n\nLike with any other incident, the counter-intuitive answer is to solve the problem by"
+  },
+  {
+    "tweet_id": "2039168928145109343",
+    "url": "https://x.com/bcherny/status/2039168928145109343",
+    "author": "bcherny",
+    "date": "2026-04-01T02:32:13.000Z",
+    "text": "No, can confirm it was not related to bun. Just developer error"
+  },
+  {
+    "tweet_id": "2039163121504559320",
+    "url": "https://x.com/bcherny/status/2039163121504559320",
+    "author": "bcherny",
+    "date": "2026-04-01T02:09:08.000Z",
+    "text": "Someone else asked for this but I think it’s weird. You can add it to your thinking words via settings if you like, just ask Claude"
+  },
+  {
+    "tweet_id": "2039161903122087979",
+    "url": "https://x.com/bcherny/status/2039161903122087979",
+    "author": "bcherny",
+    "date": "2026-04-01T02:04:18.000Z",
+    "text": "This is one of the signals we use to figure out if people are having a good experience. We put it on a dashboard and call it the “fucks” chart"
+  },
+  {
+    "tweet_id": "2039156102949208512",
+    "url": "https://x.com/bcherny/status/2039156102949208512",
+    "author": "bcherny",
+    "date": "2026-04-01T01:41:15.000Z",
+    "text": "I came up with the initial list, then a bunch of others contributed words also. This list has gone through many iterations!"
+  },
+  {
+    "tweet_id": "2038656024102793650",
+    "url": "https://x.com/bcherny/status/2038656024102793650",
+    "author": "bcherny",
+    "date": "2026-03-30T16:34:07.000Z",
+    "text": "Hmm weekly limits have not changed recently. Can you run /bug and post the feedback id here?"
+  },
+  {
+    "tweet_id": "2038655685089800602",
+    "url": "https://x.com/bcherny/status/2038655685089800602",
+    "author": "bcherny",
+    "date": "2026-03-30T16:32:46.000Z",
+    "text": "That is way lower than expected. Can you run /bug in a session where you saw this and post the feedback id here?"
+  },
+  {
+    "tweet_id": "2038654766742729131",
+    "url": "https://x.com/bcherny/status/2038654766742729131",
+    "author": "bcherny",
+    "date": "2026-03-30T16:29:07.000Z",
+    "text": "Working as hard as we can to make this better. It’s not easy growing at this rate, and it has been straining our services. Thanks for bearing with us.\n\nA number of significant improvements landed in the last few Claude Code releases and a few more on the way. Make sure you’re on"
+  },
+  {
+    "tweet_id": "2038496136970011054",
+    "url": "https://x.com/bcherny/status/2038496136970011054",
+    "author": "bcherny",
+    "date": "2026-03-30T05:58:47.000Z",
+    "text": "yep, most of it! if you're missing something give \n@amorriscode\n a shout"
+  },
+  {
+    "tweet_id": "2038454363593822519",
+    "url": "https://x.com/bcherny/status/2038454363593822519",
+    "author": "bcherny",
+    "date": "2026-03-30T03:12:47.000Z",
+    "text": "Hope this was useful! I wanted to keep going but had to stop myself. Will post more soon.\n\nWhat are your favorite underrated Claude Code features?"
+  },
+  {
+    "tweet_id": "2038454362226467112",
+    "url": "https://x.com/bcherny/status/2038454362226467112",
+    "author": "bcherny",
+    "date": "2026-03-30T03:12:47.000Z",
+    "text": "15/ Use /voice to enable voice input\n\nFun fact: I do most of my coding by speaking to Claude, rather than typing.\n\nTo do the same, run /voice in CLI then hold the space bar, press the voice button on Desktop, or enable dictation in your iOS settings."
+  },
+  {
+    "tweet_id": "2038454360418787764",
+    "url": "https://x.com/bcherny/status/2038454360418787764",
+    "author": "bcherny",
+    "date": "2026-03-30T03:12:46.000Z",
+    "text": "14/ Use --agent to give Claude Code a custom system prompt & tools\n\nCustom agents are a powerful primitive that often gets overlooked.\n\nTo use it, just define a new agent in .claude/agents, then run claude --agent=<your agent's name>\n\n\nhttps://\ncode.claude.com/docs/en/sub-ag\nents\n…"
+  },
+  {
+    "tweet_id": "2038454359047156203",
+    "url": "https://x.com/bcherny/status/2038454359047156203",
+    "author": "bcherny",
+    "date": "2026-03-30T03:12:46.000Z",
+    "text": "13/ Use --add-dir to give Claude access to more folders\n\nWhen working across multiple repositories, I usually start Claude in one repo and use --add-dir (or /add-dir) to let Claude see the other repo. This not only tells Claude about the repo, but also gives it permissions to"
+  },
+  {
+    "tweet_id": "2038454357088457168",
+    "url": "https://x.com/bcherny/status/2038454357088457168",
+    "author": "bcherny",
+    "date": "2026-03-30T03:12:46.000Z",
+    "text": "12/ Use --bare to speed up SDK startup by up to 10x\n\nBy default, when you run claude -p (or the TypeScript or Python SDKs) we search for local CLAUDE.md's, settings, and MCPs.\n\nBut for non-interactive usage, most of the time you want to explicitly specify what to load via"
+  },
+  {
+    "tweet_id": "2038454355469484142",
+    "url": "https://x.com/bcherny/status/2038454355469484142",
+    "author": "bcherny",
+    "date": "2026-03-30T03:12:45.000Z",
+    "text": "11/ Use /batch to fan out massive changesets\n\n/batch interviews you, then has Claude fan out the work to as many worktree agents as it takes (dozens, hundreds, even thousands) to get it done. \n\nUse it for large code migrations and others kinds of parallelizable work."
+  },
+  {
+    "tweet_id": "2038454353787519164",
+    "url": "https://x.com/bcherny/status/2038454353787519164",
+    "author": "bcherny",
+    "date": "2026-03-30T03:12:45.000Z",
+    "text": "10/ Use git worktrees\n\nClaude Code ships with deep support for git worktrees. Worktrees are essential for doing lots of parallel work in the same repository. I have dozens of Claudes running at all times, and this is how I do it.\n\nUse claude -w to start a new session in a"
+  },
+  {
+    "tweet_id": "2038454351849787485",
+    "url": "https://x.com/bcherny/status/2038454351849787485",
+    "author": "bcherny",
+    "date": "2026-03-30T03:12:44.000Z",
+    "text": "9/ Use /btw for side queries\n\nI use this all the time to answer quick questions while the agent works"
+  },
+  {
+    "tweet_id": "2038454348804714642",
+    "url": "https://x.com/bcherny/status/2038454348804714642",
+    "author": "bcherny",
+    "date": "2026-03-30T03:12:44.000Z",
+    "text": "7/ Use the Claude Desktop app to have Claude automatically start and test web servers\n\nAlong the same vein, the Desktop app bundles in the ability for Claude to automatically run your web server and even test it in a built-in browser.\n\nYou can set up something similar in CLI or"
+  },
+  {
+    "tweet_id": "2038454345419936040",
+    "url": "https://x.com/bcherny/status/2038454345419936040",
+    "author": "bcherny",
+    "date": "2026-03-30T03:12:43.000Z",
+    "text": "5/ Cowork Dispatch\n\nI use Dispatch every day to catch up on Slack and emails, manage files, and do things on my laptop when I'm not at a computer. When I'm not coding, I'm dispatching.\n\nDispatch is a secure remote control for the Claude Desktop app. It can use your MCPs, browser,"
+  },
+  {
+    "tweet_id": "2038454347156398333",
+    "url": "https://x.com/bcherny/status/2038454347156398333",
+    "author": "bcherny",
+    "date": "2026-03-30T03:12:43.000Z",
+    "text": "6/ Use the Chrome extension for frontend work\n\nThe most important tip for using Claude Code is: give Claude a way to verify its output. Once you do that, Claude will iterate until the result is great.\n\nThink of it like any other engineer: if you ask someone to build a website but"
+  },
+  {
+    "tweet_id": "2038454343519932844",
+    "url": "https://x.com/bcherny/status/2038454343519932844",
+    "author": "bcherny",
+    "date": "2026-03-30T03:12:42.000Z",
+    "text": "4/ Use hooks to deterministically run logic as part of the agent lifecycle\n\nFor example, use hooks to:\n- Dynamically load in context each time you start Claude (SessionStart)\n- Log every bash command the model runs (PreToolUse)\n- Route permission prompts to WhatsApp for you to"
+  },
+  {
+    "tweet_id": "2038454341884154269",
+    "url": "https://x.com/bcherny/status/2038454341884154269",
+    "author": "bcherny",
+    "date": "2026-03-30T03:12:42.000Z",
+    "text": "3/ Two of the most powerful features in Claude Code: /loop and /schedule\n\nUse these to schedule Claude to run automatically at a set interval, for up to a week at a time.\n\nI have a bunch of loops running locally:\n\n- /loop 5m /babysit, to auto-address code review, auto-rebase, and"
+  },
+  {
+    "tweet_id": "2038454339933548804",
+    "url": "https://x.com/bcherny/status/2038454339933548804",
+    "author": "bcherny",
+    "date": "2026-03-30T03:12:41.000Z",
+    "text": "2/ Move sessions back and forth between mobile/web/desktop and terminal\n\nRun \"claude --teleport\" or /teleport to continue a cloud session on your machine.\n\nOr run /remote-control to control a locally running session from your phone/web. Personally, I have \"Enable Remote Control"
+  },
+  {
+    "tweet_id": "2038454337811386436",
+    "url": "https://x.com/bcherny/status/2038454337811386436",
+    "author": "bcherny",
+    "date": "2026-03-30T03:12:41.000Z",
+    "text": "1/ Did you know Claude Code has a mobile app?\n\nPersonally, I write a lot of my code from the iOS app. It's a convenient way to make changes without opening a laptop.\n\nDownload the Claude app for iOS/Android > Code tab on the left."
+  },
+  {
+    "tweet_id": "2038454336355999749",
+    "url": "https://x.com/bcherny/status/2038454336355999749",
+    "author": "bcherny",
+    "date": "2026-03-30T03:12:41.000Z",
+    "text": "I wanted to share a bunch of my favorite hidden and under-utilized features in Claude Code. I'll focus on the ones I use the most.\n\nHere goes."
+  },
+  {
+    "tweet_id": "2038164540052181071",
+    "url": "https://x.com/bcherny/status/2038164540052181071",
+    "author": "bcherny",
+    "date": "2026-03-29T08:01:08.000Z",
+    "text": "That sucks — we’re working on improving the support experience. DM me the email on your account?"
+  },
+  {
+    "tweet_id": "2038076729869414888",
+    "url": "https://x.com/bcherny/status/2038076729869414888",
+    "author": "bcherny",
+    "date": "2026-03-29T02:12:12.000Z",
+    "text": "Working on improving this. A bunch of efficiency wins incoming."
+  },
+  {
+    "tweet_id": "2038056509805142383",
+    "url": "https://x.com/bcherny/status/2038056509805142383",
+    "author": "bcherny",
+    "date": "2026-03-29T00:51:51.000Z",
+    "text": "A weird part of working at Anthropic: getting a few of these each day"
+  },
+  {
+    "tweet_id": "2037345143066648588",
+    "url": "https://x.com/bcherny/status/2037345143066648588",
+    "author": "bcherny",
+    "date": "2026-03-27T01:45:08.000Z",
+    "text": "two speculative fixes incoming, this was a little hard to repro"
+  },
+  {
+    "tweet_id": "2037320711396786388",
+    "url": "https://x.com/bcherny/status/2037320711396786388",
+    "author": "bcherny",
+    "date": "2026-03-27T00:08:03.000Z",
+    "text": "qq: do you have a custom statusline by any chance?"
+  },
+  {
+    "tweet_id": "2037194911037235660",
+    "url": "https://x.com/bcherny/status/2037194911037235660",
+    "author": "bcherny",
+    "date": "2026-03-26T15:48:10.000Z",
+    "text": "Reliability for cloud has improved significantly the last few weeks. Can you share/dm me a link to the session where you had issues? What problem did you hit?"
+  },
+  {
+    "tweet_id": "2037042433712939091",
+    "url": "https://x.com/bcherny/status/2037042433712939091",
+    "author": "bcherny",
+    "date": "2026-03-26T05:42:17.000Z",
+    "text": "We don't do spoilers. It's out and you can use it now."
+  },
+  {
+    "tweet_id": "2036981525020053928",
+    "url": "https://x.com/bcherny/status/2036981525020053928",
+    "author": "bcherny",
+    "date": "2026-03-26T01:40:15.000Z",
+    "text": "Guanacas take turns being on the lookout for their herd, kind of like a typechecker"
+  },
+  {
+    "tweet_id": "2036814131312165058",
+    "url": "https://x.com/bcherny/status/2036814131312165058",
+    "author": "bcherny",
+    "date": "2026-03-25T14:35:05.000Z",
+    "text": "Claude Code review finds 99%+ of the bugs, then an engineer sanity checks Claude didn’t miss something obvious"
+  },
+  {
+    "tweet_id": "2036669513924821496",
+    "url": "https://x.com/bcherny/status/2036669513924821496",
+    "author": "bcherny",
+    "date": "2026-03-25T05:00:26.000Z",
+    "text": "This was fixed in yesterday’s release. claude update to make sure you’re on the latest"
+  },
+  {
+    "tweet_id": "2036286592089022699",
+    "url": "https://x.com/bcherny/status/2036286592089022699",
+    "author": "bcherny",
+    "date": "2026-03-24T03:38:50.000Z",
+    "text": "Little known fact, the Anthropic Labs team (the team I joined Anthropic to be on) shipped:\n\n- MCP\n- Skills\n- Claude Desktop app\n- Claude Code\n\nIt was just a few of us, shipping fast, trying to keep pace with what the model was capable of.\n\nThose early Desktop computer use"
+  },
+  {
+    "tweet_id": "2035875177855062506",
+    "url": "https://x.com/bcherny/status/2035875177855062506",
+    "author": "bcherny",
+    "date": "2026-03-23T00:24:01.000Z",
+    "text": "We test a lot before releasing, but bugs still happen (for now).\n\nWhich terminal are you using? Is there a specific action or tool call that tends to trigger scrolling to the top?"
+  },
+  {
+    "tweet_id": "2035818340518658257",
+    "url": "https://x.com/bcherny/status/2035818340518658257",
+    "author": "bcherny",
+    "date": "2026-03-22T20:38:10.000Z",
+    "text": "Curious, what bugs are you hitting on desktop? Would love a short list"
+  },
+  {
+    "tweet_id": "2035519248693432659",
+    "url": "https://x.com/bcherny/status/2035519248693432659",
+    "author": "bcherny",
+    "date": "2026-03-22T00:49:41.000Z",
+    "text": "You can ask it not to, and to add that to your settings. Claude is able to edit its own settings if you ask it"
+  },
+  {
+    "tweet_id": "2035488752139718917",
+    "url": "https://x.com/bcherny/status/2035488752139718917",
+    "author": "bcherny",
+    "date": "2026-03-21T22:48:30.000Z",
+    "text": "I loved it too, just don’t need it with 1m context"
+  },
+  {
+    "tweet_id": "2035484532745355770",
+    "url": "https://x.com/bcherny/status/2035484532745355770",
+    "author": "bcherny",
+    "date": "2026-03-21T22:31:44.000Z",
+    "text": "I think it’s cute, and also many companies find it useful for metrics.\n\nYou can disable it if you want, just ask Claude, or set attribution: false in your settings.json"
+  },
+  {
+    "tweet_id": "2035385932342305067",
+    "url": "https://x.com/bcherny/status/2035385932342305067",
+    "author": "bcherny",
+    "date": "2026-03-21T15:59:56.000Z",
+    "text": "We did RAG early on then unshipped it for a number of reasons: privacy, security, reliability, index staleness. Overall, we found that agentic search gave better results with fewer tradeoffs. If you prefer RAG, we recommend an MCP like Souregraph, or just ask Claude to build a"
+  },
+  {
+    "tweet_id": "2035381446471225353",
+    "url": "https://x.com/bcherny/status/2035381446471225353",
+    "author": "bcherny",
+    "date": "2026-03-21T15:42:07.000Z",
+    "text": "Verbose mode doesn’t impact token usage. Maybe you were just using it for a particularly token-intensive task?"
+  },
+  {
+    "tweet_id": "2035380906244890940",
+    "url": "https://x.com/bcherny/status/2035380906244890940",
+    "author": "bcherny",
+    "date": "2026-03-21T15:39:58.000Z",
+    "text": "Wdym start over? You can always start a new session, run /clear or /compact, or double-esc to rewind history"
+  },
+  {
+    "tweet_id": "2035380656893575643",
+    "url": "https://x.com/bcherny/status/2035380656893575643",
+    "author": "bcherny",
+    "date": "2026-03-21T15:38:58.000Z",
+    "text": "I exclusively use 1m, haven’t noticed issues with opus 4.6"
+  },
+  {
+    "tweet_id": "2035375661297127693",
+    "url": "https://x.com/bcherny/status/2035375661297127693",
+    "author": "bcherny",
+    "date": "2026-03-21T15:19:07.000Z",
+    "text": "Ask claude to enable verbose mode if you want to see more. If a lot of people want more info for perplexity, we could also show details by default for it or make it configurable.\n\nAs conversations get longer, we want to give you the info you need while hiding info you don’t need"
+  },
+  {
+    "tweet_id": "2035375125382451648",
+    "url": "https://x.com/bcherny/status/2035375125382451648",
+    "author": "bcherny",
+    "date": "2026-03-21T15:16:59.000Z",
+    "text": "With 1m context window, most users don’t need it anymore. If you miss it, ask claude to re-enable it in your settings."
+  },
+  {
+    "tweet_id": "2034984602045915644",
+    "url": "https://x.com/bcherny/status/2034984602045915644",
+    "author": "bcherny",
+    "date": "2026-03-20T13:25:11.000Z",
+    "text": "For a file in .claude? Fix landed, going out today"
+  },
+  {
+    "tweet_id": "2034664731848364162",
+    "url": "https://x.com/bcherny/status/2034664731848364162",
+    "author": "bcherny",
+    "date": "2026-03-19T16:14:08.000Z",
+    "text": "Next, ask it to book the flights. I just had Cowork book 3 flights for me and it worked surprisingly well"
+  },
+  {
+    "tweet_id": "2027629464960831802",
+    "url": "https://x.com/bcherny/status/2027629464960831802",
+    "author": "bcherny",
+    "date": "2026-02-28T06:18:30.000Z",
+    "text": "There was a caching issue affecting a small % of people. Fix went out today. Try one more time and report back?"
+  },
+  {
+    "tweet_id": "2027541966368739441",
+    "url": "https://x.com/bcherny/status/2027541966368739441",
+    "author": "bcherny",
+    "date": "2026-02-28T00:30:49.000Z",
+    "text": "This is gaslighting. We specifically talk about Ukraine in our statement, and it is the opposite of what you are claiming we said."
+  },
+  {
+    "tweet_id": "2027537633887633756",
+    "url": "https://x.com/bcherny/status/2027537633887633756",
+    "author": "bcherny",
+    "date": "2026-02-28T00:13:36.000Z",
+    "text": "It looks for obvious wins and also specific code smell, especially around inefficient code patterns"
+  },
+  {
+    "tweet_id": "2027536765230453026",
+    "url": "https://x.com/bcherny/status/2027536765230453026",
+    "author": "bcherny",
+    "date": "2026-02-28T00:10:09.000Z",
+    "text": "You'll need to ask the main agent to resolve conflicts. /batch is designed for highly parallelizable tasks that don't have conflicts (eg. where each subagent gets a folder to migrate)"
+  },
+  {
+    "tweet_id": "2027535815648416052",
+    "url": "https://x.com/bcherny/status/2027535815648416052",
+    "author": "bcherny",
+    "date": "2026-02-28T00:06:22.000Z",
+    "text": "Yes, good for any workflow where you want to put up a bunch of PRs in parallel"
+  },
+  {
+    "tweet_id": "2027534984534544489",
+    "url": "https://x.com/bcherny/status/2027534984534544489",
+    "author": "bcherny",
+    "date": "2026-02-28T00:03:04.000Z",
+    "text": "In the next version of Claude Code..\n\nWe're introducing two new Skills: /simplify and /batch. I have been using both daily, and am excited to share them with everyone.\n\nCombined, these kills automate much of the work it used to take to (1) shepherd a pull request to production"
+  },
+  {
+    "tweet_id": "2027495731289067931",
+    "url": "https://x.com/bcherny/status/2027495731289067931",
+    "author": "bcherny",
+    "date": "2026-02-27T21:27:06.000Z",
+    "text": "Saw it this morning and teared up a little tbh"
+  },
+  {
+    "tweet_id": "2027462787358949679",
+    "url": "https://x.com/bcherny/status/2027462787358949679",
+    "author": "bcherny",
+    "date": "2026-02-27T19:16:11.000Z",
+    "text": "Claude Code Remote is rolling out now for Pro users"
+  },
+  {
+    "tweet_id": "2027143544008523933",
+    "url": "https://x.com/bcherny/status/2027143544008523933",
+    "author": "bcherny",
+    "date": "2026-02-26T22:07:38.000Z",
+    "text": "You have to opt in, and you can opt out any time at \nhttps://\nclaude.ai/settings"
+  },
+  {
+    "tweet_id": "2017742760435233200",
+    "url": "https://x.com/bcherny/status/2017742760435233200",
+    "author": "bcherny",
+    "date": "2026-01-31T23:32:16.000Z",
+    "text": "Hope these tips are helpful! What do you want to hear about next?"
+  },
+  {
+    "tweet_id": "2017742759218794768",
+    "url": "https://x.com/bcherny/status/2017742759218794768",
+    "author": "bcherny",
+    "date": "2026-01-31T23:32:16.000Z",
+    "text": "10. Learning with Claude\n\nA few tips from the team to use Claude Code for learning:\n\na. Enable the \"Explanatory\" or \"Learning\" output style in /config to have Claude explain the *why* behind its changes\n\nb. Have Claude generate a visual HTML presentation explaining unfamiliar"
+  },
+  {
+    "tweet_id": "2017742757666902374",
+    "url": "https://x.com/bcherny/status/2017742757666902374",
+    "author": "bcherny",
+    "date": "2026-01-31T23:32:15.000Z",
+    "text": "9. Use Claude for data & analytics\n\nAsk Claude Code to use the \"bq\" CLI to pull and analyze metrics on the fly. We have a BigQuery skill checked into the codebase, and everyone on the team uses it for anlytics queries directly in Claude Code. Personally, I haven't written a line"
+  },
+  {
+    "tweet_id": "2017742755737555434",
+    "url": "https://x.com/bcherny/status/2017742755737555434",
+    "author": "bcherny",
+    "date": "2026-01-31T23:32:15.000Z",
+    "text": "8. Use subagents\n\na. Append \"use subagents\" to any request where you want Claude to throw more compute at the problem\n\nb. Offload individual tasks to subagents to keep your main agent's context window clean and focused\n\nc. Route permission requests to Opus 4.5 via a hook — let it"
+  },
+  {
+    "tweet_id": "2017742753971769626",
+    "url": "https://x.com/bcherny/status/2017742753971769626",
+    "author": "bcherny",
+    "date": "2026-01-31T23:32:15.000Z",
+    "text": "7. Terminal & Environment Setup\n\nThe team loves Ghostty! Multiple people like its synchronized rendering, 24-bit color, and proper unicode support.\n\nFor easier Claude-juggling, use /statusline to customize your status bar to always show context usage and current git branch. Many"
+  },
+  {
+    "tweet_id": "2017742752566632544",
+    "url": "https://x.com/bcherny/status/2017742752566632544",
+    "author": "bcherny",
+    "date": "2026-01-31T23:32:14.000Z",
+    "text": "6. Level up your prompting\n\na. Challenge Claude. Say \"Grill me on these changes and don't make a PR until I pass your test.\" Make Claude be your reviewer.  Or, say \"Prove to me this works\" and have Claude diff behavior between main and your feature branch\n\nb. After a mediocre"
+  },
+  {
+    "tweet_id": "2017742750473720121",
+    "url": "https://x.com/bcherny/status/2017742750473720121",
+    "author": "bcherny",
+    "date": "2026-01-31T23:32:14.000Z",
+    "text": "5. Claude fixes most bugs by itself. Here's how we do it:\n\nEnable the Slack MCP, then paste a Slack bug thread into Claude and just say \"fix.\" Zero context switching required.\n\nOr, just say \"Go fix the failing CI tests.\" Don't micromanage how.\n\nPoint Claude at docker logs to"
+  },
+  {
+    "tweet_id": "2017323475380408807",
+    "url": "https://x.com/bcherny/status/2017323475380408807",
+    "author": "bcherny",
+    "date": "2026-01-30T19:46:11.000Z",
+    "text": "NASA used Claude Code to plot and simulate the Perseverance rover’s route on Mars \n\nPretty sure this is the furthest-from-Earth application of Claude"
+  },
+  {
+    "tweet_id": "2016910744839999932",
+    "url": "https://x.com/bcherny/status/2016910744839999932",
+    "author": "bcherny",
+    "date": "2026-01-29T16:26:08.000Z",
+    "text": "If one can push to main without branch protections, one can also unpush"
+  },
+  {
+    "tweet_id": "2016760567416180861",
+    "url": "https://x.com/bcherny/status/2016760567416180861",
+    "author": "bcherny",
+    "date": "2026-01-29T06:29:23.000Z",
+    "text": "That’s weird. Can you snapshot your process tree when that happens next? You can find it in activity monitor or as another Claude to help"
+  },
+  {
+    "tweet_id": "2006415241907941688",
+    "url": "https://x.com/bcherny/status/2006415241907941688",
+    "author": "bcherny",
+    "date": "2025-12-31T17:20:45.000Z",
+    "text": "Done! Fix going out with the next release:\n\nclaude --resume --fork-session"
+  },
+  {
+    "tweet_id": "2006402875946361042",
+    "url": "https://x.com/bcherny/status/2006402875946361042",
+    "author": "bcherny",
+    "date": "2025-12-31T16:31:37.000Z",
+    "text": "Safety is the reason Anthropic exists, and the single most important thing to get right.\n\nThat said, we have not yet met the criteria for AI R&D-4 ASL. We are evaling and monitoring carefully.\n\nMore here: \nhttps://\nwww-cdn.anthropic.com/872c653b2d0501\nd6ab44cf87f43e1dc4853e4d37.pdf\n… (see page 4)"
+  },
+  {
+    "tweet_id": "2006220164698698135",
+    "url": "https://x.com/bcherny/status/2006220164698698135",
+    "author": "bcherny",
+    "date": "2025-12-31T04:25:35.000Z",
+    "text": "What do you mean it doesn’t read the entire skill?"
+  },
+  {
+    "tweet_id": "2006178620859949313",
+    "url": "https://x.com/bcherny/status/2006178620859949313",
+    "author": "bcherny",
+    "date": "2025-12-31T01:40:30.000Z",
+    "text": "Bring what to IDEs? Skills are supported in the VSCode extension"
+  },
+  {
+    "tweet_id": "2006178139018236145",
+    "url": "https://x.com/bcherny/status/2006178139018236145",
+    "author": "bcherny",
+    "date": "2025-12-31T01:38:35.000Z",
+    "text": "Claude will decide, but you can also explicitly ask it to use more agents. I sometimes do that when I want multiple parallel agents to consider something from multiple perspectives, for example"
+  },
+  {
+    "tweet_id": "2006172759899176995",
+    "url": "https://x.com/bcherny/status/2006172759899176995",
+    "author": "bcherny",
+    "date": "2025-12-31T01:17:13.000Z",
+    "text": "We did not roll back 3 weeks of updates. We rolled back 3 specific commits that we thought may be contributing to reliability issues.\n\nAgree it would be interesting to study how engineering velocity + code reliability change over the coming months; my gut sense is the model"
+  },
+  {
+    "tweet_id": "2006170607092670691",
+    "url": "https://x.com/bcherny/status/2006170607092670691",
+    "author": "bcherny",
+    "date": "2025-12-31T01:08:40.000Z",
+    "text": "Yes, just ask claude to invoke skill 1, then skill 2, then skill 3, in natural language. Or ask it to use parallel subagents to invoke the skills in parallel. Then if you want, put that all in a skill."
+  },
+  {
+    "tweet_id": "2005822941351518357",
+    "url": "https://x.com/bcherny/status/2005822941351518357",
+    "author": "bcherny",
+    "date": "2025-12-30T02:07:10.000Z",
+    "text": "I usually read the PR or run git diff yeah"
+  },
+  {
+    "tweet_id": "2005768405367021975",
+    "url": "https://x.com/bcherny/status/2005768405367021975",
+    "author": "bcherny",
+    "date": "2025-12-29T22:30:27.000Z",
+    "text": "Made thinking in ctrl+o mode real-time, rolling out as part of the next release"
+  },
+  {
+    "tweet_id": "2005699920951664797",
+    "url": "https://x.com/bcherny/status/2005699920951664797",
+    "author": "bcherny",
+    "date": "2025-12-29T17:58:19.000Z",
+    "text": "Tell me about it.. this tech still feels to me like alien magic"
+  },
+  {
+    "tweet_id": "2005691527373389906",
+    "url": "https://x.com/bcherny/status/2005691527373389906",
+    "author": "bcherny",
+    "date": "2025-12-29T17:24:58.000Z",
+    "text": "A little confused what's going on there. Subagents, including the Explore agent, can use their parent's skills and slash commands."
+  },
+  {
+    "tweet_id": "2005634865438572717",
+    "url": "https://x.com/bcherny/status/2005634865438572717",
+    "author": "bcherny",
+    "date": "2025-12-29T13:39:49.000Z",
+    "text": "Claude should be figuring it out automatically. Let us know if you see it getting off track"
+  },
+  {
+    "tweet_id": "1989025306980860226",
+    "url": "https://x.com/bcherny/status/1989025306980860226",
+    "author": "bcherny",
+    "date": "2025-11-13T17:39:22.000Z",
+    "text": "Summarization is one thing we do to reduce prompt injection risk. Are you running into specific issues with it?"
+  },
+  {
+    "tweet_id": "1988860326306087102",
+    "url": "https://x.com/bcherny/status/1988860326306087102",
+    "author": "bcherny",
+    "date": "2025-11-13T06:43:47.000Z",
+    "text": "In the next version of Claude Code, Claude’s WebFetch tool automatically adds Accept: “text/markdown, *” to requests which helps docs sites provide token-efficient docs"
+  },
+  {
+    "tweet_id": "1979433934023950779",
+    "url": "https://x.com/bcherny/status/1979433934023950779",
+    "author": "bcherny",
+    "date": "2025-10-18T06:26:40.000Z",
+    "text": "Had a blast guest lecturing at Stanford CS 146S today. Thanks for the invite \n@mihail_eric\n!"
+  },
+  {
+    "tweet_id": "1977505599723303130",
+    "url": "https://x.com/bcherny/status/1977505599723303130",
+    "author": "bcherny",
+    "date": "2025-10-12T22:44:09.000Z",
+    "text": "Tool call errors happen with every model provider — in claude code we show errors while others hide them, so it may feel like they are happening more. The reason we show them is claude code is the same tool we use internally at Anthropic, and seeing the errors helps us debug"
+  },
+  {
+    "tweet_id": "1977391322542535090",
+    "url": "https://x.com/bcherny/status/1977391322542535090",
+    "author": "bcherny",
+    "date": "2025-10-12T15:10:04.000Z",
+    "text": "We recommend sonnet 4.5 for everything — you get more rate limits with it, and it’s more intelligent for coding tasks. Re:hostile, specific examples would be helpful to debug"
+  },
+  {
+    "tweet_id": "1977390736526987426",
+    "url": "https://x.com/bcherny/status/1977390736526987426",
+    "author": "bcherny",
+    "date": "2025-10-12T15:07:44.000Z",
+    "text": "Yep just output. We used to have a lower max output limit but people asked for a higher limit"
+  },
+  {
+    "tweet_id": "1977271645418275078",
+    "url": "https://x.com/bcherny/status/1977271645418275078",
+    "author": "bcherny",
+    "date": "2025-10-12T07:14:30.000Z",
+    "text": "Are you using Sonnet or Opus? And when you say dumber what specifically?"
+  },
+  {
+    "tweet_id": "1977271487334957072",
+    "url": "https://x.com/bcherny/status/1977271487334957072",
+    "author": "bcherny",
+    "date": "2025-10-12T07:13:53.000Z",
+    "text": "A few improvements landed last week, more on the way"
+  },
+  {
+    "tweet_id": "1977165053456793624",
+    "url": "https://x.com/bcherny/status/1977165053456793624",
+    "author": "bcherny",
+    "date": "2025-10-12T00:10:57.000Z",
+    "text": "We auto-compact for you when using the SDK, so you don't need to. To grab stats yourself, read assistant_message.usage."
+  },
+  {
+    "tweet_id": "1977163990485942278",
+    "url": "https://x.com/bcherny/status/1977163990485942278",
+    "author": "bcherny",
+    "date": "2025-10-12T00:06:43.000Z",
+    "text": "If you're seeing lower rate limits than what we publish, or if you're seeing auto-compact earlier than ~155k tokens, that's a bug. /bug to report."
+  },
+  {
+    "tweet_id": "1977163445205450783",
+    "url": "https://x.com/bcherny/status/1977163445205450783",
+    "author": "bcherny",
+    "date": "2025-10-12T00:04:33.000Z",
+    "text": "Boris from the Claude Code team here.\n\nCompact behavior is the same as before -- the new ⛝ boxes in /context are just a cosmetic UI change that gives people more transparency into auto-compact. We always auto-compacted near 155k tokens so there's enough buffer. We do that for"
+  },
+  {
+    "tweet_id": "1976480652498436372",
+    "url": "https://x.com/bcherny/status/1976480652498436372",
+    "author": "bcherny",
+    "date": "2025-10-10T02:51:23.000Z",
+    "text": "Super excited to release Plugins for Claude Code.\n\nPlugins are the easiest way to share and install bundles of agents, slash commands, MCP servers, and hooks.\n\nSomething we saw people doing already, now we made it even easier."
+  },
+  {
+    "tweet_id": "1964928176687292731",
+    "url": "https://x.com/bcherny/status/1964928176687292731",
+    "author": "bcherny",
+    "date": "2025-09-08T05:45:58.000Z",
+    "text": "Boris from the Claude Code team here. Could you grab the raw transcript, available in ~/.claude/projects?"
+  },
+  {
+    "tweet_id": "1933208614778687557",
+    "url": "https://x.com/bcherny/status/1933208614778687557",
+    "author": "bcherny",
+    "date": "2025-06-12T17:03:45.000Z",
+    "text": "Claude Code SDK is now natively supported for Python and TypeScript"
+  },
+  {
+    "tweet_id": "1932652135549972935",
+    "url": "https://x.com/bcherny/status/1932652135549972935",
+    "author": "bcherny",
+    "date": "2025-06-11T04:12:30.000Z",
+    "text": "Thanks \n@swyx\n + AI Engineer World's Fair for hosting me for a talk on the big stage last week! I did a speed run through the evolution of coding UX since the 1950's, and where I think we're headed.\n\nVideo: \nhttps://\nyoutube.com/watch?v=U-fMsb\nY-kHY&t=18785s\n…\nSlides: \nhttps://\ndocs.google.com/presentation/d\n/1FGNy3wHoXEnVpgOTB9rtgdyjaQvEVHmhxGhHoGIPX98\n…"
+  },
+  {
+    "tweet_id": "1902046009611710648",
+    "url": "https://x.com/bcherny/status/1902046009611710648",
+    "author": "bcherny",
+    "date": "2025-03-18T17:14:41.000Z",
+    "text": "Thanks to Claude Code users for contributing incredible feedback! We just shipped more features based on what we’re hearing from you all.\n\nSee Cat’s thread for details on auto-accept mode, auto-compact for context, and filepath autocomplete."
+  },
+  {
+    "tweet_id": "1896796442343428109",
+    "url": "https://x.com/bcherny/status/1896796442343428109",
+    "author": "bcherny",
+    "date": "2025-03-04T05:34:47.000Z",
+    "text": "Love it! Curious, why not use Claude Code’s thinking mode for planning? To trigger scratchpad thinking, just ask Code to “think”, “think harder”, and so on in natural language."
+  },
+  {
+    "tweet_id": "1895629918215815578",
+    "url": "https://x.com/bcherny/status/1895629918215815578",
+    "author": "bcherny",
+    "date": "2025-03-01T00:19:26.000Z",
+    "text": "We hard-code temperature to 1. If you’re hitting issues, can you post a repro?"
+  },
+  {
+    "tweet_id": "1894114714009190463",
+    "url": "https://x.com/bcherny/status/1894114714009190463",
+    "author": "bcherny",
+    "date": "2025-02-24T19:58:33.000Z",
+    "text": "Introducing Sonnet 3.7 and Claude Code, Anthropic’s new agentic coding assistant. The team and I have been hacking on Code for a while — can’t wait to hear what everyone thinks."
+  }
+]

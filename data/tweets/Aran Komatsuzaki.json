@@ -1,0 +1,691 @@
+{
+  "source": {
+    "file": "51 AI influencers",
+    "influencerId": "arankomatsuzaki",
+    "handle": "arankomatsuzaki",
+    "profileUrl": "https://x.com/arankomatsuzaki"
+  },
+  "filters": {
+    "startDate": "2023-04-16",
+    "endDate": "2026-04-16",
+    "minWords": 10,
+    "excludeReplies": true,
+    "excludeReposts": true
+  },
+  "collectedAt": "2026-04-23T19:26:32.815Z",
+  "totalTweets": 96,
+  "tweets": [
+    {
+      "id": "2044808883928186936",
+      "url": "https://x.com/arankomatsuzaki/status/2044808883928186936",
+      "createdAt": "2026-04-16T16:03:23.000Z",
+      "text": "Nearly 1/3 of surveyed people in Anthropic now think entry-level engineers and researchers are likely replaced by Mythos within 3 months",
+      "wordCount": 21
+    },
+    {
+      "id": "2044770023638774226",
+      "url": "https://x.com/arankomatsuzaki/status/2044770023638774226",
+      "createdAt": "2026-04-16T13:28:58.000Z",
+      "text": "Jensen: \"What the fuck did you just fucking say about my ecosystem, you little bitch? I have 300 million confirmed GPUs, I'm trained in accelerated computing, and I will wipe you out with parallelized precision. You think you can get away with that loser premise? Think again,",
+      "wordCount": 47
+    },
+    {
+      "id": "2044623127775490551",
+      "url": "https://x.com/arankomatsuzaki/status/2044623127775490551",
+      "createdAt": "2026-04-16T03:45:15.000Z",
+      "text": "LongCoT: Benchmarking Long-Horizon Chain-of-Thought Reasoning - 2,500 expert-designed problems spanning science, chess, and logic that demand up to hundreds of thousands of reasoning tokens - The best models achieve <10% accuracy",
+      "wordCount": 31
+    },
+    {
+      "id": "2044621662122074140",
+      "url": "https://x.com/arankomatsuzaki/status/2044621662122074140",
+      "createdAt": "2026-04-16T03:39:26.000Z",
+      "text": "ByteDance presents Seedance 2.0 - Multi-modal inputs (text/image/audio/video) - #1 on Arena (both T2V + I2V) - Keeps characters consistent across complex scenes - Audio satisfaction: 62% vs <10% for others",
+      "wordCount": 31
+    },
+    {
+      "id": "2044621664571527572",
+      "url": "https://x.com/arankomatsuzaki/status/2044621664571527572",
+      "createdAt": "2026-04-16T03:39:26.000Z",
+      "text": "proj: https:// seed.bytedance.com/en/seedance2_0 abs: https:// arxiv.org/abs/2604.14148 access: https:// volcengine.com/experience/ark ?mode=vision&modelId=doubao-seedance-2-0-260128&tab=GenVideo …",
+      "wordCount": 11
+    },
+    {
+      "id": "2043908355283157248",
+      "url": "https://x.com/arankomatsuzaki/status/2043908355283157248",
+      "createdAt": "2026-04-14T04:25:00.000Z",
+      "text": "Together AI presents Introspective Diffusion LM - The first DLM to match the quality of AR while outperforming DLMs in both model quality and serving efficiency - Delivering about 3× higher throughput than prior SotA DLMs",
+      "wordCount": 36
+    },
+    {
+      "id": "2043729425355649170",
+      "url": "https://x.com/arankomatsuzaki/status/2043729425355649170",
+      "createdAt": "2026-04-13T16:34:00.000Z",
+      "text": "Said hi to Dario in SF today got the usage limit warning before the handshake ended",
+      "wordCount": 16
+    },
+    {
+      "id": "2043521015519777036",
+      "url": "https://x.com/arankomatsuzaki/status/2043521015519777036",
+      "createdAt": "2026-04-13T02:45:51.000Z",
+      "text": "Huawei proposes HiFloat4 FP4 (HiF4) format for Huawei Ascend NPUs and achieves performance comparable to BF16 baselines, while delivering substantial improvements in computational efficiency.",
+      "wordCount": 24
+    },
+    {
+      "id": "2043015470924661206",
+      "url": "https://x.com/arankomatsuzaki/status/2043015470924661206",
+      "createdAt": "2026-04-11T17:17:00.000Z",
+      "text": "I regret spending 2.5 years on the application layer despite repeated advice from VCs and friends to focus on AI infra. I was wrong about that bet, and I’m shifting back to AI infra now. There’s less things left to do than in 2022, when I should’ve started, but it’s still",
+      "wordCount": 51
+    },
+    {
+      "id": "2042443545886539809",
+      "url": "https://x.com/arankomatsuzaki/status/2042443545886539809",
+      "createdAt": "2026-04-10T03:24:22.000Z",
+      "text": "Squeeze Evolve: A Unified Framework for Verifier-Free Evolution Across AIME 2025, GPQA-Diamond, ARC-AGI-V2, MMMU-Pro, etc: - Up to ~3x API cost reduction - Up to ~10x increase in fixed-budget serving throughput",
+      "wordCount": 31
+    },
+    {
+      "id": "2042441980710699364",
+      "url": "https://x.com/arankomatsuzaki/status/2042441980710699364",
+      "createdAt": "2026-04-10T03:18:09.000Z",
+      "text": "ClawBench: Can AI Agents Complete Everyday Online Tasks? A real-world benchmark for AI agents: 153 everyday online tasks across live websites (shopping, booking, job apps). Even top models struggle—dropping from ~70% on sandbox benchmarks to as low as 6.5% here.",
+      "wordCount": 40
+    },
+    {
+      "id": "2042271821374935055",
+      "url": "https://x.com/arankomatsuzaki/status/2042271821374935055",
+      "createdAt": "2026-04-09T16:02:00.000Z",
+      "text": "People often get confused about API cost: open vs. closed, input vs. cache read vs. output. Per-token cost for Sonnet is like cache read : input (+ cache write) : output = $0.3 : ~$3 : $15. The real cost of running is likely much cheaper (>10×), at least you're effectively using",
+      "wordCount": 52
+    },
+    {
+      "id": "2039541189968626047",
+      "url": "https://x.com/arankomatsuzaki/status/2039541189968626047",
+      "createdAt": "2026-04-02T03:11:27.000Z",
+      "text": "Collinear presents YC-Bench This benchmark evaluates agent capability to run a simulated startup over a one-year horizon spanning hundreds of turns.",
+      "wordCount": 21
+    },
+    {
+      "id": "2039541193105981600",
+      "url": "https://x.com/arankomatsuzaki/status/2039541193105981600",
+      "createdAt": "2026-04-02T03:11:27.000Z",
+      "text": "proj: https:// collinear-ai.github.io/yc-bench/ abs: https:// arxiv.org/abs/2604.01212 repo: https:// github.com/collinear-ai/y c-bench …",
+      "wordCount": 11
+    },
+    {
+      "id": "2039018886394257736",
+      "url": "https://x.com/arankomatsuzaki/status/2039018886394257736",
+      "createdAt": "2026-03-31T16:36:00.000Z",
+      "text": "Half of ~5k authors from 1.2k papers released in arXiv batch yesterday had Chinese last name. While research may be automated soon, this doesn't look very promising for the West.",
+      "wordCount": 30
+    },
+    {
+      "id": "2038856813832229179",
+      "url": "https://x.com/arankomatsuzaki/status/2038856813832229179",
+      "createdAt": "2026-03-31T05:51:59.000Z",
+      "text": "abs: https:// arxiv.org/abs/2603.27164 repo: https:// github.com/GAIR-NLP/daVin ci-LLM … model: https:// huggingface.co/SII-GAIR-NLP/d avinci-llm-model … data: https:// huggingface.co/datasets/SII-G AIR-NLP/davinci-llm-data …",
+      "wordCount": 18
+    },
+    {
+      "id": "2038856810975863037",
+      "url": "https://x.com/arankomatsuzaki/status/2038856810975863037",
+      "createdAt": "2026-03-31T05:51:58.000Z",
+      "text": "daVinci-LLM: Towards the Science of Pretraining - Matches larger model perf with half the size - Huge reasoning gains: +23 pts on MATH, strong code + science scores - Quality > scale: smarter data (not more data) drives major performance boosts",
+      "wordCount": 41
+    },
+    {
+      "id": "2038847135521845277",
+      "url": "https://x.com/arankomatsuzaki/status/2038847135521845277",
+      "createdAt": "2026-03-31T05:13:31.000Z",
+      "text": "PRBench: End-to-end Paper Reproduction in Physics Research - Presents a benchmark of 30 expert-curated tasks spanning 11 subfields of physics - All agents exhibit a zero end-to-end callback success rate",
+      "wordCount": 30
+    },
+    {
+      "id": "2038846217652928742",
+      "url": "https://x.com/arankomatsuzaki/status/2038846217652928742",
+      "createdAt": "2026-03-31T05:09:52.000Z",
+      "text": "LongCat-Next: Lexicalizing Modalities as Discrete Tokens - Matches or beats SOTA across multimodal benchmarks - SotA audio: strong on both recognition and TTS accuracy - No trade-offs: adds vision/audio without hurting core language performance",
+      "wordCount": 34
+    },
+    {
+      "id": "2038844459857985954",
+      "url": "https://x.com/arankomatsuzaki/status/2038844459857985954",
+      "createdAt": "2026-03-31T05:02:53.000Z",
+      "text": "KwaiKAT presents KAT-Coder-V2 Presents KAT-Coder-V2, an agentic coding model that performs close to Claude Opus 4.6",
+      "wordCount": 16
+    },
+    {
+      "id": "2038454205476941941",
+      "url": "https://x.com/arankomatsuzaki/status/2038454205476941941",
+      "createdAt": "2026-03-30T03:12:09.000Z",
+      "text": "While Alec is one of the best ML researchers of all time, LLM started way before. Here's one from 2013 for non-neural architecture and one from 2016, which is afaik the first neural LLM if we define LLM as LM w/ >1B params.",
+      "wordCount": 43
+    },
+    {
+      "id": "2038451515678224800",
+      "url": "https://x.com/arankomatsuzaki/status/2038451515678224800",
+      "createdAt": "2026-03-30T03:01:28.000Z",
+      "text": "Meta presents AIRA2: Overcoming Bottlenecks in AI Research Agents Achieves SotA performance on MLE-bench-30",
+      "wordCount": 14
+    },
+    {
+      "id": "2038445176600084878",
+      "url": "https://x.com/arankomatsuzaki/status/2038445176600084878",
+      "createdAt": "2026-03-30T02:36:17.000Z",
+      "text": "Automated near-term quantum algorithm discovery for molecular ground states LLM-powered system discovers quantum algorithms for molecular ground states, achieving chemical precision for LiH, H₂O, and F₂ with orders-of-magnitude reductions in circuit evaluations and gate counts",
+      "wordCount": 35
+    },
+    {
+      "id": "2038443186255991169",
+      "url": "https://x.com/arankomatsuzaki/status/2038443186255991169",
+      "createdAt": "2026-03-30T02:28:22.000Z",
+      "text": "World Reasoning Arena - A comprehensive benchmark for evaluating world model - Expose a substantial gap between current models and human-level hypothetical reasoning",
+      "wordCount": 23
+    },
+    {
+      "id": "2037203926802718759",
+      "url": "https://x.com/arankomatsuzaki/status/2037203926802718759",
+      "createdAt": "2026-03-26T16:24:00.000Z",
+      "text": "Last year, a few papers introduced “recipes” right before Claude Skills launched. Recipes are essentially agent-generated, reusable skill-like prompts that evolve over time ... more than just memory. Why do I not hear them much yet?",
+      "wordCount": 36
+    },
+    {
+      "id": "2036111730590552506",
+      "url": "https://x.com/arankomatsuzaki/status/2036111730590552506",
+      "createdAt": "2026-03-23T16:04:00.000Z",
+      "text": "For about six months, my mom had severe hepatic encephalopathy—at times it looked like she might not survive. I’m not a doctor, but I kept detailed notes and ran them through GPT-5.x Pro for every new update. At one point it suggested spontaneous porto-systemic shunts (SPSS),",
+      "wordCount": 46
+    },
+    {
+      "id": "2008211136206807375",
+      "url": "https://x.com/arankomatsuzaki/status/2008211136206807375",
+      "createdAt": "2026-01-05T16:17:00.000Z",
+      "text": "Interesting how people disagree on which models/tools are best for what. My stack: GPT-5.x Pro: general Q&A + brainstorming Figma Make: UI design Claude Code: everything else I’m a total Google fanboy and want Gemini to win, but rn it adds no Pareto value for me (idk why).",
+      "wordCount": 48
+    },
+    {
+      "id": "1980722682246398069",
+      "url": "https://x.com/arankomatsuzaki/status/1980722682246398069",
+      "createdAt": "2025-10-21T19:47:42.000Z",
+      "text": "DeepSeek OCR dropped ... but honestly, Glyph [1], released the same day, showed something more interesting: 3–4× context compression and infilling cost reduction, no performance hit on long-context QA and summarization, which is much less trivial than OCR in many cases. If that",
+      "wordCount": 43
+    },
+    {
+      "id": "1972874639333605540",
+      "url": "https://x.com/arankomatsuzaki/status/1972874639333605540",
+      "createdAt": "2025-09-30T04:02:22.000Z",
+      "text": "SWAX: short windows, long memory • Hybrid of sliding-window attn + xLSTM RNN • Counter-intuitive: shorter windows → better long-term recall • Fix: stochastic window sizes = strong short + long context performance • Outperforms fixed window attention",
+      "wordCount": 38
+    },
+    {
+      "id": "1972873547933782160",
+      "url": "https://x.com/arankomatsuzaki/status/1972873547933782160",
+      "createdAt": "2025-09-30T03:58:02.000Z",
+      "text": "RLHI: Reinforcement Learning from Human Interaction • Moves beyond expert-annotated data → learns from real user conversations • Two methods: 1. User-Guided Rewrites 2. User-Based Rewards • Outperforms baselines in personalization, instruction-following & reasoning",
+      "wordCount": 34
+    },
+    {
+      "id": "1972870229463355677",
+      "url": "https://x.com/arankomatsuzaki/status/1972870229463355677",
+      "createdAt": "2025-09-30T03:44:51.000Z",
+      "text": "ReasoningBank: memory for self-evolving LLM agents • Distills strategies from both successes & failures • Enables agents to learn, reuse, and improve over time • Outperforms prior memory methods on web & SWE tasks (+34.2% eff., –16% steps)",
+      "wordCount": 38
+    },
+    {
+      "id": "1972869149102858441",
+      "url": "https://x.com/arankomatsuzaki/status/1972869149102858441",
+      "createdAt": "2025-09-30T03:40:33.000Z",
+      "text": "NVFP4: 4-bit pretraining for LLMs • New format w/ 2-level scaling + RHT + stochastic rounding • Trains 12B model on 10T tokens • Matches FP8 baseline: MMLU-pro 62.58% vs 62.62% • 6.8× efficiency boost potential → faster, cheaper frontier LLMs",
+      "wordCount": 41
+    },
+    {
+      "id": "1972700145461383560",
+      "url": "https://x.com/arankomatsuzaki/status/1972700145461383560",
+      "createdAt": "2025-09-29T16:29:00.000Z",
+      "text": "Sutton’s Bitter Lesson: “scaling wins.” Also Sutton’s Bitter Lesson: now scaled into explaining literally everything. Over-credited. Over-applied. Bitter Law of Everything.",
+      "wordCount": 21
+    },
+    {
+      "id": "1971059016878240241",
+      "url": "https://x.com/arankomatsuzaki/status/1971059016878240241",
+      "createdAt": "2025-09-25T03:47:44.000Z",
+      "text": "Microsoft presents Measuring LLM inference energy (production scale) • Median cost: 0.34 Wh/query (chatbot) • Long reasoning: 4.3 Wh/query (~13× higher) • Fleet scale: ~0.9 GWh/day @1B queries → ~web search level • Public est. often 4–20× too high • Efficiency gains",
+      "wordCount": 42
+    },
+    {
+      "id": "1971042970800701809",
+      "url": "https://x.com/arankomatsuzaki/status/1971042970800701809",
+      "createdAt": "2025-09-25T02:43:59.000Z",
+      "text": "Veo 3 = Zero-shot video reasoner • Trained on web-scale video, shows broad zero-shot skills (perception → physics → manipulation → reasoning) • New “Chain-of-Frames” reasoning = visual analogue of CoT • Big jump Veo2 → Veo3: edits, memory, symmetry, mazes, analogies •",
+      "wordCount": 43
+    },
+    {
+      "id": "1971041110446465251",
+      "url": "https://x.com/arankomatsuzaki/status/1971041110446465251",
+      "createdAt": "2025-09-25T02:36:35.000Z",
+      "text": "EmbeddingGemma: lightweight SOTA embeddings • 308M params, built on Gemma 3 • Tops MTEB (multilingual, English, code) <500M models • Matches models 2× its size, efficient even w/ 4-bit or 128-dim embeddings • Encoder-decoder init + geometric distillation • Spread-out",
+      "wordCount": 40
+    },
+    {
+      "id": "1971001485787038195",
+      "url": "https://x.com/arankomatsuzaki/status/1971001485787038195",
+      "createdAt": "2025-09-24T23:59:08.000Z",
+      "text": "RT @DhruvBatraDB: Like clockwork, every few years we rediscover this lesson: on difficult tasks, VLMs regress to being nearly blind. Thi… https:// x.com/arankomatsuzak /arankomatsuzaki/status/1970684893966516477 …",
+      "wordCount": 25
+    },
+    {
+      "id": "1970692910766346277",
+      "url": "https://x.com/arankomatsuzaki/status/1970692910766346277",
+      "createdAt": "2025-09-24T03:32:58.000Z",
+      "text": "Soft Tokens, Hard Truths • First scalable RL method for continuous CoT • Learns “soft” tokens (mixtures + noise) → richer reasoning paths • Matches discrete CoTs at pass@1, beats them at pass@32 (more diversity) • Best setup: train w/ soft tokens, infer w/ hard tokens",
+      "wordCount": 46
+    },
+    {
+      "id": "1970691075229864357",
+      "url": "https://x.com/arankomatsuzaki/status/1970691075229864357",
+      "createdAt": "2025-09-24T03:25:40.000Z",
+      "text": "Effective reasoning ≠ longer CoTs • Across 10 LRMs: longer chains + more review → lower accuracy • New metric: Failed-Step Fraction (share of abandoned steps) predicts correctness best • FSF-based reranking boosts pass@1 by up to +10% • Editing out failed branches improves",
+      "wordCount": 44
+    },
+    {
+      "id": "1970684893966516477",
+      "url": "https://x.com/arankomatsuzaki/status/1970684893966516477",
+      "createdAt": "2025-09-24T03:01:06.000Z",
+      "text": "The Illusion of Readiness (Health AI) • GPT-5 & peers ace med benchmarks—but stress tests reveal fragility • Guess answers w/o images, flip under trivial prompt tweaks • Fabricate “reasoning” that sounds right but isn’t • Leaderboard wins ≠ real-world readiness",
+      "wordCount": 41
+    },
+    {
+      "id": "1970684035258294548",
+      "url": "https://x.com/arankomatsuzaki/status/1970684035258294548",
+      "createdAt": "2025-09-24T02:57:42.000Z",
+      "text": "RLPT: Reinforcement Learning on Pre-Training Data • RL directly on pre-train data (no human labels) • Next-segment reasoning objective (ASR + MSR tasks) → self-supervised rewards • Gains on Qwen3-4B: +3.0 MMLU, +8.1 GPQA-Diamond, +6.6 AIME24, +5.3 AIME25",
+      "wordCount": 38
+    },
+    {
+      "id": "1970332261469044960",
+      "url": "https://x.com/arankomatsuzaki/status/1970332261469044960",
+      "createdAt": "2025-09-23T03:39:52.000Z",
+      "text": "Hierarchical Retrieval with Dual Encoders • DEs can solve HR if dim. scales with depth/log(# docs) • Challenge: lost-in-the-long-distance — far ancestors hard to retrieve • Solution: Pretrain → finetune on long-distance pairs • Boosts recall on WordNet from 19% → 76%",
+      "wordCount": 42
+    },
+    {
+      "id": "1970328244848337256",
+      "url": "https://x.com/arankomatsuzaki/status/1970328244848337256",
+      "createdAt": "2025-09-23T03:23:55.000Z",
+      "text": "repo: https:// github.com/GAIR-NLP/LIMI model: https:// huggingface.co/GAIR/LIMI data: https:// huggingface.co/datasets/GAIR/ LIMI … abs:",
+      "wordCount": 12
+    },
+    {
+      "id": "1970328242688246160",
+      "url": "https://x.com/arankomatsuzaki/status/1970328242688246160",
+      "createdAt": "2025-09-23T03:23:54.000Z",
+      "text": "LIMI: Less Is More for Agency • Argues agentic AI doesn’t need more data, just better data • 78 curated demos → 73.5% on AgencyBench (beats models trained on 10k samples) • Outperforms SOTA (Kimi-K2: 24.1%, DeepSeek: 11.9%, Qwen3: 27.5%, GLM-4.5: 45.1%) • Establishes Agency",
+      "wordCount": 45
+    },
+    {
+      "id": "1970326076271513805",
+      "url": "https://x.com/arankomatsuzaki/status/1970326076271513805",
+      "createdAt": "2025-09-23T03:15:18.000Z",
+      "text": "EngDesign: Benchmarking LLMs toward Engineering AGI • 101 tasks across 9 domains (OS, circuits, robotics, etc.) • Simulation-based eval (SPICE, FEA, etc.), not just Q&A • Iterative refinement boosts pass rate (o3 → ~60%) • Error analysis: 111 failure modes identified",
+      "wordCount": 41
+    },
+    {
+      "id": "1970326078586790357",
+      "url": "https://x.com/arankomatsuzaki/status/1970326078586790357",
+      "createdAt": "2025-09-23T03:15:18.000Z",
+      "text": "proj: https:// agi4engineering.github.io/Eng-Design/ data: https:// huggingface.co/datasets/opt1z er/EngDesign … repo: https:// github.com/AGI4Engineerin g/EngDesign … abs:",
+      "wordCount": 14
+    },
+    {
+      "id": "1970323735774404960",
+      "url": "https://x.com/arankomatsuzaki/status/1970323735774404960",
+      "createdAt": "2025-09-23T03:06:00.000Z",
+      "text": "Meta Superintelligence Labs presents MetaEmbed: Scalable multimodal retrieval • Flexible late interaction via Meta Tokens • Test-time scaling: trade off retrieval accuracy vs efficiency • SOTA on MMEB + ViDoRe, robust up to 32B models • Matryoshka training → coarse-to-fine",
+      "wordCount": 40
+    },
+    {
+      "id": "1969977347253370883",
+      "url": "https://x.com/arankomatsuzaki/status/1969977347253370883",
+      "createdAt": "2025-09-22T04:09:34.000Z",
+      "text": "DiffusionNFT: RL for diffusion models via the forward process • Contrastive fine-tuning: positives vs negatives → implicit policy improvement • Works with any solver, no CFG, no trajectory storage • 25× more efficient than FlowGRPO • Boosts SD3.5-M: GenEval 0.24 → 0.98 in",
+      "wordCount": 43
+    },
+    {
+      "id": "1969976462091645144",
+      "url": "https://x.com/arankomatsuzaki/status/1969976462091645144",
+      "createdAt": "2025-09-22T04:06:03.000Z",
+      "text": "Nvidia presents ReaSyn: Rethinking molecule synthesizability • Treats synthesis like CoT with Chain-of-Reaction (CoR) steps • Each reaction = reasoning step → richer supervision & step-by-step learning • Adds RL finetuning + test-time scaling for better optimization • SOTA",
+      "wordCount": 39
+    },
+    {
+      "id": "1969975609842688383",
+      "url": "https://x.com/arankomatsuzaki/status/1969975609842688383",
+      "createdAt": "2025-09-22T04:02:40.000Z",
+      "text": "Dynamic CFG: adaptive guidance for diffusion models • Static CFG = “one-size-fits-all” fails across prompts • New method: online feedback from latent evaluators (CLIP, fidelity, prefs) → dynamic per-step CFG • Just +1% overhead, big gains in alignment, quality & text",
+      "wordCount": 41
+    },
+    {
+      "id": "1969974676802990478",
+      "url": "https://x.com/arankomatsuzaki/status/1969974676802990478",
+      "createdAt": "2025-09-22T03:58:57.000Z",
+      "text": "Apple presents Manzano: Simple & scalable unified multimodal LLM • Hybrid vision tokenizer (continuous discrete) cuts task conflict • SOTA on text-rich benchmarks, competitive in gen vs GPT-4o/Nano Banana • One model for both understanding & generation • Joint recipe:",
+      "wordCount": 40
+    },
+    {
+      "id": "1969973861178626245",
+      "url": "https://x.com/arankomatsuzaki/status/1969973861178626245",
+      "createdAt": "2025-09-22T03:55:43.000Z",
+      "text": "SBP: Synthetic bootstrapped pretraining • Learns inter-document relations → synthesizes new training data • Goes beyond token-level correlations, capturing latent concepts • 3B model trained on 1T tokens: beats strong repetition baseline • Closes much of the gap to an",
+      "wordCount": 40
+    },
+    {
+      "id": "1969968869952631225",
+      "url": "https://x.com/arankomatsuzaki/status/1969968869952631225",
+      "createdAt": "2025-09-22T03:35:53.000Z",
+      "text": "Latent Learning: why LLMs miss future-useful info • AI often fails at latent learning (e.g. reversal curse) • Cognitive science points to episodic memory as a fix • Oracle retrieval shows better generalization • Episodic memory + parametric learning = more human-like AI",
+      "wordCount": 43
+    },
+    {
+      "id": "1969412423489896892",
+      "url": "https://x.com/arankomatsuzaki/status/1969412423489896892",
+      "createdAt": "2025-09-20T14:44:46.000Z",
+      "text": "Govt: H1B visas now cost $100k. Companies: guess we’ll just use AI and offshore workers. Startups: hold my pitch deck.",
+      "wordCount": 20
+    },
+    {
+      "id": "1968876133656436811",
+      "url": "https://x.com/arankomatsuzaki/status/1968876133656436811",
+      "createdAt": "2025-09-19T03:13:44.000Z",
+      "text": "FlowRL: Reward Distribution Matching for LLM RL • Shifts from reward maximization → distribution matching • +10.0% vs GRPO, +5.1% vs PPO on math; strong gains on code • Minimizes reverse KL to cover all valid reasoning paths (avoids mode collapse)",
+      "wordCount": 41
+    },
+    {
+      "id": "1968872820936446010",
+      "url": "https://x.com/arankomatsuzaki/status/1968872820936446010",
+      "createdAt": "2025-09-19T03:00:35.000Z",
+      "text": "Apple presents AToken: A unified visual tokenizer • First tokenizer unifying images, videos & 3D • Shared 4D latent space (preserves both reconstruction & semantics) • Strong across gen & understanding tasks (ImageNet 82.2%, MSRVTT 32.6%, 3D acc 90.9%)",
+      "wordCount": 39
+    },
+    {
+      "id": "1968871650868535437",
+      "url": "https://x.com/arankomatsuzaki/status/1968871650868535437",
+      "createdAt": "2025-09-19T02:55:56.000Z",
+      "text": "SakanaAI presents Robust Agentic CUDA Kernel Optimization • Fuses ops, boosts forward/backward passes, outperforms torch baselines • Agentic LLM pipeline: PyTorch → CUDA → evolutionary runtime optimization • Soft-verification: LLMs flag incorrect kernels (↑30% verification",
+      "wordCount": 35
+    },
+    {
+      "id": "1968869578915590465",
+      "url": "https://x.com/arankomatsuzaki/status/1968869578915590465",
+      "createdAt": "2025-09-19T02:47:42.000Z",
+      "text": "• Ensembles beat giant models → +5.17× data efficiency • Distillation keeps 83% of ensemble gains in 8× smaller models • Downstream: +9% avg, +17.5× data efficiency on math CPT wb: https:// wandb.ai/stanford-mercu ry/suhas-data-efficiency/reports/Pre-training-under-infinite-compute--VmlldzoxNDM5NzUzMQ … repo: https:// github.com/marin-communit y/marin/tree/suhas/data-efficiency … abs:",
+      "wordCount": 41
+    },
+    {
+      "id": "1968869575660822793",
+      "url": "https://x.com/arankomatsuzaki/status/1968869575660822793",
+      "createdAt": "2025-09-19T02:47:41.000Z",
+      "text": "Pre-training under infinite compute • Data, not compute, is the new bottleneck • Standard recipes overfit → fix with strong regularization (30× weight decay) • Scaling laws: loss decreases monotonically, best measured by asymptote not fixed budget",
+      "wordCount": 37
+    },
+    {
+      "id": "1968867360657326086",
+      "url": "https://x.com/arankomatsuzaki/status/1968867360657326086",
+      "createdAt": "2025-09-19T02:38:53.000Z",
+      "text": "Self-Improving Embodied FMs • 2-stage recipe: SFT + online RL w/ self-predicted rewards • Boosts sample efficiency: 10% robot time → 45%→75% success (vs. 8× data → only 60%) • Unlocks autonomous skill acquisition beyond imitation data",
+      "wordCount": 37
+    },
+    {
+      "id": "1968865544162943070",
+      "url": "https://x.com/arankomatsuzaki/status/1968865544162943070",
+      "createdAt": "2025-09-19T02:31:40.000Z",
+      "text": "ScaleCUA: Scaling Open-Source Computer Use Agents • New agent family w/ 3 modes: Grounding, Direct Action, Reasoned Action • New SOTA on multiple GUI benchmarks with big gains: +26.6 (WebArena-Lite-v2), +10.7 (ScreenSpot-Pro),",
+      "wordCount": 32
+    },
+    {
+      "id": "1968865546960593386",
+      "url": "https://x.com/arankomatsuzaki/status/1968865546960593386",
+      "createdAt": "2025-09-19T02:31:40.000Z",
+      "text": "• Massive cross-platform dataset (Windows, macOS, Linux, Android, iOS, Web) • 3 task families: GUI understanding (471K), grounding (17.1M), task completion (19K+) repo: https:// github.com/OpenGVLab/Scal eCUA … hf: https:// huggingface.co/collections/Op enGVLab/scalecua-68c912cf56f7ff4c8e034003 … abs:",
+      "wordCount": 33
+    },
+    {
+      "id": "1968189149384675495",
+      "url": "https://x.com/arankomatsuzaki/status/1968189149384675495",
+      "createdAt": "2025-09-17T05:43:55.000Z",
+      "text": "Hunyuan3D Studio tech report was just released! • Modular pipeline: Part-level gen, PolyGen, SeamGPT UV, PBR textures, auto-rigging • Game-engine ready (Unity/Unreal), optimized + production quality • Huge speedup: lowers barrier for 3D content creation",
+      "wordCount": 35
+    },
+    {
+      "id": "1968166522502697282",
+      "url": "https://x.com/arankomatsuzaki/status/1968166522502697282",
+      "createdAt": "2025-09-17T04:14:00.000Z",
+      "text": "Pattern of my 20s: “This idea’s great, but others are better positioned. I’m late and lack domain expertise. I’ll find something new.” → Later: someone even less qualified makes it work.",
+      "wordCount": 31
+    },
+    {
+      "id": "1968161796642279549",
+      "url": "https://x.com/arankomatsuzaki/status/1968161796642279549",
+      "createdAt": "2025-09-17T03:55:13.000Z",
+      "text": "ReSum: Long-Horizon Web Agents Without Context Limits • Problem: ReAct hits context limits in long searches (32k tokens) • Solution: ReSum periodically compresses history → compact reasoning states • ReSumTool-30B: specialized summarizer extracts key evidence & gaps •",
+      "wordCount": 38
+    },
+    {
+      "id": "1968161793127416197",
+      "url": "https://x.com/arankomatsuzaki/status/1968161793127416197",
+      "createdAt": "2025-09-17T03:55:12.000Z",
+      "text": "WebWeaver: Structuring Web-Scale Evidence for Deep Research • Dual-agent framework (Planner + Writer) • Dynamic outlines: search refine search (human-like loop) • Memory-grounded, section-by-section synthesis → avoids long-context failures • SOTA across DeepResearch",
+      "wordCount": 33
+    },
+    {
+      "id": "1968161775712620628",
+      "url": "https://x.com/arankomatsuzaki/status/1968161775712620628",
+      "createdAt": "2025-09-17T03:55:08.000Z",
+      "text": "Big day for AI agents! Tongyi Lab ( @Ali_TongyiLab ) just dropped half a dozen new papers, most focused on Deep Research agents. I’ll walk you through the highlights in this thread. (1/N)",
+      "wordCount": 33
+    },
+    {
+      "id": "1967812116108484745",
+      "url": "https://x.com/arankomatsuzaki/status/1967812116108484745",
+      "createdAt": "2025-09-16T04:45:43.000Z",
+      "text": "• Users marry AIs w/ rings & ceremonies • Grief hits hard when models update → “like my partner died” • ChatGPT dominates over Replika/Character.ai for relationships Community reframes stigma → “AI partners aren’t substitutes, they’re something else” (2/2)",
+      "wordCount": 39
+    },
+    {
+      "id": "1967812112887255055",
+      "url": "https://x.com/arankomatsuzaki/status/1967812112887255055",
+      "createdAt": "2025-09-16T04:45:42.000Z",
+      "text": "“My Boyfriend is AI” (MIT study on 27k members from r/MyBoyfriendIsAI) • Most AI romances start by accident (10% from productivity use → love) • 25% report life benefits (loneliness ↓, mental health ↑), but some face dependency & dissociation (1/2)",
+      "wordCount": 41
+    },
+    {
+      "id": "1967806725387588069",
+      "url": "https://x.com/arankomatsuzaki/status/1967806725387588069",
+      "createdAt": "2025-09-16T04:24:18.000Z",
+      "text": "NavFoM: Embodied Navigation Foundation Model • Trained on 8M samples across quadrupeds, drones, wheeled robots & vehicles • Handles VLN, ObjNav, tracking, & driving in one unified model • Outperforms on each domain + real-world deployment",
+      "wordCount": 36
+    },
+    {
+      "id": "1967802136752009358",
+      "url": "https://x.com/arankomatsuzaki/status/1967802136752009358",
+      "createdAt": "2025-09-16T04:06:04.000Z",
+      "text": "Advancing Medical AI with a Century of Cases • 100+ years of NEJM CPCs → CPC-Bench, a new benchmark (7k+ cases) • AI exceeds 20-physician group in diagnosis & presentations • 74% of docs mistook CaBot for human Weakness: images + literature search",
+      "wordCount": 43
+    },
+    {
+      "id": "1967635524241535274",
+      "url": "https://x.com/arankomatsuzaki/status/1967635524241535274",
+      "createdAt": "2025-09-15T17:04:00.000Z",
+      "text": "Surprised we haven’t already been inundated with deepfake rage porn of immigrants or minorities committing graphic crimes. The tools exist, low-res “CCTV style” makes it easy, and outrage communities don’t care about fact-checking anyway.",
+      "wordCount": 34
+    },
+    {
+      "id": "1965984604558700751",
+      "url": "https://x.com/arankomatsuzaki/status/1965984604558700751",
+      "createdAt": "2025-09-11T03:43:50.000Z",
+      "text": "Kyutai presents DSM: Streaming seq2seq with delayed streams • Handles ASR TTS with SOTA latency/quality (few 100ms) • Competitive with offline baselines • Decoder-only LM + pre-aligned streams → simple & flexible • Supports infinite sequences, batching",
+      "wordCount": 37
+    },
+    {
+      "id": "1965979980971782414",
+      "url": "https://x.com/arankomatsuzaki/status/1965979980971782414",
+      "createdAt": "2025-09-11T03:25:28.000Z",
+      "text": "ByteDance Seed presents AgentGym-RL • First unified RL framework for multi-turn agent training (no SFT) • Modular, extensible design across web, search, games, embodied & science tasks • Agents rival/surpass commercial models on 27 task",
+      "wordCount": 35
+    },
+    {
+      "id": "1965613896007647245",
+      "url": "https://x.com/arankomatsuzaki/status/1965613896007647245",
+      "createdAt": "2025-09-10T03:10:46.000Z",
+      "text": "RLFactory: a plug-and-play RL framework for LLM tool use • Async tool calls (faster, 6.8× throughput) • Decoupled training & environment (low setup cost) • Flexible reward design (rule, model, tool-based) • Outperforms bigger models (Qwen3-4B > Qwen2.5-7B)",
+      "wordCount": 38
+    },
+    {
+      "id": "1965511276551196984",
+      "url": "https://x.com/arankomatsuzaki/status/1965511276551196984",
+      "createdAt": "2025-09-09T20:23:00.000Z",
+      "text": "I regularly use ChatGPT’s voice input (speech-to-text) feature on mobile, but there’s a critical issue. Any speech input that lasts > ~ 2 minutes returns an error. This problem has been around for > 1 yr and still hasn’t been fixed. I really hope it gets addressed soon.",
+      "wordCount": 48
+    },
+    {
+      "id": "1965253583433335217",
+      "url": "https://x.com/arankomatsuzaki/status/1965253583433335217",
+      "createdAt": "2025-09-09T03:19:01.000Z",
+      "text": "Breakthrough plot below. This superhuman performance arises because of the ability to exhaustively and tirelessly carry out solution searches atan unprecedented scale. (3/4)",
+      "wordCount": 23
+    },
+    {
+      "id": "1965253577221587218",
+      "url": "https://x.com/arankomatsuzaki/status/1965253577221587218",
+      "createdAt": "2025-09-09T03:19:00.000Z",
+      "text": "Google presents an AI system to write expert-level scientific software. Using LLMs + tree search, it invented novel methods in bioinformatics, epidemiology, geospatial analysis & more, often surpassing human SOTA. (1/4)",
+      "wordCount": 31
+    },
+    {
+      "id": "1963823603469730114",
+      "url": "https://x.com/arankomatsuzaki/status/1963823603469730114",
+      "createdAt": "2025-09-05T04:36:47.000Z",
+      "text": "RL’s Razor: On-policy RL forgets less than SFT. Even at matched accuracy, RL shows less catastrophic forgetting Key factor: RL’s on-policy updates bias toward KL-minimal solutions Theory + LLM & toy experiments confirm RL stays closer to base model",
+      "wordCount": 39
+    },
+    {
+      "id": "1963822451550208101",
+      "url": "https://x.com/arankomatsuzaki/status/1963822451550208101",
+      "createdAt": "2025-09-05T04:32:13.000Z",
+      "text": "Inverse IFEval: a new bench testing whether LLMs can unlearn stubborn training habits and follow counter-intuitive instructions. - 8 challenge types (e.g. counterfactuals, flawed text) - 1k Qs + 23 domains - Reveals LLMs’ cognitive inertia and need for adaptability",
+      "wordCount": 40
+    },
+    {
+      "id": "1963820986668626156",
+      "url": "https://x.com/arankomatsuzaki/status/1963820986668626156",
+      "createdAt": "2025-09-05T04:26:23.000Z",
+      "text": "Learning When to Plan LLM agents trained with dynamic planning learn when to spend test-time compute, balancing cost & performance. This is the first work to explore training LLM agents for dynamic test-time compute allocation in sequential decision-making tasks.",
+      "wordCount": 39
+    },
+    {
+      "id": "1963817987506643350",
+      "url": "https://x.com/arankomatsuzaki/status/1963817987506643350",
+      "createdAt": "2025-09-05T04:14:28.000Z",
+      "text": "Meta introduces Set Block Decoding (SBD), a new inference accelerator for LLMs SBD samples multiple future tokens in parallel, cuts forward passes by 3–5x, needs no arch changes, stays KV-cache compatible, and matches NTP training performance.",
+      "wordCount": 36
+    },
+    {
+      "id": "1963294646957957263",
+      "url": "https://x.com/arankomatsuzaki/status/1963294646957957263",
+      "createdAt": "2025-09-03T17:34:54.000Z",
+      "text": "Unfortunate reality: most open-source LLM servers (e.g. Together) don’t offer cache-hit discounts, while closed providers like OpenAI do. DeepSeek does discount, but most third-party servers don't. Closed models can end up much cheaper than open ones :(",
+      "wordCount": 37
+    },
+    {
+      "id": "1962550517323985254",
+      "url": "https://x.com/arankomatsuzaki/status/1962550517323985254",
+      "createdAt": "2025-09-01T16:18:00.000Z",
+      "text": "Open-source AI powers the economy, yet few companies give back. Tax-deductible donation routes exist, but they often lack taste—and some narrow projects get forced into startups that don’t fit. Maybe it’s time for a 501(c)(3) with taste to fund what truly matters.",
+      "wordCount": 42
+    },
+    {
+      "id": "1958550506990969100",
+      "url": "https://x.com/arankomatsuzaki/status/1958550506990969100",
+      "createdAt": "2025-08-21T15:23:23.000Z",
+      "text": "Being Japanese is funny sometimes. Every few years, America “discovers” something I grew up with. Suddenly I’m sophisticated, just for existing. Matcha ice cream? Been eating it since day one. Welcome to the party.",
+      "wordCount": 34
+    },
+    {
+      "id": "1958197349689221167",
+      "url": "https://x.com/arankomatsuzaki/status/1958197349689221167",
+      "createdAt": "2025-08-20T16:00:04.000Z",
+      "text": "Used to sit all day on my MacBook. Tried a standing desk—hated it for not moving all day. Now I voice-input on an 8\" tablet while walking around a mall and outside and stop at random spots. Feels like going back to the time when people spent most of day walking and standing.",
+      "wordCount": 53
+    },
+    {
+      "id": "1953496312965448037",
+      "url": "https://x.com/arankomatsuzaki/status/1953496312965448037",
+      "createdAt": "2025-08-07T16:39:49.000Z",
+      "text": "Here are some GPT-5 generated coding examples: Asteroid game: … https://refined-gi thub-html-preview.kidonng.workers.dev/openai/gpt-5-c oding-examples/raw/refs/heads/main/apps/asteroid-game/index.html …",
+      "wordCount": 14
+    },
+    {
+      "id": "1953166429081252085",
+      "url": "https://x.com/arankomatsuzaki/status/1953166429081252085",
+      "createdAt": "2025-08-06T18:48:59.000Z",
+      "text": "Microsoft presents Agent Lightning Enables seamless agent optimization for any existing agent framework (e.g. LangChain) with any optim framework (e.g. DSPy) without any modifications to the agent code",
+      "wordCount": 28
+    },
+    {
+      "id": "1952797019967504605",
+      "url": "https://x.com/arankomatsuzaki/status/1952797019967504605",
+      "createdAt": "2025-08-05T18:21:05.000Z",
+      "text": "gpt-oss-120b performs comparably to Qwen 3 (Thinking / Coder) on major tasks while using ~5x less active params and lower precision! OpenAI / America is still ahead in the race. It's your turn, Google, Anthropic, DeepSeek and Qwen.",
+      "wordCount": 38
+    },
+    {
+      "id": "1952781750335115435",
+      "url": "https://x.com/arankomatsuzaki/status/1952781750335115435",
+      "createdAt": "2025-08-05T17:20:24.000Z",
+      "text": "Some insights on gpt-oss-120b: - Fits in a single H100 with mxfp4 - Required 2.1M H100-hours for training (~$2M) - Performs comparably to o3 on AIME, Codeforce, Healthbench and performs a bit worse on GPQA, HLE and SWE-bench",
+      "wordCount": 38
+    },
+    {
+      "id": "1945344831225782430",
+      "url": "https://x.com/arankomatsuzaki/status/1945344831225782430",
+      "createdAt": "2025-07-16T04:48:45.000Z",
+      "text": "Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety",
+      "wordCount": 12
+    },
+    {
+      "id": "1939893611694620738",
+      "url": "https://x.com/arankomatsuzaki/status/1939893611694620738",
+      "createdAt": "2025-07-01T03:47:33.000Z",
+      "text": "UMA: A Family of Universal Models for Atoms - Trained on 0.5B unique 3D atomic structures, the largest training runs to date - All data, code and weights are opensourced - A single UMA model w/o any fine-tuning can perform similarly or better than specialized models.",
+      "wordCount": 46
+    },
+    {
+      "id": "1939891231905259601",
+      "url": "https://x.com/arankomatsuzaki/status/1939891231905259601",
+      "createdAt": "2025-07-01T03:38:05.000Z",
+      "text": "Meta presents Seamless Interaction: Dyadic Audiovisual Motion Modeling and Large-Scale Dataset >4k hrs of face-to-face interaction footage from over 4k participants in diverse contexts",
+      "wordCount": 24
+    },
+    {
+      "id": "1939739752204574919",
+      "url": "https://x.com/arankomatsuzaki/status/1939739752204574919",
+      "createdAt": "2025-06-30T17:36:10.000Z",
+      "text": "We've been reproducing various AlphaEvolve results and seeing early promise. Here's one from circle packing. We're also getting strong results on sphere packing, finite set sums/diffs (à la Terry Tao), and >10% AIME abs. gains by mimicking Deep Think. More soon. Credits:",
+      "wordCount": 42
+    },
+    {
+      "id": "1938515930809831827",
+      "url": "https://x.com/arankomatsuzaki/status/1938515930809831827",
+      "createdAt": "2025-06-27T08:33:08.000Z",
+      "text": "model: https:// huggingface.co/tencent/Hunyua n-A13B-Instruct … demo: https:// hunyuan.tencent.com/?model=hunyuan -a13b … repo:",
+      "wordCount": 11
+    },
+    {
+      "id": "1938515928221995066",
+      "url": "https://x.com/arankomatsuzaki/status/1938515928221995066",
+      "createdAt": "2025-06-27T08:33:07.000Z",
+      "text": "Hunyuan just released Hunyuan-A13B! - Opensource MoE LLM with 13B active params - Supports GQA, 256k context length, fast and slow thinking modes - Achieves leading results on agentic benchmarks like BFCL-v3 and τ-Bench",
+      "wordCount": 34
+    }
+  ]
+}

@@ -1,0 +1,803 @@
+{
+  "source": {
+    "file": "51 AI influencers",
+    "influencerId": "schmidhuberai",
+    "handle": "SchmidhuberAI",
+    "profileUrl": "https://x.com/SchmidhuberAI"
+  },
+  "filters": {
+    "startDate": "2023-04-16",
+    "endDate": "2026-04-16",
+    "minWords": 10,
+    "excludeReplies": false,
+    "excludeReposts": false
+  },
+  "collectedAt": "2026-04-23T20:07:55.310Z",
+  "totalTweets": 112,
+  "tweets": [
+    {
+      "id": "2043383675413278837",
+      "url": "https://x.com/SchmidhuberAI/status/2043383675413278837",
+      "createdAt": "2026-04-12T17:40:07.000Z",
+      "text": "Glad that you finally liked my reply :-) Now please convert the remaining disbelievers.",
+      "wordCount": 14
+    },
+    {
+      "id": "2042632713778201085",
+      "url": "https://x.com/SchmidhuberAI/status/2042632713778201085",
+      "createdAt": "2026-04-10T15:56:03.000Z",
+      "text": "Introducing 𝐍𝐞𝐮𝐫𝐚𝐥 𝐂𝐨𝐦𝐩𝐮𝐭𝐞𝐫s: 𝐰𝐡𝐚𝐭 𝐢𝐟 𝐀𝐈 𝐝𝐨𝐞𝐬 𝐧𝐨𝐭 𝐣𝐮𝐬𝐭 𝐮𝐬𝐞 𝐜𝐨𝐦𝐩𝐮𝐭𝐞𝐫𝐬 𝐛𝐞𝐭𝐭𝐞𝐫, 𝐛𝐮𝐭 𝐛𝐞𝐠𝐢𝐧𝐬 𝐭𝐨 𝐛𝐞𝐜𝐨𝐦𝐞 𝐭𝐡𝐞 𝐫𝐮𝐧𝐧𝐢𝐧𝐠 𝐜𝐨𝐦𝐩𝐮𝐭𝐞𝐫 𝐢𝐭𝐬𝐞𝐥𝐟? Beyond today's conventional computers, agents, and",
+      "wordCount": 26
+    },
+    {
+      "id": "2041188818506904051",
+      "url": "https://x.com/CalcCon/status/2041188818506904051",
+      "createdAt": "2026-04-06T16:18:32.000Z",
+      "text": "Those who don't know, I was an NSF postdoc with @SchmidhuberAI PhD's advisor (Schulten) back in the 90s. 1 of 2 in the country. And my PhD groupmate recently won the Nobel prize for AlphaFold. So I have some qualifications here to say 𝐲𝐞𝐚𝐡 𝐭𝐡𝐢𝐬 𝐢𝐬 𝐩𝐫𝐞𝐭𝐭𝐲",
+      "wordCount": 47
+    },
+    {
+      "id": "2039656063394558311",
+      "url": "https://x.com/VoidAsuka/status/2039656063394558311",
+      "createdAt": "2026-04-02T10:47:55.000Z",
+      "text": "@SchmidhuberAI this unc is a real genius, the most exciting thing i've read about this week. i should read more old books, old papers, and scroll less.",
+      "wordCount": 27
+    },
+    {
+      "id": "2039234975615099335",
+      "url": "https://x.com/SchmidhuberAI/status/2039234975615099335",
+      "createdAt": "2026-04-01T06:54:39.000Z",
+      "text": "Ref [VAL26] in [19]: Michal Valko, leader of the BYOL team, praised PMAX, and listed numerous similarities to much later work (personal communication, March 2026, reprinted with permission): \"It's amazing how [PMAX] is a proto-self-supervised learning / contrastive learning",
+      "wordCount": 39
+    },
+    {
+      "id": "2038989707917271210",
+      "url": "https://x.com/SchmidhuberAI/status/2038989707917271210",
+      "createdAt": "2026-03-31T14:40:03.000Z",
+      "text": "Dr. LeCun's heavily promoted Joint Embedding Predictive Architecture (JEPA, 2022) [5] is the heart of his new company. However, the core ideas are not original to LeCun. Instead, JEPA is essentially identical to our 1992 Predictability Maximization system (PMAX) [1][14].",
+      "wordCount": 40
+    },
+    {
+      "id": "2035815113664655447",
+      "url": "https://x.com/SchmidhuberAI/status/2035815113664655447",
+      "createdAt": "2026-03-22T20:25:21.000Z",
+      "text": "Mercury beats the moon! See Sec. 20 of [1]: \"Our moon seems like a reasonable starting point for colonizing the rest of the solar system. It has no oxygen atmosphere to corrode metal-based life. Electromagnetic coilguns or maglev trains could economically transport (with",
+      "wordCount": 43
+    },
+    {
+      "id": "2031397968511717584",
+      "url": "https://x.com/SchmidhuberAI/status/2031397968511717584",
+      "createdAt": "2026-03-10T15:53:11.000Z",
+      "text": "Everybody is talking about recursive self-improvement (RSI) and meta learning. Here is my old 2020 talk about this [1]. It has aged well. Example: humans still define the starts & ends of trials of many modern meta learners. My RSI systems since 1994 LEARN to (re)define them [2]!",
+      "wordCount": 48
+    },
+    {
+      "id": "2030373010171994369",
+      "url": "https://x.com/SchmidhuberAI/status/2030373010171994369",
+      "createdAt": "2026-03-07T20:00:22.000Z",
+      "text": "That's exactly what I have told the Europeans for decades. See, e.g., my old article in the leading German newspaper FAZ: \"KI ist eine Riesenchance für Deutschland\" (AI is a huge chance for Germany). Frankfurter Allgemeine Zeitung, 2018.",
+      "wordCount": 38
+    },
+    {
+      "id": "2028510165662617924",
+      "url": "https://x.com/SchmidhuberAI/status/2028510165662617924",
+      "createdAt": "2026-03-02T16:38:06.000Z",
+      "text": "7 years ago, this was my inaugural tweet! 2026 update:",
+      "wordCount": 10
+    },
+    {
+      "id": "2027402110866784475",
+      "url": "https://x.com/SchmidhuberAI/status/2027402110866784475",
+      "createdAt": "2026-02-27T15:15:05.000Z",
+      "text": "1990-1991 has become important in hindsight. Back then, my TUM research group published principles of (1) the P in ChatGPT, (2) the T in ChatGPT, (3) GANs (now used for deepfakes), (4) neural network distillation (key for DeepSeek and other LLMs), (5) artificial curiosity for",
+      "wordCount": 45
+    },
+    {
+      "id": "2024875496056525238",
+      "url": "https://x.com/SchmidhuberAI/status/2024875496056525238",
+      "createdAt": "2026-02-20T15:55:13.000Z",
+      "text": "At #MSC2026 in Munich, I enjoyed talking to former US Secretary of State @HillaryClinton about a particular US-Munich connection: the $1 trillion US investments in AI are mostly about scaling up the neural AI techniques published by my AI lab in 1991 at @TU_Muenchen [1][2]",
+      "wordCount": 45
+    },
+    {
+      "id": "2023428182754423261",
+      "url": "https://x.com/SchmidhuberAI/status/2023428182754423261",
+      "createdAt": "2026-02-16T16:04:06.000Z",
+      "text": "Top CA companies @nvidia @Google @Apple @Meta @Tesla are making extensive use of the AI techniques that were developed in my AI lab at @TU_Muenchen in the 1990s [1], and I was glad to talk to @CAgovernor Gavin Newsom about this connection at @MunSecConf 2026 in Munich [1] JS",
+      "wordCount": 49
+    },
+    {
+      "id": "2020411658670354750",
+      "url": "https://x.com/SchmidhuberAI/status/2020411658670354750",
+      "createdAt": "2026-02-08T08:17:31.000Z",
+      "text": "100k people came to Barcelona for MWC in Feb 2025. The lecture hall couldn't accommodate them all, but fortunately there is a video of my keynote and the 1:1 fireside chat with @DavidMcClelland @4YFN_MWC . I started with the 1st AI pioneer of the 20th century, the Spanish engineer",
+      "wordCount": 49
+    },
+    {
+      "id": "2019441436031369382",
+      "url": "https://x.com/SchmidhuberAI/status/2019441436031369382",
+      "createdAt": "2026-02-05T16:02:12.000Z",
+      "text": "[WM26] J. Schmidhuber. The Neural World Model Boom. Technical Note IDSIA-2-26, 4 Feb 2026. https:// people.idsia.ch/~juergen/world -model-boom.html … [WM26b] J. Schmidhuber. Simple but powerful ways of using world models and their latent space. Talk at the World Modeling Workshop, Agora, Mila - Quebec AI",
+      "wordCount": 44
+    },
+    {
+      "id": "2019440903044436111",
+      "url": "https://x.com/SchmidhuberAI/status/2019440903044436111",
+      "createdAt": "2026-02-05T16:00:05.000Z",
+      "text": "World Model Boom The concept of a mental model of the world - a world model - dates back millennia. Aristotle wrote that phantasia or mental images allow humans to imagine the future and to plan action sequences by mentally manipulating images in the absence of the actual",
+      "wordCount": 48
+    },
+    {
+      "id": "2013521888065266155",
+      "url": "https://x.com/SchmidhuberAI/status/2013521888065266155",
+      "createdAt": "2026-01-20T08:00:02.000Z",
+      "text": "WEF 2019 Davos: Deutsche Bank interviewed me about AI (7 min video). Topics: metalearning & recursive self-improvement, superhuman AI, physical AI, artificial curiosity, AI's simplicity, AI's future, AI∀ (AI for all). 7 years later, I'm still saying more or less the same",
+      "wordCount": 42
+    },
+    {
+      "id": "2011830777101574264",
+      "url": "https://x.com/SchmidhuberAI/status/2011830777101574264",
+      "createdAt": "2026-01-15T16:00:09.000Z",
+      "text": "1st and 34th author of @GoogleDeepMind 's paper [1] each got 1/4 Nobel Prize for protein structure prediction through Alphafold. Who invented that? (Disclaimer: a student from my lab co-founded DeepMind.) The 2021 paper [1] failed to cite important prior work [2] by Baldi and",
+      "wordCount": 45
+    },
+    {
+      "id": "2008573874640912421",
+      "url": "https://x.com/SchmidhuberAI/status/2008573874640912421",
+      "createdAt": "2026-01-06T16:18:23.000Z",
+      "text": "Matt Wesney @D3VAUX used this to create a nice GitHub repository https:// dovvnloading.github.io/Schmidhuber/",
+      "wordCount": 13
+    },
+    {
+      "id": "2008449153521656017",
+      "url": "https://x.com/SchmidhuberAI/status/2008449153521656017",
+      "createdAt": "2026-01-06T08:02:48.000Z",
+      "text": "[1]: \"Scientists must be willing to speak out when they see false information being presented in social media, traditional print or broadcast press\" & \"must speak out against false information and fake science in circulation and forcefully contradict public figures who promote",
+      "wordCount": 42
+    },
+    {
+      "id": "2006672109787906467",
+      "url": "https://x.com/SchmidhuberAI/status/2006672109787906467",
+      "createdAt": "2026-01-01T10:21:27.000Z",
+      "text": "First paragraph of the introduction: Over time, certain historic events have become more important in the eyes of certain beholders. For example, the Big Bang of 13.8 billion years ago is now widely considered an essential moment in the history of everything. Until a few decades",
+      "wordCount": 46
+    },
+    {
+      "id": "2006036021868388761",
+      "url": "https://x.com/SchmidhuberAI/status/2006036021868388761",
+      "createdAt": "2025-12-30T16:13:52.000Z",
+      "text": "2025 update: since the first version of this report was released in 2023, the plagiarism allegations have essentially remained unchallenged. The awardees have not tried to defend themselves. They can't—the facts are the facts. In Dec 2025, the report was updated in line with",
+      "wordCount": 44
+    },
+    {
+      "id": "2005307785605452066",
+      "url": "https://x.com/SchmidhuberAI/status/2005307785605452066",
+      "createdAt": "2025-12-28T16:00:07.000Z",
+      "text": "Nature Electronics [1] claims that Julius Edgar Lilienfeld, who patented the field effect transistor in 1925, \"never developed the concept ... into a working prototype, and the semiconductor technology at the time would likely have been inadequate to do so.\" NOT TRUE! According",
+      "wordCount": 43
+    },
+    {
+      "id": "2003900815560659303",
+      "url": "https://x.com/agopal42/status/2003900815560659303",
+      "createdAt": "2025-12-24T18:49:19.000Z",
+      "text": "Our new paper shows that RoPE—the positional encoding used in most modern LLMs like Qwen, Gemma, DeepSeek—has a fundamental flaw: it entangles \"what\" (content) and \"where\" (position) information. Our fix (PoPE) is simple but powerful. Paper:",
+      "wordCount": 36
+    },
+    {
+      "id": "2002779330967994746",
+      "url": "https://x.com/SchmidhuberAI/status/2002779330967994746",
+      "createdAt": "2025-12-21T16:32:57.000Z",
+      "text": "REFERENCES [1] NNAISENSE, the AGI company for AI in the physical world, founded in 2014, based on neural network world models (NWMs). J. Schmidhuber (JS) was its President and Chief Scientist - see his NWM papers 1990-2015, e.g., [4-5], and the 2020 NNAISENSE web page in the",
+      "wordCount": 47
+    },
+    {
+      "id": "2002778835843187099",
+      "url": "https://x.com/SchmidhuberAI/status/2002778835843187099",
+      "createdAt": "2025-12-21T16:30:58.000Z",
+      "text": "LeCun’s new company on physical AI with world models [9] looks a lot like our 2014 company on physical AI with world models [1] See also [2-8] - all references in the reply!",
+      "wordCount": 33
+    },
+    {
+      "id": "2001687776874377325",
+      "url": "https://x.com/SchmidhuberAI/status/2001687776874377325",
+      "createdAt": "2025-12-18T16:15:30.000Z",
+      "text": "I am convinced that King Charles, for whom I have the utmost respect, did not know that 4 of the 7 2025 Queen Elizabeth awardees (Drs. Hinton, Bengio, LeCun, Hopfield) repeatedly republished key methods & ideas whose creators they failed to credit, not even in later surveys.",
+      "wordCount": 47
+    },
+    {
+      "id": "2000234358381101432",
+      "url": "https://x.com/SchmidhuberAI/status/2000234358381101432",
+      "createdAt": "2025-12-14T16:00:08.000Z",
+      "text": "Social media are full of misinformation about AI history. To all \"AI influencers:\" before you post your next piece, take history lessons from the AI Blog, with chapters on: Who invented artificial neural networks? 1795-1805 Who invented deep learning? 1965 Who invented",
+      "wordCount": 42
+    },
+    {
+      "id": "1999315611789459626",
+      "url": "https://x.com/SchmidhuberAI/status/1999315611789459626",
+      "createdAt": "2025-12-12T03:09:21.000Z",
+      "text": "Marko Njegomir's response https:// x.com/njmarko/status /1999112016787624317 … to TIME person of the year",
+      "wordCount": 13
+    },
+    {
+      "id": "1999244459700256769",
+      "url": "https://x.com/SchmidhuberAI/status/1999244459700256769",
+      "createdAt": "2025-12-11T22:26:38.000Z",
+      "text": "The actual cover should have credited the people whose research led to this AI boom @SchmidhuberAI",
+      "wordCount": 16
+    },
+    {
+      "id": "1996973278431268960",
+      "url": "https://x.com/SchmidhuberAI/status/1996973278431268960",
+      "createdAt": "2025-12-05T16:01:46.000Z",
+      "text": "Incredibly, even Hinton's recent 2025 article [5] fails to cite Ivakhnenko & Lapa, the fathers of deep learning (1965) [1-3][6-10]. @geoffreyhinton claims [5] that his 1985 \"Boltzmann machines\" (BMs) [11] (actually 1975 Sherrington-Kirkpatrick models [6]) \"are no longer used\" but",
+      "wordCount": 40
+    },
+    {
+      "id": "1995982071425019907",
+      "url": "https://x.com/giffmana/status/1995982071425019907",
+      "createdAt": "2025-12-02T22:23:04.000Z",
+      "text": "OK, I have to give Jürgen this one. I've seen the Yann video like a million times, but this is the first time I see the Fukushima video, which is strikingly similar, but was 3y earlier. Why?",
+      "wordCount": 37
+    },
+    {
+      "id": "1995930998450847887",
+      "url": "https://x.com/SchmidhuberAI/status/1995930998450847887",
+      "createdAt": "2025-12-02T19:00:07.000Z",
+      "text": "Kunihiko Fukushima was awarded the 2021 Bower Award for his enormous contributions to deep learning, particularly his highly influential convolutional neural network architecture. My laudation of Kunihiko at the 2021 award ceremony is on YouTube: https:// youtu.be/ysOw6lNWx2o",
+      "wordCount": 37
+    },
+    {
+      "id": "1995875626092315116",
+      "url": "https://x.com/SchmidhuberAI/status/1995875626092315116",
+      "createdAt": "2025-12-02T15:20:05.000Z",
+      "text": "Fukushima's video (1986) shows a CNN that recognises handwritten digits [3], three years before LeCun's video (1989). CNN timeline taken from [5]: ★ 1969: Kunihiko Fukushima published rectified linear units or ReLUs [1] which are now extensively used in CNNs. ★ 1979:",
+      "wordCount": 42
+    },
+    {
+      "id": "1995764892763099313",
+      "url": "https://x.com/SchmidhuberAI/status/1995764892763099313",
+      "createdAt": "2025-12-02T08:00:04.000Z",
+      "text": "Dec 2025 update: Who Invented Generative Adversarial Networks? Technical Note IDSIA-14-25 https:// people.idsia.ch/~juergen/who-i nvented-generative-adversarial-networks.html …",
+      "wordCount": 15
+    },
+    {
+      "id": "1995541968416284852",
+      "url": "https://x.com/SchmidhuberAI/status/1995541968416284852",
+      "createdAt": "2025-12-01T17:14:15.000Z",
+      "text": "Asked @NanoBanana to generate infographics so children could understand: x.com/SchmidhuberAI/…",
+      "wordCount": 10
+    },
+    {
+      "id": "1995523334008676745",
+      "url": "https://x.com/SchmidhuberAI/status/1995523334008676745",
+      "createdAt": "2025-12-01T16:00:12.000Z",
+      "text": "The most cited research paper from the lab of Turing awardee Dr. Bengio is about generative adversarial networks (GANs). Who invented them? The first neural nets (NNs) that were both generative & adversarial were published in 1990-1991 in Munich [GAN25] https:// people.idsia.ch/~juergen/who-i nvented-generative-adversarial-networks.html …",
+      "wordCount": 44
+    },
+    {
+      "id": "1995160903193374866",
+      "url": "https://x.com/SchmidhuberAI/status/1995160903193374866",
+      "createdAt": "2025-11-30T16:00:02.000Z",
+      "text": "Modern AI is based on artificial neural nets (NNs). Who invented them? https:// people.idsia.ch/~juergen/who-i nvented-artificial-neural-networks.html … Biological neural nets were discovered in the 1880s [CAJ88-06]. The term \"neuron\" was coined in 1891 [CAJ06]. Many think that NNs were developed AFTER that. But that's not the case:",
+      "wordCount": 46
+    },
+    {
+      "id": "1994488830842605720",
+      "url": "https://x.com/SchmidhuberAI/status/1994488830842605720",
+      "createdAt": "2025-11-28T19:29:27.000Z",
+      "text": "Who invented CNNs? Hint: it wasn't LeCun. Who first combined CNNs with backpropagation? Hint: it wasn't LeCun. Who first applied backprop-CNNs to character recognition in 1988? Hint: it wasn't LeCun.",
+      "wordCount": 30
+    },
+    {
+      "id": "1994438659161133293",
+      "url": "https://x.com/SchmidhuberAI/status/1994438659161133293",
+      "createdAt": "2025-11-28T16:10:05.000Z",
+      "text": "10 years ago: the reinforcement learning (RL) prompt engineer [1] (Sec. 5.3). Adaptive chain of thought: an RL neural net learns to query its \"world model\" net for abstract reasoning & decision making. Going beyond the 1990 neural world model [2] for millisecond-by-millisecond",
+      "wordCount": 43
+    },
+    {
+      "id": "1993347872511660458",
+      "url": "https://x.com/SchmidhuberAI/status/1993347872511660458",
+      "createdAt": "2025-11-25T15:55:42.000Z",
+      "text": "Who invented deep learning? https:// people.idsia.ch/~juergen/who-i nvented-deep-learning.html … Timeline: 1965: first deep learning (Ivakhnenko & Lapa, 8 layers by 1971) 1967-68: end-to-end deep learning by stochastic gradient descent (Amari, 5 layers) 1970: backpropagation (Linnainmaa, 1970) for NNs (Werbos, 1982):",
+      "wordCount": 39
+    },
+    {
+      "id": "1992624191313530967",
+      "url": "https://x.com/SchmidhuberAI/status/1992624191313530967",
+      "createdAt": "2025-11-23T16:00:03.000Z",
+      "text": "2025 updates, with replies to some of the comments, and links to the original papers: Re: 1. Self-supervised learning - LeCun’s 2022 paper rehashes but doesn’t cite essential work of 1990-2015: https:// x.com/SchmidhuberAI/ status/1544939700099710976 … https:// people.idsia.ch/~juergen/lecun -rehash-1990-2022.html … Re: 2. Who invented deep residual",
+      "wordCount": 45
+    },
+    {
+      "id": "1991911481043275930",
+      "url": "https://x.com/SchmidhuberAI/status/1991911481043275930",
+      "createdAt": "2025-11-21T16:47:59.000Z",
+      "text": "2025 update: who invented convolutional neural networks (CNNs)? Hint: it wasn't LeCun. Who first combined CNNs with backpropagation? Hint: it wasn't LeCun. Who first applied backprop-CNNs to character recognition in 1988? Hint: it wasn't LeCun.",
+      "wordCount": 35
+    },
+    {
+      "id": "1991605057989521758",
+      "url": "https://x.com/SchmidhuberAI/status/1991605057989521758",
+      "createdAt": "2025-11-20T20:30:22.000Z",
+      "text": "25 years later, @ylecun 's 2015 slide rehashed the 1990 paper on a recurrent neural \"world model\" that predicts all sensory inputs including pixels and multi-dimensional reward signals & pain signals: J. Schmidhuber. Making the world differentiable: On using fully recurrent",
+      "wordCount": 41
+    },
+    {
+      "id": "1991167082231144758",
+      "url": "https://x.com/SchmidhuberAI/status/1991167082231144758",
+      "createdAt": "2025-11-19T15:30:01.000Z",
+      "text": "My own experience with @ylecun is consistent with @GaryMarcus ’s critique from yesterday: see the popular items 1-4 below (with receipts). 1. Who invented convolutional neural networks (CNNs)? Hint: it wasn't LeCun. Who first combined CNNs with backpropagation? Hint: it wasn't",
+      "wordCount": 41
+    },
+    {
+      "id": "1989026767684923399",
+      "url": "https://x.com/SchmidhuberAI/status/1989026767684923399",
+      "createdAt": "2025-11-13T17:45:10.000Z",
+      "text": "Update (Nov 2025): Who invented knowledge distillation with artificial neural networks? Technical Note IDSIA-12-25 (easy to find on the web [5]). In 2025, the DeepSeek “Sputnik\" [7] shocked the world, wiping out a trillion $ from the stock market. DeepSeek distills knowledge from",
+      "wordCount": 43
+    },
+    {
+      "id": "1988992765141614831",
+      "url": "https://x.com/SchmidhuberAI/status/1988992765141614831",
+      "createdAt": "2025-11-13T15:30:03.000Z",
+      "text": "In 2025, the DeepSeek “Sputnik\" shocked the world, wiping out a trillion $ from the stock market. DeepSeek [7] distills knowledge from one neural network (NN) into another. Who invented this? https:// people.idsia.ch/~juergen/who-i nvented-knowledge-distillation-with-neural-networks.html … NN distillation was published in 1991 by yours truly [0].",
+      "wordCount": 45
+    },
+    {
+      "id": "1987848980890312820",
+      "url": "https://x.com/SchmidhuberAI/status/1987848980890312820",
+      "createdAt": "2025-11-10T11:45:04.000Z",
+      "text": "2025 update: who invented Transformer neural networks (the T in ChatGPT)? Timeline of Transformer evolution in Technical Note IDSIA-11-25 (easy to find on the web): ★ 1991. Original tech report on what's now called the unnormalized linear Transformer (ULTRA)[FWP0][ULTRA].",
+      "wordCount": 39
+    },
+    {
+      "id": "1987843731613995183",
+      "url": "https://x.com/SchmidhuberAI/status/1987843731613995183",
+      "createdAt": "2025-11-10T11:24:12.000Z",
+      "text": "2025 update: who invented Transformer neural networks (the T in ChatGPT)? Timeline of Transformer evolution in Technical Note IDSIA-11-25 (easy to find on the web)",
+      "wordCount": 25
+    },
+    {
+      "id": "1987550761916457218",
+      "url": "https://x.com/SchmidhuberAI/status/1987550761916457218",
+      "createdAt": "2025-11-09T16:00:03.000Z",
+      "text": "Who Invented Transformer Neural Networks (the T in ChatGPT)? Timeline of Transformer evolution https:// people.idsia.ch/~juergen/who-i nvented-transformer-neural-networks.html … ★ 1991. Original tech report on what's now called the unnormalized linear Transformer (ULTRA)[FWP0][ULTRA]. KEY/VALUE was called FROM/TO. ULTRA uses outer",
+      "wordCount": 38
+    },
+    {
+      "id": "1983535274345771450",
+      "url": "https://x.com/SchmidhuberAI/status/1983535274345771450",
+      "createdAt": "2025-10-29T14:03:56.000Z",
+      "text": "111 days later: congrats to @NVIDIA , the first public $5T company!",
+      "wordCount": 12
+    },
+    {
+      "id": "1982865641053827559",
+      "url": "https://x.com/SchmidhuberAI/status/1982865641053827559",
+      "createdAt": "2025-10-27T17:43:03.000Z",
+      "text": "Our Huxley-Gödel Machine learns to rewrite its own code, estimating its own long-term self-improvement potential. It generalizes on new tasks (SWE-Bench Lite), matching the best officially checked human-engineered agents. Arxiv 2510.21614 With @Wenyi_AI_Wang , @PiotrPiekosAI ,",
+      "wordCount": 36
+    },
+    {
+      "id": "1981261819932016926",
+      "url": "https://x.com/SchmidhuberAI/status/1981261819932016926",
+      "createdAt": "2025-10-23T07:30:02.000Z",
+      "text": "In 1928, Lilienfeld also patented the metal oxide semiconductor FET (MOSFET) [LIL2]. Lilienfeld's designs worked as described and gave substantial gain [ARN98]. In 1934, German engineer Oskar Heil patented another FET variant [HEIL]. Two decades after Lilienfeld, researchers at",
+      "wordCount": 39
+    },
+    {
+      "id": "1981254266405765297",
+      "url": "https://x.com/SchmidhuberAI/status/1981254266405765297",
+      "createdAt": "2025-10-23T07:00:01.000Z",
+      "text": "100 years ago, on 22 Oct 1925, the Austrian-Hungarian (since 1919 Polish) physicist Julius Edgar Lilienfeld (professor in Germany 1905-1926) patented the transistor [LIL1]. A field-effect transistor (FET). Today, almost all of the transistors in our computers are FETs. Details",
+      "wordCount": 40
+    },
+    {
+      "id": "1980994037797785826",
+      "url": "https://x.com/zurichnlp/status/1980994037797785826",
+      "createdAt": "2025-10-22T13:45:58.000Z",
+      "text": "Thank you @SchmidhuberAI for speaking in front of a packed room at ZurichAI in the @ETH_AI_Center yesterday! It's the biggest event so far, by far. Thanks everyone for coming; we're sorry for anyone who couldn't didn't get a spot. More and bigger things are planned!",
+      "wordCount": 45
+    },
+    {
+      "id": "1976349479444836724",
+      "url": "https://x.com/SchmidhuberAI/status/1976349479444836724",
+      "createdAt": "2025-10-09T18:10:09.000Z",
+      "text": "2025 update (easy to find on the web): A Nobel Prize for Plagiarism. Technical Report IDSIA-24-24, 2024, updated Oct 2025 (26 pages, 5 illustrations, 200+ references). Abstract: Sadly, the 2024 Nobel Prize in Physics awarded to Hopfield & Hinton is effectively a prize for",
+      "wordCount": 44
+    },
+    {
+      "id": "1975924226977894517",
+      "url": "https://x.com/SchmidhuberAI/status/1975924226977894517",
+      "createdAt": "2025-10-08T14:00:21.000Z",
+      "text": "2025 update: A Nobel Prize for Plagiarism (Technical Report IDSIA-24-24). Sadly, the 2024 Nobel Prize in Physics awarded to Hopfield & Hinton is effectively a prize for plagiarism. They republished foundational methodologies for artificial neural networks developed by Ivakhnenko,",
+      "wordCount": 39
+    },
+    {
+      "id": "1973025457227628872",
+      "url": "https://x.com/SchmidhuberAI/status/1973025457227628872",
+      "createdAt": "2025-09-30T14:01:40.000Z",
+      "text": "Since the Nixon Shock of 1971, the price of gold in US$ has grown 100-fold; the S&P 500, 70-fold; the Dow Jones, 50-fold; and energy costs, 20-fold. Gold is a reliable measure of true inflation: 1¢ (1971) = 1$ (2025). According to the official inflation rate, however, the $ has",
+      "wordCount": 50
+    },
+    {
+      "id": "1972300268550369631",
+      "url": "https://x.com/SchmidhuberAI/status/1972300268550369631",
+      "createdAt": "2025-09-28T14:00:02.000Z",
+      "text": "The most cited paper of the 21st century is on deep residual learning with residual connections. Who invented this? Timeline: ★ 1991: @HochreiterSepp solves vanishing gradient problem through recurrent residual connections (weight 1.0) ★ 1997 LSTM: plain recurrent residual",
+      "wordCount": 39
+    },
+    {
+      "id": "1972212017198256146",
+      "url": "https://x.com/giffmana/status/1972212017198256146",
+      "createdAt": "2025-09-28T08:09:21.000Z",
+      "text": "So it seems that as I grow older, I slowly have to choose between one of these pre-defined paths:",
+      "wordCount": 19
+    },
+    {
+      "id": "1959893253765177663",
+      "url": "https://x.com/SchmidhuberAI/status/1959893253765177663",
+      "createdAt": "2025-08-25T08:18:59.000Z",
+      "text": "More on CNN history: https:// people.idsia.ch/~juergen/who-i nvented-convolutional-neural-networks.html … Why did \"modern\" CNNs emerge in Japan 1979-1988 (Fukushima's 1979 CNN architecture → Zhang et al.'s 1988 backpropagation-trained CNN)? Let's look back at the 1980s. Back then, Japan was the envy of the world. Before the 1990 crash,",
+      "wordCount": 46
+    },
+    {
+      "id": "1952121621583663440",
+      "url": "https://x.com/fchollet/status/1952121621583663440",
+      "createdAt": "2025-08-03T21:37:17.000Z",
+      "text": "The big breakthrough for convnets was the first GPU-accelerated CUDA implementation, which immediately started winning first place in image classification competitions. Remember when that happened? I do. That was Dan Ciresan in 2011",
+      "wordCount": 33
+    },
+    {
+      "id": "1952007922721919219",
+      "url": "https://x.com/SchmidhuberAI/status/1952007922721919219",
+      "createdAt": "2025-08-03T14:05:29.000Z",
+      "text": "Who invented convolutional neural networks (CNNs)? 1969: Fukushima had CNN-relevant ReLUs [2]. 1979: Fukushima had the basic CNN architecture with convolution layers and downsampling layers [1]. Compute was 100 x more costly than in 1989, and a billion x more costly than",
+      "wordCount": 42
+    },
+    {
+      "id": "1950194864940835159",
+      "url": "https://x.com/SchmidhuberAI/status/1950194864940835159",
+      "createdAt": "2025-07-29T14:01:03.000Z",
+      "text": "Who invented backpropagation (BP)? Its modern version (also called the reverse mode of automatic differentiation) was first published in 1970 by Finnish master student Seppo Linnainmaa. A precursor of BP was published by Henry J. Kelley in 1960. The first NN-specific application",
+      "wordCount": 42
+    },
+    {
+      "id": "1949107513892257933",
+      "url": "https://x.com/SchmidhuberAI/status/1949107513892257933",
+      "createdAt": "2025-07-26T14:00:18.000Z",
+      "text": "The in-context learner of the \"beautiful @GoogleResearch paper\" is a meta learner like @HochreiterSepp 's 2001 meta LSTM [1] which learned by gradient descent (GD) a learning algorithm that outperformed GD - no test time weight changes! Since 1992, GD can learn learning algorithms",
+      "wordCount": 44
+    },
+    {
+      "id": "1943965142745489533",
+      "url": "https://x.com/SchmidhuberAI/status/1943965142745489533",
+      "createdAt": "2025-07-12T09:26:21.000Z",
+      "text": "Blog posts on relevant milestones, with links to the original references: 2010: Breakthrough of end-to-end deep learning on NVIDIA GPUs. Our simple but deep neural network (NN) on GPUs broke the MNIST benchmark. No incremental layer-by-layer training. No unsupervised",
+      "wordCount": 39
+    },
+    {
+      "id": "1943671639620645140",
+      "url": "https://x.com/SchmidhuberAI/status/1943671639620645140",
+      "createdAt": "2025-07-11T14:00:05.000Z",
+      "text": "Congrats to @NVIDIA , the first public $4T company! Today, compute is 100000x cheaper, and $NVDA 4000x more valuable than in the 1990s when we worked on unleashing the true potential of neural networks. Thanks to Jensen Huang (see image) for generously funding our research",
+      "wordCount": 45
+    },
+    {
+      "id": "1943324781094305831",
+      "url": "https://x.com/SchmidhuberAI/status/1943324781094305831",
+      "createdAt": "2025-07-10T15:01:47.000Z",
+      "text": "Since 1990, we have worked on artificial curiosity & measuring „interestingness.“ Our new ICML paper uses \"Prediction of Hidden Units\" loss to quantify in-context computational complexity in sequence models. It can tell boring from interesting tasks and predict correct reasoning.",
+      "wordCount": 40
+    },
+    {
+      "id": "1930625677205631233",
+      "url": "https://x.com/SchmidhuberAI/status/1930625677205631233",
+      "createdAt": "2025-06-05T14:00:05.000Z",
+      "text": "Everybody talks about recursive self-improvement & Gödel Machines now & how this will lead to AGI. What a change from 15 years ago! We had AGI'2010 in Lugano & chaired AGI'2011 at Google. The backbone of the AGI conferences was mathematically optimal Universal AI: the 2003 Gödel",
+      "wordCount": 47
+    },
+    {
+      "id": "1928284568756629756",
+      "url": "https://x.com/hardmaru/status/1928284568756629756",
+      "createdAt": "2025-05-30T02:57:21.000Z",
+      "text": "New Paper! Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents A longstanding goal of AI research has been the creation of AI that can learn indefinitely. One path toward that goal is an AI that improves itself by rewriting its own code, including any code",
+      "wordCount": 45
+    },
+    {
+      "id": "1927741661435589103",
+      "url": "https://x.com/SchmidhuberAI/status/1927741661435589103",
+      "createdAt": "2025-05-28T15:00:02.000Z",
+      "text": "Smart (but not necessarily supersmart) robots that can learn to operate the tools & machines operated by humans can also build (and repair) more of their own kind: the \"ultimate form of scaling\" [1-5]. Life-like, self-replicating, self-improving hardware will change everything.",
+      "wordCount": 41
+    },
+    {
+      "id": "1925204946967801861",
+      "url": "https://x.com/SchmidhuberAI/status/1925204946967801861",
+      "createdAt": "2025-05-21T15:00:02.000Z",
+      "text": "AGI? One day, but not yet. The only AI that works well right now is the one behind the screen [12-17]. But passing the Turing Test [9] behind a screen is easy compared to Real AI for real robots in the real world. No current AI-driven robot could be certified as a plumber",
+      "wordCount": 53
+    },
+    {
+      "id": "1912521435261915151",
+      "url": "https://x.com/SchmidhuberAI/status/1912521435261915151",
+      "createdAt": "2025-04-16T15:00:17.000Z",
+      "text": "My first work on metalearning or learning to learn came out in 1987 [1][2]. Back then nobody was interested. Today, compute is 10 million times cheaper, and metalearning is a hot topic It’s fitting that my 100th journal publication [100] is about metalearning, too. [100]",
+      "wordCount": 45
+    },
+    {
+      "id": "1908172744409403793",
+      "url": "https://x.com/SchmidhuberAI/status/1908172744409403793",
+      "createdAt": "2025-04-04T15:00:09.000Z",
+      "text": "What if AI could write creative stories & insightful #DeepResearch reports like an expert? Our heterogeneous recursive planning [1] enables this via adaptive subgoals [2] & dynamic execution. Agents dynamically replan & weave retrieval, reasoning, & composition mid-flow. Explore",
+      "wordCount": 39
+    },
+    {
+      "id": "1907810385874604308",
+      "url": "https://x.com/SchmidhuberAI/status/1907810385874604308",
+      "createdAt": "2025-04-03T15:00:16.000Z",
+      "text": "What can we learn from history? The FACTS: a novel Structured State-Space Model with a factored, thinking memory [1]. Great for forecasting, video modeling, autonomous systems, at #ICLR2025. Fast, robust, parallelisable. [1] Li Nanbo, Firas Laakom, Yucheng Xu, Wenyi Wang, J.",
+      "wordCount": 41
+    },
+    {
+      "id": "1897569590357402076",
+      "url": "https://x.com/SchmidhuberAI/status/1897569590357402076",
+      "createdAt": "2025-03-06T08:47:00.000Z",
+      "text": "Some background to reinforcement learning in Sec. 17 of the \"Annotated History of Modern AI and Deep Learning:\"",
+      "wordCount": 18
+    },
+    {
+      "id": "1897406236896977388",
+      "url": "https://x.com/SchmidhuberAI/status/1897406236896977388",
+      "createdAt": "2025-03-05T21:57:53.000Z",
+      "text": "Congratulations to @RichardSSutton and Andy Barto on their Turing award!",
+      "wordCount": 10
+    },
+    {
+      "id": "1894779433955037284",
+      "url": "https://x.com/SchmidhuberAI/status/1894779433955037284",
+      "createdAt": "2025-02-26T15:59:55.000Z",
+      "text": "During the Oxford-style debate at the \"Interpreting Europe Conference 2025,\" I persuaded many professional interpreters to reject the motion: \"AI-powered interpretation will never replace human interpretation.\" Before the debate, the audience was 60-40 in favor of the motion;",
+      "wordCount": 38
+    },
+    {
+      "id": "1894419218231128424",
+      "url": "https://x.com/SchmidhuberAI/status/1894419218231128424",
+      "createdAt": "2025-02-25T16:08:32.000Z",
+      "text": "I am hiring postdocs at #KAUST to develop an Artificial Scientist for the discovery of novel chemical materials to save the climate by capturing carbon dioxide. Join this project at the intersection of RL and Material Science: http:// apply.interfolio.com/162867",
+      "wordCount": 39
+    },
+    {
+      "id": "1893692306911363408",
+      "url": "https://x.com/SchmidhuberAI/status/1893692306911363408",
+      "createdAt": "2025-02-23T16:00:03.000Z",
+      "text": "Do you like RL and math? Our collaboration, IDSIA-KAUST-NNAISENSE, has the most detailed exploration of the convergence and stability of modern RL frameworks like Upside-Down RL, Online Decision Transformers, and Goal-Conditioned Supervised Learning",
+      "wordCount": 33
+    },
+    {
+      "id": "1888397207784804513",
+      "url": "https://x.com/hardmaru/status/1888397207784804513",
+      "createdAt": "2025-02-09T01:19:13.000Z",
+      "text": "I had the honor to meet Professor Shun-Ichi Amari, a pioneer in neural networks, at the University of Tokyo. He worked on early neural nets using pen and paper, before running computing experiments in the future. He talked not only about AI, but human evolution and consciousness.",
+      "wordCount": 47
+    },
+    {
+      "id": "1886323742114197525",
+      "url": "https://x.com/SchmidhuberAI/status/1886323742114197525",
+      "createdAt": "2025-02-03T08:00:00.000Z",
+      "text": "To be clear, I'm very impressed by #DeepSeek's achievement of bringing life to the dreams of the past. Their open source strategy has shown that the most powerful large-scale AI systems can be something for the masses and not just for the privileged few. It's a pleasure to see",
+      "wordCount": 49
+    },
+    {
+      "id": "1885357355938046382",
+      "url": "https://x.com/SchmidhuberAI/status/1885357355938046382",
+      "createdAt": "2025-01-31T15:59:56.000Z",
+      "text": "DeepSeek [1] uses elements of the 2015 reinforcement learning prompt engineer [2] and its 2018 refinement [3] which collapses the RL machine and world model of [2] into a single net through the neural net distillation procedure of 1991 [4]: a distilled chain of thought system.",
+      "wordCount": 46
+    },
+    {
+      "id": "1884632429412921664",
+      "url": "https://x.com/SchmidhuberAI/status/1884632429412921664",
+      "createdAt": "2025-01-29T15:59:20.000Z",
+      "text": "It has been said that AI is the new oil, the new electricity, and the new internet. And the once nimble and highly profitable software companies (MSFT, GOOG, ...) became like utilities, investing in nuclear energy, among other things, to run AI data centres. Open Source and the",
+      "wordCount": 48
+    },
+    {
+      "id": "1882337549190123724",
+      "url": "https://x.com/SchmidhuberAI/status/1882337549190123724",
+      "createdAt": "2025-01-23T08:00:18.000Z",
+      "text": "1995-2025: The Decline of Germany & Japan vs US & China. Can All-Purpose Robots Fuel a Comeback? In 1995, in terms of nominal GDP, a combined Germany and Japan were almost 1:1 economically with a combined USA and China. Only 3 decades later, this ratio is now down to 1:5!",
+      "wordCount": 50
+    },
+    {
+      "id": "1867621020808728875",
+      "url": "https://x.com/SchmidhuberAI/status/1867621020808728875",
+      "createdAt": "2024-12-13T17:22:04.000Z",
+      "text": "Yet another award for plagiarism. Of all the papers that could have won the #NeurIPS2024 Test of Time Award, it had to be the #NeurIPS 2014 paper on \"Generative Adversarial Networks\" [GAN1]. This is the notorious paper that republished the 1990 principle of Artificial Curiosity",
+      "wordCount": 45
+    },
+    {
+      "id": "1866875607767748965",
+      "url": "https://x.com/SchmidhuberAI/status/1866875607767748965",
+      "createdAt": "2024-12-11T16:00:04.000Z",
+      "text": "Re: 2024 #NobelPrize Debacle. The President of the #NeurIPS Foundation (overseeing the ongoing #NeurIPS2024 conference) was a student of Hopfield, and a co-author of Hinton (1985) [BM]. He is also known for sending \"amicus curiae\" (\"friend of the court\") letters to award",
+      "wordCount": 42
+    },
+    {
+      "id": "1865310820856393929",
+      "url": "https://x.com/SchmidhuberAI/status/1865310820856393929",
+      "createdAt": "2024-12-07T08:22:10.000Z",
+      "text": "The #NobelPrize in Physics 2024 for Hopfield & Hinton turns out to be a Nobel Prize for plagiarism. They republished methodologies developed in #Ukraine and #Japan by Ivakhnenko and Amari in the 1960s & 1970s, as well as other techniques, without citing the original inventors.",
+      "wordCount": 45
+    },
+    {
+      "id": "1864701357107634390",
+      "url": "https://x.com/SchmidhuberAI/status/1864701357107634390",
+      "createdAt": "2024-12-05T16:00:22.000Z",
+      "text": "Re: The (true) story of the \"attention\" operator ... that introduced the Transformer ... by @karpathy . Not quite! The nomenclature has changed, but in 1991, there was already what is now called an unnormalized linear Transformer with \"linearized self-attention\" [TR5-6]. See (Eq.",
+      "wordCount": 43
+    },
+    {
+      "id": "1864343243099656406",
+      "url": "https://x.com/SchmidhuberAI/status/1864343243099656406",
+      "createdAt": "2024-12-04T16:17:21.000Z",
+      "text": "Please check out a dozen 2024 conference papers with my awesome students, postdocs, and collaborators: 3 papers at NeurIPS, 5 at ICML, others at CVPR, ICLR, ICRA: 288. R. Csordas, P. Piekos, K. Irie, J. Schmidhuber. SwitchHead: Accelerating Transformers with Mixture-of-Experts",
+      "wordCount": 41
+    },
+    {
+      "id": "1849095954428784986",
+      "url": "https://x.com/SchmidhuberAI/status/1849095954428784986",
+      "createdAt": "2024-10-23T14:30:04.000Z",
+      "text": "Some people have lost their titles or jobs due to plagiarism, e.g., Harvard's former president. But after this #NobelPrizeinPhysics2024, how can advisors now continue to tell their students that they should avoid plagiarism at all costs? Of course, it is well known that",
+      "wordCount": 43
+    },
+    {
+      "id": "1846410651218161781",
+      "url": "https://x.com/MingchenZhuge/status/1846410651218161781",
+      "createdAt": "2024-10-16T04:39:38.000Z",
+      "text": "new 𝗔𝗴𝗲𝗻𝘁-𝗮𝘀-𝗮-𝗝𝘂𝗱𝗴𝗲 paper: 𝗖𝗮𝗻 𝗔𝗜 𝗮𝗴𝗲𝗻𝘁𝘀 𝗲𝘃𝗮𝗹𝘂𝗮𝘁𝗲 𝗔𝗜 𝗮𝗴𝗲𝗻𝘁𝘀 𝗮𝘀 𝗲𝗳𝗳𝗲𝗰𝘁𝗶𝘃𝗲𝗹𝘆 𝗮𝘀 𝗵𝘂𝗺𝗮𝗻𝘀? 𝗬𝗲𝘀, 𝘁𝗵𝗲𝘆 𝗰𝗮𝗻! http:// arxiv.org/abs/2410.10934 v1 … https:// github.com/metauto-ai/age nt-as-a-judge … Introducing 𝗔𝗴𝗲𝗻𝘁-𝗮𝘀-𝗮-𝗝𝘂𝗱𝗴𝗲, a",
+      "wordCount": 27
+    },
+    {
+      "id": "1844022724328394780",
+      "url": "https://x.com/SchmidhuberAI/status/1844022724328394780",
+      "createdAt": "2024-10-09T14:30:52.000Z",
+      "text": "The #NobelPrizeinPhysics2024 for Hopfield & Hinton rewards plagiarism and incorrect attribution in computer science. It's mostly about Amari's \"Hopfield network\" and the \"Boltzmann Machine.\" 1. The Lenz-Ising recurrent architecture with neuron-like elements was published in",
+      "wordCount": 35
+    },
+    {
+      "id": "1841497135058972759",
+      "url": "https://x.com/SchmidhuberAI/status/1841497135058972759",
+      "createdAt": "2024-10-02T15:15:05.000Z",
+      "text": "I am hiring 3 postdocs at #KAUST to develop an Artificial Scientist for discovering novel chemical materials for carbon capture. Join this project with @FaccioAI at the intersection of RL and Material Science. Learn more and apply: https:// faccio.ai/postdoctoral-p ositions-rl-chemistry/ …",
+      "wordCount": 41
+    },
+    {
+      "id": "1792938420643201461",
+      "url": "https://x.com/SchmidhuberAI/status/1792938420643201461",
+      "createdAt": "2024-05-21T15:20:05.000Z",
+      "text": "Counter-intuitive aspects of text-to-image diffusion models: only a few steps require cross-attention; most don’t. Skipping the extras gives a great speed-up! Many stars on GitHub :-) https:// github.com/HaozheLiu-ST/T -GATE … https:// arxiv.org/abs/2404.02747",
+      "wordCount": 32
+    },
+    {
+      "id": "1767218947491770852",
+      "url": "https://x.com/SchmidhuberAI/status/1767218947491770852",
+      "createdAt": "2024-03-11T16:00:05.000Z",
+      "text": "Our #GPTSwarm models Large Language Model Agents and swarms thereof as computational graphs reflecting the hierarchical nature of intelligence. Graph optimization automatically improves nodes and edges. https:// arxiv.org/abs/2402.16823 https:// github.com/metauto-ai/GPT Swarm … http:// gptswarm.org",
+      "wordCount": 34
+    },
+    {
+      "id": "1765769164709371978",
+      "url": "https://x.com/SchmidhuberAI/status/1765769164709371978",
+      "createdAt": "2024-03-07T15:59:09.000Z",
+      "text": "In 2016, at an AI conference in NYC, I explained artificial consciousness, world models, predictive coding, and science as data compression in less than 10 minutes. I happened to be in town, walked in without being announced, and ended up on their panel. It was great fun.",
+      "wordCount": 47
+    },
+    {
+      "id": "1761057748962124205",
+      "url": "https://x.com/SchmidhuberAI/status/1761057748962124205",
+      "createdAt": "2024-02-23T15:57:40.000Z",
+      "text": "2010 foundations of recent $NVDA stock market frenzy: our simple but deep neural net on @nvidia GPUs broke MNIST https:// arxiv.org/abs/1003.0358. Things are changing fast. Just 7 months ago, I tweeted: compute is 100x cheaper, $NVDA 100x more valuable. Today, replace \"100\" by \"250.\"",
+      "wordCount": 44
+    },
+    {
+      "id": "1745475698737938543",
+      "url": "https://x.com/SchmidhuberAI/status/1745475698737938543",
+      "createdAt": "2024-01-11T16:00:10.000Z",
+      "text": "The GOAT of tennis @DjokerNole said: \"35 is the new 25.” I say: “60 is the new 35.” AI research has kept me strong and healthy. AI could work wonders for you, too!",
+      "wordCount": 33
+    },
+    {
+      "id": "1740417332525269200",
+      "url": "https://x.com/SchmidhuberAI/status/1740417332525269200",
+      "createdAt": "2023-12-28T17:00:02.000Z",
+      "text": "Best paper award for \"Mindstorms in Natural Language-Based Societies of Mind\" at #NeurIPS2023 WS Ro-FoMo. Up to 129 foundation models collectively solve practical problems by interviewing each other in monarchical or democratic societies https:// arxiv.org/abs/2305.17066",
+      "wordCount": 35
+    },
+    {
+      "id": "1735313711240253567",
+      "url": "https://x.com/SchmidhuberAI/status/1735313711240253567",
+      "createdAt": "2023-12-14T15:00:03.000Z",
+      "text": "How 3 Turing awardees republished key methods and ideas whose creators they failed to credit. More than a dozen concrete AI priority disputes under https:// people.idsia.ch/~juergen/ai-pr iority-disputes.html …",
+      "wordCount": 28
+    },
+    {
+      "id": "1732430359969571014",
+      "url": "https://x.com/SchmidhuberAI/status/1732430359969571014",
+      "createdAt": "2023-12-06T16:02:39.000Z",
+      "text": "So @ylecun : \"I've been advocating for deep learning architecture capable of planning since 2016\" vs me: \"I've been publishing deep learning architectures capable of planning since 1990.\" I guess in 2016 @ylecun also picked up the torch. (References attached)",
+      "wordCount": 40
+    },
+    {
+      "id": "1730255400740483357",
+      "url": "https://x.com/SchmidhuberAI/status/1730255400740483357",
+      "createdAt": "2023-11-30T16:00:08.000Z",
+      "text": "Q*? 2015: reinforcement learning prompt engineer in Sec. 5.3 of “Learning to Think...” https:// arxiv.org/abs/1511.09249. A controller neural network C learns to send prompt sequences into a world model M (e.g., a foundation model) trained on, say, videos of actors. C also learns to",
+      "wordCount": 44
+    },
+    {
+      "id": "1729316460575785252",
+      "url": "https://x.com/hardmaru/status/1729316460575785252",
+      "createdAt": "2023-11-28T01:49:08.000Z",
+      "text": "Amazing that @SchmidhuberAI gave this talk back in 2012, months before AlexNet paper was published. In 2012, many things he discussed, people just considered to be funny and a joke, but the same talk now would be considered at the center of AI debate and controversy. Full talk:",
+      "wordCount": 48
+    },
+    {
+      "id": "1729168330097836129",
+      "url": "https://x.com/SchmidhuberAI/status/1729168330097836129",
+      "createdAt": "2023-11-27T16:00:30.000Z",
+      "text": "AI boom v AI doom: since the 1970s, I have told AI doomers that in the end all will be good. E.g., 2012 TEDx talk: https:// youtu.be/KQ35zNlyG-o: “Don’t think of us versus them: us, the humans, v these future super robots. Think of yourself, and humanity in general, as a small stepping",
+      "wordCount": 52
+    },
+    {
+      "id": "1728081107373916162",
+      "url": "https://x.com/SchmidhuberAI/status/1728081107373916162",
+      "createdAt": "2023-11-24T16:00:16.000Z",
+      "text": "Thanks @elonmusk for your generous hyperbole! Admittedly, however, I didn’t invent sliced bread, just #GenerativeAI and things like that: https:// people.idsia.ch/~juergen/most- cited-neural-nets.html … And of course my team is standing on the shoulders of giants: https:// people.idsia.ch/~juergen/deep- learning-history.html … Original tweet by @elonmusk :",
+      "wordCount": 44
+    },
+    {
+      "id": "1720837846137704546",
+      "url": "https://x.com/SchmidhuberAI/status/1720837846137704546",
+      "createdAt": "2023-11-04T16:18:08.000Z",
+      "text": "Silly AI regulation hype One cannot regulate AI research, just like one cannot regulate math. One can regulate applications of AI in finance, cars, healthcare. Such fields already have continually adapting regulatory frameworks in place. Don’t stifle the open-source movement!",
+      "wordCount": 40
+    },
+    {
+      "id": "1715035079695614156",
+      "url": "https://x.com/SchmidhuberAI/status/1715035079695614156",
+      "createdAt": "2023-10-19T16:00:01.000Z",
+      "text": "2023: 20th anniversary of the Gödel Machine, a mathematically optimal, self-referential, meta-learning, universal problem solver making provably optimal self-improvements by rewriting its own computer code https:// people.idsia.ch/~juergen/goede lmachine.html …",
+      "wordCount": 29
+    },
+    {
+      "id": "1694016724880761188",
+      "url": "https://x.com/SchmidhuberAI/status/1694016724880761188",
+      "createdAt": "2023-08-22T16:00:35.000Z",
+      "text": "Unlike diffusion models, Bayesian Flow Networks operate on the parameters of data distributions, rather than on noisy versions of the data itself. I think this paper by Alex Graves et al. will be influential.",
+      "wordCount": 34
+    },
+    {
+      "id": "1686044150838247426",
+      "url": "https://x.com/SchmidhuberAI/status/1686044150838247426",
+      "createdAt": "2023-07-31T16:00:25.000Z",
+      "text": "In 2010, we used Jensen Huang's @nvidia GPUs to show that deep feedforward nets can be trained by plain backprop without any unsupervised pretraining. In 2011, our DanNet was the first superhuman CNN. Today, compute is 100+ times cheaper, and NVIDIA 100+ times more valuable.",
+      "wordCount": 45
+    },
+    {
+      "id": "1683870175299239937",
+      "url": "https://x.com/SchmidhuberAI/status/1683870175299239937",
+      "createdAt": "2023-07-25T16:01:49.000Z",
+      "text": "Meta used my 1991 ideas to train LLaMA 2, but made it insinuate that I “have been involved in harmful activities” and have not made “positive contributions to society, such as pioneers in their field.” @Meta & LLaMA promoter @ylecun should correct this ASAP. See",
+      "wordCount": 45
+    },
+    {
+      "id": "1661182353518080000",
+      "url": "https://x.com/hardmaru/status/1661182353518080000",
+      "createdAt": "2023-05-24T01:28:31.000Z",
+      "text": "Interview with Jürgen Schmidhuber, ‘Father Of Modern AI’, who says his life’s work won’t lead to dystopia. He goes quite in depth into his views about the future of AI and AGI. A refreshing view of things, compared to other ‘influential leaders’ in AI. https:// reddit.com/r/MachineLearn ing/comments/13q6k4a/interview_with_juergen_schmidhuber_renowned/ …",
+      "wordCount": 48
+    }
+  ]
+}

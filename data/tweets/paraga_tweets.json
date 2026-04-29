@@ -1,0 +1,156 @@
+[
+  {
+    "id": "2034280410864390165",
+    "handle": "paraga",
+    "text": "Parallel is built for a world where agents are the primary users of the web. Agents can now autonomously pay per API call for web access via Parallel using MPP. \nhttps://\nparallelmpp.dev",
+    "timestamp": "2026-03-18T14:46:59.000Z",
+    "url": "https://x.com/paraga/status/2034280410864390165",
+    "likes": "352",
+    "retweets": "33",
+    "replies": "31",
+    "views": "0"
+  },
+  {
+    "id": "1968751912150335530",
+    "handle": "paraga",
+    "text": "At \n@p0\n we are huge fans. It's the best code review tool we've tested and I personally love that we can avoid unnecessary status update meetings.",
+    "timestamp": "2025-09-18T19:00:08.000Z",
+    "url": "https://x.com/paraga/status/1968751912150335530",
+    "likes": "93",
+    "retweets": "5",
+    "replies": "5",
+    "views": "0"
+  },
+  {
+    "id": "1956008897723953412",
+    "handle": "paraga",
+    "text": "We are now scaling fast, powering millions of customer research tasks daily. Our system outperforms on the hardest deep research benchmarks, beating humans and all leading AI models. The Parallel web for AIs is just getting started.",
+    "timestamp": "2025-08-14T15:03:56.000Z",
+    "url": "https://x.com/paraga/status/1956008897723953412",
+    "likes": "114",
+    "retweets": "6",
+    "replies": "8",
+    "views": "0"
+  },
+  {
+    "id": "1956008888823660897",
+    "handle": "paraga",
+    "text": "Or, we can build a web where all AIs can freely collaborate, transact, and reward contributions on open markets. We wrote about it here:",
+    "timestamp": "2025-08-14T15:03:54.000Z",
+    "url": "https://x.com/paraga/status/1956008888823660897",
+    "likes": "104",
+    "retweets": "6",
+    "replies": "4",
+    "views": "0"
+  },
+  {
+    "id": "1956008879826845938",
+    "handle": "paraga",
+    "text": "The differences between AIs and humans challenge not just the technology, but the business models and social contracts on the web. If we don’t tackle these head on, the web fragments with walls and gates everywhere. Zero sum.",
+    "timestamp": "2025-08-14T15:03:52.000Z",
+    "url": "https://x.com/paraga/status/1956008879826845938",
+    "likes": "82",
+    "retweets": "3",
+    "replies": "2",
+    "views": "0"
+  },
+  {
+    "id": "1956008874214858792",
+    "handle": "paraga",
+    "text": "Humans browse pages. AIs process entire databases. Humans search, skim, and read content for minutes. AIs do hours worth of research in seconds.",
+    "timestamp": "2025-08-14T15:03:51.000Z",
+    "url": "https://x.com/paraga/status/1956008874214858792",
+    "likes": "101",
+    "retweets": "2",
+    "replies": "1",
+    "views": "0"
+  },
+  {
+    "id": "1956008867629777122",
+    "handle": "paraga",
+    "text": "The open web made AI possible. Soon AIs will use the web far more than humans ever have. And our web isn’t ready for them. That’s why we started Parallel.",
+    "timestamp": "2025-08-14T15:03:49.000Z",
+    "url": "https://x.com/paraga/status/1956008867629777122",
+    "likes": "112",
+    "retweets": "1",
+    "replies": "3",
+    "views": "0"
+  },
+  {
+    "id": "1956008857555099928",
+    "handle": "paraga",
+    "text": "just setting up my twttr, again\n\nI’ve been heads down building Parallel with some of the best people I’ve ever worked with. We’re creating infrastructure for AIs to search and use the web.",
+    "timestamp": "2025-08-14T15:03:47.000Z",
+    "url": "https://x.com/paraga/status/1956008857555099928",
+    "likes": "2.6K",
+    "retweets": "220",
+    "replies": "222",
+    "views": "0"
+  },
+  {
+    "id": "2020924954578125017",
+    "handle": "paraga",
+    "text": "We just shipped a brand new Company Enrichment cookbook with @supabase: \nhttps://\nsupabase.com/partners/integ\nrations/parallel\n…\n\nIt uses Supabase Edge Functions to make database-native calls to Parallel’s Task API, enabling web-based enrichment directly in your tables. \n\nDemo and cookbook in thread:",
+    "timestamp": "2026-02-09T18:17:10.000Z",
+    "url": "https://x.com/paraga/status/2020924954578125017",
+    "likes": "5",
+    "retweets": "",
+    "replies": "2",
+    "views": "0"
+  },
+  {
+    "id": "2020924953118507496",
+    "handle": "paraga",
+    "text": "New: Parallel integration for Apache Spark\n\nData engineers, we heard you. You can now enrich datasets with web intelligence directly in your Spark pipelines— no custom API integrations required.\n\nOur new SQL-native UDFs let you call Parallel to enrich data right in your Spark SQL",
+    "timestamp": "2026-02-09T18:17:10.000Z",
+    "url": "https://x.com/paraga/status/2020924953118507496",
+    "likes": "2",
+    "retweets": "",
+    "replies": "1",
+    "views": "0"
+  },
+  {
+    "id": "2020924951658889561",
+    "handle": "paraga",
+    "text": "We just launched SQL-native enrichment for Snowflake.\n\nEnrich thousands of records with web intelligence using a single SQL function. No API wrangling. No custom integrations. Just parallel_enrich() in your queries.\n\nPerfect for data engineers who never want to leave their",
+    "timestamp": "2026-02-09T18:17:10.000Z",
+    "url": "https://x.com/paraga/status/2020924951658889561",
+    "likes": "9",
+    "retweets": "",
+    "replies": "1",
+    "views": "0"
+  },
+  {
+    "id": "2020924950232826045",
+    "handle": "paraga",
+    "text": "We just shipped our BigQuery integration: Web enrichment directly in your data pipeline.\n\nOne SQL function. Zero custom API code.\n\n→ parallel_enrich() runs natively in BigQuery → API key secured via Secret Manager → JSON output you can parse with standard BigQuery functions",
+    "timestamp": "2026-02-09T18:17:09.000Z",
+    "url": "https://x.com/paraga/status/2020924950232826045",
+    "likes": "9",
+    "retweets": "",
+    "replies": "2",
+    "views": "0"
+  },
+  {
+    "id": "2020924948144161246",
+    "handle": "paraga",
+    "text": "We stumble upon new use cases for programmatic web search every day. A pattern we see often is our customers bringing knowledge from the web into their own databases. This requires lots of searching, reasoning, and structuring. \n@p0\n is now deeply integrated into several databases.",
+    "timestamp": "2026-02-09T18:17:09.000Z",
+    "url": "https://x.com/paraga/status/2020924948144161246",
+    "likes": "107",
+    "retweets": "6",
+    "replies": "13",
+    "views": "0"
+  },
+  {
+    "id": "2019520765805166646",
+    "handle": "paraga",
+    "text": "\"What we need is a single magical personal library\nOne you can add to from anywhere\nAnd plug into any software tool you may want to use\nOne that auto-organizes your information\nSo you can browse it, audit it and know it's reliable\nAnd that you can permission and monitor centrally",
+    "timestamp": "2026-02-05T21:17:26.000Z",
+    "url": "https://x.com/paraga/status/2019520765805166646",
+    "likes": "46",
+    "retweets": "5",
+    "replies": "3",
+    "views": "0"
+  }
+]

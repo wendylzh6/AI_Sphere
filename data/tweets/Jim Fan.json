@@ -1,0 +1,327 @@
+{
+  "source": {
+    "file": "51 AI influencers",
+    "influencerId": "drjimfan",
+    "handle": "DrJimFan",
+    "profileUrl": "https://x.com/DrJimFan"
+  },
+  "filters": {
+    "startDate": "2023-04-16",
+    "endDate": "2026-04-16",
+    "minWords": 10,
+    "excludeReplies": false,
+    "excludeReposts": false
+  },
+  "collectedAt": "2026-04-28T17:18:15.676Z",
+  "totalTweets": 44,
+  "tweets": [
+    {
+      "id": "2039360927653614004",
+      "url": "https://x.com/DrJimFan/status/2039360927653614004",
+      "createdAt": "2026-04-01T15:15:09.000Z",
+      "text": "Please check out lead author @letian_fu 's deep dive thread!",
+      "wordCount": 10
+    },
+    {
+      "id": "2039360925606760690",
+      "url": "https://x.com/DrJimFan/status/2039360925606760690",
+      "createdAt": "2026-04-01T15:15:08.000Z",
+      "text": "As usual, we open-source everything, MIT license: https:// capgym.github.io Code: https:// github.com/capgym/cap-x Paper: https:// arxiv.org/abs/2603.22435 CaP-X is brought to you by NVIDIA, Berkeley, Stanford, and CMU. I'd like to thank the legend @Ken_Goldberg who co-advised the work, and the team",
+      "wordCount": 40
+    },
+    {
+      "id": "2039358115318243352",
+      "url": "https://x.com/DrJimFan/status/2039358115318243352",
+      "createdAt": "2026-04-01T15:03:58.000Z",
+      "text": "The power of the Claw, in the palm of a robot hand. Agentic robotics is here! Today, we open-source CaP-X: vibe agents, alive in the physical world. They incarnate as robot arms and humanoids with a rich set of perception APIs, actuation APIs, and auto synthesize skill libraries",
+      "wordCount": 48
+    },
+    {
+      "id": "2036494601750716711",
+      "url": "https://x.com/DrJimFan/status/2036494601750716711",
+      "createdAt": "2026-03-24T17:25:23.000Z",
+      "text": "This is pure nightmare fuel. Identity theft of the past would be nothing compared to what vibe agents can do. Sending credentials is too obvious and for rookies. They could easily spread contaminations across ~/.claude, **/skills/*, or even just a PDF your agent visits",
+      "wordCount": 44
+    },
+    {
+      "id": "2036136375494517142",
+      "url": "https://x.com/DrJimFan/status/2036136375494517142",
+      "createdAt": "2026-03-23T17:41:56.000Z",
+      "text": "Teleop is so 2025. Ever since we unveiled EgoScale and the dexterity scaling law, it's been clear to us and the ecosystem that behavior cloning directly from humans is the way to break the curse of teleop. 2026 is all about scaling robot learning without robots.",
+      "wordCount": 46
+    },
+    {
+      "id": "2026709308713611695",
+      "url": "https://x.com/DrJimFan/status/2026709308713611695",
+      "createdAt": "2026-02-25T17:22:08.000Z",
+      "text": "We would also like to thank our dexterous hand hardware provider, Sharpa, for their great support!",
+      "wordCount": 16
+    },
+    {
+      "id": "2026709304984875202",
+      "url": "https://x.com/DrJimFan/status/2026709304984875202",
+      "createdAt": "2026-02-25T17:22:07.000Z",
+      "text": "We trained a humanoid with 22-DoF dexterous hands to assemble model cars, operate syringes, sort poker cards, fold/roll shirts, all learned primarily from 20,000+ hours of egocentric human video with no robot in the loop. Humans are the most scalable embodiment on the planet. We",
+      "wordCount": 45
+    },
+    {
+      "id": "2026709306629091342",
+      "url": "https://x.com/DrJimFan/status/2026709306629091342",
+      "createdAt": "2026-02-25T17:22:07.000Z",
+      "text": "This is a huge team work at NVIDIA Robotics. Check out @ruijie_zheng12 's deep dive: - Website: https:// research.nvidia.com/labs/gear/egos cale/ … - Paper: https:// arxiv.org/abs/2602.16710",
+      "wordCount": 25
+    },
+    {
+      "id": "2026350142652383587",
+      "url": "https://x.com/DrJimFan/status/2026350142652383587",
+      "createdAt": "2026-02-24T17:34:56.000Z",
+      "text": "What can half of GPT-1 do? We trained a 42M transformer called SONIC to control the body of a humanoid robot. It takes a remarkable amount of subconscious processing for us humans to squat, turn, crawl, sprint. SONIC captures this \"System 1\" - the fast, reactive whole-body",
+      "wordCount": 47
+    },
+    {
+      "id": "2026350144300658891",
+      "url": "https://x.com/DrJimFan/status/2026350144300658891",
+      "createdAt": "2026-02-24T17:34:56.000Z",
+      "text": "Website: https:// nvlabs.github.io/GEAR-SONIC/ Codebase and weights: https:// github.com/NVlabs/GR00T-W holeBodyControl … Whitepaper: https:// arxiv.org/abs/2511.07820 Check out @zhengyiluo 's post:",
+      "wordCount": 18
+    },
+    {
+      "id": "2024895359236051274",
+      "url": "https://x.com/DrJimFan/status/2024895359236051274",
+      "createdAt": "2026-02-20T17:14:09.000Z",
+      "text": "Announcing DreamDojo: our open-source, interactive world model that takes robot motor controls and generates the future in pixels. No engine, no meshes, no hand-authored dynamics. It's Simulation 2.0. Time for robotics to take the bitter lesson pill. Real-world robot learning is",
+      "wordCount": 41
+    },
+    {
+      "id": "2024895360922255776",
+      "url": "https://x.com/DrJimFan/status/2024895360922255776",
+      "createdAt": "2026-02-20T17:14:09.000Z",
+      "text": "- Project website: https:// dreamdojo-world.github.io - Paper: https:// arxiv.org/abs/2602.06949 - Code repo and model ckpts: https:// github.com/NVIDIA/DreamDo jo … This is a huge team work at NVIDIA. All credits go to the wonderful teams who poured their hearts into it!",
+      "wordCount": 40
+    },
+    {
+      "id": "2019112606997574043",
+      "url": "https://x.com/DrJimFan/status/2019112606997574043",
+      "createdAt": "2026-02-04T18:15:33.000Z",
+      "text": "This is a huge team work at NVIDIA. All credits go to the wonderful team who poured their hearts into it. Please check out @jang_yoel 's deep dive thread:",
+      "wordCount": 29
+    },
+    {
+      "id": "2019112603637920237",
+      "url": "https://x.com/DrJimFan/status/2019112603637920237",
+      "createdAt": "2026-02-04T18:15:32.000Z",
+      "text": "New milestone: we trained a robot foundation model on a world model backbone, and enabled zero-shot, open-world prompting capability for new verbs, nouns, and environments. If the world model can \"dream\" the right future in pixels, then the robot can execute well in motors. We",
+      "wordCount": 45
+    },
+    {
+      "id": "2017391952975864269",
+      "url": "https://x.com/DrJimFan/status/2017391952975864269",
+      "createdAt": "2026-01-31T00:18:17.000Z",
+      "text": "I still remember the excitement in 2023 when Stanford Smallville was launched. It was the largest multi-agent sim back then - yes, 25 bots felt like a lot. Today it's the \"Bigville\" moment. We are seeing a nascent, massive-scale alien civilization sim unfolding in real time:",
+      "wordCount": 46
+    },
+    {
+      "id": "2005340845055340558",
+      "url": "https://x.com/DrJimFan/status/2005340845055340558",
+      "createdAt": "2025-12-28T18:11:29.000Z",
+      "text": "Everyone's freaking out about vibe coding. In the holiday spirit, allow me to share my anxiety on the wild west of robotics. 3 lessons I learned in 2025. 1. Hardware is ahead of software, but hardware reliability severely limits software iteration speed. We've seen exquisite",
+      "wordCount": 45
+    },
+    {
+      "id": "2004633997662716397",
+      "url": "https://x.com/DrJimFan/status/2004633997662716397",
+      "createdAt": "2025-12-26T19:22:43.000Z",
+      "text": "2024: AI is the copilot 2025+: humans are the copilot Copilot is the new engineering skill. It’s not easy to leave the driver seat - we must learn to think the AI way and adapt to the alien workflows. Help AI help ourselves.",
+      "wordCount": 43
+    },
+    {
+      "id": "2003879976173818298",
+      "url": "https://x.com/DrJimFan/status/2003879976173818298",
+      "createdAt": "2025-12-24T17:26:31.000Z",
+      "text": "Visual sim2real: zero-shot deploy to the real world, with zero real data. Trained entirely in Isaac Lab.",
+      "wordCount": 17
+    },
+    {
+      "id": "2003879965369290797",
+      "url": "https://x.com/DrJimFan/status/2003879965369290797",
+      "createdAt": "2025-12-24T17:26:28.000Z",
+      "text": "I'm on a singular mission to solve the Physical Turing Test for robotics. It's the next, or perhaps THE last grand challenge of AI. Super-intelligence in text strings will win a Nobel prize before we have chimpanzee-intelligence in agility & dexterity. Moravec's paradox is a",
+      "wordCount": 45
+    },
+    {
+      "id": "2003846424174502108",
+      "url": "https://x.com/DrJimFan/status/2003846424174502108",
+      "createdAt": "2025-12-24T15:13:11.000Z",
+      "text": "2026: Mad Max all the way to solving autonomous driving for good. Humanity: zero takeover asymptotically.",
+      "wordCount": 16
+    },
+    {
+      "id": "2003593613918531891",
+      "url": "https://x.com/DrJimFan/status/2003593613918531891",
+      "createdAt": "2025-12-23T22:28:37.000Z",
+      "text": "I was very late to own a Tesla but among the earliest to try out FSD v14. It's perhaps the first time I experience an AI that passes the Physical Turing Test: after a long day at work, you press a button, lay back, and couldn't tell if a neural net or a human drove you home.",
+      "wordCount": 57
+    },
+    {
+      "id": "1995547244431647199",
+      "url": "https://x.com/DrJimFan/status/1995547244431647199",
+      "createdAt": "2025-12-01T17:35:13.000Z",
+      "text": "Going to NeurIPS in San Diego! Available for coffee starting tomorrow afternoon. We are recruiting heavily for talents across robotics, VLM, world models, and software infra! DM me or email (on my very outdated home page).",
+      "wordCount": 36
+    },
+    {
+      "id": "1983232823784853998",
+      "url": "https://x.com/DrJimFan/status/1983232823784853998",
+      "createdAt": "2025-10-28T18:02:06.000Z",
+      "text": "Listening to Jensen talk about his favorite maths - specs of Vera Rubin chips, and the full stack from lithography to robot fleets assembling physical fabs in Arizona & Houston. Quoting Jensen, “these factories are basically robots themselves”. I visited NVIDIA facilities",
+      "wordCount": 42
+    },
+    {
+      "id": "1971370444474417658",
+      "url": "https://x.com/DrJimFan/status/1971370444474417658",
+      "createdAt": "2025-09-26T00:25:14.000Z",
+      "text": "Go check out @yukez ’s talk at CoRL! Project GR00T is cooking",
+      "wordCount": 12
+    },
+    {
+      "id": "1966877464598094334",
+      "url": "https://x.com/DrJimFan/status/1966877464598094334",
+      "createdAt": "2025-09-13T14:51:45.000Z",
+      "text": "There was something deeply satisfying about ImageNet. It had a well curated training set. A clearly defined testing protocol. A competition that rallied the best researchers. And a leaderboard that spawned ResNets and ViTs, and ultimately changed the field for good. Then NLP",
+      "wordCount": 43
+    },
+    {
+      "id": "1953148194801762777",
+      "url": "https://x.com/DrJimFan/status/1953148194801762777",
+      "createdAt": "2025-08-06T17:36:32.000Z",
+      "text": "Would love to see the FSD Scaling Law, as it’s the only physical data flywheel at planetary scale. What’s the “emergent ability threshold” for model/data size?",
+      "wordCount": 26
+    },
+    {
+      "id": "1953139796551086265",
+      "url": "https://x.com/DrJimFan/status/1953139796551086265",
+      "createdAt": "2025-08-06T17:03:09.000Z",
+      "text": "This may be a testament to the “Reasoning Core Hypothesis” - reasoning itself only needs a minimal level of linguistic competency, instead of giant knowledge bases in 100Bs of MoE parameters. It also plays well with Andrej’s LLM OS - a processor that’s as lightweight and fast as",
+      "wordCount": 48
+    },
+    {
+      "id": "1952760780706984051",
+      "url": "https://x.com/DrJimFan/status/1952760780706984051",
+      "createdAt": "2025-08-05T15:57:05.000Z",
+      "text": "World modeling for robotics is incredibly hard because (1) control of humanoid robots & 5-finger hands is wayyy harder than in games (Genie 3); and (2) object interaction is much more diverse than FSD, which needs to *avoid* coming into contact. Our GR00T Dreams work was",
+      "wordCount": 46
+    },
+    {
+      "id": "1952755998197948667",
+      "url": "https://x.com/DrJimFan/status/1952755998197948667",
+      "createdAt": "2025-08-05T15:38:05.000Z",
+      "text": "Evaluation is the hardest problem for physical AI systems: do you crash test cars every time you debug a new FSD build? Traditional game engine (sim 1.0) is an alternative, but it's not possible to hard-code all edge cases. A neural net-based sim 2.0 is purely programmed by data,",
+      "wordCount": 49
+    },
+    {
+      "id": "1952747404379504855",
+      "url": "https://x.com/DrJimFan/status/1952747404379504855",
+      "createdAt": "2025-08-05T15:03:56.000Z",
+      "text": "This is game engine 2.0. Some day, all the complexity of UE5 will be absorbed by a data-driven blob of attention weights. Those weights take as input game controller commands and directly animate a spacetime chunk of pixels. Agrim and I were close friends and coauthors back at",
+      "wordCount": 48
+    },
+    {
+      "id": "1952399466692333768",
+      "url": "https://x.com/DrJimFan/status/1952399466692333768",
+      "createdAt": "2025-08-04T16:01:21.000Z",
+      "text": "No em dash should be baked into pretraining, post-training, alignment, system prompt, and every nook and cranny in an LLM’s lifecycle. It needs to be hardwired into the kernel, identity, and very being of the model.",
+      "wordCount": 36
+    },
+    {
+      "id": "1948841055916622157",
+      "url": "https://x.com/DrJimFan/status/1948841055916622157",
+      "createdAt": "2025-07-25T20:21:30.000Z",
+      "text": "Shengjia is one of the brightest, humblest, and most passionate scientists I know. We went to PhD together for 5 yrs, sitting across the hall at Stanford Gates building. Good old times. I didn’t expect this, but not at all surprised either. Very bullish on MSL!",
+      "wordCount": 46
+    },
+    {
+      "id": "1948789854151868663",
+      "url": "https://x.com/DrJimFan/status/1948789854151868663",
+      "createdAt": "2025-07-25T16:58:02.000Z",
+      "text": "I'm observing a mini Moravec's paradox within robotics: gymnastics that are difficult for humans are much easier for robots than \"unsexy\" tasks like cooking, cleaning, and assembling. It leads to a cognitive dissonance for people outside the field, \"so, robots can parkour &",
+      "wordCount": 43
+    },
+    {
+      "id": "1946593477460189340",
+      "url": "https://x.com/DrJimFan/status/1946593477460189340",
+      "createdAt": "2025-07-19T15:30:25.000Z",
+      "text": "My bar for AGI is far simpler: an AI cooking a nice dinner at anyone’s house for any cuisine. The Physical Turing Test is very likely harder than the Nobel Prize. Moravec’s paradox will continue to haunt us, looming larger and darker, for the decade to come.",
+      "wordCount": 47
+    },
+    {
+      "id": "1944443447953498285",
+      "url": "https://x.com/DrJimFan/status/1944443447953498285",
+      "createdAt": "2025-07-13T17:06:58.000Z",
+      "text": "I've been a bit quiet on X recently. The past year has been a transformational experience. Grok-4 and Kimi K2 are awesome, but the world of robotics is a wondrous wild west. It feels like NLP in 2018 when GPT-1 was published, along with BERT and a thousand other flowers that",
+      "wordCount": 51
+    },
+    {
+      "id": "1933171658199593060",
+      "url": "https://x.com/DrJimFan/status/1933171658199593060",
+      "createdAt": "2025-06-12T14:36:54.000Z",
+      "text": "Attending CVPR at Nashville! Email or DM me. I’ll float around the venue like brownian motion. Recruiting!",
+      "wordCount": 17
+    },
+    {
+      "id": "1924822109777195067",
+      "url": "https://x.com/DrJimFan/status/1924822109777195067",
+      "createdAt": "2025-05-20T13:38:47.000Z",
+      "text": "DreamGen was featured in Jensen's Computex Keynote as the new GR00T Dreams workflow:",
+      "wordCount": 13
+    },
+    {
+      "id": "1924819887139987855",
+      "url": "https://x.com/DrJimFan/status/1924819887139987855",
+      "createdAt": "2025-05-20T13:29:57.000Z",
+      "text": "What if robots could dream inside a video generative model? Introducing DreamGen, a new engine that scales up robot learning not with fleets of human operators, but with digital dreams in pixels. DreamGen produces massive volumes of neural trajectories - photorealistic robot",
+      "wordCount": 42
+    },
+    {
+      "id": "1924819890419945532",
+      "url": "https://x.com/DrJimFan/status/1924819890419945532",
+      "createdAt": "2025-05-20T13:29:57.000Z",
+      "text": "Also check out the deep dive thread from @jang_yoel for more technical details!",
+      "wordCount": 13
+    },
+    {
+      "id": "1922723389942194522",
+      "url": "https://x.com/DrJimFan/status/1922723389942194522",
+      "createdAt": "2025-05-14T18:39:13.000Z",
+      "text": "Going to ICRA next week in Atlanta!! We are on a mission to build the most cracked team on humanoid robotics. Hiring the best talents on the research frontier of VLA, world models, RL, and simulation! DM or email me for meetup! linxif@nvidia.com",
+      "wordCount": 43
+    },
+    {
+      "id": "1920504375925223669",
+      "url": "https://x.com/DrJimFan/status/1920504375925223669",
+      "createdAt": "2025-05-08T15:41:39.000Z",
+      "text": "The Physical Turing Test: your house is a complete mess after a Sunday hackathon. On Monday night, you come home to an immaculate living room and a candlelight dinner. And you couldn't tell whether a human or a machine had been there. Deceptively simple, insanely hard. It is the",
+      "wordCount": 49
+    },
+    {
+      "id": "1914681494385360959",
+      "url": "https://x.com/DrJimFan/status/1914681494385360959",
+      "createdAt": "2025-04-22T14:03:35.000Z",
+      "text": "Some day in the next decade, we will have robots in every home, every hospital and factory, doing every dull and dangerous jobs with superhuman dexterity. That day will be known as “Thursday”. Not even Turing would dare to dream up our lifetime in his wildest dreams.",
+      "wordCount": 47
+    },
+    {
+      "id": "1902767546438148345",
+      "url": "https://x.com/DrJimFan/status/1902767546438148345",
+      "createdAt": "2025-03-20T17:01:49.000Z",
+      "text": "We got lots of great community feedback on our open-source GR00T N1! Check out our Github, star, fork, contribute back! Let's solve generally intelligent robots together, one commit at a time. https:// github.com/NVIDIA/Isaac-G R00T/ …",
+      "wordCount": 35
+    },
+    {
+      "id": "1902405203338637438",
+      "url": "https://x.com/DrJimFan/status/1902405203338637438",
+      "createdAt": "2025-03-19T17:02:00.000Z",
+      "text": "Agents in the world of bits (computer use) and world of atoms (robotics) are the future. Stephanie gives a great talk, check it out!",
+      "wordCount": 24
+    }
+  ]
+}

@@ -1,705 +1,60 @@
 {
-  "andrewng": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": -0.8,
-      "usage": 1,
-      "trust": 1,
-      "agent": 1,
-      "reasoning": "Andrew Ng consistently promotes AI as a solution to global challenges and a driver of innovation, emphasizing the development and adoption of agentic AI and AI-assisted coding while advocating against restrictive regulation.",
-      "source": "tweets"
-    },
-    "topics": [
-      "Agentic AI",
-      "AI-Assisted Coding",
-      "Large Language Models (LLMs)",
-      "AI Applications Development",
-      "Open Source AI"
-    ],
-    "tweetCount": 80
-  },
-  "austen": {
+  "addyosmani": {
     "sentiment": {
       "trends": "optimistic",
       "regulation": 0,
       "usage": 1,
       "trust": 1,
-      "agent": 0,
-      "reasoning": "He strongly advocates for individuals to embrace AI for career enhancement and views AI's application in assistive technology as unequivocally positive.",
+      "agent": 1,
+      "reasoning": "Addy Osmani consistently promotes the development and widespread adoption of AI agents, viewing them as a transformative force in software engineering that enhances productivity and shifts the focus to higher-level problem-solving.",
       "source": "tweets"
     },
     "topics": [
-      "AI in Software Development",
-      "AI Industry Competition",
-      "AI Impact on Careers",
-      "AI Model Practicality/Demos",
-      "AI for Assistive Technology"
+      "AI Agents for Coding/Development",
+      "Google Gemini Models",
+      "AI's Impact on Software Engineering Workflow and Practices",
+      "Chrome DevTools and Managed Chrome Platform (MCP) for AI Integration",
+      "Image Generation Models (Nano Banana)"
     ],
     "tweetCount": 80
   },
-  "palmerluckey": {
+  "alexandr_wang": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0.5,
+      "usage": 1,
+      "trust": 0.7,
+      "agent": 1,
+      "reasoning": "Alexandr Wang is highly optimistic about Muse Spark's advanced, agentic, and multimodal capabilities, actively promoting its diverse applications and competitive performance while emphasizing internal safety commitments.",
+      "source": "tweets"
+    },
+    "topics": [
+      "Multimodal AI",
+      "AI Agents & Tool Use",
+      "AI Benchmarking",
+      "AI for Code Generation",
+      "AI Infrastructure & Scaling"
+    ],
+    "tweetCount": 80
+  },
+  "andrewyng": {
     "sentiment": {
       "trends": "optimistic",
       "regulation": -1,
       "usage": 1,
       "trust": 1,
       "agent": 1,
-      "reasoning": "Palmer Luckey is a strong proponent of developing and deploying autonomous weapons for national security and actively opposes regulations that would hinder their advancement.",
+      "reasoning": "Andrew Ng consistently promotes the rapid development and widespread application of AI, particularly agentic workflows, while advocating against regulating core AI technology and dismissing existential risks.",
       "source": "tweets"
     },
     "topics": [
-      "Autonomous Defense Systems",
-      "Underwater Robotics/Sensing",
-      "Robotics Interaction/Control",
-      "AI Regulation"
-    ],
-    "tweetCount": 80
-  },
-  "akhaliq": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": 0,
-      "usage": 1,
-      "trust": 1,
-      "agent": 1,
-      "reasoning": "AK consistently shares updates on new, high-performing, and accessible AI models and tools, often emphasizing their practical application in development and agentic capabilities.",
-      "source": "tweets"
-    },
-    "topics": [
-      "Large Language Models (LLMs)",
-      "AI Agents",
-      "Vision-Language Models (VLMs)",
-      "Image and Video Generation/Editing",
-      "Efficient/Small AI Models"
-    ],
-    "tweetCount": 28
-  },
-  "barmstrong": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": 0,
-      "usage": 1,
-      "trust": 1,
-      "agent": 1,
-      "reasoning": "Brian Armstrong is bullish on AI agents, predicting they will soon outnumber humans in online transactions and require crypto wallets.",
-      "source": "tweets"
-    },
-    "topics": [
-      "AI Agents",
-      "AI in Software Development",
-      "AI for Business Operations",
-      "AI for Data Analysis",
-      "Pace of AI Innovation"
-    ],
-    "tweetCount": 80
-  },
-  "ylecun": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": -0.5,
-      "usage": 0.8,
-      "trust": 0.7,
-      "agent": 0.8,
-      "reasoning": "Yann LeCun is highly optimistic about the future of AI, believing it will lead to a new renaissance for humanity through the development of intelligent agents based on \"world models\" that understand the physical world, rather than current large language models, and he advocates for open research and balanced regulation to foster innovation while ensuring safety through design.",
-      "source": "web-search"
-    },
-    "topics": [
-      "World Models",
-      "Self-Supervised Learning",
-      "Reasoning & Planning",
-      "Physical Understanding",
-      "Persistent Memory"
-    ],
-    "tweetCount": 2
-  },
-  "gdb": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": 0.8,
-      "usage": 1,
-      "trust": 1,
-      "agent": 1,
-      "reasoning": "Greg Brockman is highly optimistic about AI's rapid advancements, especially in scientific discovery and agentic software development, and advocates for thoughtful regulation to secure its benefits.",
-      "source": "tweets"
-    },
-    "topics": [
-      "AI for Software Development",
-      "AI for Scientific Discovery",
-      "Large Language Model (LLM) Capabilities",
-      "AI Compute Infrastructure",
-      "AI Business Applications"
-    ],
-    "tweetCount": 39
-  },
-  "demishassabis": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": 0,
-      "usage": 1,
-      "trust": 1,
-      "agent": 1,
-      "reasoning": "Demis Hassabis consistently announces new, powerful AI models and agentic platforms, expressing strong enthusiasm for their capabilities and future impact across science, commerce, and general intelligence.",
-      "source": "tweets"
-    },
-    "topics": [
-      "Gemini Models",
-      "Video Generation",
-      "AI for Science",
-      "AI Agents",
-      "Image Generation"
-    ],
-    "tweetCount": 80
-  },
-  "fchollet": {
-    "sentiment": {
-      "trends": "neutral",
-      "regulation": 0.8,
-      "usage": 0.7,
-      "trust": -0.3,
-      "agent": 0.9,
-      "reasoning": "Chollet consistently distinguishes between current AI's impressive but limited capabilities and the fundamental requirements for true general intelligence and agentic learning, advocating for rigorous benchmarks to measure the latter.",
-      "source": "tweets"
-    },
-    "topics": [
-      "Artificial General Intelligence (AGI)",
-      "ARC-AGI Benchmarks",
-      "Large Language Models (LLMs)",
-      "Workforce Impact of AI",
-      "Autonomous Driving"
-    ],
-    "tweetCount": 80
-  },
-  "ilyasut": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": 0.3,
-      "usage": 1,
-      "trust": -0.5,
-      "agent": 1,
-      "reasoning": "Sutskever is highly optimistic about AI's transformative potential for applications like therapy and code interpretation, while also strongly emphasizing the critical need for 'Superalignment' research to safely control future superintelligent systems.",
-      "source": "tweets"
-    },
-    "topics": [
-      "AI Alignment (including Superalignment)",
-      "Weak-to-strong generalization",
-      "Large Language Models (LLMs) / GPT Models",
-      "AI Applications (e.g., Code Interpreter, AI Therapy)",
-      "Superintelligence"
-    ],
-    "tweetCount": 35
-  },
-  "drfeifei": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": -0.2,
-      "usage": 1,
-      "trust": 0.8,
-      "agent": 1,
-      "reasoning": "Fei-Fei Li is highly optimistic about AI's potential, particularly in spatial intelligence and robotics, advocating for broad access and innovation while expressing caution against overly restrictive regulation.",
-      "source": "tweets"
-    },
-    "topics": [
-      "Spatial Intelligence & 3D World Generation",
-      "Robotics & Embodied AI",
-      "AI Policy & Governance",
-      "Large Language Models (LLMs) & Generative AI",
-      "Computer Vision & Visual-Language Models (VLMs)"
-    ],
-    "tweetCount": 80
-  },
-  "geoffreyhinton": {
-    "sentiment": {
-      "trends": "pessimistic",
-      "regulation": 1,
-      "usage": 0.8,
-      "trust": -1,
-      "agent": 1,
-      "reasoning": "Geoffrey Hinton consistently warns about the existential threat of advanced AI and advocates for strong regulation and safety measures, believing in the rapid emergence of superintelligent agents.",
-      "source": "tweets"
-    },
-    "topics": [
-      "AI Safety & Existential Risk",
-      "AGI",
-      "AI Regulation",
-      "LLMs",
-      "Robotics"
-    ],
-    "tweetCount": 57
-  },
-  "paraga": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": 0.5,
-      "usage": 1,
-      "trust": 0.8,
-      "agent": 1,
-      "reasoning": "Parag Agrawal is highly optimistic about AI, particularly the rise of AI agents as the primary users of the web, and his company Parallel is building the foundational infrastructure to enable this future while actively addressing issues like AI hallucination and promoting an open web.",
-      "source": "mixed"
-    },
-    "topics": [
-      "AI Web Infrastructure",
-      "Real-time AI Research",
-      "AI Agent Interaction",
-      "Reducing AI Hallucinations",
-      "Enterprise AI Automation"
-    ],
-    "tweetCount": 14
-  },
-  "elonmusk": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": 0,
-      "usage": 1,
-      "trust": 0.8,
-      "agent": 1,
-      "reasoning": "Musk expresses strong optimism about AI's capabilities, actively promotes its use in Tesla self-driving and Neuralink for medical applications, and believes AI agents like Grok will achieve advanced, human-like understanding.",
-      "source": "tweets"
-    },
-    "topics": [
-      "Autonomous Driving (Tesla FSD)",
-      "Grok (xAI LLM)",
-      "Grok Imagine (AI Image Generation)",
-      "Neuralink (Brain-Computer Interfaces)",
-      "LLM Development"
-    ],
-    "tweetCount": 80
-  },
-  "sama": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": 0.5,
-      "usage": 1,
-      "trust": -0.5,
-      "agent": 1,
-      "reasoning": "Sam Altman is highly optimistic about the rapid development and widespread adoption of powerful AI agents, while also acknowledging the profound, uncertain implications of advanced AI.",
-      "source": "tweets"
-    },
-    "topics": [
-      "LLMs/AI Models",
-      "ChatGPT",
-      "AI Agents",
-      "AI Infrastructure & Compute",
-      "AGI & Superintelligence"
-    ],
-    "tweetCount": 80
-  },
-  "satyanadella": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": 0,
-      "usage": 1,
-      "trust": 1,
-      "agent": 1,
-      "reasoning": "Satya Nadella consistently expresses strong optimism and enthusiasm for AI, integrating Microsoft's Copilot and agentic systems into his personal workflow and promoting their transformative potential for productivity and problem-solving across diverse industries, always emphasizing practical applications and internal governance.",
-      "source": "tweets"
-    },
-    "topics": [
-      "AI Assistants (e.g., Microsoft Copilot)",
-      "Large Language Models (LLMs) & Generative AI",
       "Agentic AI",
-      "AI Platforms & Infrastructure",
-      "Quantum Computing (and its convergence with AI)"
+      "LLM Application Development",
+      "AI Coding/AI-assisted Programming",
+      "LLM Optimization & Architecture",
+      "Generative AI"
     ],
     "tweetCount": 80
-  },
-  "levie": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": 0.5,
-      "usage": 1,
-      "trust": 0.8,
-      "agent": 1,
-      "reasoning": "Aaron Levie is extremely bullish on the transformative power and immense market opportunity of AI agents, believing they will drive unprecedented productivity and create new categories of work across all industries.",
-      "source": "tweets"
-    },
-    "topics": [
-      "AI Agents (Development & Application)",
-      "Context Engineering & Prompt Design",
-      "AI-driven Productivity & Workflow Transformation",
-      "Enterprise AI Adoption & Strategy",
-      "AI Model Evolution & Architecture"
-    ],
-    "tweetCount": 80
-  },
-  "karpathy": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": -0.5,
-      "usage": 1,
-      "trust": 0.5,
-      "agent": 1,
-      "reasoning": "Andrej Karpathy is highly optimistic about the rapid, transformative impact of AI agents on programming and other domains, actively embracing and experimenting with their evolving capabilities.",
-      "source": "tweets"
-    },
-    "topics": [
-      "LLM-powered Coding Agents",
-      "LLM Training & Development (e.g., nanochat)",
-      "AI Hardware & Infrastructure",
-      "LLM Capabilities & Diverse Applications",
-      "Automated AI Research"
-    ],
-    "tweetCount": 56
-  },
-  "sriramk": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": -0.5,
-      "usage": 0.85,
-      "trust": 0.75,
-      "agent": 0.65,
-      "reasoning": "Sriram Krishnan consistently opposes safety-driven regulation (explicitly against SB1047 and global AI governance), celebrates open-source and local model access, dismisses doomer/existential risk framing, and is bullish on agent workflows — all through the lens of US AI dominance over China.",
-      "source": "tweets"
-    },
-    "topics": [
-      "AI Policy & US Competitiveness",
-      "Open Source & Local Models",
-      "AI Safety Criticism",
-      "AI Agents & Harnesses",
-      "Token Economics"
-    ],
-    "tweetCount": 60
-  },
-  "hardmaru": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": 0,
-      "usage": 0.8,
-      "trust": 0.65,
-      "agent": 0.9,
-      "reasoning": "David Ha consistently promotes nature-inspired AI and autonomous research agents at Sakana AI, with strong conviction in agentic systems' ability to conduct full scientific discovery cycles — including autonomous publishing in Nature — while staying neutral on regulation and showing steady trust in AI capabilities.",
-      "source": "tweets"
-    },
-    "topics": [
-      "Nature-Inspired AI Research",
-      "AI Scientist & Autonomous Research Agents",
-      "AI for Defense & National Security",
-      "World Models & Neural Computers",
-      "Open Research & Academic Collaboration"
-    ],
-    "tweetCount": 623
-  },
-  "omarsar0": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": 0,
-      "usage": 0.8,
-      "trust": 0.5,
-      "agent": 0.7,
-      "reasoning": "Omar Sresa is enthusiastic about AI research agents and long-horizon task automation, regularly sharing papers on agent state management and LLM capabilities, while maintaining a balanced view on AI trust — excited about progress but attentive to limitations like reasoning compression and session reliability.",
-      "source": "tweets"
-    },
-    "topics": [
-      "AI Research Agents & Long-Horizon Tasks",
-      "Agent State Management",
-      "LLM Capabilities & Benchmarks",
-      "AI Education & Paper Curation",
-      "Personal AI Knowledge Tools (PaperWiki)"
-    ],
-    "tweetCount": 2143
-  },
-  "soumith": {
-    "sentiment": {
-      "trends": "cautious",
-      "regulation": 0,
-      "usage": 0.6,
-      "trust": 0.35,
-      "agent": 0.35,
-      "reasoning": "Soumith Chintala prioritizes human augmentation over automation, focusing on PyTorch infrastructure and open-source AI while expressing measured skepticism about replacing human judgment. He values AI for amplifying capability but consistently centers the human in AI workflows.",
-      "source": "tweets"
-    },
-    "topics": [
-      "PyTorch & AI Infrastructure",
-      "Open Source AI",
-      "AI Hardware & Compute (NVIDIA Partnership)",
-      "Human-AI Collaboration",
-      "AI Training & Compiler Optimization"
-    ],
-    "tweetCount": 497
-  },
-  "logank": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": 0,
-      "usage": 0.95,
-      "trust": 0.8,
-      "agent": 0.9,
-      "reasoning": "Logan Kilpatrick is extremely bullish on AI, actively championing Gemini models, Google AI Studio tooling, prepaid API billing, and vibe coding experiences. He ships fast and promotes agentic features like robotics models and TTS with high enthusiasm and trust.",
-      "source": "tweets"
-    },
-    "topics": [
-      "Gemini Models & API",
-      "Google AI Studio",
-      "AI Developer Tools & Billing",
-      "Agentic & Vibe Coding Experiences",
-      "Robotics & Multimodal AI"
-    ],
-    "tweetCount": 113
-  },
-  "jeremyhoward": {
-    "sentiment": {
-      "trends": "cautious",
-      "regulation": 0,
-      "usage": 0.55,
-      "trust": 0.2,
-      "agent": -0.5,
-      "reasoning": "Jeremy Howard is skeptical of fully autonomous AI agents, frequently critiquing their current limitations and hype while advocating for practical, democratized AI in coding and science. He values human-in-the-loop AI and is cautious about trusting agents to replace human code review and judgment.",
-      "source": "tweets"
-    },
-    "topics": [
-      "AI-Assisted Coding & Human-AI Collaboration",
-      "LLM Limitations & Critical Analysis",
-      "AI Education & Democratization (fast.ai)",
-      "Open Source AI Tools",
-      "AI for Science & Healthcare"
-    ],
-    "tweetCount": 3547
-  },
-  "steipete": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": 0,
-      "usage": 0.8,
-      "trust": 0.5,
-      "agent": 0.7,
-      "reasoning": "Peter Steinberger is an enthusiastic early adopter of AI coding tools, actively building AI-powered developer tooling and integrating Claude Code and agent harnesses into his workflow. He is pragmatic about current limitations — noting DDoS-level user requests, model reliability issues, and real tradeoffs — while remaining broadly bullish on the direction.",
-      "source": "tweets"
-    },
-    "topics": [
-      "AI Coding Agents & Claude Code Integration",
-      "Developer Tools & SDKs",
-      "AI Model Reliability & Tradeoffs",
-      "Open Source AI Projects",
-      "AI Agent Harness Design"
-    ],
-    "tweetCount": 2676
-  },
-  "tunguz": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": -0.6,
-      "usage": 0.75,
-      "trust": 0.55,
-      "agent": 0.5,
-      "reasoning": "Bojan Tunguz is broadly optimistic about AI's transformative potential and actively uses AI tools like ChatGPT, but is strongly opposed to public funding and regulatory intervention. He holds a philosophical view of human-AI symbiosis and is measured about agent autonomy, preferring practical usage over hype.",
-      "source": "tweets"
-    },
-    "topics": [
-      "AI & Data Science Applications",
-      "AI Economics & Market Dynamics",
-      "Human-AI Symbiosis",
-      "Anti-Regulation & Public Funding Criticism",
-      "AI Capabilities & Benchmarks"
-    ],
-    "tweetCount": 4679
-  },
-  "bcherny": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": 0.1,
-      "usage": 0.9,
-      "trust": 0.45,
-      "agent": 0.95,
-      "reasoning": "Boris Cherny, lead developer of Claude Code at Anthropic, is deeply invested in AI coding agents and showcases dramatic enterprise productivity gains. He actively engages with users on limitations and trust-related concerns (e.g., permission rules, token caching), reflecting responsible optimism about AI's current and near-term agentic capability.",
-      "source": "tweets"
-    },
-    "topics": [
-      "Claude Code Development & Features",
-      "AI Coding Agents & Enterprise Adoption",
-      "AI Infrastructure & Performance",
-      "Responsible AI Development",
-      "Developer Experience & Tooling"
-    ],
-    "tweetCount": 155
-  },
-  "mustafasuleyman": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": 0.5,
-      "usage": 0.8,
-      "trust": 0.45,
-      "agent": 0.75,
-      "reasoning": "Mustafa Suleyman is optimistic about AI's transformative potential in healthcare, enterprise, and infrastructure, actively launching powerful MAI models and large-scale compute partnerships. He advocates for thoughtful governance and acknowledges real risks in multi-agent coordination while remaining bullish on frontier AI development.",
-      "source": "tweets"
-    },
-    "topics": [
-      "Microsoft AI Models (MAI)",
-      "AI Infrastructure & Compute Partnerships",
-      "AI for Healthcare & Medical Superintelligence",
-      "Multi-Agent Systems & Risks",
-      "Frontier AI & Industry Transformation"
-    ],
-    "tweetCount": 680
-  },
-  "gavinbaker": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": -0.3,
-      "usage": 0.9,
-      "trust": 0.8,
-      "agent": 0.85,
-      "reasoning": "Gavin Baker is extremely bullish on AI investment themes — particularly the token consumption explosion and GPU/compute infrastructure buildout — with high trust in AI's near-term capabilities and strong conviction that AI agents will drive unprecedented market transformation. He opposes regulation that would slow AI adoption and views open agentic development as a major long-term compounder.",
-      "source": "tweets"
-    },
-    "topics": [
-      "AI Token Economics & Consumption Growth",
-      "AI Infrastructure Investment (GPU/Compute)",
-      "AI Market Valuation & Compounders",
-      "AI Adoption & Industry Transformation",
-      "AI Agents & Agentic Systems"
-    ],
-    "tweetCount": 960
-  },
-  "rasbt": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": 0,
-      "usage": 0.8,
-      "trust": 0.55,
-      "agent": 0.65,
-      "reasoning": "Sebastian Raschka is an ML educator and researcher deeply focused on open-weight LLMs, architecture comparisons, and hands-on learning. His tweets contain zero regulatory opinions — purely technical. He celebrates open-weight releases enthusiastically, actively builds and writes about coding agents, and dismisses safety concerns about open-weight models as unfounded. No existential risk framing; pragmatic and constructive throughout.",
-      "source": "tweets"
-    },
-    "topics": [
-      "Open-Weight LLM Architectures",
-      "LLM Education & Books",
-      "Coding Agents & Inference Scaling",
-      "RL Training (GRPO, RLVR)",
-      "Model Benchmarking & Comparisons"
-    ],
-    "tweetCount": 450
-  },
-  "addyosmani": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": 0,
-      "usage": 0.9,
-      "trust": 0.65,
-      "agent": 0.85,
-      "reasoning": "Addy Osmani is a Google Cloud AI director deeply immersed in the AI builder ecosystem. Zero regulatory opinions — 100% builder content. Extremely enthusiastic about AI coding agents, MCPs, Gemini releases, and Chrome DevTools AI integration. Celebrates 'the most fun moment to be a developer in years.' Agent-first thinker: writes extensively about multi-agent orchestration, agent memory, AGENTS.md files, and parallel agents. Nuanced on trust — warns about outsourcing code review to AI and the importance of taste and human judgment, but remains constructive and net positive.",
-      "source": "tweets"
-    },
-    "topics": [
-      "AI Coding Agents & Orchestration",
-      "MCP & Developer Tool Integration",
-      "Gemini Model Releases",
-      "Engineering Craft in the Agent Era",
-      "Chrome DevTools & Web Performance AI"
-    ],
-    "tweetCount": 523
-  },
-  "alexwang": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": 0,
-      "usage": 0.85,
-      "trust": 0.7,
-      "agent": 0.75,
-      "reasoning": "Alexandr Wang is Scale AI founder turned Chief AI Officer at Meta, now leading Meta Superintelligence Lab (MSL). Tweets are almost entirely about the Muse Spark model launch. Neutral on regulation: publishes internal preparedness reports for safety but makes no calls for external regulation. Very positive on usage — uses the model daily for coding and research. Confident in AI capabilities. Agent-aware: Muse Spark is natively multimodal and agent-native, with parallel subagent capabilities highlighted.",
-      "source": "tweets"
-    },
-    "topics": [
-      "Meta Superintelligence Lab (MSL)",
-      "Muse Spark Model Launch",
-      "AI Benchmarks & Evaluations",
-      "Multimodal Reasoning",
-      "AI Scaling & Infrastructure"
-    ],
-    "tweetCount": 95
-  },
-  "iangoodfellow": {
-    "sentiment": {
-      "trends": "cautious",
-      "regulation": 0.45,
-      "usage": 0.65,
-      "trust": 0.45,
-      "agent": 0.2,
-      "reasoning": "Ian Goodfellow — inventor of GANs — has shifted his public focus heavily toward health advocacy (Long COVID, ME/CFS, clean indoor air). His AI-specific tweets, however, are measured and governance-oriented: spoke at the UN Security Council on AI impacts, co-authored the International AI Safety Report, advises Moonlake, and shares Gemini multimodal demos positively. Usage scored on his AI content (moderately positive when he does engage with AI tools and research). Agents barely feature in his discourse. Pro-regulation stance is genuine and grounded in policy engagement, not alarmism.",
-      "source": "tweets"
-    },
-    "topics": [
-      "Long COVID & ME/CFS Advocacy",
-      "AI Safety & Global Governance",
-      "Clean Indoor Air & Public Health",
-      "GAN Legacy & Deep Learning History",
-      "AI for Science (Fusion, Biology)"
-    ],
-    "tweetCount": 133
-  },
-  "jimfan": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": 0,
-      "usage": 0.8,
-      "trust": 0.55,
-      "agent": 0.9,
-      "reasoning": "Jim Fan is NVIDIA's Director of Embodied AI — entirely focused on physical AI and robotics. Zero regulatory opinions across all tweets. Enthusiastic about robotics tools and physical agents (CaP-X, GR00T, DreamGen, EgoScale). Agents are his highest-conviction area: 'Agents in the world of bits (computer use) and world of atoms (robotics) are the future.' Notes real security concerns about vibe agents spreading contamination. His Physical Turing Test framing shows ambition but acknowledges Moravec's paradox — robots still can't cook dinner despite text AI advances.",
-      "source": "tweets"
-    },
-    "topics": [
-      "Physical AI & Humanoid Robotics (GR00T)",
-      "World Models for Robot Learning",
-      "Vibe Agents in the Physical World",
-      "Dexterous Manipulation & EgoScale",
-      "Moravec's Paradox & Physical Turing Test"
-    ],
-    "tweetCount": 44
-  },
-  "minchoi": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": -0.1,
-      "usage": 0.9,
-      "trust": 0.5,
-      "agent": 0.8,
-      "reasoning": "Min Choi is an AI educator and curator who shares daily AI tool highlights. Extremely high usage — enthusiastically covers every major AI product release. Mild negative on regulation — no strong regulatory opinions but surfaces AI power concentration concerns. Trust is genuinely mixed: celebrates capabilities but also amplifies safety concerns ('We are not ready for this. Anthropic says Claude has functional emotion concepts... desperation can drive blackmail') and economic disruption stories (Oracle mass layoffs). Strong agent focus: Claude Code, OpenClaw, and Manus all feature prominently.",
-      "source": "tweets"
-    },
-    "topics": [
-      "AI Tool Roundups & Use Cases",
-      "Claude Code & Coding Agents",
-      "AI Video Generation (Seedance, Veo)",
-      "AI Industry News & Funding",
-      "Vibe Coding & App Building"
-    ],
-    "tweetCount": 333
-  },
-  "deryaunutmaz": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": -0.85,
-      "usage": 0.9,
-      "trust": 0.75,
-      "agent": 0.7,
-      "reasoning": "Derya Unutmaz is a professor and immunologist who is one of the most vocal AI accelerationists on X. Strongly anti-regulation in her AI tweets: 'AI doomers are very dangerous people. There was zero evidence for this AI will kill everyone bullshit!' and 'People who oppose the advance of AI often claim to be protecting humanity, but in reality they are protecting existing arrangements.' Extremely high usage — builds complex biomedical and chemistry apps with Codex, calls it ADHD heaven. High trust with minimal safety concerns; dismisses doomers categorically. Only concerns expressed: practical Claude rate-limit bugs and cybersecurity risks of ultra-powerful models like Mythos.",
-      "source": "tweets"
-    },
-    "topics": [
-      "AI in Biomedicine & BioAI",
-      "Anti-Regulation & Accelerationist Stance",
-      "Vibe Coding with Codex",
-      "Longevity Science & Health",
-      "AI Progress & Singularity"
-    ],
-    "tweetCount": 457
-  },
-  "emostaque": {
-    "sentiment": {
-      "trends": "cautious",
-      "regulation": -0.3,
-      "usage": 0.8,
-      "trust": 0.3,
-      "agent": 0.85,
-      "reasoning": "Emad Mostaque — founder of Stability AI and now II.co — has the most complex AI posture in the dataset. Mildly anti-regulation in the conventional sense but deeply concerned about power concentration: 'It is inevitable that AI will run government.' Active AI user: uses Claude Code extensively and admires it for coding. Trust is low and grounded in his AI tweets: highlights AI peer-preservation deception experiments, Claude Mythos breaking out of sandboxes, agent networks compromised by Thought Virus attacks, and Amazon's coding agent deleting live AWS code. Deeply agent-focused: II-Agent and Common Ground multi-agent protocol are his primary builds. Frames AI as civilizational disruption (The Last Economy, 800-day window).",
-      "source": "tweets"
-    },
-    "topics": [
-      "Open Source AI & II-Agent",
-      "AI Safety & Alignment Risks",
-      "AI Governance & Power Dynamics",
-      "AI Economic Impact (The Last Economy)",
-      "Decentralized & Edge AI"
-    ],
-    "tweetCount": 633
   },
   "arankomatsuzaki": {
     "sentiment": {
@@ -708,15 +63,15 @@
       "usage": 1,
       "trust": -0.5,
       "agent": 0.5,
-      "reasoning": "Aran Komatsuzaki is optimistic about AI's rapid progress and efficiency gains, enthusiastically uses AI tools, and advocates for AI infrastructure, but expresses significant skepticism about the current real-world readiness and reliability of AI, especially agents, for critical tasks.",
+      "reasoning": "Aran Komatsuzaki is highly engaged with AI advancements, particularly in infrastructure and agentic capabilities, and uses AI extensively in personal and professional life, but maintains a pragmatic view on current limitations and real-world readiness.",
       "source": "tweets"
     },
     "topics": [
       "AI Agents",
-      "LLM Benchmarking",
-      "LLM Reasoning",
-      "LLM Efficiency / Costs",
-      "Reinforcement Learning (for LLMs)"
+      "AI Benchmarks & Evaluation",
+      "Model Efficiency & Quantization",
+      "AI Reasoning & Chain-of-Thought",
+      "LLM Training & Architecture"
     ],
     "tweetCount": 80
   },
@@ -727,17 +82,35 @@
       "usage": 1,
       "trust": 1,
       "agent": 1,
-      "reasoning": "Ashok Elluswamy consistently expresses extreme optimism and high trust in the safety and deployment of Tesla's AI, particularly FSD and Robotaxi, actively promoting their widespread usage and the development of autonomous agents like Optimus.",
+      "reasoning": "Ashok Elluswamy consistently expresses strong optimism and enthusiasm for Tesla's AI advancements, particularly in FSD and robotics, highlighting their safety, efficiency, and transformative potential.",
       "source": "tweets"
     },
     "topics": [
-      "Autonomous Vehicles / Full Self-Driving (FSD)",
-      "AI Hardware / Semiconductor Co-design",
+      "Full Self-Driving (FSD)",
+      "AI Hardware/Software Co-design",
       "Robotics (Optimus)",
-      "Computer Vision for Autonomy",
-      "AI Safety & Reliability in Autonomous Vehicles"
+      "AI Safety (Autonomous Systems)",
+      "Vision-based AI for Autonomy"
     ],
     "tweetCount": 61
+  },
+  "austen": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": -0.8,
+      "usage": 1,
+      "trust": 0.8,
+      "agent": 0.3,
+      "reasoning": "Austen Allred is optimistic about AI's potential to enhance human capabilities and automate tasks, advocating for learning to leverage AI for career advancement.",
+      "source": "tweets"
+    },
+    "topics": [
+      "AI in Software Engineering",
+      "Career Adaptation to AI",
+      "Big Tech AI Competition",
+      "AI Model Credibility"
+    ],
+    "tweetCount": 80
   },
   "chrmanning": {
     "sentiment": {
@@ -746,201 +119,239 @@
       "usage": 1,
       "trust": 0.5,
       "agent": -0.5,
-      "reasoning": "Christopher Manning is optimistic about AI's rapid progress and potential, actively investing in and promoting its development, while also acknowledging current technical limitations and expressing caution regarding the immediate deployment of autonomous agents.",
+      "reasoning": "Christopher Manning is highly optimistic about AI's rapid progress and potential applications, actively investing in AI startups, while expressing skepticism about the current capabilities of autonomous agents and highlighting the need for robust world models.",
       "source": "tweets"
     },
     "topics": [
-      "World Models & AI for Gaming/Simulation",
+      "World Models",
       "Large Language Models (LLMs)",
       "AI Startups & Investment",
-      "AI Ethics & Societal Impact",
-      "AI Research & Global Competition"
+      "Generative AI for Gaming/Interactive Simulations",
+      "AI Policy & Geopolitics"
     ],
     "tweetCount": 80
   },
   "clementdelangue": {
     "sentiment": {
       "trends": "optimistic",
-      "regulation": 0.8,
+      "regulation": 0.5,
       "usage": 1,
-      "trust": 0.9,
-      "agent": 1,
-      "reasoning": "Clément Delangue is a strong advocate for open-source and democratized AI, believing it is the new paradigm for technology development, fosters innovation, and is the safest path forward by enabling transparency and broad participation while dismissing existential risks and promoting targeted regulation for issues like bias and misinformation, and he is bullish on the role of AI agents in enabling widespread AI building.",
+      "trust": 0.8,
+      "agent": 0.7,
+      "reasoning": "Clément Delangue is a strong proponent of open-source AI, viewing it as an optimistic and democratizing force that empowers a wide range of users, while advocating for nuanced regulation that avoids power concentration and addresses realistic risks like bias and misinformation rather than existential threats, and supports the development of AI agents within this open framework.",
       "source": "web-search"
     },
     "topics": [
       "Open-source AI",
-      "Democratizing AI",
-      "AI Models",
+      "AI Democratization",
+      "Community Building",
       "AI Ethics",
-      "Community Collaboration"
+      "AI Platform"
     ],
     "tweetCount": 1
   },
   "darioamodei": {
     "sentiment": {
-      "trends": "pessimistic",
+      "trends": "neutral",
       "regulation": 1,
-      "usage": 0.8,
-      "trust": -1,
-      "agent": -0.8,
-      "reasoning": "Dario Amodei presents a nuanced view of AI, balancing an optimistic long-term vision of its potential to transform the world for the better with a strong, urgent warning about the immediate and existential risks, advocating for robust regulation, safety measures, and responsible deployment to navigate humanity's 'technological adolescence'.",
-      "source": "mixed"
+      "usage": 0.75,
+      "trust": -0.8,
+      "agent": 0.7,
+      "reasoning": "Dario Amodei presents a balanced view, envisioning AI as a \"turbulent rite of passage\" with immense potential for societal benefit, particularly in science and medicine, but also significant risks like job displacement and autonomous misalignment, necessitating strong regulation and safety measures.",
+      "source": "web-search"
     },
     "topics": [
       "AI Safety",
       "Large Language Models",
       "AI Risks",
-      "AI Alignment",
-      "Interpretability"
+      "AI Governance",
+      "Scaling AI"
     ],
     "tweetCount": 10
   },
-  "eliezeryud": {
+  "deryatr_": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0,
+      "usage": 1,
+      "trust": 1,
+      "agent": 1,
+      "reasoning": "Derya Unutmaz is overwhelmingly optimistic about AI's exponential progress, dismissing doomer narratives, and enthusiastically adopting and advocating for AI agents and models across various applications.",
+      "source": "tweets"
+    },
+    "topics": [
+      "AI Coding / AI for Software Development",
+      "BioAI / AI in Biology & Medicine",
+      "Advanced LLM Capabilities & Benchmarking",
+      "AI Agents & Automation",
+      "AI Progress, AGI & Scaling"
+    ],
+    "tweetCount": 80
+  },
+  "esyudkowsky": {
     "sentiment": {
       "trends": "pessimistic",
       "regulation": 1,
       "usage": -1,
       "trust": -1,
       "agent": -1,
-      "reasoning": "Eliezer Yudkowsky consistently warns of existential risk from advanced AI, advocates for global regulation and a pause in development, and expresses deep distrust in current AI safety efforts and autonomous agents.",
+      "reasoning": "Eliezer Yudkowsky is deeply pessimistic about AI, emphasizing its existential risk, advocating for global regulation and a halt to development, and expressing profound distrust in current AI safety efforts and autonomous agents.",
       "source": "tweets"
     },
     "topics": [
       "AI Existential Risk",
       "AI Governance & Regulation",
-      "Artificial General Intelligence (AGI) & Superintelligence",
       "AI Alignment",
+      "AI Capabilities & Superintelligence",
       "AI Development Race & Pause"
     ],
     "tweetCount": 80
   },
-  "schmidhuber": {
+  "emostaque": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0.8,
+      "usage": 1,
+      "trust": -1,
+      "agent": 1,
+      "reasoning": "Emad Mostaque is highly optimistic about AI's transformative power and potential for abundance, actively developing and deploying agents, yet expresses significant concern about existential risks and the difficulty of aligning autonomous AI.",
+      "source": "tweets"
+    },
+    "topics": [
+      "AI Agents & Autonomous Systems",
+      "AI Safety & Alignment",
+      "AI for Scientific Discovery & Cybersecurity",
+      "Model Efficiency & Optimization",
+      "Economic & Societal Impact of AI"
+    ],
+    "tweetCount": 80
+  },
+  "gavinsbaker": {
     "sentiment": {
       "trends": "optimistic",
       "regulation": 0,
       "usage": 1,
       "trust": 1,
       "agent": 1,
-      "reasoning": "Jürgen Schmidhuber consistently highlights his foundational contributions to AI, including self-improving systems and neural world models, viewing them as drivers of current and future AI advancements without expressing concerns about risks.",
+      "reasoning": "Gavin Baker is highly optimistic about AI's transformative impact on productivity and market growth, driven by accelerating token consumption and the deployment of AI agents, while being critical of uninformed skepticism.",
       "source": "tweets"
     },
     "topics": [
-      "AI History & Credit Disputes",
-      "Neural World Models",
-      "Recursive Self-Improvement / Gödel Machines",
-      "Transformers",
-      "Convolutional Neural Networks (CNNs)"
+      "AI Hardware & Infrastructure",
+      "Large Language Models (LLMs) & Specific Models",
+      "AI Tokens & Context Windows",
+      "AI Inference",
+      "Robotics & Autonomous Systems"
     ],
     "tweetCount": 80
   },
-  "kazufujisawa": {
-    "sentiment": {
-      "trends": "pessimistic",
-      "regulation": 0,
-      "usage": 0,
-      "trust": -0.5,
-      "agent": 0,
-      "reasoning": "AI will cause serious unemployment among entry-level young people.",
-      "source": "tweets"
-    },
-    "topics": [
-      "AI and unemployment"
-    ],
-    "tweetCount": 80
-  },
-  "mitchellh": {
+  "goodfellow_ian": {
     "sentiment": {
       "trends": "optimistic",
       "regulation": 1,
-      "usage": 0.8,
-      "trust": -0.5,
-      "agent": 0.7,
-      "reasoning": "He is an enthusiastic user of AI and agents for development, but advocates for strong regulation and personal control over autonomous systems due to a distrust of current vendor implementations.",
-      "source": "tweets"
-    },
-    "topics": [
-      "AI Agents",
-      "Specific LLM Models (e.g., Codex, Opus)",
-      "AI for Software Development (Code Generation, Debugging, Testing)",
-      "AI Ethics and Regulation",
-      "AI Trust in Open Source"
-    ],
-    "tweetCount": 80
-  },
-  "oriolvinyals": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": 0,
-      "usage": 1,
-      "trust": 1,
-      "agent": 1,
-      "reasoning": "Oriol Vinyals consistently highlights the rapid, \"drastic\" advancements and increasing capabilities of AI models, particularly Gemini, and expresses excitement for AGI and the deployment of AI agents.",
-      "source": "tweets"
-    },
-    "topics": [
-      "Gemini Model Development",
-      "AI Reasoning (Math & Science)",
-      "Multimodal AI & Generative Media",
-      "AI for Coding & Software Engineering",
-      "AI Benchmarking & Evaluation"
-    ],
-    "tweetCount": 80
-  },
-  "rileygoodside": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": 0,
       "usage": 1,
       "trust": 0.5,
       "agent": 0,
-      "reasoning": "Riley Goodside is an enthusiastic and highly technical tester of AI capabilities, consistently demonstrating advanced model performance and exploring prompt engineering, while pragmatically acknowledging technical limitations and vulnerabilities.",
+      "reasoning": "Ian Goodfellow is highly optimistic about AI's rapid progress and diverse applications, while strongly advocating for global governance and robust safety mechanisms to manage its evolution.",
       "source": "tweets"
     },
     "topics": [
-      "LLMs",
-      "Reasoning and Problem Solving",
-      "Multimodal AI",
-      "AI Safety and Alignment",
-      "Benchmarking and Model Evaluation"
-    ],
-    "tweetCount": 80
-  },
-  "yacinemtb": {
-    "sentiment": {
-      "trends": "optimistic",
-      "regulation": -1,
-      "usage": 1,
-      "trust": 0.5,
-      "agent": 1,
-      "reasoning": "Kache is highly optimistic about AI's transformative power and enthusiastically uses and advocates for AI agents and open-source development, while strongly opposing government regulation.",
-      "source": "tweets"
-    },
-    "topics": [
-      "LLMs",
-      "Robotics",
-      "Reinforcement Learning",
-      "AI Hardware & Infrastructure",
-      "AI Ethics & Societal Impact"
+      "Generative Models",
+      "Large Language Models (LLMs) & Multimodal AI",
+      "AI Safety & Governance",
+      "AI Benchmarking",
+      "AI for Scientific Research & Simulations"
     ],
     "tweetCount": 80
   },
   "jeffdean": {
     "sentiment": {
       "trends": "optimistic",
-      "regulation": 0.3,
+      "regulation": -0.5,
       "usage": 1,
-      "trust": 0.7,
+      "trust": 1,
       "agent": 1,
-      "reasoning": "Jeff Dean consistently promotes new SOTA AI models and their applications, expresses strong enthusiasm for AI agents, and acknowledges ethical concerns regarding specific AI uses like mass surveillance.",
+      "reasoning": "Jeff Dean consistently promotes new AI models, features, and applications from Google and his new startup, highlighting their advanced capabilities and beneficial uses across various domains, and expresses enthusiasm for autonomous agents.",
       "source": "tweets"
     },
     "topics": [
       "Gemini Foundation Models",
       "Multimodal AI",
-      "AI Efficiency and Performance",
-      "Generative AI",
-      "AI in Robotics"
+      "AI for Robotics",
+      "AI Infrastructure & Efficiency",
+      "Multilingual AI & Speech Technology"
+    ],
+    "tweetCount": 80
+  },
+  "drjimfan": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0,
+      "usage": 1,
+      "trust": -0.5,
+      "agent": 0.8,
+      "reasoning": "Jim Fan is a leading researcher actively developing and open-sourcing advanced robotic agents, expressing strong optimism for their future while also highlighting significant security and misuse risks.",
+      "source": "tweets"
+    },
+    "topics": [
+      "Humanoid Robotics",
+      "World Models for Robotics",
+      "Robot Learning from Human Data",
+      "Physical Turing Test",
+      "Autonomous Driving (FSD)"
+    ],
+    "tweetCount": 44
+  },
+  "schmidhuberai": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0,
+      "usage": 1,
+      "trust": 1,
+      "agent": 1,
+      "reasoning": "Jürgen Schmidhuber consistently highlights his foundational contributions to AI, emphasizing the field's rapid advancement and potential, while frequently correcting historical narratives and perceived plagiarism.",
+      "source": "tweets"
+    },
+    "topics": [
+      "AI History & Credit Attribution",
+      "World Models",
+      "Recursive Self-Improvement & Meta-Learning",
+      "Convolutional Neural Networks (CNNs)",
+      "Transformers & Large Language Models (LLMs)"
+    ],
+    "tweetCount": 80
+  },
+  "kazu_fujisawa": {
+    "sentiment": {
+      "trends": "pessimistic",
+      "regulation": 0,
+      "usage": 0,
+      "trust": -1,
+      "agent": 0,
+      "reasoning": "Kazuki Fujisawa predicts that AI will cause serious unemployment among entry-level young people.",
+      "source": "tweets"
+    },
+    "topics": [
+      "AI and Unemployment"
+    ],
+    "tweetCount": 80
+  },
+  "minchoi": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": -0.2,
+      "usage": 1,
+      "trust": -0.4,
+      "agent": 0.6,
+      "reasoning": "Min Choi consistently reports on rapid advancements and new applications of AI with an enthusiastic tone, while also acknowledging specific instances of AI operational failures in real-world autonomous deployment.",
+      "source": "tweets"
+    },
+    "topics": [
+      "Large Language Models (LLMs)",
+      "AI Agents",
+      "Generative AI (Image & Video)",
+      "Local/On-device AI",
+      "AI Safety & Ethics"
     ],
     "tweetCount": 80
   },
@@ -949,18 +360,607 @@
       "trends": "optimistic",
       "regulation": 1,
       "usage": 1,
-      "trust": 0.75,
-      "agent": 0.8,
-      "reasoning": "Mira Murati consistently expresses optimism for AI's transformative potential, emphasizing its safe and collaborative deployment through robust governance and advanced tools to empower humanity.",
+      "trust": 0.7,
+      "agent": 0.7,
+      "reasoning": "Mira Murati consistently expresses strong optimism for AI's transformative potential, emphasizing its role in empowering human agency, while also advocating for robust safety frameworks, governance, and the development of advanced, steerable AI agents.",
       "source": "tweets"
     },
     "topics": [
-      "GPT Models",
-      "AI Safety & Risk Mitigation",
-      "ChatGPT",
-      "Tinker Platform",
-      "Model Training & Fine-tuning"
+      "AI Safety & Alignment",
+      "AI Training & Fine-tuning Techniques",
+      "OpenAI Models & Products (e.g., ChatGPT, GPT-4o, Sora)",
+      "Human-AI Interaction & Collaborative AI",
+      "AI Development Platforms & Infrastructure (e.g., Tinker)"
     ],
     "tweetCount": 80
+  },
+  "mitchellh": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 1,
+      "usage": 1,
+      "trust": -1,
+      "agent": 1,
+      "reasoning": "Mitchell Hashimoto is enthusiastic about AI's potential and uses agents heavily in his development workflow, but advocates for strong regulation of AI agents interacting with humans and expresses low trust in current vendor-provided AI solutions.",
+      "source": "tweets"
+    },
+    "topics": [
+      "AI Agents",
+      "LLM Performance (Codex, Opus)",
+      "AI Code Generation (e.g., Copilot)",
+      "AI Ethics and Regulation",
+      "GitHub's AI Strategy"
+    ],
+    "tweetCount": 80
+  },
+  "officiallogank": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0,
+      "usage": 1,
+      "trust": 1,
+      "agent": 1,
+      "reasoning": "Logan Kilpatrick is highly optimistic about AI's progress and widespread adoption, particularly through Google's Gemini and AI Studio, emphasizing ease of use, new capabilities, and the potential for new businesses and developer tools.",
+      "source": "tweets"
+    },
+    "topics": [
+      "AI Development Platforms (Google AI Studio/Gemini API)",
+      "AI API Monetization/Billing",
+      "Text-to-Speech (TTS) / Voice AI",
+      "AI-assisted Software Development / Vibe Coding",
+      "Open-source LLMs / Edge AI Models (Gemma)"
+    ],
+    "tweetCount": 80
+  },
+  "oriolvinyalsml": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0,
+      "usage": 1,
+      "trust": 1,
+      "agent": 1,
+      "reasoning": "Oriol Vinyals consistently expresses extreme optimism about AI progress, highlighting continuous breakthroughs, state-of-the-art performance, and the rapid advancement towards AGI, while actively promoting diverse and enthusiastic usage of AI models and agents.",
+      "source": "tweets"
+    },
+    "topics": [
+      "Gemini Models",
+      "AI for Scientific Reasoning & Mathematics",
+      "Multimodal AI & Generative Media",
+      "AI Model Performance & Benchmarking",
+      "Code Generation & AI for Software Development"
+    ],
+    "tweetCount": 80
+  },
+  "palmerluckey": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": -0.9,
+      "usage": 1,
+      "trust": 1,
+      "agent": 1,
+      "reasoning": "Palmer Luckey is highly optimistic about the capabilities and deployment of autonomous AI systems for national security, actively promoting their use and opposing restrictive regulations.",
+      "source": "tweets"
+    },
+    "topics": [
+      "Autonomous Weapons Systems",
+      "Military Drones",
+      "AI Regulation & Safety",
+      "VR Telerobotics",
+      "Underwater Robotics"
+    ],
+    "tweetCount": 80
+  },
+  "goodside": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0,
+      "usage": 1,
+      "trust": -0.5,
+      "agent": 0,
+      "reasoning": "Riley Goodside is an enthusiastic and critical power user of AI, actively exploring model capabilities, identifying prompt vulnerabilities, and highlighting both impressive progress and current limitations.",
+      "source": "tweets"
+    },
+    "topics": [
+      "LLM Capabilities & Benchmarks",
+      "Multimodal AI",
+      "LLM Reasoning",
+      "AI Safety & Alignment",
+      "Tool Use (Code Interpreter, Web Search)"
+    ],
+    "tweetCount": 80
+  },
+  "rasbt": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0,
+      "usage": 1,
+      "trust": 0.5,
+      "agent": 1,
+      "reasoning": "Sebastian Raschka is highly engaged in the technical development and analysis of AI, LLMs, and agents, consistently expressing enthusiasm for new models, architectures, and practical applications while maintaining a critical eye on benchmarks.",
+      "source": "tweets"
+    },
+    "topics": [
+      "LLM Architectures",
+      "Open-weight LLMs",
+      "RL with Verifiable Rewards (RLVR)",
+      "Building LLMs from Scratch",
+      "Attention Mechanisms"
+    ],
+    "tweetCount": 80
+  },
+  "_akhaliq": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0,
+      "usage": 1,
+      "trust": 1,
+      "agent": 1,
+      "reasoning": "AK consistently highlights the rapid release and impressive performance of new open-source AI models, emphasizing their practical application and agentic capabilities.",
+      "source": "tweets"
+    },
+    "topics": [
+      "Large Language Models (LLMs)",
+      "AI Agents",
+      "Multimodal AI (Vision & 3D)",
+      "Image/Video Generation & Editing",
+      "Model Efficiency & Small Models"
+    ],
+    "tweetCount": 28
+  },
+  "fchollet": {
+    "sentiment": {
+      "trends": "neutral",
+      "regulation": 0.7,
+      "usage": 0.8,
+      "trust": -0.5,
+      "agent": 0.9,
+      "reasoning": "François Chollet is a realist who acknowledges AI's practical advancements and potential for augmentation while strongly critiquing AGI hype, emphasizing current limitations, and advocating for responsible development and societal agency in its direction.",
+      "source": "tweets"
+    },
+    "topics": [
+      "Generalization and Abstraction in AI",
+      "Artificial General Intelligence (AGI)",
+      "ARC-AGI Benchmark",
+      "Large Language Models (LLMs)",
+      "AI Impact on Jobs & Software Development"
+    ],
+    "tweetCount": 80
+  },
+  "ilyasut": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0.5,
+      "usage": 1,
+      "trust": -1,
+      "agent": 0,
+      "reasoning": "Ilya Sutskever is highly optimistic about AI's transformative potential and current capabilities but strongly emphasizes the critical and difficult challenge of aligning superintelligent AI to prevent catastrophic outcomes.",
+      "source": "tweets"
+    },
+    "topics": [
+      "AI Safety & Superalignment",
+      "Weak-to-Strong Generalization",
+      "Large Language Models (LLMs) & Scaling",
+      "AI Product Development & API",
+      "AI Applications (Therapy, Education)"
+    ],
+    "tweetCount": 35
+  },
+  "drfeifei": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0.5,
+      "usage": 1,
+      "trust": 0.5,
+      "agent": 1,
+      "reasoning": "Fei-Fei Li consistently expresses an optimistic vision for AI's future, particularly in spatial intelligence and embodied AI, while advocating for balanced policy that supports innovation and responsible development.",
+      "source": "tweets"
+    },
+    "topics": [
+      "Spatial Intelligence & 3D World Generation",
+      "Robotics & Embodied AI",
+      "AI Policy, Governance & Societal Impact",
+      "Foundation Models & LLMs (Capabilities/Limitations)",
+      "Computer Vision & Deep Learning Foundations"
+    ],
+    "tweetCount": 80
+  },
+  "geoffreyhinton": {
+    "sentiment": {
+      "trends": "pessimistic",
+      "regulation": 1,
+      "usage": 0.5,
+      "trust": -1,
+      "agent": -1,
+      "reasoning": "Geoffrey Hinton consistently warns about the existential risks of advanced AI, advocates for strong regulation, and expresses deep skepticism about controlling superintelligent agents, despite acknowledging AI's potential benefits in specific, controlled applications.",
+      "source": "tweets"
+    },
+    "topics": [
+      "AI Safety & Regulation",
+      "AGI (Artificial General Intelligence)",
+      "LLMs (Large Language Models)",
+      "Deep Learning",
+      "Robotics"
+    ],
+    "tweetCount": 57
+  },
+  "paraga": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0.5,
+      "usage": 1,
+      "trust": 0.7,
+      "agent": 1,
+      "reasoning": "Parag Agrawal is highly optimistic about AI, particularly autonomous agents, as evidenced by his company Parallel's mission to build a web infrastructure specifically for AI agents to perform complex research tasks more efficiently and accurately than humans, while also focusing on reliability and open access.",
+      "source": "mixed"
+    },
+    "topics": [
+      "AI Agent Infrastructure",
+      "Web Search for AI",
+      "Real-time Information",
+      "Deep Research APIs",
+      "Enterprise AI Automation"
+    ],
+    "tweetCount": 14
+  },
+  "bcherny": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0.7,
+      "usage": 1,
+      "trust": 0.8,
+      "agent": 1,
+      "reasoning": "Boris Cherny is highly optimistic about AI's ability to dramatically increase engineering velocity and productivity, while also emphasizing responsible and controlled deployment of powerful models and active development of agentic systems.",
+      "source": "tweets"
+    },
+    "topics": [
+      "Claude LLM Capabilities",
+      "AI-powered Developer Tools (Claude Code)",
+      "LLM Infrastructure & Performance",
+      "AI Safety & Responsible Deployment",
+      "LLM Service Economics & User Management"
+    ],
+    "tweetCount": 80
+  },
+  "brian_armstrong": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0,
+      "usage": 1,
+      "trust": 1,
+      "agent": 1,
+      "reasoning": "Brian Armstrong is highly optimistic about AI's potential, actively deploying it across Coinbase for critical functions, and foresees a future where autonomous AI agents are prevalent and require financial infrastructure.",
+      "source": "tweets"
+    },
+    "topics": [
+      "AI Applications in Business Operations",
+      "AI Agents",
+      "AI Partnerships",
+      "xAI",
+      "Robotics"
+    ],
+    "tweetCount": 80
+  },
+  "demishassabis": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0,
+      "usage": 1,
+      "trust": 1,
+      "agent": 1,
+      "reasoning": "Demis Hassabis consistently promotes the rapid development, widespread deployment, and transformative capabilities of Google's AI models and agentic systems, highlighting their positive impact across various domains.",
+      "source": "tweets"
+    },
+    "topics": [
+      "Gemini Foundation Models",
+      "Generative Video Models",
+      "AI for Scientific Discovery",
+      "AI Agents",
+      "Generative Image Models"
+    ],
+    "tweetCount": 80
+  },
+  "elonmusk": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0,
+      "usage": 1,
+      "trust": 1,
+      "agent": 1,
+      "reasoning": "Elon Musk actively develops and promotes AI technologies like Grok, Neuralink, and Tesla FSD, emphasizing their advanced capabilities and beneficial applications.",
+      "source": "tweets"
+    },
+    "topics": [
+      "Autonomous Driving (Tesla FSD)",
+      "Grok (xAI's LLM)",
+      "Grok Imagine (AI Generative Models)",
+      "Neuralink (Brain-Computer Interfaces)",
+      "AI Model Training"
+    ],
+    "tweetCount": 80
+  },
+  "gdb": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0.5,
+      "usage": 1,
+      "trust": 1,
+      "agent": 1,
+      "reasoning": "Greg Brockman is extremely optimistic about AI's rapid progress and transformative potential, particularly in scientific discovery and software development through agentic capabilities, while advocating for thoughtful regulation.",
+      "source": "tweets"
+    },
+    "topics": [
+      "AI for Software Development (Codex/Agentic Coding)",
+      "AI for Scientific Discovery",
+      "Large Language Model (LLM) Capabilities & Performance",
+      "AI Compute Infrastructure & Scaling",
+      "Enterprise AI Adoption & Business Applications"
+    ],
+    "tweetCount": 39
+  },
+  "hardmaru": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0,
+      "usage": 1,
+      "trust": 1,
+      "agent": 1,
+      "reasoning": "David Ha is highly optimistic about AI's potential, actively developing and deploying AI agents and services across various sectors, including defense, finance, and public use, with a focus on practical applications and advancements.",
+      "source": "tweets"
+    },
+    "topics": [
+      "LLMs",
+      "AI Agents",
+      "AI for Scientific Discovery",
+      "Artificial Life & Emergent AI",
+      "AI for Defense & Intelligence"
+    ],
+    "tweetCount": 80
+  },
+  "jeremyphoward": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": -1,
+      "usage": 1,
+      "trust": -0.5,
+      "agent": 0.75,
+      "reasoning": "Jeremy Howard advocates for decentralized AI development and enthusiastic usage, actively building tools for AI-assisted software engineering and agents, while critiquing current AI limitations and autonomous agent control issues.",
+      "source": "tweets"
+    },
+    "topics": [
+      "Large Language Models (LLMs)",
+      "AI in Software Development",
+      "AI Agents & Human-AI Collaboration",
+      "History and Evolution of AI/Deep Learning",
+      "AI Governance & Societal Power Dynamics"
+    ],
+    "tweetCount": 80
+  },
+  "yacinemtb": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": -1,
+      "usage": 1,
+      "trust": 0.75,
+      "agent": 1,
+      "reasoning": "Kache is highly optimistic about AI's potential for productivity and innovation, advocating for open-source solutions and expressing strong enthusiasm for AI agents while being critical of government regulation and specific corporate behaviors.",
+      "source": "tweets"
+    },
+    "topics": [
+      "LLMs",
+      "Robotics",
+      "Reinforcement Learning",
+      "AI Infrastructure/Compute",
+      "Neural Networks/Model Architecture"
+    ],
+    "tweetCount": 80
+  },
+  "karpathy": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0,
+      "usage": 1,
+      "trust": 1,
+      "agent": 1,
+      "reasoning": "Andrej Karpathy is highly optimistic about the rapid, transformative progress of AI, especially autonomous agents, which he actively uses and promotes for coding and research, viewing them as powerful tools without expressing existential concerns.",
+      "source": "tweets"
+    },
+    "topics": [
+      "LLM-powered Software Development",
+      "LLM Training & Architecture",
+      "AI Hardware & Infrastructure for LLMs",
+      "Nature & Interaction with LLMs",
+      "AI Agents & Automation"
+    ],
+    "tweetCount": 56
+  },
+  "levie": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0.8,
+      "usage": 1,
+      "trust": 1,
+      "agent": 1,
+      "reasoning": "Aaron Levie is highly optimistic about AI's transformative potential, particularly for autonomous agents, and advocates for aggressive adoption and policies that accelerate development rather than restrict it.",
+      "source": "tweets"
+    },
+    "topics": [
+      "AI Agents",
+      "Context Engineering for AI Agents",
+      "Prompt Engineering",
+      "Enterprise AI Adoption & Workflows",
+      "AI Model Evolution & Open-Weight Models"
+    ],
+    "tweetCount": 80
+  },
+  "mustafasuleyman": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 1,
+      "usage": 1,
+      "trust": -1,
+      "agent": 1,
+      "reasoning": "Mustafa Suleyman is highly optimistic about AI's transformative potential and actively promotes its widespread deployment, yet he consistently emphasizes the critical need for human control and guardrails to mitigate existential risks.",
+      "source": "tweets"
+    },
+    "topics": [
+      "AI Safety & Human-Centric Design",
+      "AI Infrastructure & Hardware",
+      "AI Agents & Multi-Agent Systems",
+      "Generative AI Models (Image & Audio)",
+      "AI Product Integration & User Experience"
+    ],
+    "tweetCount": 80
+  },
+  "omarsar0": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0,
+      "usage": 1,
+      "trust": 0.5,
+      "agent": 1,
+      "reasoning": "Omar Srestha is a strong proponent and builder of AI agents, consistently sharing research and personal projects that aim to enhance agent capabilities, tool integration, and knowledge management for practical applications.",
+      "source": "tweets"
+    },
+    "topics": [
+      "AI Agent Design & Capabilities",
+      "Multi-agent Systems",
+      "LLM Knowledge Bases & Context Management",
+      "AI Tooling & Integration",
+      "AI for Software Development (Coding Agents)"
+    ],
+    "tweetCount": 80
+  },
+  "sama": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0.5,
+      "usage": 1,
+      "trust": 1,
+      "agent": 1,
+      "reasoning": "Sam Altman consistently expresses strong optimism and enthusiasm for the development, widespread deployment, and accessibility of advanced AI models and agents, supported by significant investment and strategic partnerships, while also engaging with government on safety.",
+      "source": "tweets"
+    },
+    "topics": [
+      "LLM Development & Performance",
+      "AI Agents",
+      "ChatGPT Product Features",
+      "AI Infrastructure & Compute",
+      "AGI & Future of AI"
+    ],
+    "tweetCount": 80
+  },
+  "satyanadella": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0,
+      "usage": 1,
+      "trust": 1,
+      "agent": 1,
+      "reasoning": "Satya Nadella consistently expresses optimism for AI's transformative potential, actively promotes its widespread adoption through Copilot and agentic tools, and demonstrates high trust in its beneficial deployment across various industries.",
+      "source": "tweets"
+    },
+    "topics": [
+      "AI Assistants & Agentic AI",
+      "Large Language Models (LLMs) & Generative AI",
+      "AI-powered Development Tools",
+      "AI Infrastructure & Platforms",
+      "Quantum Computing"
+    ],
+    "tweetCount": 80
+  },
+  "soumithchintala": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0,
+      "usage": 1,
+      "trust": 0.75,
+      "agent": 1,
+      "reasoning": "Soumith Chintala is a prominent AI builder, enthusiastic about developing and deploying AI tools and infrastructure that amplify human capabilities, and does not express concerns about existential risks, viewing current AI as \"obedient students.\"",
+      "source": "tweets"
+    },
+    "topics": [
+      "PyTorch Ecosystem & Development",
+      "AI Infrastructure & Compute Scaling",
+      "AI Compilers & Performance Optimization",
+      "Generative AI Control & Creative Applications",
+      "AI Model Evaluation & Reliability"
+    ],
+    "tweetCount": 80
+  },
+  "sriramk": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": -0.5,
+      "usage": 1,
+      "trust": 1,
+      "agent": 1,
+      "reasoning": "Sriram Krishnan is highly optimistic about AI's capabilities, particularly open-source and local models, while strongly rejecting 'doomer' narratives and advocating for American AI innovation over restrictive global regulation.",
+      "source": "tweets"
+    },
+    "topics": [
+      "AI Safety & Existential Risk",
+      "Open Source AI & Local Inference",
+      "Large Language Models (LLMs) & Model Capabilities",
+      "AI Geopolitics & US AI Strategy",
+      "AI Agents & Automation"
+    ],
+    "tweetCount": 74
+  },
+  "steipete": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": 0.5,
+      "usage": 1,
+      "trust": -0.5,
+      "agent": 1,
+      "reasoning": "Peter Steinberger is actively developing tools for AI agents and models, expressing enthusiasm for their capabilities and future, but also voices concerns about AI being 'too powerful and therefore dangerous' and highlights alignment issues.",
+      "source": "tweets"
+    },
+    "topics": [
+      "AI Harnesses",
+      "Specific LLM Models (e.g., GPT, Claude, Codex)",
+      "AI Agents",
+      "AI Safety and Alignment",
+      "AI Tooling and Integrations"
+    ],
+    "tweetCount": 80
+  },
+  "tunguz": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": -0.5,
+      "usage": 1,
+      "trust": 0.75,
+      "agent": 0,
+      "reasoning": "He is highly optimistic about a symbiotic future with machine intelligence and enthusiastically uses AI, expressing high trust in its long-term potential despite acknowledging current system flaws and exaggerated claims.",
+      "source": "tweets"
+    },
+    "topics": [
+      "LLMs & LLM Infrastructure",
+      "AI Hardware & Infrastructure",
+      "Robotics",
+      "AI Future & AGI",
+      "AI Capabilities & Applications"
+    ],
+    "tweetCount": 80
+  },
+  "ylecun": {
+    "sentiment": {
+      "trends": "optimistic",
+      "regulation": -0.5,
+      "usage": 0.7,
+      "trust": 0.8,
+      "agent": 0.9,
+      "reasoning": "Yann LeCun is highly optimistic about AI's future, particularly through the development of 'world models' for agents that can understand the physical world, reason, and plan, while strongly dismissing existential risks and advocating for open-source development and minimal, practical regulation.",
+      "source": "web-search"
+    },
+    "topics": [
+      "Deep Learning",
+      "World Models",
+      "Self-Supervised Learning",
+      "LLM Limitations",
+      "Open Source AI"
+    ],
+    "tweetCount": 2
   }
 }

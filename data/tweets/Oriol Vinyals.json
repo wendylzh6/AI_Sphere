@@ -1,0 +1,768 @@
+{
+  "source": {
+    "file": "51 AI influencers",
+    "influencerId": "oriolvinyals",
+    "handle": "OriolVinyalsML",
+    "profileUrl": "https://x.com/OriolVinyalsML"
+  },
+  "filters": {
+    "startDate": "2023-04-16",
+    "endDate": "2026-04-16",
+    "minWords": 10,
+    "excludeReplies": false,
+    "excludeReposts": false
+  },
+  "collectedAt": "2026-04-23T20:45:16.849Z",
+  "totalTweets": 107,
+  "tweets": [
+    {
+      "id": "2028886258571985357",
+      "url": "https://x.com/OriolVinyalsML/status/2028886258571985357",
+      "createdAt": "2026-03-03T17:32:33.000Z",
+      "text": "3.1 Flash-Lite > 2.5 Flash It happened again. Our newest Flash-Lite model outperforms the previous generation's Flash tier. Smarter. Faster. Cheaper. https:// blog.google/innovation-and -ai/models-and-research/gemini-models/gemini-3-1-flash-lite …",
+      "wordCount": 25
+    },
+    {
+      "id": "2024519612579422598",
+      "url": "https://x.com/OriolVinyalsML/status/2024519612579422598",
+      "createdAt": "2026-02-19T16:21:04.000Z",
+      "text": "\"make it first person view (i want to see the rollercoaster in front of me)\"",
+      "wordCount": 15
+    },
+    {
+      "id": "2024519605570720185",
+      "url": "https://x.com/OriolVinyalsML/status/2024519605570720185",
+      "createdAt": "2026-02-19T16:21:02.000Z",
+      "text": "Gemini 3.1 Pro has landed! Amazing performance / capabilities across the board. Beyond SOTA, the best are all the things that evals can't measure. E.g. SVG has gotten so much better (see ) https:// blog.google/innovation-and -ai/models-and-research/gemini-models/gemini-3-1-pro/ …",
+      "wordCount": 37
+    },
+    {
+      "id": "2022744750319907321",
+      "url": "https://x.com/OriolVinyalsML/status/2022744750319907321",
+      "createdAt": "2026-02-14T18:48:23.000Z",
+      "text": "Personal update: After an amazing 10 years in London, it's time for a major change. One-way ticket back to California ! I'm incredibly excited to return to the Bay Area to continue building Gemini and pushing us toward the age of AGI",
+      "wordCount": 42
+    },
+    {
+      "id": "2021982723733438725",
+      "url": "https://x.com/OriolVinyalsML/status/2021982723733438725",
+      "createdAt": "2026-02-12T16:20:22.000Z",
+      "text": "Fun to see Deep Think’s real-world impact. Check out how it’s helping researchers catch errors in high-level mathematics research papers. As \"just\" a math undergrad, I couldn't even dream to do any of this myself!",
+      "wordCount": 35
+    },
+    {
+      "id": "2021982720860233992",
+      "url": "https://x.com/OriolVinyalsML/status/2021982720860233992",
+      "createdAt": "2026-02-12T16:20:21.000Z",
+      "text": "An updated & faster Gemini 3 Deep Think is taking off! Our smartest mode to date! PhD-level reasoning to the most rigorous STEM challenges (models' gotta think harder). Gold medal-level results on Physics & Chemistry Olympiads. Full details: https:// bit.ly/4kzBLqq",
+      "wordCount": 40
+    },
+    {
+      "id": "2011213692617285729",
+      "url": "https://x.com/A_G_I_Joe/status/2011213692617285729",
+      "createdAt": "2026-01-13T23:08:05.000Z",
+      "text": "New paper out today, proving a novel theorem in algebraic geometry with an internal math-specialized version of Gemini. This was a collaboration between @GoogleDeepMind (Professor Freddie Manners and @GSalafatinos , hosted by the Blueshift team) and Professors Jim Bryan, Balazs",
+      "wordCount": 40
+    },
+    {
+      "id": "2001742530472534442",
+      "url": "https://x.com/OfficialLoganK/status/2001742530472534442",
+      "createdAt": "2025-12-18T19:53:04.000Z",
+      "text": "Recapping an incredibly year of Gemini progress with @OriolVinyalsML @JeffDean and @NoamShazeer live, join us : )",
+      "wordCount": 17
+    },
+    {
+      "id": "2001325389306872134",
+      "url": "https://x.com/OriolVinyalsML/status/2001325389306872134",
+      "createdAt": "2025-12-17T16:15:30.000Z",
+      "text": "Classic LLM dilemma: smart vs fast. The new reality with Gemini 3 Flash: Why not both? That trade-off has never felt smaller. Congrats to the team!",
+      "wordCount": 26
+    },
+    {
+      "id": "1996647909883105318",
+      "url": "https://x.com/OriolVinyalsML/status/1996647909883105318",
+      "createdAt": "2025-12-04T18:28:52.000Z",
+      "text": "See you at 2:30 pm with @JeffDean and the Gemini team @NeurIPSConf !",
+      "wordCount": 13
+    },
+    {
+      "id": "1993333671286206751",
+      "url": "https://x.com/OriolVinyalsML/status/1993333671286206751",
+      "createdAt": "2025-11-25T14:59:16.000Z",
+      "text": "On my way to Barcelona to receive a Doctor Honoris Causa from my alma mater, @la_UPC . Truly honored! Join Thursday for my Master Class, \"From AI to AGI: The Quest for True Intelligence.\" Hope to see you there! https:// telecos.upc.edu/ca/esdevenimen ts/master-class-del-dr-oriol-vinyals-from-ai-to-agi-the-quest-for-true-intelligence … \"Create an image at 41.4036° N, 2.1744°",
+      "wordCount": 50
+    },
+    {
+      "id": "1992330464905011320",
+      "url": "https://x.com/demishassabis/status/1992330464905011320",
+      "createdAt": "2025-11-22T20:32:53.000Z",
+      "text": "Actually if you want to know what the real ‘secret’ is it’s world-class research AND world-class engineering AND world-class infra all working closely together with relentless focus and intensity…",
+      "wordCount": 29
+    },
+    {
+      "id": "1991568869165875581",
+      "url": "https://x.com/OriolVinyalsML/status/1991568869165875581",
+      "createdAt": "2025-11-20T18:06:34.000Z",
+      "text": "Visual Retweeting powered by Nano Banana Pro Prompt used: Create a clever infographic to illustrate <copy_paste_tweet>",
+      "wordCount": 16
+    },
+    {
+      "id": "1990854455802343680",
+      "url": "https://x.com/OriolVinyalsML/status/1990854455802343680",
+      "createdAt": "2025-11-18T18:47:45.000Z",
+      "text": "The secret behind Gemini 3? Simple: Improving pre-training & post-training Pre-training: Contra the popular belief that scaling is over—which we discussed in our NeurIPS '25 talk with @ilyasut and @quocleix —the team delivered a drastic jump. The delta between 2.5 and 3.0 is",
+      "wordCount": 43
+    },
+    {
+      "id": "1980962352775176637",
+      "url": "https://x.com/GoogleDeepMind/status/1980962352775176637",
+      "createdAt": "2025-10-22T11:40:04.000Z",
+      "text": "If you want to learn AI from the experts, keep reading. Together with @UCL , we made a free AI Research Foundations curriculum – available now on Google Skills. With lessons from a Gemini Lead like @OriolVinyalsML , you'll explore how to code better, fine-tune an AI model and",
+      "wordCount": 49
+    },
+    {
+      "id": "1960343794328523077",
+      "url": "https://x.com/OriolVinyalsML/status/1960343794328523077",
+      "createdAt": "2025-08-26T14:09:16.000Z",
+      "text": "Also it went kind of viral on LMArena (as nano-banana), 2.5M votes before it released",
+      "wordCount": 15
+    },
+    {
+      "id": "1960343791283433842",
+      "url": "https://x.com/OriolVinyalsML/status/1960343791283433842",
+      "createdAt": "2025-08-26T14:09:15.000Z",
+      "text": "We've just upgraded Gemini 2.5 Flash image generation & editing! Besides topping leaderboards, it topped my model usage this month. It keeps subjects consistent, you can make precise edits & combine creative elements. Have fun with it @GeminiApp @GoogleAIStudio",
+      "wordCount": 39
+    },
+    {
+      "id": "1952766969859457064",
+      "url": "https://x.com/OriolVinyalsML/status/1952766969859457064",
+      "createdAt": "2025-08-05T16:21:40.000Z",
+      "text": "Incredible evolution of \"Neural Video Games\": from GQN (2018) to Genie3 (2025). The future is exciting! https:// deepmind.google/discover/blog/ genie-3-a-new-frontier-for-world-models/ …",
+      "wordCount": 20
+    },
+    {
+      "id": "1951307191752839558",
+      "url": "https://x.com/OriolVinyalsML/status/1951307191752839558",
+      "createdAt": "2025-08-01T15:41:02.000Z",
+      "text": "Gemini 2.5 Deep Think is rolling out to Google AI Ultra subscribers! It uses advances in parallel reasoning & RL to tackle tough math & science problems. Awesome feeling to have IMO medal capabilities at your fingertips! Such a good model! https:// blog.google/products/gemin i/gemini-2-5-deep-think/ …",
+      "wordCount": 45
+    },
+    {
+      "id": "1948075766417367417",
+      "url": "https://x.com/OriolVinyalsML/status/1948075766417367417",
+      "createdAt": "2025-07-23T17:40:30.000Z",
+      "text": "We already are. Just through a fairly narrow communication bottleneck.",
+      "wordCount": 10
+    },
+    {
+      "id": "1947341047547199802",
+      "url": "https://x.com/OriolVinyalsML/status/1947341047547199802",
+      "createdAt": "2025-07-21T17:01:00.000Z",
+      "text": "Drastic progress on maths with Gemini 2.5! As a math undergrad, I am impressed -> Formal -> Informal Specialized model -> General model Available soon Huge thanks to IMO and congrats to all participants! Blog:",
+      "wordCount": 35
+    },
+    {
+      "id": "1936157090164187285",
+      "url": "https://x.com/OriolVinyalsML/status/1936157090164187285",
+      "createdAt": "2025-06-20T20:19:57.000Z",
+      "text": "\"A Neural Conversational Model\" is 10 years old, w/ @quocleix . TL;DR you can train a chatbot with a large neural network (~500M params!). Samples This paper was received with mixed reviews, but I'm glad all the critics are now riding the LLM wave https:// arxiv.org/abs/1506.05869",
+      "wordCount": 46
+    },
+    {
+      "id": "1935005985070084197",
+      "url": "https://x.com/OriolVinyalsML/status/1935005985070084197",
+      "createdAt": "2025-06-17T16:05:52.000Z",
+      "text": "Hello Gemini 2.5 Flash-Lite! So fast, it codes *each screen* on the fly (Neural OS concept ). The frontier isn't always about large models and beating benchmarks. In this case, a super fast & good model can unlock drastic use cases. Read more: https:// blog.google/products/gemin i/gemini-2-5-model-family-expands …",
+      "wordCount": 47
+    },
+    {
+      "id": "1930680107116511719",
+      "url": "https://x.com/OriolVinyalsML/status/1930680107116511719",
+      "createdAt": "2025-06-05T17:36:22.000Z",
+      "text": "Introducing the new Gemini 2.5 Pro preview, with a +24 LMArena Elo score over its predecessor! It leads on tough coding (AIME, AIDER), science (GPQA), and reasoning (HLE). Style/structure have improved thanks to your feedback. Learn more: https:// goo.gle/4kKynYo",
+      "wordCount": 39
+    },
+    {
+      "id": "1928168633835909206",
+      "url": "https://x.com/OriolVinyalsML/status/1928168633835909206",
+      "createdAt": "2025-05-29T19:16:40.000Z",
+      "text": "Cool benchmark! Good to see Gemini 2.5 topping another leaderboard, though we are quite far from the summit",
+      "wordCount": 18
+    },
+    {
+      "id": "1925616536791760987",
+      "url": "https://x.com/HashemGhaili/status/1925616536791760987",
+      "createdAt": "2025-05-22T18:15:33.000Z",
+      "text": "Prompt Theory (Made with Veo 3) What if AI-generated characters refused to believe they were AI-generated?",
+      "wordCount": 16
+    },
+    {
+      "id": "1925396122715267230",
+      "url": "https://x.com/lmthang/status/1925396122715267230",
+      "createdAt": "2025-05-22T03:39:42.000Z",
+      "text": "As highlighted yesterday at #GoogleIO, Gemini 2.5 Pro with #DeepThink mode achieved a new state-of-the-art performance of 49.4% on USAMO 2025, an extremely challenging Math benchmark for AI that requires detailed proof writing. I was analyzing the model outputs with our math",
+      "wordCount": 42
+    },
+    {
+      "id": "1925360541146784023",
+      "url": "https://x.com/OriolVinyalsML/status/1925360541146784023",
+      "createdAt": "2025-05-22T01:18:19.000Z",
+      "text": "Yesterday at #GoogleIO, we introduced Gemini 2.5 Pro Deep Think , pushing the frontiers of AI reasoning. This enhanced reasoning mode is built to tackle drastically complex problems – like USAMO problems that stumped previous models. Super proud of the GDM team for this one!",
+      "wordCount": 45
+    },
+    {
+      "id": "1925360542598013062",
+      "url": "https://x.com/OriolVinyalsML/status/1925360542598013062",
+      "createdAt": "2025-05-22T01:18:19.000Z",
+      "text": "Deep Think uses new techniques, allowing the model to consider multiple hypotheses before responding. It's not just about math; it also gets an impressive score on LiveCodeBench , MMMU & more! Learn more:",
+      "wordCount": 33
+    },
+    {
+      "id": "1925360543847915599",
+      "url": "https://x.com/OriolVinyalsML/status/1925360543847915599",
+      "createdAt": "2025-05-22T01:18:19.000Z",
+      "text": "Because we're defining the frontier with Deep Think, we're taking extra care. This includes first getting input from safety experts and trusted testers via the Gemini API to gather crucial feedback before wider release.",
+      "wordCount": 34
+    },
+    {
+      "id": "1925259191301939204",
+      "url": "https://x.com/OriolVinyalsML/status/1925259191301939204",
+      "createdAt": "2025-05-21T18:35:35.000Z",
+      "text": "Veo2 was already SOTA, but Veo3 is something else! Been having a blast playing with it, and loving all the creativity now that it's out (more in ). Me walking to I/O thinking about Gemini3, Veo4, ...",
+      "wordCount": 37
+    },
+    {
+      "id": "1924952304324837469",
+      "url": "https://x.com/OriolVinyalsML/status/1924952304324837469",
+      "createdAt": "2025-05-20T22:16:07.000Z",
+      "text": "Today we introduced Gemini Diffusion (& DeepThink, Veo3, Imagen4, 2.5 updates...). It's been a dream of mine to remove the need for \"left to right\" text generation. It's so fast, that we had to *slow down* the video during the presentation. https:// deepmind.google/models/gemini- diffusion/ …",
+      "wordCount": 45
+    },
+    {
+      "id": "1922415298176602347",
+      "url": "https://x.com/OriolVinyalsML/status/1922415298176602347",
+      "createdAt": "2025-05-13T22:14:58.000Z",
+      "text": "We may be delaying AGI if we keep playing this game, but OK! I used Copy Canvas and here is my addition to the Cartographer. Coding this in two sentences... drastic & wild times! @NoamShazeer I nominate you : ) https:// g.co/gemini/share/c 6ad686dbd1c …",
+      "wordCount": 44
+    },
+    {
+      "id": "1919770622743163089",
+      "url": "https://x.com/OriolVinyalsML/status/1919770622743163089",
+      "createdAt": "2025-05-06T15:05:58.000Z",
+      "text": "With this update, you can create even more complex web apps from a single prompt. See a side by side (new vs old 2.5 Pro) on building interactive learning apps from YouTube videos. Try the new Gemini 2.5 Pro in AI Studio, Vertex AI, Gemini app & Canvas. http:// aistudio.google.com",
+      "wordCount": 50
+    },
+    {
+      "id": "1919770619182215440",
+      "url": "https://x.com/OriolVinyalsML/status/1919770619182215440",
+      "createdAt": "2025-05-06T15:05:57.000Z",
+      "text": "Ahead of I/O, we’re releasing an updated Gemini 2.5 Pro! It’s now #1 on WebDevArena leaderboard, breaking the 1400 ELO barrier! Our most advanced coding model yet, with stronger performance on code transformation & editing. Excited to build drastic agents on top of this!",
+      "wordCount": 44
+    },
+    {
+      "id": "1916917758023139670",
+      "url": "https://x.com/OriolVinyalsML/status/1916917758023139670",
+      "createdAt": "2025-04-28T18:09:42.000Z",
+      "text": "It's not only about how long your context is, but how well you use it. Great to see Gemini 2.5 models dominating MRCR and other benchmarks on long context! See 2.5 Pro tackle a complex coding task by reasoning over an entire repo (>500k tokens). Performance and effective use of",
+      "wordCount": 50
+    },
+    {
+      "id": "1911107490202148915",
+      "url": "https://x.com/OriolVinyalsML/status/1911107490202148915",
+      "createdAt": "2025-04-12T17:21:46.000Z",
+      "text": "We are blown away by the reception of Gemini 2.5 Pro, and the many positive surprises from benchmarks and community evaluations. That is the ultimate leaderboard!",
+      "wordCount": 26
+    },
+    {
+      "id": "1910053783968641123",
+      "url": "https://x.com/OriolVinyalsML/status/1910053783968641123",
+      "createdAt": "2025-04-09T19:34:43.000Z",
+      "text": "MCP here we come! We’re collaborating w/ the MCP team, and want to hear directly from you again! What do you need from Gemini models to build more powerful applications with MCP? Lmk in comments",
+      "wordCount": 35
+    },
+    {
+      "id": "1909337332953608375",
+      "url": "https://x.com/OriolVinyalsML/status/1909337332953608375",
+      "createdAt": "2025-04-07T20:07:48.000Z",
+      "text": "I somehow missed this, wow! Any analysis from the solutions on USAMO of the improvements vs other models?",
+      "wordCount": 18
+    },
+    {
+      "id": "1908561520017236479",
+      "url": "https://x.com/OriolVinyalsML/status/1908561520017236479",
+      "createdAt": "2025-04-05T16:45:00.000Z",
+      "text": "Cool leaderboard by @alexandr_wang and team @scale_AI ! Good to see so much purple",
+      "wordCount": 14
+    },
+    {
+      "id": "1908284602554429548",
+      "url": "https://x.com/OriolVinyalsML/status/1908284602554429548",
+      "createdAt": "2025-04-04T22:24:38.000Z",
+      "text": "Glad that our frontier models are literally defining the (Pareto) frontier across the board!",
+      "wordCount": 14
+    },
+    {
+      "id": "1904920302053650713",
+      "url": "https://x.com/OriolVinyalsML/status/1904920302053650713",
+      "createdAt": "2025-03-26T15:36:06.000Z",
+      "text": "A mere ~16 point jump on http:// livebench.ai. Such a good model! Gemini 2.5 Pro",
+      "wordCount": 15
+    },
+    {
+      "id": "1904583691566727361",
+      "url": "https://x.com/OriolVinyalsML/status/1904583691566727361",
+      "createdAt": "2025-03-25T17:18:32.000Z",
+      "text": "Introducing Gemini 2.5 Pro Experimental! Our newest Gemini model has stellar performance across math and science benchmarks. It’s an incredible model for coding and complex reasoning, and it’s #1 on the @lmarena_ai leaderboard by a drastic 40 ELO margin. Only a handful of",
+      "wordCount": 43
+    },
+    {
+      "id": "1901328862656503826",
+      "url": "https://x.com/OriolVinyalsML/status/1901328862656503826",
+      "createdAt": "2025-03-16T17:45:00.000Z",
+      "text": "Mind blown Gemini 2.0 Flash interleaved image generation is a game changer. I explained AlphaFold to my 2yo daughter's class for science week on Friday . Prompt: \"Write an illustrated story about AlphaFold for toddlers.\" Instant magic! https:// aistudio.google.com",
+      "wordCount": 39
+    },
+    {
+      "id": "1899957904767090936",
+      "url": "https://x.com/OriolVinyalsML/status/1899957904767090936",
+      "createdAt": "2025-03-12T22:57:18.000Z",
+      "text": "Loving our open models family! Left as an exercise for the open source community: add reasoning on top of Gemma3 and become the best open model",
+      "wordCount": 26
+    },
+    {
+      "id": "1899853815056085062",
+      "url": "https://x.com/OriolVinyalsML/status/1899853815056085062",
+      "createdAt": "2025-03-12T16:03:41.000Z",
+      "text": "Gemini 2.0 Flash debuts native image gen! Create contextually relevant images, edit conversationally, and generate long text in images. All totally optimized for chat iteration. Try it in AI Studio or Gemini API. Blog: https:// developers.googleblog.com/en/experiment- with-gemini-20-flash-native-image-generation/ …",
+      "wordCount": 38
+    },
+    {
+      "id": "1899190136262308289",
+      "url": "https://x.com/OriolVinyalsML/status/1899190136262308289",
+      "createdAt": "2025-03-10T20:06:28.000Z",
+      "text": "Still trying to figure out who reivewer#2 was! https:// x.com/SchmidhuberAI/ /SchmidhuberAI/status/1899113021529792937 …",
+      "wordCount": 12
+    },
+    {
+      "id": "1897340342376321181",
+      "url": "https://x.com/OriolVinyalsML/status/1897340342376321181",
+      "createdAt": "2025-03-05T17:36:03.000Z",
+      "text": "Gemini Search. Check out AI Mode, our new Labs experiment with the potential to make Google Search drastically more helpful for your hardest questions. AI Mode offers more advanced reasoning, thinking and multimodal capabilities, bringing the best of Gemini 2.0 to Search.",
+      "wordCount": 42
+    },
+    {
+      "id": "1887594344183701814",
+      "url": "https://x.com/OriolVinyalsML/status/1887594344183701814",
+      "createdAt": "2025-02-06T20:08:56.000Z",
+      "text": "Distillation has been on the news (!) due to @deepseek_ai . The paper https:// arxiv.org/abs/1503.02531 was actually rejected from NeurIPS 2014 due to lack of novelty (true-ish), and lack of impact . Thanks reviewer#2 (literally), and thanks for @arxiv ! @geoffreyhinton @JeffDean",
+      "wordCount": 42
+    },
+    {
+      "id": "1887594347363024930",
+      "url": "https://x.com/OriolVinyalsML/status/1887594347363024930",
+      "createdAt": "2025-02-06T20:08:56.000Z",
+      "text": "PS @SchmidhuberAI in 1991 published something related to compressing history length in RNNs, which may be very relevant for long context, an important topic of research today.",
+      "wordCount": 27
+    },
+    {
+      "id": "1887173232756752396",
+      "url": "https://x.com/OriolVinyalsML/status/1887173232756752396",
+      "createdAt": "2025-02-05T16:15:35.000Z",
+      "text": "The Gemini 2.0 family grows! I love astronomy, so what better way to celebrate than to code up an animated 3D scene of the solar system with Gemini 2.0 Pro Exp Let’s keep the balls rolling!",
+      "wordCount": 36
+    },
+    {
+      "id": "1882182496647037007",
+      "url": "https://x.com/OriolVinyalsML/status/1882182496647037007",
+      "createdAt": "2025-01-22T21:44:11.000Z",
+      "text": "Great & super fast progress from our first Thinking release in December, kudos to @jack_w_rae @NoamShazeer and the whole Gemini team!",
+      "wordCount": 21
+    },
+    {
+      "id": "1882182495011246363",
+      "url": "https://x.com/OriolVinyalsML/status/1882182495011246363",
+      "createdAt": "2025-01-22T21:44:10.000Z",
+      "text": "Quite funny to ask it to predict my future career (pretty accurately I must say!), or to roast the thesis (Q_Q).",
+      "wordCount": 21
+    },
+    {
+      "id": "1882181428382949530",
+      "url": "https://x.com/OriolVinyalsML/status/1882181428382949530",
+      "createdAt": "2025-01-22T21:39:56.000Z",
+      "text": "I uploaded my PhD thesis (98K tokens) and asked our latest Flash thinking model to find flaws in it. \"Potential over-reliance on empirical results without sufficient theoretical grounding.\" A Deep Learning thesis, indeed.",
+      "wordCount": 33
+    },
+    {
+      "id": "1867607552646857075",
+      "url": "https://x.com/GoogleDeepMind/status/1867607552646857075",
+      "createdAt": "2024-12-13T16:28:33.000Z",
+      "text": "Join our VP (Drastic) Research, Gemini co-Tech Lead @OriolVinyalsML and our podcast host @FryRsquared as they discuss the evolution of our AI models, from AlphaGo to Gemini. They also cover agentic capabilities and why giving AI access to tools could lead to a new era of",
+      "wordCount": 46
+    },
+    {
+      "id": "1867335010337923251",
+      "url": "https://x.com/OriolVinyalsML/status/1867335010337923251",
+      "createdAt": "2024-12-12T22:25:34.000Z",
+      "text": "Besides model quality, it has been incredible to see the advances in infrastructure that happened in the last year (efficiency, speed, easier to use & ship). I am sure things are still far from perfect, so please give (constructive) feedback to @clmt and @OfficialLoganK",
+      "wordCount": 44
+    },
+    {
+      "id": "1867302502775030184",
+      "url": "https://x.com/OriolVinyalsML/status/1867302502775030184",
+      "createdAt": "2024-12-12T20:16:24.000Z",
+      "text": "Check out this example which showcases one of the most exciting research directions: self-improvement. In it, you see this behavior emerging (!) when the model realizes (with a \"Oops!\") that it did a mistake, and fixes it to create the cute image. Wild times.",
+      "wordCount": 44
+    },
+    {
+      "id": "1866872121764483233",
+      "url": "https://x.com/OriolVinyalsML/status/1866872121764483233",
+      "createdAt": "2024-12-11T15:46:13.000Z",
+      "text": "Gemini 2.0 Flash has arrived! 2.0 Flash > 1.5 Pro (again!) Interacts with a browser Native image generation and much more! Try it out http:// aistudio.google.com/prompts/new_ch at … As a preview of what is possible, wishing you all a Drastic Holiday powered by 2.0!",
+      "wordCount": 44
+    },
+    {
+      "id": "1865082915442315286",
+      "url": "https://x.com/OriolVinyalsML/status/1865082915442315286",
+      "createdAt": "2024-12-06T17:16:33.000Z",
+      "text": "A year ago we launched Gemini Back then I shared with the team that it would be great to be in a position to beat ourselves. Just a year later this is starting to happen. But we have formidable competitors, so I expect this to age poorly . GL HF! https:// aistudio.google.com/app/prompts/ne w_chat?model=gemini-exp-1206 …",
+      "wordCount": 54
+    },
+    {
+      "id": "1861843334395756899",
+      "url": "https://x.com/OriolVinyalsML/status/1861843334395756899",
+      "createdAt": "2024-11-27T18:43:36.000Z",
+      "text": "Scaling up a simple / boring recipe is not what many researchers wanted to hear at the time.",
+      "wordCount": 18
+    },
+    {
+      "id": "1861838125800054929",
+      "url": "https://x.com/OriolVinyalsML/status/1861838125800054929",
+      "createdAt": "2024-11-27T18:22:55.000Z",
+      "text": "Such a great honor, thanks a lot @NeurIPSConf and congrats to my esteemed co-authors @ilyasut & @quocleix ! The 2014 talk also stood the test of time IMO. Here is a slide from it (powerful models of today == large transformers). Believe it or not this talk was controversial at the",
+      "wordCount": 51
+    },
+    {
+      "id": "1846596712564961397",
+      "url": "https://x.com/OriolVinyalsML/status/1846596712564961397",
+      "createdAt": "2024-10-16T16:58:59.000Z",
+      "text": "Raptor 1: Traditional ML: SIFT + SPM + SVM Raptor 2: Deep Learning: min_θ loss(NeuralNet(data, θ)) Raptor 3: LLMs: \"Please solve this coding puzzle\" Raptor 4: ???",
+      "wordCount": 27
+    },
+    {
+      "id": "1844092610748797261",
+      "url": "https://x.com/OriolVinyalsML/status/1844092610748797261",
+      "createdAt": "2024-10-09T19:08:34.000Z",
+      "text": "Richly deserved @NobelPrize prize for @geoffreyhinton , @demishassabis , and John Jumper. I've had the privilege to work alongside these brilliant minds. Here are some personal insights into their remarkable qualities: -When I joined Google, I was blown away by how much",
+      "wordCount": 42
+    },
+    {
+      "id": "1819434987768123503",
+      "url": "https://x.com/OriolVinyalsML/status/1819434987768123503",
+      "createdAt": "2024-08-02T18:07:59.000Z",
+      "text": "It was always great fun to discuss ideas and results with @NoamShazeer and @dan_defr Welcome back & let's go!",
+      "wordCount": 19
+    },
+    {
+      "id": "1819054611111858461",
+      "url": "https://x.com/saranormous/status/1819054611111858461",
+      "createdAt": "2024-08-01T16:56:30.000Z",
+      "text": "New @NoPriorsPod drop: @OriolVinyalsML VP Deep Learning @GoogleDeepMind . Topics: *Gemini *infinite context windows *where compute goes: pre-training/post-training/test-time search *reward modeling beyond games *how we should prep for AGI",
+      "wordCount": 29
+    },
+    {
+      "id": "1819050446788694445",
+      "url": "https://x.com/OriolVinyalsML/status/1819050446788694445",
+      "createdAt": "2024-08-01T16:39:57.000Z",
+      "text": "Our experimental version of Gemini 1.5 Pro in AI Studio debuted at #1 on the LMSys leaderboard. 1300 ELO, nice round number With the Gemini team, we are focused on both improving our models by iterating and finessing our recipe (deep learning FTW!), and also on massive bets",
+      "wordCount": 48
+    },
+    {
+      "id": "1816509607172297028",
+      "url": "https://x.com/OriolVinyalsML/status/1816509607172297028",
+      "createdAt": "2024-07-25T16:23:34.000Z",
+      "text": "AI is beating me at the things I love, one step at a time (coding, StarCraft, mathematics, ...). AlphaProof solved the most difficult 2024 IMO problem (P6). Answer doesn't fit in this tweet",
+      "wordCount": 33
+    },
+    {
+      "id": "1811103232820715942",
+      "url": "https://x.com/OriolVinyalsML/status/1811103232820715942",
+      "createdAt": "2024-07-10T18:20:34.000Z",
+      "text": "Extremely proud of my partner in crime @FortunatoMeire and all of #GraphCast team for this award! The thing is heavy",
+      "wordCount": 20
+    },
+    {
+      "id": "1806430315487047823",
+      "url": "https://x.com/OriolVinyalsML/status/1806430315487047823",
+      "createdAt": "2024-06-27T20:52:03.000Z",
+      "text": "Gemma 2 has arrived! The arena for open models is also heating up. Extra exciting as 27B is ~3x smaller than Llama3 70B and ~10x smaller than NVIDIA's Nemotron 340B",
+      "wordCount": 30
+    },
+    {
+      "id": "1795512202465845686",
+      "url": "https://x.com/arena/status/1795512202465845686",
+      "createdAt": "2024-05-28T17:47:22.000Z",
+      "text": "Big news – Gemini 1.5 Flash, Pro and Advanced results are out! - Gemini 1.5 Pro/Advanced at #2, closing in on GPT-4o - Gemini 1.5 Flash at #9, outperforming Llama-3-70b and nearly reaching GPT-4-0125 (!) Pro is significantly stronger than its April version. Flash’s cost,",
+      "wordCount": 45
+    },
+    {
+      "id": "1793666877958332481",
+      "url": "https://x.com/OriolVinyalsML/status/1793666877958332481",
+      "createdAt": "2024-05-23T15:34:43.000Z",
+      "text": "For Reinforcement Learning to be successful on top of LLMs, it is critical to have a very powerful and accurate reward model. Reward in most language tasks isn't as clearly defined as, say, in chess, where the winning condition is a simple computation. Generative reward models",
+      "wordCount": 46
+    },
+    {
+      "id": "1791521517211107515",
+      "url": "https://x.com/OriolVinyalsML/status/1791521517211107515",
+      "createdAt": "2024-05-17T17:29:49.000Z",
+      "text": "Today we have published our updated Gemini 1.5 Model Technical Report. As @JeffDean highlights, we have made significant progress in Gemini 1.5 Pro across all key benchmarks; TL;DR: 1.5 Pro > 1.0 Ultra, 1.5 Flash (our fastest model) ~= 1.0 Ultra. As a math undergrad, our drastic",
+      "wordCount": 47
+    },
+    {
+      "id": "1791521520264573360",
+      "url": "https://x.com/OriolVinyalsML/status/1791521520264573360",
+      "createdAt": "2024-05-17T17:29:49.000Z",
+      "text": "Here are some examples of the model solving problems from the Asian Pacific Mathematical Olympiad (APMO) that has stumped prior models. The top example is cool because it is a proof (rather than a calculation). The solutions are to the point and \"beautiful\". This clearly shows",
+      "wordCount": 46
+    },
+    {
+      "id": "1791518997973762322",
+      "url": "https://x.com/JeffDean/status/1791518997973762322",
+      "createdAt": "2024-05-17T17:19:48.000Z",
+      "text": "Gemini 1.5 Model Family: Technical Report updates now published In the report we present the latest models of the Gemini family – Gemini 1.5 Pro and Gemini 1.5 Flash, two highly compute-efficient multimodal models capable of recalling and reasoning over fine-grained information",
+      "wordCount": 42
+    },
+    {
+      "id": "1790466819767337345",
+      "url": "https://x.com/OriolVinyalsML/status/1790466819767337345",
+      "createdAt": "2024-05-14T19:38:49.000Z",
+      "text": "Live from #GoogleIO, we’re announcing significant updates to our Gemini family of models. More multimodal, real time, faster, better, longer context... We can’t wait to see the amazing things people will do with this tech, as we continue making it more helpful and useful for",
+      "wordCount": 45
+    },
+    {
+      "id": "1782780613537178105",
+      "url": "https://x.com/OriolVinyalsML/status/1782780613537178105",
+      "createdAt": "2024-04-23T14:36:35.000Z",
+      "text": "Gemini 1.5 Pro has entered the (LMSys) Arena! Some highlights: -The only \"mid\" tier model at the highest level alongside \"top\" tier models from OpenAI and Anthropic -The model excels at multimodal, and long context (not measured here) -This model is also state-of-the-art",
+      "wordCount": 43
+    },
+    {
+      "id": "1777733743303696554",
+      "url": "https://x.com/OfficialLoganK/status/1777733743303696554",
+      "createdAt": "2024-04-09T16:22:07.000Z",
+      "text": "New @Google developer launch today: - Gemini 1.5 Pro is now available in 180+ countries via the Gemini API in public preview - Supports audio (speech) understanding capability, and a new File API to make it easy to handle files - New embedding model!",
+      "wordCount": 44
+    },
+    {
+      "id": "1770792443434139979",
+      "url": "https://x.com/OriolVinyalsML/status/1770792443434139979",
+      "createdAt": "2024-03-21T12:39:52.000Z",
+      "text": "We are rolling out Gemini 1.5 Pro API so that you can keep building amazing stuff on top of the model like we've seen in the past few weeks. Also, if you just want to play with Gemini 1.5, we removed the waitlist: http:// aistudio.google.com Last, but not least, we pushed the model",
+      "wordCount": 53
+    },
+    {
+      "id": "1767643472893276510",
+      "url": "https://x.com/OriolVinyalsML/status/1767643472893276510",
+      "createdAt": "2024-03-12T20:06:59.000Z",
+      "text": "A new Large Language Model a day keeps the GPUs away.",
+      "wordCount": 11
+    },
+    {
+      "id": "1762175776726663267",
+      "url": "https://x.com/mckaywrigley/status/1762175776726663267",
+      "createdAt": "2024-02-26T18:00:19.000Z",
+      "text": "The future of fixing bugs? Just record them. I filmed 3 separate bugs in an app and gave the videos to Gemini 1.5 Pro with my entire codebase. It correctly identified & fixed each one. AI is improving insanely fast.",
+      "wordCount": 40
+    },
+    {
+      "id": "1761109378273288431",
+      "url": "https://x.com/_arohan_/status/1761109378273288431",
+      "createdAt": "2024-02-23T19:22:50.000Z",
+      "text": "The team is working hard to bring audio inputs to the AI Studio interface for Gemini 1.5 Pro. We have an internal version that handles audio and video and can sample the video less frequently to increase the length of content that can be handled. @karpathy , thanks for the",
+      "wordCount": 50
+    },
+    {
+      "id": "1760323407810265323",
+      "url": "https://x.com/OriolVinyalsML/status/1760323407810265323",
+      "createdAt": "2024-02-21T15:19:40.000Z",
+      "text": "It certainly has been a fun year @Google: enjoy playing with our open source models Gemma, built from the same research and technology used to create the Gemini models. Blog: https://blog.google/technology/developers/gemma-open-models/… Tech report: https://storage.googleapis.com/deepmind-media/gemma/gemma-report.pdf…",
+      "wordCount": 34
+    },
+    {
+      "id": "1760039146033176937",
+      "url": "https://x.com/OriolVinyalsML/status/1760039146033176937",
+      "createdAt": "2024-02-20T20:30:07.000Z",
+      "text": "The Gemini 1.5 Pro model guide is live! With support of up to 1 million tokens context length, you may be wondering what's possible with Gemini 1.5 Pro. My overall impression after our first round of testing is that Gemini 1.5 Pro is among the most powerful long context LLMs",
+      "wordCount": 50
+    },
+    {
+      "id": "1760039144258994595",
+      "url": "https://x.com/OriolVinyalsML/status/1760039144258994595",
+      "createdAt": "2024-02-20T20:30:06.000Z",
+      "text": "Spent the last few days building a megaprompt for a client. This one takes in a 1-hour meeting transcript and outputs a report that becomes the basis for a paid consulting deliverable. Ran it in 4 LLMS: - ChatGPT (GPT-4 Turbo) - GPT-4 Turbo in OpenAI Playground - Claude-2 via",
+      "wordCount": 50
+    },
+    {
+      "id": "1760039126676500712",
+      "url": "https://x.com/OriolVinyalsML/status/1760039126676500712",
+      "createdAt": "2024-02-20T20:30:02.000Z",
+      "text": "Gemini 1.5 Pro launched last week and already we're seeing the community produce some amazing interactions with long context. Below are some highlights and cool posts from folks who have gotten early access. A few thoughts from discussions / reactions from the community so",
+      "wordCount": 44
+    },
+    {
+      "id": "1758546273412563062",
+      "url": "https://x.com/OriolVinyalsML/status/1758546273412563062",
+      "createdAt": "2024-02-16T17:37:58.000Z",
+      "text": "Amazing job from my friends @OpenAI on Sora! Also, sorry if I spoil this video for you, but I can't unsee the cats' 3 front legs",
+      "wordCount": 26
+    },
+    {
+      "id": "1758148444588319020",
+      "url": "https://x.com/OriolVinyalsML/status/1758148444588319020",
+      "createdAt": "2024-02-15T15:17:08.000Z",
+      "text": "To show what’s possible with the drastically huge context window in Gemini 1.5 Pro, we prompted it with the three.js examples code - over 100,000 lines of code/800k+ tokens! (That’s not even the max, it can handle millions of tokens ) Gemini was able to process all the code",
+      "wordCount": 49
+    },
+    {
+      "id": "1758147885915332961",
+      "url": "https://x.com/OriolVinyalsML/status/1758147885915332961",
+      "createdAt": "2024-02-15T15:14:55.000Z",
+      "text": "Gemini 1.5 has arrived. Pro 1.5 with 1M tokens available as an experimental feature via AI Studio and Vertex AI in private preview. Then there’s this: In our research, we tested Gemini 1.5 on up to 2M tokens for audio, 2.8M tokens for video, and 10M tokens for text. From",
+      "wordCount": 50
+    },
+    {
+      "id": "1758146022726041615",
+      "url": "https://x.com/JeffDean/status/1758146022726041615",
+      "createdAt": "2024-02-15T15:07:31.000Z",
+      "text": "Gemini 1.5 Pro - A highly capable multimodal model with a 10M token context length Today we are releasing the first demonstrations of the capabilities of the Gemini 1.5 series, with the Gemini 1.5 Pro model. One of the key differentiators of this model is its incredibly long",
+      "wordCount": 48
+    },
+    {
+      "id": "1756930242965606582",
+      "url": "https://x.com/jaschasd/status/1756930242965606582",
+      "createdAt": "2024-02-12T06:36:26.000Z",
+      "text": "Have you ever done a dense grid search over neural network hyperparameters? Like a *really dense* grid search? It looks like this (!!). Blueish colors correspond to hyperparameters for which training converges, redish colors to hyperparameters for which training diverges.",
+      "wordCount": 40
+    },
+    {
+      "id": "1756376068724847101",
+      "url": "https://x.com/OriolVinyalsML/status/1756376068724847101",
+      "createdAt": "2024-02-10T17:54:21.000Z",
+      "text": "Just over a year ago, a few of us got together to brainstorm a brand new project called Gemini . So grateful for the impact across @Google . Huge thanks to everyone who's supported this journey – and we ain't slowing down! #Gemini #AI",
+      "wordCount": 44
+    },
+    {
+      "id": "1751306576781304103",
+      "url": "https://x.com/OriolVinyalsML/status/1751306576781304103",
+      "createdAt": "2024-01-27T18:10:00.000Z",
+      "text": "Fun game. Clocking 17973 citations: \"Distilling the knowledge in a neural network\" @geoffreyhinton , @OriolVinyalsML , @JeffDean Reviewer 38 (NeurIPS 2014): \"This work is incremental and unlikely to have much impact even though it may be technically correct and well executed.\"",
+      "wordCount": 41
+    },
+    {
+      "id": "1750997312350900271",
+      "url": "https://x.com/OriolVinyalsML/status/1750997312350900271",
+      "createdAt": "2024-01-26T21:41:05.000Z",
+      "text": "Evaluation of LLMs is very hard and nuanced (especially academic evals which are leaked massively). Evals that rely on human judgement are far superior, so it feels good that Bard Gemini Pro (free tier) climbed pretty high on lmsys Looking forward to Gemini Ultra release!",
+      "wordCount": 45
+    },
+    {
+      "id": "1741880717125005526",
+      "url": "https://x.com/OriolVinyalsML/status/1741880717125005526",
+      "createdAt": "2024-01-01T17:55:00.000Z",
+      "text": "Hi 2024! Summary of 2023 for many of the people I love working with: Gemini May 2024 bring us more capable Neural Networks, loss functions converge quickly, and may we never see an Inf or a NaN",
+      "wordCount": 37
+    },
+    {
+      "id": "1735011970674221109",
+      "url": "https://x.com/OriolVinyalsML/status/1735011970674221109",
+      "createdAt": "2023-12-13T19:01:03.000Z",
+      "text": "Incredibly proud of the team behind Imagen 2. What a week! My attempt at generating a logo for Gemini . Help me generate a better one please, I'm not great at prompting",
+      "wordCount": 32
+    },
+    {
+      "id": "1734727365371060682",
+      "url": "https://x.com/OriolVinyalsML/status/1734727365371060682",
+      "createdAt": "2023-12-13T00:10:08.000Z",
+      "text": "Great to meet so many awesome people today @NeurIPSConf !",
+      "wordCount": 10
+    },
+    {
+      "id": "1733960550491537463",
+      "url": "https://x.com/OriolVinyalsML/status/1733960550491537463",
+      "createdAt": "2023-12-10T21:23:05.000Z",
+      "text": "On my way to @NeurIPSConf #NeurIPS2023 where I'm presenting 0 papers Come chat with the Gemini team at @GoogleDeepMind / @GoogleResearch booths on Tue/Wed from 1:30 to 3:00 PM (NOLA time). Quite a few Gemini team members will be there!",
+      "wordCount": 40
+    },
+    {
+      "id": "1733581861018816766",
+      "url": "https://x.com/OriolVinyalsML/status/1733581861018816766",
+      "createdAt": "2023-12-09T20:18:18.000Z",
+      "text": "Why \"Gemini\"? -I liked the name because the monumental effort of training LLMs resonated with the spirit of launching rockets . Gemini is @NASA 's program which preceded Apollo. -Merging two teams together led @JeffDean to consider \"Gemini\" a fitting name. Thrilled for",
+      "wordCount": 43
+    },
+    {
+      "id": "1732885990291775553",
+      "url": "https://x.com/OriolVinyalsML/status/1732885990291775553",
+      "createdAt": "2023-12-07T22:13:10.000Z",
+      "text": "Really happy to see the interest around our “Hands-on with Gemini” video. In our developer blog yesterday, we broke down how Gemini was used to create it. https:// developers.googleblog.com/2023/12/how-it s-made-gemini-multimodal-prompting.html … We gave Gemini sequences of different modalities — image and text in this case — and had it respond",
+      "wordCount": 50
+    },
+    {
+      "id": "1732426317268758671",
+      "url": "https://x.com/OriolVinyalsML/status/1732426317268758671",
+      "createdAt": "2023-12-06T15:46:35.000Z",
+      "text": "Exciting times, welcome Gemini (and MMLU>90)! State-of-the-art on 30 out of 32 benchmarks across text, coding, audio, images, and video, with a single model Co-leading Gemini has been my most exciting endeavor, fueled by a very ambitious goal. And that is just the beginning!",
+      "wordCount": 44
+    },
+    {
+      "id": "1732415515673727286",
+      "url": "https://x.com/JeffDean/status/1732415515673727286",
+      "createdAt": "2023-12-06T15:03:40.000Z",
+      "text": "I’m very excited to share our work on Gemini today! Gemini is a family of multimodal models that demonstrate really strong capabilities across the image, audio, video, and text domains. Our most-capable model, Gemini Ultra, advances the state of the art in 30 of 32 benchmarks,",
+      "wordCount": 46
+    },
+    {
+      "id": "1731609225934029220",
+      "url": "https://x.com/OriolVinyalsML/status/1731609225934029220",
+      "createdAt": "2023-12-04T09:39:45.000Z",
+      "text": "Curiously, AlphaGo was using imitation learning (cake, yummy ) + RL refinement (cherry, yes plz ). A recipe that should sound familiar to many today.",
+      "wordCount": 25
+    },
+    {
+      "id": "1725132727521849543",
+      "url": "https://x.com/OriolVinyalsML/status/1725132727521849543",
+      "createdAt": "2023-11-16T12:44:28.000Z",
+      "text": "Music + AI == I've been playing with this system for a while and it's incredible. Very proud of the teams who worked so hard on #Lyria, and looking forward to see what creative minds can achieve with this! Music will never be the same Blog:",
+      "wordCount": 46
+    },
+    {
+      "id": "1666557792289804290",
+      "url": "https://x.com/OriolVinyalsML/status/1666557792289804290",
+      "createdAt": "2023-06-07T21:28:35.000Z",
+      "text": "It took a lot of Deep RL finesse (& some Transformers ) to get the first change in over a decade accepted into the LLVM standard C++ library. AlphaDev, published @Nature by my brilliant colleagues!",
+      "wordCount": 35
+    },
+    {
+      "id": "1655247526709149698",
+      "url": "https://x.com/OriolVinyalsML/status/1655247526709149698",
+      "createdAt": "2023-05-07T16:25:38.000Z",
+      "text": "Best feeling in the (Neural Network) world: loss is going down Happy Sunday!",
+      "wordCount": 13
+    },
+    {
+      "id": "1653113881848340509",
+      "url": "https://x.com/OriolVinyalsML/status/1653113881848340509",
+      "createdAt": "2023-05-01T19:07:17.000Z",
+      "text": "Thanks for all you've done for many of us, @geoffreyhinton Keep distilling your knowledge back to the world, and may your gradients never vanish!",
+      "wordCount": 24
+    },
+    {
+      "id": "1649721970886594561",
+      "url": "https://x.com/TivadarDanka/status/1649721970886594561",
+      "createdAt": "2023-04-22T10:29:02.000Z",
+      "text": "I described some of the most beautiful and famous mathematical theorems to Midjourney. Here is how it imagined them: 1. \"The set of real numbers is uncountably infinite.\"",
+      "wordCount": 28
+    }
+  ]
+}

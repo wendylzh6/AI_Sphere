@@ -1,0 +1,3481 @@
+[
+  {
+    "tweet_id": "2043752413085966574",
+    "url": "https://x.com/soumithchintala/status/2043752413085966574",
+    "author": "soumithchintala",
+    "date": "2026-04-13T18:05:21.000Z",
+    "text": "Just like us at \n@thinkymachines\n, \n@luke_drago_\n \n@LRudL_\n care a lot about amplifying humans, not replacing them.\nThey're joining us to build towards that future!"
+  },
+  {
+    "tweet_id": "2041530305891443112",
+    "url": "https://x.com/soumithchintala/status/2041530305891443112",
+    "author": "soumithchintala",
+    "date": "2026-04-07T14:55:29.000Z",
+    "text": "You build communities that last, and that’s rare. GPU Mode, PyTorch… they worked because you showed up with honesty and zero ego. This makes you a rare pokemon. Thanks for your service.\n\nExcited for what’s next. I'm sure you’re definitely not done leveling up."
+  },
+  {
+    "tweet_id": "2033369793798021146",
+    "url": "https://x.com/soumithchintala/status/2033369793798021146",
+    "author": "soumithchintala",
+    "date": "2026-03-16T02:28:31.000Z",
+    "text": "thank you, the book is one of the most thoughtful thank you gifts I've received for speaking!"
+  },
+  {
+    "tweet_id": "2033326402787778784",
+    "url": "https://x.com/soumithchintala/status/2033326402787778784",
+    "author": "soumithchintala",
+    "date": "2026-03-15T23:36:06.000Z",
+    "text": "not AI, the book was actually made by Hatty Wang at Harvard.\nhere's a few pages...."
+  },
+  {
+    "tweet_id": "2031847353515422186",
+    "url": "https://x.com/soumithchintala/status/2031847353515422186",
+    "author": "soumithchintala",
+    "date": "2026-03-11T21:38:53.000Z",
+    "text": "you dont disappoint on either kind of weight training \nwelcome!"
+  },
+  {
+    "tweet_id": "2031367616179351577",
+    "url": "https://x.com/soumithchintala/status/2031367616179351577",
+    "author": "soumithchintala",
+    "date": "2026-03-10T13:52:35.000Z",
+    "text": "to me personally, this continues the years of close partnership with NVIDIA I've had via \n@PyTorch\n. working with them is always such a joy!"
+  },
+  {
+    "tweet_id": "2031367271579623922",
+    "url": "https://x.com/soumithchintala/status/2031367271579623922",
+    "author": "soumithchintala",
+    "date": "2026-03-10T13:51:13.000Z",
+    "text": "Excited to partner with NVIDIA.\n\nbringing up 1GW or more of compute starting with Vera Rubin, co-designing systems and architectures together, and more.\nNVIDIA has also made a significant investment in \n@thinkymachines"
+  },
+  {
+    "tweet_id": "2027746230848102559",
+    "url": "https://x.com/soumithchintala/status/2027746230848102559",
+    "author": "soumithchintala",
+    "date": "2026-02-28T14:02:29.000Z",
+    "text": "thank you for MLX, and all that you've done for open source! \nGood luck with whatever comes next."
+  },
+  {
+    "tweet_id": "2026704992678133888",
+    "url": "https://x.com/soumithchintala/status/2026704992678133888",
+    "author": "soumithchintala",
+    "date": "2026-02-25T17:04:59.000Z",
+    "text": "this is as wild as OpenAI dropping the \"open\", probably wilder:"
+  },
+  {
+    "tweet_id": "1970464906072801589",
+    "url": "https://x.com/soumithchintala/status/1970464906072801589",
+    "author": "soumithchintala",
+    "date": "2025-09-23T12:26:57.000Z",
+    "text": "10GW is about $340B of nvidia h100 at $30k/gpu (assuming 20% of power for non-gpus). if openai got a 30% volume discount, they'd pay nvidia $230b probably.\n\nso instead, maybe openai pays nvidia full price and nvidia invests the excess $100B into openai stock \n(just throwing"
+  },
+  {
+    "tweet_id": "1963225945365442588",
+    "url": "https://x.com/soumithchintala/status/1963225945365442588",
+    "author": "soumithchintala",
+    "date": "2025-09-03T13:01:55.000Z",
+    "text": "it comes with its own temporary friction, torch.export is still maturing for backward/training graphs and all effort over the past two years was put on inference maturity"
+  },
+  {
+    "tweet_id": "1963225534659178948",
+    "url": "https://x.com/soumithchintala/status/1963225534659178948",
+    "author": "soumithchintala",
+    "date": "2025-09-03T13:00:17.000Z",
+    "text": "if you want to avoid guards and do autotuning at compile-time, have no jit at runtime, consider torch.export; thats what you'd want.\nin fact, \n@ezyang\n has been pushing it for some training workloads that dont want any jitting at runtime and ones that need a bunch of sharding info"
+  },
+  {
+    "tweet_id": "1956906920918540517",
+    "url": "https://x.com/soumithchintala/status/1956906920918540517",
+    "author": "soumithchintala",
+    "date": "2025-08-17T02:32:22.000Z",
+    "text": "AI infra is young, hard and messy (you obviously know this). the fact that meta talks about their infra details openly only makes it publicly messy. \neveryone's infra across the industry is pretty messy but privately so."
+  },
+  {
+    "tweet_id": "1956905816818409979",
+    "url": "https://x.com/soumithchintala/status/1956905816818409979",
+    "author": "soumithchintala",
+    "date": "2025-08-17T02:27:58.000Z",
+    "text": "from what i know (folks who worked on the infra bits at the other lab), the other lab forked pytorch several years ago for their large-scale runs before tensor subclasses were a thing, as they needed low and mixed precision types. now they have so much custom stuff on top of"
+  },
+  {
+    "tweet_id": "1956891284045799879",
+    "url": "https://x.com/soumithchintala/status/1956891284045799879",
+    "author": "soumithchintala",
+    "date": "2025-08-17T01:30:14.000Z",
+    "text": "1. there is no fork of pytorch fwiw. only a fork of nccl. clearly you overheard wrong.\n2. torch.compile wasn't even considered because it doesnt have precompilation yet and that was deemed a requirement for large-scale xlformers runs. so the whole thing about graph breaks is"
+  },
+  {
+    "tweet_id": "1952696513441968394",
+    "url": "https://x.com/soumithchintala/status/1952696513441968394",
+    "author": "soumithchintala",
+    "date": "2025-08-05T11:41:42.000Z",
+    "text": "I used em dashes (a lot) before ChatGPT made them the official punctuation of soulless AI prose.\n\n(can't believe I've had to gentrify my own writing style)"
+  },
+  {
+    "tweet_id": "1952326714929123736",
+    "url": "https://x.com/soumithchintala/status/1952326714929123736",
+    "author": "soumithchintala",
+    "date": "2025-08-04T11:12:15.000Z",
+    "text": "Tried being a VFX artist for films. Flopped.\nSo, got into vision/ML research to build agents that did what I couldn’t.\nHigher-order attack on the same dream.\n\n(eventually broadened my interest within vision/ML research, but that's how I got into AI research)"
+  },
+  {
+    "tweet_id": "1948513047032857005",
+    "url": "https://x.com/soumithchintala/status/1948513047032857005",
+    "author": "soumithchintala",
+    "date": "2025-07-24T22:38:06.000Z",
+    "text": "congrats on landing well, and thanks for bringing transparency to horseshit leadership of the finest kind.\na real shame."
+  },
+  {
+    "tweet_id": "1948109930981929468",
+    "url": "https://x.com/soumithchintala/status/1948109930981929468",
+    "author": "soumithchintala",
+    "date": "2025-07-23T19:56:16.000Z",
+    "text": "thanks for sharing the configs.\nThe model is too small for the defaults to be tuned around it. ( thanks \n@lessw2020\n for looking into it).\nMost folks who use TorchTitan don't quite train in that distribution.\nAlso, the zero3 -> zero2 is a compute/memory trade-off)."
+  },
+  {
+    "tweet_id": "1947964906902343812",
+    "url": "https://x.com/soumithchintala/status/1947964906902343812",
+    "author": "soumithchintala",
+    "date": "2025-07-23T10:19:59.000Z",
+    "text": "it could but probably not energy-efficiently, so you're not going to use it."
+  },
+  {
+    "tweet_id": "1946890959192502357",
+    "url": "https://x.com/soumithchintala/status/1946890959192502357",
+    "author": "soumithchintala",
+    "date": "2025-07-20T11:12:30.000Z",
+    "text": "coming up with evals that start at 1-gpu but are meaningful at eventual scale will be the hardest part."
+  },
+  {
+    "tweet_id": "1946890161985392705",
+    "url": "https://x.com/soumithchintala/status/1946890161985392705",
+    "author": "soumithchintala",
+    "date": "2025-07-20T11:09:20.000Z",
+    "text": "the phone calls from script-kiddie teenagers is next. getting pretty annoying ngl."
+  },
+  {
+    "tweet_id": "1945297225988354315",
+    "url": "https://x.com/soumithchintala/status/1945297225988354315",
+    "author": "soumithchintala",
+    "date": "2025-07-16T01:39:35.000Z",
+    "text": "considering Muon is so popular and validated at scale, we've just decided to welcome a PR for it in PyTorch core by default.\nIf anyone wants to take a crack at it... \n\nhttps://\ngithub.com/pytorch/pytorc\nh/issues/148819#issuecomment-3070108227\n…"
+  },
+  {
+    "tweet_id": "1943358475146531288",
+    "url": "https://x.com/soumithchintala/status/1943358475146531288",
+    "author": "soumithchintala",
+    "date": "2025-07-10T17:15:40.000Z",
+    "text": "need a CLI like Claude Code tbh, copy-pasting to the browser is so 2023 and so slow"
+  },
+  {
+    "tweet_id": "1941608758737613023",
+    "url": "https://x.com/soumithchintala/status/1941608758737613023",
+    "author": "soumithchintala",
+    "date": "2025-07-05T21:22:56.000Z",
+    "text": "it \"corrects\" itself even when it's correct, if you prompt it that its wrong. so, I've not been able to rely on it's statements blindly without a citation"
+  },
+  {
+    "tweet_id": "1940815513107448272",
+    "url": "https://x.com/soumithchintala/status/1940815513107448272",
+    "author": "soumithchintala",
+    "date": "2025-07-03T16:50:51.000Z",
+    "text": "the numpy compatible torch.compile behavior is definitely a bug. \nthe expected behavior is the numpy output should be the same as torch.compile output.\ntorch's advanced indexing differing from numpy's advanced indexing is a bit of an aside.\nI've just filed a bug report,"
+  },
+  {
+    "tweet_id": "1939427361490931879",
+    "url": "https://x.com/soumithchintala/status/1939427361490931879",
+    "author": "soumithchintala",
+    "date": "2025-06-29T20:54:50.000Z",
+    "text": "torch.autograd.profiler.emit_nvtx.\nIt emits nvtx markers for every torch op.\n\nhttps://\ndocs.pytorch.org/docs/stable/au\ntograd.html#torch.autograd.profiler.emit_nvtx\n…"
+  },
+  {
+    "tweet_id": "1939312569144979711",
+    "url": "https://x.com/soumithchintala/status/1939312569144979711",
+    "author": "soumithchintala",
+    "date": "2025-06-29T13:18:41.000Z",
+    "text": "https://\ndev-discuss.pytorch.org/t/using-nsight\n-systems-to-profile-gpu-workload/59\n… by \n@ptrblck_de\n \n\n\nhttps://\ndev-discuss.pytorch.org/t/rfc-performa\nnce-profiling-at-scale-with-detailed-nvtx-annotations/2224\n…"
+  },
+  {
+    "tweet_id": "1939090495847772337",
+    "url": "https://x.com/soumithchintala/status/1939090495847772337",
+    "author": "soumithchintala",
+    "date": "2025-06-28T22:36:15.000Z",
+    "text": "just off the top of my head: yann lecun, leon bottou, andrew tulloch, horace he, alban desmaison, edward yang"
+  },
+  {
+    "tweet_id": "1938281098854694970",
+    "url": "https://x.com/soumithchintala/status/1938281098854694970",
+    "author": "soumithchintala",
+    "date": "2025-06-26T17:00:00.000Z",
+    "text": "the SF bubble is real, as I was trying to convince you ;-)\nit's not just timelines, it's also the particular subtopics people care about (safety, but which parts of safety to care about; economic impact but what are the top directions; AI architectures and which ones are better"
+  },
+  {
+    "tweet_id": "1938251897271693647",
+    "url": "https://x.com/soumithchintala/status/1938251897271693647",
+    "author": "soumithchintala",
+    "date": "2025-06-26T15:03:57.000Z",
+    "text": "impressive that no one has yet, but I've invited you to the pytorch slack, after you join you can hang out on the torchtitan channel and get productive much quicker together"
+  },
+  {
+    "tweet_id": "1936136796963823848",
+    "url": "https://x.com/soumithchintala/status/1936136796963823848",
+    "author": "soumithchintala",
+    "date": "2025-06-20T18:59:18.000Z",
+    "text": "the model keeps on training even when the underlying infra keeps failing....out-of-the-box PyTorch"
+  },
+  {
+    "tweet_id": "1933700563054833780",
+    "url": "https://x.com/soumithchintala/status/1933700563054833780",
+    "author": "soumithchintala",
+    "date": "2025-06-14T01:38:35.000Z",
+    "text": "This is a proper Vibe-coding setup for GPU programmers, and can result in getting surprisingly far!\n\nI honestly think that if this authoring experience is v1, then v10 might become the normal way GPU experts start writing serious custom kernels!\nGreat work \n@anneouyang\n!\n\n(finally"
+  },
+  {
+    "tweet_id": "1930781334642803037",
+    "url": "https://x.com/soumithchintala/status/1930781334642803037",
+    "author": "soumithchintala",
+    "date": "2025-06-06T00:18:37.000Z",
+    "text": "so excited to do this the third time...\n\n@runwayml\n AI Film Festival!"
+  },
+  {
+    "tweet_id": "1927689603554607600",
+    "url": "https://x.com/soumithchintala/status/1927689603554607600",
+    "author": "soumithchintala",
+    "date": "2025-05-28T11:33:10.000Z",
+    "text": "in the given options, only a replica actually describes a replica.\nall others describe pools that might not be replicas (i.e. they might also be doing complementary or other work)."
+  },
+  {
+    "tweet_id": "1925580217654886451",
+    "url": "https://x.com/soumithchintala/status/1925580217654886451",
+    "author": "soumithchintala",
+    "date": "2025-05-22T15:51:14.000Z",
+    "text": "if they've built AI evals that correlate a lot with people's understanding of intelligence and productivity, then that's pretty valuable to a lot of companies.\nbuilding AI evals is also hard and probably \"skilled-labor\"-intensive if you want to start capturing the long-tail."
+  },
+  {
+    "tweet_id": "1915849077369061382",
+    "url": "https://x.com/soumithchintala/status/1915849077369061382",
+    "author": "soumithchintala",
+    "date": "2025-04-25T19:23:09.000Z",
+    "text": "the IO part is moving to torchcodec: \nhttps://\ngithub.com/pytorch/torchc\nodec\n…\nWe're not dropping IO without a replacement.\ntorchcodec is even more efficient than the torchaudio IO"
+  },
+  {
+    "tweet_id": "1913287282695745967",
+    "url": "https://x.com/soumithchintala/status/1913287282695745967",
+    "author": "soumithchintala",
+    "date": "2025-04-18T17:43:30.000Z",
+    "text": "tendon-driven 3D-printed hand from \n@irmakkguzey\n and team at the \n@LerrelPinto\n lab.\n* costs $1300 to build, compact human-profile.\n* the tendons are actually off-the-shelf fish-line, super strong and never break. the plastic parts break before the tendons ever do.\n* mountable on"
+  },
+  {
+    "tweet_id": "1912600604657975595",
+    "url": "https://x.com/soumithchintala/status/1912600604657975595",
+    "author": "soumithchintala",
+    "date": "2025-04-16T20:14:53.000Z",
+    "text": "If GPU optimization and systems problems excite you, why limit your impact to a single company or lab?\nWorking on PyTorch allows you to ship impact to the entire AI industry!\nWe're hiring across experiences -- junior and senior engineers. \nRead more below"
+  },
+  {
+    "tweet_id": "1903910990619746754",
+    "url": "https://x.com/soumithchintala/status/1903910990619746754",
+    "author": "soumithchintala",
+    "date": "2025-03-23T20:45:27.000Z",
+    "text": "i actually quite like it whenever \n@giffmana\n or anyone else gives feedback, especially if it's valid, even if it's harsh.\n\n1. It shows us our blindspots -- so it's just plain useful\n2. It shows that the user cares enough to give the feedback, which is already a huge complement"
+  },
+  {
+    "tweet_id": "1903134857313558824",
+    "url": "https://x.com/soumithchintala/status/1903134857313558824",
+    "author": "soumithchintala",
+    "date": "2025-03-21T17:21:23.000Z",
+    "text": "lol, I think I helped design it, and I think it looks clowntown from the lens of Tensor padding.\n\nF.pad was written as a consolidation of all the vision padding -- for padding images, videos, etc. It consolidated nn.ReflectionPad2d, etc. from torch7.\n\nBut looking at it from the"
+  },
+  {
+    "tweet_id": "1902006029174313064",
+    "url": "https://x.com/soumithchintala/status/1902006029174313064",
+    "author": "soumithchintala",
+    "date": "2025-03-18T14:35:49.000Z",
+    "text": "it was all \n@hug_nicolas\n, Scott Schneider and Ahmad Sharif"
+  },
+  {
+    "tweet_id": "1901782978612600914",
+    "url": "https://x.com/soumithchintala/status/1901782978612600914",
+    "author": "soumithchintala",
+    "date": "2025-03-17T23:49:30.000Z",
+    "text": "you'd be surprised at how many ffmpeg wrappers have correctness bugs :)"
+  },
+  {
+    "tweet_id": "1901724303214702937",
+    "url": "https://x.com/soumithchintala/status/1901724303214702937",
+    "author": "soumithchintala",
+    "date": "2025-03-17T19:56:20.000Z",
+    "text": "oh yea, so the last thing about i-frames, ffmpeg has an approximate mode which will fast-seek to whatever is the closest iframe and just return that. it works for some training workloads and is much faster. the approximate mode is exposed in torchcodec."
+  },
+  {
+    "tweet_id": "1901672863599309090",
+    "url": "https://x.com/soumithchintala/status/1901672863599309090",
+    "author": "soumithchintala",
+    "date": "2025-03-17T16:31:56.000Z",
+    "text": "it's a \"proper\" efficient wrapper around ffmpeg for PyTorch, using some of ffmpeg's fast seeking and read-ahead APIs correctly, as well as using memory buffers correctly, avoiding allocs and copies."
+  },
+  {
+    "tweet_id": "1901672776768876585",
+    "url": "https://x.com/soumithchintala/status/1901672776768876585",
+    "author": "soumithchintala",
+    "date": "2025-03-17T16:31:36.000Z",
+    "text": "it's a \"proper\" efficient wrapper around ffmpeg for PyTorch, using some of ffmpeg's fast seeking and read-ahead APIs correctly, as well as using memory buffers correctly, avoiding allocs and copies."
+  },
+  {
+    "tweet_id": "1901670987097075986",
+    "url": "https://x.com/soumithchintala/status/1901670987097075986",
+    "author": "soumithchintala",
+    "date": "2025-03-17T16:24:29.000Z",
+    "text": "A few months ago we quietly open-sourced a \n@PyTorch\n video decoding library called torchcodec -- small, nimble, fast.\nThe \n@LeRobotHF\n folks had some nice things to say about it."
+  },
+  {
+    "tweet_id": "1901653260034789635",
+    "url": "https://x.com/soumithchintala/status/1901653260034789635",
+    "author": "soumithchintala",
+    "date": "2025-03-17T15:14:02.000Z",
+    "text": "Julia's JIT works really well for CPU overheads and CPU parallelism to an extent, but doesn't work as out-of-the-box for accelerators (like GPUs)."
+  },
+  {
+    "tweet_id": "1897643753906512168",
+    "url": "https://x.com/soumithchintala/status/1897643753906512168",
+    "author": "soumithchintala",
+    "date": "2025-03-06T13:41:42.000Z",
+    "text": "\"We're currently building very obedient students, not revolutionaries.\"\n\nrefreshing, apt take that aligns with my views.\n\nFor a scientist, **the** most important aspect is picking the right questions to answer; everything else is secondary. AI isn't currently being built or"
+  },
+  {
+    "tweet_id": "1896981410067734667",
+    "url": "https://x.com/soumithchintala/status/1896981410067734667",
+    "author": "soumithchintala",
+    "date": "2025-03-04T17:49:47.000Z",
+    "text": "the amount of impact you've had on \n@PyTorch\n, and indirectly on the world of AI, is going to be underestimated in perpetuity, and probably written off in a few years (like historical record tends to do).\nSo, for the record, I want to say: this is a huge loss for the PyTorch"
+  },
+  {
+    "tweet_id": "1895587433296875801",
+    "url": "https://x.com/soumithchintala/status/1895587433296875801",
+    "author": "soumithchintala",
+    "date": "2025-02-28T21:30:37.000Z",
+    "text": ".\n@swyx\n I yearn for a Weekly AI News edition. \nThe daily sometimes is getting too much."
+  },
+  {
+    "tweet_id": "1895193745638768679",
+    "url": "https://x.com/soumithchintala/status/1895193745638768679",
+    "author": "soumithchintala",
+    "date": "2025-02-27T19:26:14.000Z",
+    "text": "the Aria 2 glasses are pretty great for robot data collection. \nthey're also getting really good for general agentic use... full details below"
+  },
+  {
+    "tweet_id": "1893752162359886178",
+    "url": "https://x.com/soumithchintala/status/1893752162359886178",
+    "author": "soumithchintala",
+    "date": "2025-02-23T19:57:54.000Z",
+    "text": "TorchInductor supports dynamic kernel generation, and is likely the state of the art at symbolic Tensor type systems. long gone are the days of static shape tensor compilers"
+  },
+  {
+    "tweet_id": "1893728307167838468",
+    "url": "https://x.com/soumithchintala/status/1893728307167838468",
+    "author": "soumithchintala",
+    "date": "2025-02-23T18:23:06.000Z",
+    "text": "we've been working on democratizing fast kernel writing on the \n@PyTorch\n team.\n\ntry the challenge, either you or your AI!"
+  },
+  {
+    "tweet_id": "1892572539987100031",
+    "url": "https://x.com/soumithchintala/status/1892572539987100031",
+    "author": "soumithchintala",
+    "date": "2025-02-20T13:50:30.000Z",
+    "text": "i think you should make tinygrad a pytorch backend, frontend support and stickiness is a large part of why pytorch is successful and that's not easy to replicate"
+  },
+  {
+    "tweet_id": "1892565668316217760",
+    "url": "https://x.com/soumithchintala/status/1892565668316217760",
+    "author": "soumithchintala",
+    "date": "2025-02-20T13:23:12.000Z",
+    "text": "i think you keep forgetting pytorch derived from torch, not numpy.\nwe fixed as much differences as we can, but torch always returned indices in torch"
+  },
+  {
+    "tweet_id": "1892030602771136806",
+    "url": "https://x.com/soumithchintala/status/1892030602771136806",
+    "author": "soumithchintala",
+    "date": "2025-02-19T01:57:02.000Z",
+    "text": "brave is like gnome2. sticks to the basics and doesn't annoy you.\nyes gnome3 released and was fancy and did a lot of stuff, but people just wanted a simple 2d desktop and stick to it for a long time."
+  },
+  {
+    "tweet_id": "1889094824407515230",
+    "url": "https://x.com/soumithchintala/status/1889094824407515230",
+    "author": "soumithchintala",
+    "date": "2025-02-10T23:31:18.000Z",
+    "text": "early FAIR was like this. heard bell labs was like this too."
+  },
+  {
+    "tweet_id": "1886613164172644431",
+    "url": "https://x.com/soumithchintala/status/1886613164172644431",
+    "author": "soumithchintala",
+    "date": "2025-02-04T03:10:04.000Z",
+    "text": "i think your comment gave me much clarity on Noam's meta-point which I kinda missed the first time I read his tweet."
+  },
+  {
+    "tweet_id": "1886562851701039205",
+    "url": "https://x.com/soumithchintala/status/1886562851701039205",
+    "author": "soumithchintala",
+    "date": "2025-02-03T23:50:09.000Z",
+    "text": "with Deep Research, how are you going to ground hallucinations if not people helping ground them?\nMaybe wikipedia the tool goes away, unclear, but its hard to see a bunch of people-centric subjective concepts grounded directly by AI."
+  },
+  {
+    "tweet_id": "1886562033048396241",
+    "url": "https://x.com/soumithchintala/status/1886562033048396241",
+    "author": "soumithchintala",
+    "date": "2025-02-03T23:46:53.000Z",
+    "text": "you were/are the Chief Scientist of Meta, and a FAIR Lead -- where both Zetta and Llama were located; I think characterizing any team within your direct influence in a bad light in public is not nice.\nyea the Llama folks were great. praise them.\nWhat if Zetta was allowed to run"
+  },
+  {
+    "tweet_id": "1885862417118511538",
+    "url": "https://x.com/soumithchintala/status/1885862417118511538",
+    "author": "soumithchintala",
+    "date": "2025-02-02T01:26:52.000Z",
+    "text": "how legit is the research? more plausible that it's hooking onto something pathological but irrelevant, like say \"female faces are on average a different shape than male faces, so the angle of capture (or some other silly, but irrelevant difference) of retinal images is slightly"
+  },
+  {
+    "tweet_id": "1883641398983053810",
+    "url": "https://x.com/soumithchintala/status/1883641398983053810",
+    "author": "soumithchintala",
+    "date": "2025-01-26T22:21:20.000Z",
+    "text": "unclear tbh, data mix is not specified. probably is the big reason for performance"
+  },
+  {
+    "tweet_id": "1883165542233899290",
+    "url": "https://x.com/soumithchintala/status/1883165542233899290",
+    "author": "soumithchintala",
+    "date": "2025-01-25T14:50:27.000Z",
+    "text": "if you find david beating goliath to be a bizzare surprising story, read history?\nif you think state of the art in AI cannot possibly be achieved without massive resourcing, go read the AlexNet paper or read about Alec Radford's accomplishments?"
+  },
+  {
+    "tweet_id": "1883164727825871066",
+    "url": "https://x.com/soumithchintala/status/1883164727825871066",
+    "author": "soumithchintala",
+    "date": "2025-01-25T14:47:13.000Z",
+    "text": "What's more likely? \n\n1 - small group of AI engineers at @deepseek_ai figures out how to beat all of the top researchers in the world as a side project\n\n2 - Chinese government has 100k GPUs they shouldn't have and releases open source models claiming $6m training cost as a psyop"
+  },
+  {
+    "tweet_id": "1883164675615211598",
+    "url": "https://x.com/soumithchintala/status/1883164675615211598",
+    "author": "soumithchintala",
+    "date": "2025-01-25T14:47:00.000Z",
+    "text": "deepseek is a ccp state psyop + economic warfare to make american ai unprofitable\n\nthey are faking the cost was low to justify setting price low and hoping everyone switches to it damage AI competitiveness in the us\n\ndont take the bait"
+  },
+  {
+    "tweet_id": "1883164549744034171",
+    "url": "https://x.com/soumithchintala/status/1883164549744034171",
+    "author": "soumithchintala",
+    "date": "2025-01-25T14:46:30.000Z",
+    "text": "i'm comically impressed that people are coping on deepseek by spewing bizarre conspiracy theories -- despite deepseek open-sourcing and writing some of the most detail oriented papers ever.\nread. replicate. compete.\ndon't be salty, just makes you look incompetent."
+  },
+  {
+    "tweet_id": "1879967233713242136",
+    "url": "https://x.com/soumithchintala/status/1879967233713242136",
+    "author": "soumithchintala",
+    "date": "2025-01-16T19:01:31.000Z",
+    "text": "fwiw, if \n@realGeorgeHotz\n was offering to work on my stuff for free, and wanted two boxes; I'd drive them out to him myself.\n\n@__tinygrad__\n is a beautiful, phenomenal piece of software IMO."
+  },
+  {
+    "tweet_id": "1877898641437859936",
+    "url": "https://x.com/soumithchintala/status/1877898641437859936",
+    "author": "soumithchintala",
+    "date": "2025-01-11T02:01:40.000Z",
+    "text": "fwiw that spend plan sounds incredibly sketch, and if they manage to raise that'd be impressively bubbly, and the investor needs to look themselves in the mirror."
+  },
+  {
+    "tweet_id": "1877832908506829192",
+    "url": "https://x.com/soumithchintala/status/1877832908506829192",
+    "author": "soumithchintala",
+    "date": "2025-01-10T21:40:28.000Z",
+    "text": "are people still starting pretraining companies? I thought that was sooo 2023/2024."
+  },
+  {
+    "tweet_id": "1877039209023742023",
+    "url": "https://x.com/soumithchintala/status/1877039209023742023",
+    "author": "soumithchintala",
+    "date": "2025-01-08T17:06:35.000Z",
+    "text": "India has some of the most well-capitalized startups; so i didn't talk about money. AI base models are being built by well-capitalized companies across the world, not academic research labs.\nhence i feel money isn't that relevant of a dimension here."
+  },
+  {
+    "tweet_id": "1877010673001017850",
+    "url": "https://x.com/soumithchintala/status/1877010673001017850",
+    "author": "soumithchintala",
+    "date": "2025-01-08T15:13:12.000Z",
+    "text": "i really like it because i can pretend like i am putting a DGX server on my desk and feel rich"
+  },
+  {
+    "tweet_id": "1876235881822196179",
+    "url": "https://x.com/soumithchintala/status/1876235881822196179",
+    "author": "soumithchintala",
+    "date": "2025-01-06T11:54:27.000Z",
+    "text": "that's what everyone said about india and products, that they would only be stuck as a software service provider; but that hasn't held true in the past decade.\ni think there's a good chance in the upcoming decade or two that the research landscape would also change -- first"
+  },
+  {
+    "tweet_id": "1876232678170636405",
+    "url": "https://x.com/soumithchintala/status/1876232678170636405",
+    "author": "soumithchintala",
+    "date": "2025-01-06T11:41:43.000Z",
+    "text": "IMO these three things hold back india from building base models. there's some activity on applied / finetuning and that'll continue.\n1. the research ecosystem is small and also not where the competitive exam toppers (an incomplete proxy for \"cracked\") mostly end up. product or"
+  },
+  {
+    "tweet_id": "1875548358917681295",
+    "url": "https://x.com/soumithchintala/status/1875548358917681295",
+    "author": "soumithchintala",
+    "date": "2025-01-04T14:22:29.000Z",
+    "text": "@PrimeIntellect\n is great and looking forward to federated becoming mainstream, ping if anything feels short in pytorch, we'll work on it!\n\n@rice_fry\n has been working on torchft (fault tolerant), and more to come to try help."
+  },
+  {
+    "tweet_id": "1875364846864343140",
+    "url": "https://x.com/soumithchintala/status/1875364846864343140",
+    "author": "soumithchintala",
+    "date": "2025-01-04T02:13:16.000Z",
+    "text": "cool work! if you end up wanting to work on PyTorch, DM me; would love for you to join the core team."
+  },
+  {
+    "tweet_id": "1875359107747868862",
+    "url": "https://x.com/soumithchintala/status/1875359107747868862",
+    "author": "soumithchintala",
+    "date": "2025-01-04T01:50:28.000Z",
+    "text": "will there be a livestream lol, the lineup is nuts!"
+  },
+  {
+    "tweet_id": "1874544973242388838",
+    "url": "https://x.com/soumithchintala/status/1874544973242388838",
+    "author": "soumithchintala",
+    "date": "2025-01-01T19:55:23.000Z",
+    "text": "what I'm finding is that, the models want to be more of an artist than a replacement for photoshop -- which is fine, but I want to be the artist here, and want the tool to be more of a \"magically easier photoshop where I ask it what to do in detail, and it does that -- not more"
+  },
+  {
+    "tweet_id": "1874544667834064999",
+    "url": "https://x.com/soumithchintala/status/1874544667834064999",
+    "author": "soumithchintala",
+    "date": "2025-01-01T19:54:10.000Z",
+    "text": "i'll give a representative but not exact example:\n\nchange the color of X's shirt from blue to red: the generations often change the entire shirt style itself -- they don't respect how much and what I'm trying to change, and dont try to preserve details I ask to preserve"
+  },
+  {
+    "tweet_id": "1874542619281531217",
+    "url": "https://x.com/soumithchintala/status/1874542619281531217",
+    "author": "soumithchintala",
+    "date": "2025-01-01T19:46:02.000Z",
+    "text": "what are AI products that allow me to transform existing images, while preserving some selective details (that i select), like faces, areas, etc.?\n\nthe tools I've used so far only take the selection as a hint, or dont generate well around the selection?\n\ntrying personalized art"
+  },
+  {
+    "tweet_id": "1872301195592888658",
+    "url": "https://x.com/soumithchintala/status/1872301195592888658",
+    "author": "soumithchintala",
+    "date": "2024-12-26T15:19:25.000Z",
+    "text": "Looks pretty good, considering the cost-to-train is under $6m. Needs a vibe-check."
+  },
+  {
+    "tweet_id": "1871759498664366382",
+    "url": "https://x.com/soumithchintala/status/1871759498664366382",
+    "author": "soumithchintala",
+    "date": "2024-12-25T03:26:54.000Z",
+    "text": "merry christmas!\nso, mostly a lot on the spouses and managing to hire help on holidays+weekends as well? and/or some kind of god-level time management"
+  },
+  {
+    "tweet_id": "1871754277640646805",
+    "url": "https://x.com/soumithchintala/status/1871754277640646805",
+    "author": "soumithchintala",
+    "date": "2024-12-25T03:06:09.000Z",
+    "text": "i'm curious (with all good intentions), how do \n@xai\n employees who have kids manage things, if you're grinding like 15 hour days every day including weekends and holidays?\nElon obviously has like a hundred nannies, but how do the normal employees manage?\nthe simplest answer is"
+  },
+  {
+    "tweet_id": "1871623549212921906",
+    "url": "https://x.com/soumithchintala/status/1871623549212921906",
+    "author": "soumithchintala",
+    "date": "2024-12-24T18:26:41.000Z",
+    "text": "that's largely been my opinion on beating ARC. \nOver the past decade, I've seen too many artificial benchmarks becoming the target, and being beaten, and resulted in no or little meaningful actual progress.\nI guess it can be a smoke test, but I don't think it's going to be a"
+  },
+  {
+    "tweet_id": "1871586516948091225",
+    "url": "https://x.com/soumithchintala/status/1871586516948091225",
+    "author": "soumithchintala",
+    "date": "2024-12-24T15:59:32.000Z",
+    "text": "i usually ask perplexity these days and it does a good job mostly, with references."
+  },
+  {
+    "tweet_id": "1870292644196176079",
+    "url": "https://x.com/soumithchintala/status/1870292644196176079",
+    "author": "soumithchintala",
+    "date": "2024-12-21T02:18:09.000Z",
+    "text": "o3 is a lot of matmuls trained with gradient descent."
+  },
+  {
+    "tweet_id": "1870261651834057135",
+    "url": "https://x.com/soumithchintala/status/1870261651834057135",
+    "author": "soumithchintala",
+    "date": "2024-12-21T00:15:00.000Z",
+    "text": "reply from author, as well as others who have said the benchmarks are off:"
+  },
+  {
+    "tweet_id": "1870257095330738288",
+    "url": "https://x.com/soumithchintala/status/1870257095330738288",
+    "author": "soumithchintala",
+    "date": "2024-12-20T23:56:53.000Z",
+    "text": "oh boy, it gets worse, looks like their speedup claims are very sleazy. do approximations for themselves and accurate sim for their competition to show themselves better: \nhttps://\nx.com/stone_tao/stat\nus/1870243004730225009\n…\nThis project should go into \"hustle bros\", unfortunately. Not sure why a decent"
+  },
+  {
+    "tweet_id": "1870257037428342953",
+    "url": "https://x.com/soumithchintala/status/1870257037428342953",
+    "author": "soumithchintala",
+    "date": "2024-12-20T23:56:40.000Z",
+    "text": "oh boy, it gets worse, looks like their speedup claims are very sleazy. do approximations for themselves and accurate sim for their competition to show themselves better: \nhttps://\nx.com/stone_tao/stat\nus/1870243004730225009\n…\nThis project should go into \"hustle bros\", unfortunately. Not sure why a decent"
+  },
+  {
+    "tweet_id": "1870216225424298179",
+    "url": "https://x.com/soumithchintala/status/1870216225424298179",
+    "author": "soumithchintala",
+    "date": "2024-12-20T21:14:29.000Z",
+    "text": "i think there's lots of progress being made (you are actually one of the pioneers), i just want it to be done with to a point of reliability that I can use in my daily life :)"
+  },
+  {
+    "tweet_id": "1870215595943448791",
+    "url": "https://x.com/soumithchintala/status/1870215595943448791",
+    "author": "soumithchintala",
+    "date": "2024-12-20T21:11:59.000Z",
+    "text": "\"go browse a bunch of websites and find me couches within $5000 that have a easy-to-clean fabric in beige, brown. I like high headrests. they need to fit within my living room, check my email for my house plan.\" (it uses google, my gmail, a bunch of websites based on actual"
+  },
+  {
+    "tweet_id": "1870212055816438221",
+    "url": "https://x.com/soumithchintala/status/1870212055816438221",
+    "author": "soumithchintala",
+    "date": "2024-12-20T20:57:55.000Z",
+    "text": "I am no investigative journalist, but the Taichi author \n@YuanmingH\n is listed on the paper; but he also has a conflicting / competing startup (\n@MeshyAI\n) that has similar goals.\nIf they don't use Taichi, I wonder what they'll use."
+  },
+  {
+    "tweet_id": "1870211570124427759",
+    "url": "https://x.com/soumithchintala/status/1870211570124427759",
+    "author": "soumithchintala",
+    "date": "2024-12-20T20:55:59.000Z",
+    "text": "also, congrats \n@OpenAI\n on O3, and thank you for rapidly making progress on intelligence."
+  },
+  {
+    "tweet_id": "1870211569138672126",
+    "url": "https://x.com/soumithchintala/status/1870211569138672126",
+    "author": "soumithchintala",
+    "date": "2024-12-20T20:55:59.000Z",
+    "text": "Models are dumb as rock without the right context -- pretrained context doesn't help with day-to-day or specialized things.\nPrivate ecosystems and company bureaucracies means you have to feed the models your own context for the next X years....unless computer-use gets ready.\nCant"
+  },
+  {
+    "tweet_id": "1870211567972696134",
+    "url": "https://x.com/soumithchintala/status/1870211567972696134",
+    "author": "soumithchintala",
+    "date": "2024-12-20T20:55:59.000Z",
+    "text": "intelligence is starting to get good, but context is still siloed for stupid reasons.\nget models that do human-level computer-use already, please...!"
+  },
+  {
+    "tweet_id": "1870204570212938150",
+    "url": "https://x.com/soumithchintala/status/1870204570212938150",
+    "author": "soumithchintala",
+    "date": "2024-12-20T20:28:10.000Z",
+    "text": "i mean....we write our entire compiler (dynamo/inductor)  in Python. You and I come from opposite tastes :-)"
+  },
+  {
+    "tweet_id": "1870204262937948305",
+    "url": "https://x.com/soumithchintala/status/1870204262937948305",
+    "author": "soumithchintala",
+    "date": "2024-12-20T20:26:57.000Z",
+    "text": "i rabbit-holed into the Genesis Sim codebase because the website is hypey and unclear; and I didn't want to just blindly retweet.\nIt's basically like Mujoco but with more advanced materials/rendering/solvers, written all in Python thanks to being powered by Taichi, which makes it x.com/zhou_xian_/sta…"
+  },
+  {
+    "tweet_id": "1870203808820691015",
+    "url": "https://x.com/soumithchintala/status/1870203808820691015",
+    "author": "soumithchintala",
+    "date": "2024-12-20T20:25:09.000Z",
+    "text": "i rabbit-holed into the Genesis Sim codebase because the website is hypey and unclear; and I didn't want to just blindly retweet.\nIt's basically like Mujoco but with more advanced materials/rendering/solvers, written all in Python thanks to being powered by Taichi, which makes it"
+  },
+  {
+    "tweet_id": "1869481527060599172",
+    "url": "https://x.com/soumithchintala/status/1869481527060599172",
+    "author": "soumithchintala",
+    "date": "2024-12-18T20:35:03.000Z",
+    "text": "i def dont want to give some of my most private data (including things like passport details, tax details, personal emails etc.) to a cloud service, unfortunately. has to be locally hosted."
+  },
+  {
+    "tweet_id": "1869479483239280882",
+    "url": "https://x.com/soumithchintala/status/1869479483239280882",
+    "author": "soumithchintala",
+    "date": "2024-12-18T20:26:56.000Z",
+    "text": "oh yea, this looks pretty promising too. even found whatsapp.\nno imessage or IG though, but it looks like it's pretty easy to spin up a loader too.\nthanks for the pointer."
+  },
+  {
+    "tweet_id": "1869478575545762251",
+    "url": "https://x.com/soumithchintala/status/1869478575545762251",
+    "author": "soumithchintala",
+    "date": "2024-12-18T20:23:20.000Z",
+    "text": "this looks promising, the connectors list is quite long and has integration to a lot of things that I want.\nthanks for the pointer.\n\nhttps://\ngithub.com/onyx-dot-app/o\nnyx/tree/main/backend/onyx/connectors\n…"
+  },
+  {
+    "tweet_id": "1869475707996578072",
+    "url": "https://x.com/soumithchintala/status/1869475707996578072",
+    "author": "soumithchintala",
+    "date": "2024-12-18T20:11:56.000Z",
+    "text": "Glean for personal/self-hosted: is there an open source / self-hosted project that integrates pulling context from gmail, docs, sheets, calendar, whatsapp, ig, imessage, etc.?"
+  },
+  {
+    "tweet_id": "1867609499499987353",
+    "url": "https://x.com/soumithchintala/status/1867609499499987353",
+    "author": "soumithchintala",
+    "date": "2024-12-13T16:36:17.000Z",
+    "text": "deterministic workflows make \"trusting agents\" easier. and trusting agents is pretty important to adopting them.\n\nif you want to delegate something important to an agent or a human, you want some level of predictability; and determinism is just the extreme case of predictability."
+  },
+  {
+    "tweet_id": "1866229301474972093",
+    "url": "https://x.com/soumithchintala/status/1866229301474972093",
+    "author": "soumithchintala",
+    "date": "2024-12-09T21:11:52.000Z",
+    "text": "no gaming happening.\na level of abstraction has come about above \"ML frameworks\" that is more \"agentic frameworks\"; and the target market for those is much larger as the barrier of entry is lower.\nThink nodejs vs nginx.\nIn that target market, hype trumps quality as it's a very"
+  },
+  {
+    "tweet_id": "1865044811444601090",
+    "url": "https://x.com/soumithchintala/status/1865044811444601090",
+    "author": "soumithchintala",
+    "date": "2024-12-06T14:45:08.000Z",
+    "text": "when will the code be released? would love to try it"
+  },
+  {
+    "tweet_id": "1861165504255131858",
+    "url": "https://x.com/soumithchintala/status/1861165504255131858",
+    "author": "soumithchintala",
+    "date": "2024-11-25T21:50:09.000Z",
+    "text": "did not think this day would come! huge props to \n@laignas\n !"
+  },
+  {
+    "tweet_id": "1857792076261314632",
+    "url": "https://x.com/soumithchintala/status/1857792076261314632",
+    "author": "soumithchintala",
+    "date": "2024-11-16T14:25:21.000Z",
+    "text": "to be clear pytorch is available on conda via conda-forge and will continue to be."
+  },
+  {
+    "tweet_id": "1857791227988410819",
+    "url": "https://x.com/soumithchintala/status/1857791227988410819",
+    "author": "soumithchintala",
+    "date": "2024-11-16T14:21:59.000Z",
+    "text": "@ptrblck_de\n and team at nvidia have been bringing cudnn, cublas etc. to PyPI."
+  },
+  {
+    "tweet_id": "1857788697891991651",
+    "url": "https://x.com/soumithchintala/status/1857788697891991651",
+    "author": "soumithchintala",
+    "date": "2024-11-16T14:11:56.000Z",
+    "text": "also afaik you cant install the full cuda toolchain via condo either, you dont get nvcc."
+  },
+  {
+    "tweet_id": "1857788429506867584",
+    "url": "https://x.com/soumithchintala/status/1857788429506867584",
+    "author": "soumithchintala",
+    "date": "2024-11-16T14:10:52.000Z",
+    "text": "@_seemethere\n can answer a few of your questions, especially around analysis of usage.\npytorch pip packages don't need the cudatoolkit, and we've been working with NVIDIA (thanks to \n@ptrblck_de\n) to have cublas, cudnn etc. available via pip as well."
+  },
+  {
+    "tweet_id": "1857422693915619782",
+    "url": "https://x.com/soumithchintala/status/1857422693915619782",
+    "author": "soumithchintala",
+    "date": "2024-11-15T13:57:34.000Z",
+    "text": "most small shops and academic shops don't have the in-house all-rounded expertise to rewrite all parts of the ecosystem they need. 1x or matic are different, you have world class well rounded experts who can write navigation, IK, slam, etc. in-house."
+  },
+  {
+    "tweet_id": "1857422177982632061",
+    "url": "https://x.com/soumithchintala/status/1857422177982632061",
+    "author": "soumithchintala",
+    "date": "2024-11-15T13:55:31.000Z",
+    "text": "ROS is just a pub/sub in the same way Python is just a programming language.\nThe biggest benefit of both is their ecosystem, not their architecture.\nRewriting the middleware? then you gotta build an entirely new ecosystem.\nthat's why most small robotics projects and shops still"
+  },
+  {
+    "tweet_id": "1856743368736546970",
+    "url": "https://x.com/soumithchintala/status/1856743368736546970",
+    "author": "soumithchintala",
+    "date": "2024-11-13T16:58:10.000Z",
+    "text": "If you're evaluating which accelerator to choose for your future workloads beware that AMD's peer-to-peer bandwidth is 7x slower than all-to-all bandwidth.\n\nAs long as you use full nodes or single gpus, you have nothing to worry about. But if you have to deploy TP=2, TP=4, or"
+  },
+  {
+    "tweet_id": "1851822938594447560",
+    "url": "https://x.com/soumithchintala/status/1851822938594447560",
+    "author": "soumithchintala",
+    "date": "2024-10-31T03:06:08.000Z",
+    "text": "its super fun to build very very large clusters, train llama on them, and release it for y'all to enjoy -- and talk in great detail about how we did it!\nIt's also really fun to partner with \n@Ahmad_Al_Dahle\n in creating this disruptive chaos \nJoin us, there's lots of work to do!"
+  },
+  {
+    "tweet_id": "1851747592784253144",
+    "url": "https://x.com/soumithchintala/status/1851747592784253144",
+    "author": "soumithchintala",
+    "date": "2024-10-30T22:06:44.000Z",
+    "text": "there are two problems, you've identified both:\n1. accelerator support involves system package and driver version resolution that we didn't have to meaningfully confront with CPUs (CPUs just had to deal with arch)\n2. accelerator binaries are large -- so we had to move to s3"
+  },
+  {
+    "tweet_id": "1851746584129867784",
+    "url": "https://x.com/soumithchintala/status/1851746584129867784",
+    "author": "soumithchintala",
+    "date": "2024-10-30T22:02:44.000Z",
+    "text": "we're willing to fix it to work better with uv (which is fantastic) cc: \n@_seemethere\n \nI think PyTorch was forced to solve the accelerator support problem before Python packaging was ready for it, so we solved it as best as we can -- but we're willing to move to a better world if"
+  },
+  {
+    "tweet_id": "1851329625462341824",
+    "url": "https://x.com/soumithchintala/status/1851329625462341824",
+    "author": "soumithchintala",
+    "date": "2024-10-29T18:25:53.000Z",
+    "text": "not actually play play -- i had a bunch of screen-caps and forward-simulated what GPT would take as an action.\nI tried sending one frame, 10 frames, 24 frames, etc. and asked it to take one of several actions -- and played  with the prompting to adjust the state space and action"
+  },
+  {
+    "tweet_id": "1851080575592906989",
+    "url": "https://x.com/soumithchintala/status/1851080575592906989",
+    "author": "soumithchintala",
+    "date": "2024-10-29T01:56:15.000Z",
+    "text": "Definitely wouldn't try it on real-world robots like this.\nBut, we did use GPT pretty successfully on RUMs ( \nhttps://\nrobotutilitymodels.com ) as an inference-time augmentation -- bumped accuracy of tasks by a huge margin (10%+)"
+  },
+  {
+    "tweet_id": "1851080573642564031",
+    "url": "https://x.com/soumithchintala/status/1851080573642564031",
+    "author": "soumithchintala",
+    "date": "2024-10-29T01:56:14.000Z",
+    "text": "A few months ago, I tried to make GPT play FIFA like this. Kinda works but doesn't.\n\nAt broad direction, it's correct like 50% of the time, but it's not very good at magnitude.\nBut once you get to the more granular moves, it fails hard, just making up stuff."
+  },
+  {
+    "tweet_id": "1849474999859433693",
+    "url": "https://x.com/soumithchintala/status/1849474999859433693",
+    "author": "soumithchintala",
+    "date": "2024-10-24T15:36:16.000Z",
+    "text": "there's more CPU overhead, but it practically doesn't matter IMO unless you are doing tiny reinforcement-like workloads -- and even there `torch.compile` will CUDAGraph it to near-zero overhead."
+  },
+  {
+    "tweet_id": "1846918271506801111",
+    "url": "https://x.com/soumithchintala/status/1846918271506801111",
+    "author": "soumithchintala",
+    "date": "2024-10-17T14:16:44.000Z",
+    "text": "this is correct. \ni find the Tesla humanoids extremely impressive.\nteleoping hands is not a big deal for now."
+  },
+  {
+    "tweet_id": "1845519791802708052",
+    "url": "https://x.com/soumithchintala/status/1845519791802708052",
+    "author": "soumithchintala",
+    "date": "2024-10-13T17:39:41.000Z",
+    "text": "SpaceX continues to be incredible.\nThe engineering feats are absolutely nuts. \nWhat I find more incredible is SpaceX as an organization -- can execute structured long-term research and engineering bets without bureaucracy and with high velocity. \n99.999% of organizations at this"
+  },
+  {
+    "tweet_id": "1843358893579329650",
+    "url": "https://x.com/soumithchintala/status/1843358893579329650",
+    "author": "soumithchintala",
+    "date": "2024-10-07T18:33:02.000Z",
+    "text": "post an issue first (and if you are willing to send a PR, say so in the issue), because we dont want you to do all the work and then reject the PR because its incompatible with our plans."
+  },
+  {
+    "tweet_id": "1842190773737095243",
+    "url": "https://x.com/soumithchintala/status/1842190773737095243",
+    "author": "soumithchintala",
+    "date": "2024-10-04T13:11:21.000Z",
+    "text": "the MovieGen stack got a huge upgrade.\ncompared to others, the Editing and Personalization features are really on a different level!\n\nproducing personalized videos from a single photo of a person was quite mind-blowing to me."
+  },
+  {
+    "tweet_id": "1841931462427476431",
+    "url": "https://x.com/soumithchintala/status/1841931462427476431",
+    "author": "soumithchintala",
+    "date": "2024-10-03T20:00:56.000Z",
+    "text": "Modern transformers are well-behaved according to well-behaved scaling laws (which are a function of (num. of tokens, num. of parameters).\nThis allows one to find the hyperparameters at a smaller scale, and then keep scaling up parameters and data according to some power law."
+  },
+  {
+    "tweet_id": "1841843155966046412",
+    "url": "https://x.com/soumithchintala/status/1841843155966046412",
+    "author": "soumithchintala",
+    "date": "2024-10-03T14:10:02.000Z",
+    "text": "because they have convergence issues, especially when model size gets larger"
+  },
+  {
+    "tweet_id": "1841625273281687988",
+    "url": "https://x.com/soumithchintala/status/1841625273281687988",
+    "author": "soumithchintala",
+    "date": "2024-10-02T23:44:15.000Z",
+    "text": "DDP or FSDP2, depending on the type of model. If it can saturate compute with DDP, then that's simpler and already good. If not, FSDP2."
+  },
+  {
+    "tweet_id": "1841614985631297782",
+    "url": "https://x.com/soumithchintala/status/1841614985631297782",
+    "author": "soumithchintala",
+    "date": "2024-10-02T23:03:22.000Z",
+    "text": "we spend a lot of time optimizing decently-sized models too.\nFor anything that is normal-sized (one node, 8 GPUs), torch.compile + FSDP2 should be largely sufficient to get to really good performance.\nWe've spent hundreds (or probably thousands) of programmer-years working on"
+  },
+  {
+    "tweet_id": "1841611362608320670",
+    "url": "https://x.com/soumithchintala/status/1841611362608320670",
+    "author": "soumithchintala",
+    "date": "2024-10-02T22:48:58.000Z",
+    "text": "yes, async is actively being re-explored in the industry.\nArthur / M'aurelio have been publishing on it, so are some other folks."
+  },
+  {
+    "tweet_id": "1841543530226794807",
+    "url": "https://x.com/soumithchintala/status/1841543530226794807",
+    "author": "soumithchintala",
+    "date": "2024-10-02T18:19:26.000Z",
+    "text": "RAS is blackwell+, so TBD.\n\nno single GPU isolation, whole host gets booted."
+  },
+  {
+    "tweet_id": "1841543225410257234",
+    "url": "https://x.com/soumithchintala/status/1841543225410257234",
+    "author": "soumithchintala",
+    "date": "2024-10-02T18:18:13.000Z",
+    "text": "the scheduler side of things is a whole another level of complexity. we dont reprovision from scratch though."
+  },
+  {
+    "tweet_id": "1841540529240088905",
+    "url": "https://x.com/soumithchintala/status/1841540529240088905",
+    "author": "soumithchintala",
+    "date": "2024-10-02T18:07:30.000Z",
+    "text": "\"How to train a model on 10k H100 GPUs?\"\nhas now been immortalized on my blog: \nhttps://\nsoumith.ch/blog/2024-10-0\n2-training-10k-scale.md.html\n…"
+  },
+  {
+    "tweet_id": "1841529285481529464",
+    "url": "https://x.com/soumithchintala/status/1841529285481529464",
+    "author": "soumithchintala",
+    "date": "2024-10-02T17:22:50.000Z",
+    "text": "it's on our list of things to do (more targeting checkpointing, not FSDP). I wrote up a plan / doc early last year about it."
+  },
+  {
+    "tweet_id": "1841528932585132408",
+    "url": "https://x.com/soumithchintala/status/1841528932585132408",
+    "author": "soumithchintala",
+    "date": "2024-10-02T17:21:26.000Z",
+    "text": "one more thing to add.\nat this scale, we also have to adjust the actual packet routing algorithms in our switches and NICs, to be able to load-balance well. \nDid you know switches have to have significant HBM memory as well (not just GPUs) because as the packets queue up, they"
+  },
+  {
+    "tweet_id": "1841499197146632573",
+    "url": "https://x.com/soumithchintala/status/1841499197146632573",
+    "author": "soumithchintala",
+    "date": "2024-10-02T15:23:16.000Z",
+    "text": "quick mini-post I wrote for \n@francoisfleuret\n broadly summarizing the things one needs to do to train models on 10k+ H100s."
+  },
+  {
+    "tweet_id": "1841498799652708712",
+    "url": "https://x.com/soumithchintala/status/1841498799652708712",
+    "author": "soumithchintala",
+    "date": "2024-10-02T15:21:41.000Z",
+    "text": "There's three parts. \n\n1. Fitting as large of a network and as large of a batch-size as possible onto the 10k/100k/1m H100s --  parallelizing and using memory-saving tricks.\n2. Communicating state between these GPUs as quickly as possible\n3. Recovering from failures (hardware,"
+  },
+  {
+    "tweet_id": "1841170621675254113",
+    "url": "https://x.com/soumithchintala/status/1841170621675254113",
+    "author": "soumithchintala",
+    "date": "2024-10-01T17:37:38.000Z",
+    "text": "+1 Alec is one of the most impactful scientists of the past decade, and barely anyone knows him."
+  },
+  {
+    "tweet_id": "1840537928369426695",
+    "url": "https://x.com/soumithchintala/status/1840537928369426695",
+    "author": "soumithchintala",
+    "date": "2024-09-29T23:43:32.000Z",
+    "text": "Lifecycle of SB1047:\n* First-draft written by a niche special-interest stakeholder\n* Draft publicly socialized too quickly before other stakeholders can weigh-in privately. \n* Public socialization starts a political gridlock -- people have to take sides and double-down, anything"
+  },
+  {
+    "tweet_id": "1839039274852765852",
+    "url": "https://x.com/soumithchintala/status/1839039274852765852",
+    "author": "soumithchintala",
+    "date": "2024-09-25T20:28:25.000Z",
+    "text": "congrats to AI2 for also releasing (what look like) great multimodal open-source models today!!!"
+  },
+  {
+    "tweet_id": "1839004507746828440",
+    "url": "https://x.com/soumithchintala/status/1839004507746828440",
+    "author": "soumithchintala",
+    "date": "2024-09-25T18:10:16.000Z",
+    "text": "of course; yes.\nMobile demo; desktop demo landing in torchchat anytime now (in the next 2 hours)..."
+  },
+  {
+    "tweet_id": "1835713172172370249",
+    "url": "https://x.com/soumithchintala/status/1835713172172370249",
+    "author": "soumithchintala",
+    "date": "2024-09-16T16:11:40.000Z",
+    "text": "this is so cool! like Little Big Planet, but Mario."
+  },
+  {
+    "tweet_id": "1833177895734267987",
+    "url": "https://x.com/soumithchintala/status/1833177895734267987",
+    "author": "soumithchintala",
+    "date": "2024-09-09T16:17:23.000Z",
+    "text": "We just released RUMs, robot models that do basic tasks reliably and really well -- 90% accuracy in unseen, new New York apartments.\nIMO this unlocks longer trajectory research, where we dont have to to worry about most failures being on the basic building blocks anymore.\nAs"
+  },
+  {
+    "tweet_id": "1831709002029232267",
+    "url": "https://x.com/soumithchintala/status/1831709002029232267",
+    "author": "soumithchintala",
+    "date": "2024-09-05T15:00:32.000Z",
+    "text": "Most of the best AI Systems / GPU engineers I know will be at the \n@PyTorch\n conference.\nIf you are a startup looking to hire top talent, and you don't have the money to pay for a booth, we're hosting a Startup Showcase at the conference: pitch your startup to some of the best"
+  },
+  {
+    "tweet_id": "1831023403576500286",
+    "url": "https://x.com/soumithchintala/status/1831023403576500286",
+    "author": "soumithchintala",
+    "date": "2024-09-03T17:36:12.000Z",
+    "text": "Hacker Cup – one of the preeminent coding competitions started an AI track w/ Meta & Microsoft\n\nproblems are hardddd – only a handful of engineers reliably solve them – requires deep algorithmic knowledge, reasoning, planning and fast execution – to solve 5 problems in 30"
+  },
+  {
+    "tweet_id": "1829595579451916539",
+    "url": "https://x.com/soumithchintala/status/1829595579451916539",
+    "author": "soumithchintala",
+    "date": "2024-08-30T19:02:33.000Z",
+    "text": "Neo has been in the making for quite a bit, and looks pretty cool!"
+  },
+  {
+    "tweet_id": "1829542613290287587",
+    "url": "https://x.com/soumithchintala/status/1829542613290287587",
+    "author": "soumithchintala",
+    "date": "2024-08-30T15:32:04.000Z",
+    "text": "the other thing that I repeatedly see is...Meta will iterate on the product until it works. The runway extends till v122 before Meta nails it. Zuck has patience and believes in iteration."
+  },
+  {
+    "tweet_id": "1829541868746776975",
+    "url": "https://x.com/soumithchintala/status/1829541868746776975",
+    "author": "soumithchintala",
+    "date": "2024-08-30T15:29:07.000Z",
+    "text": "one thing I've repeatedly seen and learned at Meta was that the world is large and my tech bubble can't accurately predict traction that spans countries and social classes and interests.\nHappened with so many Meta product features. \nHappening with Meta AI."
+  },
+  {
+    "tweet_id": "1829183254962024459",
+    "url": "https://x.com/soumithchintala/status/1829183254962024459",
+    "author": "soumithchintala",
+    "date": "2024-08-29T15:44:07.000Z",
+    "text": "there's a bunch of phenomenal distributed / scaling talks and posters lining up at the PyTorch Conference in September!"
+  },
+  {
+    "tweet_id": "1825902816734466387",
+    "url": "https://x.com/soumithchintala/status/1825902816734466387",
+    "author": "soumithchintala",
+    "date": "2024-08-20T14:28:49.000Z",
+    "text": "kinda like Glean but way more personalizable and agentic. And embeddable into any internal tooling -- like into Presto to help with SQL, or into SEV Manager tooling, etc."
+  },
+  {
+    "tweet_id": "1825902288847728865",
+    "url": "https://x.com/soumithchintala/status/1825902288847728865",
+    "author": "soumithchintala",
+    "date": "2024-08-20T14:26:43.000Z",
+    "text": "Esther listed out some of the capabilities here (there's a lot more):"
+  },
+  {
+    "tweet_id": "1825351370154602608",
+    "url": "https://x.com/soumithchintala/status/1825351370154602608",
+    "author": "soumithchintala",
+    "date": "2024-08-19T01:57:34.000Z",
+    "text": "its for the torch.compile / torch.export stuff. \ntorch.jit is basically legacy at this point, most or all new APIs wont support it"
+  },
+  {
+    "tweet_id": "1823850089615446310",
+    "url": "https://x.com/soumithchintala/status/1823850089615446310",
+    "author": "soumithchintala",
+    "date": "2024-08-14T22:32:01.000Z",
+    "text": "you should see google's. their design docs are nuts, relative to whatever you've seen on the meta / pytorch ones.\nI think it's a function of the inherent complexity of the project and code base. as it becomes more complex, there's a lot more justification and thought needed to"
+  },
+  {
+    "tweet_id": "1821227932984988054",
+    "url": "https://x.com/soumithchintala/status/1821227932984988054",
+    "author": "soumithchintala",
+    "date": "2024-08-07T16:52:30.000Z",
+    "text": "@lucidrains\n joined the \n@PyTorch\n team at Meta this June, doing what they do best -- working on open source implementations of important AI work. So proud to have them on the team!\n\n(just announcing after realizing we never did)"
+  },
+  {
+    "tweet_id": "1820724417585922297",
+    "url": "https://x.com/soumithchintala/status/1820724417585922297",
+    "author": "soumithchintala",
+    "date": "2024-08-06T07:31:43.000Z",
+    "text": "i think the obvious counterpoint here is Meta. Despite droves of GenAI researchers leaving (OPT team, key Llama1 folks to Mistral, key CICERO folks to Google, OpenAI, Anthro, many adhoc departures of people starting their own companies), Meta did fine, and is stronger than ever."
+  },
+  {
+    "tweet_id": "1820368042259320964",
+    "url": "https://x.com/soumithchintala/status/1820368042259320964",
+    "author": "soumithchintala",
+    "date": "2024-08-05T07:55:36.000Z",
+    "text": "a lot of the places you listed use both pytorch and jax.\nPeople often get this detail wrong."
+  },
+  {
+    "tweet_id": "1818885308269605337",
+    "url": "https://x.com/soumithchintala/status/1818885308269605337",
+    "author": "soumithchintala",
+    "date": "2024-08-01T05:43:45.000Z",
+    "text": "yes, the example showcases LLMs, but torch.export works on any pytorch model -- we've exported Diffusion models, Convnets etc."
+  },
+  {
+    "tweet_id": "1818680306813079911",
+    "url": "https://x.com/soumithchintala/status/1818680306813079911",
+    "author": "soumithchintala",
+    "date": "2024-07-31T16:09:09.000Z",
+    "text": "A long needed PyTorch example -- \nexport models to desktop and mobile apps (without python), providing a native alternative to llama.cpp and other great projects in this space.\nThe exported models are compiled (using torch.compile) and are competitive on speed and memory use."
+  },
+  {
+    "tweet_id": "1817463734958194718",
+    "url": "https://x.com/soumithchintala/status/1817463734958194718",
+    "author": "soumithchintala",
+    "date": "2024-07-28T07:34:55.000Z",
+    "text": "when we work on pytorch, we work on much harder solutions -- solving problems for much more generality. give the same engineers a single workload, they go wild!"
+  },
+  {
+    "tweet_id": "1817463258858598484",
+    "url": "https://x.com/soumithchintala/status/1817463258858598484",
+    "author": "soumithchintala",
+    "date": "2024-07-28T07:33:02.000Z",
+    "text": "i think people forget how good the current and former \n@PyTorch\n engineers are at optimizing DL workloads \n\n\n@jiayq\n responds to profitability questions raised around llama 405b pricing of $2.8/1m tokens on \n@LeptonAI\n -- showing that with good traffic load this is totally"
+  },
+  {
+    "tweet_id": "1816835597085884443",
+    "url": "https://x.com/soumithchintala/status/1816835597085884443",
+    "author": "soumithchintala",
+    "date": "2024-07-26T13:58:56.000Z",
+    "text": "excellent piece!!\n\nWhenever i talk to safety-pillers, i try get to the core assumptions, they're often just opinions.\n\nthe often-dividing opinions:\n1. AGI timelines: safety-pilled estimate are 5 years vs 15+ years\n2. institutional trust in enforcing regulations vs capture"
+  },
+  {
+    "tweet_id": "1815850914063827393",
+    "url": "https://x.com/soumithchintala/status/1815850914063827393",
+    "author": "soumithchintala",
+    "date": "2024-07-23T20:46:09.000Z",
+    "text": "there is the SSD line item, but yea our network / storage are amazing, and really stable"
+  },
+  {
+    "tweet_id": "1815832872911036651",
+    "url": "https://x.com/soumithchintala/status/1815832872911036651",
+    "author": "soumithchintala",
+    "date": "2024-07-23T19:34:28.000Z",
+    "text": "our restarts on failure are fairly uniform, because we keep spares; and the node repair time is overlapped."
+  },
+  {
+    "tweet_id": "1815829457858625642",
+    "url": "https://x.com/soumithchintala/status/1815829457858625642",
+    "author": "soumithchintala",
+    "date": "2024-07-23T19:20:53.000Z",
+    "text": "Why do 16k GPU jobs fail?\nThe Llama3 paper has many cool details -- but notably, has a huge infrastructure section that covers how we parallelize, keep things reliable, etc. \nWe hit an overall 90% effective-training-time.\n\nhttps://\nai.meta.com/research/publi\ncations/the-llama-3-herd-of-models/\n…"
+  },
+  {
+    "tweet_id": "1815225054407393395",
+    "url": "https://x.com/soumithchintala/status/1815225054407393395",
+    "author": "soumithchintala",
+    "date": "2024-07-22T03:19:12.000Z",
+    "text": "not quite an equivalent alternative, but if you're mainly doing basic experiment management and logging, ClearML can get the job done: \nhttps://\nclear.ml/docs/latest/do\ncs/fundamentals/logger\n…\nAnd they offer a hosted solution (that they manage) or you can self-host on your own infra:"
+  },
+  {
+    "tweet_id": "1814704963332767833",
+    "url": "https://x.com/soumithchintala/status/1814704963332767833",
+    "author": "soumithchintala",
+    "date": "2024-07-20T16:52:33.000Z",
+    "text": "I'm giving the opening Keynote at ICML 2024 on Tuesday the 23rd @ 9:30am CEST.\nI'll try empower folks to get Open Science back on track -- the free discussion of ideas is such an important aspect of AI progress, and we've been losing track.\nThis is a complex topic, and I wont"
+  },
+  {
+    "tweet_id": "1813264975210946974",
+    "url": "https://x.com/soumithchintala/status/1813264975210946974",
+    "author": "soumithchintala",
+    "date": "2024-07-16T17:30:33.000Z",
+    "text": "congrats Andrej, this is going to be so damn impactful!"
+  },
+  {
+    "tweet_id": "1812909777309344099",
+    "url": "https://x.com/soumithchintala/status/1812909777309344099",
+    "author": "soumithchintala",
+    "date": "2024-07-15T17:59:07.000Z",
+    "text": "congrats :)\nbut NGL it looks super hard to understand (compared to say writing something in Triton)"
+  },
+  {
+    "tweet_id": "1811066901964915135",
+    "url": "https://x.com/soumithchintala/status/1811066901964915135",
+    "author": "soumithchintala",
+    "date": "2024-07-10T15:56:12.000Z",
+    "text": "no, that is going -- Apple primarily works on it, so its not recorded explicitly in the Meta roadmaps"
+  },
+  {
+    "tweet_id": "1811061924492095832",
+    "url": "https://x.com/soumithchintala/status/1811061924492095832",
+    "author": "soumithchintala",
+    "date": "2024-07-10T15:36:25.000Z",
+    "text": "we did not publish roadmap docs for primarily internal-facing workstreams such as our MTIA Silicon chip roadmap, or our internal customer-enablement or llama-scaling roadmaps -- and we will continue to not publish those (as one would expect)"
+  },
+  {
+    "tweet_id": "1811060935211049046",
+    "url": "https://x.com/soumithchintala/status/1811060935211049046",
+    "author": "soumithchintala",
+    "date": "2024-07-10T15:32:29.000Z",
+    "text": "Meta's PyTorch teams published their actual roadmap documents publicly for the first time: \nhttps://\ndev-discuss.pytorch.org/t/meta-pytorch\n-team-2024-h2-roadmaps/2226\n…\n\nOur engineers' incentives and objectives are laid bare for folks to read \n\nWhile all PyTorch development happens publicly on github, the actual planning and"
+  },
+  {
+    "tweet_id": "1810849232317825024",
+    "url": "https://x.com/soumithchintala/status/1810849232317825024",
+    "author": "soumithchintala",
+    "date": "2024-07-10T01:31:15.000Z",
+    "text": "wow, congrats \n@pathak2206\n and \n@gupta_abhinav_\n, looking forward to seeing what magic you create!"
+  },
+  {
+    "tweet_id": "1808593284010213422",
+    "url": "https://x.com/soumithchintala/status/1808593284010213422",
+    "author": "soumithchintala",
+    "date": "2024-07-03T20:06:55.000Z",
+    "text": "this is amazing, but more importantly, liberating!\n\n@kyutai_labs\n leading the charge on real time voice assistants and as a true open-science non-profit, will release the code and details.\ncongrats to a bunch of my former FAIR colleagues at Kyutai on the launch!"
+  },
+  {
+    "tweet_id": "1806743065505177670",
+    "url": "https://x.com/soumithchintala/status/1806743065505177670",
+    "author": "soumithchintala",
+    "date": "2024-06-28T17:34:49.000Z",
+    "text": "an overwhelming number of people messaged asking where \n@Etched\n fits.\n\ntl;dr: somewhere between 30% to 0%, but cant say more precisely without details.\n\nEtched overfits to transformers, so they come into the <30% chance bucket -- but fwiw 30% chance is a really high success rate"
+  },
+  {
+    "tweet_id": "1806390036096503913",
+    "url": "https://x.com/soumithchintala/status/1806390036096503913",
+    "author": "soumithchintala",
+    "date": "2024-06-27T18:12:00.000Z",
+    "text": "1. Usually, hardware vendors who ask for ONNX files don't support the entire ONNX standard, only a small part of it that's enough for them to showcase the 5 to 6 most popular models\n2. the ONNX standard itself is slower moving than where the industry goes, that's just the"
+  },
+  {
+    "tweet_id": "1806012421288448304",
+    "url": "https://x.com/soumithchintala/status/1806012421288448304",
+    "author": "soumithchintala",
+    "date": "2024-06-26T17:11:29.000Z",
+    "text": "there should be a separate column for \"is it run by \n@realGeorgeHotz\n , then yes!\" :)\nBut, this was mainly for pure silicon startups, not folks like \n@__tinygrad__\n or \n@LambdaAPI\n (who at the moment) build chassis (among some other things)"
+  },
+  {
+    "tweet_id": "1805964429890031973",
+    "url": "https://x.com/soumithchintala/status/1805964429890031973",
+    "author": "soumithchintala",
+    "date": "2024-06-26T14:00:47.000Z",
+    "text": "My general rule of thumb for assessing hardware startups (is this flowchart)\n\nHardware has a long lead-time, so startups hustle and bullshit and make over-the-top claims all the time. It's almost necessary for them when running a capital intensive long-horizon program."
+  },
+  {
+    "tweet_id": "1802738049769447646",
+    "url": "https://x.com/soumithchintala/status/1802738049769447646",
+    "author": "soumithchintala",
+    "date": "2024-06-17T16:20:18.000Z",
+    "text": "this is what GTA-6 should look like\n\n(one can hope)"
+  },
+  {
+    "tweet_id": "1802704356002627613",
+    "url": "https://x.com/soumithchintala/status/1802704356002627613",
+    "author": "soumithchintala",
+    "date": "2024-06-17T14:06:25.000Z",
+    "text": "legit. wayy better than expected. \nthough I was looking for scenes where you can see crowds clearly (like a camera walking through Little Italy in manhattan or something."
+  },
+  {
+    "tweet_id": "1802695221530055038",
+    "url": "https://x.com/soumithchintala/status/1802695221530055038",
+    "author": "soumithchintala",
+    "date": "2024-06-17T13:30:07.000Z",
+    "text": "some of these are \nSORA level quality.\nthough I'd want to see shots with lots of people / crowded streets to see how it does."
+  },
+  {
+    "tweet_id": "1802376577864401282",
+    "url": "https://x.com/soumithchintala/status/1802376577864401282",
+    "author": "soumithchintala",
+    "date": "2024-06-16T16:23:57.000Z",
+    "text": "Intel has a foundry, nvidia doesn't. Foundry R&D is much more capital intensive"
+  },
+  {
+    "tweet_id": "1799971482715459953",
+    "url": "https://x.com/soumithchintala/status/1799971482715459953",
+    "author": "soumithchintala",
+    "date": "2024-06-10T01:06:57.000Z",
+    "text": "i'm not entirely sure what you're on these days, but you seem to zero-sum something that is not a zero-sum.\n\nMeta has very large investments into AI software and compilers (PyTorch, Triton, etc.) **and** has fairly large investments into building their own silicon.\n\nYou obviously"
+  },
+  {
+    "tweet_id": "1799284343128383715",
+    "url": "https://x.com/soumithchintala/status/1799284343128383715",
+    "author": "soumithchintala",
+    "date": "2024-06-08T03:36:31.000Z",
+    "text": "at what age do you think we can peg GPT-4 wrt human intelligence (sans body) if 5yo ain't it?\n\nwrt Mario, a few weeks of playing it and crossing the level was my definition of \"pretty good\" -- with the context that the child didn't know what Mario was, and it was probably the"
+  },
+  {
+    "tweet_id": "1799211687482216943",
+    "url": "https://x.com/soumithchintala/status/1799211687482216943",
+    "author": "soumithchintala",
+    "date": "2024-06-07T22:47:48.000Z",
+    "text": "and for folks who are going to say \"but you need to rewrite the input to give it in a format that GPT can do well in\", I'll say -- that's kinda my point about the spatial intelligence / embodiment aspect.\nthe sample-efficiency one will still stand."
+  },
+  {
+    "tweet_id": "1799211121171157330",
+    "url": "https://x.com/soumithchintala/status/1799211121171157330",
+    "author": "soumithchintala",
+    "date": "2024-06-07T22:45:33.000Z",
+    "text": "sure. I think I really want to emphasize that they are differently intelligent -- GPT is not as good as a 5-year old in a lot of ways, and is smarter in a lot of ways.\n\nAsk GPT-4 to \n1. \"color this image\" and (might need to prompt it to start coloring) and see it epic-fail \n2."
+  },
+  {
+    "tweet_id": "1798779466757402915",
+    "url": "https://x.com/soumithchintala/status/1798779466757402915",
+    "author": "soumithchintala",
+    "date": "2024-06-06T18:10:19.000Z",
+    "text": "fwiw I need to read \n@leopoldasch\n 's set of blog posts, if there's more context in there.\nthe tweet presented without context was definitely funny"
+  },
+  {
+    "tweet_id": "1798779208493306038",
+    "url": "https://x.com/soumithchintala/status/1798779208493306038",
+    "author": "soumithchintala",
+    "date": "2024-06-06T18:09:17.000Z",
+    "text": "that's exciting :)\nDon't be gentle.\nFeel free to ask me the spicy/difficult/hard questions"
+  },
+  {
+    "tweet_id": "1798770968854426011",
+    "url": "https://x.com/soumithchintala/status/1798770968854426011",
+    "author": "soumithchintala",
+    "date": "2024-06-06T17:36:33.000Z",
+    "text": "how many Dyson spheres is that?\nWe need to have AGI Scale-up conversations in star-capture terms, anything less won't get you the right amount of hype or funding."
+  },
+  {
+    "tweet_id": "1798770457312940253",
+    "url": "https://x.com/soumithchintala/status/1798770457312940253",
+    "author": "soumithchintala",
+    "date": "2024-06-06T17:34:31.000Z",
+    "text": "the graph pegging GPT-4 at \"Smart High Schooler\" is so funny.\nLLMs are different to human intelligence. \nGPT-4 is dumber than a 5 year old in so many ways."
+  },
+  {
+    "tweet_id": "1797765371421929547",
+    "url": "https://x.com/soumithchintala/status/1797765371421929547",
+    "author": "soumithchintala",
+    "date": "2024-06-03T23:00:40.000Z",
+    "text": "@zou3519\n can you revamp the tutorial now, i think you rewrote most of that tutorial already in your custom ops google doc"
+  },
+  {
+    "tweet_id": "1796966201576350079",
+    "url": "https://x.com/soumithchintala/status/1796966201576350079",
+    "author": "soumithchintala",
+    "date": "2024-06-01T18:05:03.000Z",
+    "text": "Inference is harder for the largest frontier models; but its unclear if frontier model API usage is the one that will bring in the volumes and money. I'd expect most tasks and products would use the cheaper APIs."
+  },
+  {
+    "tweet_id": "1796965427429478469",
+    "url": "https://x.com/soumithchintala/status/1796965427429478469",
+    "author": "soumithchintala",
+    "date": "2024-06-01T18:01:58.000Z",
+    "text": "Inference to Training is hard, two reasons:\n1. Inference is relatively homogeneous -- create 3 to 5 packages -- binaries, model weights, code -- (one package per model variant), serve these packages for months; training has many more package variants (lots of ongoing experiments"
+  },
+  {
+    "tweet_id": "1796686323270795580",
+    "url": "https://x.com/soumithchintala/status/1796686323270795580",
+    "author": "soumithchintala",
+    "date": "2024-05-31T23:32:54.000Z",
+    "text": "because inference isn't more demanding than training yet. training is in a winner-takes-all race and no competition for nvidia (other than tpus) over there"
+  },
+  {
+    "tweet_id": "1795492281795105206",
+    "url": "https://x.com/soumithchintala/status/1795492281795105206",
+    "author": "soumithchintala",
+    "date": "2024-05-28T16:28:13.000Z",
+    "text": "which I also think should be their biggest worry. Gemini is getting pretty good (i find gemini multimodal better, and its existed for a few months; the long context length is also super useful). if they cant keep a big margin on SOTA, imo they'll have employee retention issues"
+  },
+  {
+    "tweet_id": "1794058557777666285",
+    "url": "https://x.com/soumithchintala/status/1794058557777666285",
+    "author": "soumithchintala",
+    "date": "2024-05-24T17:31:06.000Z",
+    "text": "we lost basically all the engineers working on `torchaudio` (they moved to other teams etc.).\nWe have someone who is currently onboarding, hope to ramp back up soon to a point where it'll be maintained."
+  },
+  {
+    "tweet_id": "1793685296405524654",
+    "url": "https://x.com/soumithchintala/status/1793685296405524654",
+    "author": "soumithchintala",
+    "date": "2024-05-23T16:47:54.000Z",
+    "text": "the Scarlett / OpenAI thing is so remarkable because it makes the AI Attribution conversation so tangible and relatable to a broad set of people.\n\nForget laws, we haven't even established societal norms on AI attributions -- and accelerating that will allow generally acceptable"
+  },
+  {
+    "tweet_id": "1793467647461625993",
+    "url": "https://x.com/soumithchintala/status/1793467647461625993",
+    "author": "soumithchintala",
+    "date": "2024-05-23T02:23:02.000Z",
+    "text": "impressive follow-up from @KelseyTuoc bringing receipts that it wasn't just some standard exit paperwork from OpenAI; \nthey seem to have proactively pressured employees to sign the non-disparagement clause, with crystal-clear threats to exclude them from future liquidity events x.com/KelseyTuoc/sta…"
+  },
+  {
+    "tweet_id": "1793467399150436563",
+    "url": "https://x.com/soumithchintala/status/1793467399150436563",
+    "author": "soumithchintala",
+    "date": "2024-05-23T02:22:03.000Z",
+    "text": "impressive follow-up from \n@KelseyTuoc\n bringing receipts that it wasn't just some standard exit paperwork from OpenAI; \nthey seem to have proactively pressured employees to sign the non-disparagement clause, with crystal-clear threats to exclude them from future liquidity events"
+  },
+  {
+    "tweet_id": "1793290393485824124",
+    "url": "https://x.com/soumithchintala/status/1793290393485824124",
+    "author": "soumithchintala",
+    "date": "2024-05-22T14:38:42.000Z",
+    "text": "definitely have been thinking about this but didn't know it has a formalism."
+  },
+  {
+    "tweet_id": "1791939236922331332",
+    "url": "https://x.com/soumithchintala/status/1791939236922331332",
+    "author": "soumithchintala",
+    "date": "2024-05-18T21:09:41.000Z",
+    "text": "in regards to recent stuff about how openai handles equity:\n\nwe have never clawed back anyone's vested equity, nor will we do that if people do not sign a separation agreement (or don't agree to a non-disparagement agreement). vested equity is vested equity, full stop.\n\nthere was"
+  },
+  {
+    "tweet_id": "1791612240371580999",
+    "url": "https://x.com/soumithchintala/status/1791612240371580999",
+    "author": "soumithchintala",
+    "date": "2024-05-17T23:30:19.000Z",
+    "text": "i got confirmation from multiple ex-OpenAI folks that this is true, and that's why they don't say anything negative about their experience."
+  },
+  {
+    "tweet_id": "1791547776804831673",
+    "url": "https://x.com/soumithchintala/status/1791547776804831673",
+    "author": "soumithchintala",
+    "date": "2024-05-17T19:14:09.000Z",
+    "text": "holding your (already earned) stock compensation hostage over signing a non-disparagement clause is **not** normal. IMO its pretty sketchy and sleazy.\nIts sleazier when a super-majority of your compensation comes in the form of stock (like at OpenAI).\nIs this confirmed and real?"
+  },
+  {
+    "tweet_id": "1791511819359600643",
+    "url": "https://x.com/soumithchintala/status/1791511819359600643",
+    "author": "soumithchintala",
+    "date": "2024-05-17T16:51:17.000Z",
+    "text": "no I was referring to Sam Altman's numbers here which do include Ties:"
+  },
+  {
+    "tweet_id": "1791510165969092806",
+    "url": "https://x.com/soumithchintala/status/1791510165969092806",
+    "author": "soumithchintala",
+    "date": "2024-05-17T16:44:42.000Z",
+    "text": "but why would you exclude ties when discussing regression? \nif it is tying with a bunch of lower-ranked models, that should be scored appropriately."
+  },
+  {
+    "tweet_id": "1791507700838265237",
+    "url": "https://x.com/soumithchintala/status/1791507700838265237",
+    "author": "soumithchintala",
+    "date": "2024-05-17T16:34:55.000Z",
+    "text": "someone pointed out that in fact in coding, GPT-4o did worse than GPT-4Turbo in medium/hard problems, but did better on easy problems on \nhttps://\nlivecodebench.github.io/leaderboard.ht\nml\n…"
+  },
+  {
+    "tweet_id": "1791507276655718837",
+    "url": "https://x.com/soumithchintala/status/1791507276655718837",
+    "author": "soumithchintala",
+    "date": "2024-05-17T16:33:14.000Z",
+    "text": "i wonder how much of the differential was because people were really trend-bubbling \"im-a-good-gpt2\" thing, and trying to spot and validate it; and now its more normalized to regular expectations."
+  },
+  {
+    "tweet_id": "1791506791504781748",
+    "url": "https://x.com/soumithchintala/status/1791506791504781748",
+    "author": "soumithchintala",
+    "date": "2024-05-17T16:31:18.000Z",
+    "text": "it is interesting that GPT4-o's ELO is lower at 1287, than its initial 1310 score.\nOn coding, it regressed even more absolute points, from 1369 to 1307."
+  },
+  {
+    "tweet_id": "1790420724324172016",
+    "url": "https://x.com/soumithchintala/status/1790420724324172016",
+    "author": "soumithchintala",
+    "date": "2024-05-14T16:35:39.000Z",
+    "text": "the appeal with humanoids is just that they can navigate spaces designed for humans. i'm not sold on humanoids but i'm not bearish on them either. waiting and watching."
+  },
+  {
+    "tweet_id": "1790420352318808469",
+    "url": "https://x.com/soumithchintala/status/1790420352318808469",
+    "author": "soumithchintala",
+    "date": "2024-05-14T16:34:11.000Z",
+    "text": "@1x_tech\n Neo is 30kg and will get lighter\n\n@hellorobotinc\n Stretch is 24kg and is incredibly stable.\nthe \n@UnitreeRobotics\n G1 is 47kg and will get lighter."
+  },
+  {
+    "tweet_id": "1790404227488964651",
+    "url": "https://x.com/soumithchintala/status/1790404227488964651",
+    "author": "soumithchintala",
+    "date": "2024-05-14T15:30:06.000Z",
+    "text": "yea, the inflated valuations are funny money -- some of the public demos for what are billion dollar robotics companies weren't very impressive to me.\n\nI think a lot of the VC investment into \"AI research for robotics\" IMO is misguided too (instead of investing in companies that"
+  },
+  {
+    "tweet_id": "1790401270760472943",
+    "url": "https://x.com/soumithchintala/status/1790401270760472943",
+    "author": "soumithchintala",
+    "date": "2024-05-14T15:18:21.000Z",
+    "text": "Self-driving cars are an all-or-nothing capability.\nRobots applied to home or light industrial (like security) have a lot of incrementality -- i.e. they can be useful before they are perfect.\n\nComparing these two isn't useful.\n\nI think robotic penetration into the home has real \nhttps://\nx.com/realGeorgeHotz\n/realGeorgeHotz/status/1790379750260617680\n…"
+  },
+  {
+    "tweet_id": "1790130776652070967",
+    "url": "https://x.com/soumithchintala/status/1790130776652070967",
+    "author": "soumithchintala",
+    "date": "2024-05-13T21:23:30.000Z",
+    "text": "also, with gpt-4o, I feel like gemini 1.5 pro wrote a big chunk of that story already, so that really helps."
+  },
+  {
+    "tweet_id": "1790116790053351603",
+    "url": "https://x.com/soumithchintala/status/1790116790053351603",
+    "author": "soumithchintala",
+    "date": "2024-05-13T20:27:56.000Z",
+    "text": "When GPT-4 was released, I think we very vastly unequipped, that was probably the biggest reason. the (Meta) GenAI organization (that is a very focused effort for Generative models, instead of a general AI research org like FAIR) started right around when GPT-4 was released. So,"
+  },
+  {
+    "tweet_id": "1790024781414142012",
+    "url": "https://x.com/soumithchintala/status/1790024781414142012",
+    "author": "soumithchintala",
+    "date": "2024-05-13T14:22:19.000Z",
+    "text": "One of the most valuable things that \n@bfspector\n and team have done here is to reverse-engineer and clearly document H100's WGMMA and TMA mechanics, layouts and other details (and not keep it hidden away in company-internal docs). Thank you!"
+  },
+  {
+    "tweet_id": "1787706691628228930",
+    "url": "https://x.com/soumithchintala/status/1787706691628228930",
+    "author": "soumithchintala",
+    "date": "2024-05-07T04:51:03.000Z",
+    "text": "I was a (young) grad student when the Cat Detection work was published and publicized.\nI don't think people thought it was a dead-end.\n\nBut I can explain the general resentment for that result from what was an impressionable few months for me.\n\nPeople didn't really like the"
+  },
+  {
+    "tweet_id": "1787574004326523209",
+    "url": "https://x.com/soumithchintala/status/1787574004326523209",
+    "author": "soumithchintala",
+    "date": "2024-05-06T20:03:48.000Z",
+    "text": "I've gotten hyper-conscious to the word \"delve\" now. \nI now see it everywhere and i cant help but assume someone used GPT to write or rephrase whatever it is I'm reading."
+  },
+  {
+    "tweet_id": "1784331037859876932",
+    "url": "https://x.com/soumithchintala/status/1784331037859876932",
+    "author": "soumithchintala",
+    "date": "2024-04-27T21:17:25.000Z",
+    "text": "hmmm, so its one of those location refactors (quite sad, but classic large-company stuff).\nI've generally found that Foundation / Core language engineers are pretty hard to replace or be fungible -- they have deep knowledge about complex code and social dynamics that are hard to"
+  },
+  {
+    "tweet_id": "1784246359710703934",
+    "url": "https://x.com/soumithchintala/status/1784246359710703934",
+    "author": "soumithchintala",
+    "date": "2024-04-27T15:40:56.000Z",
+    "text": "apparently Google laid off their entire Python Foundations team, WTF!\n( \n@SkyLi0n\n who is one of the pybind11 maintainers just informed me, asking what ways they can re-fund pybind11)\nThe team seems to have done substantial work that seems critical for Google internally as well."
+  },
+  {
+    "tweet_id": "1783716562089762911",
+    "url": "https://x.com/soumithchintala/status/1783716562089762911",
+    "author": "soumithchintala",
+    "date": "2024-04-26T04:35:42.000Z",
+    "text": "@darkproger\n I definitely remember that bug, and it was fixed. The fix might be in 2.3 that just released.\nI just checked a nightly build and that assert (in the gist) passes."
+  },
+  {
+    "tweet_id": "1783508019378041333",
+    "url": "https://x.com/soumithchintala/status/1783508019378041333",
+    "author": "soumithchintala",
+    "date": "2024-04-25T14:47:02.000Z",
+    "text": "pytorch has a history of constraining API to be computationally efficient (in eager), in a \"dont let user shoot themselves in the foot\" kinda way. this is one of those constraints."
+  },
+  {
+    "tweet_id": "1782842574002114741",
+    "url": "https://x.com/soumithchintala/status/1782842574002114741",
+    "author": "soumithchintala",
+    "date": "2024-04-23T18:42:47.000Z",
+    "text": "what do you mean by \"it's class\"?\nDid Gemini 1.5 Pro's size ever get revealed?"
+  },
+  {
+    "tweet_id": "1782796893946347590",
+    "url": "https://x.com/soumithchintala/status/1782796893946347590",
+    "author": "soumithchintala",
+    "date": "2024-04-23T15:41:16.000Z",
+    "text": "nice work on Phi-3 \n@SebastienBubeck\n and team :-)\nresults look really impressive."
+  },
+  {
+    "tweet_id": "1782492635313082608",
+    "url": "https://x.com/soumithchintala/status/1782492635313082608",
+    "author": "soumithchintala",
+    "date": "2024-04-22T19:32:16.000Z",
+    "text": "Llama3-70B has settled at #5. With 405B still to come next...\n\nI remember when GPT-4 released in March 2023, it looked like it was nearly-impossible to get to the same performance.\n\nSince then, I've seen \n@Ahmad_Al_Dahle\n and the rest of the GenAI org  in a chaotic rise to focus,"
+  },
+  {
+    "tweet_id": "1782482768619782571",
+    "url": "https://x.com/soumithchintala/status/1782482768619782571",
+    "author": "soumithchintala",
+    "date": "2024-04-22T18:53:03.000Z",
+    "text": "how much of a performance-bump was it end-to-end?\n\nMaybe its one of those cases where the effort isn't worth it because in an end-to-end setting, the code isn't much of an overhead."
+  },
+  {
+    "tweet_id": "1782266219304813055",
+    "url": "https://x.com/soumithchintala/status/1782266219304813055",
+    "author": "soumithchintala",
+    "date": "2024-04-22T04:32:34.000Z",
+    "text": "its unclear to me even for code because compile-time and startup costs (even for a CUDA/CuDNN loading Python program) is 1 second.\nIf you strip out the binary blobs that need to load (say business logic filled program), then its quicker, but i'm not sure if there aren't other"
+  },
+  {
+    "tweet_id": "1782261771249541266",
+    "url": "https://x.com/soumithchintala/status/1782261771249541266",
+    "author": "soumithchintala",
+    "date": "2024-04-22T04:14:53.000Z",
+    "text": "having spent a little bit of time working on agents, the bottleneck if often not inference speed but interaction speed. Interacting with buttons and browsers and UIs is so inefficient and much slower than say if you had direct API access, and very often you don't."
+  },
+  {
+    "tweet_id": "1782045277538672722",
+    "url": "https://x.com/soumithchintala/status/1782045277538672722",
+    "author": "soumithchintala",
+    "date": "2024-04-21T13:54:37.000Z",
+    "text": "generally, firmware is a lot more difficult to open-source because there might be IP in there that the company might not own (of vendor chips that are on the GPU board, etc.)"
+  },
+  {
+    "tweet_id": "1781458763838341130",
+    "url": "https://x.com/soumithchintala/status/1781458763838341130",
+    "author": "soumithchintala",
+    "date": "2024-04-19T23:04:01.000Z",
+    "text": "I think some day, projects like PyTorch will make users pay only for the overhead they use.\n\nLots of R&D needed to get there: compiler technology, type systems, various other things.\n\nActually, LuaJIT was really cool in that aspect -- one of the most brilliant pieces of"
+  },
+  {
+    "tweet_id": "1781347525682696616",
+    "url": "https://x.com/soumithchintala/status/1781347525682696616",
+    "author": "soumithchintala",
+    "date": "2024-04-19T15:42:00.000Z",
+    "text": "+1 the more open-models available at this level, the better"
+  },
+  {
+    "tweet_id": "1781306368655266167",
+    "url": "https://x.com/soumithchintala/status/1781306368655266167",
+    "author": "soumithchintala",
+    "date": "2024-04-19T12:58:28.000Z",
+    "text": "very early LMSys Arena results peg llama3-70B at 5th place (the variance is still pretty high, so it can jump up or down a bit).\nThis is so exciting.\nCan't wait to see how the 405B fares once it is released.\n\nhttps://\nchat.lmsys.org/?leaderboard"
+  },
+  {
+    "tweet_id": "1781109104640958466",
+    "url": "https://x.com/soumithchintala/status/1781109104640958466",
+    "author": "soumithchintala",
+    "date": "2024-04-18T23:54:36.000Z",
+    "text": "can never see myself move to the Bay; despite the AI/Tech density :)\nNew York is an addiction"
+  },
+  {
+    "tweet_id": "1781098422637875458",
+    "url": "https://x.com/soumithchintala/status/1781098422637875458",
+    "author": "soumithchintala",
+    "date": "2024-04-18T23:12:09.000Z",
+    "text": "in the community: huggingface transformers, axolotl, unsloth, lit-gpt are popular options."
+  },
+  {
+    "tweet_id": "1781091691505517036",
+    "url": "https://x.com/soumithchintala/status/1781091691505517036",
+    "author": "soumithchintala",
+    "date": "2024-04-18T22:45:24.000Z",
+    "text": "who are some of such people that you follow? would love to follow them as well."
+  },
+  {
+    "tweet_id": "1781073501748711886",
+    "url": "https://x.com/soumithchintala/status/1781073501748711886",
+    "author": "soumithchintala",
+    "date": "2024-04-18T21:33:08.000Z",
+    "text": "There's another quieter release from \n@AIatMeta\n today that's really cool.\n* Live Preview: As you type your image prompt, you get a live preview, making iterating for a good image easier.\n* Animate: now you can animate images for short bursts"
+  },
+  {
+    "tweet_id": "1781019754477527494",
+    "url": "https://x.com/soumithchintala/status/1781019754477527494",
+    "author": "soumithchintala",
+    "date": "2024-04-18T17:59:33.000Z",
+    "text": "awni, what's taking you so long for MLX support :P"
+  },
+  {
+    "tweet_id": "1780739096823898156",
+    "url": "https://x.com/soumithchintala/status/1780739096823898156",
+    "author": "soumithchintala",
+    "date": "2024-04-17T23:24:19.000Z",
+    "text": "i find memory and battery to be a limiting factor for laptop development. \ni'm still stuck on an M1 macbook with 16GB memory, and once i start doing computing on the laptop battery depletes too quickly (like on a flight and stuff).\nof course i can buy one of those ultra macbooks,"
+  },
+  {
+    "tweet_id": "1780239680824549542",
+    "url": "https://x.com/soumithchintala/status/1780239680824549542",
+    "author": "soumithchintala",
+    "date": "2024-04-16T14:19:49.000Z",
+    "text": "as the semi-serious joke goes: if they published it, its not in gemini"
+  },
+  {
+    "tweet_id": "1779980449428746454",
+    "url": "https://x.com/soumithchintala/status/1779980449428746454",
+    "author": "soumithchintala",
+    "date": "2024-04-15T21:09:44.000Z",
+    "text": "LLM Fatigue is a variation of Decision fatigue for AI; every day there's a new release, so you stick to the familiar 3 names despite merits"
+  },
+  {
+    "tweet_id": "1779257368615829599",
+    "url": "https://x.com/soumithchintala/status/1779257368615829599",
+    "author": "soumithchintala",
+    "date": "2024-04-13T21:16:28.000Z",
+    "text": "this is true, i can confirm. It wont stay this way, but I can attest that MLX and llama.cpp are moving much faster right now in developing for MacBook GPUs than PyTorch is."
+  },
+  {
+    "tweet_id": "1778154424000540783",
+    "url": "https://x.com/soumithchintala/status/1778154424000540783",
+    "author": "soumithchintala",
+    "date": "2024-04-10T20:13:45.000Z",
+    "text": "for the workloads we were targeting with this generation, was a better TCO trade-off"
+  },
+  {
+    "tweet_id": "1778119516947394613",
+    "url": "https://x.com/soumithchintala/status/1778119516947394613",
+    "author": "soumithchintala",
+    "date": "2024-04-10T17:55:03.000Z",
+    "text": "+1 to same compiler flow on our chips as mainline PyTorch. At Meta, we don't have a separate copy of PyTorch or Dynamo/Inductor. The source of truth is Github and everything is upstreamed/mainline.\n\nTriton's bugs have been going over time, but we liked it as a starting point, and"
+  },
+  {
+    "tweet_id": "1778117080102969373",
+    "url": "https://x.com/soumithchintala/status/1778117080102969373",
+    "author": "soumithchintala",
+    "date": "2024-04-10T17:45:22.000Z",
+    "text": "we are truly playing out the \"uniform software stack\" story. As long as you build a triton backend, and you drive down driver/firmware bugs, that is all that's needed. 99% of the user-level papercuts are taken care of.\nIt also helps that these are targeted for Inference right"
+  },
+  {
+    "tweet_id": "1778107515957305819",
+    "url": "https://x.com/soumithchintala/status/1778107515957305819",
+    "author": "soumithchintala",
+    "date": "2024-04-10T17:07:22.000Z",
+    "text": "Triton can generate anything, as long as you write a Triton backend. As of today, upstream Triton can generate AMD code too."
+  },
+  {
+    "tweet_id": "1778087952964374854",
+    "url": "https://x.com/soumithchintala/status/1778087952964374854",
+    "author": "soumithchintala",
+    "date": "2024-04-10T15:49:37.000Z",
+    "text": "Meta announces 2nd-gen inference chip MTIAv2.\n* 708TF/s Int8 / 353TF/s BF16\n* 256MB SRAM, 128GB memory\n* 90W TDP. 24 chips per node, 3 nodes per rack.\n* standard PyTorch stack (Dynamo, Inductor, Triton) for flexibility\n\nFabbed on TSMC's 5nm process, its fully programmable via the"
+  },
+  {
+    "tweet_id": "1777676902628507904",
+    "url": "https://x.com/soumithchintala/status/1777676902628507904",
+    "author": "soumithchintala",
+    "date": "2024-04-09T12:36:15.000Z",
+    "text": "MLX is nice, early in its complexity phase.\nalso tinygrad."
+  },
+  {
+    "tweet_id": "1776439429478887571",
+    "url": "https://x.com/soumithchintala/status/1776439429478887571",
+    "author": "soumithchintala",
+    "date": "2024-04-06T02:38:59.000Z",
+    "text": "focusing on improving your own product, avoid comparisons. if needed to compare, give the other stakeholders a heads-up and a voice."
+  },
+  {
+    "tweet_id": "1776431955845759222",
+    "url": "https://x.com/soumithchintala/status/1776431955845759222",
+    "author": "soumithchintala",
+    "date": "2024-04-06T02:09:17.000Z",
+    "text": "thanks to \n@JeffDean\n and \n@SingularMattrix\n for their great leadership today; and \n@fchollet\n \n@dwarak\n and many others at \n@GoogleDeepMind\n for quickly charting a good and aligned path forward together.\nWe can go back focusing on the unlimited amounts of good work ahead of us.\n(Jeff,"
+  },
+  {
+    "tweet_id": "1776343813625176332",
+    "url": "https://x.com/soumithchintala/status/1776343813625176332",
+    "author": "soumithchintala",
+    "date": "2024-04-05T20:19:02.000Z",
+    "text": "thanks. this is a response to the \"PyTorch native\" column. We've vetted the benchmarks and posted details now."
+  },
+  {
+    "tweet_id": "1776323475101081816",
+    "url": "https://x.com/soumithchintala/status/1776323475101081816",
+    "author": "soumithchintala",
+    "date": "2024-04-05T18:58:13.000Z",
+    "text": "This is honestly a baffling response. You cant be saying that benchmarking FP32 vs TF32 (just the dtype) is a \"compiler optimization\".\nHonestly, I'm lost at the face of so much evidence, how you're just still sticking to your story."
+  },
+  {
+    "tweet_id": "1776321261112570152",
+    "url": "https://x.com/soumithchintala/status/1776321261112570152",
+    "author": "soumithchintala",
+    "date": "2024-04-05T18:49:25.000Z",
+    "text": "i try not to escalate. nothing good comes out of escalation."
+  },
+  {
+    "tweet_id": "1773756275660108029",
+    "url": "https://x.com/soumithchintala/status/1773756275660108029",
+    "author": "soumithchintala",
+    "date": "2024-03-29T16:57:05.000Z",
+    "text": "def down for a monthly ice cream and bagel collective. meet at a park or something."
+  },
+  {
+    "tweet_id": "1773502669362954677",
+    "url": "https://x.com/soumithchintala/status/1773502669362954677",
+    "author": "soumithchintala",
+    "date": "2024-03-29T00:09:21.000Z",
+    "text": "looks like there's more being read into it than what we wrote. we just exist in NYC and love it, that's all."
+  },
+  {
+    "tweet_id": "1773415221421388133",
+    "url": "https://x.com/soumithchintala/status/1773415221421388133",
+    "author": "soumithchintala",
+    "date": "2024-03-28T18:21:51.000Z",
+    "text": "move to NYC.\nbuild open models.\ndistribute bootleg books of model weights alongside bagels and ice cream trucks.\n\n@srush_nlp\n \n@kchonyc\n \n@jefrankle\n and I will be around."
+  },
+  {
+    "tweet_id": "1772970597359771978",
+    "url": "https://x.com/soumithchintala/status/1772970597359771978",
+    "author": "soumithchintala",
+    "date": "2024-03-27T12:55:05.000Z",
+    "text": "legit new open model just dropped from Mosaic/Databricks.\nSeems very competitive on offline benchmarks.\nCheck it out"
+  },
+  {
+    "tweet_id": "1770802192397521255",
+    "url": "https://x.com/soumithchintala/status/1770802192397521255",
+    "author": "soumithchintala",
+    "date": "2024-03-21T13:18:37.000Z",
+    "text": "congratulations! excited to see where this goes.\nreally nice to see it compose with torch.compile.\n\ncongrats \n@ThomasViehmann\n \n@lantiga\n \n@mikeruberry\n \n@IvanYashchuk\n \n@JirkaBorovec\n Taylor Robie, Jie and other familiar faces :-)"
+  },
+  {
+    "tweet_id": "1770069747284996103",
+    "url": "https://x.com/soumithchintala/status/1770069747284996103",
+    "author": "soumithchintala",
+    "date": "2024-03-19T12:48:08.000Z",
+    "text": "yes, imagenet-12 classification set is only 200GB compressed. can literally load it into gpu memory on a dgx box easy."
+  },
+  {
+    "tweet_id": "1767654425391198219",
+    "url": "https://x.com/soumithchintala/status/1767654425391198219",
+    "author": "soumithchintala",
+    "date": "2024-03-12T20:50:31.000Z",
+    "text": "its a bigger lift to open-source that, very specific to a lot of how we build Meta Infra.\nAlso, there isn't a good addressable market, SLURM already exists and is a good HPC scheduler."
+  },
+  {
+    "tweet_id": "1767649548917448995",
+    "url": "https://x.com/soumithchintala/status/1767649548917448995",
+    "author": "soumithchintala",
+    "date": "2024-03-12T20:31:08.000Z",
+    "text": "you are mistaken, its not just one, its multiple of these"
+  },
+  {
+    "tweet_id": "1767636015642976284",
+    "url": "https://x.com/soumithchintala/status/1767636015642976284",
+    "author": "soumithchintala",
+    "date": "2024-03-12T19:37:21.000Z",
+    "text": "we have our own scheduler, but I'd assume SLURM would be a good choice as well."
+  },
+  {
+    "tweet_id": "1767579981419315400",
+    "url": "https://x.com/soumithchintala/status/1767579981419315400",
+    "author": "soumithchintala",
+    "date": "2024-03-12T15:54:42.000Z",
+    "text": "Here's details on Meta's 24k H100 Cluster Pods that we use for Llama3 training.\n* Network: two versions RoCEv2 or Infiniband.\n   * Llama3 trains on RoCEv2\n* Storage: NFS/FUSE based on Tectonic/Hammerspace\n* Stock PyTorch: no real modifications that aren't upstreamed\n* NCCL with"
+  },
+  {
+    "tweet_id": "1765804593915498527",
+    "url": "https://x.com/soumithchintala/status/1765804593915498527",
+    "author": "soumithchintala",
+    "date": "2024-03-07T18:19:56.000Z",
+    "text": "Great post by Yi.\nIt's time for crowd-sourced ratings for GPU clusters. Maybe an AirBnB for GPU Clusters.\n\nI also tried to explain some of the differences between TPU clusters and most public GPU clusters; as well as made some practical recommendations here:"
+  },
+  {
+    "tweet_id": "1765803860126273937",
+    "url": "https://x.com/soumithchintala/status/1765803860126273937",
+    "author": "soumithchintala",
+    "date": "2024-03-07T18:17:01.000Z",
+    "text": "lower layer, as I understand. XLA-RT or something? The lower-level TPU stuff is not well-documented publicly :)"
+  },
+  {
+    "tweet_id": "1765796281283232059",
+    "url": "https://x.com/soumithchintala/status/1765796281283232059",
+    "author": "soumithchintala",
+    "date": "2024-03-07T17:46:55.000Z",
+    "text": "Great post Yi!\n\nWe definitely need a Ratings mechanism for GPU Clusters (ala Airbnb for GPU Clusters).\n\nYou are correct that large-scale GPU clusters that we carefully build are way more reliable and performant.\n\nI also want to point out some differences compared to TPU clusters"
+  },
+  {
+    "tweet_id": "1765500276989972584",
+    "url": "https://x.com/soumithchintala/status/1765500276989972584",
+    "author": "soumithchintala",
+    "date": "2024-03-06T22:10:42.000Z",
+    "text": "I did a fun podcast with \n@swyx\n and \n@FanaHOVA\n .\nListen (or read the auto-generated transcript) here: \nhttps://\nlatent.space/p/soumith\n\nI gave raw unprepared thoughts on a bunch of topics, hope you find them interesting enough to critique but not bad enough to dunk (ymmv)."
+  },
+  {
+    "tweet_id": "1765468938308116550",
+    "url": "https://x.com/soumithchintala/status/1765468938308116550",
+    "author": "soumithchintala",
+    "date": "2024-03-06T20:06:10.000Z",
+    "text": "Reading the transcript, I used the word \"like\" as a pause-word so many times; its embarrassing. RIP listeners.\nWill work on fixing this."
+  },
+  {
+    "tweet_id": "1765460700145565894",
+    "url": "https://x.com/soumithchintala/status/1765460700145565894",
+    "author": "soumithchintala",
+    "date": "2024-03-06T19:33:26.000Z",
+    "text": "Did a podcast in a long time, and \n@swyx\n made me talk net-new things (no repeat of PyTorch history and stuff).\nThere's a lot of unrefined; riffy thoughts but I thought it was fun."
+  },
+  {
+    "tweet_id": "1765240394650988782",
+    "url": "https://x.com/soumithchintala/status/1765240394650988782",
+    "author": "soumithchintala",
+    "date": "2024-03-06T04:58:01.000Z",
+    "text": "this is just pytorch/pytorch. does not include third-party submodules.\nSpecifically its this set of files: \nhttps://\ngithub.com/pytorch/pytorc\nh/archive/refs/heads/main.zip\n…"
+  },
+  {
+    "tweet_id": "1765238031374512247",
+    "url": "https://x.com/soumithchintala/status/1765238031374512247",
+    "author": "soumithchintala",
+    "date": "2024-03-06T04:48:37.000Z",
+    "text": "calculated using tiktoken and included all Python, C/C++ and CUDA files."
+  },
+  {
+    "tweet_id": "1765227076666130888",
+    "url": "https://x.com/soumithchintala/status/1765227076666130888",
+    "author": "soumithchintala",
+    "date": "2024-03-06T04:05:06.000Z",
+    "text": "Claude3 is super impressive. Nearly as good as GPT-4 on average from my usage so far. Congrats to everyone who worked hard on it!\n\nHere's my feedback:\n* It does hallucinate way more than GPT4 -- noticed it as soon as AINews switched to Claude3, including silly hallucinations like"
+  },
+  {
+    "tweet_id": "1765095829415633057",
+    "url": "https://x.com/soumithchintala/status/1765095829415633057",
+    "author": "soumithchintala",
+    "date": "2024-03-05T19:23:34.000Z",
+    "text": "The tweet you quoted is wrong; I think the person clarifies right in the last tweet.\nIts comparing apples to oranges -- comparing OOB performance to prompt-hacking performance.\n\nRegardless -- there's occasional hallucinations and weirdness in AINews because its LLM-Summarized"
+  },
+  {
+    "tweet_id": "1764874682455425029",
+    "url": "https://x.com/soumithchintala/status/1764874682455425029",
+    "author": "soumithchintala",
+    "date": "2024-03-05T04:44:48.000Z",
+    "text": "AI News is created and run by \n@swyx\n and friends; powered by GPT-4 (I think).\nCode is open-source: \nhttps://\ngithub.com/smol-ai/talk\nThanks y'all for creating this!\n(i realized too late that I didn't call out the people behind it, couldn't edit my tweet)"
+  },
+  {
+    "tweet_id": "1764871303704580368",
+    "url": "https://x.com/soumithchintala/status/1764871303704580368",
+    "author": "soumithchintala",
+    "date": "2024-03-05T04:31:23.000Z",
+    "text": "fwiw, i checked whether this tutorial was working on the PyTorch Nightly (by running this script directly: \nhttps://\nraw.githubusercontent.com/pytorch/tutori\nals/main/recipes_source/recipes/profiler_recipe.py\n… )\nand on the Nightly, this seem to have been fixed.\nSo it was either fixed in 2.1/2.2; or it'll be fixed in the next release."
+  },
+  {
+    "tweet_id": "1764856157594608067",
+    "url": "https://x.com/soumithchintala/status/1764856157594608067",
+    "author": "soumithchintala",
+    "date": "2024-03-05T03:31:12.000Z",
+    "text": "i've used your list for a bunch of strategy work. Thanks for that!\n(I paid X their API access fees just to get your list into an excel sheet)\nIt's pretty awesome and serves a different purpose."
+  },
+  {
+    "tweet_id": "1764853209498034537",
+    "url": "https://x.com/soumithchintala/status/1764853209498034537",
+    "author": "soumithchintala",
+    "date": "2024-03-05T03:19:29.000Z",
+    "text": "reading \"AI News\" (previously Smol Talk) is probably the highest-leverage 45 mins I spend everyday on catching up with what's going on in AI.\n\nSo much alpha, organized hierarchically; an exceptionally well curated (and summarized) daily newslettter.\n\nProbably only suited for"
+  },
+  {
+    "tweet_id": "1764525245002657796",
+    "url": "https://x.com/soumithchintala/status/1764525245002657796",
+    "author": "soumithchintala",
+    "date": "2024-03-04T05:36:16.000Z",
+    "text": "This is likely going to become **the** Reference for developing Multimodal LLMs (among other things).\n\nGreat resource, and great work from a long list of awesome people!"
+  },
+  {
+    "tweet_id": "1764318734179594257",
+    "url": "https://x.com/soumithchintala/status/1764318734179594257",
+    "author": "soumithchintala",
+    "date": "2024-03-03T15:55:40.000Z",
+    "text": "uh yea I'm wrong, shouldn't be tweeting first thing after i wake up ."
+  },
+  {
+    "tweet_id": "1763390005743906955",
+    "url": "https://x.com/soumithchintala/status/1763390005743906955",
+    "author": "soumithchintala",
+    "date": "2024-03-01T02:25:14.000Z",
+    "text": "hey \n@fchollet\n . I think this is tricky to do in general (like a no free lunch way).\nI think the Mistral-7B implementation KerasNLP writes out a KVCache (for compiler optimization) and specifically writes code in a way that is needed for XLA Compilation to work well.\nDo let me"
+  },
+  {
+    "tweet_id": "1763271066334416979",
+    "url": "https://x.com/soumithchintala/status/1763271066334416979",
+    "author": "soumithchintala",
+    "date": "2024-02-29T18:32:36.000Z",
+    "text": "+/-12 lines of code in gpt-fast integrated Gemma from \n@GoogleDeepMind\n ; and shows:\n* 234 tokens / sec on V100 in int8\n* 144 tokens / sec on V100 in float precision\n\nhttps://\ngithub.com/pytorch-labs/g\npt-fast/commit/ef055fc12188eaf80d8ba948ad743ee5583d0f3c\n…"
+  },
+  {
+    "tweet_id": "1762266561451291080",
+    "url": "https://x.com/soumithchintala/status/1762266561451291080",
+    "author": "soumithchintala",
+    "date": "2024-02-27T00:01:04.000Z",
+    "text": "As AI models get to some baseline level of intelligence, the moat might transition to human preferences -- whether the model is giving you the answer you want, not just the most frequently preferred answer.\n\nIf this happens, companies who already have personalization models on"
+  },
+  {
+    "tweet_id": "1762265393677402556",
+    "url": "https://x.com/soumithchintala/status/1762265393677402556",
+    "author": "soumithchintala",
+    "date": "2024-02-26T23:56:25.000Z",
+    "text": "Generative AI Products need to go through their \"personalization\" revolution.\nA single \"prompt\" for the entire world is a single human preference for the entire world. That obviously doesn't work.\nYou'd want to adjust the prompt embeddings with user embeddings, to give"
+  },
+  {
+    "tweet_id": "1760045765232070854",
+    "url": "https://x.com/soumithchintala/status/1760045765232070854",
+    "author": "soumithchintala",
+    "date": "2024-02-20T20:56:25.000Z",
+    "text": "Rodney Brooks explains that, according to early AI research, intelligence was \"best characterized as the things that highly educated male scientists found challenging\", such as chess, symbolic integration, proving mathematical theorems and solving complicated word algebra"
+  },
+  {
+    "tweet_id": "1758501390840639526",
+    "url": "https://x.com/soumithchintala/status/1758501390840639526",
+    "author": "soumithchintala",
+    "date": "2024-02-16T14:39:37.000Z",
+    "text": "I don't think its a fair characterization. If the average understanding last week was \"we have no idea how to get to 1-minute photorealistic video models\", and that understanding massively changed with a single work, it is a breakthrough.\nThe focus on \"novelty is only when you"
+  },
+  {
+    "tweet_id": "1758482370057949294",
+    "url": "https://x.com/soumithchintala/status/1758482370057949294",
+    "author": "soumithchintala",
+    "date": "2024-02-16T13:24:02.000Z",
+    "text": "been enjoying using stretch as a research platform for 3 years now.\nits biggest strength is its predictable and simple kinematics, and cost.\n\nthey just released v3, which looks faster and better!"
+  },
+  {
+    "tweet_id": "1758348910265868798",
+    "url": "https://x.com/soumithchintala/status/1758348910265868798",
+    "author": "soumithchintala",
+    "date": "2024-02-16T04:33:43.000Z",
+    "text": "LLMs and diffusers exhibit intelligence distinct from animal intelligence, better in many ways worse in many ways, pathological in distinct ways.\n\nUnfortunately the use of a single term \"intelligence\" confuses people; \"meme\" personalities arbitrage this to fame lol"
+  },
+  {
+    "tweet_id": "1758327471315849572",
+    "url": "https://x.com/soumithchintala/status/1758327471315849572",
+    "author": "soumithchintala",
+    "date": "2024-02-16T03:08:31.000Z",
+    "text": "i thought it was a hybrid, a game engine creates the camera controlled low-res, and a diffusion model upscales it (and produces the weird stuff).\ncamera rotations and translations are so notoriously hard in video-gen, that I thought some runtime trick was a great way to shortcut"
+  },
+  {
+    "tweet_id": "1758298802866319723",
+    "url": "https://x.com/soumithchintala/status/1758298802866319723",
+    "author": "soumithchintala",
+    "date": "2024-02-16T01:14:36.000Z",
+    "text": "several people have pointed out that it's a lot more plausible that the data is generated using a game engine, but inference is likely just a diffusion model. that probably makes more sense."
+  },
+  {
+    "tweet_id": "1758245221966475498",
+    "url": "https://x.com/soumithchintala/status/1758245221966475498",
+    "author": "soumithchintala",
+    "date": "2024-02-15T21:41:42.000Z",
+    "text": "Based on all the user-request videos that \n@sama\n's been posting, it looks like sora is powered by a Game Engine, and generates artifacts and parameters for the Game Engine."
+  },
+  {
+    "tweet_id": "1758198387919184050",
+    "url": "https://x.com/soumithchintala/status/1758198387919184050",
+    "author": "soumithchintala",
+    "date": "2024-02-15T18:35:36.000Z",
+    "text": "nothing short of mind-blowing!\nholy shit, the future is getting crazy!"
+  },
+  {
+    "tweet_id": "1758155791654093280",
+    "url": "https://x.com/soumithchintala/status/1758155791654093280",
+    "author": "soumithchintala",
+    "date": "2024-02-15T15:46:20.000Z",
+    "text": "Would love to try this. Its a long enough context length that we can throw in the entire PyTorch codebase and ask questions.\nHappy to document my experience and give feedback."
+  },
+  {
+    "tweet_id": "1756397585873457216",
+    "url": "https://x.com/soumithchintala/status/1756397585873457216",
+    "author": "soumithchintala",
+    "date": "2024-02-10T19:19:51.000Z",
+    "text": "RIP.\nIf you willing to share your code on Github, can take a look."
+  },
+  {
+    "tweet_id": "1755598362298958127",
+    "url": "https://x.com/soumithchintala/status/1755598362298958127",
+    "author": "soumithchintala",
+    "date": "2024-02-08T14:24:01.000Z",
+    "text": "a bunch of my favorite people at \n@LightningAI\n now.\n\n@lantiga\n \n@ThomasViehmann\n \n@rasbt\n \n@mikeruberry\n \nfun!"
+  },
+  {
+    "tweet_id": "1753181120068304989",
+    "url": "https://x.com/soumithchintala/status/1753181120068304989",
+    "author": "soumithchintala",
+    "date": "2024-02-01T22:18:46.000Z",
+    "text": "If you have questions about why Meta open-sources its AI, here's a clear answer in Meta's earnings call today from \n@finkd"
+  },
+  {
+    "tweet_id": "1753156307568267582",
+    "url": "https://x.com/soumithchintala/status/1753156307568267582",
+    "author": "soumithchintala",
+    "date": "2024-02-01T20:40:10.000Z",
+    "text": "very cool to release training data scripts and training code!!!\n\n@allen_ai\n is pushing the limits of openness, great work."
+  },
+  {
+    "tweet_id": "1752817853831557455",
+    "url": "https://x.com/soumithchintala/status/1752817853831557455",
+    "author": "soumithchintala",
+    "date": "2024-01-31T22:15:16.000Z",
+    "text": "useful for PSC....\nbut regardless, its been getting better and i'm sure progress will be made to satisfy your bar one day :D"
+  },
+  {
+    "tweet_id": "1752815374565875875",
+    "url": "https://x.com/soumithchintala/status/1752815374565875875",
+    "author": "soumithchintala",
+    "date": "2024-01-31T22:05:25.000Z",
+    "text": "great release from \n@teknium\n, doing a lot of high-quality data filtering and curating work, and opening it up."
+  },
+  {
+    "tweet_id": "1752016998454657347",
+    "url": "https://x.com/soumithchintala/status/1752016998454657347",
+    "author": "soumithchintala",
+    "date": "2024-01-29T17:12:57.000Z",
+    "text": "new CodeLlama 70B drop from \n@syhw\n and team.\nOffline benchmarks look pretty good, but try it out and see for yourself!"
+  },
+  {
+    "tweet_id": "1750957141257552355",
+    "url": "https://x.com/soumithchintala/status/1750957141257552355",
+    "author": "soumithchintala",
+    "date": "2024-01-26T19:01:28.000Z",
+    "text": "the models are homogeneous, the hardware SKUs are homogeneous, so the overall perf tuning/search space is relatively small. So, the bounded search makes it less moaty -- competitors are also searching within the same bounded space.\nI cover more on this in my upcoming Latent Space"
+  },
+  {
+    "tweet_id": "1750941240898552194",
+    "url": "https://x.com/soumithchintala/status/1750941240898552194",
+    "author": "soumithchintala",
+    "date": "2024-01-26T17:58:17.000Z",
+    "text": "Great LLM Inference benchmark -- all the right variables are in there.\nNow, the race to the bottom begins, because in LLM Inference there isn't a sustainable long-term technology or software moat. IMHO the margins are going to resemble grocery stores and laundromats...\nSome of"
+  },
+  {
+    "tweet_id": "1750928990670344561",
+    "url": "https://x.com/soumithchintala/status/1750928990670344561",
+    "author": "soumithchintala",
+    "date": "2024-01-26T17:09:36.000Z",
+    "text": "Very interesting update.\nMaybe Google's distribution effects are starting to drive a runaway advantage..."
+  },
+  {
+    "tweet_id": "1749824943909671179",
+    "url": "https://x.com/soumithchintala/status/1749824943909671179",
+    "author": "soumithchintala",
+    "date": "2024-01-23T16:02:31.000Z",
+    "text": "chris olah's posts and papers are  highly accessible and exciting. maybe thats a cause."
+  },
+  {
+    "tweet_id": "1748116909105549617",
+    "url": "https://x.com/soumithchintala/status/1748116909105549617",
+    "author": "soumithchintala",
+    "date": "2024-01-18T22:55:24.000Z",
+    "text": "the 350k H100s by the end of 2024 includes the H100s that we already have. Now do the math"
+  },
+  {
+    "tweet_id": "1748074223187173724",
+    "url": "https://x.com/soumithchintala/status/1748074223187173724",
+    "author": "soumithchintala",
+    "date": "2024-01-18T20:05:47.000Z",
+    "text": "Can finally talk some GPU numbers publicly \nBy the end of the year, Meta will have 600k H100-equivalent GPUs.\nFeel free to guess what's already deployed and being used !"
+  },
+  {
+    "tweet_id": "1747691226797605365",
+    "url": "https://x.com/soumithchintala/status/1747691226797605365",
+    "author": "soumithchintala",
+    "date": "2024-01-17T18:43:53.000Z",
+    "text": "There's  very cool arbitrage happening right now -- with \n@hippoml_com\n \n@FireworksAI_HQ\n \n@togethercompute\n -- where they're writing GPU kernels to improve efficiency on configurations of hardware + workloads that are important but not looked at by large providers.\nThis is obviously a"
+  },
+  {
+    "tweet_id": "1743709237560119318",
+    "url": "https://x.com/soumithchintala/status/1743709237560119318",
+    "author": "soumithchintala",
+    "date": "2024-01-06T19:00:53.000Z",
+    "text": "not that I know of. GPT-4 has been far ahead of anything else (closed or open) in my experience, practically."
+  },
+  {
+    "tweet_id": "1743707626603507834",
+    "url": "https://x.com/soumithchintala/status/1743707626603507834",
+    "author": "soumithchintala",
+    "date": "2024-01-06T18:54:29.000Z",
+    "text": "over the last couple of days, I've been answering PyTorch forum questions using GPT-4 as a co-pilot.\n\nThe coolest/hardest one was to write a tiled Conv2d (accounting for edge effects) -- i kept telling GPT how it was wrong, and it basically gave me a working solution."
+  },
+  {
+    "tweet_id": "1743650886151213533",
+    "url": "https://x.com/soumithchintala/status/1743650886151213533",
+    "author": "soumithchintala",
+    "date": "2024-01-06T15:09:01.000Z",
+    "text": "came back home to this beautiful first issue from \n@runwayml\n that bridges the Art and AI communities.\n\nA quote from the mag:\n\"if the result blows you away, it's because traditional steps, planning and human talent are still behind it.\" - Ricardo Vilavicencio, the creator of the"
+  },
+  {
+    "tweet_id": "1742979471681151223",
+    "url": "https://x.com/soumithchintala/status/1742979471681151223",
+    "author": "soumithchintala",
+    "date": "2024-01-04T18:41:03.000Z",
+    "text": "More demos from the Mobile ALOHA platform.\nThis is human-teleop, so this showcases the capability of the hardware, which looks solid.\n\nThe idea to use a warehouse-class robot as the base is very clever \n\nGreat work \n@zipengfu\n \n@tonyzzhao\n \n@chelseabfinn\n , very exciting!"
+  },
+  {
+    "tweet_id": "1742635014511026492",
+    "url": "https://x.com/soumithchintala/status/1742635014511026492",
+    "author": "soumithchintala",
+    "date": "2024-01-03T19:52:18.000Z",
+    "text": "Cool new ~home robotics platform, and great to see more work in this direction!\n\nmight be a bit too large for NYC apartments though :)"
+  },
+  {
+    "tweet_id": "1742513171955425369",
+    "url": "https://x.com/soumithchintala/status/1742513171955425369",
+    "author": "soumithchintala",
+    "date": "2024-01-03T11:48:09.000Z",
+    "text": "pedantic annoyed that your arxiv links link to the PDF and not to the abstract page"
+  },
+  {
+    "tweet_id": "1742295582264238360",
+    "url": "https://x.com/soumithchintala/status/1742295582264238360",
+    "author": "soumithchintala",
+    "date": "2024-01-02T21:23:31.000Z",
+    "text": "gpt-fast now supports mixtral-8x7B, in addition to gpt/llama.\n1000 lines of simple pytorch code blazing it out!\n\nhttps://\ngithub.com/pytorch-labs/g\npt-fast/pull/71\n…"
+  },
+  {
+    "tweet_id": "1741407546693308770",
+    "url": "https://x.com/soumithchintala/status/1741407546693308770",
+    "author": "soumithchintala",
+    "date": "2023-12-31T10:34:47.000Z",
+    "text": "yes its here to stay, as it doesn't need complete coverage to be useful (unlike named tensors)"
+  },
+  {
+    "tweet_id": "1741398375348478137",
+    "url": "https://x.com/soumithchintala/status/1741398375348478137",
+    "author": "soumithchintala",
+    "date": "2023-12-31T09:58:20.000Z",
+    "text": "functorch.dim and its docs.\nused to be here but it's upstreamed now to functorch.dim"
+  },
+  {
+    "tweet_id": "1741391629649379582",
+    "url": "https://x.com/soumithchintala/status/1741391629649379582",
+    "author": "soumithchintala",
+    "date": "2023-12-31T09:31:32.000Z",
+    "text": "we actively stopped developing named tensors in favor of tensor dims"
+  },
+  {
+    "tweet_id": "1738929215712403493",
+    "url": "https://x.com/soumithchintala/status/1738929215712403493",
+    "author": "soumithchintala",
+    "date": "2023-12-24T14:26:47.000Z",
+    "text": "google did something like this in 2017 when RL was the rage. i remember seeing a cookie baking at their booth at a conference, where the recipe was RL optimized"
+  },
+  {
+    "tweet_id": "1738343467447673060",
+    "url": "https://x.com/soumithchintala/status/1738343467447673060",
+    "author": "soumithchintala",
+    "date": "2023-12-22T23:39:14.000Z",
+    "text": "really useful post covering most of the recent tricks in LLM Inference and some tricks from LLM training -- and in a very approachable, easy-access way.\ngreat read!"
+  },
+  {
+    "tweet_id": "1738341612776788392",
+    "url": "https://x.com/soumithchintala/status/1738341612776788392",
+    "author": "soumithchintala",
+    "date": "2023-12-22T23:31:51.000Z",
+    "text": "great news! I'm glad you're taking these next steps, and thanks for the response.\n\nIf you add cost and proper long-horizon at-scale reliability, then the user signal given by throughput to an extent can be inferred, so it should be okay -- so this seems fine."
+  },
+  {
+    "tweet_id": "1738300630077415792",
+    "url": "https://x.com/soumithchintala/status/1738300630077415792",
+    "author": "soumithchintala",
+    "date": "2023-12-22T20:49:00.000Z",
+    "text": "IMO apple will not call gpt3 because NIH and expense -- and the local models (1B to 3B range) won't be as good. \nI think they'll build their own large model and local models and use them smartly (auto-routing or something). Maybe they'll fork Mistral's latest."
+  },
+  {
+    "tweet_id": "1738285000234336466",
+    "url": "https://x.com/soumithchintala/status/1738285000234336466",
+    "author": "soumithchintala",
+    "date": "2023-12-22T19:46:54.000Z",
+    "text": "i remember some databases had a no-benchmark license / terms of service. Benchmarking those databases was illegal / grounds to sue. Oracle was one.\n\n\nhttps://\ndanluu.com/anon-benchmark\n/#:~:text=Over%20the%20years%2C%20many%20major,forbids%20benchmarking%20of%20their%20database\n…."
+  },
+  {
+    "tweet_id": "1738277064581788018",
+    "url": "https://x.com/soumithchintala/status/1738277064581788018",
+    "author": "soumithchintala",
+    "date": "2023-12-22T19:15:22.000Z",
+    "text": "if the recent iPhones are any trend, they're going to be 2 years behind, mediocre but well-integrated, and timmy is going to announce on stage that its a breakthrough"
+  },
+  {
+    "tweet_id": "1738244908702367936",
+    "url": "https://x.com/soumithchintala/status/1738244908702367936",
+    "author": "soumithchintala",
+    "date": "2023-12-22T17:07:35.000Z",
+    "text": "yep, except now stakes are higher as there's crazy money involved"
+  },
+  {
+    "tweet_id": "1738241213327692174",
+    "url": "https://x.com/soumithchintala/status/1738241213327692174",
+    "author": "soumithchintala",
+    "date": "2023-12-22T16:52:54.000Z",
+    "text": "it pains me to see a poorly constructed benchmark coming from a credible source. I hope \n@anyscalecompute\n fixes things, and also consults other stakeholders before publishing such benchmarks. If I didn't know Anyscale closely, i would have attributed bad faith.\nLets dive into"
+  },
+  {
+    "tweet_id": "1737318547552928085",
+    "url": "https://x.com/soumithchintala/status/1737318547552928085",
+    "author": "soumithchintala",
+    "date": "2023-12-20T03:46:34.000Z",
+    "text": "@gdb\n i think you'll like this post. more tools to detect subtle but annoying issues easier."
+  },
+  {
+    "tweet_id": "1736840918680944841",
+    "url": "https://x.com/soumithchintala/status/1736840918680944841",
+    "author": "soumithchintala",
+    "date": "2023-12-18T20:08:38.000Z",
+    "text": "I follow the summations and network connectivity to understand resilience to information loss.\nWhen each output is the sum over a large set of input computations, which themselves densely cross-connect in previous layers -- I just expect information to be really resilient to"
+  },
+  {
+    "tweet_id": "1736796270230917580",
+    "url": "https://x.com/soumithchintala/status/1736796270230917580",
+    "author": "soumithchintala",
+    "date": "2023-12-18T17:11:13.000Z",
+    "text": "I think this breezes past as the fastest bs=1 inference I know.\nWith plain and simple PyTorch code.\nSpeculative Decoding isn't even applied, and will be purely additive..."
+  },
+  {
+    "tweet_id": "1736584792789975514",
+    "url": "https://x.com/soumithchintala/status/1736584792789975514",
+    "author": "soumithchintala",
+    "date": "2023-12-18T03:10:53.000Z",
+    "text": "Mirrored here for resilience and googleability: \nhttps://\nsoumith.ch/posts/2023/12/\npytorch-design-origins/\n…"
+  },
+  {
+    "tweet_id": "1736561911095800014",
+    "url": "https://x.com/soumithchintala/status/1736561911095800014",
+    "author": "soumithchintala",
+    "date": "2023-12-18T01:39:58.000Z",
+    "text": "More References:\n6. torch-autograd: \nhttps://\ngithub.com/twitter-archiv\ne/torch-autograd\n… \n7.  HIPS/Autograd: \nhttps://\ngithub.com/HIPS/autograd\n8. THNN refactors: \n  * \nhttps://\ngithub.com/torch/nn/pulls\n?q=is%3Apr+is%3Aclosed+THNN\n…\n  * \nhttps://\ngithub.com/torch/cunn/pul\nls?q=is%3Apr+is%3Aclosed+THCUNN\n…\n9. Online chat where the THNN organization happened: \nhttps://\napp.gitter.im/#/room/#apaszk\ne_THNN:gitter.im\n…"
+  },
+  {
+    "tweet_id": "1736556250576359439",
+    "url": "https://x.com/soumithchintala/status/1736556250576359439",
+    "author": "soumithchintala",
+    "date": "2023-12-18T01:17:28.000Z",
+    "text": "I've given a full and comprehensive answer here, but the tl;dr for \n@roydanroy\n is that PyTorch did not start with a git clone from Ryan's lab's software."
+  },
+  {
+    "tweet_id": "1736555978982576477",
+    "url": "https://x.com/soumithchintala/status/1736555978982576477",
+    "author": "soumithchintala",
+    "date": "2023-12-18T01:16:23.000Z",
+    "text": "this post was inspired by this thread that I was tagged into asking to (yet again) to clarify some details about the origins of PyTorch :)"
+  },
+  {
+    "tweet_id": "1736555740448362890",
+    "url": "https://x.com/soumithchintala/status/1736555740448362890",
+    "author": "soumithchintala",
+    "date": "2023-12-18T01:15:26.000Z",
+    "text": "PyTorch's design origins, its connection to Lua, its intertwined deep connection to JAX, its symbiotic connection to Chainer\n\nThe groundwork for PyTorch originally started in early 2016, online, among a band of Torch7's contributors. \n\nTorch7 (~2010-2017)\nThese days, we also"
+  },
+  {
+    "tweet_id": "1735351172234432858",
+    "url": "https://x.com/soumithchintala/status/1735351172234432858",
+    "author": "soumithchintala",
+    "date": "2023-12-14T17:28:55.000Z",
+    "text": "oh man, people are focusing on \"which paper\" I read. I actually read three papers yesterday:\n1. Are Open-Source LLM's catching up by @HailinChen3 \net. al.: \nhttps://\narxiv.org/abs/2311.16989\n2. System 2 Attention by @jaseweston and @tesatory : \nhttps://\narxiv.org/abs/2311.11829\n3. (Part-way through"
+  },
+  {
+    "tweet_id": "1735350998254731574",
+    "url": "https://x.com/soumithchintala/status/1735350998254731574",
+    "author": "soumithchintala",
+    "date": "2023-12-14T17:28:13.000Z",
+    "text": "oh man, people are focusing on \"which paper\" I read. I actually read three papers yesterday:\n1. Are Open-Source LLM's catching up by \n@HailinChen3\n \net. al.: \nhttps://\narxiv.org/abs/2311.16989\n2. System 2 Attention by \n@jaseweston\n and \n@tesatory\n : \nhttps://\narxiv.org/abs/2311.11829\n3. (Part-way through"
+  },
+  {
+    "tweet_id": "1735317086606348702",
+    "url": "https://x.com/soumithchintala/status/1735317086606348702",
+    "author": "soumithchintala",
+    "date": "2023-12-14T15:13:28.000Z",
+    "text": "Yesterday I read an 8-page paper. Breezed through it like a Netflix episode.\nClear, concise, and considerate of my time.\nSomehow we've regressed to writing 30+ page epics (i'm guilty too)."
+  },
+  {
+    "tweet_id": "1734949426555162827",
+    "url": "https://x.com/soumithchintala/status/1734949426555162827",
+    "author": "soumithchintala",
+    "date": "2023-12-13T14:52:31.000Z",
+    "text": "this is what you do if you truly want to acc \ngreat stuff \n@arthurmensch\n!"
+  },
+  {
+    "tweet_id": "1734790106454589657",
+    "url": "https://x.com/soumithchintala/status/1734790106454589657",
+    "author": "soumithchintala",
+    "date": "2023-12-13T04:19:26.000Z",
+    "text": "congrats on the fresh start! good luck, hope you produce the next breakthrough"
+  },
+  {
+    "tweet_id": "1734757651114811497",
+    "url": "https://x.com/soumithchintala/status/1734757651114811497",
+    "author": "soumithchintala",
+    "date": "2023-12-13T02:10:28.000Z",
+    "text": "looks super cool. lots of progress since the last one"
+  },
+  {
+    "tweet_id": "1734247996911714671",
+    "url": "https://x.com/soumithchintala/status/1734247996911714671",
+    "author": "soumithchintala",
+    "date": "2023-12-11T16:25:17.000Z",
+    "text": "For a large enough batch size on a given expert, you'll either saturate the SMs or run out of memory"
+  },
+  {
+    "tweet_id": "1734034700484702451",
+    "url": "https://x.com/soumithchintala/status/1734034700484702451",
+    "author": "soumithchintala",
+    "date": "2023-12-11T02:17:44.000Z",
+    "text": "It can be unintuitive why the Transformer-style MoE (in Mixtral/GPT4) has inference benefits.\nDima simplifies it with a clear explanation showcasing that MoE help inference once there's sufficient volume of requests (which hopefully are diverse enough that they don't hit the same"
+  },
+  {
+    "tweet_id": "1733310147743662107",
+    "url": "https://x.com/soumithchintala/status/1733310147743662107",
+    "author": "soumithchintala",
+    "date": "2023-12-09T02:18:37.000Z",
+    "text": "the most convincing evidence I've seen so far that open-source will in-due-time accelerate away far beyond closed-source models.\n\nPeople just want to use these models to best fit their use-case; a single company's closed-source effort rate-limits against people's imaginations and"
+  },
+  {
+    "tweet_id": "1730700793865486471",
+    "url": "https://x.com/soumithchintala/status/1730700793865486471",
+    "author": "soumithchintala",
+    "date": "2023-12-01T21:29:58.000Z",
+    "text": "and there are countless people that I know at FAIR that literally only cared about their intrinsic motivated rewards and did quite well (including getting super senior), because as a side-effect of their great intrinsically motivated research was great extrinsic impact. they"
+  },
+  {
+    "tweet_id": "1730698227131846856",
+    "url": "https://x.com/soumithchintala/status/1730698227131846856",
+    "author": "soumithchintala",
+    "date": "2023-12-01T21:19:46.000Z",
+    "text": "i haven't kept up since i moved to infra ~1.5 years ago (to take care of pytorch), but Scientists were evaluated in one of three ways (people could do parts of each too):\n1. finish a fully formed work, and publish. You'd only get rewarded once the published work is validated as"
+  },
+  {
+    "tweet_id": "1730681910794338765",
+    "url": "https://x.com/soumithchintala/status/1730681910794338765",
+    "author": "soumithchintala",
+    "date": "2023-12-01T20:14:56.000Z",
+    "text": "that's not a thing lol.\nyou think researchers like ross and kaiming would be held over publication quotas?"
+  },
+  {
+    "tweet_id": "1730428930312524011",
+    "url": "https://x.com/soumithchintala/status/1730428930312524011",
+    "author": "soumithchintala",
+    "date": "2023-12-01T03:29:41.000Z",
+    "text": "Congrats Aaron (also on X as \n@SkyLi0n\n)! truly well-deserved."
+  },
+  {
+    "tweet_id": "1730297950608208378",
+    "url": "https://x.com/soumithchintala/status/1730297950608208378",
+    "author": "soumithchintala",
+    "date": "2023-11-30T18:49:13.000Z",
+    "text": "10 crazy years -- pytorch, detectron, segment-anything, llama, faiss, wav2vec, biggraph, fasttext,  the Cake below the cherry, and so much more.\nCan't say we didn't change AI and to an extent the world."
+  },
+  {
+    "tweet_id": "1730297221592051793",
+    "url": "https://x.com/soumithchintala/status/1730297221592051793",
+    "author": "soumithchintala",
+    "date": "2023-11-30T18:46:19.000Z",
+    "text": "using simple pytorch code and advanced features, you get LLM Inference speeds that beat most LLM Inference engines out there.\n\nCheckout this great post and work from \n@cHHillee"
+  },
+  {
+    "tweet_id": "1729741075416277321",
+    "url": "https://x.com/soumithchintala/status/1729741075416277321",
+    "author": "soumithchintala",
+    "date": "2023-11-29T05:56:24.000Z",
+    "text": "Reminds me of verse-jumps.\n\"In the Alphaverse, the late Alpha-Evelyn developed \"verse-jumping\" technology, which enables people to access the skills, memories, and bodies of their parallel selves by performing bizarre actions that are statistically unlikely.\" \nhttps://\nx.com/katherine1ee/s\n/katherine1ee/status/1729690964942377076\n…"
+  },
+  {
+    "tweet_id": "1729625314152665217",
+    "url": "https://x.com/soumithchintala/status/1729625314152665217",
+    "author": "soumithchintala",
+    "date": "2023-11-28T22:16:24.000Z",
+    "text": "uh where can I sign up for this AI Discord summarizer? need it asap."
+  },
+  {
+    "tweet_id": "1729525249778061759",
+    "url": "https://x.com/soumithchintala/status/1729525249778061759",
+    "author": "soumithchintala",
+    "date": "2023-11-28T15:38:47.000Z",
+    "text": "What is the UX for good home robots?\nHuman uses a picker to do a task for 5 mins -> Robot learns the task\n\n* Dobb.E: Open Robot Platform\n* Validated in 10 NYC homes, 100+ tasks, 82% accuracy\n* Easy-to-buy and relatively affordable hardware: \n@hellorobotinc\n + iPhone + picker\n\nThis"
+  },
+  {
+    "tweet_id": "1727583173213573319",
+    "url": "https://x.com/soumithchintala/status/1727583173213573319",
+    "author": "soumithchintala",
+    "date": "2023-11-23T07:01:40.000Z",
+    "text": "any reasonably competent LLM should be sufficient to evaluate, as LLMs are a lot more robust to comparing two texts (than to evaluate an answer in isolation). I'd say one can even just do cosine distance on sentence embeddings if we want to avoid the LLM evaluates an LLM"
+  },
+  {
+    "tweet_id": "1727462986451706197",
+    "url": "https://x.com/soumithchintala/status/1727462986451706197",
+    "author": "soumithchintala",
+    "date": "2023-11-22T23:04:05.000Z",
+    "text": "I love the \"Needle in a Haystack\" analysis from \n@GregKamradt\n .\nHelps us move past stats like \"Larger Context Window\" to something we care about which the Context Window actually ends up working in practice."
+  },
+  {
+    "tweet_id": "1726734683877110093",
+    "url": "https://x.com/soumithchintala/status/1726734683877110093",
+    "author": "soumithchintala",
+    "date": "2023-11-20T22:50:04.000Z",
+    "text": "the tight-knit family-like organizing from the \n@OpenAI\n employees overnight.\nprobably will keep them together for years to come."
+  },
+  {
+    "tweet_id": "1726481705756684735",
+    "url": "https://x.com/soumithchintala/status/1726481705756684735",
+    "author": "soumithchintala",
+    "date": "2023-11-20T06:04:49.000Z",
+    "text": "to my researcher friends (at \n@openai\n and those who watched this saga unfold) -- if you want to focus on doing solid *open* and published research, have access to lots of hardware -- there are a few options: Meta, Mistral, etc.\ndon't let your work get lost in corporate sagas!"
+  },
+  {
+    "tweet_id": "1726472005447217295",
+    "url": "https://x.com/soumithchintala/status/1726472005447217295",
+    "author": "soumithchintala",
+    "date": "2023-11-20T05:26:17.000Z",
+    "text": "this weekend has been very sad.\nMy friends at \n@OpenAI\n swore that it had become a magical place, with the talent density, velocity, research focus and (yet) a product fit that is really generational.\n\nFor such a place to breakdown in the cringiest way possible is doubly sad."
+  },
+  {
+    "tweet_id": "1725250075155448009",
+    "url": "https://x.com/soumithchintala/status/1725250075155448009",
+    "author": "soumithchintala",
+    "date": "2023-11-16T20:30:46.000Z",
+    "text": "Look at the fine image editing control.\nEmuEdit is pretty cool!\n\nhttps://\nemu-edit.metademolab.com"
+  },
+  {
+    "tweet_id": "1725249342477394238",
+    "url": "https://x.com/soumithchintala/status/1725249342477394238",
+    "author": "soumithchintala",
+    "date": "2023-11-16T20:27:51.000Z",
+    "text": "Music generation now has high-quality vocals. This is getting surreal.\nGreat work from the Lyria team at \n@GoogleDeepMind\n !"
+  },
+  {
+    "tweet_id": "1725183007814779051",
+    "url": "https://x.com/soumithchintala/status/1725183007814779051",
+    "author": "soumithchintala",
+    "date": "2023-11-16T16:04:16.000Z",
+    "text": "not everyone would say yes to RAG being in the \"transformers are all you need\" bucket, which is why i think it's I'll defined"
+  },
+  {
+    "tweet_id": "1725175993332077015",
+    "url": "https://x.com/soumithchintala/status/1725175993332077015",
+    "author": "soumithchintala",
+    "date": "2023-11-16T15:36:23.000Z",
+    "text": "i think to add reasoning to NLP machines you'll have to add more than transformers.\na search of some kind.\nalso...is retrieval augmented generation \"just transformers\" :p\n\n@AravSrinivas\n might disagree"
+  },
+  {
+    "tweet_id": "1725169457742405849",
+    "url": "https://x.com/soumithchintala/status/1725169457742405849",
+    "author": "soumithchintala",
+    "date": "2023-11-16T15:10:25.000Z",
+    "text": "its ill-defined. It's like asking if \"ConvNets are all you need\", and someone adds MCTS to the pipeline and gets to AlphaZero. Then, ConvNets are still the base model, and you win the wager. But are ConvNets all you need?"
+  },
+  {
+    "tweet_id": "1724178246093177293",
+    "url": "https://x.com/soumithchintala/status/1724178246093177293",
+    "author": "soumithchintala",
+    "date": "2023-11-13T21:31:42.000Z",
+    "text": "First, there aren't really many \"open source\" datasets.\nMost of the datasets are just scrapes from the internet -- CommonCrawl, libgen etc.\nIf we're talking about scrapes from the internet and ignoring other aspects (legal, credit etc.) there are things like ShareGPT that have"
+  },
+  {
+    "tweet_id": "1721973891101302892",
+    "url": "https://x.com/soumithchintala/status/1721973891101302892",
+    "author": "soumithchintala",
+    "date": "2023-11-07T19:32:23.000Z",
+    "text": "GPT-4V was announced during the March releases -- Greg showed the demo and stuff. So, in that direct sense its not net-new in recent releases.\nIt is a step function, for sure."
+  },
+  {
+    "tweet_id": "1721950661342810212",
+    "url": "https://x.com/soumithchintala/status/1721950661342810212",
+    "author": "soumithchintala",
+    "date": "2023-11-07T18:00:04.000Z",
+    "text": "This is how it was during the last round of announcements:"
+  },
+  {
+    "tweet_id": "1721949982322749488",
+    "url": "https://x.com/soumithchintala/status/1721949982322749488",
+    "author": "soumithchintala",
+    "date": "2023-11-07T17:57:22.000Z",
+    "text": "The OpenAI announcements were both super-exciting and somewhat disappointing at the same time.\n\nMaybe because people (incl. me) expected the same step-function upgrade from the last family of announcements, and it felt short."
+  },
+  {
+    "tweet_id": "1721911762151235915",
+    "url": "https://x.com/soumithchintala/status/1721911762151235915",
+    "author": "soumithchintala",
+    "date": "2023-11-07T15:25:30.000Z",
+    "text": "generally, this is countered by people moving around and the secrecy organically melting.\nI'd expect a ~1 year secrecy to be maintainable, and melting away after that."
+  },
+  {
+    "tweet_id": "1719547731130102110",
+    "url": "https://x.com/soumithchintala/status/1719547731130102110",
+    "author": "soumithchintala",
+    "date": "2023-11-01T02:51:41.000Z",
+    "text": "In 270 days, the Department of Commerce will determine whether they will allow open-weights or not.\n\nif you support open model weights and want something actionable to do, then figure out how to lobby your opinion to them."
+  },
+  {
+    "tweet_id": "1719389909981569403",
+    "url": "https://x.com/soumithchintala/status/1719389909981569403",
+    "author": "soumithchintala",
+    "date": "2023-10-31T16:24:33.000Z",
+    "text": "uh, for starters how would you guard the equipment from pirates?\n\nseems like a painted target in international waters."
+  },
+  {
+    "tweet_id": "1719379830632743089",
+    "url": "https://x.com/soumithchintala/status/1719379830632743089",
+    "author": "soumithchintala",
+    "date": "2023-10-31T15:44:30.000Z",
+    "text": "GPT4 seems to have stochasticity -- it also gave me 250k (wrong) and 25k (correct) in subsequent tries:"
+  },
+  {
+    "tweet_id": "1719377822714646549",
+    "url": "https://x.com/soumithchintala/status/1719377822714646549",
+    "author": "soumithchintala",
+    "date": "2023-10-31T15:36:32.000Z",
+    "text": "I asked GPT4, Claude and Llama2 to tell me how many H100 GPUs I need before I need to start reporting to the US Government.\nThey all got it wrong \n* GPT said 25m GPUs\n* Claude said 250k GPUs\n* Llama2 gave the gpu-poor answer and said 257 GPUs.\n\nThe correct answer is 25k GPUs."
+  },
+  {
+    "tweet_id": "1719118795971678423",
+    "url": "https://x.com/soumithchintala/status/1719118795971678423",
+    "author": "soumithchintala",
+    "date": "2023-10-30T22:27:15.000Z",
+    "text": "The AI Regulation ill-specifies fine-tuning.\n\nIn this ill-defined state, its not clear if you train a model for 1e25 flops, release it, and someone else trains it further for 1e25 flops, if any reporting has to occur."
+  },
+  {
+    "tweet_id": "1719118794809860559",
+    "url": "https://x.com/soumithchintala/status/1719118794809860559",
+    "author": "soumithchintala",
+    "date": "2023-10-30T22:27:15.000Z",
+    "text": "The AI Regulation says nothing about Bitwise operations -- only floating or integer.\nBitwise aficionados go party for now."
+  },
+  {
+    "tweet_id": "1719118793597755555",
+    "url": "https://x.com/soumithchintala/status/1719118793597755555",
+    "author": "soumithchintala",
+    "date": "2023-10-30T22:27:14.000Z",
+    "text": "Calculations:\nLLaMa2-70B was trained on 2T tokens, and 3.3m hours of A100 GPU time. At a HFU of ~60%, LLama2-70B took ~4.4e+24 flops (3.3m * 624TFlops bfloat16 * 60% HFU)."
+  },
+  {
+    "tweet_id": "1719118791773208713",
+    "url": "https://x.com/soumithchintala/status/1719118791773208713",
+    "author": "soumithchintala",
+    "date": "2023-10-30T22:27:14.000Z",
+    "text": "Regulation starts at roughly two orders of magnitude larger than a ~70B Transformer trained on 2T tokens -- which is ~5e24.\n\nNote: increasing the size of the dataset OR the size of the transformer increases training flops.\n\nThe (rumored) size of GPT-4 is regulated."
+  },
+  {
+    "tweet_id": "1719042749284921677",
+    "url": "https://x.com/soumithchintala/status/1719042749284921677",
+    "author": "soumithchintala",
+    "date": "2023-10-30T17:25:04.000Z",
+    "text": "list out all the user data and internet data the model was trained on. Is GPT4 trained on Youtube? On propaganda videos specifically? That's the kind of transparency that will be strictly useful"
+  },
+  {
+    "tweet_id": "1719040512802292190",
+    "url": "https://x.com/soumithchintala/status/1719040512802292190",
+    "author": "soumithchintala",
+    "date": "2023-10-30T17:16:11.000Z",
+    "text": "The AI Executive Order is here, for better or worse.\n(my thoughts further below)\n\nIt directs the government to move AI towards transparency, adding bureaucracy, process and standards, increasing R&D funding and directing fairly sweeping policy changes across a wide range of"
+  },
+  {
+    "tweet_id": "1717220513745969654",
+    "url": "https://x.com/soumithchintala/status/1717220513745969654",
+    "author": "soumithchintala",
+    "date": "2023-10-25T16:44:09.000Z",
+    "text": "Is there a Google/Bing Search + LLM available as an API today to try?\n\n* \n@perplexity_ai\n is the best here, but their search+LLM not yet available as an API\n* Bard APIs are not openly available yet\n\n(need to do some data processing asap)"
+  },
+  {
+    "tweet_id": "1716502678602416316",
+    "url": "https://x.com/soumithchintala/status/1716502678602416316",
+    "author": "soumithchintala",
+    "date": "2023-10-23T17:11:44.000Z",
+    "text": "Currently, we overfit to exploring AI techniques that work well on NVIDIA GPUs.\nWith the AI Accelerator sanctions on China -- one interesting result might be that China forks silicon and explores a different idea-space in AI techniques than the rest of the world."
+  },
+  {
+    "tweet_id": "1715231803064422786",
+    "url": "https://x.com/soumithchintala/status/1715231803064422786",
+    "author": "soumithchintala",
+    "date": "2023-10-20T05:01:43.000Z",
+    "text": "couldn't have gone to someone more deserving!\nCongrats again Piotr!"
+  },
+  {
+    "tweet_id": "1714774083198709857",
+    "url": "https://x.com/soumithchintala/status/1714774083198709857",
+    "author": "soumithchintala",
+    "date": "2023-10-18T22:42:55.000Z",
+    "text": "thanks for coming to your first pytorch conference. it was great having you there!"
+  },
+  {
+    "tweet_id": "1714773968136356120",
+    "url": "https://x.com/soumithchintala/status/1714773968136356120",
+    "author": "soumithchintala",
+    "date": "2023-10-18T22:42:27.000Z",
+    "text": "my bad, didn't realize it was not public yet. We'll work on publishing it asap. We basically have a stateful Tensor subclass and a Float8Linear layer that work together to get to working Float8 training."
+  },
+  {
+    "tweet_id": "1714293917628461526",
+    "url": "https://x.com/soumithchintala/status/1714293917628461526",
+    "author": "soumithchintala",
+    "date": "2023-10-17T14:54:54.000Z",
+    "text": "this has a lot more documentation \n\nhttps://\ngithub.com/pytorch-labs/f\nloat8_experimental\n…"
+  },
+  {
+    "tweet_id": "1714072352160628913",
+    "url": "https://x.com/soumithchintala/status/1714072352160628913",
+    "author": "soumithchintala",
+    "date": "2023-10-17T00:14:29.000Z",
+    "text": "pretty excited for the \n@pytorch\n conference today and tomorrow.\n\nSome very interesting work being talked about in our Maintainers Keynote in the morning...a big one and a few smaller-but-super-high-impact ones (my favorite being around perf).\n\nhope to catch you tomorrow!!!"
+  },
+  {
+    "tweet_id": "1713701022554542096",
+    "url": "https://x.com/soumithchintala/status/1713701022554542096",
+    "author": "soumithchintala",
+    "date": "2023-10-15T23:38:57.000Z",
+    "text": "In Open Licensing, what is the \"Linking and Derived Works Clause\" equivalent for LLMs that will help them progress further like it did for GPL and GNU/Linux?"
+  },
+  {
+    "tweet_id": "1713700065867370545",
+    "url": "https://x.com/soumithchintala/status/1713700065867370545",
+    "author": "soumithchintala",
+    "date": "2023-10-15T23:35:09.000Z",
+    "text": "correct, a purely open-source volunteer model is not going to solve this.\nMaybe a licensing change for Open LLMs, like GPL did -- where you give the model openly, but with the condition that the companies licensing it have to make all 1-bit human feedback that they've collected"
+  },
+  {
+    "tweet_id": "1713698431338754393",
+    "url": "https://x.com/soumithchintala/status/1713698431338754393",
+    "author": "soumithchintala",
+    "date": "2023-10-15T23:28:39.000Z",
+    "text": "Open LLMs need to get organized and co-ordinated about sharing human feedback. It's the weakest link with Open LLMs right now. They don't have 100m+ people giving feedback like in the case of OpenAI/Anthropic/Bard.\nThey can always progress with a Terms-of-Service arbitrage, but"
+  },
+  {
+    "tweet_id": "1712264824753725820",
+    "url": "https://x.com/soumithchintala/status/1712264824753725820",
+    "author": "soumithchintala",
+    "date": "2023-10-12T00:32:01.000Z",
+    "text": "the non-linearity by itself isn't complex, something as simple as max(x, 0).\nthe system of two matmuls and a max in between, combined with gradient descent -- that system becomes fairly complex."
+  },
+  {
+    "tweet_id": "1712262885362012340",
+    "url": "https://x.com/soumithchintala/status/1712262885362012340",
+    "author": "soumithchintala",
+    "date": "2023-10-12T00:24:18.000Z",
+    "text": "the optimization dynamics of a two-layer perceptron are barely understood. that's just two matmuls and one pointwise non-linear function in between"
+  },
+  {
+    "tweet_id": "1712123895329828902",
+    "url": "https://x.com/soumithchintala/status/1712123895329828902",
+    "author": "soumithchintala",
+    "date": "2023-10-11T15:12:01.000Z",
+    "text": "AI is just matrix multiplications.\nBrains are just biochemical interactions.\nMust be simple."
+  },
+  {
+    "tweet_id": "1711343764176806156",
+    "url": "https://x.com/soumithchintala/status/1711343764176806156",
+    "author": "soumithchintala",
+    "date": "2023-10-09T11:32:03.000Z",
+    "text": "another caveat -- if they basically replace the grandfathered stuff with \"synthetic\" data, which is \"checked\" to be non-overlapping, but covers the knowledge sufficiently."
+  },
+  {
+    "tweet_id": "1711343388757205114",
+    "url": "https://x.com/soumithchintala/status/1711343388757205114",
+    "author": "soumithchintala",
+    "date": "2023-10-09T11:30:33.000Z",
+    "text": "easily will take the other side of the bet, unless they do it with big caveats such as only having this policy for newly sourced data (and grandfather in all their existing stuff, including general GenAI companies' rumored scraping of sketchy ToS violating stuff such as youtube)"
+  },
+  {
+    "tweet_id": "1709247113857487067",
+    "url": "https://x.com/soumithchintala/status/1709247113857487067",
+    "author": "soumithchintala",
+    "date": "2023-10-03T16:40:42.000Z",
+    "text": ".\n@jiayq\n of caffe and pytorch fame just launched his AI Inference platform. check it out... \nhttps://\nt.co/Nv9QX41Ga7"
+  },
+  {
+    "tweet_id": "1708834063140700417",
+    "url": "https://x.com/soumithchintala/status/1708834063140700417",
+    "author": "soumithchintala",
+    "date": "2023-10-02T13:19:23.000Z",
+    "text": "the origin of a human idea seems to be so poorly understood, that we claim both that\n* LLMs are able to have creativity\n* LLMs are unable to have creativity because they only regurgitate data\n\nat what point is it regurgitation and at what point does it become original thought?"
+  },
+  {
+    "tweet_id": "1708609403711078745",
+    "url": "https://x.com/soumithchintala/status/1708609403711078745",
+    "author": "soumithchintala",
+    "date": "2023-10-01T22:26:40.000Z",
+    "text": "uh, not me actually -- maybe you just misattribute all those analogies to me -- AI is not electricity and electricity is not AI. Both are cool things though and its not clear that AI is more important than electricity.\n\nThe first person I saw compare AI to electricity is Andrew"
+  },
+  {
+    "tweet_id": "1708446046878122320",
+    "url": "https://x.com/soumithchintala/status/1708446046878122320",
+    "author": "soumithchintala",
+    "date": "2023-10-01T11:37:33.000Z",
+    "text": "which part is insanity? that I'm dunking on all the people using whatever analogy is convenient to further their AI narrative?\n\nregardless, i can confirm that I'm not a good investor and dont take investment advice from me"
+  },
+  {
+    "tweet_id": "1708247931273220505",
+    "url": "https://x.com/soumithchintala/status/1708247931273220505",
+    "author": "soumithchintala",
+    "date": "2023-09-30T22:30:19.000Z",
+    "text": "AI is compared to the Atomic Bomb, the Internet, Google, Electricity, and the list goes on...\nTruth is, we've never dealt with such (potential) empowerment before -- all analogies are falling short.\nSo, people use whatever is convenient to further their narrative.\nUnfortunate."
+  },
+  {
+    "tweet_id": "1707053040652468243",
+    "url": "https://x.com/soumithchintala/status/1707053040652468243",
+    "author": "soumithchintala",
+    "date": "2023-09-27T15:22:15.000Z",
+    "text": "serverless gpu  inference is here!\nthings getting quite interesting now..."
+  },
+  {
+    "tweet_id": "1706412613301612797",
+    "url": "https://x.com/soumithchintala/status/1706412613301612797",
+    "author": "soumithchintala",
+    "date": "2023-09-25T20:57:25.000Z",
+    "text": "no surprise, the man was a beast while at NVIDIA. congrats \n@TheRealRPuri\n !"
+  },
+  {
+    "tweet_id": "1706394499201515924",
+    "url": "https://x.com/soumithchintala/status/1706394499201515924",
+    "author": "soumithchintala",
+    "date": "2023-09-25T19:45:26.000Z",
+    "text": "Touch + Vision + ~6 demonstrations and 1 hour -- solves fairly interesting robotics tasks.\n\nRead more in the quoted thread \n\nThis was a really fun project we did at NYU with \n@irmakkguzey\n \n@LerrelPinto\n \n@justsomecsnerd\n and Yinlong Dai."
+  },
+  {
+    "tweet_id": "1706391347169460295",
+    "url": "https://x.com/soumithchintala/status/1706391347169460295",
+    "author": "soumithchintala",
+    "date": "2023-09-25T19:32:55.000Z",
+    "text": "This is a really cool post, where you get an intuitive feel of Matmuls, including within Transformers, the idea around LoRA, etc."
+  },
+  {
+    "tweet_id": "1703554445622010248",
+    "url": "https://x.com/soumithchintala/status/1703554445622010248",
+    "author": "soumithchintala",
+    "date": "2023-09-17T23:40:05.000Z",
+    "text": "yes, regulations are not inherently bad. centralized is not inherently bad. it isn't my claim either."
+  },
+  {
+    "tweet_id": "1703387832100802621",
+    "url": "https://x.com/soumithchintala/status/1703387832100802621",
+    "author": "soumithchintala",
+    "date": "2023-09-17T12:38:01.000Z",
+    "text": "If you're going to make this quote about Open-Source -- It's only fanatical and extreme if you stop reading halfway and assume that I'm anti-regulation in totality?\nThe position is pretty much \"dont believe an incumbent who is incentivised to regulate things in mainly to"
+  },
+  {
+    "tweet_id": "1703250572294361206",
+    "url": "https://x.com/soumithchintala/status/1703250572294361206",
+    "author": "soumithchintala",
+    "date": "2023-09-17T03:32:35.000Z",
+    "text": "if regulatory capture is casual, then nothing here is \"straightforward\". that's gurley's point precisely. You can't argue that regulation would've been better for everyone involved while simultaneously acknowledging that regulatory capture is occuring and its bad -- it becomes an"
+  },
+  {
+    "tweet_id": "1703193111298453576",
+    "url": "https://x.com/soumithchintala/status/1703193111298453576",
+    "author": "soumithchintala",
+    "date": "2023-09-16T23:44:16.000Z",
+    "text": "> \"Talking about AI regulation early and from within the industry is more likely to lead to good regulation.\"\n\nAccording to Gurley's talk, apparently thats what the telecommunications people thought, and it was pretty good regulation to amplify the power structures within that"
+  },
+  {
+    "tweet_id": "1703189987854819391",
+    "url": "https://x.com/soumithchintala/status/1703189987854819391",
+    "author": "soumithchintala",
+    "date": "2023-09-16T23:31:51.000Z",
+    "text": "if there's a world where any or most regulation is captured by \"corporate-driven government corruption\" as you quote -- then is proposing further regulation good or bad?"
+  },
+  {
+    "tweet_id": "1703189538561003696",
+    "url": "https://x.com/soumithchintala/status/1703189538561003696",
+    "author": "soumithchintala",
+    "date": "2023-09-16T23:30:04.000Z",
+    "text": "on the other hand, if a non-incumbent or a consumer is asking for regulation, and they are smart, connected and knowledgable, then hear closely what they have to say -- it probably has a lot of signal because they are incentivized to break up the consolidation of power."
+  },
+  {
+    "tweet_id": "1703188021984514408",
+    "url": "https://x.com/soumithchintala/status/1703188021984514408",
+    "author": "soumithchintala",
+    "date": "2023-09-16T23:24:02.000Z",
+    "text": "There are very few instances where centralization of power resulted in good, and countless instances where decentralization of power resulted in good.\n\nIt's almost impossible to interpret a positive intent for someone's call for centralization of power if that person is smart,"
+  },
+  {
+    "tweet_id": "1703186570025574790",
+    "url": "https://x.com/soumithchintala/status/1703186570025574790",
+    "author": "soumithchintala",
+    "date": "2023-09-16T23:18:16.000Z",
+    "text": "If you think Regulation is good, and AI Regulation is essential, what is your position on this video?"
+  },
+  {
+    "tweet_id": "1702371615491690806",
+    "url": "https://x.com/soumithchintala/status/1702371615491690806",
+    "author": "soumithchintala",
+    "date": "2023-09-14T17:19:56.000Z",
+    "text": "the question was intentionally ill-posed \nbut its hard to agree with the notion that because it's algo/math, you cant probe into its reasoning or communication abilities -- aren't we just blobs of matter.\ni didn't give the LLM agency, i merely posed the question in an"
+  },
+  {
+    "tweet_id": "1702367025136292233",
+    "url": "https://x.com/soumithchintala/status/1702367025136292233",
+    "author": "soumithchintala",
+    "date": "2023-09-14T17:01:41.000Z",
+    "text": "if LLMs are weirdly unintelligent, is it because they are stupid, or is it because they’re not a “native speaker”?"
+  },
+  {
+    "tweet_id": "1700256413191155910",
+    "url": "https://x.com/soumithchintala/status/1700256413191155910",
+    "author": "soumithchintala",
+    "date": "2023-09-08T21:14:52.000Z",
+    "text": "i think you're saying -- reject the notion of a PhD or a research Masters in hot deep-learning topics because AI is now so mainstream and so well-capitalized and so accessible that you can do great work on discord or in an industrial lab and publish and you win at life.\nThat"
+  },
+  {
+    "tweet_id": "1699393637572833358",
+    "url": "https://x.com/soumithchintala/status/1699393637572833358",
+    "author": "soumithchintala",
+    "date": "2023-09-06T12:06:31.000Z",
+    "text": "very reductive take. \na lot of people play the game as an essential side hustle or as a meaningful checkpoint of progress (academia is naturally unstable, students are only around for a little bit).\nits okay, it’s not the worst.\nits like the crap people do for perf reviews, like"
+  },
+  {
+    "tweet_id": "1697741180404932936",
+    "url": "https://x.com/soumithchintala/status/1697741180404932936",
+    "author": "soumithchintala",
+    "date": "2023-09-01T22:40:14.000Z",
+    "text": "AI lost a monumental scientist in Doug Lenat.\nHis work on Cyc deeply inspires me till today -- not so much because he worked on symbolic AI but because of how far he'd taken it, through a multi-decade dedication.\nI hope the propreitary Cyc work (ontologies, etc.) get open-sourced"
+  },
+  {
+    "tweet_id": "1697301379205734514",
+    "url": "https://x.com/soumithchintala/status/1697301379205734514",
+    "author": "soumithchintala",
+    "date": "2023-08-31T17:32:37.000Z",
+    "text": "looks like phillippe wanted to troll everyone by calling what should've been `tl.reshape` as `tl.view`.\nIt's like those trolly C macros ( #define float int )"
+  },
+  {
+    "tweet_id": "1696639074973409603",
+    "url": "https://x.com/soumithchintala/status/1696639074973409603",
+    "author": "soumithchintala",
+    "date": "2023-08-29T21:40:52.000Z",
+    "text": "high-performance CPU programming IMO is harder than GPU programming.\nGPU performance model is a lot more uniform and easy to understand than CPU performance which has so many edges and discontinuities and so many layers of caches and a much more complex instruction pipeline."
+  },
+  {
+    "tweet_id": "1696614393331556670",
+    "url": "https://x.com/soumithchintala/status/1696614393331556670",
+    "author": "soumithchintala",
+    "date": "2023-08-29T20:02:47.000Z",
+    "text": "same feeling but with different games -- AOE2, CS 1.6, DOTA"
+  },
+  {
+    "tweet_id": "1696347929240379688",
+    "url": "https://x.com/soumithchintala/status/1696347929240379688",
+    "author": "soumithchintala",
+    "date": "2023-08-29T02:23:57.000Z",
+    "text": "one thing that was clear was that it was written by a Semi analyst -- with all of the biases and shortcomings and misunderstandings that you'd expect from someone who deeply understands hardware, somewhat misunderstands ML & products and poorly understands open movements."
+  },
+  {
+    "tweet_id": "1695473216666341403",
+    "url": "https://x.com/soumithchintala/status/1695473216666341403",
+    "author": "soumithchintala",
+    "date": "2023-08-26T16:28:09.000Z",
+    "text": "i heard someone built this thing called FX that lets you move models from one IR to another. the rest is an easy exercise left to the reader"
+  },
+  {
+    "tweet_id": "1695472693007499726",
+    "url": "https://x.com/soumithchintala/status/1695472693007499726",
+    "author": "soumithchintala",
+    "date": "2023-08-26T16:26:05.000Z",
+    "text": "http://\nlevels.fyi tries to democratize salary information, its only aided by title homogenity. you an still build salary transparency with unique titles — just report histograms across all submitted data points"
+  },
+  {
+    "tweet_id": "1694722965290803493",
+    "url": "https://x.com/soumithchintala/status/1694722965290803493",
+    "author": "soumithchintala",
+    "date": "2023-08-24T14:46:56.000Z",
+    "text": "better late than ever, I onboarded onto the paperswithcode codebase and found the bug and made the fix and \n@rbstojnic\n graciously re-deployed the code. All instances like this should be correctly classified now (or over the next few days as the script runs through). \n\nAddendum:"
+  },
+  {
+    "tweet_id": "1694712731243511947",
+    "url": "https://x.com/soumithchintala/status/1694712731243511947",
+    "author": "soumithchintala",
+    "date": "2023-08-24T14:06:16.000Z",
+    "text": "CodeLlama -- a version of Llama2 that was fine-tuned for code tasks is live now. Available in 7B, 13B and 34B.\n\nhttps://\nai.meta.com/blog/code-llam\na-large-language-model-coding/\n…"
+  },
+  {
+    "tweet_id": "1691898619983429835",
+    "url": "https://x.com/soumithchintala/status/1691898619983429835",
+    "author": "soumithchintala",
+    "date": "2023-08-16T19:43:59.000Z",
+    "text": "a new package manager from the folks who build mamba. worth looking into..."
+  },
+  {
+    "tweet_id": "1691898271055159441",
+    "url": "https://x.com/soumithchintala/status/1691898271055159441",
+    "author": "soumithchintala",
+    "date": "2023-08-16T19:42:36.000Z",
+    "text": "People calling out fraud-science and getting sued for it!\nPlease donate to their legal fund, I did."
+  },
+  {
+    "tweet_id": "1691878851050180611",
+    "url": "https://x.com/soumithchintala/status/1691878851050180611",
+    "author": "soumithchintala",
+    "date": "2023-08-16T18:25:26.000Z",
+    "text": "@srush_nlp\n can you please do one of your videos/websites/notebooks to explain this to mere mortals?"
+  },
+  {
+    "tweet_id": "1691478025869676544",
+    "url": "https://x.com/soumithchintala/status/1691478025869676544",
+    "author": "soumithchintala",
+    "date": "2023-08-15T15:52:42.000Z",
+    "text": "@UnitreeRobotics\n you now have one job left -- make a robust and affordable hand. kthxbye."
+  },
+  {
+    "tweet_id": "1691477878884450304",
+    "url": "https://x.com/soumithchintala/status/1691477878884450304",
+    "author": "soumithchintala",
+    "date": "2023-08-15T15:52:07.000Z",
+    "text": "super exciting development in the world of robotics!!!\n\nUnitree disrupts things again with a robot that looks solid and is priced to be very affordable (for its class)"
+  },
+  {
+    "tweet_id": "1689295225221423106",
+    "url": "https://x.com/soumithchintala/status/1689295225221423106",
+    "author": "soumithchintala",
+    "date": "2023-08-09T15:19:01.000Z",
+    "text": "congrats! great people to take money from and great product to be giving money to :)"
+  },
+  {
+    "tweet_id": "1686580880536428544",
+    "url": "https://x.com/soumithchintala/status/1686580880536428544",
+    "author": "soumithchintala",
+    "date": "2023-08-02T03:33:11.000Z",
+    "text": "thats one way of getting breakthroughs.\nOpenAI and Deepmind showed atleast one other way in the form of DARPA style projects."
+  },
+  {
+    "tweet_id": "1685524194144989184",
+    "url": "https://x.com/soumithchintala/status/1685524194144989184",
+    "author": "soumithchintala",
+    "date": "2023-07-30T05:34:18.000Z",
+    "text": "No More GIL!\nthe Python team has officially accepted the proposal.\n\nCongrats \n@colesbury\n on his multi-year brilliant effort to remove the GIL, and a heartfelt thanks to the Python Steering Council and Core team for a thoughtful plan to make this a reality."
+  },
+  {
+    "tweet_id": "1682987878526390273",
+    "url": "https://x.com/soumithchintala/status/1682987878526390273",
+    "author": "soumithchintala",
+    "date": "2023-07-23T05:35:53.000Z",
+    "text": "you need to be an alt account with one of those cartoon profile pics"
+  },
+  {
+    "tweet_id": "1681696202327470080",
+    "url": "https://x.com/soumithchintala/status/1681696202327470080",
+    "author": "soumithchintala",
+    "date": "2023-07-19T16:03:13.000Z",
+    "text": "the 70B llama model now live on HuggingChat. Try it out now.\n\n**amazed by the pace of adoption**"
+  },
+  {
+    "tweet_id": "1681342476425232384",
+    "url": "https://x.com/soumithchintala/status/1681342476425232384",
+    "author": "soumithchintala",
+    "date": "2023-07-18T16:37:38.000Z",
+    "text": "LLaMa-2 from \n@MetaAI\n is here!\nOpen weights, free for research and commercial use. Pre-trained on 2T tokens.\nFine-tuned too (unlike v1).\n\nLets gooo....\n\nhttps://\nai.meta.com/llama/\nThe paper lists the amazing authors who worked to make this happen night and day. Be sure to thank"
+  },
+  {
+    "tweet_id": "1680778298518020097",
+    "url": "https://x.com/soumithchintala/status/1680778298518020097",
+    "author": "soumithchintala",
+    "date": "2023-07-17T03:15:48.000Z",
+    "text": "ill-specified question. both can be simple and easy and toy, both can be ridiculously sophisticated and complex"
+  },
+  {
+    "tweet_id": "1679663590498861058",
+    "url": "https://x.com/soumithchintala/status/1679663590498861058",
+    "author": "soumithchintala",
+    "date": "2023-07-14T01:26:21.000Z",
+    "text": "yea like that but not a toy demo, should work with your day to day mainstream runs"
+  },
+  {
+    "tweet_id": "1679634244950454272",
+    "url": "https://x.com/soumithchintala/status/1679634244950454272",
+    "author": "soumithchintala",
+    "date": "2023-07-13T23:29:44.000Z",
+    "text": "Just did a podcast covering a bunch of PyTorch / DL Software related topics, hosted by \n@l2k\n from \n@wandb\n. It was a lot of fun.\nListen here  \nhttps://\nbit.ly/3NIGFBa"
+  },
+  {
+    "tweet_id": "1679275210628009987",
+    "url": "https://x.com/soumithchintala/status/1679275210628009987",
+    "author": "soumithchintala",
+    "date": "2023-07-12T23:43:04.000Z",
+    "text": "I +1 this prediction. Unitree is in a league of its own with its robots in terms of price and robustness"
+  },
+  {
+    "tweet_id": "1679271747286364161",
+    "url": "https://x.com/soumithchintala/status/1679271747286364161",
+    "author": "soumithchintala",
+    "date": "2023-07-12T23:29:18.000Z",
+    "text": "wow didn't know this was happening. this is huge!\nscikit added support for pytorch and GPUs via array dispatch"
+  },
+  {
+    "tweet_id": "1678941720313237505",
+    "url": "https://x.com/soumithchintala/status/1678941720313237505",
+    "author": "soumithchintala",
+    "date": "2023-07-12T01:37:54.000Z",
+    "text": "a few ex-PyTorch folks started an ML Infra company last year, and now they have a twitter account.\nalso, \n@jiayq\n the infamous Caffe author and PyTorch 1.0 co-lead just left Alibaba to start an ML Infra company.\nworth following to see what magic they will create."
+  },
+  {
+    "tweet_id": "1678940298259341312",
+    "url": "https://x.com/soumithchintala/status/1678940298259341312",
+    "author": "soumithchintala",
+    "date": "2023-07-12T01:32:14.000Z",
+    "text": "use GPT to generate pandas and matplotlib code. that's the only way"
+  },
+  {
+    "tweet_id": "1677882379858485253",
+    "url": "https://x.com/soumithchintala/status/1677882379858485253",
+    "author": "soumithchintala",
+    "date": "2023-07-09T03:28:27.000Z",
+    "text": "you'll make a lot of money, unless what qualifies as \"AGI achieved\" is scammy"
+  },
+  {
+    "tweet_id": "1677504860726624256",
+    "url": "https://x.com/soumithchintala/status/1677504860726624256",
+    "author": "soumithchintala",
+    "date": "2023-07-08T02:28:19.000Z",
+    "text": "wdym by \"they dont present a business threat\"? \nGPT4 is still the most capable model around by a mile."
+  },
+  {
+    "tweet_id": "1677296571199680512",
+    "url": "https://x.com/soumithchintala/status/1677296571199680512",
+    "author": "soumithchintala",
+    "date": "2023-07-07T12:40:39.000Z",
+    "text": "Punkier way of crediting something written by ChatGPT:\n\n- anonymous individuals on the internet mishmashed by a Transformer, 2023"
+  },
+  {
+    "tweet_id": "1676970461358592001",
+    "url": "https://x.com/soumithchintala/status/1676970461358592001",
+    "author": "soumithchintala",
+    "date": "2023-07-06T15:04:49.000Z",
+    "text": "there is a chance that Threads becomes mainstream and twitter can go back to the pleasant niche community that it used to be.\ntell me there is a chance...."
+  },
+  {
+    "tweet_id": "1676954586375155715",
+    "url": "https://x.com/soumithchintala/status/1676954586375155715",
+    "author": "soumithchintala",
+    "date": "2023-07-06T14:01:44.000Z",
+    "text": "Wondered why my Threads feed was incomplete.\nAnd then I realized i was missing all the vibe accounts...\nI've started enjoying the ML memes too much!\n@untitled01ipynb \n@typedfemale\n \n@kipperrii\n \n@tszzl\n \n@repligate"
+  },
+  {
+    "tweet_id": "1676740644713185280",
+    "url": "https://x.com/soumithchintala/status/1676740644713185280",
+    "author": "soumithchintala",
+    "date": "2023-07-05T23:51:36.000Z",
+    "text": "i’ve joined Threads. \nYou can find me under the username “soumith”. \ni’ll probably mirror my tweets there once i figure out how to."
+  },
+  {
+    "tweet_id": "1676635306324361236",
+    "url": "https://x.com/soumithchintala/status/1676635306324361236",
+    "author": "soumithchintala",
+    "date": "2023-07-05T16:53:02.000Z",
+    "text": "yea, llama.cpp is it for the llama-style models.\nAbout activation checkpointing -- the way the LLM people do it is to intentionally sidestep autodiff and hand-write a clever backward. Sometimes people even do mathematically approximate stuff."
+  },
+  {
+    "tweet_id": "1676347853260611584",
+    "url": "https://x.com/soumithchintala/status/1676347853260611584",
+    "author": "soumithchintala",
+    "date": "2023-07-04T21:50:47.000Z",
+    "text": "i think your position comes from a fundamentally incomplete estimation of the parts of the graph that are not a homogeneous transformer — the loss function, the beam search, things like activation checkpointing that isnt simply autodiff, token fusion style tricks.\n\ncaffe style"
+  },
+  {
+    "tweet_id": "1676313024586477572",
+    "url": "https://x.com/soumithchintala/status/1676313024586477572",
+    "author": "soumithchintala",
+    "date": "2023-07-04T19:32:24.000Z",
+    "text": "I find this as a tangible example of why we'd want to retain control of our AI Assistants, most obviously via open-source.\nAll commercial offerings will eventually cripple the assistant in ways that would make their partners and an approximation of stakeholders happy (partners"
+  },
+  {
+    "tweet_id": "1675539720648966145",
+    "url": "https://x.com/soumithchintala/status/1675539720648966145",
+    "author": "soumithchintala",
+    "date": "2023-07-02T16:19:34.000Z",
+    "text": "I think the details matter a lot.\nCUDA enables pretty general programming and experimentation -- AI, fluid dynamics, biochem, various scientific simulations.\nPyTorch itself is used in the widest variety of settings, including all of the above.\nMy main position around AMD working"
+  },
+  {
+    "tweet_id": "1675331063575347207",
+    "url": "https://x.com/soumithchintala/status/1675331063575347207",
+    "author": "soumithchintala",
+    "date": "2023-07-02T02:30:26.000Z",
+    "text": "thank you so much for the quick turnaround!\n\nFeature Request: 2factor, and the 2fac enforced for Admins of orgs -- just like Github does as of last year."
+  },
+  {
+    "tweet_id": "1675247781731094528",
+    "url": "https://x.com/soumithchintala/status/1675247781731094528",
+    "author": "soumithchintala",
+    "date": "2023-07-01T20:59:30.000Z",
+    "text": "thankfully I could see Emad's tweet and was not rate-limited :D"
+  },
+  {
+    "tweet_id": "1675242626725949440",
+    "url": "https://x.com/soumithchintala/status/1675242626725949440",
+    "author": "soumithchintala",
+    "date": "2023-07-01T20:39:01.000Z",
+    "text": "ugh, we should look into this. I've started pinging some people internally."
+  },
+  {
+    "tweet_id": "1674910383331504129",
+    "url": "https://x.com/soumithchintala/status/1674910383331504129",
+    "author": "soumithchintala",
+    "date": "2023-06-30T22:38:48.000Z",
+    "text": "single node training. and that makes a difference. i’m not fully sold about amd and multinode large scale training, but one step at a time"
+  },
+  {
+    "tweet_id": "1674805941865160704",
+    "url": "https://x.com/soumithchintala/status/1674805941865160704",
+    "author": "soumithchintala",
+    "date": "2023-06-30T15:43:47.000Z",
+    "text": "Got some push back when I suggested this trend in May. Good to have clear data points:"
+  },
+  {
+    "tweet_id": "1674804666872242177",
+    "url": "https://x.com/soumithchintala/status/1674804666872242177",
+    "author": "soumithchintala",
+    "date": "2023-06-30T15:38:43.000Z",
+    "text": "Here's \n@MosaicML\n showcasing their results with \n@PyTorch\n 2.0 + AMD for LLM Training.\nThey made \"Zero Code Changes\" to run on AMD.\nMI250 is already trending well, and IMO MI300X will be very competitive."
+  },
+  {
+    "tweet_id": "1674473859263635463",
+    "url": "https://x.com/soumithchintala/status/1674473859263635463",
+    "author": "soumithchintala",
+    "date": "2023-06-29T17:44:12.000Z",
+    "text": "usually such deals are frontloaded-opex for discount or in exchange of equity. Whether CoreWeave builds it for Inflection (In this case) or builds it and sells it later to someone else is a mere detail that does some trade-off on debt, equity, leverage and risk"
+  },
+  {
+    "tweet_id": "1674068426359185413",
+    "url": "https://x.com/soumithchintala/status/1674068426359185413",
+    "author": "soumithchintala",
+    "date": "2023-06-28T14:53:10.000Z",
+    "text": "yea, I expect a healthy amount of software work and co-design to use the H100 to its maximum potential!"
+  },
+  {
+    "tweet_id": "1674057658951712768",
+    "url": "https://x.com/soumithchintala/status/1674057658951712768",
+    "author": "soumithchintala",
+    "date": "2023-06-28T14:10:23.000Z",
+    "text": "As \n@MosaicML\n showcased in April,  on GPT training H100 is ~3x the speed of A100, if you use FP8 training, which is both seriously impressive and grounds you in relative improvement versus the previous generation!\n\n\nhttps://\nmosaicml.com/blog/coreweave\n-nvidia-h100-part-1\n…"
+  },
+  {
+    "tweet_id": "1674049454880505859",
+    "url": "https://x.com/soumithchintala/status/1674049454880505859",
+    "author": "soumithchintala",
+    "date": "2023-06-28T13:37:47.000Z",
+    "text": "agree. i would edit the tweet to say CIFAR100 but my edit button is missing."
+  },
+  {
+    "tweet_id": "1674046185399615489",
+    "url": "https://x.com/soumithchintala/status/1674046185399615489",
+    "author": "soumithchintala",
+    "date": "2023-06-28T13:24:47.000Z",
+    "text": "Context: People are misunderstanding the GPT-3 - 11 minutes training result from the latest MLPerf.\nreference:"
+  },
+  {
+    "tweet_id": "1674045982298841094",
+    "url": "https://x.com/soumithchintala/status/1674045982298841094",
+    "author": "soumithchintala",
+    "date": "2023-06-28T13:23:59.000Z",
+    "text": "No, GPT-3 wasn't trained in 11 minutes.\n\nThe GPT-3 architecture was trained on the C4 dataset to 2.69 log-probability in 11 minutes on 3584 H100 GPUs.\n\nDon't focus on the \"11 minutes\" -- because it's like saying \"ResNet-50 was trained in 5 seconds on MNIST to 80% accuracy\""
+  },
+  {
+    "tweet_id": "1673333782273826818",
+    "url": "https://x.com/soumithchintala/status/1673333782273826818",
+    "author": "soumithchintala",
+    "date": "2023-06-26T14:13:57.000Z",
+    "text": "What a hustle!\nI feel sorry for the students on the paper for starting their journey in such a careless, low-integrity environment.\n\nThe last time AI hit a bubble was ~2014, and this paper reminds me of Baidu cheating on the Imagenet competition. Similar playbook -- threw a \nhttps://\nt.co/RgzfLZsGBa"
+  },
+  {
+    "tweet_id": "1672341597231501312",
+    "url": "https://x.com/soumithchintala/status/1672341597231501312",
+    "author": "soumithchintala",
+    "date": "2023-06-23T20:31:22.000Z",
+    "text": "bless your soul for managing to get in front of congress with this point of view!\nThank you \n@ClementDelangue\n!"
+  },
+  {
+    "tweet_id": "1671567319762337811",
+    "url": "https://x.com/soumithchintala/status/1671567319762337811",
+    "author": "soumithchintala",
+    "date": "2023-06-21T17:14:39.000Z",
+    "text": "used to be the same for ConvNets in 2013. will get democratized in due time."
+  },
+  {
+    "tweet_id": "1671298692719034368",
+    "url": "https://x.com/soumithchintala/status/1671298692719034368",
+    "author": "soumithchintala",
+    "date": "2023-06-20T23:27:14.000Z",
+    "text": "i cant be half as eloquent and a tenth as candid as geohot is. he set the bar so high, i dont even see the point of it :D"
+  },
+  {
+    "tweet_id": "1671267150101721090",
+    "url": "https://x.com/soumithchintala/status/1671267150101721090",
+    "author": "soumithchintala",
+    "date": "2023-06-20T21:21:53.000Z",
+    "text": "i might have heard the same  -- I guess info like this is passed around but no one wants to say it out loud.\nGPT-4: 8 x 220B experts trained with different data/task distributions and 16-iter inference.\nGlad that Geohot said it out loud.\n\nThough, at this point, GPT-4 is"
+  },
+  {
+    "tweet_id": "1670130308182851585",
+    "url": "https://x.com/soumithchintala/status/1670130308182851585",
+    "author": "soumithchintala",
+    "date": "2023-06-17T18:04:29.000Z",
+    "text": "can you create an official Mistral account so that we can report this for impersonation"
+  },
+  {
+    "tweet_id": "1669834821135384576",
+    "url": "https://x.com/soumithchintala/status/1669834821135384576",
+    "author": "soumithchintala",
+    "date": "2023-06-16T22:30:20.000Z",
+    "text": "Long live LLMs for gifting us the wonders of poetry! /s"
+  },
+  {
+    "tweet_id": "1666160398570074112",
+    "url": "https://x.com/soumithchintala/status/1666160398570074112",
+    "author": "soumithchintala",
+    "date": "2023-06-06T19:09:29.000Z",
+    "text": "pretty great to see this go from whisper.cpp all the way to a funded edge-platform!"
+  },
+  {
+    "tweet_id": "1663982382192656384",
+    "url": "https://x.com/soumithchintala/status/1663982382192656384",
+    "author": "soumithchintala",
+    "date": "2023-05-31T18:54:49.000Z",
+    "text": "no information available, but I assume TPUs expose enough info from the hardware, but the fault-tolerance is still handled at the software level."
+  },
+  {
+    "tweet_id": "1663919421650239492",
+    "url": "https://x.com/soumithchintala/status/1663919421650239492",
+    "author": "soumithchintala",
+    "date": "2023-05-31T14:44:38.000Z",
+    "text": "A worthy competitor to the TPU pods has (finally) arrived:"
+  },
+  {
+    "tweet_id": "1662244349319495681",
+    "url": "https://x.com/soumithchintala/status/1662244349319495681",
+    "author": "soumithchintala",
+    "date": "2023-05-26T23:48:30.000Z",
+    "text": "Open LLM Licensing will converge to true Open Source.\nIts only a matter of time for the structural incentives to work their magic."
+  },
+  {
+    "tweet_id": "1661925502100164613",
+    "url": "https://x.com/soumithchintala/status/1661925502100164613",
+    "author": "soumithchintala",
+    "date": "2023-05-26T02:41:31.000Z",
+    "text": "Some people confusing this take with some kind of dunk on NVIDIA.\n\nTo be clear, NVIDIA will likely dominate the industry for a while -- they are the best in the business. I think they have some of the finest talent at every level, all the way up to Jensen. I've worked with many"
+  },
+  {
+    "tweet_id": "1661801252051734528",
+    "url": "https://x.com/soumithchintala/status/1661801252051734528",
+    "author": "soumithchintala",
+    "date": "2023-05-25T18:27:47.000Z",
+    "text": "most of NVIDIA's high-margins are from large companies buying H100s, and most of these large companies are CSPs.\nTo get to lower margins, CSPs having better negotiating power with NVIDIA is sufficient."
+  },
+  {
+    "tweet_id": "1661778906851029019",
+    "url": "https://x.com/soumithchintala/status/1661778906851029019",
+    "author": "soumithchintala",
+    "date": "2023-05-25T16:59:00.000Z",
+    "text": "yea, i am saying its not a moat -- other silicon also does short-range interconnects."
+  },
+  {
+    "tweet_id": "1661778234915139587",
+    "url": "https://x.com/soumithchintala/status/1661778234915139587",
+    "author": "soumithchintala",
+    "date": "2023-05-25T16:56:20.000Z",
+    "text": "I think both of you are answering \"will NVIDIA be the dominant player\" whereas I am questioning \"will NVIDIA have the pricing power to sustain their current margins\""
+  },
+  {
+    "tweet_id": "1661777915346837504",
+    "url": "https://x.com/soumithchintala/status/1661777915346837504",
+    "author": "soumithchintala",
+    "date": "2023-05-25T16:55:04.000Z",
+    "text": "nvlink doesn't matter much for inference (AMD also provides something similar).\ninfiniband definitely doesn't matter for inference."
+  },
+  {
+    "tweet_id": "1661770388454486030",
+    "url": "https://x.com/soumithchintala/status/1661770388454486030",
+    "author": "soumithchintala",
+    "date": "2023-05-25T16:25:09.000Z",
+    "text": "The assumption is that the inference workloads are going to be homogeneous enough that the software and inference will be successfully commoditized (and centralized to a few software stacks that I listed) without needing a lot of customization or consulting."
+  },
+  {
+    "tweet_id": "1661750152019804160",
+    "url": "https://x.com/soumithchintala/status/1661750152019804160",
+    "author": "soumithchintala",
+    "date": "2023-05-25T15:04:44.000Z",
+    "text": "A great product doesn't mean a highly-profitable business. Only a select few have the \"moat\" to swim in money.\n\nBuilding great products is very fulfilling -- completely independent of the money aspects.\n\nBuilding a boring high-margin business is draining."
+  },
+  {
+    "tweet_id": "1661748563393789956",
+    "url": "https://x.com/soumithchintala/status/1661748563393789956",
+    "author": "soumithchintala",
+    "date": "2023-05-25T14:58:25.000Z",
+    "text": "it doesn't matter if AMD is very far for CUDA adoption -- that doesn't matter for inference on a narrow set of workloads. You can even hand-write the inference code in assembly if the workloads are homogeneous and high-volume."
+  },
+  {
+    "tweet_id": "1661746183826735104",
+    "url": "https://x.com/soumithchintala/status/1661746183826735104",
+    "author": "soumithchintala",
+    "date": "2023-05-25T14:48:58.000Z",
+    "text": "I'm fairly puzzled by $NVDA skyrocketing.\nGenAI inference and fine-tuning will significantly outweigh GenAI training in overall compute.\n\nWhen it comes to inference and fine-tuning, NVIDIA's advantage in software won't hold much significance. They will inevitably have to face"
+  },
+  {
+    "tweet_id": "1661478666549985280",
+    "url": "https://x.com/soumithchintala/status/1661478666549985280",
+    "author": "soumithchintala",
+    "date": "2023-05-24T21:05:57.000Z",
+    "text": "it ends up just being indexing calls in the end -- that's the beauty of it. Its mainly a DSL, similar to einops.\n\nIt's already available in PyTorch by default under functorch\n\nfrom functorch.dim import dims"
+  },
+  {
+    "tweet_id": "1661389221343424512",
+    "url": "https://x.com/soumithchintala/status/1661389221343424512",
+    "author": "soumithchintala",
+    "date": "2023-05-24T15:10:32.000Z",
+    "text": "you should try using \nhttps://\ngithub.com/facebookresear\nch/torchdim\n…\nIt's really a breeze to use."
+  },
+  {
+    "tweet_id": "1660130240130105344",
+    "url": "https://x.com/soumithchintala/status/1660130240130105344",
+    "author": "soumithchintala",
+    "date": "2023-05-21T03:47:47.000Z",
+    "text": "Thanks to \n@scottgray76\n \n@JosephJacks_\n \n@timzaman\n and many other folks that took this call to action, we had a solid run.\nIf you haven't already, donate today.\n\nAnd as committed, I matched 10k."
+  },
+  {
+    "tweet_id": "1659627164692520961",
+    "url": "https://x.com/soumithchintala/status/1659627164692520961",
+    "author": "soumithchintala",
+    "date": "2023-05-19T18:28:45.000Z",
+    "text": "i wished i could make it to this one. sounds super fun!\nI guess next time."
+  },
+  {
+    "tweet_id": "1659255935024472068",
+    "url": "https://x.com/soumithchintala/status/1659255935024472068",
+    "author": "soumithchintala",
+    "date": "2023-05-18T17:53:37.000Z",
+    "text": "Triton not just for GPUs, we're using it at Meta as our silicon DSL:"
+  },
+  {
+    "tweet_id": "1659245521544806401",
+    "url": "https://x.com/soumithchintala/status/1659245521544806401",
+    "author": "soumithchintala",
+    "date": "2023-05-18T17:12:14.000Z",
+    "text": "awesome! \nwill match it at the end of the 48 hours."
+  },
+  {
+    "tweet_id": "1659237945109364737",
+    "url": "https://x.com/soumithchintala/status/1659237945109364737",
+    "author": "soumithchintala",
+    "date": "2023-05-18T16:42:07.000Z",
+    "text": "awesome! I'll match at the end of 48 hours altogether."
+  },
+  {
+    "tweet_id": "1659202095139160065",
+    "url": "https://x.com/soumithchintala/status/1659202095139160065",
+    "author": "soumithchintala",
+    "date": "2023-05-18T14:19:40.000Z",
+    "text": "obviously I mean I'll match $10k in aggregate -- i'm not that rich lol"
+  },
+  {
+    "tweet_id": "1659201577595580416",
+    "url": "https://x.com/soumithchintala/status/1659201577595580416",
+    "author": "soumithchintala",
+    "date": "2023-05-18T14:17:37.000Z",
+    "text": "Are you familiar with \n@NumFOCUS\n? It's a non-profit that sponsors numpy, pandas, jupyter, Julia, scikit, matplotlib, and more. They've had decreased funding this year, let's help.\nDonate to \n@NumFOCUS\n today, and I will match all donations up to $10,000 within the next 48 hours!"
+  },
+  {
+    "tweet_id": "1659198899721228292",
+    "url": "https://x.com/soumithchintala/status/1659198899721228292",
+    "author": "soumithchintala",
+    "date": "2023-05-18T14:06:58.000Z",
+    "text": "Your opinion largely rests upon how much of a safety problem you think there is. People who think its doomsday would obviously bias towards keeping it closed. People who think it will result in the same kind of wide-spectrum usage such as the Internet would want AI to be open!"
+  },
+  {
+    "tweet_id": "1659198896428679170",
+    "url": "https://x.com/soumithchintala/status/1659198896428679170",
+    "author": "soumithchintala",
+    "date": "2023-05-18T14:06:57.000Z",
+    "text": "I know that people at OpenAI truly believe that AI should be closed for safety reasons. But closing LLMs directly results in regulatory capture and power concentration. If I had to make a choice, I'll bias towards open LLMs that promote equal empowerment globally."
+  },
+  {
+    "tweet_id": "1658870150357975048",
+    "url": "https://x.com/soumithchintala/status/1658870150357975048",
+    "author": "soumithchintala",
+    "date": "2023-05-17T16:20:38.000Z",
+    "text": "I'm excited about Tesla's humanoid project -- but not for the reason you think.\nThe potential cost reduction of components at Tesla's scale could revolutionize robot development, similar to what happened when drones became popular. Hoping (atleast) for a similar outcome again!"
+  },
+  {
+    "tweet_id": "1658857787844186114",
+    "url": "https://x.com/soumithchintala/status/1658857787844186114",
+    "author": "soumithchintala",
+    "date": "2023-05-17T15:31:31.000Z",
+    "text": "Irrespective of the intention, based on the last day of opinions I read, people generally view the idea of establishing a central regulatory authority to \"permit\" the training of machine learning models as highly undesirable and somewhat foolish.\nI think I agree."
+  },
+  {
+    "tweet_id": "1658517705282953217",
+    "url": "https://x.com/soumithchintala/status/1658517705282953217",
+    "author": "soumithchintala",
+    "date": "2023-05-16T17:00:09.000Z",
+    "text": "if you use things that are persisted across kernel calls, these are called persistent kernels.\nThe terminology originated first from the Baidu folks doing the Persistent RNN work. Back then, they built persistent kernels despite the software or hardware not guaranteeing"
+  },
+  {
+    "tweet_id": "1658515229171482625",
+    "url": "https://x.com/soumithchintala/status/1658515229171482625",
+    "author": "soumithchintala",
+    "date": "2023-05-16T16:50:19.000Z",
+    "text": "Distinguishing between attempts at regulatory capture and a well-intentioned plea for regulation is really really hard."
+  },
+  {
+    "tweet_id": "1658246621031792640",
+    "url": "https://x.com/soumithchintala/status/1658246621031792640",
+    "author": "soumithchintala",
+    "date": "2023-05-15T23:02:57.000Z",
+    "text": "i don't agree with a lot of what Yann says, but I'm pretty sure he's speaking what he believes and he has pretty high integrity.\nDidn't think you'd stoop so low to character-assassinate someone just because you disagree with them lol."
+  },
+  {
+    "tweet_id": "1654207296442859522",
+    "url": "https://x.com/soumithchintala/status/1654207296442859522",
+    "author": "soumithchintala",
+    "date": "2023-05-04T19:32:07.000Z",
+    "text": "Interesting article from someone at Google. It is focused on model improvements which i presume is top-of-mind for the researchers at Google. I think its premise is correct, but I find it somewhat focused on the wrong things.\n\nGoogle should be focused on two things  :\n\n1."
+  },
+  {
+    "tweet_id": "1650896637831544832",
+    "url": "https://x.com/soumithchintala/status/1650896637831544832",
+    "author": "soumithchintala",
+    "date": "2023-04-25T16:16:45.000Z",
+    "text": "One more quality hat in the ring, and that's awesome, especially because it's open source!"
+  },
+  {
+    "tweet_id": "1650493872223535112",
+    "url": "https://x.com/soumithchintala/status/1650493872223535112",
+    "author": "soumithchintala",
+    "date": "2023-04-24T13:36:18.000Z",
+    "text": "was looking forward to Runway on mobile. it's finally here!"
+  },
+  {
+    "tweet_id": "1649126644211122194",
+    "url": "https://x.com/soumithchintala/status/1649126644211122194",
+    "author": "soumithchintala",
+    "date": "2023-04-20T19:03:25.000Z",
+    "text": "I'm really excited for the RedPajama effort.\nUltimately, open-source needs to win to truly de-centralize LLMs, and this is a solid next step."
+  },
+  {
+    "tweet_id": "1648426236253990912",
+    "url": "https://x.com/soumithchintala/status/1648426236253990912",
+    "author": "soumithchintala",
+    "date": "2023-04-18T20:40:15.000Z",
+    "text": "the really interesting thing to me is that conference mentions of JAX are changing but \nhttps://\npaperswithcode.com/trends isn't.\nI wonder if that kinda means people using JAX aren't open-sourcing much (maybe Google's papers?) or if something underlying is broken, \n@rosstaylor90"
+  }
+]

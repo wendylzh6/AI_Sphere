@@ -1,0 +1,793 @@
+[
+  {
+    "tweet_id": "2044526019928068362",
+    "url": "https://x.com/OfficialLoganK/status/2044526019928068362",
+    "author": "OfficialLoganK",
+    "date": "2026-04-15T21:19:23.000Z",
+    "text": "We are working on enabling this for existing billing accounts, today it just works for new billing accounts. \n\nYou can make a new billing account without making a new GCP project / regenerating keys or anything like that."
+  },
+  {
+    "tweet_id": "2044517192767836350",
+    "url": "https://x.com/OfficialLoganK/status/2044517192767836350",
+    "author": "OfficialLoganK",
+    "date": "2026-04-15T20:44:18.000Z",
+    "text": "hoping this and spend caps create more peace of mind!"
+  },
+  {
+    "tweet_id": "2044516993886523621",
+    "url": "https://x.com/OfficialLoganK/status/2044516993886523621",
+    "author": "OfficialLoganK",
+    "date": "2026-04-15T20:43:31.000Z",
+    "text": "This along with spending caps, billing account caps, and more make building with Gemini much easier. \n\nGreat work by \n@jastephx\n and so many folks across Google who pulled this off! \n\nWe are also doing the international rollout over the next few days."
+  },
+  {
+    "tweet_id": "2044516262152442315",
+    "url": "https://x.com/OfficialLoganK/status/2044516262152442315",
+    "author": "OfficialLoganK",
+    "date": "2026-04-15T20:40:36.000Z",
+    "text": "Excited to share that the Gemini API now has prepaid billing, rolled out to start for US customers!!\n\nWe have been working hard across Google to enable this. It’s the default for new API users and existing users can opt in via a new billing account, all directly in AI Studio."
+  },
+  {
+    "tweet_id": "2044447870670217312",
+    "url": "https://x.com/OfficialLoganK/status/2044447870670217312",
+    "author": "OfficialLoganK",
+    "date": "2026-04-15T16:08:51.000Z",
+    "text": "The progress from 2.5 to 3.1 has been super strong! Excited to see this much improvement for a Flash model. Learn more in our blog: \nhttps://\nblog.google/innovation-and\n-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/\n…"
+  },
+  {
+    "tweet_id": "2044447596010435054",
+    "url": "https://x.com/OfficialLoganK/status/2044447596010435054",
+    "author": "OfficialLoganK",
+    "date": "2026-04-15T16:07:45.000Z",
+    "text": "Introducing Gemini 3.1 Flash TTS , our latest text to speech model with scene direction, speaker level specificity, audio tags, more natural + expressive voices, and support for 70 different languages.\n\nAvailable via our new audio playground in AI Studio and in the Gemini API!"
+  },
+  {
+    "tweet_id": "2044113001050161434",
+    "url": "https://x.com/OfficialLoganK/status/2044113001050161434",
+    "author": "OfficialLoganK",
+    "date": "2026-04-14T17:58:11.000Z",
+    "text": "something we will explore in the future, trying to get the groundwork all setup : )"
+  },
+  {
+    "tweet_id": "2044112136809660811",
+    "url": "https://x.com/OfficialLoganK/status/2044112136809660811",
+    "author": "OfficialLoganK",
+    "date": "2026-04-14T17:54:45.000Z",
+    "text": "let your agents sleep for you so you can build"
+  },
+  {
+    "tweet_id": "2044111981351973339",
+    "url": "https://x.com/OfficialLoganK/status/2044111981351973339",
+    "author": "OfficialLoganK",
+    "date": "2026-04-14T17:54:08.000Z",
+    "text": "Ammaar pls stop pushing your vertical tabs on me, it is all I can see"
+  },
+  {
+    "tweet_id": "2044111467943964714",
+    "url": "https://x.com/OfficialLoganK/status/2044111467943964714",
+    "author": "OfficialLoganK",
+    "date": "2026-04-14T17:52:06.000Z",
+    "text": "Introducing design previews in Google AI Studio's vibe coding experience ! Now while you wait for an app to be built, Gemini will create custom themes you can easily choose from in seconds.\n\nRolled out and available to everyone right now : )"
+  },
+  {
+    "tweet_id": "2044080025474126065",
+    "url": "https://x.com/OfficialLoganK/status/2044080025474126065",
+    "author": "OfficialLoganK",
+    "date": "2026-04-14T15:47:09.000Z",
+    "text": "Introducing Gemini Robotics ER 1.6, our new SOTA robotics model  which excels at visual and spacial reasoning, now available via the Gemini API!"
+  },
+  {
+    "tweet_id": "2043757402508730794",
+    "url": "https://x.com/OfficialLoganK/status/2043757402508730794",
+    "author": "OfficialLoganK",
+    "date": "2026-04-13T18:25:10.000Z",
+    "text": "Should work everywhere, pls flag in cases where it doesn’t show"
+  },
+  {
+    "tweet_id": "2043753770199462063",
+    "url": "https://x.com/OfficialLoganK/status/2043753770199462063",
+    "author": "OfficialLoganK",
+    "date": "2026-04-13T18:10:44.000Z",
+    "text": "we are working to make it faster, there was a latency regression last week, team is looking into it"
+  },
+  {
+    "tweet_id": "2043753026398368150",
+    "url": "https://x.com/OfficialLoganK/status/2043753026398368150",
+    "author": "OfficialLoganK",
+    "date": "2026-04-13T18:07:47.000Z",
+    "text": "And on mobile, we call it Tap Tap Tap : ) enjoy!"
+  },
+  {
+    "tweet_id": "2043752712127611201",
+    "url": "https://x.com/OfficialLoganK/status/2043752712127611201",
+    "author": "OfficialLoganK",
+    "date": "2026-04-13T18:06:32.000Z",
+    "text": "Introducing Tab Tab Tab, our new prompt auto complete engine in \n@GoogleAIStudio\n's vibe coding experience. \n\nNow when you show up with your fuzzy ideas, you can rely on Gemini to fill in the blanks : )"
+  },
+  {
+    "tweet_id": "2043531744675279228",
+    "url": "https://x.com/OfficialLoganK/status/2043531744675279228",
+    "author": "OfficialLoganK",
+    "date": "2026-04-13T03:28:29.000Z",
+    "text": "millions of people every month : ) \n\nbut alas, we have lots to do, next few months are going to be fun. hope you enjoy the what we cook up!"
+  },
+  {
+    "tweet_id": "2043135232946352633",
+    "url": "https://x.com/OfficialLoganK/status/2043135232946352633",
+    "author": "OfficialLoganK",
+    "date": "2026-04-12T01:12:53.000Z",
+    "text": "yes, sitting in my backyard in the grass right now getting rained on"
+  },
+  {
+    "tweet_id": "2043134657857048875",
+    "url": "https://x.com/OfficialLoganK/status/2043134657857048875",
+    "author": "OfficialLoganK",
+    "date": "2026-04-12T01:10:36.000Z",
+    "text": "yes in the bay, the total bandwidth is lower but I needed to get online today since cell coverage in new place was bad, starlink delivered!"
+  },
+  {
+    "tweet_id": "2043133990568366435",
+    "url": "https://x.com/OfficialLoganK/status/2043133990568366435",
+    "author": "OfficialLoganK",
+    "date": "2026-04-12T01:07:57.000Z",
+    "text": "I moved today, tried to setup internet, provider needed to send a tech, earliest appointment was Wednesday.\n\nGot a \n@Starlink\n Standard 4 delivered and online in less than 1 hour, truly sci-fi, ty to SpaceX team and Elon."
+  },
+  {
+    "tweet_id": "2042736767988576688",
+    "url": "https://x.com/OfficialLoganK/status/2042736767988576688",
+    "author": "OfficialLoganK",
+    "date": "2026-04-10T22:49:32.000Z",
+    "text": "Can you send over a full conversation? Curious if it pulled any info via search. AI Studio’s foray into vibe coding is more recent so if it’s pulling from the knowledge of the base model, not surprising, but if pulling via search, then our SEO / GEO improvements will hopefully"
+  },
+  {
+    "tweet_id": "2042672361405559246",
+    "url": "https://x.com/OfficialLoganK/status/2042672361405559246",
+    "author": "OfficialLoganK",
+    "date": "2026-04-10T18:33:36.000Z",
+    "text": "Check out the leaderboard: \nhttps://\ntaubench.com/#leaderboard?b\nenchmark=voice\n… and great work by our live / audio model teams to make this happen! \n\nThe new model is also much faster than previous generations."
+  },
+  {
+    "tweet_id": "2042672082425712935",
+    "url": "https://x.com/OfficialLoganK/status/2042672082425712935",
+    "author": "OfficialLoganK",
+    "date": "2026-04-10T18:32:30.000Z",
+    "text": "Our latest Live model is # 1 on Tau Voice Bench! \n\nExcited to see this new frontier of voice models cross the chasm of usability in production."
+  },
+  {
+    "tweet_id": "2042327639440966141",
+    "url": "https://x.com/OfficialLoganK/status/2042327639440966141",
+    "author": "OfficialLoganK",
+    "date": "2026-04-09T19:43:48.000Z",
+    "text": "good things come to those who wait for the mobile app"
+  },
+  {
+    "tweet_id": "2042327233826550040",
+    "url": "https://x.com/OfficialLoganK/status/2042327233826550040",
+    "author": "OfficialLoganK",
+    "date": "2026-04-09T19:42:11.000Z",
+    "text": "we are working to make it smart and fast : ) for lots of quick iteration work Flash actually makes a big difference"
+  },
+  {
+    "tweet_id": "2042273448714436765",
+    "url": "https://x.com/OfficialLoganK/status/2042273448714436765",
+    "author": "OfficialLoganK",
+    "date": "2026-04-09T16:08:28.000Z",
+    "text": "@jastephx\n and the team have been pushing hard to make it much more useful!"
+  },
+  {
+    "tweet_id": "2042025888053702911",
+    "url": "https://x.com/OfficialLoganK/status/2042025888053702911",
+    "author": "OfficialLoganK",
+    "date": "2026-04-08T23:44:45.000Z",
+    "text": "Projects in the \n@GeminiApp\n are now live, with a fun twist…. Notebooks! Enjoy the NotebookLM inspired experience."
+  },
+  {
+    "tweet_id": "2041941884034040008",
+    "url": "https://x.com/OfficialLoganK/status/2041941884034040008",
+    "author": "OfficialLoganK",
+    "date": "2026-04-08T18:10:57.000Z",
+    "text": "Congrats to y’all!! Excited to Meta back in the game : )"
+  },
+  {
+    "tweet_id": "2041859930639024537",
+    "url": "https://x.com/OfficialLoganK/status/2041859930639024537",
+    "author": "OfficialLoganK",
+    "date": "2026-04-08T12:45:18.000Z",
+    "text": "great to see all the Gemini for home progress :)"
+  },
+  {
+    "tweet_id": "2041692053575217220",
+    "url": "https://x.com/OfficialLoganK/status/2041692053575217220",
+    "author": "OfficialLoganK",
+    "date": "2026-04-08T01:38:13.000Z",
+    "text": "Could not be more bullish on Google, so much good stuff cooking : ) going to be a fun next few months."
+  },
+  {
+    "tweet_id": "2040930991754166736",
+    "url": "https://x.com/OfficialLoganK/status/2040930991754166736",
+    "author": "OfficialLoganK",
+    "date": "2026-04-05T23:14:01.000Z",
+    "text": "I was having issues finding them too, flagged to the team"
+  },
+  {
+    "tweet_id": "2040274061054378088",
+    "url": "https://x.com/OfficialLoganK/status/2040274061054378088",
+    "author": "OfficialLoganK",
+    "date": "2026-04-04T03:43:37.000Z",
+    "text": "try \nhttps://\nai.studio, we make keys and such for new users automatically to access the Gemini API!"
+  },
+  {
+    "tweet_id": "2040273306259956085",
+    "url": "https://x.com/OfficialLoganK/status/2040273306259956085",
+    "author": "OfficialLoganK",
+    "date": "2026-04-04T03:40:37.000Z",
+    "text": "We use Gemini all day to make AI Studio better!"
+  },
+  {
+    "tweet_id": "2040272807343325322",
+    "url": "https://x.com/OfficialLoganK/status/2040272807343325322",
+    "author": "OfficialLoganK",
+    "date": "2026-04-04T03:38:38.000Z",
+    "text": "lots of gaps to close on the agentic coding loop, but millions of paying developer use the Gemini API every month! and lots of good stuff cooking :)"
+  },
+  {
+    "tweet_id": "2039869456038371389",
+    "url": "https://x.com/OfficialLoganK/status/2039869456038371389",
+    "author": "OfficialLoganK",
+    "date": "2026-04-03T00:55:51.000Z",
+    "text": "Flex is available on tier 1 as well, apologies for the confusion"
+  },
+  {
+    "tweet_id": "2039869354834100294",
+    "url": "https://x.com/OfficialLoganK/status/2039869354834100294",
+    "author": "OfficialLoganK",
+    "date": "2026-04-03T00:55:27.000Z",
+    "text": "Flex is available for all tiers, priority is only tier 2 and 3"
+  },
+  {
+    "tweet_id": "2039826300672884888",
+    "url": "https://x.com/OfficialLoganK/status/2039826300672884888",
+    "author": "OfficialLoganK",
+    "date": "2026-04-02T22:04:22.000Z",
+    "text": "they are charged at whatever you set in the request (unless your priority is downgraded).\n\nmy suggestion is that you would setup your 503 retry logic in a cascading fashion, if a request fails with flex, switch to default, if it fails with default and it’s high priority, switch ti priority"
+  },
+  {
+    "tweet_id": "2039821814193443202",
+    "url": "https://x.com/javatovallejo/status/2039821814193443202",
+    "author": "OfficialLoganK",
+    "date": "2026-04-02T21:46:33.000Z",
+    "text": "Will these apply only in peak demand scenarios or always? If there is no peak in demand (can serve 'normally') and user uses flex or priority: will be processed as normal and pay regular?  Or will be always charged at the flex / priority prices?"
+  },
+  {
+    "tweet_id": "2039795986713776135",
+    "url": "https://x.com/OfficialLoganK/status/2039795986713776135",
+    "author": "OfficialLoganK",
+    "date": "2026-04-02T20:03:55.000Z",
+    "text": "Today we are rolling out service tiers in the Gemini API! You can now (optionally) set \"flex\" or \"priority\".\n\nIn the case of flex, this will save you ~50% on API costs (with lower reliability).\n\nIn the case of priority, this will cost ~80% more but give you higher priority!"
+  },
+  {
+    "tweet_id": "2039739374124843355",
+    "url": "https://x.com/OfficialLoganK/status/2039739374124843355",
+    "author": "OfficialLoganK",
+    "date": "2026-04-02T16:18:57.000Z",
+    "text": "it’s a race to see who has fastest download WiFi speeds : )"
+  },
+  {
+    "tweet_id": "2039735609049174344",
+    "url": "https://x.com/OfficialLoganK/status/2039735609049174344",
+    "author": "OfficialLoganK",
+    "date": "2026-04-02T16:04:00.000Z",
+    "text": "This is just the start of the Gemma 4 era : ) \n\nDownload Gemma 4 on Kaggle: \nhttps://\nkaggle.com/models/google/\ngemma-4\n…\n\nAnd read more in our blog:"
+  },
+  {
+    "tweet_id": "2039735606268314071",
+    "url": "https://x.com/OfficialLoganK/status/2039735606268314071",
+    "author": "OfficialLoganK",
+    "date": "2026-04-02T16:03:59.000Z",
+    "text": "Introducing Gemma 4, our series of open weight (Apache 2.0 licensed) models, which are byte for byte the most capable open models in the world!\n\nGemma 4 is build to run on your hardware: phones, laptops, and desktops.\n\nFrontier intelligence with a 26B MOE and a 31B Dense model!"
+  },
+  {
+    "tweet_id": "2039726720941498649",
+    "url": "https://x.com/OfficialLoganK/status/2039726720941498649",
+    "author": "OfficialLoganK",
+    "date": "2026-04-02T15:28:41.000Z",
+    "text": "it’s going to be thousands per day soon, iMessage is the wedge for AI agents"
+  },
+  {
+    "tweet_id": "2039362994832822454",
+    "url": "https://x.com/OfficialLoganK/status/2039362994832822454",
+    "author": "OfficialLoganK",
+    "date": "2026-04-01T15:23:22.000Z",
+    "text": "2 years at Google, time flies, we are just getting started : )"
+  },
+  {
+    "tweet_id": "2039324657812189456",
+    "url": "https://x.com/OfficialLoganK/status/2039324657812189456",
+    "author": "OfficialLoganK",
+    "date": "2026-04-01T12:51:01.000Z",
+    "text": "depends what you mean by only, but millions of developers and builders rely on AI Studio"
+  },
+  {
+    "tweet_id": "2039187721982189656",
+    "url": "https://x.com/OfficialLoganK/status/2039187721982189656",
+    "author": "OfficialLoganK",
+    "date": "2026-04-01T03:46:53.000Z",
+    "text": "I think they are referring to in vibe coding right now, we only let you have one chat per project, working on a fix!"
+  },
+  {
+    "tweet_id": "2039137810741870880",
+    "url": "https://x.com/OfficialLoganK/status/2039137810741870880",
+    "author": "OfficialLoganK",
+    "date": "2026-04-01T00:28:34.000Z",
+    "text": "and these are just the set of things I have personally worked on with the engineering team + Gemini, so much more great stuff landed and in flight : )"
+  },
+  {
+    "tweet_id": "2039137446932185266",
+    "url": "https://x.com/OfficialLoganK/status/2039137446932185266",
+    "author": "OfficialLoganK",
+    "date": "2026-04-01T00:27:07.000Z",
+    "text": "Quality of life updates to \n@GoogleAIStudio\n we just shipped (using Gemini):\n\n- You can now (optionally) save a temp chat in the playground\n- You can now turn a playground chat into an app in 2 clicks\n- Updated colors for playground to add some soul to it\n- Simplified the mobile"
+  },
+  {
+    "tweet_id": "2039015034286694618",
+    "url": "https://x.com/OfficialLoganK/status/2039015034286694618",
+    "author": "OfficialLoganK",
+    "date": "2026-03-31T16:20:41.000Z",
+    "text": "Video’s here to stay - introducing Veo 3.1 Lite, our most cost efficient video generation model to date, and on April 7th we are also reducing the price for Veo 3.1 Fast : )"
+  },
+  {
+    "tweet_id": "2038070747650744349",
+    "url": "https://x.com/OfficialLoganK/status/2038070747650744349",
+    "author": "OfficialLoganK",
+    "date": "2026-03-29T01:48:26.000Z",
+    "text": "teaching \n@ammaar\n how to design in light mode instead of only dark mode"
+  },
+  {
+    "tweet_id": "2038070097705656513",
+    "url": "https://x.com/OfficialLoganK/status/2038070097705656513",
+    "author": "OfficialLoganK",
+    "date": "2026-03-29T01:45:51.000Z",
+    "text": "Take stock of this moment, it’s truly a pleasure to be building with and for you all."
+  },
+  {
+    "tweet_id": "2036933032377024900",
+    "url": "https://x.com/OfficialLoganK/status/2036933032377024900",
+    "author": "OfficialLoganK",
+    "date": "2026-03-25T22:27:33.000Z",
+    "text": "crazy that we used AI Studio to help build genie"
+  },
+  {
+    "tweet_id": "2036848277333622956",
+    "url": "https://x.com/OfficialLoganK/status/2036848277333622956",
+    "author": "OfficialLoganK",
+    "date": "2026-03-25T16:50:46.000Z",
+    "text": "Introducing Lyria 3 Pro and Lyria 3 Clip, our full song and 30 second music models, available starting today in the Gemini API and our all new music experience in \n@GoogleAIStudio\n!!"
+  },
+  {
+    "tweet_id": "2036545823027126759",
+    "url": "https://x.com/OfficialLoganK/status/2036545823027126759",
+    "author": "OfficialLoganK",
+    "date": "2026-03-24T20:48:56.000Z",
+    "text": "we are designing something special for Google IO and we want you to be part of it\n\nreply with your AI Studio app, along with a 1-sentence story on how and why you vibe coded it"
+  },
+  {
+    "tweet_id": "2036244475899519249",
+    "url": "https://x.com/OfficialLoganK/status/2036244475899519249",
+    "author": "OfficialLoganK",
+    "date": "2026-03-24T00:51:29.000Z",
+    "text": "Very excited to see millions of new businesses come into the world over the next year, a very special moment to build!"
+  },
+  {
+    "tweet_id": "2036148693364044240",
+    "url": "https://x.com/OfficialLoganK/status/2036148693364044240",
+    "author": "OfficialLoganK",
+    "date": "2026-03-23T18:30:52.000Z",
+    "text": "Very excited to have you on the team :) welcome!!!"
+  },
+  {
+    "tweet_id": "2035857598344282335",
+    "url": "https://x.com/OfficialLoganK/status/2035857598344282335",
+    "author": "OfficialLoganK",
+    "date": "2026-03-22T23:14:10.000Z",
+    "text": "yeah, likely to be close to the default path given the availability of software, lots of weird outcomes if you play this out"
+  },
+  {
+    "tweet_id": "2035856016399569311",
+    "url": "https://x.com/OfficialLoganK/status/2035856016399569311",
+    "author": "OfficialLoganK",
+    "date": "2026-03-22T23:07:53.000Z",
+    "text": "flash is actually really good, pro is solid but lots of things to improve for longer running tasks!"
+  },
+  {
+    "tweet_id": "2035855117904216333",
+    "url": "https://x.com/OfficialLoganK/status/2035855117904216333",
+    "author": "OfficialLoganK",
+    "date": "2026-03-22T23:04:19.000Z",
+    "text": "With AI coding, it’s possible every app / website becomes an App Store.\n\nThe second and third order effects of this are interesting to think about."
+  },
+  {
+    "tweet_id": "2035813283345645668",
+    "url": "https://x.com/OfficialLoganK/status/2035813283345645668",
+    "author": "OfficialLoganK",
+    "date": "2026-03-22T20:18:04.000Z",
+    "text": "we are the OG AI Studio : ) but now there are hundreds"
+  },
+  {
+    "tweet_id": "2035809240846049659",
+    "url": "https://x.com/OfficialLoganK/status/2035809240846049659",
+    "author": "OfficialLoganK",
+    "date": "2026-03-22T20:02:01.000Z",
+    "text": "helping people building apps solve the distribution problem is very top of mind"
+  },
+  {
+    "tweet_id": "2035808778407301434",
+    "url": "https://x.com/OfficialLoganK/status/2035808778407301434",
+    "author": "OfficialLoganK",
+    "date": "2026-03-22T20:00:10.000Z",
+    "text": "this is fixed! You can update your settings to enable sharing chats through a workspace account, cc \n@ChanduThota"
+  },
+  {
+    "tweet_id": "2035109460037841326",
+    "url": "https://x.com/OfficialLoganK/status/2035109460037841326",
+    "author": "OfficialLoganK",
+    "date": "2026-03-20T21:41:20.000Z",
+    "text": "we have our own SDK, but also a compat layer for some set of features!"
+  },
+  {
+    "tweet_id": "2035107374873088109",
+    "url": "https://x.com/OfficialLoganK/status/2035107374873088109",
+    "author": "OfficialLoganK",
+    "date": "2026-03-20T21:33:03.000Z",
+    "text": "of course, but should be able to build someone really useful regardless"
+  },
+  {
+    "tweet_id": "2035107067573235727",
+    "url": "https://x.com/OfficialLoganK/status/2035107067573235727",
+    "author": "OfficialLoganK",
+    "date": "2026-03-20T21:31:50.000Z",
+    "text": "would love to hear your pov on why! My DMs are open"
+  },
+  {
+    "tweet_id": "2035106374049243433",
+    "url": "https://x.com/OfficialLoganK/status/2035106374049243433",
+    "author": "OfficialLoganK",
+    "date": "2026-03-20T21:29:04.000Z",
+    "text": "Firebase Studio is what is going away, firebase itself is not going anywhere and the ecosystem is thriving!"
+  },
+  {
+    "tweet_id": "2035105996960682363",
+    "url": "https://x.com/OfficialLoganK/status/2035105996960682363",
+    "author": "OfficialLoganK",
+    "date": "2026-03-20T21:27:34.000Z",
+    "text": "AI Studio is designed to find the balance of control (which builders want) and simplicity, you can close most of the things on the screen to simplify and focus!"
+  },
+  {
+    "tweet_id": "2035105600355340370",
+    "url": "https://x.com/OfficialLoganK/status/2035105600355340370",
+    "author": "OfficialLoganK",
+    "date": "2026-03-20T21:26:00.000Z",
+    "text": "Pro and Flash are actually really good in AI Studio for the vibe coding use case"
+  },
+  {
+    "tweet_id": "2035064598949241155",
+    "url": "https://x.com/OfficialLoganK/status/2035064598949241155",
+    "author": "OfficialLoganK",
+    "date": "2026-03-20T18:43:04.000Z",
+    "text": "Nano Banana and Veo are now supported in our OpenAI compat layer by updating 3 lines of code!"
+  },
+  {
+    "tweet_id": "2034763378795712615",
+    "url": "https://x.com/OfficialLoganK/status/2034763378795712615",
+    "author": "OfficialLoganK",
+    "date": "2026-03-19T22:46:08.000Z",
+    "text": "there’s never been a better time to be a developer than now"
+  },
+  {
+    "tweet_id": "2034763214945149115",
+    "url": "https://x.com/OfficialLoganK/status/2034763214945149115",
+    "author": "OfficialLoganK",
+    "date": "2026-03-19T22:45:29.000Z",
+    "text": "correct, but we will start taking into account Pro and Ultra subs soon!"
+  },
+  {
+    "tweet_id": "2034707309423898710",
+    "url": "https://x.com/OfficialLoganK/status/2034707309423898710",
+    "author": "OfficialLoganK",
+    "date": "2026-03-19T19:03:20.000Z",
+    "text": "many hundreds of thousands of apps just inside of Google, and many millions outside of Google : )"
+  },
+  {
+    "tweet_id": "2034707135435579694",
+    "url": "https://x.com/OfficialLoganK/status/2034707135435579694",
+    "author": "OfficialLoganK",
+    "date": "2026-03-19T19:02:38.000Z",
+    "text": "we doubled the token limits 3 days ago ; )"
+  },
+  {
+    "tweet_id": "2034702238057128078",
+    "url": "https://x.com/OfficialLoganK/status/2034702238057128078",
+    "author": "OfficialLoganK",
+    "date": "2026-03-19T18:43:11.000Z",
+    "text": "Yes, you can : ) press deploy in the top right corner"
+  },
+  {
+    "tweet_id": "2034701144979644749",
+    "url": "https://x.com/OfficialLoganK/status/2034701144979644749",
+    "author": "OfficialLoganK",
+    "date": "2026-03-19T18:38:50.000Z",
+    "text": "@ammaar\n \n@kat_kampf\n and \n@miketaylorcai\n are going to be cooking \n\n\nhttps://\nai.studio/build"
+  },
+  {
+    "tweet_id": "2034700865936765075",
+    "url": "https://x.com/OfficialLoganK/status/2034700865936765075",
+    "author": "OfficialLoganK",
+    "date": "2026-03-19T18:37:44.000Z",
+    "text": "Our AI Studio vibe coding roadmap for the new few weeks:\n\n- Design mode\n- Figma integration\n- Google Workspace integration\n- Better GitHub support\n- Planning mode\n- Immersive UI\n- Agents\n- Multiple chats per app\n- Simplified deploys\n- G1 support\n\nAnd more, should be fun : )"
+  },
+  {
+    "tweet_id": "2034698597615194465",
+    "url": "https://x.com/OfficialLoganK/status/2034698597615194465",
+    "author": "OfficialLoganK",
+    "date": "2026-03-19T18:28:43.000Z",
+    "text": "Love it!!!! One of fav stories is from the creative labs team who built a bunch of the project genie stuff in AI Studio (more to come)"
+  },
+  {
+    "tweet_id": "2034696460269219872",
+    "url": "https://x.com/OfficialLoganK/status/2034696460269219872",
+    "author": "OfficialLoganK",
+    "date": "2026-03-19T18:20:13.000Z",
+    "text": "We are not coming for anyone, just trying to make a product people love!"
+  },
+  {
+    "tweet_id": "2034689448705663256",
+    "url": "https://x.com/OfficialLoganK/status/2034689448705663256",
+    "author": "OfficialLoganK",
+    "date": "2026-03-19T17:52:21.000Z",
+    "text": "Can you email me the link to this app so I can debug: Lkilpatrick@google.com"
+  },
+  {
+    "tweet_id": "2034662356693745869",
+    "url": "https://x.com/OfficialLoganK/status/2034662356693745869",
+    "author": "OfficialLoganK",
+    "date": "2026-03-19T16:04:42.000Z",
+    "text": "how could I forget? I see AI Studio in both my dreams and nightmares"
+  },
+  {
+    "tweet_id": "2034658288030056868",
+    "url": "https://x.com/OfficialLoganK/status/2034658288030056868",
+    "author": "OfficialLoganK",
+    "date": "2026-03-19T15:48:32.000Z",
+    "text": "ty for leaking all of these features along the way : )"
+  },
+  {
+    "tweet_id": "2034658147906793687",
+    "url": "https://x.com/OfficialLoganK/status/2034658147906793687",
+    "author": "OfficialLoganK",
+    "date": "2026-03-19T15:47:59.000Z",
+    "text": "I am about to bring my idea to life hold on"
+  },
+  {
+    "tweet_id": "2034656494654771464",
+    "url": "https://x.com/OfficialLoganK/status/2034656494654771464",
+    "author": "OfficialLoganK",
+    "date": "2026-03-19T15:41:25.000Z",
+    "text": "Start building your first app for free at \nhttps://\nai.studio/build"
+  },
+  {
+    "tweet_id": "2034262881269842319",
+    "url": "https://x.com/OfficialLoganK/status/2034262881269842319",
+    "author": "OfficialLoganK",
+    "date": "2026-03-18T13:37:20.000Z",
+    "text": "It has been a wild year, but this is just the start. The next year is going to bring much more change than the last and I could not be more excited to get to be on this journey with you and the team. Onwards : )"
+  },
+  {
+    "tweet_id": "2033984093524828480",
+    "url": "https://x.com/OfficialLoganK/status/2033984093524828480",
+    "author": "OfficialLoganK",
+    "date": "2026-03-17T19:09:32.000Z",
+    "text": "evals aren’t useful if you train on them, but are useful to know where you can improve!"
+  },
+  {
+    "tweet_id": "2033978256454504915",
+    "url": "https://x.com/OfficialLoganK/status/2033978256454504915",
+    "author": "OfficialLoganK",
+    "date": "2026-03-17T18:46:20.000Z",
+    "text": "AI continues to saturate most benchmarks, so we need new ones which hold a rigorous bar. \n\nHelp us measure models along the following dimensions: learning, metacognition, attention, executive functions, and social cognition."
+  },
+  {
+    "tweet_id": "2033978254344786351",
+    "url": "https://x.com/OfficialLoganK/status/2033978254344786351",
+    "author": "OfficialLoganK",
+    "date": "2026-03-17T18:46:19.000Z",
+    "text": "Help us measure the progress towards AGI (specifically cognitive capabilities) by building benchmarks on \n@kaggle\n, with $ 200K in prizes available! Details in"
+  },
+  {
+    "tweet_id": "2033724039584178309",
+    "url": "https://x.com/OfficialLoganK/status/2033724039584178309",
+    "author": "OfficialLoganK",
+    "date": "2026-03-17T01:56:10.000Z",
+    "text": "go to \nhttps://\nai.studio, we make them automatically for new users, then 3 clicks : )"
+  },
+  {
+    "tweet_id": "2033723413387219402",
+    "url": "https://x.com/OfficialLoganK/status/2033723413387219402",
+    "author": "OfficialLoganK",
+    "date": "2026-03-17T01:53:41.000Z",
+    "text": "The bottleneck has so quickly moved from code generation to code review that it is actually a bit jarring.\n\nNone of the current systems / norms are setup for this world yet."
+  },
+  {
+    "tweet_id": "2033617023486300294",
+    "url": "https://x.com/OfficialLoganK/status/2033617023486300294",
+    "author": "OfficialLoganK",
+    "date": "2026-03-16T18:50:55.000Z",
+    "text": "Fix coming soon! We are adding more controls to these deployments which should land this week."
+  },
+  {
+    "tweet_id": "2033616739716776035",
+    "url": "https://x.com/OfficialLoganK/status/2033616739716776035",
+    "author": "OfficialLoganK",
+    "date": "2026-03-16T18:49:48.000Z",
+    "text": "There are two levers here in the Gemini API: billing account caps and user set spend caps.\n\nFor billing account caps, starting in April, each Tier (1-3) will have a max spending cap set. Once you hit that limit, you cannot spend more (upper bound of spending).\n\nFor user set spend"
+  },
+  {
+    "tweet_id": "2033615770748428580",
+    "url": "https://x.com/OfficialLoganK/status/2033615770748428580",
+    "author": "OfficialLoganK",
+    "date": "2026-03-16T18:45:57.000Z",
+    "text": "Hey! Are you an owner / Admin on this account?"
+  },
+  {
+    "tweet_id": "2033615283517088083",
+    "url": "https://x.com/OfficialLoganK/status/2033615283517088083",
+    "author": "OfficialLoganK",
+    "date": "2026-03-16T18:44:00.000Z",
+    "text": "same here tbh, my personal account is on tier 1 so I am excited it is not easier to upgrade!"
+  },
+  {
+    "tweet_id": "2033615107209449543",
+    "url": "https://x.com/OfficialLoganK/status/2033615107209449543",
+    "author": "OfficialLoganK",
+    "date": "2026-03-16T18:43:18.000Z",
+    "text": "503's are the only tough situation here, the update from today should make getting less 429's much easier. For 503's we are making TPU's as fast as possible but there are certain times of day / week when we hit global capacity spikes which causes us to have to shed traffic."
+  },
+  {
+    "tweet_id": "2033614676022448381",
+    "url": "https://x.com/OfficialLoganK/status/2033614676022448381",
+    "author": "OfficialLoganK",
+    "date": "2026-03-16T18:41:36.000Z",
+    "text": "it takes ~10 minutes for the caps to go into effect, once they are all requests are blocked"
+  },
+  {
+    "tweet_id": "2033590234814742964",
+    "url": "https://x.com/OfficialLoganK/status/2033590234814742964",
+    "author": "OfficialLoganK",
+    "date": "2026-03-16T17:04:28.000Z",
+    "text": "yeah we didn't do automatic to start since they used to serve as glorified cost caps, but not that we have default billing account caps and user set spend caps, we can now upgrade folks automatically!"
+  },
+  {
+    "tweet_id": "2033589326957695107",
+    "url": "https://x.com/OfficialLoganK/status/2033589326957695107",
+    "author": "OfficialLoganK",
+    "date": "2026-03-16T17:00:52.000Z",
+    "text": "indeed, needed to build a bunch of infra to make this possible so took some time to pull off"
+  },
+  {
+    "tweet_id": "2033589166387192084",
+    "url": "https://x.com/OfficialLoganK/status/2033589166387192084",
+    "author": "OfficialLoganK",
+    "date": "2026-03-16T17:00:14.000Z",
+    "text": "that is coming separately but we are working on it!"
+  },
+  {
+    "tweet_id": "2033588903186469370",
+    "url": "https://x.com/OfficialLoganK/status/2033588903186469370",
+    "author": "OfficialLoganK",
+    "date": "2026-03-16T16:59:11.000Z",
+    "text": "we will have a fix for this soon as we move to be fully prepaid as a service!"
+  },
+  {
+    "tweet_id": "2033587769759416425",
+    "url": "https://x.com/OfficialLoganK/status/2033587769759416425",
+    "author": "OfficialLoganK",
+    "date": "2026-03-16T16:54:41.000Z",
+    "text": "Plus we rolled out spend caps last week to let you set an API budget, a bunch of new rate limit + billing + usage dashboards to make monitoring costs easier, and more!"
+  },
+  {
+    "tweet_id": "2033587540419019127",
+    "url": "https://x.com/OfficialLoganK/status/2033587540419019127",
+    "author": "OfficialLoganK",
+    "date": "2026-03-16T16:53:46.000Z",
+    "text": "We just shipped a bunch of stuff to make it easier to scale with the Gemini API:\n\n- Automatic tier upgrades\n- Tier 1 -> Tier 2 now happens much faster (30 days post payment -> 3 days) and with less spend ($250 -> $100)\n- New billing account caps on each tier to limit over spend"
+  },
+  {
+    "tweet_id": "2033530911812206825",
+    "url": "https://x.com/OfficialLoganK/status/2033530911812206825",
+    "author": "OfficialLoganK",
+    "date": "2026-03-16T13:08:45.000Z",
+    "text": "will be fixed today or tomorrow, rolling out some changes asap!"
+  },
+  {
+    "tweet_id": "2033377939325133256",
+    "url": "https://x.com/OfficialLoganK/status/2033377939325133256",
+    "author": "OfficialLoganK",
+    "date": "2026-03-16T03:00:53.000Z",
+    "text": "Spent all day vibe coding, fixing bugs in AI Studio, and polishing the experience :)\n\nSo much fun!"
+  },
+  {
+    "tweet_id": "2033294749914804648",
+    "url": "https://x.com/OfficialLoganK/status/2033294749914804648",
+    "author": "OfficialLoganK",
+    "date": "2026-03-15T21:30:19.000Z",
+    "text": "already have it in the API, just adding support in the UI as well : )"
+  },
+  {
+    "tweet_id": "2033210243082068417",
+    "url": "https://x.com/OfficialLoganK/status/2033210243082068417",
+    "author": "OfficialLoganK",
+    "date": "2026-03-15T15:54:31.000Z",
+    "text": "Would love to hear more so we can fix, pls DM or email me: Lkilpatrick@google.com"
+  },
+  {
+    "tweet_id": "2032223331638759718",
+    "url": "https://x.com/OfficialLoganK/status/2032223331638759718",
+    "author": "OfficialLoganK",
+    "date": "2026-03-12T22:32:53.000Z",
+    "text": "I sat down with Miriam and David from the Google Maps team to talk through and play around with the new Google Maps experience, it was awesome to see Gemini in action and learn from the Maps team!"
+  },
+  {
+    "tweet_id": "2032210396182896970",
+    "url": "https://x.com/OfficialLoganK/status/2032210396182896970",
+    "author": "OfficialLoganK",
+    "date": "2026-03-12T21:41:29.000Z",
+    "text": "there is an iOS app, people just don't have it yet : )"
+  },
+  {
+    "tweet_id": "2032210263689039951",
+    "url": "https://x.com/OfficialLoganK/status/2032210263689039951",
+    "author": "OfficialLoganK",
+    "date": "2026-03-12T21:40:58.000Z",
+    "text": "pls send feedback! I spend my day trying to make AI Studio suck less : )"
+  },
+  {
+    "tweet_id": "2032205751590981841",
+    "url": "https://x.com/OfficialLoganK/status/2032205751590981841",
+    "author": "OfficialLoganK",
+    "date": "2026-03-12T21:23:02.000Z",
+    "text": "Want to help us bring \n@GoogleAIStudio\n to android before Google IO (in 67 days)? \n\nIf so, apply below"
+  },
+  {
+    "tweet_id": "2032205008767193237",
+    "url": "https://x.com/OfficialLoganK/status/2032205008767193237",
+    "author": "OfficialLoganK",
+    "date": "2026-03-12T21:20:05.000Z",
+    "text": "if you mean Vertex AI, then no not supported yet, but the Gemini API is technically available to enable through the cloud console (under the name generative language API), but you need to enable this in AI Studio"
+  },
+  {
+    "tweet_id": "2032204764482523196",
+    "url": "https://x.com/OfficialLoganK/status/2032204764482523196",
+    "author": "OfficialLoganK",
+    "date": "2026-03-12T21:19:07.000Z",
+    "text": "not key for now, rate limits and spending all happen at the project level today"
+  },
+  {
+    "tweet_id": "2032204412374949901",
+    "url": "https://x.com/OfficialLoganK/status/2032204412374949901",
+    "author": "OfficialLoganK",
+    "date": "2026-03-12T21:17:43.000Z",
+    "text": "we are removing it and shifting the whole API to prepay"
+  },
+  {
+    "tweet_id": "2032129089856000171",
+    "url": "https://x.com/OfficialLoganK/status/2032129089856000171",
+    "author": "OfficialLoganK",
+    "date": "2026-03-12T16:18:24.000Z",
+    "text": "both of these just mean that we might not support the long term"
+  },
+  {
+    "tweet_id": "2032127026430165252",
+    "url": "https://x.com/OfficialLoganK/status/2032127026430165252",
+    "author": "OfficialLoganK",
+    "date": "2026-03-12T16:10:12.000Z",
+    "text": "Great work by \n@jastephx\n and so many others across Google to help land this!!"
+  }
+]

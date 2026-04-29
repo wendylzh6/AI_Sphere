@@ -1,0 +1,26 @@
+{
+  "source": {
+    "file": "51 AI influencers",
+    "influencerId": "clementdelangue",
+    "handle": "ClementDelangue",
+    "profileUrl": "https://x.com/ClementDelangue"
+  },
+  "filters": {
+    "startDate": "2023-04-16",
+    "endDate": "2026-04-16",
+    "minWords": 10,
+    "excludeReplies": false,
+    "excludeReposts": false
+  },
+  "collectedAt": "2026-04-23T21:02:33.608Z",
+  "totalTweets": 1,
+  "tweets": [
+    {
+      "id": "2039695447506210905",
+      "url": "https://x.com/ClementDelangue/status/2039695447506210905",
+      "createdAt": "2026-04-02T13:24:25.000Z",
+      "text": "Hot take: Git was the wrong abstraction for 90% of ML data. Checkpoints, optimizer states, training logs, agent traces - none of this needs version control. It needs fast, cheap, mutable storage. So we built Buckets. S3-like storage on the @huggingface Hub with Xet dedup and",
+      "wordCount": 46
+    }
+  ]
+}

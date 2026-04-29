@@ -1,0 +1,89 @@
+{
+  "source": {
+    "file": "51 AI influencers",
+    "influencerId": "darioamodei",
+    "handle": "DarioAmodei",
+    "profileUrl": "https://x.com/DarioAmodei"
+  },
+  "filters": {
+    "startDate": "2023-04-16",
+    "endDate": "2026-04-16",
+    "minWords": 10,
+    "excludeReplies": true,
+    "excludeReposts": true
+  },
+  "collectedAt": "2026-04-23T19:39:30.267Z",
+  "totalTweets": 10,
+  "tweets": [
+    {
+      "id": "2041580343472337145",
+      "url": "https://x.com/DarioAmodei/status/2041580343472337145",
+      "createdAt": "2026-04-07T18:14:19.000Z",
+      "text": "Cyber is the first clear and present danger from frontier AI models, but it won’t be the last. If we are able to collectively rise to the challenge and confront this risk, it could serve as a blueprint for addressing the even more difficult challenges that lie ahead of us.",
+      "wordCount": 50
+    },
+    {
+      "id": "2041580341794615631",
+      "url": "https://x.com/DarioAmodei/status/2041580341794615631",
+      "createdAt": "2026-04-07T18:14:18.000Z",
+      "text": "The dangers of getting this wrong are obvious, but if we get it right, there is a real opportunity to create a fundamentally more secure internet and world than we had before the advent of AI-powered cyber capabilities.",
+      "wordCount": 38
+    },
+    {
+      "id": "2041580334693720511",
+      "url": "https://x.com/DarioAmodei/status/2041580334693720511",
+      "createdAt": "2026-04-07T18:14:17.000Z",
+      "text": "I’m proud that so many of the world’s leading companies have joined us for Project Glasswing to confront the cyber threat posed by increasingly capable AI systems head-on.",
+      "wordCount": 28
+    },
+    {
+      "id": "2015833051205414955",
+      "url": "https://x.com/DarioAmodei/status/2015833051205414955",
+      "createdAt": "2026-01-26T17:03:46.000Z",
+      "text": "I've been working on this essay for a while, and it is mainly about AI and about the future. But given the horror we're seeing in Minnesota, its emphasis on the importance of preserving democratic values and rights at home is particularly relevant.",
+      "wordCount": 43
+    },
+    {
+      "id": "2015833046327402527",
+      "url": "https://x.com/DarioAmodei/status/2015833046327402527",
+      "createdAt": "2026-01-26T17:03:45.000Z",
+      "text": "The Adolescence of Technology: an essay on the risks posed by powerful AI to national security, economies and democracy—and how we can defend against them:",
+      "wordCount": 25
+    },
+    {
+      "id": "2015833048785248440",
+      "url": "https://x.com/DarioAmodei/status/2015833048785248440",
+      "createdAt": "2026-01-26T17:03:45.000Z",
+      "text": "It's a companion to Machines of Loving Grace, an essay I wrote over a year ago, which focused on what powerful AI could achieve if we get it right:",
+      "wordCount": 29
+    },
+    {
+      "id": "1977010693460443151",
+      "url": "https://x.com/DarioAmodei/status/1977010693460443151",
+      "createdAt": "2025-10-11T13:57:35.000Z",
+      "text": "Today I met with PM @narendramodi to discuss Anthropic's expansion to India—where Claude Code use is up 5× since June. How India deploys AI across critical sectors like education, healthcare, and agriculture for over a billion people will be essential in shaping the future of AI.",
+      "wordCount": 46
+    },
+    {
+      "id": "1915515160607023391",
+      "url": "https://x.com/DarioAmodei/status/1915515160607023391",
+      "createdAt": "2025-04-24T21:16:17.000Z",
+      "text": "The Urgency of Interpretability: Why it's crucial that we understand how AI models work",
+      "wordCount": 14
+    },
+    {
+      "id": "1884636410839535967",
+      "url": "https://x.com/DarioAmodei/status/1884636410839535967",
+      "createdAt": "2025-01-29T16:15:09.000Z",
+      "text": "My thoughts on China, export controls and two possible futures",
+      "wordCount": 10
+    },
+    {
+      "id": "1844830404064288934",
+      "url": "https://x.com/DarioAmodei/status/1844830404064288934",
+      "createdAt": "2024-10-11T20:00:18.000Z",
+      "text": "Machines of Loving Grace: my essay on how AI could transform the world for the better",
+      "wordCount": 16
+    }
+  ]
+}

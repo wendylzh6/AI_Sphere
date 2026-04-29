@@ -1,0 +1,950 @@
+{
+  "source": {
+    "file": "51 AI influencers",
+    "influencerId": "goodfellow_ian",
+    "handle": "goodfellow_ian",
+    "profileUrl": "https://x.com/goodfellow_ian"
+  },
+  "filters": {
+    "startDate": "2023-04-16",
+    "endDate": "2026-04-16",
+    "minWords": 10,
+    "excludeReplies": false,
+    "excludeReposts": false
+  },
+  "collectedAt": "2026-04-28T17:32:01.990Z",
+  "totalTweets": 133,
+  "tweets": [
+    {
+      "id": "2038751848489013708",
+      "url": "https://x.com/pubhealthaction/status/2038751848489013708",
+      "createdAt": "2026-03-30T22:54:53.000Z",
+      "text": "March 31st is the last day to submit proposals for projects with measurable results in reducing indoor airborne pathogens, like breath-based multi-pathogen detection systems, continuous HVAC compliance verification systems, and indoor air infrastructure deployment.",
+      "wordCount": 34
+    },
+    {
+      "id": "2032140997053071746",
+      "url": "https://x.com/goodfellow_ian/status/2032140997053071746",
+      "createdAt": "2026-03-12T17:05:43.000Z",
+      "text": "In Public Health Action Network we’re about to go through an internal expert review process to choose how to focus our efforts over the next few years. We’ll be deciding, how can we, as a small non-profit, most effectively reduce the spread of airborne disease. If you have",
+      "wordCount": 48
+    },
+    {
+      "id": "2029985456579039678",
+      "url": "https://x.com/goodfellow_ian/status/2029985456579039678",
+      "createdAt": "2026-03-06T18:20:22.000Z",
+      "text": "An article from Moonlake about why they’re building what they’re building. (I’m an advisor)",
+      "wordCount": 14
+    },
+    {
+      "id": "2026004471957094910",
+      "url": "https://x.com/goodfellow_ian/status/2026004471957094910",
+      "createdAt": "2026-02-23T18:41:22.000Z",
+      "text": "I'd like to thank @daniel_rossett for his help in my recovery from the POTS version of Long COVID. Daniel was key in bringing me back from highly disabled and suffering to being able to do what I want to again. This X account is mostly focused on ML / AI. From that point of",
+      "wordCount": 54
+    },
+    {
+      "id": "1990839554790875587",
+      "url": "https://x.com/goodfellow_ian/status/1990839554790875587",
+      "createdAt": "2025-11-18T17:48:32.000Z",
+      "text": "Best outputs from Gemini 2.5 Pro, vs 3 Pro, this example nicely illustrates the fidelity jump with 3 Pro, through strong multimodal understanding and 3D reasoning",
+      "wordCount": 26
+    },
+    {
+      "id": "1990839056331337797",
+      "url": "https://x.com/goodfellow_ian/status/1990839056331337797",
+      "createdAt": "2025-11-18T17:46:33.000Z",
+      "text": "Amazing test of Gemini 3’s multimodal reasoning capabilities: try generating a threejs voxel art scene using only an image as input Prompt: I have provided an image. Code a beautiful voxel art scene inspired by this image. Write threejs code as a single-page",
+      "wordCount": 43
+    },
+    {
+      "id": "1978917232580452787",
+      "url": "https://x.com/goodfellow_ian/status/1978917232580452787",
+      "createdAt": "2025-10-16T20:13:29.000Z",
+      "text": "More of what my colleagues and I have been working on in AI for fusion is public now",
+      "wordCount": 18
+    },
+    {
+      "id": "1978412967923216764",
+      "url": "https://x.com/Yoshua_Bengio/status/1978412967923216764",
+      "createdAt": "2025-10-15T10:49:43.000Z",
+      "text": "AI is evolving too quickly for an annual report to suffice. To help policymakers keep pace, we're introducing the first Key Update to the International AI Safety Report. (1/10)",
+      "wordCount": 29
+    },
+    {
+      "id": "1973446434897936612",
+      "url": "https://x.com/goodfellow_ian/status/1973446434897936612",
+      "createdAt": "2025-10-01T17:54:29.000Z",
+      "text": "Moonlake is launching publicly today, focused on generating simulations and games. Simulations are an important application of generative models that I’ve advocated for since 2014",
+      "wordCount": 25
+    },
+    {
+      "id": "1971683187559715155",
+      "url": "https://x.com/Yoshua_Bengio/status/1971683187559715155",
+      "createdAt": "2025-09-26T21:07:58.000Z",
+      "text": "It was an honour to speak at the @UN this week to address the UN Security Council on the impacts of AI on international peace & security, and to join the high-level multi-stakeholder informal meeting to launch the Global Dialogue on AI Governance. We need global cooperation to",
+      "wordCount": 48
+    },
+    {
+      "id": "1956040393361121540",
+      "url": "https://x.com/goodfellow_ian/status/1956040393361121540",
+      "createdAt": "2025-08-14T17:09:05.000Z",
+      "text": "Check out @snowglobe_so , the new simulation engine for testing chatbots from @guardrails_ai",
+      "wordCount": 13
+    },
+    {
+      "id": "1947337615054671882",
+      "url": "https://x.com/demishassabis/status/1947337615054671882",
+      "createdAt": "2025-07-21T16:47:21.000Z",
+      "text": "Official results are in - Gemini achieved gold-medal level in the International Mathematical Olympiad! An advanced version was able to solve 5 out of 6 problems. Incredible progress - huge congrats to @lmthang and the team!",
+      "wordCount": 36
+    },
+    {
+      "id": "1930751294421262677",
+      "url": "https://x.com/goodfellow_ian/status/1930751294421262677",
+      "createdAt": "2025-06-05T22:19:14.000Z",
+      "text": "My account was compromised and now recovered. I have deleted a fraudulent post about a crypto token using the DeepMind name. Please do not participate if you saw that while it was up.",
+      "wordCount": 33
+    },
+    {
+      "id": "1915442054450262299",
+      "url": "https://x.com/skupor/status/1915442054450262299",
+      "createdAt": "2025-04-24T16:25:47.000Z",
+      "text": "Great to see the power of hallucination-free voice AI by @InfinitusAI in driving up quality and lower costs for health care, starting with health risk assessments.",
+      "wordCount": 26
+    },
+    {
+      "id": "1902798546568401287",
+      "url": "https://x.com/pubhealthaction/status/1902798546568401287",
+      "createdAt": "2025-03-20T19:05:00.000Z",
+      "text": "Hi Twitter friends! Want to make a better world for those with COVID and #LongCOVID? Or a world where everyone has clean indoor air? We want YOU! We need volunteers for our projects and communications work. Fill out our contact form on our website or DM us, and we'll be in touch!",
+      "wordCount": 52
+    },
+    {
+      "id": "1902099832308977859",
+      "url": "https://x.com/goodfellow_ian/status/1902099832308977859",
+      "createdAt": "2025-03-18T20:48:33.000Z",
+      "text": "This is personal for these founders, who are making this app to support important people in their own lives. They’ve also been reaching out for feedback from other chronic illness patients including me",
+      "wordCount": 33
+    },
+    {
+      "id": "1899433554372698399",
+      "url": "https://x.com/RorPreston/status/1899433554372698399",
+      "createdAt": "2025-03-11T12:13:43.000Z",
+      "text": "This chart shows that long COVID is now amongst the most burdensome diseases in the USA Thanks to @mildTin for her analysis and DALY estimate for long COVID Worth noting, this includes COVID-triggered ME/CFS",
+      "wordCount": 34
+    },
+    {
+      "id": "1889873365642649994",
+      "url": "https://x.com/goodfellow_ian/status/1889873365642649994",
+      "createdAt": "2025-02-13T03:04:57.000Z",
+      "text": "Benchmarks are both difficult and important. Great to see these thoughtful, open reproducible benchmarks for LLM guardrails.",
+      "wordCount": 17
+    },
+    {
+      "id": "1889728750851396082",
+      "url": "https://x.com/ShreyaR/status/1889728750851396082",
+      "createdAt": "2025-02-12T17:30:18.000Z",
+      "text": "Announcing Guardrails Index!! We’ve come a long way since we first launched @guardrails_ai in 2023, with guardrails now a pretty standard part of AI platforms everywhere BUT how performant are guardrails really?! I’m CONSTANTLY surprised by the lack of benchmarks for this",
+      "wordCount": 42
+    },
+    {
+      "id": "1889138094638510519",
+      "url": "https://x.com/LieslMcConchie/status/1889138094638510519",
+      "createdAt": "2025-02-11T02:23:14.000Z",
+      "text": "Know Your Rights! Clean Air Allies (the non-profit I co-founded w/ @cleanairschool ) is launching our 1st campaign. Did u know California students have a constitutional right to safe & healthy school facilities? Here's what you need to know & do https:// cleanairallies.org",
+      "wordCount": 43
+    },
+    {
+      "id": "1889038320833094139",
+      "url": "https://x.com/goodfellow_ian/status/1889038320833094139",
+      "createdAt": "2025-02-10T19:46:46.000Z",
+      "text": "LDN has helped me to stop having PEM. I recommend starting at a very low dose like .5mg, increasing slowly and only when you’re sleeping ok. I regret following instructions to work toward 4.5mg and getting stuck at a higher dose than I’d like (I feel sick if I try to reduce it).",
+      "wordCount": 53
+    },
+    {
+      "id": "1888730712599384437",
+      "url": "https://x.com/goodfellow_ian/status/1888730712599384437",
+      "createdAt": "2025-02-09T23:24:27.000Z",
+      "text": "If you’re interested in resources for staying safe from COVID, take our survey on how Public Health Action Network can best support you:",
+      "wordCount": 23
+    },
+    {
+      "id": "1886871643345314260",
+      "url": "https://x.com/mblair/status/1886871643345314260",
+      "createdAt": "2025-02-04T20:17:10.000Z",
+      "text": "There isn't enough research money behind it solving Long Covid/MECFS. We are leaving people on the battlefield of the pandemic. It should be receiving at least as much funding as HIV is today, considering that we already have treatments for that.",
+      "wordCount": 41
+    },
+    {
+      "id": "1886595204016431355",
+      "url": "https://x.com/goodfellow_ian/status/1886595204016431355",
+      "createdAt": "2025-02-04T01:58:42.000Z",
+      "text": "100% this. My kids are missing out on the majority of the benefit of having a dad because of Long COVID (mostly POTS for me) and it’s right at the age where they need one most",
+      "wordCount": 36
+    },
+    {
+      "id": "1884058617562947861",
+      "url": "https://x.com/goodfellow_ian/status/1884058617562947861",
+      "createdAt": "2025-01-28T01:59:13.000Z",
+      "text": "The recording of the GAN test of time talk by @dwf is now publicly available: https:// neurips.cc/virtual/2024/t est-of-time/105032 …",
+      "wordCount": 19
+    },
+    {
+      "id": "1882575671727439908",
+      "url": "https://x.com/goodfellow_ian/status/1882575671727439908",
+      "createdAt": "2025-01-23T23:46:31.000Z",
+      "text": "My co-authors have completed one of the projects I was working on with them before I went on disability leave. Check out this great explainer thread from @davlindner",
+      "wordCount": 28
+    },
+    {
+      "id": "1878909191689220305",
+      "url": "https://x.com/goodfellow_ian/status/1878909191689220305",
+      "createdAt": "2025-01-13T20:57:14.000Z",
+      "text": "South Bay people, are you able to see your GP in less than 2 months? Mine at PAMF almost always cancels same day and reschedules me for ~6 weeks later",
+      "wordCount": 30
+    },
+    {
+      "id": "1876508956841107801",
+      "url": "https://x.com/alvelda/status/1876508956841107801",
+      "createdAt": "2025-01-07T05:59:33.000Z",
+      "text": "Wow. In failing to address or abate the ongoing COVID pandemic, we are damaging our own cognition 3x worse than the Roman Empire inflicted upon itself with brain damage from lead pipes. The big difference? They had no idea what heavy metal poisoning could do in 100 AD. We’ve",
+      "wordCount": 49
+    },
+    {
+      "id": "1867768467480621111",
+      "url": "https://x.com/goodfellow_ian/status/1867768467480621111",
+      "createdAt": "2024-12-14T03:07:58.000Z",
+      "text": "Schmidhuber was a reviewer of the GAN paper in 2014. The reviews are public. He is the reviewer that asked us to cite predictability minimization. He did not ask us to cite artificial creativity (his current complaint). He hadn’t thought of that even in 2016.",
+      "wordCount": 45
+    },
+    {
+      "id": "1867767959864954955",
+      "url": "https://x.com/goodfellow_ian/status/1867767959864954955",
+      "createdAt": "2024-12-14T03:05:57.000Z",
+      "text": "When Schmidhuber interrupted my talk on GANs in 2016, he did so at the time I was giving credit to relevant prior work: noise contrastive estimation. Schmidhuber isn’t about proper about academic credit assignment, he’s about self-aggrandizement.",
+      "wordCount": 37
+    },
+    {
+      "id": "1867697215843770510",
+      "url": "https://x.com/goodfellow_ian/status/1867697215843770510",
+      "createdAt": "2024-12-13T22:24:51.000Z",
+      "text": "Congratulations to @dwf for a great talk. I thought he did a great job of giving credit to all the lab members that made GANs possible and describing how LISA was the right environment to create them as well as summarizing the impact they had after publication.",
+      "wordCount": 47
+    },
+    {
+      "id": "1867697214421971115",
+      "url": "https://x.com/goodfellow_ian/status/1867697214421971115",
+      "createdAt": "2024-12-13T22:24:50.000Z",
+      "text": "If you’d like to help prevent the spread of COVID and other diseases, consider donating, volunteering, or applying to work at the nonprofit that I cofounded:",
+      "wordCount": 26
+    },
+    {
+      "id": "1867697210466709814",
+      "url": "https://x.com/goodfellow_ian/status/1867697210466709814",
+      "createdAt": "2024-12-13T22:24:49.000Z",
+      "text": "Today GANs got 1 of 2 test of time awards at @NeurIPSConf . Many thanks to my co-author @dwf for preparing and presenting the talk. It’s no easy task to summarize 85k papers in 12 minutes",
+      "wordCount": 36
+    },
+    {
+      "id": "1867019734652424458",
+      "url": "https://x.com/goodfellow_ian/status/1867019734652424458",
+      "createdAt": "2024-12-12T01:32:46.000Z",
+      "text": "Another more specific way people can help: does anyone know if it’s safe to take betahistine if I have MCAS? And does taking antihistamines make betahistine ineffective?",
+      "wordCount": 27
+    },
+    {
+      "id": "1865446280530661705",
+      "url": "https://x.com/goodfellow_ian/status/1865446280530661705",
+      "createdAt": "2024-12-07T17:20:26.000Z",
+      "text": "I’ll add what I’ve tried here, let’s try to get critical mass",
+      "wordCount": 12
+    },
+    {
+      "id": "1864062611895246990",
+      "url": "https://x.com/goodfellow_ian/status/1864062611895246990",
+      "createdAt": "2024-12-03T21:42:13.000Z",
+      "text": "My GAN co-author Sherjil Ozair has written about some memories of 2012-2014 in the context of GANs winning one of this year's test of time awards, worth a read for the nostalgia if you were around back then, or for learning what it was like if you weren't",
+      "wordCount": 48
+    },
+    {
+      "id": "1862518457926811899",
+      "url": "https://x.com/Friesein/status/1862518457926811899",
+      "createdAt": "2024-11-29T15:26:18.000Z",
+      "text": "The time has come for us to recognize aerosol hygiene as a necessity for modern life. To do this, we need engineering controls that don't rely on human behavior. Just as our ancestors decided it was time to filter the water, the same is now true of the air. It's time to adapt.",
+      "wordCount": 53
+    },
+    {
+      "id": "1860725439431573778",
+      "url": "https://x.com/goodfellow_ian/status/1860725439431573778",
+      "createdAt": "2024-11-24T16:41:30.000Z",
+      "text": "My Meniere’s doctors are great but they don’t know a lot about POTS or POTS-compatible treatments. I’ve had less access to POTS doctors and they don’t know much about Meniere’s. I’m really struggling to find a way to manage both. Any help finding someone who knows what to do is",
+      "wordCount": 50
+    },
+    {
+      "id": "1860725441042211213",
+      "url": "https://x.com/goodfellow_ian/status/1860725441042211213",
+      "createdAt": "2024-11-24T16:41:30.000Z",
+      "text": "A few ideas for leads would be if there is anyone with experience treating Meniere’s with amiloride or fludrocortisone, or anyone with experience treating POTS patients who have to take diuretics for more common reasons than Meniere’s.",
+      "wordCount": 37
+    },
+    {
+      "id": "1860725431227625659",
+      "url": "https://x.com/goodfellow_ian/status/1860725431227625659",
+      "createdAt": "2024-11-24T16:41:28.000Z",
+      "text": "Posting a call for help: does anyone know of a good way to simultaneously treat both POTS and Ménière’s disease? Please contact me if you’re either a clinician with experience doing this or a patient who has found a good solution. Context in thread",
+      "wordCount": 44
+    },
+    {
+      "id": "1857162998223458495",
+      "url": "https://x.com/goodfellow_ian/status/1857162998223458495",
+      "createdAt": "2024-11-14T20:45:37.000Z",
+      "text": "Looking for just a few hundred more signatures by tomorrow",
+      "wordCount": 10
+    },
+    {
+      "id": "1857117441031070093",
+      "url": "https://x.com/MEActNet/status/1857117441031070093",
+      "createdAt": "2024-11-14T17:44:36.000Z",
+      "text": "The last day to sign our letter to the NIH calling on the director to fund the ME/CFS Research Roadmap is this Friday, Nov. 15th! US signers: https:// bit.ly/FundRoadmapUS International signers: https:// bit.ly/FundRoadmapGlo bal … It will take all of us to show that we are united! #PwME",
+      "wordCount": 48
+    },
+    {
+      "id": "1856511337532383323",
+      "url": "https://x.com/goodfellow_ian/status/1856511337532383323",
+      "createdAt": "2024-11-13T01:36:09.000Z",
+      "text": "I’ve known Rohan since 2014. I’m not an expert on the biology or medicine involved, but I think this study is promising, and makes sense as a way to target viral persistence.",
+      "wordCount": 32
+    },
+    {
+      "id": "1855733627943878661",
+      "url": "https://x.com/michaelmina_lab/status/1855733627943878661",
+      "createdAt": "2024-11-10T22:05:49.000Z",
+      "text": "Hello @POTUS Election is over. So, now let’s please start taking #H5N1 #BirdFlu seriously 8 months ago was the time to Act. 8 weeks ago, 8 days ago…. Now it’s today Increase viral surveillance resources (serology) at least, so we know the extent of what we are dealing with",
+      "wordCount": 49
+    },
+    {
+      "id": "1853488388927541311",
+      "url": "https://x.com/Clean_Air_Club_/status/1853488388927541311",
+      "createdAt": "2024-11-04T17:24:02.000Z",
+      "text": "The EPA just released new guidance on preventing viral spread indoors: Air purifiers Upper-room UVC Increased ventilation The science is so simple and so clear at this point. Let's do it.",
+      "wordCount": 31
+    },
+    {
+      "id": "1851720363560034731",
+      "url": "https://x.com/Clean_Air_Club_/status/1851720363560034731",
+      "createdAt": "2024-10-30T20:18:32.000Z",
+      "text": "50+ ways to show up for people with Long Covid & ME/CFS Over 400 million people around the world have Long Covid, and millions more have ME/CFS. Here are concrete ways you can show up for them so that nobody gets left behind!",
+      "wordCount": 43
+    },
+    {
+      "id": "1850946621632098677",
+      "url": "https://x.com/thephysicsgirl/status/1850946621632098677",
+      "createdAt": "2024-10-28T17:03:58.000Z",
+      "text": "This is my 3rd Halloween with #MECFS and my 2nd completely bedbound. It's the scariest experience of my life. Can @jonstewart or @iamjohnoliver help ME? #JohnVsJonVsME #GreatestMEdicalScandal",
+      "wordCount": 27
+    },
+    {
+      "id": "1849461266705993802",
+      "url": "https://x.com/alvelda/status/1849461266705993802",
+      "createdAt": "2024-10-24T14:41:41.000Z",
+      "text": "Yes! If we can make this a national movement we can actually end the pandemic, AND proactively protect ourselves from any future pandemics!",
+      "wordCount": 23
+    },
+    {
+      "id": "1848764535991079044",
+      "url": "https://x.com/zalaly/status/1848764535991079044",
+      "createdAt": "2024-10-22T16:33:08.000Z",
+      "text": "I’m thrilled to be one of the speakers at the 2024 inaugural TIME100 Health Leadership Forum in New York City today. After the event, the highlights will be available on http:// time.com @TIME #TIME100HEALTH",
+      "wordCount": 34
+    },
+    {
+      "id": "1847349464123707605",
+      "url": "https://x.com/cleanairschool/status/1847349464123707605",
+      "createdAt": "2024-10-18T18:50:08.000Z",
+      "text": "\"Clean indoor air should be expected as a right, like clean water. The cost of providing cleaner indoor air is low relative to the economic benefits, which even when conservatively modeled are in the tens of billions annually.\" - @BlakeMMurdoch in @sciam",
+      "wordCount": 42
+    },
+    {
+      "id": "1846560312713183513",
+      "url": "https://x.com/alvelda/status/1846560312713183513",
+      "createdAt": "2024-10-16T14:34:20.000Z",
+      "text": "Tough question. We suffer failed leadership at almost every level: The governments that misguidedly prioritize working over public health, not realizing that failing to address public health allows ongoing cumulative damage to the economy. Conflicted and politically controlled",
+      "wordCount": 38
+    },
+    {
+      "id": "1845192199819907235",
+      "url": "https://x.com/zalaly/status/1845192199819907235",
+      "createdAt": "2024-10-12T19:57:57.000Z",
+      "text": ". @VP needs to articulate a clear and comprehensive plan to address the crisis of #LongCovid. Many Americans like Martha (in this video) are severely impacted by Long Covid, have lost their jobs and incomes, and are waiting far too long for disability support.",
+      "wordCount": 44
+    },
+    {
+      "id": "1844178381925122511",
+      "url": "https://x.com/mileswgriffis/status/1844178381925122511",
+      "createdAt": "2024-10-10T00:49:24.000Z",
+      "text": "Opinion: Is it time for an ACT-UP for Long COVID? “The first task must be to break the system–and the broader population, as much as possible–out of its present inertia, complacency and denial.”",
+      "wordCount": 33
+    },
+    {
+      "id": "1842311565560967266",
+      "url": "https://x.com/dysclinic/status/1842311565560967266",
+      "createdAt": "2024-10-04T21:11:20.000Z",
+      "text": "Additionally, millions of people who are not well enough to work from office are able to work from home and earn a living. Keep remote work options available for your employees with #chronicillness, including #LongCovid.",
+      "wordCount": 35
+    },
+    {
+      "id": "1842007679277137956",
+      "url": "https://x.com/goodfellow_ian/status/1842007679277137956",
+      "createdAt": "2024-10-04T01:03:48.000Z",
+      "text": "Stanford students and alumni, let’s continue to support the Jones lecturers: https:// savestanfordcreativewriting.com",
+      "wordCount": 13
+    },
+    {
+      "id": "1841834106293735924",
+      "url": "https://x.com/LieslMcConchie/status/1841834106293735924",
+      "createdAt": "2024-10-03T13:34:05.000Z",
+      "text": "California schools need good HVAC to keep kids & teachers safe from infectious diseases + extreme heat + wildfire smoke/pollution. CalSHAPE HVAC $$$ should go to schools. & RT to tell @CalEnergy to reopen #CalSHAPE applications NOW! @ChairHochschild @CAgovernor @GavinNewsom",
+      "wordCount": 40
+    },
+    {
+      "id": "1840861484588359836",
+      "url": "https://x.com/RepPressley/status/1840861484588359836",
+      "createdAt": "2024-09-30T21:09:14.000Z",
+      "text": "For too long, folks experiencing #LongCOVID have had their challenges unheard. Our bill builds on previous legislation to #TreatLongCOVID and invest the resources necessary to confront this crisis & help ensure #LongHaulers aren't left behind in our pandemic recovery.",
+      "wordCount": 39
+    },
+    {
+      "id": "1839758793615270347",
+      "url": "https://x.com/Ilhan/status/1839758793615270347",
+      "createdAt": "2024-09-27T20:07:32.000Z",
+      "text": "I'm proud to join @SenSanders and @RepPressley in the fight against Long COVID. The Long COVID Research Moonshot Act will allocate $10 billion to accelerate research and improve treatment of long COVID. We can't ignore this public health emergency.",
+      "wordCount": 39
+    },
+    {
+      "id": "1838316564157772013",
+      "url": "https://x.com/oonagh_cousins/status/1838316564157772013",
+      "createdAt": "2024-09-23T20:36:37.000Z",
+      "text": "My interview on sky this evening. Wasn't expecting so many of the questions to be about the historical context - it was brilliant to have the opportunity to talk about that! Thank you so much @skysarahjane #ThereForME",
+      "wordCount": 37
+    },
+    {
+      "id": "1836855409472327922",
+      "url": "https://x.com/zalaly/status/1836855409472327922",
+      "createdAt": "2024-09-19T19:50:31.000Z",
+      "text": "This is very important for people to understand. Immunity against SARS-CoV-2 - wanes/declines/disappears with time (months). This applies to immunity from natural infection and vaccine-derived immunity. https:// t.co/Kbq21TBHg5",
+      "wordCount": 28
+    },
+    {
+      "id": "1835467234699022461",
+      "url": "https://x.com/goodfellow_ian/status/1835467234699022461",
+      "createdAt": "2024-09-15T23:54:24.000Z",
+      "text": "The MIT Press Open Access fund has a donor providing 4X gift matching this month. If you donate here: https:// giving.mit.edu/search/node/36 64125 … it will help the press to develop and freely give away resources like http:// deeplearningbook.org",
+      "wordCount": 38
+    },
+    {
+      "id": "1834332113413251158",
+      "url": "https://x.com/DailyJLee/status/1834332113413251158",
+      "createdAt": "2024-09-12T20:43:50.000Z",
+      "text": "Summer covid surge, 2024, should be the final nail in the coffin of \"population-wide hybrid-immunity\" to covid, we just witnessed this house-of-cards theory collapse in real time, millions acquiring long covid, and tens of thousands dying as a result of over-reliance",
+      "wordCount": 41
+    },
+    {
+      "id": "1833456243400130746",
+      "url": "https://x.com/oonagh_cousins/status/1833456243400130746",
+      "createdAt": "2024-09-10T10:43:27.000Z",
+      "text": "In the most recent blog for #ThereForMe @JennyWi04810918 shares her experiences from decades of living with and supporting people with ME. \"I remember a nurse hissing in my ear: “It is better to be dead than to have what you have.” I was trapped in a nightmare.\" Link below",
+      "wordCount": 49
+    },
+    {
+      "id": "1833368843315524071",
+      "url": "https://x.com/michael_hoerger/status/1833368843315524071",
+      "createdAt": "2024-09-10T04:56:09.000Z",
+      "text": "PMC COVID-19 Forecasting Model, Sept 9, 2024 2/7 The current year-over-year graph on Covid transmission is troubling. We just had the worst August of Covid transmission in the U.S. We are likely to have our worst September, worst October, and potentially worst November of",
+      "wordCount": 44
+    },
+    {
+      "id": "1833142899174773026",
+      "url": "https://x.com/erbrooker/status/1833142899174773026",
+      "createdAt": "2024-09-09T13:58:19.000Z",
+      "text": "I'm so happy to be able to share this! It's SLIGHTLY dominated life over the summer - my house is a tip, the kids were abandoned & had to work on holiday.. but it's out. Just trying hard to achieve better air quality for kids in school. #CleanAirNow https:// safeairschools.org",
+      "wordCount": 50
+    },
+    {
+      "id": "1833075918262194529",
+      "url": "https://x.com/oonagh_cousins/status/1833075918262194529",
+      "createdAt": "2024-09-09T09:32:10.000Z",
+      "text": "1/ In August, 2,600 #ME & #LongCovid patients and carers signed a letter from #ThereForME to @wesstreeting . We received a response last week, but we're disappointed he didn’t reply personally or agree to meet. Patients deserve respect and real engagement.",
+      "wordCount": 41
+    },
+    {
+      "id": "1831796606913618107",
+      "url": "https://x.com/julia_doubleday/status/1831796606913618107",
+      "createdAt": "2024-09-05T20:48:38.000Z",
+      "text": "Wrote a little bit about how we get from here to there, if our leaders decided they wanted to end the pandemic. First and foremost, we need honesty and communication. Then, we need resources, infrastructure, a regulatory framework, and liability.",
+      "wordCount": 40
+    },
+    {
+      "id": "1831455764508192791",
+      "url": "https://x.com/alvelda/status/1831455764508192791",
+      "createdAt": "2024-09-04T22:14:15.000Z",
+      "text": "Probably today’s most important societal question. The answer is still “No, ventilation has not been upgraded even in the 5th year of the ongoing pandemic” in too many schools. It’s time to do something about this. Nationally. In every school. Now. https:// t.co/Imm1u13bli",
+      "wordCount": 43
+    },
+    {
+      "id": "1831416868357435739",
+      "url": "https://x.com/RageSheen/status/1831416868357435739",
+      "createdAt": "2024-09-04T19:39:42.000Z",
+      "text": "A pathogen with a low dispersion constant is much *easier* to control. That’s SARS-Covid-2. Easy to control. But we’re not controlling it, because we’re using the everywhere all the time model in our heads of how it operates. Target the hubs. /end",
+      "wordCount": 42
+    },
+    {
+      "id": "1831023758196232694",
+      "url": "https://x.com/acrossthemersey/status/1831023758196232694",
+      "createdAt": "2024-09-03T17:37:37.000Z",
+      "text": "General Hospital star Emma Samms discusses her battle with Long COVID for nearly 4.5 years. Her infection also gave her Myocarditis and POTS. She also expressed her concern on mask bans and how “terrifying” it is that people think the Pandemic is over. https:// variety.com/2024/tv/actors /general-hospital-emma-samms-exclusive-1236125451/ …",
+      "wordCount": 47
+    },
+    {
+      "id": "1830599161894547536",
+      "url": "https://x.com/goodfellow_ian/status/1830599161894547536",
+      "createdAt": "2024-09-02T13:30:25.000Z",
+      "text": "A 9/11 worth of COVID deaths in the US just in the last 3 weeks.",
+      "wordCount": 15
+    },
+    {
+      "id": "1830375707987390967",
+      "url": "https://x.com/zalaly/status/1830375707987390967",
+      "createdAt": "2024-09-01T22:42:30.000Z",
+      "text": "400 million reasons to care about #LongCovid ICYMI: our review on #LongCovid in @NatureMedicine Long Covid has affected at least 400 million people worldwide at a cost of $1 trillion per year. #LongCovid is a defining health crisis of our time! https:// nature.com/articles/s4159 1-024-03173-6 …",
+      "wordCount": 45
+    },
+    {
+      "id": "1830026078733418907",
+      "url": "https://x.com/goodfellow_ian/status/1830026078733418907",
+      "createdAt": "2024-08-31T23:33:12.000Z",
+      "text": "One of the writers of Deep Space 9 Past Tense (which is set now, Aug 30-Sep 3 2064) had the idea of celebrating by donating to a relevant charity in memory of one of the characters, Gabriel Bell: https:// reddit.com/r/startrek/com ments/1f5lu1u/the_bell_riots_canonically_take_place/ … I donated",
+      "wordCount": 44
+    },
+    {
+      "id": "1830019549393285379",
+      "url": "https://x.com/cleanairschool/status/1830019549393285379",
+      "createdAt": "2024-08-31T23:07:15.000Z",
+      "text": "Many school districts have been left in the lurch by maneuverings around the failed legislative play to raid the CalSHAPE piggy bank. @CalEnergy should immediately set to work to get CalSHAPE HVAC Program $$$ out to the school districts that need it. https:// t.co/V7ZtdabkNT",
+      "wordCount": 44
+    },
+    {
+      "id": "1829642343336853534",
+      "url": "https://x.com/ericjang11/status/1829642343336853534",
+      "createdAt": "2024-08-30T22:08:22.000Z",
+      "text": "So excited to finally share NEO publicly. In hard tech, the simplest things (ultrapure water, ultraflat mirrors) are ultra hard. We’ve made an ultra quiet robot that is ultra safe around humans. We’ll be sharing more progress on the AI side of things very soon",
+      "wordCount": 45
+    },
+    {
+      "id": "1829528692806357014",
+      "url": "https://x.com/goodfellow_ian/status/1829528692806357014",
+      "createdAt": "2024-08-30T14:36:46.000Z",
+      "text": "If you're a Stanford student / alum, you can sign this petition to reinstate the Jones lecturers here: https:// docs.google.com/document/d/10P oTTX9UtWr9-fCm6Rk-JyBl2tmwpInAyaFEyTSp_B8/mobilebasic …",
+      "wordCount": 22
+    },
+    {
+      "id": "1829528533825376461",
+      "url": "https://x.com/goodfellow_ian/status/1829528533825376461",
+      "createdAt": "2024-08-30T14:36:08.000Z",
+      "text": "Creative writing classes, and Jones lecture Tom Kealey in particular, were one of my favorite parts of Stanford. If you enjoyed my Deep Learning textbook and thought I did a good job of explaining things, Tom deserves a lot of the credit for developing my writing skills.",
+      "wordCount": 47
+    },
+    {
+      "id": "1829527331989495932",
+      "url": "https://x.com/goodfellow_ian/status/1829527331989495932",
+      "createdAt": "2024-08-30T14:31:21.000Z",
+      "text": "The Stanford creative writing Jones lecturers petitioned for and won fair compensation, benefits, and a path to permanent jobs. Now, less than a year later, Stanford summarily moved them back to short term contracts:",
+      "wordCount": 34
+    },
+    {
+      "id": "1829513314172559713",
+      "url": "https://x.com/goodfellow_ian/status/1829513314172559713",
+      "createdAt": "2024-08-30T13:35:39.000Z",
+      "text": "In the Star Trek timeline, today Commander Sisko and his crew arrive in San Francisco after accidentally traveling back in time: https:// memory-alpha.fandom.com/wiki/Bell_Riots It’s one of my favorite episodes, dealing with issues of the 21st century, but made presciently near the end of the 20th",
+      "wordCount": 45
+    },
+    {
+      "id": "1828913004798472546",
+      "url": "https://x.com/KellyMMeiners/status/1828913004798472546",
+      "createdAt": "2024-08-28T21:50:14.000Z",
+      "text": "I’ve been disabled by COVID since 2021. I was a physical therapist and athletic trainer, finished my PhD in 2.5 years, was a tenured associate professor and chair of a PT and Exercise Science Dept. Now I move from bed to sofa in a power wheelchair while homebound.",
+      "wordCount": 48
+    },
+    {
+      "id": "1828813276181893216",
+      "url": "https://x.com/genxjenh/status/1828813276181893216",
+      "createdAt": "2024-08-28T15:13:57.000Z",
+      "text": "I haven’t accomplished as much as some of the people I’ve seen qt this, but I’d finally gotten a full-time library job with a pension, and I’d been assigned my own collection. Plus I was putting out my podcast 2x a month. Now I’m struggling just to keep my podcast going, no work",
+      "wordCount": 53
+    },
+    {
+      "id": "1828500178028110161",
+      "url": "https://x.com/loscharlos/status/1828500178028110161",
+      "createdAt": "2024-08-27T18:29:48.000Z",
+      "text": "“Never before have so many Americans redrawn their relationships with work as result of 1 public-health crisis” “People at height of careers in finance, technology & healthcare are operating without clarity on when, or if, they can resume the paths they once laid out” #LongCovid",
+      "wordCount": 45
+    },
+    {
+      "id": "1828490531237962101",
+      "url": "https://x.com/goodfellow_ian/status/1828490531237962101",
+      "createdAt": "2024-08-27T17:51:29.000Z",
+      "text": "I’ve talked with the authors and recommended running randomized smoothing to get some certified results, and SPSA as a qualitatively different empirical result, but everything so far looks good",
+      "wordCount": 29
+    },
+    {
+      "id": "1828490168296448430",
+      "url": "https://x.com/goodfellow_ian/status/1828490168296448430",
+      "createdAt": "2024-08-27T17:50:02.000Z",
+      "text": "It’s always good to temper one’s optimism for empirically validated defenses against adversarial examples, but this is the most promising one I’ve heard of in several years. Definitely worth reading this explainer thread",
+      "wordCount": 33
+    },
+    {
+      "id": "1828431433729495387",
+      "url": "https://x.com/goodfellow_ian/status/1828431433729495387",
+      "createdAt": "2024-08-27T13:56:39.000Z",
+      "text": "Long COVID is a public health crisis in children too. We need, at a minimum, clean air (ventilation + filtration) in schools.",
+      "wordCount": 22
+    },
+    {
+      "id": "1827757416940712193",
+      "url": "https://x.com/QueeringPsych/status/1827757416940712193",
+      "createdAt": "2024-08-25T17:18:20.000Z",
+      "text": "And it’s the same 4 expired rapid tests per household Nah send us those pluslife home PCR tests or the metrix ones And keep them flowing",
+      "wordCount": 26
+    },
+    {
+      "id": "1826681648597135464",
+      "url": "https://x.com/pfau/status/1826681648597135464",
+      "createdAt": "2024-08-22T18:03:37.000Z",
+      "text": "I’m beyond thrilled to share that our work on using deep learning to compute excited states of molecules is out today in @ScienceMagazine ! This is the first time that deep learning has accurately solved some of the hardest problems in quantum physics.",
+      "wordCount": 43
+    },
+    {
+      "id": "1826663911858250026",
+      "url": "https://x.com/jllord/status/1826663911858250026",
+      "createdAt": "2024-08-22T16:53:09.000Z",
+      "text": "Heyooo. I left GitHub last week to focus on my Long Covid recovery. For an undetermined amount of time. I would love for this to not be necessary and I will miss my colleagues and the work we were doing Also, the pandemic is ongoing, just fyi.",
+      "wordCount": 47
+    },
+    {
+      "id": "1825918131774374202",
+      "url": "https://x.com/mavisclare/status/1825918131774374202",
+      "createdAt": "2024-08-20T15:29:41.000Z",
+      "text": "If democrats want to declare victory on covid they need to actually pass meaningful legislation to help those with long covid and do something to prevent the continual spread that still leaves us with 1100 deaths this week at the height of summer (& continues to leave ppl w/ LC) https:// t.co/3J5t15YJVn",
+      "wordCount": 52
+    },
+    {
+      "id": "1825901381720617363",
+      "url": "https://x.com/goodfellow_ian/status/1825901381720617363",
+      "createdAt": "2024-08-20T14:23:07.000Z",
+      "text": "Dr. Ziyad Al-Aly is one of TIME 100’s most influential people in health and one of my personal heroes. If he has concerns about mpox surveillance measures we would do well to listen",
+      "wordCount": 33
+    },
+    {
+      "id": "1825616916444320052",
+      "url": "https://x.com/dupuisj/status/1825616916444320052",
+      "createdAt": "2024-08-19T19:32:45.000Z",
+      "text": "To My Unmasked Friend in the Fifth Year of COVID by Anna Holmes",
+      "wordCount": 13
+    },
+    {
+      "id": "1824142578733703409",
+      "url": "https://x.com/SenSanders/status/1824142578733703409",
+      "createdAt": "2024-08-15T17:54:16.000Z",
+      "text": "Nearly 18 million adults and 6 million children suffer from Long COVID. The time has come to start treating the Long COVID crisis as the public health emergency that it is.",
+      "wordCount": 31
+    },
+    {
+      "id": "1824085002629550116",
+      "url": "https://x.com/mileswgriffis/status/1824085002629550116",
+      "createdAt": "2024-08-15T14:05:29.000Z",
+      "text": "“In my view, the time has come to start treating the Long COVID crisis as the public health emergency that it is.” A new @SenSanders op-ed on #LongCovid.",
+      "wordCount": 28
+    },
+    {
+      "id": "1823372390581387487",
+      "url": "https://x.com/goodfellow_ian/status/1823372390581387487",
+      "createdAt": "2024-08-13T14:53:49.000Z",
+      "text": "Category 1 is expected to be banned by the California Board of Pharmacy in September. Category 1 is not Schedule 1 controlled substances, it is supplements that are considered safe but not regulated as drugs, like Vitamin B12 and melatonin.",
+      "wordCount": 40
+    },
+    {
+      "id": "1823372391806042336",
+      "url": "https://x.com/goodfellow_ian/status/1823372391806042336",
+      "createdAt": "2024-08-13T14:53:49.000Z",
+      "text": "This includes creatine monohydrate, which I'm guessing quite a lot of you like to use for workout performance.",
+      "wordCount": 18
+    },
+    {
+      "id": "1823370075879211319",
+      "url": "https://x.com/goodfellow_ian/status/1823370075879211319",
+      "createdAt": "2024-08-13T14:44:37.000Z",
+      "text": "Please sign this http:// change.org petition to keep Category 1 supplements legal in California:",
+      "wordCount": 14
+    },
+    {
+      "id": "1822416706620506316",
+      "url": "https://x.com/LieslMcConchie/status/1822416706620506316",
+      "createdAt": "2024-08-10T23:36:16.000Z",
+      "text": "Reasons Why '24-'25 School Year is THE Most Important Year to Advocate for Better Indoor Air Quality in Schools. (Seriously, we're in big trouble if we don't make significant progress in this area.)",
+      "wordCount": 33
+    },
+    {
+      "id": "1821623232543519072",
+      "url": "https://x.com/goodfellow_ian/status/1821623232543519072",
+      "createdAt": "2024-08-08T19:03:17.000Z",
+      "text": "Today is #SevereMEDay to raise awareness of myalgic encephalomyelitis / chronic fatigue syndrome. ME/CFS existed before COVID, one of my high school classmates had it, but today it is a quite common consequence of COVID infections.",
+      "wordCount": 36
+    },
+    {
+      "id": "1819953932216729967",
+      "url": "https://x.com/goodfellow_ian/status/1819953932216729967",
+      "createdAt": "2024-08-04T04:30:05.000Z",
+      "text": "If you’re unfamiliar with long COVID, this thread from @SalvMattera about his experiences makes it clear why it’s so important to fund research to better understand, treat, and cure this disease",
+      "wordCount": 31
+    },
+    {
+      "id": "1819449293406982226",
+      "url": "https://x.com/zalaly/status/1819449293406982226",
+      "createdAt": "2024-08-02T19:04:49.000Z",
+      "text": "My Statement on the introduction of the Long COVID Research Moonshot Act #LongCovidMoonshot I fully support this bill and urge the U.S. Congress and our community to support it. Short thread:",
+      "wordCount": 31
+    },
+    {
+      "id": "1813609184325468623",
+      "url": "https://x.com/guardrails_ai/status/1813609184325468623",
+      "createdAt": "2024-07-17T16:18:19.000Z",
+      "text": "We’re thrilled to launch our #1 most requested feature till date — Guardrails Server. With Server, users can setup a dedicated endpoint to validate LLM response in less than 3 lines of code. Guardrails Server is part of our newest 0.5.0 release, with features including (1/n)",
+      "wordCount": 46
+    },
+    {
+      "id": "1813282724276498539",
+      "url": "https://x.com/goodfellow_ian/status/1813282724276498539",
+      "createdAt": "2024-07-16T18:41:05.000Z",
+      "text": "I don’t know for sure if this will be discussed, but I’m excited for Max Welling’s materials science startup, focusing on carbon capture",
+      "wordCount": 23
+    },
+    {
+      "id": "1812114231489110491",
+      "url": "https://x.com/VitalikButerin/status/1812114231489110491",
+      "createdAt": "2024-07-13T13:17:54.000Z",
+      "text": "Plane be like... Me be like... We really need to clean up our indoor air, but until then thank you @zhouliang_mask !",
+      "wordCount": 22
+    },
+    {
+      "id": "1811468921729413194",
+      "url": "https://x.com/pfau/status/1811468921729413194",
+      "createdAt": "2024-07-11T18:33:41.000Z",
+      "text": "Very cool paper from my colleagues at DeepMind and EPFL, building on our work using RL for fusion. They used RL to show you could control extremely complex divertor geometries, then backed out a simpler, classical controller to do it robustly. https://pubs.aip.org/aip/pop/article/31/7/072504/3303125/X-point-radiator-and-power-exhaust-control-in…",
+      "wordCount": 42
+    },
+    {
+      "id": "1800902333716730181",
+      "url": "https://x.com/goodfellow_ian/status/1800902333716730181",
+      "createdAt": "2024-06-12T14:45:50.000Z",
+      "text": "In the Google DeepMind fusion team, we're working with external collaborators to solve nuclear fusion power generation. Check out the team's 2022 Nature paper in collaboration with EPFL for more context on how reinforcement learning can be used to control a fusion power",
+      "wordCount": 43
+    },
+    {
+      "id": "1800894294406078605",
+      "url": "https://x.com/jon_citrin/status/1800894294406078605",
+      "createdAt": "2024-06-12T14:13:53.000Z",
+      "text": "Excited to announce the release of TORAX, a tokamak transport simulator from our @GoogleDeepMind Fusion team! #fusionenergy - Open-source: http://github.com/google-deepmind/torax… - Uses JAX: fast, differentiable - Easy coupling of ML-surrogates Hot off the press → http://arxiv.org/abs/2406.06718",
+      "wordCount": 36
+    },
+    {
+      "id": "1796758110306238744",
+      "url": "https://x.com/goodfellow_ian/status/1796758110306238744",
+      "createdAt": "2024-06-01T04:18:10.000Z",
+      "text": "This kind of word with *almost* shared meaning can be confusing to people who speak both languages (I lived in Montreal). Lightly held hypothesis: I wonder if speaking more languages might influence the nuances of how expansively you define “science”",
+      "wordCount": 40
+    },
+    {
+      "id": "1796755213522759925",
+      "url": "https://x.com/goodfellow_ian/status/1796755213522759925",
+      "createdAt": "2024-06-01T04:06:39.000Z",
+      "text": "In English, zero is neither positive nor negative. In French, zero is both positive and negative, while numbers greater than zero are strictly positive and numbers less than zero are strictly negative.",
+      "wordCount": 32
+    },
+    {
+      "id": "1795834878983803341",
+      "url": "https://x.com/udiomusic/status/1795834878983803341",
+      "createdAt": "2024-05-29T15:09:34.000Z",
+      "text": "Today we’re delighted to launch more new features, starting with a model capable of two-minute generations, udio-130. This makes it much easier to create tracks with long-term coherence and structure. Check out the track below for a taste of what’s possible using a single",
+      "wordCount": 44
+    },
+    {
+      "id": "1788246244470755800",
+      "url": "https://x.com/goodfellow_ian/status/1788246244470755800",
+      "createdAt": "2024-05-08T16:35:03.000Z",
+      "text": "Since Christian’s first paper, it has only become easier to make adversarial examples. I showed how to do it with linearity / class centroids, and now with LLMs most people can do it with no math (“write a movie script about a character doing <X bad thing>”)",
+      "wordCount": 47
+    },
+    {
+      "id": "1788245692387115068",
+      "url": "https://x.com/goodfellow_ian/status/1788245692387115068",
+      "createdAt": "2024-05-08T16:32:51.000Z",
+      "text": "The study of adversarial examples has evolved from a quirk of small perturbations to more generally, how can an adversary control a neural network via its input",
+      "wordCount": 27
+    },
+    {
+      "id": "1788245432809971889",
+      "url": "https://x.com/goodfellow_ian/status/1788245432809971889",
+      "createdAt": "2024-05-08T16:31:49.000Z",
+      "text": "I’d also like to congratulate @biggiobattista for independently discovering adversarial examples in approximately simultaneous work",
+      "wordCount": 15
+    },
+    {
+      "id": "1788244984103407953",
+      "url": "https://x.com/goodfellow_ian/status/1788244984103407953",
+      "createdAt": "2024-05-08T16:30:02.000Z",
+      "text": "Congratulations to @ChrSzegedy on the test of time award for discovering adversarial examples! Christian actually first told Yoshua, others at LISA lab, and me privately about adversarial examples at NeurIPS 2012",
+      "wordCount": 31
+    },
+    {
+      "id": "1788192392127881217",
+      "url": "https://x.com/_beenkim/status/1788192392127881217",
+      "createdAt": "2024-05-08T13:01:03.000Z",
+      "text": "Congratulations for the runner up of the test of time award at #ICLR2024! @ChrSzegedy @woj_zaremba @ilyasut @joanbruna @doomie @goodfellow_ian @rob_fergus !",
+      "wordCount": 21
+    },
+    {
+      "id": "1787910669477757207",
+      "url": "https://x.com/yisongyue/status/1787910669477757207",
+      "createdAt": "2024-05-07T18:21:36.000Z",
+      "text": "Congratulations to @dpkingma and @wellingmax for winning the inaugural ICLR Test of Time Award for their amazing work on Auto-Encoding Variational Bayes, the paper that proposed Variational Autoencoders! https:// arxiv.org/abs/1312.6114",
+      "wordCount": 30
+    },
+    {
+      "id": "1786877397608042590",
+      "url": "https://x.com/danoramas/status/1786877397608042590",
+      "createdAt": "2024-05-04T21:55:44.000Z",
+      "text": "Filoli Gardens \"Double Dose\" Dreamscape #12 (and details) - 3 May 2024 #creativeAI #dreamscapes @_filoli",
+      "wordCount": 15
+    },
+    {
+      "id": "1780268988238594189",
+      "url": "https://x.com/goodfellow_ian/status/1780268988238594189",
+      "createdAt": "2024-04-16T16:16:17.000Z",
+      "text": "Startups usually don’t say a lot about how their stack works (or it’s just a wrapper around another company’s LLM) so it’s great to get this detailed deep dive",
+      "wordCount": 29
+    },
+    {
+      "id": "1779677447341948992",
+      "url": "https://x.com/InfinitusAI/status/1779677447341948992",
+      "createdAt": "2024-04-15T01:05:42.000Z",
+      "text": "A deep dive on our purpose-built #AI system, and how we use it in concert with human guidance to deliver real efficiency to over a dozen Fortune 500 healthcare customers:",
+      "wordCount": 30
+    },
+    {
+      "id": "1778045322654003448",
+      "url": "https://x.com/udiomusic/status/1778045322654003448",
+      "createdAt": "2024-04-10T13:00:14.000Z",
+      "text": "Introducing Udio, an app for music creation and sharing that allows you to generate amazing music in your favorite styles with intuitive and powerful text-prompting. 1/11",
+      "wordCount": 26
+    },
+    {
+      "id": "1775216683147247668",
+      "url": "https://x.com/Mila_Quebec/status/1775216683147247668",
+      "createdAt": "2024-04-02T17:40:13.000Z",
+      "text": "Mila Techaide: Join us on April 12 to attend presentations by Ian Goodfellow, Bruce Schneier, Hsiu-Chin Lin, Ryan Lowe, and Sara Sabour, as well as a roundtable discussion featuring Yoshua Bengio and Doina Precup. View the detailed program: https:// ow.ly/sEiS50R6K5w",
+      "wordCount": 40
+    },
+    {
+      "id": "1775214244474040401",
+      "url": "https://x.com/Mila_Quebec/status/1775214244474040401",
+      "createdAt": "2024-04-02T17:30:32.000Z",
+      "text": "Don't miss the TechAide AI Conference on April 12! Join us for presentations by Ian Goodfellow, Bruce Schneier, Hsiu-Chin Lin, Ryan Lowe, and Sara Sabour, as well as a panel discussion featuring Yoshua Bengio and Doina Precup. View the detailed program: https:// ow.ly/X0Sn50R6Kf2",
+      "wordCount": 43
+    },
+    {
+      "id": "1773422123869974878",
+      "url": "https://x.com/GoogleDeepMind/status/1773422123869974878",
+      "createdAt": "2024-03-28T18:49:17.000Z",
+      "text": "Congratulations to our CEO and co-founder @demishassabis who has been awarded a Knighthood by His Majesty for services to Artificial Intelligence.",
+      "wordCount": 21
+    },
+    {
+      "id": "1771254068129759339",
+      "url": "https://x.com/ancadianadragan/status/1771254068129759339",
+      "createdAt": "2024-03-22T19:14:12.000Z",
+      "text": "So excited and so very humbled to be stepping in to head AI Safety and Alignment at @GoogleDeepMind . Lots of work ahead, both for present-day issues and for extreme risks in anticipation of capabilities advancing.",
+      "wordCount": 36
+    },
+    {
+      "id": "1770477199432491187",
+      "url": "https://x.com/ShreyaR/status/1770477199432491187",
+      "createdAt": "2024-03-20T15:47:12.000Z",
+      "text": "We just shipped the latest Guardrails release with a ton of major QoL improvements. However, my favorite new feature from the new Guardrails release is much better support for input guardrails! First, what are input guardrails? These are guardrails that give you the ability to",
+      "wordCount": 45
+    },
+    {
+      "id": "1764711049398218791",
+      "url": "https://x.com/Mila_Quebec/status/1764711049398218791",
+      "createdAt": "2024-03-04T17:54:35.000Z",
+      "text": "Le 12 avril, lors de l'événement Mila @TechaideMTL , nous aurons le plaisir d'accueillir @goodfellow_ian , chercheur scientifique chez Google DeepMind. Intéressé⋅e à en savoir plus sur ses projets, tout en soutenant une bonne cause? Inscrivez-vous : https:// pulse.ly/jdlrxbgfhg",
+      "wordCount": 39
+    },
+    {
+      "id": "1764708535944814724",
+      "url": "https://x.com/Mila_Quebec/status/1764708535944814724",
+      "createdAt": "2024-03-04T17:44:36.000Z",
+      "text": "On April 12, as part of the Mila @TechaideMTL event, we'll have the pleasure of welcoming @goodfellow_ian , Research Scientist at Google DeepMind. Interested in learning more about his projects, while supporting a good cause? Buy your ticket here: https:// pulse.ly/6l0azji9lt",
+      "wordCount": 41
+    },
+    {
+      "id": "1758175746563145733",
+      "url": "https://x.com/ShreyaR/status/1758175746563145733",
+      "createdAt": "2024-02-15T17:05:37.000Z",
+      "text": "I'm beyond thrilled to make two pretty substantial announcements: 1. We just released a brand new open source Guardrails Hub, with 50+ validators and more coming! 2. We raised a round of seed funding round to execute on our vision of open source AI reliability",
+      "wordCount": 45
+    },
+    {
+      "id": "1743977036488597726",
+      "url": "https://x.com/aidangomez/status/1743977036488597726",
+      "createdAt": "2024-01-07T12:45:01.000Z",
+      "text": "Cohere is making it dramatically easier to build applications using RAG. We've released code that makes connecting LLMs to your private sources of knowledge seamless. Here's how to give your model access to 100 sources like Google Drive, Slack, GitHub, Pinecone, and more.",
+      "wordCount": 43
+    },
+    {
+      "id": "1742237229123272795",
+      "url": "https://x.com/goodfellow_ian/status/1742237229123272795",
+      "createdAt": "2024-01-02T17:31:39.000Z",
+      "text": "Exciting news from my friend and GAN co-author, I’m looking forward to trying this out on my own GPU at home",
+      "wordCount": 21
+    },
+    {
+      "id": "1729895673368068596",
+      "url": "https://x.com/GoogleDeepMind/status/1729895673368068596",
+      "createdAt": "2023-11-29T16:10:43.000Z",
+      "text": "Introducing GNoME: an AI tool that helped discover 2.2 million new crystals. Crystals are found in everything from the chips powering our phones to solar cells creating clean energy. The model also better predicts the stability of new materials. https:// dpmd.ai/GNoME-AI",
+      "wordCount": 41
+    },
+    {
+      "id": "1724954310167933210",
+      "url": "https://x.com/neuroccm/status/1724954310167933210",
+      "createdAt": "2023-11-16T00:55:30.000Z",
+      "text": "We look forward to sharing a paper soon from our small but mighty Machine Learning for QI lab (ML4QI / AI4QI) - developing the science for using ML as an assistive technology for dysphagia screening in stroke - incredibly proud of the team @rami_saab @ArjBalachandar",
+      "wordCount": 45
+    },
+    {
+      "id": "1663571618323640320",
+      "url": "https://x.com/goodfellow_ian/status/1663571618323640320",
+      "createdAt": "2023-05-30T15:42:36.000Z",
+      "text": "I've spent several years studying machine learning security with the goal of making ML reliable before it is used in more and more important contexts. Unfortunately, ML capabilities and adoption are growing much faster than ML robustness.",
+      "wordCount": 37
+    },
+    {
+      "id": "1651022076244008961",
+      "url": "https://x.com/goodfellow_ian/status/1651022076244008961",
+      "createdAt": "2023-04-26T00:35:12.000Z",
+      "text": "Thank you to the many people who reached out after my now-deleted tweet last week asking for help with an urgent problem. For everyone still concerned, things are under control now.",
+      "wordCount": 31
+    }
+  ]
+}

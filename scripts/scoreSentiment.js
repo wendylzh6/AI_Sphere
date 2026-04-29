@@ -25,7 +25,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname  = path.dirname(fileURLToPath(import.meta.url));
-const TWEETS_DIR = process.env.TWEETS_DIR || path.join(process.env.HOME, 'Desktop', 'tweets data');
+const TWEETS_DIR = process.env.TWEETS_DIR || path.join(__dirname, '..', 'data', 'tweets');
 const OUTPUT     = path.join(__dirname, 'sentimentOutput.json');
 const GEMINI_KEY = process.env.GEMINI_API_KEY;
 
@@ -33,16 +33,18 @@ if (!GEMINI_KEY) { console.error('Missing GEMINI_API_KEY in env'); process.exit(
 
 const TWEET_THRESHOLD = 15; // below this, supplement with web search
 
-// ── Handle → app person ID ────────────────────────────────────────────────────
+// ── Handle/influencerId → React node ID ───────────────────────────────────────
+// Keys are all lowercase Twitter handles or influencerIds found in tweet files.
+// Values are the React node IDs from constants.ts PREVIEW_INFLUENCER_IDS.
 const HANDLE_MAP = {
-  elonmusk:        'elonmusk',
+  // Core 18 (old-format files)
   sama:            'sama',
   satyanadella:    'satyanadella',
   levie:           'levie',
   karpathy:        'karpathy',
-  brian_armstrong: 'barmstrong',
-  andrewng:        'andrewng',
-  andrewyng:       'andrewng',
+  brian_armstrong: 'brian_armstrong',
+  andrewng:        'andrewyng',
+  andrewyng:       'andrewyng',
   ylecun:          'ylecun',
   gdb:             'gdb',
   demishassabis:   'demishassabis',
@@ -52,78 +54,107 @@ const HANDLE_MAP = {
   drfeifei:        'drfeifei',
   geoffreyhinton:  'geoffreyhinton',
   paraga:          'paraga',
-  _akhaliq:        'akhaliq',
-  akhaliq:         'akhaliq',
+  _akhaliq:        '_akhaliq',
+  akhaliq:         '_akhaliq',
   austen:          'austen',
-  jeffdean:        'jeffdean',
-  miramurati:      'miramurati',
-  esyudkowsky:     'eliezeryud',
-  yacinemtb:       'yacinemtb',
-  kazu_fujisawa:   'kazufujisawa',
-  oriolvinyalsml:  'oriolvinyals',
-  clementdelangue: 'clementdelangue',
-  aelluswamy:      'aelluswamy',
-  schmidhuberai:   'schmidhuber',
-  goodside:        'rileygoodside',
-  mitchellh:       'mitchellh',
-  darioamodei:     'darioamodei',
+  elonmusk:        'elonmusk',
+  // Newer files
+  addyosmani:      'addyosmani',
+  alexandr_wang:   'alexandr_wang',
   arankomatsuzaki: 'arankomatsuzaki',
+  aelluswamy:      'aelluswamy',
   chrmanning:      'chrmanning',
+  clementdelangue: 'clementdelangue',
+  darioamodei:     'darioamodei',
+  deryatr_:        'deryatr_',
+  emostaque:       'emostaque',
+  esyudkowsky:     'esyudkowsky',
+  gavinsbaker:     'gavinsbaker',
+  goodfellow_ian:  'goodfellow_ian',
+  jeffdean:        'jeffdean',
+  drjimfan:        'drjimfan',
+  jimfan:          'drjimfan',
+  schmidhuberai:   'schmidhuberai',
+  kazu_fujisawa:   'kazu_fujisawa',
+  minchoi:         'minchoi',
+  miramurati:      'miramurati',
+  mitchellh:       'mitchellh',
+  officiallogank:  'officiallogank',
+  logank:          'officiallogank',
+  oriolvinyalsml:  'oriolvinyalsml',
+  goodside:        'goodside',
+  rasbt:           'rasbt',
+  bcherny:         'bcherny',
+  hardmaru:        'hardmaru',
+  jeremyphoward:   'jeremyphoward',
+  jeremyhoward:    'jeremyphoward',
+  yacinemtb:       'yacinemtb',
+  mustafasuleyman: 'mustafasuleyman',
+  omarsar0:        'omarsar0',
+  soumithchintala: 'soumithchintala',
+  sriramk:         'sriramk',
+  steipete:        'steipete',
+  tunguz:          'tunguz',
 };
 
-// Tweet exports may use source.influencerId, which is sometimes different
-// from the hand-curated person id in preview.html.
+// influencerId field in source metadata → React node ID
 const INFLUENCER_ID_MAP = {
-  esyudkowsky:     'eliezeryud',
-  yacinemtb:       'yacinemtb',
-  kazu_fujisawa:   'kazufujisawa',
-  oriolvinyals:    'oriolvinyals',
-  goodside:        'rileygoodside',
-  schmidhuberai:   'schmidhuber',
-  aelluswamy:      'aelluswamy',
-  clementdelangue: 'clementdelangue',
-  jeffdean:        'jeffdean',
-  miramurati:      'miramurati',
-  mitchellh:       'mitchellh',
-  darioamodei:     'darioamodei',
-  arankomatsuzaki: 'arankomatsuzaki',
-  chrmanning:      'chrmanning',
+  ...Object.fromEntries(Object.entries(HANDLE_MAP)),
 };
 
 // Full names for web search fallback
 const PERSON_NAMES = {
-  elonmusk:       'Elon Musk',
-  sama:           'Sam Altman',
-  satyanadella:   'Satya Nadella',
-  levie:          'Aaron Levie',
-  karpathy:       'Andrej Karpathy',
-  barmstrong:     'Brian Armstrong',
-  andrewng:       'Andrew Ng',
-  ylecun:         'Yann LeCun',
-  gdb:            'Greg Brockman',
-  demishassabis:  'Demis Hassabis',
-  palmerluckey:   'Palmer Luckey',
-  fchollet:       'François Chollet',
-  ilyasut:        'Ilya Sutskever',
-  drfeifei:       'Fei-Fei Li',
-  geoffreyhinton: 'Geoffrey Hinton',
-  paraga:         'Parag Agrawal',
-  akhaliq:        'AK (@_akhaliq)',
-  austen:         'Austen Allred',
-  jeffdean:        'Jeff Dean',
-  miramurati:      'Mira Murati',
-  eliezeryud:      'Eliezer Yudkowsky',
-  yacinemtb:       'kache',
-  kazufujisawa:    'Kazuki Fujisawa',
-  oriolvinyals:    'Oriol Vinyals',
-  clementdelangue: 'Clément Delangue',
-  aelluswamy:      'Ashok Elluswamy',
-  schmidhuber:     'Jürgen Schmidhuber',
-  rileygoodside:   'Riley Goodside',
-  mitchellh:       'Mitchell Hashimoto',
-  darioamodei:     'Dario Amodei',
+  sama:            'Sam Altman',
+  satyanadella:    'Satya Nadella',
+  levie:           'Aaron Levie',
+  karpathy:        'Andrej Karpathy',
+  brian_armstrong: 'Brian Armstrong',
+  andrewyng:       'Andrew Ng',
+  ylecun:          'Yann LeCun',
+  gdb:             'Greg Brockman',
+  demishassabis:   'Demis Hassabis',
+  palmerluckey:    'Palmer Luckey',
+  fchollet:        'François Chollet',
+  ilyasut:         'Ilya Sutskever',
+  drfeifei:        'Fei-Fei Li',
+  geoffreyhinton:  'Geoffrey Hinton',
+  paraga:          'Parag Agrawal',
+  _akhaliq:        'AK (@_akhaliq)',
+  austen:          'Austen Allred',
+  elonmusk:        'Elon Musk',
+  addyosmani:      'Addy Osmani',
+  alexandr_wang:   'Alexandr Wang',
   arankomatsuzaki: 'Aran Komatsuzaki',
+  aelluswamy:      'Ashok Elluswamy',
   chrmanning:      'Christopher Manning',
+  clementdelangue: 'Clément Delangue',
+  darioamodei:     'Dario Amodei',
+  deryatr_:        'Derya Unutmaz',
+  emostaque:       'Emad Mostaque',
+  esyudkowsky:     'Eliezer Yudkowsky',
+  gavinsbaker:     'Gavin Baker',
+  goodfellow_ian:  'Ian Goodfellow',
+  jeffdean:        'Jeff Dean',
+  drjimfan:        'Jim Fan',
+  schmidhuberai:   'Jürgen Schmidhuber',
+  kazu_fujisawa:   'Kazuki Fujisawa',
+  minchoi:         'Min Choi',
+  miramurati:      'Mira Murati',
+  mitchellh:       'Mitchell Hashimoto',
+  officiallogank:  'Logan Kilpatrick',
+  oriolvinyalsml:  'Oriol Vinyals',
+  goodside:        'Riley Goodside',
+  rasbt:           'Sebastian Raschka',
+  bcherny:         'Boris Cherny',
+  hardmaru:        'David Ha',
+  jeremyphoward:   'Jeremy Howard',
+  yacinemtb:       'Kache',
+  mustafasuleyman: 'Mustafa Suleyman',
+  omarsar0:        'Omar Srestha',
+  soumithchintala: 'Soumith Chintala',
+  sriramk:         'Sriram Krishnan',
+  steipete:        'Peter Steinberger',
+  tunguz:          'Bojan Tunguz',
 };
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
@@ -177,7 +208,7 @@ function loadTweets() {
 
     if (Array.isArray(data)) {
       for (const t of data) {
-        const handle = normalizeKey(t.handle);
+        const handle = normalizeKey(t.handle || t.author || '');
         add(HANDLE_MAP[handle], t);
       }
     } else if (data && typeof data === 'object') {

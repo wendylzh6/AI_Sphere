@@ -1,0 +1,1691 @@
+{
+  "source": {
+    "file": "51 AI influencers",
+    "influencerId": "chrmanning",
+    "profileUrl": "https://x.com/chrmanning"
+  },
+  "filters": {
+    "startDate": "2023-04-16",
+    "endDate": "2026-04-16",
+    "minWords": 10,
+    "excludeReplies": true,
+    "excludeReposts": true
+  },
+  "collectedAt": "2026-04-23T19:19:38.638Z",
+  "totalTweets": 239,
+  "tweets": [
+    {
+      "id": "2044865777770414317",
+      "url": "https://x.com/chrmanning/status/2044865777770414317",
+      "createdAt": "2026-04-16T19:49:27.000Z",
+      "text": "Happy to have been a judge again for the @Forbes AI 50 list, a bellwether of AI companies pushing the industry forward. Congrats to all this year's winners, including @aixventureshq portfolio companies @perplexity_ai & @Lovable and Brink List startups @TollbitOfficial &",
+      "wordCount": 41
+    },
+    {
+      "id": "2040177390236979670",
+      "url": "https://x.com/chrmanning/status/2040177390236979670",
+      "createdAt": "2026-04-03T21:19:29.000Z",
+      "text": "Vision-first thinking tends to vastly underestimate the amount of conceptual processing needed to produce useful abstract state representations for a human-like world model. People wrongly tend to believe that a world model might be built with a learnable physics simulator and a",
+      "wordCount": 42
+    },
+    {
+      "id": "2040177387691000243",
+      "url": "https://x.com/chrmanning/status/2040177387691000243",
+      "createdAt": "2026-04-03T21:19:28.000Z",
+      "text": "Would you want an ape running loose in your home? The foundation model space remains in a state of rapid development, with new methods and new foci. We see foundation model training increasingly moving to the use of pre-training paradigms beyond next token prediction, and we see",
+      "wordCount": 47
+    },
+    {
+      "id": "2040177384440389900",
+      "url": "https://x.com/chrmanning/status/2040177384440389900",
+      "createdAt": "2026-04-03T21:19:27.000Z",
+      "text": "It was great to talk with @swyx and @sunfanyun on @latentspacepod about world models. Below I give a few more long-form thoughts on what is needed for successful world models. https:// latent.space/p/moonlake",
+      "wordCount": 32
+    },
+    {
+      "id": "2036855974804545580",
+      "url": "https://x.com/chrmanning/status/2036855974804545580",
+      "createdAt": "2026-03-25T17:21:22.000Z",
+      "text": ". @cursor_ai attempts to regain the research ramparts after the “Kimi K2.5 under the hood” episode undermined their castle!",
+      "wordCount": 19
+    },
+    {
+      "id": "2035342431860986186",
+      "url": "https://x.com/chrmanning/status/2035342431860986186",
+      "createdAt": "2026-03-21T13:07:05.000Z",
+      "text": "Somehow the AI agent workers still aren’t quite cutting it yet! OpenAI to double workforce as business push intensifies The $730bn start-up plans to increase staff to 8,000 by the end of 2026 in bid to close gap with rival Anthropic",
+      "wordCount": 41
+    },
+    {
+      "id": "2032847250423210115",
+      "url": "https://x.com/chrmanning/status/2032847250423210115",
+      "createdAt": "2026-03-14T15:52:07.000Z",
+      "text": "Re: “empowering enough people”: I think this is already well underway!!! When we started @aixventureshq back in 2021 (before ChatGPT!), I remember feeling that the supply of people with deep knowledge of modern neural networks—and hence good founder CTOs—was very restricted.",
+      "wordCount": 41
+    },
+    {
+      "id": "2029988710495003047",
+      "url": "https://x.com/chrmanning/status/2029988710495003047",
+      "createdAt": "2026-03-06T18:33:18.000Z",
+      "text": "Here’s a piece by @goodfellow_ian , @sunfanyun , and me arguing that use of symbolic representations and game virtual world data offers the best path to building action-conditioned multimodal world models that enable reliable prediction and planning for long-horizon tasks. The",
+      "wordCount": 41
+    },
+    {
+      "id": "2028271116578619578",
+      "url": "https://x.com/chrmanning/status/2028271116578619578",
+      "createdAt": "2026-03-02T00:48:12.000Z",
+      "text": "A mysterious new fake publishing scam: @Google Scholar lists me publishing in the Intl Jnl of CV & AI Applications And indeed here I am in the journal: https:// ijcvai.org/index.php/ijcv ai/issue/view/9 … And in very good company! @DarioAmodei in the same issue! Except, I didn't write any such paper….",
+      "wordCount": 49
+    },
+    {
+      "id": "2028271118407417947",
+      "url": "https://x.com/chrmanning/status/2028271118407417947",
+      "createdAt": "2026-03-02T00:48:12.000Z",
+      "text": "What's the grift here? The journal claims to be CC but I had to fake-register to get at “my” paper. There is a paper there. It doesn't seem to be a copy of a real paper. I presume it is AI-generated slop. Are these fake papers the honeypot to attract real authors or what?",
+      "wordCount": 54
+    },
+    {
+      "id": "2026728997732889039",
+      "url": "https://x.com/chrmanning/status/2026728997732889039",
+      "createdAt": "2026-02-25T18:40:22.000Z",
+      "text": "A good model of the world requires not just great graphics but spatial and world intelligence so that you can understand how objects move and respond, what actions cause what outcomes, and what the effects of interactions by players are. @moonlake ’s world model delivers that!",
+      "wordCount": 46
+    },
+    {
+      "id": "2025050457652203869",
+      "url": "https://x.com/chrmanning/status/2025050457652203869",
+      "createdAt": "2026-02-21T03:30:27.000Z",
+      "text": "I’m going to let my Pika AI Self get some rest. Gotta play fair with AI selves?",
+      "wordCount": 17
+    },
+    {
+      "id": "2024160475940855928",
+      "url": "https://x.com/chrmanning/status/2024160475940855928",
+      "createdAt": "2026-02-18T16:33:59.000Z",
+      "text": "It’s great to see the beta release of Moonlake’s world model. A true world model isn’t just beautiful GenAI imagery: It’s spatial intelligence that lets you interact with objects and predict how they’ll respond. This is needed for successful applications in gaming and beyond.",
+      "wordCount": 44
+    },
+    {
+      "id": "2023201271482892698",
+      "url": "https://x.com/chrmanning/status/2023201271482892698",
+      "createdAt": "2026-02-16T01:02:27.000Z",
+      "text": "Australians—justly—complain about surging house prices. Newspapers say housing construction is collapsing. https:// afr.com/property/resid ential/housing-construction-is-collapsing-around-australia-here-s-why-20240501-p5fo2z … But visiting in Jan, I saw building everywhere. It was nothing like the Bay Area (CA). I wasn’t imagining it—see this graph from @jburnmurdoch !",
+      "wordCount": 40
+    },
+    {
+      "id": "2021967196306776566",
+      "url": "https://x.com/chrmanning/status/2021967196306776566",
+      "createdAt": "2026-02-12T15:18:40.000Z",
+      "text": "These look like honest benchmark results – where you do well on some things and are somewhat behind on others….",
+      "wordCount": 20
+    },
+    {
+      "id": "2018892005368307728",
+      "url": "https://x.com/chrmanning/status/2018892005368307728",
+      "createdAt": "2026-02-04T03:38:57.000Z",
+      "text": "I love the @Apple iPadOS 26 Windowed Apps UI—apparently unlike quite a few other people. But the change it needs is for resizing only to be active for window corners, not sides. Otherwise, it’s just too easy for your fat finger to resize a window while attempting to scroll it.",
+      "wordCount": 50
+    },
+    {
+      "id": "2009761663751467274",
+      "url": "https://x.com/chrmanning/status/2009761663751467274",
+      "createdAt": "2026-01-09T22:58:14.000Z",
+      "text": "Who could have predicted (before, say, mid-2025) that http:// Z.ai (Zhipu) would be the first LLM company to go public?",
+      "wordCount": 20
+    },
+    {
+      "id": "2008935216304259407",
+      "url": "https://x.com/chrmanning/status/2008935216304259407",
+      "createdAt": "2026-01-07T16:14:14.000Z",
+      "text": "Does it work to do a Headspace Destress at the same time as you drink your morning coffee? lifehack?",
+      "wordCount": 19
+    },
+    {
+      "id": "2008618239237247386",
+      "url": "https://x.com/chrmanning/status/2008618239237247386",
+      "createdAt": "2026-01-06T19:14:41.000Z",
+      "text": "Join the founders of @moonlake to learn about and engage in building real-time interactive worlds using their spatial reasoning models that can vibe code worlds! Jan 14, 6pm, SF. https:// partiful.com/e/JbKr33S4uNPY 2zHuiR2I?focus=guests …",
+      "wordCount": 33
+    },
+    {
+      "id": "2006786935059263906",
+      "url": "https://x.com/chrmanning/status/2006786935059263906",
+      "createdAt": "2026-01-01T17:57:44.000Z",
+      "text": "This paper looks interesting too. Maybe 2026 will be the Year of the Improved Residual Connection.",
+      "wordCount": 16
+    },
+    {
+      "id": "2006786937559175387",
+      "url": "https://x.com/chrmanning/status/2006786937559175387",
+      "createdAt": "2026-01-01T17:57:44.000Z",
+      "text": "Same comment on also citing @HochreiterSepp (1991): https:// ml.jku.at/publications/o lder/3804.pdf …",
+      "wordCount": 11
+    },
+    {
+      "id": "2006777153187361107",
+      "url": "https://x.com/chrmanning/status/2006777153187361107",
+      "createdAt": "2026-01-01T17:18:52.000Z",
+      "text": "Nevertheless, it would have been great if the paper had included a cite of @HochreiterSepp ’s original introduction of the residual connection idea: https:// bioinf.jku.at/publications/o lder/3804.pdf …",
+      "wordCount": 27
+    },
+    {
+      "id": "2006777150582698224",
+      "url": "https://x.com/chrmanning/status/2006777150582698224",
+      "createdAt": "2026-01-01T17:18:51.000Z",
+      "text": "Great to see an AI lab doing and publishing science (as well as discussing engineering efficiencies)! Some of the other “frontier” labs should try it! Thx, @deepseek_ai !",
+      "wordCount": 28
+    },
+    {
+      "id": "2002050238786511150",
+      "url": "https://x.com/chrmanning/status/2002050238786511150",
+      "createdAt": "2025-12-19T16:15:47.000Z",
+      "text": "Math/physics-envious crowd still trying to cope with how central languages—human and symbolic codes—are to modern human existence. Occasionally I try to toss a wrapper into a garbage bin but usually I’m discussing, writing plans, coding, thinking through a strategy, ….",
+      "wordCount": 40
+    },
+    {
+      "id": "2001415832321298477",
+      "url": "https://x.com/chrmanning/status/2001415832321298477",
+      "createdAt": "2025-12-17T22:14:53.000Z",
+      "text": "Re: “Google has cannibalized a big chunk of 3.0 Pro use cases”: Being willing to cannibalize yourself is the only way to avoid The Innovator’s Dilemma ( https:// en.wikipedia.org/wiki/The_Innov ator%27s_Dilemma …) – and @Google is in the lucky position of having the industry-best economics for enabling low prices.",
+      "wordCount": 48
+    },
+    {
+      "id": "2000277169294201022",
+      "url": "https://x.com/chrmanning/status/2000277169294201022",
+      "createdAt": "2025-12-14T18:50:15.000Z",
+      "text": "Such a sad day for Australia and especially its Jewish community! In the 1990s, I lived 1 km from where this took place (towards the south end of Bondi Beach). In Australia, whole years go by with zero mass shootings (e.g., 2023 and 2024), but today was so horrible to see!",
+      "wordCount": 51
+    },
+    {
+      "id": "1999545548865479100",
+      "url": "https://x.com/chrmanning/status/1999545548865479100",
+      "createdAt": "2025-12-12T18:23:03.000Z",
+      "text": "There’s been amazing progress in generative video AI models but … with almost no impact on gaming. Games require not just painting beautiful scenes, but having an interactive simulation with state, structure, mechanics … and unbounded runtime. @moonlake is delivering that!",
+      "wordCount": 41
+    },
+    {
+      "id": "1994884573612970067",
+      "url": "https://x.com/chrmanning/status/1994884573612970067",
+      "createdAt": "2025-11-29T21:42:00.000Z",
+      "text": "I tend to think of this as a key part of NLP mindset that dramatically differs from the ML mindset of NeurIPS/ICML.",
+      "wordCount": 22
+    },
+    {
+      "id": "1991554099851174238",
+      "url": "https://x.com/chrmanning/status/1991554099851174238",
+      "createdAt": "2025-11-20T17:07:53.000Z",
+      "text": "Fond memories of former Stanford students @tankots and @SahajGarg6 and amazed by their journey leading @WisprFlow creating a new era of voice-native computing. @aixventureshq backed them at seed; today they raised $25M more in Series A funding for voice-first foundation models.",
+      "wordCount": 41
+    },
+    {
+      "id": "1991171929836024310",
+      "url": "https://x.com/chrmanning/status/1991171929836024310",
+      "createdAt": "2025-11-19T15:49:16.000Z",
+      "text": "Oh, actually, the article does basically admit this about 2/3 of the way through. But, it’s someone different who writes the headlines….",
+      "wordCount": 22
+    },
+    {
+      "id": "1991171923724865976",
+      "url": "https://x.com/chrmanning/status/1991171923724865976",
+      "createdAt": "2025-11-19T15:49:15.000Z",
+      "text": "Not a trade economist, but how is this NYT headline a reasonable summary of the data in the graph? Doesn’t it rather show that fear of crazy tariffs caused a huge import spike in Jan–Mar 2025, and imports have basically “returned to normal” since then? https:// nytimes.com/2025/11/19/us/ politics/trumps-tariffs-trade-data.html?smid=nytcore-ios-share …",
+      "wordCount": 49
+    },
+    {
+      "id": "1988291522820030858",
+      "url": "https://x.com/chrmanning/status/1988291522820030858",
+      "createdAt": "2025-11-11T17:03:34.000Z",
+      "text": "It’s amazing—I’m quite surprised!—how much LLM reasoning has improved in 2025. Main message: current top models—GPT-5, Grok 4, Gemini 2.5 Pro—are way better vs GPT-4o or Llama 3. A careful—even skeptical—formal proof eval by K Arkoudas & @s_batzoglou . https:// aclanthology.org/2025.findings- emnlp.661.pdf …",
+      "wordCount": 43
+    },
+    {
+      "id": "1985463818164847011",
+      "url": "https://x.com/chrmanning/status/1985463818164847011",
+      "createdAt": "2025-11-03T21:47:17.000Z",
+      "text": "“For a glorious decade in the 2010s, we all worked on better neural network architectures, but after that we just worked on scaling transformers and making them more efficient”",
+      "wordCount": 29
+    },
+    {
+      "id": "1985379974313107703",
+      "url": "https://x.com/chrmanning/status/1985379974313107703",
+      "createdAt": "2025-11-03T16:14:07.000Z",
+      "text": "People should be allowed typographic freedom too, but doesn’t it just look bad/wrong for the terminal of the letter ‘r’ to be sagging down below the x-height like that?",
+      "wordCount": 29
+    },
+    {
+      "id": "1984275129170616375",
+      "url": "https://x.com/chrmanning/status/1984275129170616375",
+      "createdAt": "2025-10-31T15:03:51.000Z",
+      "text": "The innovation ecosystem behind today’s dramatic AI wave was developed through open science and open development. With corporate AI labs turning secretive, universities and nonprofits must reclaim innovating with open AI research for the public good. https:// hai.stanford.edu/news/universit ies-must-reclaim-ai-research-for-the-public-good …",
+      "wordCount": 40
+    },
+    {
+      "id": "1979993226099732857",
+      "url": "https://x.com/chrmanning/status/1979993226099732857",
+      "createdAt": "2025-10-19T19:29:06.000Z",
+      "text": "Even with the rise of new competitors, @perplexity_ai ’s traffic share continues to rise – it’s impressive that they’re beating out @grok !",
+      "wordCount": 23
+    },
+    {
+      "id": "1978494290226716707",
+      "url": "https://x.com/chrmanning/status/1978494290226716707",
+      "createdAt": "2025-10-15T16:12:52.000Z",
+      "text": "Chat LLMs lack output diversity. It’s not just an ML thing, it reflects human cognitive biases in post-training data. The model knows much more! You can unlock it with a prompt: “Generate 5 responses with their corresponding probabilities, sampled from the full distribution”",
+      "wordCount": 43
+    },
+    {
+      "id": "1977794411821174975",
+      "url": "https://x.com/chrmanning/status/1977794411821174975",
+      "createdAt": "2025-10-13T17:51:48.000Z",
+      "text": "Excited to host a panel Oct 28 at @aixventureshq , SF on the future of AI-powered gaming, video, and VR during @TechCrunch Disrupt. Featuring @sharonal_lee , @moonlake ; @taylorhughes , @HypernaturalAI ; and moderator @russellbrandom , TechCrunch. RSVP: https:// luma.com/ussnsf5f",
+      "wordCount": 40
+    },
+    {
+      "id": "1975930843278508488",
+      "url": "https://x.com/chrmanning/status/1975930843278508488",
+      "createdAt": "2025-10-08T14:26:38.000Z",
+      "text": "Great talk by Stephanie Fu @xkungfu at #COLM2025 pulling apart the poor performance of VLMs on vision tasks, finding the information needed is encoded and maintained but not used well by the VLM. Made great use of @siddkaramcheti ’s PrismaticVLM work! https:// openreview.net/forum?id=qQb1J Lrwol …",
+      "wordCount": 45
+    },
+    {
+      "id": "1975657067303096333",
+      "url": "https://x.com/chrmanning/status/1975657067303096333",
+      "createdAt": "2025-10-07T20:18:45.000Z",
+      "text": "This paper by Ivan Lee ( @ivn1e ) & @BergKirkpatrick was great! Best thing I’ve seen at #COLM2025 so far! Readability ≠ Learnability: Rethinking the Role of Simplicity in Training Small Language Models",
+      "wordCount": 33
+    },
+    {
+      "id": "1974230372054360377",
+      "url": "https://x.com/chrmanning/status/1974230372054360377",
+      "createdAt": "2025-10-03T21:49:34.000Z",
+      "text": "I liked this sentence from @jburnmurdoch : “We have now witnessed the transformation of social media into anti-social media.” The rest of the world has noticed, but in the US, “consumption of social media’s diet of extreme rhetoric continues to climb”",
+      "wordCount": 41
+    },
+    {
+      "id": "1973720617896829330",
+      "url": "https://x.com/chrmanning/status/1973720617896829330",
+      "createdAt": "2025-10-02T12:03:59.000Z",
+      "text": "Annoying that the @LinkedIn iPadOS app always snaps to one of two window heights, filling most or all of the screen height. Totally ruining my iPadOS 26 multitasking vibes",
+      "wordCount": 29
+    },
+    {
+      "id": "1973521710533189686",
+      "url": "https://x.com/chrmanning/status/1973521710533189686",
+      "createdAt": "2025-10-01T22:53:36.000Z",
+      "text": "Excited to see @sunfanyun & @sharonal_lee launching @moonlake ! I got to know them at @Stanford , both doing super-exciting work with 3D world foundation models. Games and simulations need not just visuals but world understanding, and that's where they're focused. Take a look!",
+      "wordCount": 44
+    },
+    {
+      "id": "1973406992854102447",
+      "url": "https://x.com/chrmanning/status/1973406992854102447",
+      "createdAt": "2025-10-01T15:17:45.000Z",
+      "text": "Thrilled to see former @StanfordAILab students @sunfanyun and my own student @sharonal_lee today launching @moonlake , a new AI lab that lets anyone code interactive worlds in minutes. @aixventureshq led their $28M seed along @thresholdvc , @NVIDIA Ventures, and leading angels",
+      "wordCount": 41
+    },
+    {
+      "id": "1968801603994988953",
+      "url": "https://x.com/chrmanning/status/1968801603994988953",
+      "createdAt": "2025-09-18T22:17:35.000Z",
+      "text": "iPadOS 26: A number of apps desperately need an update to remove UI elements from the top left corner….",
+      "wordCount": 19
+    },
+    {
+      "id": "1967679740845887555",
+      "url": "https://x.com/chrmanning/status/1967679740845887555",
+      "createdAt": "2025-09-15T19:59:42.000Z",
+      "text": "2025: The year that 4 trillion tokens became a small amount of training data! (But great work on producing strong reasoning performance with trained-from-scratch tiny models!)",
+      "wordCount": 26
+    },
+    {
+      "id": "1967637714679001525",
+      "url": "https://x.com/chrmanning/status/1967637714679001525",
+      "createdAt": "2025-09-15T17:12:42.000Z",
+      "text": "The surprising thing about this graph is Missouri making the Leading top 25%, beating out Texas, Florida, North Carolina, Georgia, New Jersey, Illinois, etc. I mean, what’s the AI use going on in Missouri? Lmk!",
+      "wordCount": 35
+    },
+    {
+      "id": "1967327183443313063",
+      "url": "https://x.com/chrmanning/status/1967327183443313063",
+      "createdAt": "2025-09-14T20:38:46.000Z",
+      "text": "Selected receipts: Liberman 2010: https:// aclanthology.org/J10-4001/ Liberman 2017: https:// centre-cournot.org/img/pdf/prisme _en/Prisme%20N%C2%B032%20December%202017%20(6%20MiB).pdf … Donoho 2017: https:// tandfonline.com/doi/full/10.10 80/10618600.2017.1384734 … Koch and Peterson 2024: https:// arxiv.org/abs/2404.06647 Tjong Kim Sang and Buchholz 2000: https:// aclanthology.org/W00-0726/",
+      "wordCount": 32
+    },
+    {
+      "id": "1967327175969046787",
+      "url": "https://x.com/chrmanning/status/1967327175969046787",
+      "createdAt": "2025-09-14T20:38:44.000Z",
+      "text": "Re “Then NLP followed”: No! Completely ahistorical! Speech & NLP had well-developed benchmarking with all the things from late 1980s/early 1990s. IR had them even earlier. It drove great progress—and live systems in 2000s Rather, further progress required better—neural—models.",
+      "wordCount": 39
+    },
+    {
+      "id": "1960282082288263289",
+      "url": "https://x.com/chrmanning/status/1960282082288263289",
+      "createdAt": "2025-08-26T10:04:03.000Z",
+      "text": "Bussed to our Lufthansa plane in Frankfurt, our jet was the second most distant one in the whole airport – there was one Condor jet beyond it. I guess that’s what you get for flying to Slovenia.",
+      "wordCount": 37
+    },
+    {
+      "id": "1950462927103807627",
+      "url": "https://x.com/chrmanning/status/1950462927103807627",
+      "createdAt": "2025-07-30T07:46:14.000Z",
+      "text": "And Penny Eckert’s third wave sociolinguistics makes it to @aclmeeting in the paper of @NaitianZhou of @BerkeleyISchool",
+      "wordCount": 17
+    },
+    {
+      "id": "1950460762020876470",
+      "url": "https://x.com/chrmanning/status/1950460762020876470",
+      "createdAt": "2025-07-30T07:37:38.000Z",
+      "text": "Then @ang3linawang of @cornell_tech describes work at @StanfordHAI showing how existing notions of fairness in both datasets & models are strongly based on difference unawareness but in many contexts this is wrong: differences matter and are important but LLMs are unaware of this",
+      "wordCount": 43
+    },
+    {
+      "id": "1950451756485210299",
+      "url": "https://x.com/chrmanning/status/1950451756485210299",
+      "createdAt": "2025-07-30T07:01:51.000Z",
+      "text": "But they couldn’t keep me out of the Wednesday session! Plenty of space for all at 9am after last night’s social event!",
+      "wordCount": 22
+    },
+    {
+      "id": "1949811284892918197",
+      "url": "https://x.com/chrmanning/status/1949811284892918197",
+      "createdAt": "2025-07-28T12:36:50.000Z",
+      "text": ". @mlapata and I totally failed to be able to learn about Human-Centered NLP at @aclmeeting . Why do they always put the most interesting sessions in the smallest rooms? (Maybe it’s: Well, there wasn’t a session on this in 2020, so probably no one will turn up this year?)",
+      "wordCount": 50
+    },
+    {
+      "id": "1949773251246272644",
+      "url": "https://x.com/chrmanning/status/1949773251246272644",
+      "createdAt": "2025-07-28T10:05:42.000Z",
+      "text": ". @Stanford CS is popular partly due to the rise of tech in society, but the dept also emphasized getting a few fundamentals right: Incredible teachers Rigorous content No enrollment caps (more recently) Modern AI content https:// poetsandquants.com/2025/07/24/ai- is-devaluing-the-mba-stanford-students-speak-out-on-curriculum-lag-risk-to-the-b-schools-brand/ … https:// stanforddaily.com/2023/02/23/16- of-seniors-are-cs-majors-what-is-the-departments-history/ …",
+      "wordCount": 44
+    },
+    {
+      "id": "1947397945797841099",
+      "url": "https://x.com/chrmanning/status/1947397945797841099",
+      "createdAt": "2025-07-21T20:47:05.000Z",
+      "text": "Kimi K2. More evidence that: • The lead of American “frontier” AI companies is rather small • A broad ecosystem of strong foundation model companies is developing in China, with more players than in the US or elsewhere. https:// moonshotai.github.io/Kimi-K2/ https:// github.com/MoonshotAI/Kim i-K2/blob/main/tech_report.pdf …",
+      "wordCount": 44
+    },
+    {
+      "id": "1945496824137355685",
+      "url": "https://x.com/chrmanning/status/1945496824137355685",
+      "createdAt": "2025-07-16T14:52:43.000Z",
+      "text": "I think China has a bit of a branding problem: At least to European-language ears, “belt” just doesn’t have quite the right kind of warm and positive connotations. Why didn’t they go with “New Silk Road” or “21st Century Silk Road” or something like that? Much better sound to it!",
+      "wordCount": 50
+    },
+    {
+      "id": "1940504009552679267",
+      "url": "https://x.com/chrmanning/status/1940504009552679267",
+      "createdAt": "2025-07-02T20:13:03.000Z",
+      "text": "It’s a real conundrum that most undocumented people are working hard at vital jobs! @realDonaldTrump told @FoxNews : “I’m the strongest immigration guy ever but I’m also the strongest farmer guy ever. And that includes hotels & places where people work.”",
+      "wordCount": 41
+    },
+    {
+      "id": "1940448881848037498",
+      "url": "https://x.com/chrmanning/status/1940448881848037498",
+      "createdAt": "2025-07-02T16:33:59.000Z",
+      "text": "I’ve joined @aixventureshq as a General Partner, working on investing in deep AI startups. Looking forward to working with founders on solving hard problems in AI and seeing products come out of that! Thank you @ychernova at @WSJ for covering the news:",
+      "wordCount": 42
+    },
+    {
+      "id": "1940430956437107189",
+      "url": "https://x.com/chrmanning/status/1940430956437107189",
+      "createdAt": "2025-07-02T15:22:46.000Z",
+      "text": "Bill Clinton was the last small government, budget and deficit trimming president (1993–2000)! Kind of funny in retrospect….",
+      "wordCount": 18
+    },
+    {
+      "id": "1940102758235082966",
+      "url": "https://x.com/chrmanning/status/1940102758235082966",
+      "createdAt": "2025-07-01T17:38:37.000Z",
+      "text": "The end of American dominance of science? (But don’t worry! Artificial Intelligence is a priority. Though actually the request for AI funding in CISE is also less, but only 17% less, not 60-70% less.)",
+      "wordCount": 34
+    },
+    {
+      "id": "1938353019797836287",
+      "url": "https://x.com/chrmanning/status/1938353019797836287",
+      "createdAt": "2025-06-26T21:45:47.000Z",
+      "text": "Unwisely clicked on a Blinkist sponsored link advertising 5 book recommendations from @AndrewYNg for turning your life around: human vs clickbait—the clickbait won! Are these really the books he recommends? I hope not! Books start ~2/3 of the way down.",
+      "wordCount": 40
+    },
+    {
+      "id": "1935342982246592823",
+      "url": "https://x.com/chrmanning/status/1935342982246592823",
+      "createdAt": "2025-06-18T14:24:58.000Z",
+      "text": "For me, this just shows that @bobmcgrewai doesn’t actually know the history of the job title “Member of the technical staff”….",
+      "wordCount": 21
+    },
+    {
+      "id": "1934376136265646328",
+      "url": "https://x.com/chrmanning/status/1934376136265646328",
+      "createdAt": "2025-06-15T22:23:04.000Z",
+      "text": "Huge congratulations to @annadgoldie on receiving her @Stanford PhD today! It’s been a great journey!",
+      "wordCount": 15
+    },
+    {
+      "id": "1934375159420592408",
+      "url": "https://x.com/chrmanning/status/1934375159420592408",
+      "createdAt": "2025-06-15T22:19:11.000Z",
+      "text": "Big congratulations to @ShikharMurty on receiving his @Stanford PhD today!",
+      "wordCount": 10
+    },
+    {
+      "id": "1934372028498559353",
+      "url": "https://x.com/chrmanning/status/1934372028498559353",
+      "createdAt": "2025-06-15T22:06:45.000Z",
+      "text": "Big congratulations to Derek Chong ( @dch )on receiving his @Stanford MS CS today! It’s been great working with you, Derek!",
+      "wordCount": 21
+    },
+    {
+      "id": "1934369926867042634",
+      "url": "https://x.com/chrmanning/status/1934369926867042634",
+      "createdAt": "2025-06-15T21:58:24.000Z",
+      "text": "Big congratulations to @KaitlynZhou on receiving her @Stanford PhD today!",
+      "wordCount": 10
+    },
+    {
+      "id": "1934368983131836537",
+      "url": "https://x.com/chrmanning/status/1934368983131836537",
+      "createdAt": "2025-06-15T21:54:39.000Z",
+      "text": "Big congratulations to @AnanjanN on receiving his @Stanford MS CS today and having been accepted into the @Stanford CS PhD program!",
+      "wordCount": 21
+    },
+    {
+      "id": "1934366715271680207",
+      "url": "https://x.com/chrmanning/status/1934366715271680207",
+      "createdAt": "2025-06-15T21:45:38.000Z",
+      "text": "Big congratulations to @joon_s_pk on receiving his @Stanford PhD today!",
+      "wordCount": 10
+    },
+    {
+      "id": "1934365415976874434",
+      "url": "https://x.com/chrmanning/status/1934365415976874434",
+      "createdAt": "2025-06-15T21:40:28.000Z",
+      "text": "Big congratulations to @nelsonfliu on receiving his @Stanford PhD today!",
+      "wordCount": 10
+    },
+    {
+      "id": "1934359481527480559",
+      "url": "https://x.com/chrmanning/status/1934359481527480559",
+      "createdAt": "2025-06-15T21:16:53.000Z",
+      "text": "Big congratulations to @siddkaramcheti on receiving his @Stanford PhD today!",
+      "wordCount": 10
+    },
+    {
+      "id": "1934358162888634747",
+      "url": "https://x.com/chrmanning/status/1934358162888634747",
+      "createdAt": "2025-06-15T21:11:39.000Z",
+      "text": "Big congratulations to @rose_e_wang on receiving her @Stanford PhD today!",
+      "wordCount": 10
+    },
+    {
+      "id": "1934355521055924498",
+      "url": "https://x.com/chrmanning/status/1934355521055924498",
+      "createdAt": "2025-06-15T21:01:09.000Z",
+      "text": "Big congratulations to @ericmitchellai on receiving the @Stanford Arthur Samuel dissertation award today! Work on model editing, factuality, and direct preference optimization (DPO) CC @chelseabfinn",
+      "wordCount": 25
+    },
+    {
+      "id": "1932510254153281851",
+      "url": "https://x.com/chrmanning/status/1932510254153281851",
+      "createdAt": "2025-06-10T18:48:43.000Z",
+      "text": "Perhaps the canary in the coal mine would be if they next replace the venerable macOS Mail program with a powered-up version of iOS Mail?",
+      "wordCount": 25
+    },
+    {
+      "id": "1932510251724779951",
+      "url": "https://x.com/chrmanning/status/1932510251724779951",
+      "createdAt": "2025-06-10T18:48:42.000Z",
+      "text": "iPadOS 26 was definitely the most exciting—and least leaked—thing at #WWDC25. Not before time, but great to see! Given macOS puttering along, the long term plan might be to down-merge it with iPadOS? I’d be down, if iPadOS has a real filesystem and terminal—now halfway there.",
+      "wordCount": 46
+    },
+    {
+      "id": "1929255781565964605",
+      "url": "https://x.com/chrmanning/status/1929255781565964605",
+      "createdAt": "2025-06-01T19:16:36.000Z",
+      "text": "If the US wants to be less dependent on foreign-born scientists and engineers, then you’d think we’d be wanting to increase the production of US-born scientists and engineers. But, apparently not.",
+      "wordCount": 31
+    },
+    {
+      "id": "1927561424651555061",
+      "url": "https://x.com/chrmanning/status/1927561424651555061",
+      "createdAt": "2025-05-28T03:03:50.000Z",
+      "text": "Disappointed not to be able to do this event! It’s a fascinating book with much of great relevance and insight as to the possible future(s) of AI by esteemed former journalist @_KarenHao . But I ended up in hospital for a (minor) procedure instead. @Rbaltman will be great!",
+      "wordCount": 48
+    },
+    {
+      "id": "1925196455968735695",
+      "url": "https://x.com/chrmanning/status/1925196455968735695",
+      "createdAt": "2025-05-21T14:26:18.000Z",
+      "text": "This split screen is the truth about use of AI in education: A bright future where AI tutoring gives on point individual instruction of a quality not previously possible for most, but also an ugly present where students shortchange their learning via much use of AI “assistance”",
+      "wordCount": 47
+    },
+    {
+      "id": "1918181089132331502",
+      "url": "https://x.com/chrmanning/status/1918181089132331502",
+      "createdAt": "2025-05-02T05:49:44.000Z",
+      "text": "… and demonizing international students is the height of madness.” https:// asiatimes.com/2025/04/trump- trade-war-its-worse-than-a-crime-its-a-blunder/ … Think Asia Times is biased? Try McFaul: https:// michaelmcfaul.substack.com/p/trumps-irrat ional-and-ineffective?utm_campaign=post&showWelcomeOnShare=false … He cites more-US-favorable Times Higher Education rankings. But, who believes their still placing Oxford 1st is unbiased?",
+      "wordCount": 42
+    },
+    {
+      "id": "1918181085755908467",
+      "url": "https://x.com/chrmanning/status/1918181085755908467",
+      "createdAt": "2025-05-02T05:49:43.000Z",
+      "text": "“Trump’s exploration of all possible follies includes rampaging through the crown jewel of America’s education system – its world-class research universities. Eradicating the woke mind virus may be a justifiable political goal, but to do so by holding research funding hostage …",
+      "wordCount": 42
+    },
+    {
+      "id": "1918099220311228445",
+      "url": "https://x.com/chrmanning/status/1918099220311228445",
+      "createdAt": "2025-05-02T00:24:25.000Z",
+      "text": "Not content with “winning” in the Canadian election, it looks like Team Trump was also trying to “win” in Australia. But, down under, it looks like Labor would win on Saturday even without their help.",
+      "wordCount": 35
+    },
+    {
+      "id": "1917695850542948562",
+      "url": "https://x.com/chrmanning/status/1917695850542948562",
+      "createdAt": "2025-04-30T21:41:34.000Z",
+      "text": "The decline of Chatbot Arena: Mostly, it’s just Goodhart's law one more time: “When a measure becomes a target, it ceases to be a good measure\". But even more so if there is a lot of money riding on it. https:// en.wikipedia.org/wiki/Goodhart% 27s_law …",
+      "wordCount": 44
+    },
+    {
+      "id": "1917694552531689685",
+      "url": "https://x.com/chrmanning/status/1917694552531689685",
+      "createdAt": "2025-04-30T21:36:25.000Z",
+      "text": "Wearing those glasses undermines everything that Zuck has been trying to achieve with his new “bro” image …",
+      "wordCount": 18
+    },
+    {
+      "id": "1917693109120688308",
+      "url": "https://x.com/chrmanning/status/1917693109120688308",
+      "createdAt": "2025-04-30T21:30:40.000Z",
+      "text": "Officially gave up on waiting for @Apple to fix the excessive background battery drain caused by their Mail app on older iPhones (iPhone 14 Pro, here). @Outlook , here I come!",
+      "wordCount": 31
+    },
+    {
+      "id": "1916696590640713878",
+      "url": "https://x.com/chrmanning/status/1916696590640713878",
+      "createdAt": "2025-04-28T03:30:52.000Z",
+      "text": "Learning about World Models, Understanding, Modeling and Scaling at @iclr_conf this morning proved not quite realistic! Shouldn’t the organizers have guessed this would be pretty popular in 2025?",
+      "wordCount": 28
+    },
+    {
+      "id": "1910398401935794417",
+      "url": "https://x.com/chrmanning/status/1910398401935794417",
+      "createdAt": "2025-04-10T18:24:07.000Z",
+      "text": "Delighted to be a judge for this year’s @Forbes AI 50 list, even though it’s a difficult job! Thanks to @Forbes for selecting me. Congrats to the winners including @aixventureshq companies: @codeiumdev , @huggingface & @perplexity_ai . See the list here:",
+      "wordCount": 41
+    },
+    {
+      "id": "1907260573164994874",
+      "url": "https://x.com/chrmanning/status/1907260573164994874",
+      "createdAt": "2025-04-02T02:35:30.000Z",
+      "text": "Alternative headline: Fifteen Point Swings against G.O.P. in Two Florida Seats https:// nytimes.com/2025/04/01/us/ politics/florida-special-election-winner.html?rsrc=ss&unlocked_article_code=1.8k4.-gaV.IywKoWQNLckA&smid=nytcore-ios-share&referringSource=articleShare … via @NYTimes",
+      "wordCount": 17
+    },
+    {
+      "id": "1904602264591012221",
+      "url": "https://x.com/chrmanning/status/1904602264591012221",
+      "createdAt": "2025-03-25T18:32:20.000Z",
+      "text": "Google is back! Gemini 2.5 Pro Experimental opens up quite a bit of headroom on Chatbot Arena! https:// lmarena.ai/?leaderboard",
+      "wordCount": 19
+    },
+    {
+      "id": "1900962186333229062",
+      "url": "https://x.com/chrmanning/status/1900962186333229062",
+      "createdAt": "2025-03-15T17:27:58.000Z",
+      "text": "(CPTPP = Comprehensive and Progressive Agreement for Trans-Pacific Partnership)? https:// moderndiplomacy.eu/2025/03/14/eu- cptpp-integration-a-strategic-roadmap-in-a-multipolar-world/ … https:// scmp.com/opinion/world- opinion/article/3292775/after-britain-will-china-be-next-join-cptpp-free-trade-pact …",
+      "wordCount": 17
+    },
+    {
+      "id": "1900962182030086167",
+      "url": "https://x.com/chrmanning/status/1900962182030086167",
+      "createdAt": "2025-03-15T17:27:57.000Z",
+      "text": "The US under Trump is pretty decisively committed to unilateral on-whim trade tariffs. For countries like Canada & Australia that still believe in rules-based free trade, maybe it’s time to think much more seriously about getting the EU and then China to join the CPTPP?",
+      "wordCount": 45
+    },
+    {
+      "id": "1897400711245377570",
+      "url": "https://x.com/chrmanning/status/1897400711245377570",
+      "createdAt": "2025-03-05T21:35:56.000Z",
+      "text": "Source: https:// dl.acm.org/doi/10.1145/34 5508.345577 … Of course, information context, provenance and accuracy are still vital, just as when looking at the underlying documents. Also, factoid question answering as in this TREC-8 QA track was deployed earlier but LLMs gives us much more powerful QA.",
+      "wordCount": 44
+    },
+    {
+      "id": "1897400701938278433",
+      "url": "https://x.com/chrmanning/status/1897400701938278433",
+      "createdAt": "2025-03-05T21:35:53.000Z",
+      "text": "As @NIST Scientist Emeritus Ellen Voorhees said in 2000 (!), IR focused on “retrieving a ranked list of documents” but often “a user has a specific question and would much prefer that the system return the answer itself”. It’s super to see this becoming reality with neural LLMs!",
+      "wordCount": 48
+    },
+    {
+      "id": "1896978771917594809",
+      "url": "https://x.com/chrmanning/status/1896978771917594809",
+      "createdAt": "2025-03-04T17:39:18.000Z",
+      "text": "Huge loss for @PyTorch and @Meta — but best wishes for a great next act, @cHHillee !",
+      "wordCount": 17
+    },
+    {
+      "id": "1896693111495196965",
+      "url": "https://x.com/chrmanning/status/1896693111495196965",
+      "createdAt": "2025-03-03T22:44:11.000Z",
+      "text": "In 2013, at @akbc_conf and other workshops, I gave a talk titled “Texts are Knowledge”. This was well before there were any transformer LLMs—indeed before the invention of attention—and my early neural NLP ideas were rudimentary. Nevertheless, the talk was quite prophetic!",
+      "wordCount": 42
+    },
+    {
+      "id": "1896212157966282818",
+      "url": "https://x.com/chrmanning/status/1896212157966282818",
+      "createdAt": "2025-03-02T14:53:03.000Z",
+      "text": "Maybe we’ll get back to more explicit reasoning systems over atomic facts within LLM programs after all? The opposite direction to o1/o3 and R1 showing some promise!",
+      "wordCount": 27
+    },
+    {
+      "id": "1895899621760930253",
+      "url": "https://x.com/chrmanning/status/1895899621760930253",
+      "createdAt": "2025-03-01T18:11:08.000Z",
+      "text": "But one error that I think was made was too large “Phone Booth” rooms. Everywhere there could have been 3, there are 2 too large ones. Phone booths are occupied by 1 person on Zoom or 2 doing a 1:1. Not 3 or 4. Besides, there are also many“Conversation” rooms for groups of 3–6.",
+      "wordCount": 54
+    },
+    {
+      "id": "1895899595907150028",
+      "url": "https://x.com/chrmanning/status/1895899595907150028",
+      "createdAt": "2025-03-01T18:11:02.000Z",
+      "text": "The new Computing and Data Science (CoDa) building at @Stanford is beautiful, with many lovely spaces, and a great, if already too crowded, @voyagercoffee coffee shop. https:// news.stanford.edu/stories/2025/0 2/coda-marks-new-era-for-computing-and-data-science-at-stanford …",
+      "wordCount": 30
+    },
+    {
+      "id": "1889102948153868666",
+      "url": "https://x.com/chrmanning/status/1889102948153868666",
+      "createdAt": "2025-02-11T00:03:35.000Z",
+      "text": "How can it be that the @Apple iOS data detector pop-up gives you options to call or copy but not text? We’re not in the twentieth century any more. The twenty-first century is almost a quarter done.",
+      "wordCount": 37
+    },
+    {
+      "id": "1888317302736818651",
+      "url": "https://x.com/chrmanning/status/1888317302736818651",
+      "createdAt": "2025-02-08T20:01:42.000Z",
+      "text": "Yeah, we think sparse autoencoders (SAEs) aren’t that hard to beat at all…. https:// github.com/stanfordnlp/ax bench …",
+      "wordCount": 17
+    },
+    {
+      "id": "1887592838999019572",
+      "url": "https://x.com/chrmanning/status/1887592838999019572",
+      "createdAt": "2025-02-06T20:02:57.000Z",
+      "text": "The real question for training LLM web agents is not whether you can train them to follow instructions with supervised/imitation data, but whether they can learn to operate new websites, as people do all the time.",
+      "wordCount": 36
+    },
+    {
+      "id": "1887252623457460298",
+      "url": "https://x.com/chrmanning/status/1887252623457460298",
+      "createdAt": "2025-02-05T21:31:03.000Z",
+      "text": "Maybe vilifying China & Chinese people, and increasing visa hassles & FBI investigations aren’t smart moves for keeping the US lead in AI—given the number of young engineers trained in China vs the US? “Many Chinese students are not that interested in full-time jobs in the US.”",
+      "wordCount": 47
+    },
+    {
+      "id": "1887252625235845394",
+      "url": "https://x.com/chrmanning/status/1887252625235845394",
+      "createdAt": "2025-02-05T21:31:03.000Z",
+      "text": "From: https:// restofworld.org/2025/china-ai- talent-deepseek-rise-us-dominance/ … (I’m slowly learning that you have to put the link in a different post now….)",
+      "wordCount": 20
+    },
+    {
+      "id": "1884996037707997196",
+      "url": "https://x.com/chrmanning/status/1884996037707997196",
+      "createdAt": "2025-01-30T16:04:11.000Z",
+      "text": ". @atroyn did a great job live-tweeting my @deepseek_ai r1 talk at @aixventureshq yesterday! Thanks, @atroyn ! (A couple of small typos: fb8 = fp8; it’s the h800 not the a800 that has unthrottled fp8 compute.)",
+      "wordCount": 36
+    },
+    {
+      "id": "1884668402012446871",
+      "url": "https://x.com/chrmanning/status/1884668402012446871",
+      "createdAt": "2025-01-29T18:22:17.000Z",
+      "text": "I definitely don’t know everything there is to know about DeepSeek r1 and the broader context, but I’ll be doing my best!",
+      "wordCount": 22
+    },
+    {
+      "id": "1883985245806158293",
+      "url": "https://x.com/chrmanning/status/1883985245806158293",
+      "createdAt": "2025-01-27T21:07:40.000Z",
+      "text": "Re: “Every major breakthrough in AI has been American”: America does itself no favors when it overestimates its specialness. Yes, the center of the AI industry is the US (California!), but many of the breakthroughs of (neural, gradient-based) AI happened elsewhere: • LSTMs,",
+      "wordCount": 43
+    },
+    {
+      "id": "1882571869989347534",
+      "url": "https://x.com/chrmanning/status/1882571869989347534",
+      "createdAt": "2025-01-23T23:31:24.000Z",
+      "text": ". @wenhaocha1 did a great job at not only producing a strong new video detailed captioning model, but working on a good benchmark and novel semantic evaluation metric!",
+      "wordCount": 28
+    },
+    {
+      "id": "1873755800185008575",
+      "url": "https://x.com/chrmanning/status/1873755800185008575",
+      "createdAt": "2024-12-30T15:39:30.000Z",
+      "text": "And there I am complaining that lots of people seem to think that artificial intelligence began in 2012! (But, @rajiinio, typo in this tweet: That first hearing with @gdb was in *2016*, as in the tweet you quoted.)",
+      "wordCount": 38
+    },
+    {
+      "id": "1866889791691989125",
+      "url": "https://x.com/chrmanning/status/1866889791691989125",
+      "createdAt": "2024-12-11T16:56:26.000Z",
+      "text": "20+ years late, I see Gosse Bouma @gosseb wrote a lovely review of @AveryAndrews & my Complex Predicates & Information Spreading in Studies in Language: “this book makes a valuable contribution to the theory of LFG and feature-based theories of grammar”",
+      "wordCount": 41
+    },
+    {
+      "id": "1859708625805246509",
+      "url": "https://x.com/chrmanning/status/1859708625805246509",
+      "createdAt": "2024-11-21T21:21:02.000Z",
+      "text": "Looking for synthetic web interaction data to improve your web agent? NNetnav can auto-generate complex demonstrations for any website. We’ve released NNetnav-6k, 6000 demonstrations, which can tune LLama-8B to 10.3% success on WebArena, SoTA for open weight LLM/synthetic data.",
+      "wordCount": 39
+    },
+    {
+      "id": "1859637451515654235",
+      "url": "https://x.com/chrmanning/status/1859637451515654235",
+      "createdAt": "2024-11-21T16:38:13.000Z",
+      "text": "Stanford RegLab is hiring predoctoral Research Fellows! RegLab has been a wonderful place for work spanning AI ML/NLP/policy to real world impact, successfully working with government organizations. It’s a place to apply technical skills to new areas.",
+      "wordCount": 37
+    },
+    {
+      "id": "1858571351508066382",
+      "url": "https://x.com/chrmanning/status/1858571351508066382",
+      "createdAt": "2024-11-18T18:01:55.000Z",
+      "text": "Here are the stats I was able to get about the status of my accounts on each platform and how much engagement my 3 #EMNLP2024 posts got. The accounts are all of different ages and with different investments, some stats you can’t get, and I forgot to record followers before the",
+      "wordCount": 51
+    },
+    {
+      "id": "1858571348882399465",
+      "url": "https://x.com/chrmanning/status/1858571348882399465",
+      "createdAt": "2024-11-18T18:01:54.000Z",
+      "text": "I did an unscientific, uncontrolled experiment for #EMNLP2024—details in . I posted my conference & workshop papers to 5 socials. Clear results: Mastodon is near dead, Threads may have users but not my people, not giving up on X/Twitter yet, but Bluesky is worth investing in. https:// x.com/jasmijnbasting /jasmijnbastings/status/1857870168858439969 …",
+      "wordCount": 50
+    },
+    {
+      "id": "1856039674877473122",
+      "url": "https://x.com/chrmanning/status/1856039674877473122",
+      "createdAt": "2024-11-11T18:21:56.000Z",
+      "text": "Papers at #EMNLP2024 #3 A counter-example to the frequently adopted mech interp linear representation hypothesis: Recurrent Neural Networks Learn … Non-Linear Representations Fri Nov 15 BlackboxNLP 2024 poster https:// aclanthology.org/2024.blackboxn lp-1.17/ … CC @robert_csordas @ChrisGPotts",
+      "wordCount": 35
+    },
+    {
+      "id": "1855758500577845382",
+      "url": "https://x.com/chrmanning/status/1855758500577845382",
+      "createdAt": "2024-11-10T23:44:39.000Z",
+      "text": "Papers at #EMNLP2024 #2 MSCAW-coref: Efficient and high performing coreference, extending CAW-coref multilingually and to singleton mentions. Fri Nov 15 CRAC workshop 14:10-14:30 https:// aclanthology.org/2024.crac-1.4 In Stanza: https:// stanfordnlp.github.io/stanza/ CC @KarelDoostrlnck @ChrisGPotts",
+      "wordCount": 32
+    },
+    {
+      "id": "1855408045964296376",
+      "url": "https://x.com/chrmanning/status/1855408045964296376",
+      "createdAt": "2024-11-10T00:32:04.000Z",
+      "text": "Papers at #EMNLP2024 #1 Statistical Uncertainty in Word Embeddings: GloVe-V Neural models, from word vectors through transformers, use point estimate representations. They can have large variances, which often loom large in CSS applications. Tue Nov 12 15:15-15:30 Flagler",
+      "wordCount": 38
+    },
+    {
+      "id": "1855386214238757247",
+      "url": "https://x.com/chrmanning/status/1855386214238757247",
+      "createdAt": "2024-11-09T23:05:19.000Z",
+      "text": "I’ll be discussing DPO (Direct Preference Optimization) with @ericmitchellai and @archit_sharma97 at @aixventureshq in San Francisco this Wednesday evening Nov 13. Interested in going? See:",
+      "wordCount": 25
+    },
+    {
+      "id": "1849159578652692589",
+      "url": "https://x.com/chrmanning/status/1849159578652692589",
+      "createdAt": "2024-10-23T18:42:53.000Z",
+      "text": "Congratulations to @petewarden on Moonshine ASR! Simple, fast, accurate speech recognition on low-powered devices can enable the “every device speaks and understands language” world that our children want/expect.",
+      "wordCount": 28
+    },
+    {
+      "id": "1847006066590232619",
+      "url": "https://x.com/chrmanning/status/1847006066590232619",
+      "createdAt": "2024-10-17T20:05:36.000Z",
+      "text": "Blogpost about the work: https:// hai.stanford.edu/news/stanford- reglab-princeton-and-county-santa-clara-collaborate-use-ai-identify-and-map-racial … Also, the model is available for others to use: https:// huggingface.co/reglab-rrc/mis tral-rrc … CC: @PeterHndrsn",
+      "wordCount": 23
+    },
+    {
+      "id": "1846966793958838432",
+      "url": "https://x.com/chrmanning/status/1846966793958838432",
+      "createdAt": "2024-10-17T17:29:33.000Z",
+      "text": "6 years into the LLM revolution, it’s still Day One in developing the many ways they can help the world. Here: cheap, accurate, automated but human-approved mapping and removal of racially restrictive covenants from all Santa Clara County property deeds. https:// reglab.github.io/racialcovenant s/ …",
+      "wordCount": 44
+    },
+    {
+      "id": "1845573802517999976",
+      "url": "https://x.com/chrmanning/status/1845573802517999976",
+      "createdAt": "2024-10-13T21:14:18.000Z",
+      "text": "It’s great to see (right wing) billionaires backing a new university! Top private universities are the jewel of America! Some have religious roots but most came from huge gifts by the rich. With population growth and college widespread, we could use more!",
+      "wordCount": 42
+    },
+    {
+      "id": "1845570715053179388",
+      "url": "https://x.com/chrmanning/status/1845570715053179388",
+      "createdAt": "2024-10-13T21:02:02.000Z",
+      "text": "Cats “have a mental model of the physical world, persistent memory, some reasoning ability and a capacity for planning. None of these qualities are present in today’s ‘frontier’ AIs.”— @ylecun ⁩ “This AI Pioneer Thinks AI Is Dumber Than a Cat” @WSJ ⁩",
+      "wordCount": 43
+    },
+    {
+      "id": "1841329157554516258",
+      "url": "https://x.com/chrmanning/status/1841329157554516258",
+      "createdAt": "2024-10-02T04:07:36.000Z",
+      "text": "What a lot of Democrats still haven’t come to terms with – you need to build housing. Luckily some understand this.",
+      "wordCount": 21
+    },
+    {
+      "id": "1840515833967296813",
+      "url": "https://x.com/chrmanning/status/1840515833967296813",
+      "createdAt": "2024-09-29T22:15:44.000Z",
+      "text": "This is a savvy move by ICLR! A big problem at AI conferences is a lack of experienced, senior reviewers. This targets them effectively, unlike just mandating that some author must review. Of course, some people will just deposit the work on their students anyway, but wcyd?",
+      "wordCount": 47
+    },
+    {
+      "id": "1840419528267964545",
+      "url": "https://x.com/chrmanning/status/1840419528267964545",
+      "createdAt": "2024-09-29T15:53:03.000Z",
+      "text": "It’s great @GavinNewsom signed AB 2013 (by @jacquiirwin ), requiring disclosure of a summary of the data used to build Generative AI systems. There is huge uncertainty about GenAI. Legislation that brings sunlight is great; premature restrictions of dubious soundness are not.",
+      "wordCount": 42
+    },
+    {
+      "id": "1836856578848575733",
+      "url": "https://x.com/chrmanning/status/1836856578848575733",
+      "createdAt": "2024-09-19T19:55:10.000Z",
+      "text": "It’s a positive development that European voices are saying that it’s time to build!",
+      "wordCount": 14
+    },
+    {
+      "id": "1827418731682918488",
+      "url": "https://x.com/chrmanning/status/1827418731682918488",
+      "createdAt": "2024-08-24T18:52:32.000Z",
+      "text": "Wrong time to be an MBA, right time to be an AI builder?",
+      "wordCount": 13
+    },
+    {
+      "id": "1825237165800059139",
+      "url": "https://x.com/chrmanning/status/1825237165800059139",
+      "createdAt": "2024-08-18T18:23:46.000Z",
+      "text": "RT @erikbryn : Powered by AI, the San Francisco, Bay Area is pulling away when it comes to tech startups. https:// x.com/scienceisstrat /scienceisstrat1/status/1825229626781630943 …",
+      "wordCount": 24
+    },
+    {
+      "id": "1825165713348440513",
+      "url": "https://x.com/chrmanning/status/1825165713348440513",
+      "createdAt": "2024-08-18T13:39:50.000Z",
+      "text": "“Lawmakers were swayed by one-sided narratives from the Center for AI Safety, claiming that ‘mitigating risk of extinction from AI should be a global priority’, largely unaware of just how disconnected these narratives were from the broader AI community.”",
+      "wordCount": 39
+    },
+    {
+      "id": "1823949172942495900",
+      "url": "https://x.com/chrmanning/status/1823949172942495900",
+      "createdAt": "2024-08-15T05:05:44.000Z",
+      "text": "As NLP/CL has grown, people also gather in focused venues, for MT, dialog, etc. But we should not see the existence of these venues or SCIL as shrinking the domain of CL/NLP. CL/NLP—as synonyms—should be a big multidisciplinary field, reaching out into both linguistics and AI.",
+      "wordCount": 46
+    },
+    {
+      "id": "1823949169171816791",
+      "url": "https://x.com/chrmanning/status/1823949169171816791",
+      "createdAt": "2024-08-15T05:05:43.000Z",
+      "text": "Last century also had many papers that linked NLP to AI planning and reasoning (e.g. by James Allen: https:// aclanthology.org/P79-1021) and it seems like they are on the verge of returning, as using LLMs as or in reasoning systems comes to the fore.",
+      "wordCount": 43
+    },
+    {
+      "id": "1823949166470631550",
+      "url": "https://x.com/chrmanning/status/1823949166470631550",
+      "createdAt": "2024-08-15T05:05:43.000Z",
+      "text": "The history of ACL has productively mixed people and viewpoints for decades. Last century there were papers that were just linguistics, on syntactic formalisms like TAG or HPSG. This century still has computational linguistic papers aiming at linguistic questions.",
+      "wordCount": 39
+    },
+    {
+      "id": "1823949150381306221",
+      "url": "https://x.com/chrmanning/status/1823949150381306221",
+      "createdAt": "2024-08-15T05:05:39.000Z",
+      "text": "I agree with much of both @emilymbender ’s #ACL2024 presidential talk and @yoavgo ’s rejoinder, but I want to comment on just one aspect where I disagree with both: the definition and domain of CL vs NLP.",
+      "wordCount": 37
+    },
+    {
+      "id": "1822622134751138094",
+      "url": "https://x.com/chrmanning/status/1822622134751138094",
+      "createdAt": "2024-08-11T13:12:34.000Z",
+      "text": "It’s great to be back in Lands With Passionfruit #ACL2024",
+      "wordCount": 10
+    },
+    {
+      "id": "1820254895326540252",
+      "url": "https://x.com/chrmanning/status/1820254895326540252",
+      "createdAt": "2024-08-05T00:26:00.000Z",
+      "text": "It’s the day of the event at last! Happy to be at the @IJCAIconf @STAIWorkshop on Sustainability and Artificial Intelligence. First thing I learned today: Jeju Province/Island is positioning itself to be carbon-free with 100% renewable energy by 2030. https:// oecd-opsi.org/innovations/ca rbon-free-island-jeju-by-2030/ …",
+      "wordCount": 43
+    },
+    {
+      "id": "1818438366180082151",
+      "url": "https://x.com/chrmanning/status/1818438366180082151",
+      "createdAt": "2024-07-31T00:07:46.000Z",
+      "text": "Big congrats to Kaylee McKeown on also successfully defending her gold medal in Paris, in the women’s 100m backstroke final! Such finishing momentum!",
+      "wordCount": 23
+    },
+    {
+      "id": "1818019010702950493",
+      "url": "https://x.com/chrmanning/status/1818019010702950493",
+      "createdAt": "2024-07-29T20:21:23.000Z",
+      "text": "First and second place to Australia in the women’s 200m freestyle final – congratulations to Mollie O'Callaghan on her first individual gold medal!",
+      "wordCount": 23
+    },
+    {
+      "id": "1817300521688215648",
+      "url": "https://x.com/chrmanning/status/1817300521688215648",
+      "createdAt": "2024-07-27T20:46:22.000Z",
+      "text": "And gold (for the 4th time in a row) in the women’s 4x100m freestyle relay team of O’Callaghan, Jack, McKeon, and Harris!",
+      "wordCount": 22
+    },
+    {
+      "id": "1817298585073090851",
+      "url": "https://x.com/chrmanning/status/1817298585073090851",
+      "createdAt": "2024-07-27T20:38:41.000Z",
+      "text": "Great start for the Australian women’s swim team with Arnie Titmus again getting gold in the 400m freestyle",
+      "wordCount": 18
+    },
+    {
+      "id": "1815775540193931463",
+      "url": "https://x.com/chrmanning/status/1815775540193931463",
+      "createdAt": "2024-07-23T15:46:38.000Z",
+      "text": "And, exciting to see their success with Direct Preference Optimization: “We also explored on-policy algorithms such as PPO, but found that DPO required less compute and performed better, especially on instruction following benchmarks like IFEval.” https:// ai.meta.com/research/publi cations/the-llama-3-herd-of-models/ …",
+      "wordCount": 39
+    },
+    {
+      "id": "1815775534946959602",
+      "url": "https://x.com/chrmanning/status/1815775534946959602",
+      "createdAt": "2024-07-23T15:46:37.000Z",
+      "text": "The performance of the new Llama 3.1 LLMs is superb, completely impressive vs the leading closed, proprietary LLMs",
+      "wordCount": 18
+    },
+    {
+      "id": "1815775528781226440",
+      "url": "https://x.com/chrmanning/status/1815775528781226440",
+      "createdAt": "2024-07-23T15:46:36.000Z",
+      "text": "Congrats @AIatMeta , on the awesome Llama 3.1 LLMs! Many contribute to open LLMs: @Alibaba_Qwen , @MistralAI , @01AI_Yi , @huggingface , @allen_ai , …. The open source vs open weight distinction remains important. But @AIatMeta has led in developing an amazing open LLM ecosystem!",
+      "wordCount": 45
+    },
+    {
+      "id": "1813411813691936793",
+      "url": "https://x.com/chrmanning/status/1813411813691936793",
+      "createdAt": "2024-07-17T03:14:02.000Z",
+      "text": "But, unfortunately, a complete “wiring diagram” of a brain still gives almost no idea of how it works for learning, memory, reacting, … “We don’t even understand the [302 neuron] brain of a worm” scoffs Christof Koch, Chief Scientist of @AllenInstitute https:// alleninstitute.org/news/5-unsolve d-mysteries-about-the-brain/ …",
+      "wordCount": 45
+    },
+    {
+      "id": "1811122421984022570",
+      "url": "https://x.com/chrmanning/status/1811122421984022570",
+      "createdAt": "2024-07-10T19:36:49.000Z",
+      "text": "³A private verification set lets the dataset authors detect with high confidence people over-fitting the public test set or LLM training contaminated with test set examples. However, it isn’t the official test set, so, for general use, there are none of the problems from fn. 1.",
+      "wordCount": 46
+    },
+    {
+      "id": "1811122418091483629",
+      "url": "https://x.com/chrmanning/status/1811122418091483629",
+      "createdAt": "2024-07-10T19:36:48.000Z",
+      "text": "I agree: private test sets sound good but end up a fail.¹ How should you make a dataset? Define train, dev & test sets. Make dev² & test 2x the size for good statistical power. Divide them iid; make half test the public official test set & keep half as private verification set.³",
+      "wordCount": 53
+    },
+    {
+      "id": "1811122420444786832",
+      "url": "https://x.com/chrmanning/status/1811122420444786832",
+      "createdAt": "2024-07-10T19:36:48.000Z",
+      "text": "¹For many reasons: use in aggregate benchmarks, variant uses (e.g., ODQA use of SQuAD), eval turnaround speed, guaranteed access (eval servers die). ²The dev2 set will find many uses: hyperparameter tuning, automated optimization runs, etc. while (correctly) hillclimbing on dev.",
+      "wordCount": 40
+    },
+    {
+      "id": "1809219876080484447",
+      "url": "https://x.com/chrmanning/status/1809219876080484447",
+      "createdAt": "2024-07-05T13:36:46.000Z",
+      "text": "Some former colonies worked out how to fix this … (checks on web) … slightly more than a century ago https:// aec.gov.au/Elections/hist ory-of-electoral-reform.htm …",
+      "wordCount": 24
+    },
+    {
+      "id": "1804988984608870600",
+      "url": "https://x.com/chrmanning/status/1804988984608870600",
+      "createdAt": "2024-06-23T21:24:43.000Z",
+      "text": "My take: ① Credible search/IR voices always promote evals & baselines —it’s the creed ② IR is little connected to LLM app builders; a thing to fix in the age of RAG ③ BM25’s strengths vs, e.g., DPR, are token-level & exact matching, not the “statistical model” (simple vs LLM)",
+      "wordCount": 50
+    },
+    {
+      "id": "1798391684981723254",
+      "url": "https://x.com/chrmanning/status/1798391684981723254",
+      "createdAt": "2024-06-05T16:29:24.000Z",
+      "text": "“Two Stanford undergrads and a USC grad working at beehiiv” just isn’t as sexy a way to start the headline, right?",
+      "wordCount": 21
+    },
+    {
+      "id": "1797664513367630101",
+      "url": "https://x.com/chrmanning/status/1797664513367630101",
+      "createdAt": "2024-06-03T16:19:53.000Z",
+      "text": "How not to own your mistakes! https:// aksh-garg.medium.com/llama-3v-build ing-an-open-source-gpt-4v-competitor-in-under-500-7dd8f1f6c9ee … There’s good open-source work around @TsinghuaNLP , helping advance science. (I know nothing here; it seems done by a few undergrads, some at @Stanford . “Fake it before you make it” is an ignoble product of Silicon Valley.)",
+      "wordCount": 48
+    },
+    {
+      "id": "1797651224814399627",
+      "url": "https://x.com/chrmanning/status/1797651224814399627",
+      "createdAt": "2024-06-03T15:27:05.000Z",
+      "text": "Everyone in the LLMs/Foundation Models/AI Policy arena should take time today to read @jackclarkSF ’s current issue of Import AI! What a breath of fresh air to read some thoughtful, well-written (!) commentary on managing our AI future! Recommended! https:// importai.substack.com/p/import-ai-37 5-gpt-2-five-years-later …",
+      "wordCount": 43
+    },
+    {
+      "id": "1796593594654130230",
+      "url": "https://x.com/chrmanning/status/1796593594654130230",
+      "createdAt": "2024-05-31T17:24:26.000Z",
+      "text": "Even as a non-lawyer on this team, I find fascinating the concrete examples of hallucinated & wrong LLM RAG “facts” we see. Some examples from v2 of the paper—now including Westlaw’s AI-Assisted Research, which we were given access to after posting v1. https:// dho.stanford.edu/wp-content/upl oads/Legal_RAG_Hallucinations.pdf …",
+      "wordCount": 46
+    },
+    {
+      "id": "1795115562516766830",
+      "url": "https://x.com/chrmanning/status/1795115562516766830",
+      "createdAt": "2024-05-27T15:31:16.000Z",
+      "text": "There are 2 mistakes you can make about LLMs: ① Thinking everything LLMs say is correct, they can reason, and with a bit more scale they’ll get us to superintelligence ② Thinking LLMs are good for almost nothing—they are FAR better at all #NLProc tasks than previous methods https:// x.com/Grady_Booch/st /Grady_Booch/status/1795106421153096022 …",
+      "wordCount": 52
+    },
+    {
+      "id": "1789280609371652409",
+      "url": "https://x.com/chrmanning/status/1789280609371652409",
+      "createdAt": "2024-05-11T13:05:15.000Z",
+      "text": "Yoshua Bengio stresses AI models need epistemic humility. He suggests people could use some too—no one in the 2010s foresaw the power of LLMs & other GenAI in the 2020s. He frustrates reporters by saying a 50% chance of AGI in 3–30 years, without saying where the other 50% lies.",
+      "wordCount": 50
+    },
+    {
+      "id": "1789259139996160358",
+      "url": "https://x.com/chrmanning/status/1789259139996160358",
+      "createdAt": "2024-05-11T11:39:56.000Z",
+      "text": ". @YejinChoinka makes a prediction that I can get behind: “30% chance that within 3 years, we will have a language-only Al that is perceived as AGl-enough by ~30% of people”. This seems right. People—including scientists—easily (over-)attribute intelligence to machines.",
+      "wordCount": 40
+    },
+    {
+      "id": "1789220933636407619",
+      "url": "https://x.com/chrmanning/status/1789220933636407619",
+      "createdAt": "2024-05-11T09:08:07.000Z",
+      "text": ". @OriolVinyalsML was happy to endorse @ShaneLegg ’s estimate that we’d more likely than not have AGI by 2030. But he’s not worried: If they notice anything worrying happening with their models at @GoogleAI , they’ve apparently got some humanities people working on it. #ICLR2024",
+      "wordCount": 45
+    },
+    {
+      "id": "1789197942403813870",
+      "url": "https://x.com/chrmanning/status/1789197942403813870",
+      "createdAt": "2024-05-11T07:36:45.000Z",
+      "text": "The best contributed paper on GRIT, presented by Tao Yu, is a nice contribution to doing RAG, but not exactly AGI. https:// arxiv.org/abs/2402.09906 The quality of the speech captioning makes AGI seem quite distant indeed…. #ICLR2024",
+      "wordCount": 36
+    },
+    {
+      "id": "1789193446470586665",
+      "url": "https://x.com/chrmanning/status/1789193446470586665",
+      "createdAt": "2024-05-11T07:18:53.000Z",
+      "text": "I’m in Wien today to see if I can feel the AGI. It’s a beautiful blue day; no sign of a rupture in the firmament – so far #ICLR2024",
+      "wordCount": 29
+    },
+    {
+      "id": "1785705960360841674",
+      "url": "https://x.com/chrmanning/status/1785705960360841674",
+      "createdAt": "2024-05-01T16:20:52.000Z",
+      "text": "I’m going to #iclr2024 in Vienna next week. Who all do I know that’ll be there? Students’ papers there: @kattian_ : https:// arxiv.org/abs/2311.08401 @cnicks13 : https:// openreview.net/forum?id=4eJDM jYZZG … @ericmitchellai : https:// arxiv.org/abs/2310.12962 @parthsarthi03 :",
+      "wordCount": 35
+    },
+    {
+      "id": "1782266991518388346",
+      "url": "https://x.com/chrmanning/status/1782266991518388346",
+      "createdAt": "2024-04-22T04:35:38.000Z",
+      "text": "This new graph even more strongly supports that 2 is the correct number of first author (or co–first author) submissions to allow per person",
+      "wordCount": 24
+    },
+    {
+      "id": "1782143789379018907",
+      "url": "https://x.com/chrmanning/status/1782143789379018907",
+      "createdAt": "2024-04-21T20:26:04.000Z",
+      "text": "This graph makes a conference policy of allowing a maximum of 2 first author submissions seem quite reasonable",
+      "wordCount": 18
+    },
+    {
+      "id": "1773060218114490454",
+      "url": "https://x.com/chrmanning/status/1773060218114490454",
+      "createdAt": "2024-03-27T18:51:12.000Z",
+      "text": "It looks like the behavioral psychology folk still have some work to do to get beyond the replication crisis….",
+      "wordCount": 19
+    },
+    {
+      "id": "1773033630257828316",
+      "url": "https://x.com/chrmanning/status/1773033630257828316",
+      "createdAt": "2024-03-27T17:05:33.000Z",
+      "text": "“My view is the opposite of Chomsky’s, who argues that the success of LLMs is of limited scientific import. The discovery that inscrutable matrices can do many things that otherwise require a biological brain is a striking empirical datum—one Chomsky chooses to simply dismiss.”",
+      "wordCount": 44
+    },
+    {
+      "id": "1773033627225350323",
+      "url": "https://x.com/chrmanning/status/1773033627225350323",
+      "createdAt": "2024-03-27T17:05:32.000Z",
+      "text": "Re-upping a piece from last year by @hamandcheese on LLMs and language meaning: “I see the success of LLMs as vindicating the use theory of meaning, especially when contrasted with the failure of symbolic approaches to natural language processing.”",
+      "wordCount": 39
+    },
+    {
+      "id": "1772691331782979710",
+      "url": "https://x.com/chrmanning/status/1772691331782979710",
+      "createdAt": "2024-03-26T18:25:23.000Z",
+      "text": "Big investments happen due to: ① clear breakthrough results (AlexNet), ② crisis (atom bomb), ③ politics ( @CycorpAI ). Otherwise small studies bubble along; that was all of probabilistic AI, neural nets, diffusion models & mRNA vaccines. Neurosymbolic AI so far fails all three.",
+      "wordCount": 44
+    },
+    {
+      "id": "1772642897055085054",
+      "url": "https://x.com/chrmanning/status/1772642897055085054",
+      "createdAt": "2024-03-26T15:12:55.000Z",
+      "text": "But it is shocking that next word prediction can drive learning the fine structure and meaning of human languages, profoundly so given Chomsky’s claims that dominated much of linguistics, while LLMs work less well on unnatural signals; see @JulieKallini : https:// arxiv.org/abs/2401.06416",
+      "wordCount": 42
+    },
+    {
+      "id": "1772642891761955139",
+      "url": "https://x.com/chrmanning/status/1772642891761955139",
+      "createdAt": "2024-03-26T15:12:54.000Z",
+      "text": "“The fact that [transformer neural nets] model language is probably one of the biggest discoveries in history. That you can learn language by just predicting the next word with a Markov chain—that’s just shocking to me,” Mikhail Belkin says. By @strwbilly .",
+      "wordCount": 42
+    },
+    {
+      "id": "1772642894492393477",
+      "url": "https://x.com/chrmanning/status/1772642894492393477",
+      "createdAt": "2024-03-26T15:12:54.000Z",
+      "text": "With accumulating evidence, aspects of this result are still shocking and others are not so shocking. Since transformers have proven so adept at building representations that suck associative order from many natural signals, it’s maybe not surprising that they work for language.",
+      "wordCount": 42
+    },
+    {
+      "id": "1770934653706514495",
+      "url": "https://x.com/chrmanning/status/1770934653706514495",
+      "createdAt": "2024-03-21T22:04:58.000Z",
+      "text": "Already, LLMs write fluent, mostly original text, build useful abstractions, and can improve the work of most human management consultants. And they will be much better again in a few years. Wisdom is understanding that both these tweets and my tweets from last week are true!",
+      "wordCount": 46
+    },
+    {
+      "id": "1770934651009339810",
+      "url": "https://x.com/chrmanning/status/1770934651009339810",
+      "createdAt": "2024-03-21T22:04:57.000Z",
+      "text": "LLMs like ChatGPT are an amazingly powerful breakthrough in AI and a transformative general purpose technology, like electricity or the internet. LLMs will reshape work and our lives this decade. They are not just a blurry photocopier or an extruder of meaningless word sequences.",
+      "wordCount": 44
+    },
+    {
+      "id": "1769781451988566474",
+      "url": "https://x.com/chrmanning/status/1769781451988566474",
+      "createdAt": "2024-03-18T17:42:33.000Z",
+      "text": "Now that everyone is writing LLM programs, the idea of doing approximate bayesian inference by sampling along linguistic pipelines (rather than k-best, etc.) is more relevant again",
+      "wordCount": 27
+    },
+    {
+      "id": "1768311283445796946",
+      "url": "https://x.com/chrmanning/status/1768311283445796946",
+      "createdAt": "2024-03-14T16:20:38.000Z",
+      "text": "One of the simplest but most useful and appropriate pieces of AI regulation to adopt at the moment is to require model providers to document the training data they used. This is something that the @EU_Commission AI Act gets right … on p.62 of its 272 pages (!).",
+      "wordCount": 48
+    },
+    {
+      "id": "1768291977400103064",
+      "url": "https://x.com/chrmanning/status/1768291977400103064",
+      "createdAt": "2024-03-14T15:03:55.000Z",
+      "text": "LLMs and other generative AI are enormously powerful, because they soak up, abstract, and can mashup the work of millions of humans. But they are only a bit more intelligent than an encyclopedia. Central to intelligence is the ability to learn, adapt, and act in novel situations.",
+      "wordCount": 47
+    },
+    {
+      "id": "1768291975005196326",
+      "url": "https://x.com/chrmanning/status/1768291975005196326",
+      "createdAt": "2024-03-14T15:03:54.000Z",
+      "text": "I do not believe human-level AI (artificial superintelligence, or the commonest sense of #AGI) is close at hand. AI has made breakthroughs, but the claim of AGI by 2030 is as laughable as claims of AGI by 1980 are in retrospect. Look how similar the rhetoric was in @LIFE in 1970!",
+      "wordCount": 51
+    },
+    {
+      "id": "1761395746258223224",
+      "url": "https://x.com/chrmanning/status/1761395746258223224",
+      "createdAt": "2024-02-24T14:20:45.000Z",
+      "text": "Heading to #AAAI2024 in Vancouver for the weekend. Talking on the Implications of LLMs panel Saturday, February 24, 4:30–6:00 PM Ballroom AB. If you’re at #AAAI24, I hope to see you there!",
+      "wordCount": 32
+    },
+    {
+      "id": "1760347298549440598",
+      "url": "https://x.com/chrmanning/status/1760347298549440598",
+      "createdAt": "2024-02-21T16:54:36.000Z",
+      "text": "“GPT-3’s literary experiments are not ‘failed’ because they do not meet some moving target of a literary standard, nor because of technological insufficiency, but because it can make it harder for people to name and navigate their realities.”",
+      "wordCount": 38
+    },
+    {
+      "id": "1760347296401956992",
+      "url": "https://x.com/chrmanning/status/1760347296401956992",
+      "createdAt": "2024-02-21T16:54:35.000Z",
+      "text": "Congrats to Michele Elam on winning the 2023 Norman Foerster Prize (for best essay of the year in American Literature) for “Poetry Will Not Optimize; or, What Is Literature to AI?” https:// read.dukeupress.edu/american-liter ature/article/95/2/281/344231/Poetry-Will-Not-Optimize-or-What-Is-Literature-to …",
+      "wordCount": 35
+    },
+    {
+      "id": "1756531029479948469",
+      "url": "https://x.com/chrmanning/status/1756531029479948469",
+      "createdAt": "2024-02-11T04:10:06.000Z",
+      "text": "Thoughtful case by @siddhantsahu92 on the future of LLM companies: Long-term success requires sustainable unit economics that the biggest players don’t yet have. Many of the open-source LLM world developments (small models, etc.) can help us get there. https:// sidstage.substack.com/p/the-path-to- profitability-for-ai …",
+      "wordCount": 42
+    },
+    {
+      "id": "1755810055025508711",
+      "url": "https://x.com/chrmanning/status/1755810055025508711",
+      "createdAt": "2024-02-09T04:25:13.000Z",
+      "text": "“Open source is indisputably one of the biggest drivers of progress in software and by extension AI. But it is under existential threat from regulation that will advantage entrenched interests. We believe that open AI is vital for research, innovation, competition, and safety.”",
+      "wordCount": 43
+    },
+    {
+      "id": "1755438453343547462",
+      "url": "https://x.com/chrmanning/status/1755438453343547462",
+      "createdAt": "2024-02-08T03:48:36.000Z",
+      "text": "To me, this feels more like the kind of neural model interpretability research we should be doing than much of the recent work on interpretability of transformer models.",
+      "wordCount": 28
+    },
+    {
+      "id": "1754180272806113635",
+      "url": "https://x.com/chrmanning/status/1754180272806113635",
+      "createdAt": "2024-02-04T16:29:02.000Z",
+      "text": "On https:// rank.opencompass.org.cn/leaderboard-ll m-v2 …, many Chinese LLMs—open & closed—score above GPT-3.5 Turbo & Llama-2-70B-Chat: GLM—Zhipu AI, Yi—01AI, Qwen—Alibaba, Erniebot—Baidu, the 20B InternLM2. If the US’s GPU export bans are meant to stop China building great LLMs, they are not—yet—working.",
+      "wordCount": 40
+    },
+    {
+      "id": "1754178919446745282",
+      "url": "https://x.com/chrmanning/status/1754178919446745282",
+      "createdAt": "2024-02-04T16:23:40.000Z",
+      "text": "GPT-4 is still , but I stare, amazed at how good “mostly open” LLMs have become in the last 6 months. On LMSYS Chatbot Arena https:// huggingface.co/spaces/lmsys/c hatbot-arena-leaderboard …, the best open LLMs—Mixtral-8x7b-Instruct & Yi-34B-Chat—are roughly tied vs. ChatGPT-3.5 and get ~30% wins against GPT-4-Turbo.",
+      "wordCount": 45
+    },
+    {
+      "id": "1754178921279721686",
+      "url": "https://x.com/chrmanning/status/1754178921279721686",
+      "createdAt": "2024-02-04T16:23:40.000Z",
+      "text": "Anthropic may be cooking something internally, but Yi-34B-Chat & Mixtral-8x7b-Instruct win ~45% vs the best of the 4 Anthropic models (Claude-1). Remarkably, the best 7B param open models, Starling-LM-7B & OpenHermes-2.5-Mistral-7B, win ~40% vs Claude-1 and ~25% vs GPT-4-Turbo.",
+      "wordCount": 39
+    },
+    {
+      "id": "1743039579698135339",
+      "url": "https://x.com/chrmanning/status/1743039579698135339",
+      "createdAt": "2024-01-04T22:39:54.000Z",
+      "text": "My 2 point plan for improving productivity and world GDP: @Apple , @Google , @Microsoft coordinate a change so: • {Cmd|Ctrl}+V is Paste {Without|and Match} Formatting • In documents with paragraphs/lines {Cmd|Ctrl}+A first selects a paragraph/line; press it twice to “Select All”.",
+      "wordCount": 42
+    },
+    {
+      "id": "1743039581484908638",
+      "url": "https://x.com/chrmanning/status/1743039581484908638",
+      "createdAt": "2024-01-04T22:39:54.000Z",
+      "text": "Fine points: • Also choose a consistent keyboard shortcut for Paste With Formatting. {Cmd|Ctrl}+Shift+V is good; having to also press {Opt|Alt} is annoying. • Microsoft OneNote—but not Word—Select All already works as described. It’s great. Spread the goodness! Who’s for it?",
+      "wordCount": 41
+    },
+    {
+      "id": "1742577318374314495",
+      "url": "https://x.com/chrmanning/status/1742577318374314495",
+      "createdAt": "2024-01-03T16:03:02.000Z",
+      "text": "Sad news! Coqui excelled in providing deployment-ready, high-quality TTS (text-to-speech), supporting many human languages. Best of luck to you all for the future! The lesson is probably that it’s just really hard to succeed as a standalone TTS (or similar lang tech) company….",
+      "wordCount": 43
+    },
+    {
+      "id": "1738261054030033238",
+      "url": "https://x.com/chrmanning/status/1738261054030033238",
+      "createdAt": "2023-12-22T18:11:45.000Z",
+      "text": "If you’re interested in LLMs, RLHF, etc., @natolambert has been doing a great series of interesting posts at interconnects dot ai. But I think I’m not meant to link to them these days on Twitter, right?",
+      "wordCount": 36
+    },
+    {
+      "id": "1736784885677994094",
+      "url": "https://x.com/chrmanning/status/1736784885677994094",
+      "createdAt": "2023-12-18T16:25:59.000Z",
+      "text": ". @Thom_Wolf : “Academia is back as we saw at NeurIPS 2023. With many private and open-source labs closing the doors on publishing their results and data, academia rises again in visibility and is shining with many impactful papers in 2023 and exciting new work coming.”",
+      "wordCount": 46
+    },
+    {
+      "id": "1731440684203389399",
+      "url": "https://x.com/chrmanning/status/1731440684203389399",
+      "createdAt": "2023-12-03T22:30:02.000Z",
+      "text": "“Who’s Who Behind the Dawn of Modern AI. A group of researchers, tech execs and VCs had worked for more than a decade to fuel AI” Well, this NYT list is 1 researcher, 10 tech execs & VCs, and 1 EA wild futurist, all white males (asterisk for Demis).",
+      "wordCount": 49
+    },
+    {
+      "id": "1730770830924357826",
+      "url": "https://x.com/chrmanning/status/1730770830924357826",
+      "createdAt": "2023-12-02T02:08:16.000Z",
+      "text": "I agree. Too many PhD guidebooks recommend choosing a senior prof as advisor. Going with a new faculty may lead to a few rough edges, but most students do very well, benefiting from the top current knowledge, enthusiasm, time commitment, and aligned goals of the new faculty.",
+      "wordCount": 47
+    },
+    {
+      "id": "1729625341071888503",
+      "url": "https://x.com/chrmanning/status/1729625341071888503",
+      "createdAt": "2023-11-28T22:16:30.000Z",
+      "text": "Congratulations to @demi_guo_ and @chenlin_meng – for leading the rapid development towards great quality video!",
+      "wordCount": 15
+    },
+    {
+      "id": "1728467429205139494",
+      "url": "https://x.com/chrmanning/status/1728467429205139494",
+      "createdAt": "2023-11-25T17:35:23.000Z",
+      "text": "This doesn’t seem a bad starting set of tenets to me!",
+      "wordCount": 11
+    },
+    {
+      "id": "1727372441834688638",
+      "url": "https://x.com/chrmanning/status/1727372441834688638",
+      "createdAt": "2023-11-22T17:04:17.000Z",
+      "text": "Seriously, @OpenAI ? The future of AI? One of the new directors and the overall board composition are just …",
+      "wordCount": 20
+    },
+    {
+      "id": "1726557381465956512",
+      "url": "https://x.com/chrmanning/status/1726557381465956512",
+      "createdAt": "2023-11-20T11:05:32.000Z",
+      "text": "Let’s not get distracted from the main news of the day!",
+      "wordCount": 11
+    },
+    {
+      "id": "1725561069559755077",
+      "url": "https://x.com/chrmanning/status/1725561069559755077",
+      "createdAt": "2023-11-17T17:06:33.000Z",
+      "text": "This proves out that Apple really needs to increase the size of the Apple Neural Engine in future chips! (Whereas its size has stalled since 2020, see, e.g., https:// apple.fandom.com/wiki/Neural_En gine … )",
+      "wordCount": 33
+    },
+    {
+      "id": "1722295540573188475",
+      "url": "https://x.com/chrmanning/status/1722295540573188475",
+      "createdAt": "2023-11-08T16:50:30.000Z",
+      "text": "I can question particular classifications (SHRDLU equal to unskilled human or Grammarly at Level 3 seems generous), but: This paper is a sensible, concrete framework for assessing progress towards AGI. Congrats to @Stanford grads @merrierm & @jaschasd ! https:// arxiv.org/abs/2311.02462",
+      "wordCount": 40
+    },
+    {
+      "id": "1720509684275380600",
+      "url": "https://x.com/chrmanning/status/1720509684275380600",
+      "createdAt": "2023-11-03T18:34:08.000Z",
+      "text": "The beauty of allowing people all around the world to collaborate and build good things with Open Source AI.",
+      "wordCount": 19
+    },
+    {
+      "id": "1720104085175853132",
+      "url": "https://x.com/chrmanning/status/1720104085175853132",
+      "createdAt": "2023-11-02T15:42:26.000Z",
+      "text": "My “Human Language Understanding & Reasoning” in @americanacad ’s Dædalus is a short, readable intro to language understanding and generation by computers (“artificial intelligence”). Thousands have read it in the last 3 months … so maybe you should too?",
+      "wordCount": 39
+    },
+    {
+      "id": "1719107408432390559",
+      "url": "https://x.com/chrmanning/status/1719107408432390559",
+      "createdAt": "2023-10-30T21:42:00.000Z",
+      "text": "I’m very glad to see this investment by @togethercompute in making available large, clean, open data for LLMs, and many other #NLProc uses.",
+      "wordCount": 23
+    },
+    {
+      "id": "1719102334050165172",
+      "url": "https://x.com/chrmanning/status/1719102334050165172",
+      "createdAt": "2023-10-30T21:21:50.000Z",
+      "text": "Agreed! “Glaring miss: Transparency on data sources used to train AI models should be required—not just sharing red-teaming results. If we're going towards transparency (which is good) by adding paperwork (which is annoying), we should go further than just Red-teaming results.”",
+      "wordCount": 41
+    },
+    {
+      "id": "1719050288659849347",
+      "url": "https://x.com/chrmanning/status/1719050288659849347",
+      "createdAt": "2023-10-30T17:55:01.000Z",
+      "text": "Text embeddings are central to all sorts of applications from recommendation/advertising to retrieval-augmented generation (RAG). Because it’s at the start of the pipeline, better embeddings can be the key to better results. Congrats to @tengyuma and colleagues on @Voyage_AI_ !",
+      "wordCount": 40
+    },
+    {
+      "id": "1715461412892680350",
+      "url": "https://x.com/chrmanning/status/1715461412892680350",
+      "createdAt": "2023-10-20T20:14:07.000Z",
+      "text": "I guess error bars are just too complicated for Bloomberg’s audience? But why not mislead a bit more and have the false confidence of 4 significant digits for figures in the 2030s?",
+      "wordCount": 32
+    },
+    {
+      "id": "1709711974794412095",
+      "url": "https://x.com/chrmanning/status/1709711974794412095",
+      "createdAt": "2023-10-04T23:27:54.000Z",
+      "text": "“Lewis is sharp on how Effective Altruism shifted, from donating to prevent disease in the Global South to worrying about (putative) trillions of future humans across the galaxy; it ‘turned its back on living people’ in favour of campaigning against AI.”",
+      "wordCount": 41
+    },
+    {
+      "id": "1703097031987024308",
+      "url": "https://x.com/chrmanning/status/1703097031987024308",
+      "createdAt": "2023-09-16T17:22:29.000Z",
+      "text": "The enthusiasm of big generative AI/foundation model companies to claim AI existential risks and ask to be regulated by the government is the same old story of “Regulation is the friend of the incumbent”, and especially damaging for open source, argues @bgurley . HT @s_batzoglou",
+      "wordCount": 45
+    },
+    {
+      "id": "1701428464455434286",
+      "url": "https://x.com/chrmanning/status/1701428464455434286",
+      "createdAt": "2023-09-12T02:52:11.000Z",
+      "text": "Thank god for a fresh voice writing about AI in U.S.’s leading newspapers! Josh @Tyrangiel : “I’m increasingly confident that [human] species death [from AI] is neither imminent nor likely, it’s much less clear what life is about to look like.”",
+      "wordCount": 41
+    },
+    {
+      "id": "1701377147280167023",
+      "url": "https://x.com/chrmanning/status/1701377147280167023",
+      "createdAt": "2023-09-11T23:28:16.000Z",
+      "text": "When deep learning took off 2010–20, so few in Systems knew NNets or even matmuls. AI folk had to learn Systems to be stars like Krizhevsky & @ilyasut ! Now, many great Systems folk can make NNets go brrr. It’s high time for AI scientists to focus on novel AI modeling ideas again!",
+      "wordCount": 53
+    },
+    {
+      "id": "1695552576564162908",
+      "url": "https://x.com/chrmanning/status/1695552576564162908",
+      "createdAt": "2023-08-26T21:43:30.000Z",
+      "text": ". @MarietjeSchaake on European DSA: The EU & US had policies exempting intermediary services, eg, Sec 230. These exemptions are out of touch with our new realities. Tech platforms, once start-ups seeking to disrupt, are now monopolists with enormous power.",
+      "wordCount": 40
+    },
+    {
+      "id": "1694405964185952303",
+      "url": "https://x.com/chrmanning/status/1694405964185952303",
+      "createdAt": "2023-08-23T17:47:17.000Z",
+      "text": "Thanks to the @huggingface trl team for their implementation and blog of using DPO training of LLMs with human feedback, following our paper https:// arxiv.org/abs/2305.18290 !",
+      "wordCount": 26
+    },
+    {
+      "id": "1692294032461054018",
+      "url": "https://x.com/chrmanning/status/1692294032461054018",
+      "createdAt": "2023-08-17T21:55:13.000Z",
+      "text": "NLP is having a moment, where LLMs have become the Swiss Army knife of almost all AI, but, nevertheless, I was only trying to give a brief history of #NLProc not AI. However, I’ll go with it being wonderful and easy to read. https:// t.co/Dwciv5FOG9",
+      "wordCount": 45
+    },
+    {
+      "id": "1690750528329056256",
+      "url": "https://x.com/chrmanning/status/1690750528329056256",
+      "createdAt": "2023-08-13T15:41:53.000Z",
+      "text": "While libertarianism first develop on the left, libertarianism has long spread the spectrum from socialism to the now dominant right wing.",
+      "wordCount": 21
+    },
+    {
+      "id": "1690750526882009088",
+      "url": "https://x.com/chrmanning/status/1690750526882009088",
+      "createdAt": "2023-08-13T15:41:52.000Z",
+      "text": ". @anildash podcast: https:// slate.com/podcasts/what- next-tbd/2023/08/techs-white-supremacist-reactionary-problem … For my age group, it’s been a sad descent from the—naive—tech optimism of the 1990s ( @JPBarlow ’s Declaration of the Independence of Cyberspace https:// eff.org/cyberspace-ind ependence …) to the open hard right politics and white supremacy of tech today.",
+      "wordCount": 47
+    },
+    {
+      "id": "1689768754472013824",
+      "url": "https://x.com/chrmanning/status/1689768754472013824",
+      "createdAt": "2023-08-10T22:40:40.000Z",
+      "text": "I’m on Jeremy’s side! A paper—with the same issues of the inscrutability of GPT-4—claims “GPT-4 Can’t Reason” by examining “21 diverse reasoning problems”. Showing that a lets-think-step-by-step prompt is enough for it to solve the first 3 seems a worthy contribution for a tweet.",
+      "wordCount": 44
+    },
+    {
+      "id": "1689315094822567936",
+      "url": "https://x.com/chrmanning/status/1689315094822567936",
+      "createdAt": "2023-08-09T16:37:59.000Z",
+      "text": "Looking for something with less layers of extraction for LLM ReAct agents but with better support for exploration and evaluation? Maybe AutoChain from Yi Lu at @forethought_ai is what you need?",
+      "wordCount": 31
+    },
+    {
+      "id": "1687556697530028032",
+      "url": "https://x.com/chrmanning/status/1687556697530028032",
+      "createdAt": "2023-08-04T20:10:44.000Z",
+      "text": "Got a live demo today of DSPy, v2 of DSP (Demonstrate-Search-Predict)—new release dropping soon! Omar @lateinteraction has neat ideas on reworking the exploding area of Foundation Model Programs—with good abstractions & learning, rather than people hacking on pipelines & prompts",
+      "wordCount": 40
+    },
+    {
+      "id": "1686856856655085568",
+      "url": "https://x.com/chrmanning/status/1686856856655085568",
+      "createdAt": "2023-08-02T21:49:49.000Z",
+      "text": "Reflecting again on how knowing all the architecture & equations of the Transformer model is really of no use at all in convincingly explaining to someone how an LLM like ChatGPT can write paragraphs of lucid text in response to a prompt. I guess I’m saying “Beware reductionism”.",
+      "wordCount": 48
+    },
+    {
+      "id": "1686041117291315200",
+      "url": "https://x.com/chrmanning/status/1686041117291315200",
+      "createdAt": "2023-07-31T15:48:22.000Z",
+      "text": "In 2023, you might think that they should *all* be available!",
+      "wordCount": 11
+    },
+    {
+      "id": "1678839287851122693",
+      "url": "https://x.com/chrmanning/status/1678839287851122693",
+      "createdAt": "2023-07-11T18:50:52.000Z",
+      "text": "I cast no blame—I can’t keep up now either—but the 2 outstanding papers with “forgotten” in the title: • Linear Classifier: An Often-Forgotten Baseline • Forgotten Knowledge: Examining the Citational Amnesia are making me & @sidawxyz feel … forgotten: https:// aclanthology.org/P12-2018",
+      "wordCount": 41
+    },
+    {
+      "id": "1675157951659556864",
+      "url": "https://x.com/chrmanning/status/1675157951659556864",
+      "createdAt": "2023-07-01T15:02:33.000Z",
+      "text": "“You shouldn’t care about ‘existential risks’ in the sense used by TESCREALists. The concept is intimately bound up with a deeply problematic vision of utopia built on Western, Baconian-capitalistic values of exploitation and subjugation.” — @xriskology",
+      "wordCount": 36
+    },
+    {
+      "id": "1675157953903558656",
+      "url": "https://x.com/chrmanning/status/1675157953903558656",
+      "createdAt": "2023-07-01T15:02:33.000Z",
+      "text": "“I’ve become very critical of the whole ‘AGI existential risk’ debate and find it unfortunate that computer scientists like Hinton and Bengio have jumped on the ‘AI doomer’ bandwagon. We should be very skeptical of the public conversation surrounding AGI ‘existential risks’.”",
+      "wordCount": 42
+    },
+    {
+      "id": "1674693591069868033",
+      "url": "https://x.com/chrmanning/status/1674693591069868033",
+      "createdAt": "2023-06-30T08:17:21.000Z",
+      "text": "“[Stochastic Parrots] offers a disarmingly linear account of how language, communication, intention, & meaning work, one that sidesteps decades of scholarship around these same issues in literary theory. It would be red meat for a graduate critical-theory seminar.”— @mkirschenbaum",
+      "wordCount": 39
+    },
+    {
+      "id": "1674693592911060992",
+      "url": "https://x.com/chrmanning/status/1674693592911060992",
+      "createdAt": "2023-06-30T08:17:21.000Z",
+      "text": "Or, @mkirschenbaum ’s original (spicier) twitter thoughts: https:// x.com/mkirschenbaum/ status/1634953281343733760 …",
+      "wordCount": 11
+    },
+    {
+      "id": "1674693580806291456",
+      "url": "https://x.com/chrmanning/status/1674693580806291456",
+      "createdAt": "2023-06-30T08:17:18.000Z",
+      "text": "“The success of this ‘misdirected’ effort [i.e., building LLMs] has tended to support theories of meaning that explain it instead as a collective phenomenon—like Lévi-Strauss’s ‘universe made up of meanings’ or Foucault’s Archaeology of Knowledge (1969).”",
+      "wordCount": 36
+    },
+    {
+      "id": "1671976467264053268",
+      "url": "https://x.com/chrmanning/status/1671976467264053268",
+      "createdAt": "2023-06-22T20:20:28.000Z",
+      "text": "Never really understood RL well anyway? This is the RLHF you want to use!",
+      "wordCount": 14
+    },
+    {
+      "id": "1667181051297292289",
+      "url": "https://x.com/chrmanning/status/1667181051297292289",
+      "createdAt": "2023-06-09T14:45:12.000Z",
+      "text": "“Let’s stop writing letters on AI” @jacindaardern argues for a flexible multi-stakeholder approach to AI: “It is possible to bring companies, government officials, academics and civil society together not only to build consensus but also to make progress” https:// washingtonpost.com/opinions/2023/ 06/09/jacinda-ardern-ai-new-zealand-planning/ …",
+      "wordCount": 42
+    },
+    {
+      "id": "1664468562499764224",
+      "url": "https://x.com/chrmanning/status/1664468562499764224",
+      "createdAt": "2023-06-02T03:06:44.000Z",
+      "text": "Sensible words from a sensible bloke: “The Senate hearings, I felt a bit sad. AI has potential to optimize healthcare so we can implement a better, more equitable system, but none of that was actually discussed.”—⁦ @kchonyc ⁩ via ⁦ @sharongoldman ⁩",
+      "wordCount": 42
+    },
+    {
+      "id": "1663920867024273408",
+      "url": "https://x.com/chrmanning/status/1663920867024273408",
+      "createdAt": "2023-05-31T14:50:23.000Z",
+      "text": "But most AI people work in the quiet middle: We see huge benefits from people using AI in healthcare, education, …, and we see serious AI risks & harms but believe we can minimize them with careful engineering & regulation, just as happened with electricity, cars, planes, ….",
+      "wordCount": 48
+    },
+    {
+      "id": "1663920862439915524",
+      "url": "https://x.com/chrmanning/status/1663920862439915524",
+      "createdAt": "2023-05-31T14:50:22.000Z",
+      "text": "AI has 2 loud groups: “AI Safety” builds hype by evoking existential risks from AI to distract from the real harms, while developing AI at full speed; “AI Ethics” sees AI faults & dangers everywhere—building their brand of “criti-hype”, claiming the wise path is to not use AI.",
+      "wordCount": 48
+    },
+    {
+      "id": "1663919763691655172",
+      "url": "https://x.com/chrmanning/status/1663919763691655172",
+      "createdAt": "2023-05-31T14:46:00.000Z",
+      "text": "It is admirable to apply the precautionary principle, and build & deploy transformative AI technology with exceptional care. But how is that best achieved by distracting from very real AI risks by making a remote, fanciful risk of extinction from AI a global priority?",
+      "wordCount": 44
+    },
+    {
+      "id": "1661481034452729861",
+      "url": "https://x.com/chrmanning/status/1661481034452729861",
+      "createdAt": "2023-05-24T21:15:22.000Z",
+      "text": ". @StanfordHAI AI and Art workshop: @Ken_Goldberg argues that there is currently such a drumbeat of negativity around AI but maybe artists can show people the excitement and creative possibilities of our new AI tools",
+      "wordCount": 35
+    },
+    {
+      "id": "1661441161876361216",
+      "url": "https://x.com/chrmanning/status/1661441161876361216",
+      "createdAt": "2023-05-24T18:36:55.000Z",
+      "text": ". @StevenZapata (at @StanfordHAI ) makes an impassioned plea that the big generative AI systems are wrongly appropriating the work of artists—a highlight of the day: The development of photography didn’t involve taking photos of watercolors See also: https:// youtube.com/watch?v=tjSxFA GP9Ss …",
+      "wordCount": 42
+    },
+    {
+      "id": "1661437595166081026",
+      "url": "https://x.com/chrmanning/status/1661437595166081026",
+      "createdAt": "2023-05-24T18:22:45.000Z",
+      "text": "The underbelly of the Generative AI revolution – Rebecca Blake of the @gaguild argues for guardrails to protect and support artists",
+      "wordCount": 21
+    },
+    {
+      "id": "1661424180095766529",
+      "url": "https://x.com/chrmanning/status/1661424180095766529",
+      "createdAt": "2023-05-24T17:29:26.000Z",
+      "text": "Find out how a curiosity about human language understanding and seeing opportunity in the big changes of the digital revolution somehow led to me become a leading #NLProc researcher and Director of the @StanfordAILab",
+      "wordCount": 34
+    },
+    {
+      "id": "1661420258828390400",
+      "url": "https://x.com/chrmanning/status/1661420258828390400",
+      "createdAt": "2023-05-24T17:13:52.000Z",
+      "text": "The two sides of AI and Art—thoughts from @carolinesinders at @StanfordHAI : So much of art is having the ability to see what others cannot. I don’t think generative AI can replace rather than try to recreate it. Still, we need to deal with permission, credit, and compensation.",
+      "wordCount": 48
+    },
+    {
+      "id": "1661406504778596352",
+      "url": "https://x.com/chrmanning/status/1661406504778596352",
+      "createdAt": "2023-05-24T16:19:12.000Z",
+      "text": "“Everyone is a stakeholder in the future of artificial intelligence”",
+      "wordCount": 10
+    },
+    {
+      "id": "1661405092598394882",
+      "url": "https://x.com/chrmanning/status/1661405092598394882",
+      "createdAt": "2023-05-24T16:13:36.000Z",
+      "text": "The @StanfordHAI Spring Symposium on Creativity in the Age of AI gets underway – an exciting multi-perspective meeting of disciplines! https:// hai.stanford.edu/spring-symposi um-creativity-age-ai …",
+      "wordCount": 24
+    },
+    {
+      "id": "1660387247714361344",
+      "url": "https://x.com/chrmanning/status/1660387247714361344",
+      "createdAt": "2023-05-21T20:49:03.000Z",
+      "text": "“Everybody I talk to first goes to, ‘Oh, how can generative A.I. replace this thing that humans are doing?’ I wish people would think about what new things could be done now that were never done before. That is where most of the value is.”— @erikbryn https:// nytimes.com/2023/05/20/bus iness/dealbook/the-optimists-guide-to-artificial-intelligence-and-work.html …",
+      "wordCount": 50
+    },
+    {
+      "id": "1658265266852352000",
+      "url": "https://x.com/chrmanning/status/1658265266852352000",
+      "createdAt": "2023-05-16T00:17:03.000Z",
+      "text": "“The most important thing to remember about tech doomerism in general is that it’s a form of advertising, a species of hype.” The apocalypse isn’t coming. We must resist cynicism and fear about AI | Stephen Marche | The Guardian",
+      "wordCount": 40
+    },
+    {
+      "id": "1657761044197167104",
+      "url": "https://x.com/chrmanning/status/1657761044197167104",
+      "createdAt": "2023-05-14T14:53:27.000Z",
+      "text": "Happy to be at @CarnegieMellon today for the graduation of my oldest kid",
+      "wordCount": 13
+    },
+    {
+      "id": "1651232485219479562",
+      "url": "https://x.com/chrmanning/status/1651232485219479562",
+      "createdAt": "2023-04-26T14:31:17.000Z",
+      "text": ".⁦ @itspetergabriel ⁩ has a clearer view of AI than many! “When the future has shown itself and is flowing like a river after a storm, it seems wiser to swim with the current. AI is here. Let’s learn how we might evolve it to better serve everyone.” https:// petergabriel.com/news/ai-compet ition-statement/ …",
+      "wordCount": 52
+    },
+    {
+      "id": "1649096060378443776",
+      "url": "https://x.com/chrmanning/status/1649096060378443776",
+      "createdAt": "2023-04-20T17:01:54.000Z",
+      "text": "April 2023 AI vibes: Sparks of intelligence flying off GPT-4. A resurgence of open source LLMs. Lots of little Alpacas running around. Tech leaders practice the difficult feat of simultaneously saying we should slow down AI development while speeding up their AI development.",
+      "wordCount": 43
+    }
+  ]
+}

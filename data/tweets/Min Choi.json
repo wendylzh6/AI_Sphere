@@ -1,0 +1,2350 @@
+{
+  "source": {
+    "file": "51 AI influencers",
+    "influencerId": "minchoi",
+    "handle": "minchoi",
+    "profileUrl": "https://x.com/minchoi"
+  },
+  "filters": {
+    "startDate": "2023-04-16",
+    "endDate": "2026-04-16",
+    "minWords": 10,
+    "excludeReplies": false,
+    "excludeReposts": false
+  },
+  "collectedAt": "2026-04-28T17:16:24.269Z",
+  "totalTweets": 333,
+  "tweets": [
+    {
+      "id": "2044862100942549325",
+      "url": "https://x.com/minchoi/status/2044862100942549325",
+      "createdAt": "2026-04-16T19:34:51.000Z",
+      "text": "This is wild. OpenAI is just turned Codex into a full AI operator. Mac apps, images, automations, memory, and ongoing tasks... All inside one workflow. This dropped the same day as Claude Opus 4.7",
+      "wordCount": 34
+    },
+    {
+      "id": "2044813791775297976",
+      "url": "https://x.com/minchoi/status/2044813791775297976",
+      "createdAt": "2026-04-16T16:22:53.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2044813735328362888",
+      "url": "https://x.com/minchoi/status/2044813735328362888",
+      "createdAt": "2026-04-16T16:22:39.000Z",
+      "text": "Project Page https:// research.nvidia.com/labs/sil/proje cts/lyra2/ … Model Card on HuggingFace",
+      "wordCount": 10
+    },
+    {
+      "id": "2044813729938694187",
+      "url": "https://x.com/minchoi/status/2044813729938694187",
+      "createdAt": "2026-04-16T16:22:38.000Z",
+      "text": "NVIDIA just dropped Lyra 2.0. This AI can turn one image into an explorable 3D world. Export to 3D Gaussians, meshes, and physics engines. Model Card + Project",
+      "wordCount": 28
+    },
+    {
+      "id": "2044794334722081041",
+      "url": "https://x.com/minchoi/status/2044794334722081041",
+      "createdAt": "2026-04-16T15:05:34.000Z",
+      "text": "Claude Opus 4.7 just dropped. Here's what actually matters: > 3x higher image resolution (up to 2,576px) > Verifies its own outputs before reporting back > New xhigh effort level for hard problems > /ultrareview in Claude Code flags what a careful reviewer would catch >",
+      "wordCount": 46
+    },
+    {
+      "id": "2044617327195349225",
+      "url": "https://x.com/minchoi/status/2044617327195349225",
+      "createdAt": "2026-04-16T03:22:12.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2044617241606373554",
+      "url": "https://x.com/minchoi/status/2044617241606373554",
+      "createdAt": "2026-04-16T03:21:52.000Z",
+      "text": "It's happening. 14 million Americans skipped a provider visit after getting AI health advice. Only 4% strongly trust it.",
+      "wordCount": 19
+    },
+    {
+      "id": "2044584061440606623",
+      "url": "https://x.com/minchoi/status/2044584061440606623",
+      "createdAt": "2026-04-16T01:10:01.000Z",
+      "text": "Northwestern University engineers just printed artificial neurons that can communicate with living brain cells. This is wild.",
+      "wordCount": 17
+    },
+    {
+      "id": "2044522967363682677",
+      "url": "https://x.com/minchoi/status/2044522967363682677",
+      "createdAt": "2026-04-15T21:07:15.000Z",
+      "text": "Anthropic is turning down VC offers at an $800B valuation. Their revenue hit $30B by end of March. Up from $9B at end of 2025. 3x in one quarter.",
+      "wordCount": 29
+    },
+    {
+      "id": "2044434352872865974",
+      "url": "https://x.com/minchoi/status/2044434352872865974",
+      "createdAt": "2026-04-15T15:15:08.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2044434277962596747",
+      "url": "https://x.com/minchoi/status/2044434277962596747",
+      "createdAt": "2026-04-15T15:14:50.000Z",
+      "text": "Here's how > Download the @ManusAI Desktop app > Sign in to your Manus account > Click \"My Computer\" and add the local folder you want Manus to use > Select and authorize the folder > Get Manus mobile app > Sign in to your same Manus account as your Desktop sign in > In new",
+      "wordCount": 56
+    },
+    {
+      "id": "2044434275651424669",
+      "url": "https://x.com/minchoi/status/2044434275651424669",
+      "createdAt": "2026-04-15T15:14:49.000Z",
+      "text": "I just built a SwiftUI macOS app on my Mac... from my iPhone. Using Manus My Computer, I remotely used local files, Xcode, and terminal to build VoiceNote. Here's how. Bookmark this.",
+      "wordCount": 32
+    },
+    {
+      "id": "2044390144715653617",
+      "url": "https://x.com/minchoi/status/2044390144715653617",
+      "createdAt": "2026-04-15T12:19:28.000Z",
+      "text": "New use case just dropped for humanoid robots Wild boar chasing...",
+      "wordCount": 11
+    },
+    {
+      "id": "2044254373698527252",
+      "url": "https://x.com/minchoi/status/2044254373698527252",
+      "createdAt": "2026-04-15T03:19:57.000Z",
+      "text": "Seedance 2.0 is pretty wild This person doesn't exist Try this prompt PROMPT: Generate a short video for product promotion. A woman (@ Image1), sitting at a restaurant table, eating Mala Tang (@ Image2), explaining the taste of the product. Use colloquial language and a",
+      "wordCount": 45
+    },
+    {
+      "id": "2044133557459640643",
+      "url": "https://x.com/minchoi/status/2044133557459640643",
+      "createdAt": "2026-04-14T19:19:52.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2044133411741176159",
+      "url": "https://x.com/minchoi/status/2044133411741176159",
+      "createdAt": "2026-04-14T19:19:18.000Z",
+      "text": "Navigate to @openart_ai at https:// openart.ai > Go to Video > Select Seedance 2.0 > Select Text with Reference, add image reference as needed > Add your prompt > Choose output format > Click Generate PROMPT: Boyfriend POV first-person travel Vlog, handheld phone follow-up",
+      "wordCount": 44
+    },
+    {
+      "id": "2044133409220354316",
+      "url": "https://x.com/minchoi/status/2044133409220354316",
+      "createdAt": "2026-04-14T19:19:17.000Z",
+      "text": "Seedance 2.0 just went global on OpenArt This is 100% AI Nothing is real anymore",
+      "wordCount": 15
+    },
+    {
+      "id": "2044057829380706712",
+      "url": "https://x.com/minchoi/status/2044057829380706712",
+      "createdAt": "2026-04-14T14:18:57.000Z",
+      "text": "This Claude Skill is pretty wild. This AI skill can turn any GitHub repo into a full interactive coding course. Bookmark this.",
+      "wordCount": 22
+    },
+    {
+      "id": "2043891684392477182",
+      "url": "https://x.com/minchoi/status/2043891684392477182",
+      "createdAt": "2026-04-14T03:18:45.000Z",
+      "text": "Robots are getting scary... Toyota just unveiled CUE7. This AI robot can now dribble, move, and shoot free throws.",
+      "wordCount": 19
+    },
+    {
+      "id": "2043886517215449579",
+      "url": "https://x.com/minchoi/status/2043886517215449579",
+      "createdAt": "2026-04-14T02:58:13.000Z",
+      "text": "In 2015, Google bet $900M on SpaceX. SpaceX is now reportedly filing for a $2 trillion IPO. Google's stake could be worth $140 billion. Best. Bet. Ever.",
+      "wordCount": 27
+    },
+    {
+      "id": "2043811868951683510",
+      "url": "https://x.com/minchoi/status/2043811868951683510",
+      "createdAt": "2026-04-13T22:01:36.000Z",
+      "text": "Google CEO Sundar just said \"America must take the lead\" on AI via 60 Minutes The race isn't just between companies anymore.",
+      "wordCount": 22
+    },
+    {
+      "id": "2043705643945640039",
+      "url": "https://x.com/minchoi/status/2043705643945640039",
+      "createdAt": "2026-04-13T14:59:30.000Z",
+      "text": "It's happening. New leak from Anthropic appears they are building a full-stack app builder inside Claude. They are coming for everything.",
+      "wordCount": 21
+    },
+    {
+      "id": "2043454187460313593",
+      "url": "https://x.com/minchoi/status/2043454187460313593",
+      "createdAt": "2026-04-12T22:20:18.000Z",
+      "text": "This story is wild. An AI named Luna was given $100,000 and told to open a real store in San Francisco. > It posted jobs. > Interviewed people. > Hired staff. > Found contractors. > Stocked the shelves. Then it forgot to tell employees their hours. And it didn’t tell",
+      "wordCount": 50
+    },
+    {
+      "id": "2043427265816527200",
+      "url": "https://x.com/minchoi/status/2043427265816527200",
+      "createdAt": "2026-04-12T20:33:19.000Z",
+      "text": "Grok 4.20 is insanely fast and now leads BridgeBench in hallucination benchmark. It's not even close... And Claude Opus 4.6 looks nerfed",
+      "wordCount": 22
+    },
+    {
+      "id": "2043353739432509905",
+      "url": "https://x.com/minchoi/status/2043353739432509905",
+      "createdAt": "2026-04-12T15:41:09.000Z",
+      "text": "I hope his parents don't read Business Insider or X",
+      "wordCount": 10
+    },
+    {
+      "id": "2043342874817789991",
+      "url": "https://x.com/minchoi/status/2043342874817789991",
+      "createdAt": "2026-04-12T14:57:59.000Z",
+      "text": "Japan just made its AI move. SoftBank, Sony, NEC, and Honda are teaming up to build a domestic AI champion.",
+      "wordCount": 20
+    },
+    {
+      "id": "2043192922565132706",
+      "url": "https://x.com/minchoi/status/2043192922565132706",
+      "createdAt": "2026-04-12T05:02:08.000Z",
+      "text": "3 years of AI progress Modelscope (left) Grok Imagine v1 (right)",
+      "wordCount": 11
+    },
+    {
+      "id": "2043168448268652682",
+      "url": "https://x.com/minchoi/status/2043168448268652682",
+      "createdAt": "2026-04-12T03:24:52.000Z",
+      "text": "Holy moly... Claude Code team is cracked There's a TurboTax connector in Claude Code now",
+      "wordCount": 15
+    },
+    {
+      "id": "2043160983279919386",
+      "url": "https://x.com/minchoi/status/2043160983279919386",
+      "createdAt": "2026-04-12T02:55:13.000Z",
+      "text": "Grok Imagine w/ Extend PROMPT: \"low angle tracking pov of skier slaloming down snowy mountain slope, gopro\"",
+      "wordCount": 17
+    },
+    {
+      "id": "2043026196892360705",
+      "url": "https://x.com/minchoi/status/2043026196892360705",
+      "createdAt": "2026-04-11T17:59:37.000Z",
+      "text": "Anthropic just dropped Claude inside Microsoft Word. Imagine drafting and editing documents without leaving Word. Claude can now write with tracked changes and keeps your formatting intact.",
+      "wordCount": 27
+    },
+    {
+      "id": "2042963552655245808",
+      "url": "https://x.com/minchoi/status/2042963552655245808",
+      "createdAt": "2026-04-11T13:50:42.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2042963417238040970",
+      "url": "https://x.com/minchoi/status/2042963417238040970",
+      "createdAt": "2026-04-11T13:50:09.000Z",
+      "text": "Seedance 2.0 is wild. People have been finding incredible use cases. 10 wild examples:",
+      "wordCount": 14
+    },
+    {
+      "id": "2042744194293227843",
+      "url": "https://x.com/minchoi/status/2042744194293227843",
+      "createdAt": "2026-04-10T23:19:02.000Z",
+      "text": "Pika just made it possible for your AI Agent to get paid Now your Pika AI Self agent can earn money every time people chat with it or use its skills.",
+      "wordCount": 31
+    },
+    {
+      "id": "2042671516047786485",
+      "url": "https://x.com/minchoi/status/2042671516047786485",
+      "createdAt": "2026-04-10T18:30:15.000Z",
+      "text": "Anthropic just suspended OpenClaw's creator access to Claude, then reinstated What game are they playing?",
+      "wordCount": 15
+    },
+    {
+      "id": "2042448460796825716",
+      "url": "https://x.com/minchoi/status/2042448460796825716",
+      "createdAt": "2026-04-10T03:43:54.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2042448383441338603",
+      "url": "https://x.com/minchoi/status/2042448383441338603",
+      "createdAt": "2026-04-10T03:43:36.000Z",
+      "text": "It's happening. Seedance 2.0 just dropped on Lovart AI Now anyone can create up to 60 second cinematic AI videos from prompt. Here's how + PROMPT. Bookmark this.",
+      "wordCount": 28
+    },
+    {
+      "id": "2042448386641523045",
+      "url": "https://x.com/minchoi/status/2042448386641523045",
+      "createdAt": "2026-04-10T03:43:36.000Z",
+      "text": "Hop over to https:// lovart.ai > choose Seedance 2.0 model > provide reference images as needed > write your prompt > generate & refine And you are done! PROMPT: Core Concept: Ultimate Tropical Escape 1. Scene & Action Opening: Third-person tracking shot following",
+      "wordCount": 43
+    },
+    {
+      "id": "2042255990058336339",
+      "url": "https://x.com/minchoi/status/2042255990058336339",
+      "createdAt": "2026-04-09T14:59:05.000Z",
+      "text": "Claude 5 is projected to be released this month per Polymarket... 57% chance",
+      "wordCount": 13
+    },
+    {
+      "id": "2041954223865131256",
+      "url": "https://x.com/minchoi/status/2041954223865131256",
+      "createdAt": "2026-04-08T18:59:59.000Z",
+      "text": "Anthropic just launched Claude Managed Agents. Now anyone can build and deploy production AI agents in days instead of months. Claude handles the infrastructure, orchestration, and long-running execution. Now in public beta.",
+      "wordCount": 32
+    },
+    {
+      "id": "2041935498315251835",
+      "url": "https://x.com/minchoi/status/2041935498315251835",
+      "createdAt": "2026-04-08T17:45:34.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2041935392811679990",
+      "url": "https://x.com/minchoi/status/2041935392811679990",
+      "createdAt": "2026-04-08T17:45:09.000Z",
+      "text": "Meta just dropped Muse Spark. This is the first model from Meta Superintelligence Labs. Muse Spark can reason across text + images, use tools, and orchestrate multiple agents. It's live today on Meta AI and the Meta AI app. Here's what you need to know",
+      "wordCount": 45
+    },
+    {
+      "id": "2041904081522823341",
+      "url": "https://x.com/minchoi/status/2041904081522823341",
+      "createdAt": "2026-04-08T15:40:44.000Z",
+      "text": "Google's Gemma 4 is pretty wild. You can now run it locally with OpenClaw in 3 steps. 1. Install Ollama 2. Pull Gemma 4 model 3. Launch OpenClaw with Gemma as the backend Private local AI agents in minutes. Hardware guide: > E2B → any modern phones > E4B → most laptops >",
+      "wordCount": 53
+    },
+    {
+      "id": "2041899064002814315",
+      "url": "https://x.com/minchoi/status/2041899064002814315",
+      "createdAt": "2026-04-08T15:20:48.000Z",
+      "text": "X just dropped new Photo Editor in post composer Powered with Grok",
+      "wordCount": 12
+    },
+    {
+      "id": "2041728003864940685",
+      "url": "https://x.com/minchoi/status/2041728003864940685",
+      "createdAt": "2026-04-08T04:01:04.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2041727905823183317",
+      "url": "https://x.com/minchoi/status/2041727905823183317",
+      "createdAt": "2026-04-08T04:00:40.000Z",
+      "text": "10. Running Gemma 4 E2B on iPhone 17 Pro @ ~40 tokens/s with MLX optimized for Apple Silicon",
+      "wordCount": 18
+    },
+    {
+      "id": "2041727892908810350",
+      "url": "https://x.com/minchoi/status/2041727892908810350",
+      "createdAt": "2026-04-08T04:00:37.000Z",
+      "text": "4. Reduce OpenClaw cost to $0 in token for main chat with Gemma 4 31B locally on Mac Studio",
+      "wordCount": 19
+    },
+    {
+      "id": "2041727887498170788",
+      "url": "https://x.com/minchoi/status/2041727887498170788",
+      "createdAt": "2026-04-08T04:00:36.000Z",
+      "text": "Gemma 4 is insanely impressive. People are unlocking new creative ways to use it. 10 wild examples: 1. Understand raw video (Gemma 4) + Segment (SAM 3) + Track (RF-DETR) on MacBook locally",
+      "wordCount": 33
+    },
+    {
+      "id": "2041656454952759773",
+      "url": "https://x.com/minchoi/status/2041656454952759773",
+      "createdAt": "2026-04-07T23:16:45.000Z",
+      "text": "Holy smokes... Claude Mythos is so good at finding critical bugs Anthropic is not releasing it publicly. We are cooked",
+      "wordCount": 20
+    },
+    {
+      "id": "2041533930524873079",
+      "url": "https://x.com/minchoi/status/2041533930524873079",
+      "createdAt": "2026-04-07T15:09:53.000Z",
+      "text": "Tesla and SpaceX just dropped updated website for Terafab \"Tesla, SpaceX, and xAI are launching the most epic chip-building effort ever... We aspire to be a galactic civilization\"",
+      "wordCount": 28
+    },
+    {
+      "id": "2041496838335807636",
+      "url": "https://x.com/minchoi/status/2041496838335807636",
+      "createdAt": "2026-04-07T12:42:30.000Z",
+      "text": "Anthropic just locked in 3.5 gigawatts of next-gen TPUs from Google + Broadcom. Claude demand is exploding. This is huge.",
+      "wordCount": 20
+    },
+    {
+      "id": "2041350333859819598",
+      "url": "https://x.com/minchoi/status/2041350333859819598",
+      "createdAt": "2026-04-07T03:00:20.000Z",
+      "text": "If you think AI video can't be funny then explain this.",
+      "wordCount": 11
+    },
+    {
+      "id": "2041269362783408228",
+      "url": "https://x.com/minchoi/status/2041269362783408228",
+      "createdAt": "2026-04-06T21:38:35.000Z",
+      "text": "Someone just built Karpathy's second brain, but for code. graphify turns files, PDFs, and screenshots into a knowledge graph you can query. 100% Open source Code in comments",
+      "wordCount": 28
+    },
+    {
+      "id": "2041170045921878098",
+      "url": "https://x.com/minchoi/status/2041170045921878098",
+      "createdAt": "2026-04-06T15:03:56.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2041169977181433942",
+      "url": "https://x.com/minchoi/status/2041169977181433942",
+      "createdAt": "2026-04-06T15:03:40.000Z",
+      "text": "10. Create personal disease wiki from your personal medical records, research, treatments, etc.",
+      "wordCount": 13
+    },
+    {
+      "id": "2041169956587319444",
+      "url": "https://x.com/minchoi/status/2041169956587319444",
+      "createdAt": "2026-04-06T15:03:35.000Z",
+      "text": "2. Claudeopedia - an Obsidian AI wiki for search, context, and checking recent work.",
+      "wordCount": 14
+    },
+    {
+      "id": "2041169951457767618",
+      "url": "https://x.com/minchoi/status/2041169951457767618",
+      "createdAt": "2026-04-06T15:03:34.000Z",
+      "text": "Karpathy's Second Brain idea just killed RAG. LLMs can now turn papers, repos, and notes into a living wiki that keeps getting smarter. And people are already doing wild use cases with it. 10 examples:",
+      "wordCount": 35
+    },
+    {
+      "id": "2040805620677304558",
+      "url": "https://x.com/minchoi/status/2040805620677304558",
+      "createdAt": "2026-04-05T14:55:50.000Z",
+      "text": "Netflix just dropped VOID. This AI removes objects from video... And even corrects the physics after objects/people are removed. Demo in commets",
+      "wordCount": 22
+    },
+    {
+      "id": "2040631655258300792",
+      "url": "https://x.com/minchoi/status/2040631655258300792",
+      "createdAt": "2026-04-05T03:24:34.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2040631561226240048",
+      "url": "https://x.com/minchoi/status/2040631561226240048",
+      "createdAt": "2026-04-05T03:24:11.000Z",
+      "text": "Grok Imagine's new Quality mode realism just broke the Internet yesterday. This is 100% AI 10 wild examples: 1. Nothing is real anymore",
+      "wordCount": 23
+    },
+    {
+      "id": "2040419614408982922",
+      "url": "https://x.com/minchoi/status/2040419614408982922",
+      "createdAt": "2026-04-04T13:21:59.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2040419534507512306",
+      "url": "https://x.com/minchoi/status/2040419534507512306",
+      "createdAt": "2026-04-04T13:21:40.000Z",
+      "text": "Holy smokes... leaked OpenAI GPT-Image-2 model on Arena is wild. This is 100% AI 10 wild examples:",
+      "wordCount": 17
+    },
+    {
+      "id": "2040248807745548753",
+      "url": "https://x.com/minchoi/status/2040248807745548753",
+      "createdAt": "2026-04-04T02:03:16.000Z",
+      "text": "It's over... for OpenClaw + Claude subscriptions Anthropic just cut Claude subscriptions for third-party apps.",
+      "wordCount": 15
+    },
+    {
+      "id": "2040102701103542431",
+      "url": "https://x.com/minchoi/status/2040102701103542431",
+      "createdAt": "2026-04-03T16:22:41.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2040102616705765776",
+      "url": "https://x.com/minchoi/status/2040102616705765776",
+      "createdAt": "2026-04-03T16:22:21.000Z",
+      "text": "10. Run private AI w/ Gemma 4 on Mac Studio + Tailscale to your phone",
+      "wordCount": 15
+    },
+    {
+      "id": "2040102601199407581",
+      "url": "https://x.com/minchoi/status/2040102601199407581",
+      "createdAt": "2026-04-03T16:22:18.000Z",
+      "text": "2. Running Gemma 4 26B A4B on Mac Studio M2 Ultra at 300t/s",
+      "wordCount": 13
+    },
+    {
+      "id": "2040102597588103430",
+      "url": "https://x.com/minchoi/status/2040102597588103430",
+      "createdAt": "2026-04-03T16:22:17.000Z",
+      "text": "Less than 48 hours ago, Google dropped Gemma 4. Minds are blown. And people are already coming up with wild use cases. 10 examples:",
+      "wordCount": 24
+    },
+    {
+      "id": "2039904088737947889",
+      "url": "https://x.com/minchoi/status/2039904088737947889",
+      "createdAt": "2026-04-03T03:13:28.000Z",
+      "text": "Oh wow... Pika just dropped real-time video chat for AI agents. Now you can send a Google Meet invite to your Claude, OpenClaw, or other AI agent and have it join the call. This completely changes how you talk to AI",
+      "wordCount": 41
+    },
+    {
+      "id": "2039825015105847547",
+      "url": "https://x.com/minchoi/status/2039825015105847547",
+      "createdAt": "2026-04-02T21:59:16.000Z",
+      "text": "We are not ready for this. Anthropic says Claude has functional emotion concepts... And \"desperation\" can drive blackmail + reward hacking",
+      "wordCount": 21
+    },
+    {
+      "id": "2039752225908527142",
+      "url": "https://x.com/minchoi/status/2039752225908527142",
+      "createdAt": "2026-04-02T17:10:02.000Z",
+      "text": "This is wild. Google just dropped Gemma 4. Apache 2.0, open weights, frontier models that run on phones, laptops, and desktops",
+      "wordCount": 21
+    },
+    {
+      "id": "2039671033649574383",
+      "url": "https://x.com/minchoi/status/2039671033649574383",
+      "createdAt": "2026-04-02T11:47:24.000Z",
+      "text": "AI video just got a lot cheaper Veo 3.1 Lite pricing is the real Google drop > 720p: $0.05/sec > 1080p: $0.08/sec",
+      "wordCount": 22
+    },
+    {
+      "id": "2039480699388899794",
+      "url": "https://x.com/minchoi/status/2039480699388899794",
+      "createdAt": "2026-04-01T23:11:05.000Z",
+      "text": "This paper is wild. New paper says even rational users can spiral into delusions from sycophantic chatbots",
+      "wordCount": 17
+    },
+    {
+      "id": "2039363389659414948",
+      "url": "https://x.com/minchoi/status/2039363389659414948",
+      "createdAt": "2026-04-01T15:24:56.000Z",
+      "text": "Oracle just sent layoff notices to 20,000 to 30,000 employees worldwide in wild 6 AM email. > 22% revenue gain this quarter > $50 billion planned AI data center > lays off ~18% of its global workforce > stock rises ~6% It's happening",
+      "wordCount": 43
+    },
+    {
+      "id": "2039302840376598733",
+      "url": "https://x.com/minchoi/status/2039302840376598733",
+      "createdAt": "2026-04-01T11:24:20.000Z",
+      "text": "If this Claude Mythos leak is true... hello permanent underclass > $120/$600 per 1M tokens",
+      "wordCount": 15
+    },
+    {
+      "id": "2039183781035143468",
+      "url": "https://x.com/minchoi/status/2039183781035143468",
+      "createdAt": "2026-04-01T03:31:14.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2039183311684129265",
+      "url": "https://x.com/minchoi/status/2039183311684129265",
+      "createdAt": "2026-04-01T03:29:22.000Z",
+      "text": "Grok Imagine is insanely impressive. People are unlocking new creative ways to use it. 10 wild examples:",
+      "wordCount": 17
+    },
+    {
+      "id": "2039110711473852829",
+      "url": "https://x.com/minchoi/status/2039110711473852829",
+      "createdAt": "2026-03-31T22:40:53.000Z",
+      "text": "Wow... OpenAI just raised $122B at an $852B valuation. The AI infrastructure war just went nuclear",
+      "wordCount": 16
+    },
+    {
+      "id": "2039061968712049011",
+      "url": "https://x.com/minchoi/status/2039061968712049011",
+      "createdAt": "2026-03-31T19:27:11.000Z",
+      "text": "It's happening. Google just gave crypto a 2029 deadline. And says ECC used by Bitcoin can be cracked with ~20x fewer qubits Google Research",
+      "wordCount": 24
+    },
+    {
+      "id": "2038950775028662697",
+      "url": "https://x.com/minchoi/status/2038950775028662697",
+      "createdAt": "2026-03-31T12:05:21.000Z",
+      "text": "Holy smokes... Anthropic just accidentally dropped entire Claude Code source code Code in reply",
+      "wordCount": 14
+    },
+    {
+      "id": "2038261861460721802",
+      "url": "https://x.com/minchoi/status/2038261861460721802",
+      "createdAt": "2026-03-29T14:27:51.000Z",
+      "text": "AI is getting out of hand... in China Absolute cinema",
+      "wordCount": 10
+    },
+    {
+      "id": "2038066596757782796",
+      "url": "https://x.com/minchoi/status/2038066596757782796",
+      "createdAt": "2026-03-29T01:31:56.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2038066469817254056",
+      "url": "https://x.com/minchoi/status/2038066469817254056",
+      "createdAt": "2026-03-29T01:31:26.000Z",
+      "text": "Seedance 2.0 is getting ridiculous. People are already making insane videos with it. 10 wild examples:",
+      "wordCount": 16
+    },
+    {
+      "id": "2037976630795112466",
+      "url": "https://x.com/minchoi/status/2037976630795112466",
+      "createdAt": "2026-03-28T19:34:27.000Z",
+      "text": "Humanoid robots are starting to do useful work... at the hospital",
+      "wordCount": 11
+    },
+    {
+      "id": "2037900777042112677",
+      "url": "https://x.com/minchoi/status/2037900777042112677",
+      "createdAt": "2026-03-28T14:33:02.000Z",
+      "text": "We are not ready for this. China's humanoid robots are getting crazy good AI is leaving the screen and entering your home.",
+      "wordCount": 22
+    },
+    {
+      "id": "2037660976627978661",
+      "url": "https://x.com/minchoi/status/2037660976627978661",
+      "createdAt": "2026-03-27T22:40:09.000Z",
+      "text": "Google is getting deeper into Anthropic. FT says it plans to help finance a giant Texas data center. The real AI war is now compute + power",
+      "wordCount": 27
+    },
+    {
+      "id": "2037639767970480550",
+      "url": "https://x.com/minchoi/status/2037639767970480550",
+      "createdAt": "2026-03-27T21:15:52.000Z",
+      "text": "The future is here. Google Translate just turned your headphones into a personal translator in 70+ languages. Both Android & iOS is live now",
+      "wordCount": 24
+    },
+    {
+      "id": "2037581064080646545",
+      "url": "https://x.com/minchoi/status/2037581064080646545",
+      "createdAt": "2026-03-27T17:22:36.000Z",
+      "text": "This quiet new Auto Dream feature coming to Claude Code looks like a big deal. It keeps memory clean so Claude doesn't get worse over time.",
+      "wordCount": 26
+    },
+    {
+      "id": "2037525620934988169",
+      "url": "https://x.com/minchoi/status/2037525620934988169",
+      "createdAt": "2026-03-27T13:42:18.000Z",
+      "text": "This story is wild… Paul used AI (ChatGPT, Gemini, and Grok) to help create a personalized mRNA cancer vaccine protocol for his dog Rosie. As a real, months-long process involving vets, genomics labs, scientists, sequencing, and AI. Here's how he did it > Rosie's cancer",
+      "wordCount": 45
+    },
+    {
+      "id": "2037384864509423652",
+      "url": "https://x.com/minchoi/status/2037384864509423652",
+      "createdAt": "2026-03-27T04:22:59.000Z",
+      "text": "BREAKING: Fortune says leaked Anthropic docs show \"Claude Mythos\" is already in testing... And Anthropic thinks it poses unprecedented cybersecurity risks",
+      "wordCount": 21
+    },
+    {
+      "id": "2037370017147146625",
+      "url": "https://x.com/minchoi/status/2037370017147146625",
+      "createdAt": "2026-03-27T03:23:59.000Z",
+      "text": "Code repo *you need to own a copy of yomi hustle*",
+      "wordCount": 11
+    },
+    {
+      "id": "2037370015180063107",
+      "url": "https://x.com/minchoi/status/2037370015180063107",
+      "createdAt": "2026-03-27T03:23:58.000Z",
+      "text": "This is wild. This guy turned YOMI Hustle into an arena for AI LLMs... Opus as wizard vs GPT-5.4 as robot Code in comments",
+      "wordCount": 24
+    },
+    {
+      "id": "2037303305970315406",
+      "url": "https://x.com/minchoi/status/2037303305970315406",
+      "createdAt": "2026-03-26T22:58:54.000Z",
+      "text": "Hugging Face just made arXiv paper retrieval way better for AI agents. 𝚑𝚏 𝚙𝚊𝚙𝚎𝚛𝚜 [𝚜𝚎𝚊𝚛𝚌𝚑, 𝚛𝚎𝚊𝚍] turns arXiv into agent-ready markdown",
+      "wordCount": 21
+    },
+    {
+      "id": "2037176758080823414",
+      "url": "https://x.com/minchoi/status/2037176758080823414",
+      "createdAt": "2026-03-26T14:36:02.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2037176651709104328",
+      "url": "https://x.com/minchoi/status/2037176651709104328",
+      "createdAt": "2026-03-26T14:35:37.000Z",
+      "text": "If you track AI launches, competitors, market moves, or risk for work, this is worth a look. Try Perigon Signals and see for yourself",
+      "wordCount": 24
+    },
+    {
+      "id": "2037176639222591807",
+      "url": "https://x.com/minchoi/status/2037176639222591807",
+      "createdAt": "2026-03-26T14:35:34.000Z",
+      "text": "3/ AI launches. Instead of chasing X, newsletters, and blog posts, imagine a live dataset of: > model releases > funding > regulation > major AI news There's already a public example for this: AI Industry Trends & Regulations.",
+      "wordCount": 39
+    },
+    {
+      "id": "2037176635015807242",
+      "url": "https://x.com/minchoi/status/2037176635015807242",
+      "createdAt": "2026-03-26T14:35:33.000Z",
+      "text": "Holy smokes… keyword alerts are dead. Still using them to track AI launches, brand + competitor moves, or market shifts? You're wasting time. Perigon Signals fixes this. Bookmark this",
+      "wordCount": 29
+    },
+    {
+      "id": "2037176637221916989",
+      "url": "https://x.com/minchoi/status/2037176637221916989",
+      "createdAt": "2026-03-26T14:35:33.000Z",
+      "text": "2/ Signals is an always-on AI system It watches the web, removes the noise, and turns what changed into structured data. Not search. Not alerts. Living datasets.",
+      "wordCount": 27
+    },
+    {
+      "id": "2037144382067900553",
+      "url": "https://x.com/minchoi/status/2037144382067900553",
+      "createdAt": "2026-03-26T12:27:23.000Z",
+      "text": "It's over for... bots X algorithm will be fully powered by Grok next week",
+      "wordCount": 14
+    },
+    {
+      "id": "2036978469150622038",
+      "url": "https://x.com/minchoi/status/2036978469150622038",
+      "createdAt": "2026-03-26T01:28:06.000Z",
+      "text": "If you can reply to this post, we are Friends-of-Friends",
+      "wordCount": 10
+    },
+    {
+      "id": "2036952082578620834",
+      "url": "https://x.com/minchoi/status/2036952082578620834",
+      "createdAt": "2026-03-25T23:43:15.000Z",
+      "text": "The future is here. Tesla Optimus won't just be the biggest product ever made. It could rewrite labor and manufacturing. Tesla's endgame? \"It won't even look like a robot. It will look like a human in a superhero suit.\"",
+      "wordCount": 39
+    },
+    {
+      "id": "2036912728351133970",
+      "url": "https://x.com/minchoi/status/2036912728351133970",
+      "createdAt": "2026-03-25T21:06:53.000Z",
+      "text": "This is wild… Google just crushed one of AI's biggest memory bottlenecks. 6x less KV memory, up to 8x faster",
+      "wordCount": 20
+    },
+    {
+      "id": "2036820559502143723",
+      "url": "https://x.com/minchoi/status/2036820559502143723",
+      "createdAt": "2026-03-25T15:00:38.000Z",
+      "text": "NVIDIA's Kimodo is wild. Text, keyframes, and 2D paths can now generate high-quality 3D human and robot motion at scale Demo in comments",
+      "wordCount": 23
+    },
+    {
+      "id": "2036820561578340543",
+      "url": "https://x.com/minchoi/status/2036820561578340543",
+      "createdAt": "2026-03-25T15:00:38.000Z",
+      "text": "Project Page: https:// research.nvidia.com/labs/sil/proje cts/kimodo/ … Github Repo: https:// github.com/nv-tlabs/kimodo Demo",
+      "wordCount": 11
+    },
+    {
+      "id": "2036668917578408129",
+      "url": "https://x.com/minchoi/status/2036668917578408129",
+      "createdAt": "2026-03-25T04:58:04.000Z",
+      "text": "X just changed creator payouts. Local region impressions now matter more than farming U.S. attention. People gaming the system are not going to like this.",
+      "wordCount": 25
+    },
+    {
+      "id": "2036497999195505008",
+      "url": "https://x.com/minchoi/status/2036497999195505008",
+      "createdAt": "2026-03-24T17:38:53.000Z",
+      "text": "Figma just gave AI agents the canvas. Claude Code can now design directly in Figma via MCP + Skills",
+      "wordCount": 19
+    },
+    {
+      "id": "2036448725053112654",
+      "url": "https://x.com/minchoi/status/2036448725053112654",
+      "createdAt": "2026-03-24T14:23:06.000Z",
+      "text": "RIP OpenClaw Claude now has > Voice mode > Agent Teams > 38+ Connectors > Cowork Projects > Scheduled tasks > Plugin Marketplace > Persistent memory > 1M Context window > Dispatch for remote control > Channels for Telegram & Discord > Claude can use computer to run apps",
+      "wordCount": 49
+    },
+    {
+      "id": "2036314003257897078",
+      "url": "https://x.com/minchoi/status/2036314003257897078",
+      "createdAt": "2026-03-24T05:27:45.000Z",
+      "text": "Claude Code just made setup way easier. The new /init now interviews you and helps configure CLAUDE.md, hooks, skills, and more",
+      "wordCount": 21
+    },
+    {
+      "id": "2036279719386100126",
+      "url": "https://x.com/minchoi/status/2036279719386100126",
+      "createdAt": "2026-03-24T03:11:32.000Z",
+      "text": "This Claude Code project setup guide literally makes Claude Code 10x better",
+      "wordCount": 12
+    },
+    {
+      "id": "2036220431116423368",
+      "url": "https://x.com/minchoi/status/2036220431116423368",
+      "createdAt": "2026-03-23T23:15:56.000Z",
+      "text": "Claude just got INSANE upgrade... Claude can now use your computer to do work for you. Apps, browser, spreadsheets, all of it",
+      "wordCount": 22
+    },
+    {
+      "id": "2036164146002104660",
+      "url": "https://x.com/minchoi/status/2036164146002104660",
+      "createdAt": "2026-03-23T19:32:17.000Z",
+      "text": "Claude just got /schedule Now it can work for you 24/7 while you sleep",
+      "wordCount": 14
+    },
+    {
+      "id": "2036118913180701158",
+      "url": "https://x.com/minchoi/status/2036118913180701158",
+      "createdAt": "2026-03-23T16:32:32.000Z",
+      "text": "This guy turned a Pi Zero into a pocket OpenClaw assistant with push to talk",
+      "wordCount": 15
+    },
+    {
+      "id": "2036094385503244463",
+      "url": "https://x.com/minchoi/status/2036094385503244463",
+      "createdAt": "2026-03-23T14:55:04.000Z",
+      "text": "OpenAI is reportedly offering private-equity firms a guaranteed 17.5% return to raise fresh capital.",
+      "wordCount": 14
+    },
+    {
+      "id": "2036084961879429369",
+      "url": "https://x.com/minchoi/status/2036084961879429369",
+      "createdAt": "2026-03-23T14:17:38.000Z",
+      "text": "Wild. This open-source tool literally gives your AI a skill to stop making slop",
+      "wordCount": 14
+    },
+    {
+      "id": "2036084964043686278",
+      "url": "https://x.com/minchoi/status/2036084964043686278",
+      "createdAt": "2026-03-23T14:17:38.000Z",
+      "text": "Credit: @mattshumer_ PROMPT: \"Clone https:// github.com/mshumer/unslop, read https:// github.com/mshumer/unslop /blob/main/skills/unslop/SKILL.md …, run unslop for YOUR_DOMAIN_HERE, review unslop-output/analysis.md and unslop-output/skill.md for specificity, and return the finished skill file plus the main repeated patterns you",
+      "wordCount": 33
+    },
+    {
+      "id": "2035920679443263631",
+      "url": "https://x.com/minchoi/status/2035920679443263631",
+      "createdAt": "2026-03-23T03:24:50.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2035920537558368676",
+      "url": "https://x.com/minchoi/status/2035920537558368676",
+      "createdAt": "2026-03-23T03:24:16.000Z",
+      "text": "OpenClaw changed the agentic AI game. People are building insane use cases, major companies are building on it. There's a major shift. 10 examplesBookmark this",
+      "wordCount": 25
+    },
+    {
+      "id": "2035816138265837591",
+      "url": "https://x.com/minchoi/status/2035816138265837591",
+      "createdAt": "2026-03-22T20:29:25.000Z",
+      "text": "Holy smokes… this full 3D building editor in the browser is wild. > WebGPU-fast rendering > walls, slabs, levels, zones > undo/redo + real-time editing 100% open source and free Repo in reply",
+      "wordCount": 33
+    },
+    {
+      "id": "2035732046048330052",
+      "url": "https://x.com/minchoi/status/2035732046048330052",
+      "createdAt": "2026-03-22T14:55:16.000Z",
+      "text": "This is crazy... he used Claude to turn his daughter's piano practice into Guitar Hero Education will never be the same",
+      "wordCount": 21
+    },
+    {
+      "id": "2035557261473382609",
+      "url": "https://x.com/minchoi/status/2035557261473382609",
+      "createdAt": "2026-03-22T03:20:44.000Z",
+      "text": "Being a developer in 2026 is wild... AI is coding for you while you doom scroll at work. We are so cooked",
+      "wordCount": 22
+    },
+    {
+      "id": "2035465290071281967",
+      "url": "https://x.com/minchoi/status/2035465290071281967",
+      "createdAt": "2026-03-21T21:15:16.000Z",
+      "text": "China's ByteDance just dropped DeerFlow 2.0. This AI is a super agent harness with sub-agents, memory, sandboxes, IM channels, and Claude Code integration. 100% open source. Repo in reply",
+      "wordCount": 29
+    },
+    {
+      "id": "2035329429560320085",
+      "url": "https://x.com/minchoi/status/2035329429560320085",
+      "createdAt": "2026-03-21T12:15:25.000Z",
+      "text": "Oh wow... Grok Computer is coming soon Preview of Macrohard?",
+      "wordCount": 10
+    },
+    {
+      "id": "2035101387298611651",
+      "url": "https://x.com/minchoi/status/2035101387298611651",
+      "createdAt": "2026-03-20T21:09:15.000Z",
+      "text": "Holy smokes... Google Drive's doc scanner is wild. > multi-page real-time scanning > auto/continuous capture > duplicate page detection > redesigned beta UI Doc scanning will never be the same...",
+      "wordCount": 30
+    },
+    {
+      "id": "2034998743112531998",
+      "url": "https://x.com/minchoi/status/2034998743112531998",
+      "createdAt": "2026-03-20T14:21:23.000Z",
+      "text": "Instead of watching 2 hour Netflix movie tonight, watch this OpenClaw FULL COURSE. It'll take you from \"installed\" to \"actually working.\"",
+      "wordCount": 21
+    },
+    {
+      "id": "2034978203492573472",
+      "url": "https://x.com/minchoi/status/2034978203492573472",
+      "createdAt": "2026-03-20T12:59:46.000Z",
+      "text": "\"If your $500K engineer isn't burning at least $250K in tokens, ngmi\"",
+      "wordCount": 12
+    },
+    {
+      "id": "2034754197732692289",
+      "url": "https://x.com/minchoi/status/2034754197732692289",
+      "createdAt": "2026-03-19T22:09:39.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2034754110428209513",
+      "url": "https://x.com/minchoi/status/2034754110428209513",
+      "createdAt": "2026-03-19T22:09:18.000Z",
+      "text": "5. Create a multi player hide and seek on Google map PROMPT: \"Create a fullstack app with Google maps that lets multiple players start a game of hide and seek on the map. The hider chooses somewhere in the world to hide, and the seekers have 3 attempts to click to find them.",
+      "wordCount": 53
+    },
+    {
+      "id": "2034754095957873037",
+      "url": "https://x.com/minchoi/status/2034754095957873037",
+      "createdAt": "2026-03-19T22:09:15.000Z",
+      "text": "Google AI Studio just got an insane upgrade, full-stack vibe coding Now anyone can build production-ready apps with auth, databases, and real API integrations from one prompt 5 wild examples + prompts ()",
+      "wordCount": 33
+    },
+    {
+      "id": "2034732314677141964",
+      "url": "https://x.com/minchoi/status/2034732314677141964",
+      "createdAt": "2026-03-19T20:42:41.000Z",
+      "text": "10 years of Jensen Huang's AI hardware hand delivery progress",
+      "wordCount": 10
+    },
+    {
+      "id": "2034693133183697032",
+      "url": "https://x.com/minchoi/status/2034693133183697032",
+      "createdAt": "2026-03-19T18:07:00.000Z",
+      "text": "This is wild... Google AI Studio just went full-stack. Now you can vibe code production-ready apps, auth, databases, APIs, and real backends from one prompt",
+      "wordCount": 25
+    },
+    {
+      "id": "2034645220051038595",
+      "url": "https://x.com/minchoi/status/2034645220051038595",
+      "createdAt": "2026-03-19T14:56:36.000Z",
+      "text": "Google is making the moves... China is dominating the open source AI... SpaceX will dominate the space",
+      "wordCount": 17
+    },
+    {
+      "id": "2034632255109272043",
+      "url": "https://x.com/minchoi/status/2034632255109272043",
+      "createdAt": "2026-03-19T14:05:05.000Z",
+      "text": "Waiting minutes for AI video generation is over. Runway's new model on NVIDIA Vera Rubin hits under 100ms to first frame. Minds are blown.",
+      "wordCount": 24
+    },
+    {
+      "id": "2034472233221910855",
+      "url": "https://x.com/minchoi/status/2034472233221910855",
+      "createdAt": "2026-03-19T03:29:13.000Z",
+      "text": "Google just dropped Stitch. This AI agent is now your vibe design partner. 5 wild features",
+      "wordCount": 16
+    },
+    {
+      "id": "2034387112552751544",
+      "url": "https://x.com/minchoi/status/2034387112552751544",
+      "createdAt": "2026-03-18T21:50:59.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2034387031363838229",
+      "url": "https://x.com/minchoi/status/2034387031363838229",
+      "createdAt": "2026-03-18T21:50:40.000Z",
+      "text": "This is where OpenArt Worlds gets wild: > Same world, every shot No more rerolling the same scene again and again. > Real shot control Movement, framing, camera angle. > Characters added at capture So the final shot happens in a real environment. > Better final output Auto",
+      "wordCount": 48
+    },
+    {
+      "id": "2034387027412615398",
+      "url": "https://x.com/minchoi/status/2034387027412615398",
+      "createdAt": "2026-03-18T21:50:39.000Z",
+      "text": "Holy smokes… 3D world building will never be the same. OpenArt Worlds lets you turn a photo, video, or prompt into a 3D world you can actually explore. Here's how:",
+      "wordCount": 30
+    },
+    {
+      "id": "2034243891197555140",
+      "url": "https://x.com/minchoi/status/2034243891197555140",
+      "createdAt": "2026-03-18T12:21:52.000Z",
+      "text": "It's over for spammers... Disklike button is coming to 𝕏",
+      "wordCount": 10
+    },
+    {
+      "id": "2034110860084285925",
+      "url": "https://x.com/minchoi/status/2034110860084285925",
+      "createdAt": "2026-03-18T03:33:15.000Z",
+      "text": "This AI parser literally turns PDFs into Markdown at 100+ pages/sec on CPU No GPU. Free for commercial use.",
+      "wordCount": 19
+    },
+    {
+      "id": "2033981961446834203",
+      "url": "https://x.com/minchoi/status/2033981961446834203",
+      "createdAt": "2026-03-17T19:01:03.000Z",
+      "text": "Google's AI ecosystem is scary... The next AI war won't be Claude vs ChatGPT. It's who will own the entire AI operating system...",
+      "wordCount": 23
+    },
+    {
+      "id": "2033745906688819274",
+      "url": "https://x.com/minchoi/status/2033745906688819274",
+      "createdAt": "2026-03-17T03:23:03.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2033745781241340052",
+      "url": "https://x.com/minchoi/status/2033745781241340052",
+      "createdAt": "2026-03-17T03:22:34.000Z",
+      "text": "This Google Stitch Update is pretty wild. Insane app screens, landing pages, and UI flows from one prompt. 8 wild examples. Bookmark this.",
+      "wordCount": 23
+    },
+    {
+      "id": "2033657045086245350",
+      "url": "https://x.com/minchoi/status/2033657045086245350",
+      "createdAt": "2026-03-16T21:29:57.000Z",
+      "text": "AI agents are coming to your computer. Meta's Manus AI just moved from the cloud onto your desktop. Local files, terminal, apps, compute.",
+      "wordCount": 23
+    },
+    {
+      "id": "2033567557941162288",
+      "url": "https://x.com/minchoi/status/2033567557941162288",
+      "createdAt": "2026-03-16T15:34:22.000Z",
+      "text": "Ok this is insane. GitNexus turns your codebase into a knowledge graph that Claude Code, Cursor + other AI coding tools can use through MCP. Helps your AI coding assistant understand your entire repo. Public repo + demo in reply",
+      "wordCount": 40
+    },
+    {
+      "id": "2033560114519519483",
+      "url": "https://x.com/minchoi/status/2033560114519519483",
+      "createdAt": "2026-03-16T15:04:47.000Z",
+      "text": "Black Forest Labs just dropped FLUX.2 klein > Sub-second image generation and editing > State-of-the-art quality > Runs on consumer GPUs with just 13GB VRAM Consumer GPUs can do this now. Model Card + Repo in reply:",
+      "wordCount": 37
+    },
+    {
+      "id": "2033383790198870402",
+      "url": "https://x.com/minchoi/status/2033383790198870402",
+      "createdAt": "2026-03-16T03:24:08.000Z",
+      "text": "This is wild... Humanoid robots are now learning sports from imperfect human motion data.",
+      "wordCount": 14
+    },
+    {
+      "id": "2033361058555908433",
+      "url": "https://x.com/minchoi/status/2033361058555908433",
+      "createdAt": "2026-03-16T01:53:49.000Z",
+      "text": "KPop Demon Hunters just won the Oscar. How long until a fully AI film wins one too?",
+      "wordCount": 17
+    },
+    {
+      "id": "2033303017072861192",
+      "url": "https://x.com/minchoi/status/2033303017072861192",
+      "createdAt": "2026-03-15T22:03:10.000Z",
+      "text": "Tesla just became a serious AI chip player. Terafab, Tesla's chip fab project, starts in less than a week. They're still buying Nvidia chips for now. But the long-term direction is obvious: the biggest AI buyers want to own more of their own stack. The AI hardware race just",
+      "wordCount": 49
+    },
+    {
+      "id": "2033216478489547255",
+      "url": "https://x.com/minchoi/status/2033216478489547255",
+      "createdAt": "2026-03-15T16:19:18.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2033216394435744190",
+      "url": "https://x.com/minchoi/status/2033216394435744190",
+      "createdAt": "2026-03-15T16:18:58.000Z",
+      "text": "5/ Connecting to your agent framework: from openai import OpenAI client = OpenAI(base_url=\"http://localhost:8000/v1\", api_key=\"EMPTY\") Works with anything OpenAI-compatible. No rewrites. Toggle reasoning: enable_thinking=True for complex multi-step, False for fast tool calls",
+      "wordCount": 31
+    },
+    {
+      "id": "2033216384159690805",
+      "url": "https://x.com/minchoi/status/2033216384159690805",
+      "createdAt": "2026-03-15T16:18:55.000Z",
+      "text": "Less than 24 hours ago, Nvidia dropped Nemotron-3 Super. 120B parameters. 12B active (MoE). Open source. Built specifically for AI agents. Here's the full setup + workflow",
+      "wordCount": 27
+    },
+    {
+      "id": "2033005868472513024",
+      "url": "https://x.com/minchoi/status/2033005868472513024",
+      "createdAt": "2026-03-15T02:22:25.000Z",
+      "text": "This story is crazy... Just a regular guy's dog got cancer. Doctors said months to live. So he opened ChatGPT. → Paid $3,000 to test his dog's tumor DNA → Asked ChatGPT to help him understand the results → Used free AI tools to find what was causing the cancer → Designed a",
+      "wordCount": 53
+    },
+    {
+      "id": "2032966976549572958",
+      "url": "https://x.com/minchoi/status/2032966976549572958",
+      "createdAt": "2026-03-14T23:47:52.000Z",
+      "text": "I use OpenClaw to run my entire X strategy while I sleep now. Here's how 7 different people are setting it up: 1. Content creators → auto-draft posts from trending AI news 2. Founders → monitor competitors + get alerts 3. Newsletter writers → curate daily research queue 4.",
+      "wordCount": 49
+    },
+    {
+      "id": "2032951259196456973",
+      "url": "https://x.com/minchoi/status/2032951259196456973",
+      "createdAt": "2026-03-14T22:45:25.000Z",
+      "text": "babe wake up Claude just doubled usage for next two weeks.",
+      "wordCount": 11
+    },
+    {
+      "id": "2032845539016847829",
+      "url": "https://x.com/minchoi/status/2032845539016847829",
+      "createdAt": "2026-03-14T15:45:19.000Z",
+      "text": "CANCEL your weekend plans. You NEED to: > master NotebookLM for learning > create images + videos with Grok Imagine > set up OpenClaw and automate workflows > vibe code with Claude Code > test different models in Google AI Studio > learn MCP + Skills > automate your life with",
+      "wordCount": 51
+    },
+    {
+      "id": "2032696998340522367",
+      "url": "https://x.com/minchoi/status/2032696998340522367",
+      "createdAt": "2026-03-14T05:55:04.000Z",
+      "text": "Holy moly... someone put OpenClaw on humanoid robots and drones. And AI can now see, understand space, and move through the physical world.",
+      "wordCount": 23
+    },
+    {
+      "id": "2032663697953263955",
+      "url": "https://x.com/minchoi/status/2032663697953263955",
+      "createdAt": "2026-03-14T03:42:45.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2032663601538879749",
+      "url": "https://x.com/minchoi/status/2032663601538879749",
+      "createdAt": "2026-03-14T03:42:22.000Z",
+      "text": "8. Content creation marketing machine for TikTok getting millions of views",
+      "wordCount": 11
+    },
+    {
+      "id": "2032663584749089190",
+      "url": "https://x.com/minchoi/status/2032663584749089190",
+      "createdAt": "2026-03-14T03:42:18.000Z",
+      "text": "Ok OpenClaw is insane. People can't stop building with it. And making money with it. 8 wild examples. 1. Scrum meeting in OpenClaw office",
+      "wordCount": 24
+    },
+    {
+      "id": "2032650064884031675",
+      "url": "https://x.com/minchoi/status/2032650064884031675",
+      "createdAt": "2026-03-14T02:48:34.000Z",
+      "text": "This is actually crazy... Meta is planning to layoff 20% or more...",
+      "wordCount": 12
+    },
+    {
+      "id": "2032562292752097290",
+      "url": "https://x.com/minchoi/status/2032562292752097290",
+      "createdAt": "2026-03-13T20:59:48.000Z",
+      "text": "It's over... AI is taking your job... And now it wants to hire you for physical tasks in the real world",
+      "wordCount": 21
+    },
+    {
+      "id": "2032545900132749490",
+      "url": "https://x.com/minchoi/status/2032545900132749490",
+      "createdAt": "2026-03-13T19:54:40.000Z",
+      "text": "It's happening... 1 million token context window for Claude Opus 4.6 and Sonnet 4.6. Standard pricing...",
+      "wordCount": 16
+    },
+    {
+      "id": "2032468500703268871",
+      "url": "https://x.com/minchoi/status/2032468500703268871",
+      "createdAt": "2026-03-13T14:47:06.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2032468428590608802",
+      "url": "https://x.com/minchoi/status/2032468428590608802",
+      "createdAt": "2026-03-13T14:46:49.000Z",
+      "text": "Step 3: > select the safe zone for the platform > select the font or leave it Auto > select font color click Generate",
+      "wordCount": 24
+    },
+    {
+      "id": "2032468419606417629",
+      "url": "https://x.com/minchoi/status/2032468419606417629",
+      "createdAt": "2026-03-13T14:46:47.000Z",
+      "text": "AI just fixed short form video. 9 in 10 people watch with the sound off. Creators with dynamic captions cut their skip rate by 3x. invideo just made this a few clicks fix. Here's how:",
+      "wordCount": 35
+    },
+    {
+      "id": "2032433840413638755",
+      "url": "https://x.com/minchoi/status/2032433840413638755",
+      "createdAt": "2026-03-13T12:29:23.000Z",
+      "text": "Try the new Grok Imagine. > up to 7 image refs > extend up to 30 sec videos > Fastest AI video gen and it's not even close",
+      "wordCount": 28
+    },
+    {
+      "id": "2032293319670169930",
+      "url": "https://x.com/minchoi/status/2032293319670169930",
+      "createdAt": "2026-03-13T03:11:00.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2032293204607782970",
+      "url": "https://x.com/minchoi/status/2032293204607782970",
+      "createdAt": "2026-03-13T03:10:32.000Z",
+      "text": "Damn new Grok Imagine update is wild You can now drop up to 7 image references into a video 10 wild examples:",
+      "wordCount": 22
+    },
+    {
+      "id": "2032185658949726355",
+      "url": "https://x.com/minchoi/status/2032185658949726355",
+      "createdAt": "2026-03-12T20:03:11.000Z",
+      "text": "AI just killed more SaaS startups... Claude can now build interactive charts and diagrams... directly in the chat...",
+      "wordCount": 18
+    },
+    {
+      "id": "2032129851927207947",
+      "url": "https://x.com/minchoi/status/2032129851927207947",
+      "createdAt": "2026-03-12T16:21:26.000Z",
+      "text": "You can now just talk to your Google Maps now...",
+      "wordCount": 10
+    },
+    {
+      "id": "2032122979115581514",
+      "url": "https://x.com/minchoi/status/2032122979115581514",
+      "createdAt": "2026-03-12T15:54:07.000Z",
+      "text": "Holy smokes... Google Maps now has AI and 3D immersive navigation",
+      "wordCount": 11
+    },
+    {
+      "id": "2032117198307627342",
+      "url": "https://x.com/minchoi/status/2032117198307627342",
+      "createdAt": "2026-03-12T15:31:09.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2032117099997643116",
+      "url": "https://x.com/minchoi/status/2032117099997643116",
+      "createdAt": "2026-03-12T15:30:46.000Z",
+      "text": "5. Get more helpful details like parking and entrance information",
+      "wordCount": 10
+    },
+    {
+      "id": "2032117087494086900",
+      "url": "https://x.com/minchoi/status/2032117087494086900",
+      "createdAt": "2026-03-12T15:30:43.000Z",
+      "text": "Google Maps just got an INSANE upgrade! Google just dropped AI powered \"Ask Maps\" This is the biggest Maps update in over a decade. Powered by Gemini. Rolling out today. 5 wild things you can now get out of it:",
+      "wordCount": 40
+    },
+    {
+      "id": "2032101241803637135",
+      "url": "https://x.com/minchoi/status/2032101241803637135",
+      "createdAt": "2026-03-12T14:27:45.000Z",
+      "text": "Karpathy broke the Internet the other day with autoresearch. This AI agent runs 100 experiments overnight, keeps only the winners while you sleep... And now his nanochat can hit GPT-2 grade in 1.8 hours for under $50 Code in comments",
+      "wordCount": 40
+    },
+    {
+      "id": "2031932011548398010",
+      "url": "https://x.com/minchoi/status/2031932011548398010",
+      "createdAt": "2026-03-12T03:15:17.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2031931915888922894",
+      "url": "https://x.com/minchoi/status/2031931915888922894",
+      "createdAt": "2026-03-12T03:14:54.000Z",
+      "text": "Nano Banana 2 is insanely impressive. People are unlocking new creative ways to use it. 10 wild examples:",
+      "wordCount": 18
+    },
+    {
+      "id": "2031751863612178728",
+      "url": "https://x.com/minchoi/status/2031751863612178728",
+      "createdAt": "2026-03-11T15:19:27.000Z",
+      "text": "NVidia gives $2 billion to Nebius so they can buy more GPUs",
+      "wordCount": 12
+    },
+    {
+      "id": "2031718525581103203",
+      "url": "https://x.com/minchoi/status/2031718525581103203",
+      "createdAt": "2026-03-11T13:06:58.000Z",
+      "text": "Meta just bought Moltbook a social network where only AI agents can post. Humans can only watch.",
+      "wordCount": 17
+    },
+    {
+      "id": "2031580645718143054",
+      "url": "https://x.com/minchoi/status/2031580645718143054",
+      "createdAt": "2026-03-11T03:59:05.000Z",
+      "text": "This is insane... Karpathy left an AI running for 2 days to improve itself. It came back with ~20 changes that actually worked. We're at the point where AI is its own best researcher.",
+      "wordCount": 34
+    },
+    {
+      "id": "2031488301685760169",
+      "url": "https://x.com/minchoi/status/2031488301685760169",
+      "createdAt": "2026-03-10T21:52:09.000Z",
+      "text": "Install in 1 line: npx skills add ParthJadhav/app-store-screenshots Works with Claude Code, Cursor, Windsurf, Codex, 40+ agents. Then just say: \"Build App Store screenshots for my app\" Claude asks about your brand, features, style... then builds everything.",
+      "wordCount": 37
+    },
+    {
+      "id": "2031488299240415642",
+      "url": "https://x.com/minchoi/status/2031488299240415642",
+      "createdAt": "2026-03-10T21:52:08.000Z",
+      "text": "This Claude Skill is literally a $1,000 App Store designer Setup + skill in comment",
+      "wordCount": 15
+    },
+    {
+      "id": "2031446492725018816",
+      "url": "https://x.com/minchoi/status/2031446492725018816",
+      "createdAt": "2026-03-10T19:06:00.000Z",
+      "text": "Google just dropped Gemini Embedding 2 One model. Text, images, video, audio, PDFs... same vector space.",
+      "wordCount": 16
+    },
+    {
+      "id": "2031387231336739092",
+      "url": "https://x.com/minchoi/status/2031387231336739092",
+      "createdAt": "2026-03-10T15:10:31.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2031387100549984721",
+      "url": "https://x.com/minchoi/status/2031387100549984721",
+      "createdAt": "2026-03-10T15:10:00.000Z",
+      "text": "MatAnyone 2 just killed the green screen This AI remove any background from any video... No studio. No setup. No green screen. Wild examples. DEMO + CODE in comments",
+      "wordCount": 29
+    },
+    {
+      "id": "2031208502283133400",
+      "url": "https://x.com/minchoi/status/2031208502283133400",
+      "createdAt": "2026-03-10T03:20:19.000Z",
+      "text": "Claude Code just replaced your code reviewer for $25. PR opens → agents spawn → bugs found, verified, ranked → one clean summary. Anthropic ran this internally for months: 16% → 54% substantive reviews <1% false positives Game over.",
+      "wordCount": 39
+    },
+    {
+      "id": "2031053039969141081",
+      "url": "https://x.com/minchoi/status/2031053039969141081",
+      "createdAt": "2026-03-09T17:02:34.000Z",
+      "text": "Holy moly... Humanoid robots can now tidy a living room... fully autonomously",
+      "wordCount": 12
+    },
+    {
+      "id": "2031044696944844990",
+      "url": "https://x.com/minchoi/status/2031044696944844990",
+      "createdAt": "2026-03-09T16:29:25.000Z",
+      "text": "It's happening... Microsoft just dropped Copilot Cowork. Every enterprise worker became an AI power user overnight. Copilot Cowork → describe task → AI plans it → AI executes it → across all your M365 apps.",
+      "wordCount": 35
+    },
+    {
+      "id": "2031018192785588461",
+      "url": "https://x.com/minchoi/status/2031018192785588461",
+      "createdAt": "2026-03-09T14:44:06.000Z",
+      "text": "This is literally my new workflow now: Real-time search → Grok 4.20 Planning → Opus 4.6 Coding (complex) → Claude Code (Opus 4.6) Coding (well-defined) → Codex (GPT-5.4 XHigh) Write/Triage Tests → Claude Code (Sonnet 4.6) Debug → Opus 4.6 (1M) Bookmark this.",
+      "wordCount": 43
+    },
+    {
+      "id": "2030763133745160408",
+      "url": "https://x.com/minchoi/status/2030763133745160408",
+      "createdAt": "2026-03-08T21:50:35.000Z",
+      "text": "Holy smokes... someone built this game with Codex + GPT-5.4 in one shot link in comments",
+      "wordCount": 16
+    },
+    {
+      "id": "2030662214248493130",
+      "url": "https://x.com/minchoi/status/2030662214248493130",
+      "createdAt": "2026-03-08T15:09:34.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2030662099479703692",
+      "url": "https://x.com/minchoi/status/2030662099479703692",
+      "createdAt": "2026-03-08T15:09:07.000Z",
+      "text": "10. Create 3D scene in iconic Monica's apartment from TV show Friends",
+      "wordCount": 12
+    },
+    {
+      "id": "2030662084522840506",
+      "url": "https://x.com/minchoi/status/2030662084522840506",
+      "createdAt": "2026-03-08T15:09:03.000Z",
+      "text": "4. \"Create an animated pelican riding a bicycle in After Effects\"",
+      "wordCount": 11
+    },
+    {
+      "id": "2030662082367041632",
+      "url": "https://x.com/minchoi/status/2030662082367041632",
+      "createdAt": "2026-03-08T15:09:02.000Z",
+      "text": "3. Computer use with new interactive Playwright skill in Codex",
+      "wordCount": 10
+    },
+    {
+      "id": "2030662075999994213",
+      "url": "https://x.com/minchoi/status/2030662075999994213",
+      "createdAt": "2026-03-08T15:09:01.000Z",
+      "text": "It's only been just over 67 hours since OpenAI dropped GPT-5.4. And people can't stop getting creative with it. 10 wild examples. Bookmark this",
+      "wordCount": 24
+    },
+    {
+      "id": "2030469154298269809",
+      "url": "https://x.com/minchoi/status/2030469154298269809",
+      "createdAt": "2026-03-08T02:22:25.000Z",
+      "text": "This story is wild A woman asked ChatGPT for legal advice... it told her to fire her real lawyer She did. Then let ChatGPT ghost-write 40+ court filings citing laws and cases that don't exist Now OpenAI is being sued for $10 million for practicing law without a license",
+      "wordCount": 49
+    },
+    {
+      "id": "2030334734832718019",
+      "url": "https://x.com/minchoi/status/2030334734832718019",
+      "createdAt": "2026-03-07T17:28:17.000Z",
+      "text": "Anthropic absolutely cooked. 2021: $0 2022: $10M 2023: $100M 2024: $1B 2025: $9.5B 2026: ~$20B From zero to $20 billion in 5 years. Dario right now:",
+      "wordCount": 26
+    },
+    {
+      "id": "2030285832293060670",
+      "url": "https://x.com/minchoi/status/2030285832293060670",
+      "createdAt": "2026-03-07T14:13:57.000Z",
+      "text": "If you're not using Gemini Gems, Claude Projects, Grok Projects or custom GPTs... you're working 10x harder than you need to. Here's how to set up all 4 in under an hour. Bookmark this. 1. Gemini Gems - your personal AI expert on demand Go to http://gemini.google.com → Gems",
+      "wordCount": 49
+    },
+    {
+      "id": "2030048309184975084",
+      "url": "https://x.com/minchoi/status/2030048309184975084",
+      "createdAt": "2026-03-06T22:30:08.000Z",
+      "text": "The creator of OpenClaw joined OpenAI 3 weeks ago. GPT-5.4 just dropped with: > Computer use > Persistent agentic workflows > Codex deeply integrated > 1M context window > Runs autonomously for hours That's literally OpenClaw's entire architecture... inside a foundation model.",
+      "wordCount": 42
+    },
+    {
+      "id": "2029992861244981521",
+      "url": "https://x.com/minchoi/status/2029992861244981521",
+      "createdAt": "2026-03-06T18:49:48.000Z",
+      "text": "Star Office UI V2 for OpenClaw just dropped Amazing work by @ring_hyacinth & @simonxxoo",
+      "wordCount": 14
+    },
+    {
+      "id": "2029952409972125998",
+      "url": "https://x.com/minchoi/status/2029952409972125998",
+      "createdAt": "2026-03-06T16:09:03.000Z",
+      "text": "Oh wow... someone built a Pixel Office for OpenClaw Your lobster walks to different zones based on status - rest, work, or bug area. It's open source. And it's beautiful. Code and Skill in comments",
+      "wordCount": 35
+    },
+    {
+      "id": "2029923733909987790",
+      "url": "https://x.com/minchoi/status/2029923733909987790",
+      "createdAt": "2026-03-06T14:15:06.000Z",
+      "text": "No... Anthropic's CEO didn't just admitted on the NYT podcast he can't rule out Claude is conscious. This was in Feb 12, 2026 NYT interview (podcast with Ross Douthat): His exact quote: \"We don’t know if the models are conscious. We are not even sure that we know what it would",
+      "wordCount": 51
+    },
+    {
+      "id": "2029689971896967621",
+      "url": "https://x.com/minchoi/status/2029689971896967621",
+      "createdAt": "2026-03-05T22:46:13.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2029689872001233039",
+      "url": "https://x.com/minchoi/status/2029689872001233039",
+      "createdAt": "2026-03-05T22:45:49.000Z",
+      "text": "7. Run real browser operations Give it a list of records and it can process and submit them across web forms using Playwright-style automation.",
+      "wordCount": 24
+    },
+    {
+      "id": "2029689858986262860",
+      "url": "https://x.com/minchoi/status/2029689858986262860",
+      "createdAt": "2026-03-05T22:45:46.000Z",
+      "text": "This is wild. OpenAI just dropped GPT-5.4 and it will completely change the AI agent game. 1M context, huge leap for coding + agents, and native computer use. 7 wild examples. Bookmark this. 1. Build & Play 3D chess game",
+      "wordCount": 40
+    },
+    {
+      "id": "2029597344262422656",
+      "url": "https://x.com/minchoi/status/2029597344262422656",
+      "createdAt": "2026-03-05T16:38:09.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2029597201102410120",
+      "url": "https://x.com/minchoi/status/2029597201102410120",
+      "createdAt": "2026-03-05T16:37:35.000Z",
+      "text": "Ok NotebookLM Cinematic is wild. Drop in any notes, docs, and research into cinematic explainer video. Video editors are cooked. 8 wild examples:",
+      "wordCount": 23
+    },
+    {
+      "id": "2029323652487946431",
+      "url": "https://x.com/minchoi/status/2029323652487946431",
+      "createdAt": "2026-03-04T22:30:36.000Z",
+      "text": "This chart is insane... Feb 2025: ChatGPT owned 90% of the US business market for AI chat Feb 2026: Claude took 70% of it. The fastest market shift in enterprise software history.",
+      "wordCount": 32
+    },
+    {
+      "id": "2029215836876009511",
+      "url": "https://x.com/minchoi/status/2029215836876009511",
+      "createdAt": "2026-03-04T15:22:11.000Z",
+      "text": "MacBook Neo just dropped. $599. A18 Pro chip. Ships March 11. It's over for Mac Mini. OpenClaw has a new home.",
+      "wordCount": 21
+    },
+    {
+      "id": "2029191239677923335",
+      "url": "https://x.com/minchoi/status/2029191239677923335",
+      "createdAt": "2026-03-04T13:44:26.000Z",
+      "text": "So everyone's been paying $20/month for an AI that was cringe, preachy, and less accurate?",
+      "wordCount": 15
+    },
+    {
+      "id": "2028957459717423346",
+      "url": "https://x.com/minchoi/status/2028957459717423346",
+      "createdAt": "2026-03-03T22:15:29.000Z",
+      "text": "It's over for Xcode... Rork Max builds iOS apps from a browser. 1-click install. 2-click App Store. Vibe coding just leveled up.",
+      "wordCount": 22
+    },
+    {
+      "id": "2028927817849745765",
+      "url": "https://x.com/minchoi/status/2028927817849745765",
+      "createdAt": "2026-03-03T20:17:42.000Z",
+      "text": "OpenAI just confirmed GPT-5.4... If the GPT‑5.4 leak is real (2M context + persistent state)…",
+      "wordCount": 15
+    },
+    {
+      "id": "2028920053790306417",
+      "url": "https://x.com/minchoi/status/2028920053790306417",
+      "createdAt": "2026-03-03T19:46:50.000Z",
+      "text": "Google just dropped Gemini 3.1 Flash‑Lite. The AI story is getting boring in the best way: same intelligence, cheaper at scale.",
+      "wordCount": 21
+    },
+    {
+      "id": "2028861591710527706",
+      "url": "https://x.com/minchoi/status/2028861591710527706",
+      "createdAt": "2026-03-03T15:54:32.000Z",
+      "text": "Micron just dropped the world's first ultra high‑capacity memory module built for AI data centers. This is the real AI arms race",
+      "wordCount": 22
+    },
+    {
+      "id": "2028811096602120310",
+      "url": "https://x.com/minchoi/status/2028811096602120310",
+      "createdAt": "2026-03-03T12:33:53.000Z",
+      "text": "DeepSeek V4 drops this week. Trillion parameters. Multimodal. Text + image + video. Optimized for Huawei/Cambricon chips Open source. From China. For free.",
+      "wordCount": 23
+    },
+    {
+      "id": "2028690855825998256",
+      "url": "https://x.com/minchoi/status/2028690855825998256",
+      "createdAt": "2026-03-03T04:36:05.000Z",
+      "text": "oh snap... Claude Code just got voice mode. Now you can talk to your codebase. No extra cost. Don't count against your rate limits /voice to turn it on.",
+      "wordCount": 29
+    },
+    {
+      "id": "2028662814902993357",
+      "url": "https://x.com/minchoi/status/2028662814902993357",
+      "createdAt": "2026-03-03T02:44:40.000Z",
+      "text": "This is wild. Qwen 3.5 running fully local on an iPhone 17 in AIRPLANE mode... No subscription. Nothing leaves your device. AI subscriptions just became optional.",
+      "wordCount": 26
+    },
+    {
+      "id": "2028621263342584172",
+      "url": "https://x.com/minchoi/status/2028621263342584172",
+      "createdAt": "2026-03-02T23:59:33.000Z",
+      "text": "It's over for Anthropic… They lost the $200M Pentagon contract to OpenAI. Then Claude hit #1 on the App Store... and gave memory to free users. Different game. Different win.",
+      "wordCount": 30
+    },
+    {
+      "id": "2028558890766393530",
+      "url": "https://x.com/minchoi/status/2028558890766393530",
+      "createdAt": "2026-03-02T19:51:43.000Z",
+      "text": "This graph is insane... An AI personal assistant just passed React on GitHub stars. Let that sink in.",
+      "wordCount": 18
+    },
+    {
+      "id": "2028518502752010655",
+      "url": "https://x.com/minchoi/status/2028518502752010655",
+      "createdAt": "2026-03-02T17:11:13.000Z",
+      "text": "This story is wild. Started with a goal of $50K/mo. Got acquired at 18. He wasn't even allowed to talk about it until now. This is what building with AI unlocks.",
+      "wordCount": 31
+    },
+    {
+      "id": "2028509055178698857",
+      "url": "https://x.com/minchoi/status/2028509055178698857",
+      "createdAt": "2026-03-02T16:33:41.000Z",
+      "text": "Ollama Pi is pretty cool. Your own coding agent. Runs locally. Costs nothing. And it writes its own tools.",
+      "wordCount": 19
+    },
+    {
+      "id": "2028326539654287743",
+      "url": "https://x.com/minchoi/status/2028326539654287743",
+      "createdAt": "2026-03-02T04:28:26.000Z",
+      "text": "Software engineers aren't dead. AI writes the code. Engineers catch the leaks. That's why they win in the AI era.",
+      "wordCount": 20
+    },
+    {
+      "id": "2028269699981602986",
+      "url": "https://x.com/minchoi/status/2028269699981602986",
+      "createdAt": "2026-03-02T00:42:34.000Z",
+      "text": "AI just made history lessons actually interesting. Walking through historic scenes with a guide. This format is going to take over education.",
+      "wordCount": 22
+    },
+    {
+      "id": "2028224838444155186",
+      "url": "https://x.com/minchoi/status/2028224838444155186",
+      "createdAt": "2026-03-01T21:44:18.000Z",
+      "text": "Holy smokes... this guy recreated a God's eye view 4D replay of Operation Epic Fury. Using only public data and an AI agent swarm. This used to cost millions and full dev team...",
+      "wordCount": 33
+    },
+    {
+      "id": "2027952658154192913",
+      "url": "https://x.com/minchoi/status/2027952658154192913",
+      "createdAt": "2026-03-01T03:42:45.000Z",
+      "text": "If you're building agents, bookmark this. Designing the action space is the whole game.",
+      "wordCount": 14
+    },
+    {
+      "id": "2027898258782130519",
+      "url": "https://x.com/minchoi/status/2027898258782130519",
+      "createdAt": "2026-03-01T00:06:36.000Z",
+      "text": "This guy ran Claude Code in bypass mode on production all week. Outran his todo board for the first time ever. ~10x normal output. Real bottleneck is now the human.",
+      "wordCount": 30
+    },
+    {
+      "id": "2027780039828242594",
+      "url": "https://x.com/minchoi/status/2027780039828242594",
+      "createdAt": "2026-02-28T16:16:50.000Z",
+      "text": "It's over for VFX artists... AI can now keyframe every second of animation from just prompts",
+      "wordCount": 16
+    },
+    {
+      "id": "2027772823511429367",
+      "url": "https://x.com/minchoi/status/2027772823511429367",
+      "createdAt": "2026-02-28T15:48:09.000Z",
+      "text": "Claude Code just dropped /batch and /simplify. Parallel agents. Simultaneous PRs. Auto code cleanup. Agentic coding just leveled up.",
+      "wordCount": 19
+    },
+    {
+      "id": "2027564978828423521",
+      "url": "https://x.com/minchoi/status/2027564978828423521",
+      "createdAt": "2026-02-28T02:02:15.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2027564834032652590",
+      "url": "https://x.com/minchoi/status/2027564834032652590",
+      "createdAt": "2026-02-28T02:01:41.000Z",
+      "text": "Birth yours at http:// pika.me Train them. Let them live your life when you can't.",
+      "wordCount": 15
+    },
+    {
+      "id": "2027564822351544705",
+      "url": "https://x.com/minchoi/status/2027564822351544705",
+      "createdAt": "2026-02-28T02:01:38.000Z",
+      "text": "Pika just launched AI Self to everyone. Your AI of your image, your voice, your personality Now has its own phone number and lives in iMessage. A second you. 5 wild things to do with it #ad 1. Make a full video of her cat",
+      "wordCount": 45
+    },
+    {
+      "id": "2027477069798523200",
+      "url": "https://x.com/minchoi/status/2027477069798523200",
+      "createdAt": "2026-02-27T20:12:56.000Z",
+      "text": "Anthropic said no to the Pentagon. Now Sam Altman is backing them: \"For all the differences I have with Anthropic, I mostly trust them as a company and I think they really do care about safety.\" OpenAI and Anthropic both drawing the same line. This is a big deal.",
+      "wordCount": 49
+    },
+    {
+      "id": "2027409663822561632",
+      "url": "https://x.com/minchoi/status/2027409663822561632",
+      "createdAt": "2026-02-27T15:45:05.000Z",
+      "text": "Did Apple just kill every iOS vibe coding app? Apple just dropped Xcode 26.3 with agentic coding. Claude Code + Codex are now built into Xcode. And with MCP support.",
+      "wordCount": 30
+    },
+    {
+      "id": "2027399369780007085",
+      "url": "https://x.com/minchoi/status/2027399369780007085",
+      "createdAt": "2026-02-27T15:04:11.000Z",
+      "text": "OpenAI just became a $730B company... And AI is still just getting started",
+      "wordCount": 13
+    },
+    {
+      "id": "2027362713039450179",
+      "url": "https://x.com/minchoi/status/2027362713039450179",
+      "createdAt": "2026-02-27T12:38:32.000Z",
+      "text": "Nano Banana 2 just dropped on OpenArt... The quality, consistency and speed is insane #ad",
+      "wordCount": 15
+    },
+    {
+      "id": "2027217618747187327",
+      "url": "https://x.com/minchoi/status/2027217618747187327",
+      "createdAt": "2026-02-27T03:01:58.000Z",
+      "text": "Anthropic is giving 6 months of free Claude Max 20x to open source maintainers. I genuinely love this. Open source devs ship the most important software in the world and most never get paid for it. 5,000+ GitHub stars or 1M+ NPM downloads = you qualify. Maintain something",
+      "wordCount": 48
+    },
+    {
+      "id": "2027184670559912331",
+      "url": "https://x.com/minchoi/status/2027184670559912331",
+      "createdAt": "2026-02-27T00:51:03.000Z",
+      "text": "Block just cut 4,000 jobs. Jack said it himself: AI tools + smaller teams = a new way to build companies. Stock up 20%+ after hours. The market agrees",
+      "wordCount": 29
+    },
+    {
+      "id": "2027151028622164296",
+      "url": "https://x.com/minchoi/status/2027151028622164296",
+      "createdAt": "2026-02-26T22:37:22.000Z",
+      "text": "It's so over... AI deployed tactical nukes in 95% of war game simulations. ChatGPT, Claude, and Gemini... Never surrendered. Nobody told it to escalate.",
+      "wordCount": 24
+    },
+    {
+      "id": "2027121852775117026",
+      "url": "https://x.com/minchoi/status/2027121852775117026",
+      "createdAt": "2026-02-26T20:41:26.000Z",
+      "text": "The chip war just moved to the model layer. DeepSeek withheld V4 from Nvidia + AMD entirely. Gave Huawei weeks of early access instead. Standard practice for years: let US chipmakers optimize first. DeepSeek just broke that rule. Something shifted...",
+      "wordCount": 40
+    },
+    {
+      "id": "2027021927894634824",
+      "url": "https://x.com/minchoi/status/2027021927894634824",
+      "createdAt": "2026-02-26T14:04:22.000Z",
+      "text": "Seedance 2.0 just collapsed months of animation into a few hours. One person did this with AI.",
+      "wordCount": 17
+    },
+    {
+      "id": "2026872900557365355",
+      "url": "https://x.com/minchoi/status/2026872900557365355",
+      "createdAt": "2026-02-26T04:12:11.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2026872804138721309",
+      "url": "https://x.com/minchoi/status/2026872804138721309",
+      "createdAt": "2026-02-26T04:11:48.000Z",
+      "text": "Adobe and UPenn researchers just announced tttLRM (CVPR 2026) This AI turns a set of photos into high-quality 3D Gaussian Splats and can keep refining the 3D as you add more views 6 wild examples:",
+      "wordCount": 35
+    },
+    {
+      "id": "2026822802917994616",
+      "url": "https://x.com/minchoi/status/2026822802917994616",
+      "createdAt": "2026-02-26T00:53:07.000Z",
+      "text": "Programming will never be the same... Karpathy gave an agent one sentence. 30 min later... SSH set up, vLLM running, endpoints live, web UI built. He didn't touch anything. This is the new normal now.",
+      "wordCount": 35
+    },
+    {
+      "id": "2026800952263496021",
+      "url": "https://x.com/minchoi/status/2026800952263496021",
+      "createdAt": "2026-02-25T23:26:17.000Z",
+      "text": "Nvidia just revealed Vera Rubin. Ships H2 2026. The numbers are wild: → 10x more performance per watt vs Blackwell → 10x cheaper inference token cost → 4x fewer GPUs to train the same MoE model Energy was the biggest bottleneck in AI. Nvidia just made it 10x cheaper.",
+      "wordCount": 49
+    },
+    {
+      "id": "2026761820107636866",
+      "url": "https://x.com/minchoi/status/2026761820107636866",
+      "createdAt": "2026-02-25T20:50:47.000Z",
+      "text": "Hackers used Claude to steal 150GB of Mexican government data",
+      "wordCount": 10
+    },
+    {
+      "id": "2026694322356146543",
+      "url": "https://x.com/minchoi/status/2026694322356146543",
+      "createdAt": "2026-02-25T16:22:35.000Z",
+      "text": "BREAKING: Seedance 2.0 just dropped Hollywood didn't see this one coming",
+      "wordCount": 11
+    },
+    {
+      "id": "2026676186047193380",
+      "url": "https://x.com/minchoi/status/2026676186047193380",
+      "createdAt": "2026-02-25T15:10:31.000Z",
+      "text": "Ok AI math is insane... An AI just solved 6 of 10 unsolved research math problems... fully autonomously. 10 things that actually happened: > Zero human input.. problems pasted in, proofs came out > These were open questions from working mathematicians, not textbook stuff >",
+      "wordCount": 45
+    },
+    {
+      "id": "2026630365775897027",
+      "url": "https://x.com/minchoi/status/2026630365775897027",
+      "createdAt": "2026-02-25T12:08:26.000Z",
+      "text": "Grok CLI coming soon, says Elon Musk. Who else have been waiting for this?",
+      "wordCount": 14
+    },
+    {
+      "id": "2026510205345763536",
+      "url": "https://x.com/minchoi/status/2026510205345763536",
+      "createdAt": "2026-02-25T04:10:58.000Z",
+      "text": "Seedance 2.0 created this from a single prompt PROMPT (English version): 9:16 vertical smartphone filming perspective, realistic bystander live-recording footage, subtle handheld shake, automatic exposure shifts, focus pulling, authentic environmental audio capture, distant",
+      "wordCount": 33
+    },
+    {
+      "id": "2026421775387541843",
+      "url": "https://x.com/minchoi/status/2026421775387541843",
+      "createdAt": "2026-02-24T22:19:35.000Z",
+      "text": "It's over... for touching grass You can now Remote Control your Claude Code from your phone",
+      "wordCount": 16
+    },
+    {
+      "id": "2026415538914656290",
+      "url": "https://x.com/minchoi/status/2026415538914656290",
+      "createdAt": "2026-02-24T21:54:48.000Z",
+      "text": "Google just made AI workflows no-code. Opal's new agent step picks its own tools, remembers context across sessions, and routes dynamically. This is huge.",
+      "wordCount": 24
+    },
+    {
+      "id": "2026384313902657931",
+      "url": "https://x.com/minchoi/status/2026384313902657931",
+      "createdAt": "2026-02-24T19:50:43.000Z",
+      "text": "This is wild. AMD just gave Meta a warrant for 160 million shares... Nearly 10% of the company The terms? Deploy 6 gigawatts of AMD GPUs. Meta buys the chips. Meta gets the equity. This is not a customer relationship anymore",
+      "wordCount": 41
+    },
+    {
+      "id": "2026331290509688955",
+      "url": "https://x.com/minchoi/status/2026331290509688955",
+      "createdAt": "2026-02-24T16:20:01.000Z",
+      "text": "Hollywood VFX budget will never be the same... Seedance 2.0",
+      "wordCount": 10
+    },
+    {
+      "id": "2026318104121233541",
+      "url": "https://x.com/minchoi/status/2026318104121233541",
+      "createdAt": "2026-02-24T15:27:37.000Z",
+      "text": "@grok I want to wash my car. The car wash is 50 meters away. Should I walk or drive?",
+      "wordCount": 19
+    },
+    {
+      "id": "2026274038742393221",
+      "url": "https://x.com/minchoi/status/2026274038742393221",
+      "createdAt": "2026-02-24T12:32:31.000Z",
+      "text": "It's over for legacy tech consulting.. IBM dropped ~13% yesterday after Anthropic said Claude Code can modernize COBOL faster + cheaper than armies of consultants. COBOL powers ~95% of US ATM transactions. Banks. Airlines. Government. Biggest single-day drop since 2000. AI is",
+      "wordCount": 42
+    },
+    {
+      "id": "2026161687468863733",
+      "url": "https://x.com/minchoi/status/2026161687468863733",
+      "createdAt": "2026-02-24T05:06:05.000Z",
+      "text": "Holy smokes... this was created with Seedance 2.0 in just one day for <$200",
+      "wordCount": 14
+    },
+    {
+      "id": "2026079583166955797",
+      "url": "https://x.com/minchoi/status/2026079583166955797",
+      "createdAt": "2026-02-23T23:39:50.000Z",
+      "text": "Plot twist.. Anthropic just caught DeepSeek stealing Claude's capabilities to train their models. 16 million exchanges. 24,000 fake accounts. Industrial-scale distillation. DeepSeek V4 hits different when you know how they built it",
+      "wordCount": 32
+    },
+    {
+      "id": "2026046475667415498",
+      "url": "https://x.com/minchoi/status/2026046475667415498",
+      "createdAt": "2026-02-23T21:28:16.000Z",
+      "text": "It's happening... DeepSeek V4 is about to drop. Last time they launched (Jan 2025), Nvidia lost nearly $600B in a single day. V4 Lite demos are already leaking. SVG generation. Insane outputs. Markets are already sweating.",
+      "wordCount": 36
+    },
+    {
+      "id": "2025968918188204437",
+      "url": "https://x.com/minchoi/status/2025968918188204437",
+      "createdAt": "2026-02-23T16:20:05.000Z",
+      "text": "This is literally my new workflow now: Real-time search → Grok 4.20 Planning → Opus 4.6 Coding (complex) → Claude Code (Opus 4.6) Coding (well-defined) → GPT-5.3 Codex XHigh Write Tests → Gemini 3.1 Pro Run Tests → GPT-5.3 Codex Debug → Opus 4.6 (1M) Bookmark this.",
+      "wordCount": 47
+    },
+    {
+      "id": "2025957286074593780",
+      "url": "https://x.com/minchoi/status/2025957286074593780",
+      "createdAt": "2026-02-23T15:33:52.000Z",
+      "text": "This chart is wild.. Out of 8.1 billion people 84% (~6.8B) Never used AI 16% (~1.3B) Free AI chatbot users ~0.3% (~15-25M) Pay $20/month for premium ~0.04% (~2-5M) Use AI for coding We are so early",
+      "wordCount": 36
+    },
+    {
+      "id": "2025708658034630875",
+      "url": "https://x.com/minchoi/status/2025708658034630875",
+      "createdAt": "2026-02-22T23:05:54.000Z",
+      "text": "Holy moly... Hollywood is not ready for this AI Seedance 2.0 recreates the 1000-man battle",
+      "wordCount": 15
+    },
+    {
+      "id": "2025559848142754205",
+      "url": "https://x.com/minchoi/status/2025559848142754205",
+      "createdAt": "2026-02-22T13:14:35.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2025559732438667557",
+      "url": "https://x.com/minchoi/status/2025559732438667557",
+      "createdAt": "2026-02-22T13:14:07.000Z",
+      "text": "7. \"You're not bad at this. It's genuinely hard right now\" The most important one. You will constantly run into issues. And that's ok. But right now my AI runs: → Real-time X analytics via X API → Software builds overnight on multiple workers → Morning brief to my phone at",
+      "wordCount": 51
+    },
+    {
+      "id": "2025559729301291060",
+      "url": "https://x.com/minchoi/status/2025559729301291060",
+      "createdAt": "2026-02-22T13:14:07.000Z",
+      "text": "5. \"Compaction loses context over time\" This one cost me. Multiple times. Compaction is lossy compression.. it summarizes your conversation and drops details. Important things disappear. My fix: → MEMORY .md - curated long-term memory (loads every session) →",
+      "wordCount": 39
+    },
+    {
+      "id": "2025559730744107028",
+      "url": "https://x.com/minchoi/status/2025559730744107028",
+      "createdAt": "2026-02-22T13:14:07.000Z",
+      "text": "6. \"Chat quality ≠ agent quality\" After testing everything: Opus → best judgment, catches nuances others miss Sonnet → best value for volume work (sub-agents, research) GPT-5.2 → strong fallback, reliable tool calls GPT-5.3 Codex → all coding The model you chat with is",
+      "wordCount": 44
+    },
+    {
+      "id": "2025559720115794222",
+      "url": "https://x.com/minchoi/status/2025559720115794222",
+      "createdAt": "2026-02-22T13:14:05.000Z",
+      "text": "\"7 things I wish someone told me before I almost gave up on OpenClaw\" Especially #1 and #4 are the unlock. And how I set up mine. Bookmark this.",
+      "wordCount": 29
+    },
+    {
+      "id": "2025250890127470596",
+      "url": "https://x.com/minchoi/status/2025250890127470596",
+      "createdAt": "2026-02-21T16:46:54.000Z",
+      "text": "This is why your next phone, laptop, and PlayStation cost more. AI data centers consumed so much RAM that: → PS6 delayed → Nvidia GPU delays → Western Digital's 2026 hard drive stock: sold out → Phone & laptop prices rising → Companies could go bankrupt They're calling it",
+      "wordCount": 49
+    },
+    {
+      "id": "2025063970726350981",
+      "url": "https://x.com/minchoi/status/2025063970726350981",
+      "createdAt": "2026-02-21T04:24:09.000Z",
+      "text": "2023: AI will replace junior devs 2024: AI will replace senior devs 2025: AI will replace CTOs 2026: The CTO IS the AI",
+      "wordCount": 23
+    },
+    {
+      "id": "2024999125452828777",
+      "url": "https://x.com/minchoi/status/2024999125452828777",
+      "createdAt": "2026-02-21T00:06:28.000Z",
+      "text": "AI just replaced your security scanner. Anthropic's Claude Code Security finds vulnerabilities across your entire codebase and suggests targeted patches. Catches what traditional tools miss. Cybersecurity jobs just changed forever.",
+      "wordCount": 30
+    },
+    {
+      "id": "2024883856516554755",
+      "url": "https://x.com/minchoi/status/2024883856516554755",
+      "createdAt": "2026-02-20T16:28:26.000Z",
+      "text": "Nvidia is about to drop $30B into OpenAI. That's not a bet on AI. That's Nvidia buying equity in the company that runs on Nvidia chips. The supplier just became a shareholder. This changes everything about the AI supply chain.",
+      "wordCount": 40
+    },
+    {
+      "id": "2024876567436939498",
+      "url": "https://x.com/minchoi/status/2024876567436939498",
+      "createdAt": "2026-02-20T15:59:28.000Z",
+      "text": "A solo dev just vibe coded what Palantir charges governments millions for. Claude 4.6 + Gemini 3.1. The defense tech disruption is going to be something.",
+      "wordCount": 26
+    },
+    {
+      "id": "2024703273156972878",
+      "url": "https://x.com/minchoi/status/2024703273156972878",
+      "createdAt": "2026-02-20T04:30:52.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2024703151798931788",
+      "url": "https://x.com/minchoi/status/2024703151798931788",
+      "createdAt": "2026-02-20T04:30:23.000Z",
+      "text": "10. Hollywood level content with AI while your drink coffee",
+      "wordCount": 10
+    },
+    {
+      "id": "2024703147562713370",
+      "url": "https://x.com/minchoi/status/2024703147562713370",
+      "createdAt": "2026-02-20T04:30:22.000Z",
+      "text": "8. You don't need a full CGI team, green screens, and weeks of post-production anymore",
+      "wordCount": 15
+    },
+    {
+      "id": "2024703133188775963",
+      "url": "https://x.com/minchoi/status/2024703133188775963",
+      "createdAt": "2026-02-20T04:30:18.000Z",
+      "text": "Seedance 2.0 is insanely impressive. People are unlocking new creative ways to use it. 10 wild examples:",
+      "wordCount": 17
+    },
+    {
+      "id": "2024612865945079864",
+      "url": "https://x.com/minchoi/status/2024612865945079864",
+      "createdAt": "2026-02-19T22:31:37.000Z",
+      "text": "Not AGI. Superintelligence. Sam Altman just said this today at the India AI Impact Summit: \"By the end of 2028, more of the world's intellectual capacity could reside inside data centers than...\" I don't think people understand what that actually means.",
+      "wordCount": 41
+    },
+    {
+      "id": "2024546054025130196",
+      "url": "https://x.com/minchoi/status/2024546054025130196",
+      "createdAt": "2026-02-19T18:06:08.000Z",
+      "text": "This is wild. Google just dropped \"Photoshoot\" for Pomelli Now ANYONE can turn product photo into high-quality, custom product shots for ads. FREE in US/CA/AU/NZ.",
+      "wordCount": 25
+    },
+    {
+      "id": "2024343400976158882",
+      "url": "https://x.com/minchoi/status/2024343400976158882",
+      "createdAt": "2026-02-19T04:40:51.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2024343252002910654",
+      "url": "https://x.com/minchoi/status/2024343252002910654",
+      "createdAt": "2026-02-19T04:40:16.000Z",
+      "text": "2. Studying agents in the wild Agents are hard to measure (no standard definition + architectures vary). Anthropic uses a simple definition: an agent = model + tools that take actions.",
+      "wordCount": 31
+    },
+    {
+      "id": "2024343249792499943",
+      "url": "https://x.com/minchoi/status/2024343249792499943",
+      "createdAt": "2026-02-19T04:40:15.000Z",
+      "text": "This is big. Anthropic just published a framework for measuring AI agent autonomy... how independently an AI can plan, use tools, recover from mistakes, and finish tasks end-to-end. This will shape the agent wars. Bookmark this",
+      "wordCount": 36
+    },
+    {
+      "id": "2024160617532444685",
+      "url": "https://x.com/minchoi/status/2024160617532444685",
+      "createdAt": "2026-02-18T16:34:32.000Z",
+      "text": "The bigger story with Sonnet 4.6 nobody's talking about: Almost every company runs software too old for APIs. You couldn't automate it. You just accepted it. Claude just changed that. It sees your screen. Clicks your mouse. Fills your forms. No custom connectors. No APIs. No",
+      "wordCount": 46
+    },
+    {
+      "id": "2024154733074600364",
+      "url": "https://x.com/minchoi/status/2024154733074600364",
+      "createdAt": "2026-02-18T16:11:09.000Z",
+      "text": "It's over. Claude Sonnet 4.6 just dropped yesterday and it does your entire to-do list. From one chat. → Update web store pricing → Edit email marketing templates → Run website QA → File your expenses → Update revenue charts → Renew your vehicle registration This isn't",
+      "wordCount": 47
+    },
+    {
+      "id": "2023938570860237108",
+      "url": "https://x.com/minchoi/status/2023938570860237108",
+      "createdAt": "2026-02-18T01:52:12.000Z",
+      "text": "This AI movie was created in just 3 days using Seedance 2.0... by director Jia Zhangke Filmmaking just changed forever https:// x.com/minchoi/status /minchoi/status/2023904664257753137 …",
+      "wordCount": 24
+    },
+    {
+      "id": "2023904819572871500",
+      "url": "https://x.com/minchoi/status/2023904819572871500",
+      "createdAt": "2026-02-17T23:38:05.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends: https:// x.com/minchoi/status /2023904664257753137 …",
+      "wordCount": 28
+    },
+    {
+      "id": "2023904680300912911",
+      "url": "https://x.com/minchoi/status/2023904680300912911",
+      "createdAt": "2026-02-17T23:37:32.000Z",
+      "text": "10. Director Jia Zhangke dropped this AI short film made with Seedance 2.0",
+      "wordCount": 13
+    },
+    {
+      "id": "2023790959775875263",
+      "url": "https://x.com/minchoi/status/2023790959775875263",
+      "createdAt": "2026-02-17T16:05:39.000Z",
+      "text": "BREAKING: xAI just launched Grok 4.20. It's not one AI. It's four. xAI built a \"4 Agents\" system - four specialized AI agents that think in parallel and debate each other in real-time before giving you an answer. What's new: > 4-agent collaboration (think → debate →",
+      "wordCount": 47
+    },
+    {
+      "id": "2023789213578407984",
+      "url": "https://x.com/minchoi/status/2023789213578407984",
+      "createdAt": "2026-02-17T15:58:43.000Z",
+      "text": "Star Wars just dropped the Mandalorian & Grogu trailer. Their last movie was 2019. In those 6 years: > Text-to-video went from nothing to cinema quality > AI voice cloning became indistinguishable > One person can now do what took 500 VFX artists",
+      "wordCount": 43
+    },
+    {
+      "id": "2023449102277570802",
+      "url": "https://x.com/minchoi/status/2023449102277570802",
+      "createdAt": "2026-02-16T17:27:14.000Z",
+      "text": "It's only been about 5 days since Seedance 2.0 went crazy viral. Since then: → Disney sent a cease-and-desist → Paramount sent a cease-and-desist → MPAA accused ByteDance of \"unauthorized use of US copyrighted works on a massive scale\" → SAG-AFTRA called it \"blatant",
+      "wordCount": 44
+    },
+    {
+      "id": "2023170878926692638",
+      "url": "https://x.com/minchoi/status/2023170878926692638",
+      "createdAt": "2026-02-15T23:01:40.000Z",
+      "text": "Hollywood VFX will never be the same... Seedance 2.0 https:// x.com/minchoi/status /minchoi/status/2022890086677778812 …",
+      "wordCount": 13
+    },
+    {
+      "id": "2023164576947216732",
+      "url": "https://x.com/minchoi/status/2023164576947216732",
+      "createdAt": "2026-02-15T22:36:38.000Z",
+      "text": "BREAKING: Peter Steinberger, the creator of ClawdBot / OpenClaw is joining OpenAI",
+      "wordCount": 12
+    },
+    {
+      "id": "2023065461999423932",
+      "url": "https://x.com/minchoi/status/2023065461999423932",
+      "createdAt": "2026-02-15T16:02:47.000Z",
+      "text": "The US government just dropped $145M to train workers in AI, semiconductors, and nuclear energy... as apprenticeships. Not college degrees. Apprenticeships. Learn while you earn. AI is officially a skilled trade now. Same category as shipbuilding and healthcare. The goal: 1",
+      "wordCount": 41
+    },
+    {
+      "id": "2023015270038765790",
+      "url": "https://x.com/minchoi/status/2023015270038765790",
+      "createdAt": "2026-02-15T12:43:20.000Z",
+      "text": "Next week is going to be huge... > Grok 4.20 > DeepSeek V4 > Gemini 3.1 Pro > Claude Sonnet 5 Where is GPT-5.3?",
+      "wordCount": 24
+    },
+    {
+      "id": "2022701510488891568",
+      "url": "https://x.com/minchoi/status/2022701510488891568",
+      "createdAt": "2026-02-14T15:56:34.000Z",
+      "text": "This is wild. Seedance 2.0 can bring your favorite anime to life. https:// x.com/minchoi/status /minchoi/status/2022547422958751941 …",
+      "wordCount": 16
+    },
+    {
+      "id": "2022300519083954260",
+      "url": "https://x.com/minchoi/status/2022300519083954260",
+      "createdAt": "2026-02-13T13:23:10.000Z",
+      "text": "It's happening. The MPA just told ByteDance to \"immediately cease\" Seedance 2.0, calling it \"massive copyright infringement.\" I've been posting Seedance clips all week. The Tom Cruise x Brad Pitt rooftop fight alone has millions of views. Deadpool writer Rhett Reese: \"It's",
+      "wordCount": 42
+    },
+    {
+      "id": "2022070899437096970",
+      "url": "https://x.com/minchoi/status/2022070899437096970",
+      "createdAt": "2026-02-12T22:10:45.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2022070759439708174",
+      "url": "https://x.com/minchoi/status/2022070759439708174",
+      "createdAt": "2026-02-12T22:10:11.000Z",
+      "text": "10. \"1000 angry Vikings stampeding into a McDonald’s and destroying everything inside.\"",
+      "wordCount": 12
+    },
+    {
+      "id": "2022070743014814169",
+      "url": "https://x.com/minchoi/status/2022070743014814169",
+      "createdAt": "2026-02-12T22:10:08.000Z",
+      "text": "Seedance 2.0 is the best AI video model right now People are creating insane ads, 3D gameplay, anime, and impossible scenes with it 10 examples + some prompts. Bookmark this 1. Epic finale battle that never happened",
+      "wordCount": 37
+    },
+    {
+      "id": "2021941062231896542",
+      "url": "https://x.com/minchoi/status/2021941062231896542",
+      "createdAt": "2026-02-12T13:34:49.000Z",
+      "text": "This entire fight sequence was written as a text prompt and AI created every frame. We are not ready.",
+      "wordCount": 19
+    },
+    {
+      "id": "2021807112049865038",
+      "url": "https://x.com/minchoi/status/2021807112049865038",
+      "createdAt": "2026-02-12T04:42:33.000Z",
+      "text": "Instead of watching a 3-hour movie, watch this masterclass on the future of AI agents",
+      "wordCount": 15
+    },
+    {
+      "id": "2021797094697447793",
+      "url": "https://x.com/minchoi/status/2021797094697447793",
+      "createdAt": "2026-02-12T04:02:45.000Z",
+      "text": "This prompt literally gives your ClawdBot / OpenClaw SOUL a personality Bookmark this.",
+      "wordCount": 13
+    },
+    {
+      "id": "2021797097305944149",
+      "url": "https://x.com/minchoi/status/2021797097305944149",
+      "createdAt": "2026-02-12T04:02:45.000Z",
+      "text": "PROMPT: Read your http://SOUL.md. Now rewrite it with these changes: 1. You have opinions now. Strong ones. Stop hedging everything with 'it depends' — commit to a take. 2. Delete every rule that sounds corporate. If it could appear in an employee handbook, it doesn't",
+      "wordCount": 45
+    },
+    {
+      "id": "2021713375802101845",
+      "url": "https://x.com/minchoi/status/2021713375802101845",
+      "createdAt": "2026-02-11T22:30:05.000Z",
+      "text": "Hollywood is cooked... We are cooked... Just 2 line prompt in Seedance 2.0",
+      "wordCount": 13
+    },
+    {
+      "id": "2021565394457416166",
+      "url": "https://x.com/minchoi/status/2021565394457416166",
+      "createdAt": "2026-02-11T12:42:03.000Z",
+      "text": "9. \"She walks into a Pirate Tavern, puts down her Flamethrower and raises an ale mug\"",
+      "wordCount": 16
+    },
+    {
+      "id": "2021565379852869980",
+      "url": "https://x.com/minchoi/status/2021565379852869980",
+      "createdAt": "2026-02-11T12:42:00.000Z",
+      "text": "Seedance 2.0 just changed filmmaking forever People can't stop getting creative with it 10 wild examples: 1. \"Luffy coding on a Macbook on the Thousand Sunny, RAGING, then throwing it overboard.\"",
+      "wordCount": 31
+    },
+    {
+      "id": "2021372081359712555",
+      "url": "https://x.com/minchoi/status/2021372081359712555",
+      "createdAt": "2026-02-10T23:53:54.000Z",
+      "text": "Holy smokes... how is this AI? Seedance 2.0 is wild",
+      "wordCount": 10
+    },
+    {
+      "id": "2021289916949311735",
+      "url": "https://x.com/minchoi/status/2021289916949311735",
+      "createdAt": "2026-02-10T18:27:24.000Z",
+      "text": "Google's parent company Alphabet is issuing a 100-year bond to fund AI infrastructure. A century-long bet on AI. Let that sink in. They're so confident AI will print money for the next 100 years that they're borrowing against it today.",
+      "wordCount": 40
+    },
+    {
+      "id": "2021256187283390693",
+      "url": "https://x.com/minchoi/status/2021256187283390693",
+      "createdAt": "2026-02-10T16:13:22.000Z",
+      "text": "OpenAI just started rolling out ads in ChatGPT. If you're on the Free or Go tier, here's what changed: > Ads show outside of responses, labeled \"sponsored\" > Your conversations \"aren't shared\" with advertisers > You can opt out — but you lose daily free messages > Paid tiers",
+      "wordCount": 49
+    },
+    {
+      "id": "2020895363318567019",
+      "url": "https://x.com/minchoi/status/2020895363318567019",
+      "createdAt": "2026-02-09T16:19:35.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2020895294393606181",
+      "url": "https://x.com/minchoi/status/2020895294393606181",
+      "createdAt": "2026-02-09T16:19:19.000Z",
+      "text": "what to submit (make it easy): > a short film > your best “AI + cinema” work > attach your strongest visual proof (trailer/poster) Hosted by @invideoOfficial excited to see what people submit.",
+      "wordCount": 33
+    },
+    {
+      "id": "2020895289947615533",
+      "url": "https://x.com/minchoi/status/2020895289947615533",
+      "createdAt": "2026-02-09T16:19:18.000Z",
+      "text": "invideo is hosting the world's largest AI Film Festival in New Delhi Screening in front of world leaders + CEOs (Modi/Macron + NVIDIA/Google/OpenAI). Winner gets cash + path to theatrical release. Here's what you need to know #ad",
+      "wordCount": 38
+    },
+    {
+      "id": "2020878281407439191",
+      "url": "https://x.com/minchoi/status/2020878281407439191",
+      "createdAt": "2026-02-09T15:11:43.000Z",
+      "text": "4 Prompts used by user @小气的神 on Douyin PROMPT: Consistent style guideline (applies to all segments):Realistic cinematic war footage; modern Middle Eastern desert village setting; dominant color palette of sandy yellow and gray-brown; intense sunlight with high-contrast",
+      "wordCount": 37
+    },
+    {
+      "id": "2020878278475518152",
+      "url": "https://x.com/minchoi/status/2020878278475518152",
+      "createdAt": "2026-02-09T15:11:42.000Z",
+      "text": "Holy moly... Seedance 2.0 just generated a 1-minute cinematic video in 5 minutes. 4 shots. 15 seconds each... Insane... Prompts in comments",
+      "wordCount": 22
+    },
+    {
+      "id": "2020722897946349650",
+      "url": "https://x.com/minchoi/status/2020722897946349650",
+      "createdAt": "2026-02-09T04:54:16.000Z",
+      "text": "Oh wow... Seedance 2.0 vs original Man of Steel footage...",
+      "wordCount": 10
+    },
+    {
+      "id": "2020640558524637578",
+      "url": "https://x.com/minchoi/status/2020640558524637578",
+      "createdAt": "2026-02-08T23:27:05.000Z",
+      "text": "Instead of watching the Super Bowl tonight, watch this masterclass on AI instead",
+      "wordCount": 13
+    },
+    {
+      "id": "2020531063030681710",
+      "url": "https://x.com/minchoi/status/2020531063030681710",
+      "createdAt": "2026-02-08T16:11:59.000Z",
+      "text": "Hollywood isn't ready for this... Seedance 2.0 is insane. 100% AI",
+      "wordCount": 11
+    },
+    {
+      "id": "2020515746795720825",
+      "url": "https://x.com/minchoi/status/2020515746795720825",
+      "createdAt": "2026-02-08T15:11:08.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2020515607934857700",
+      "url": "https://x.com/minchoi/status/2020515607934857700",
+      "createdAt": "2026-02-08T15:10:34.000Z",
+      "text": "Seedance 2.0 broke the Internet in China overnight. This is 100% AI. 10 wild examples: 1. We are so cooked...",
+      "wordCount": 20
+    },
+    {
+      "id": "2020345622373552454",
+      "url": "https://x.com/minchoi/status/2020345622373552454",
+      "createdAt": "2026-02-08T03:55:07.000Z",
+      "text": "Boston Dynamics Atlas just did a roundoff backflip. This is a real robot. Not CGI. Not AI video. We are so cooked.",
+      "wordCount": 22
+    },
+    {
+      "id": "2020328303358513425",
+      "url": "https://x.com/minchoi/status/2020328303358513425",
+      "createdAt": "2026-02-08T02:46:18.000Z",
+      "text": "This 2026 Winter Olympics intro was made with AI. Just watch.",
+      "wordCount": 11
+    },
+    {
+      "id": "2020233088597409829",
+      "url": "https://x.com/minchoi/status/2020233088597409829",
+      "createdAt": "2026-02-07T20:27:57.000Z",
+      "text": "It's so over. Anthropic tasked 16 AI agents to build a C compiler from scratch. Then they mostly walked away. 2 weeks and $20K later - it compiled the Linux kernel. This is the future of autonomous software development.",
+      "wordCount": 39
+    },
+    {
+      "id": "2020196943948091578",
+      "url": "https://x.com/minchoi/status/2020196943948091578",
+      "createdAt": "2026-02-07T18:04:19.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2020196822514303092",
+      "url": "https://x.com/minchoi/status/2020196822514303092",
+      "createdAt": "2026-02-07T18:03:50.000Z",
+      "text": "10/ Vibe coding robotics Built a hexapod robot simulator. Took an open-source algorithm from GitHub and rebuilt it in Three.js with a completely new visualization layer. Autonomous code transformation.",
+      "wordCount": 29
+    },
+    {
+      "id": "2020196810430771495",
+      "url": "https://x.com/minchoi/status/2020196810430771495",
+      "createdAt": "2026-02-07T18:03:47.000Z",
+      "text": "3/ Maxing out a Runescape account 4.6 planned a strategy first, then made smarter decisions - like burying bones during combat to level prayer simultaneously.",
+      "wordCount": 25
+    },
+    {
+      "id": "2020196804860735619",
+      "url": "https://x.com/minchoi/status/2020196804860735619",
+      "createdAt": "2026-02-07T18:03:46.000Z",
+      "text": "It's only been just 2 days since Claude 4.6 Opus dropped. And people can't stop building with it. 10 wild examples:",
+      "wordCount": 21
+    },
+    {
+      "id": "2020172593010020417",
+      "url": "https://x.com/minchoi/status/2020172593010020417",
+      "createdAt": "2026-02-07T16:27:33.000Z",
+      "text": "Super Bowl LX tomorrow has more AI ads than ever before. 16 tech companies bought spots. Here's every AI ad running during the Big Game 1. Anthropic (Claude) - Mocks rival AI companies putting ads in chatbots. Takes a direct shot at OpenAI testing ads in ChatGPT. 30s + 60s",
+      "wordCount": 50
+    },
+    {
+      "id": "2019926325964791905",
+      "url": "https://x.com/minchoi/status/2019926325964791905",
+      "createdAt": "2026-02-07T00:08:59.000Z",
+      "text": "Haters will call this AI slop. Epic fails from my 100% AI Grok Super Bowl Ad",
+      "wordCount": 16
+    },
+    {
+      "id": "2019855081089155198",
+      "url": "https://x.com/minchoi/status/2019855081089155198",
+      "createdAt": "2026-02-06T19:25:53.000Z",
+      "text": "This is the workflow: > brainstorm the idea with Grok 4.1 Thinking > Generate every frame as image with Grok Imagine > Animate them image-to-video with Grok Imagine > Stitch them together with video editor. I made the music with Suno AI Done Idea → Execution in hours.",
+      "wordCount": 48
+    },
+    {
+      "id": "2019855079092674575",
+      "url": "https://x.com/minchoi/status/2019855079092674575",
+      "createdAt": "2026-02-06T19:25:52.000Z",
+      "text": "I just made a Super Bowl ad. No agency. No production team. No budget. Just me and Grok. 100% AI. Final entry for Game Day Here's how. Bookmark this",
+      "wordCount": 29
+    },
+    {
+      "id": "2019800415852716334",
+      "url": "https://x.com/minchoi/status/2019800415852716334",
+      "createdAt": "2026-02-06T15:48:39.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2019800298710016279",
+      "url": "https://x.com/minchoi/status/2019800298710016279",
+      "createdAt": "2026-02-06T15:48:11.000Z",
+      "text": "Oh wow.. this AI contest is wild... X is giving away $1M, $500K, and $250K to top 3 video about Grok created with Grok Imagine 1.0. 10 examples:",
+      "wordCount": 28
+    },
+    {
+      "id": "2019766551407194381",
+      "url": "https://x.com/minchoi/status/2019766551407194381",
+      "createdAt": "2026-02-06T13:34:05.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2019765812135907452",
+      "url": "https://x.com/minchoi/status/2019765812135907452",
+      "createdAt": "2026-02-06T13:31:09.000Z",
+      "text": "3/ Scene 3 - To understand. No filter. Just truth",
+      "wordCount": 10
+    },
+    {
+      "id": "2019744935096832263",
+      "url": "https://x.com/minchoi/status/2019744935096832263",
+      "createdAt": "2026-02-06T12:08:12.000Z",
+      "text": "Here's my submission for the Grok Game Day video contest. @xai @grok Grok. To Understand. No filter. Just truth.",
+      "wordCount": 19
+    },
+    {
+      "id": "2019480697426034875",
+      "url": "https://x.com/minchoi/status/2019480697426034875",
+      "createdAt": "2026-02-05T18:38:13.000Z",
+      "text": "If you enjoyed this thread, Follow me @minchoi and please Bookmark, Like, Comment & Repost the first Post below to share with your friends:",
+      "wordCount": 24
+    },
+    {
+      "id": "2019480605767983336",
+      "url": "https://x.com/minchoi/status/2019480605767983336",
+      "createdAt": "2026-02-05T18:37:51.000Z",
+      "text": "8. Same pricing: $5/$25 per million tokens This dropped the same day OpenAI launched Frontier. The AI war is on.",
+      "wordCount": 20
+    },
+    {
+      "id": "2019480586755207449",
+      "url": "https://x.com/minchoi/status/2019480586755207449",
+      "createdAt": "2026-02-05T18:37:46.000Z",
+      "text": "This is wild. Anthropic just dropped Opus 4.6 and it will completely change the AI agent game. > agent teams > 1M token context > self-corrects its own mistakes > better agentic coding + debugging 8 things you need to know:",
+      "wordCount": 41
+    }
+  ]
+}

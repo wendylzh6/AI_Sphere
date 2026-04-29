@@ -1,0 +1,684 @@
+{
+  "source": {
+    "file": "51 AI influencers",
+    "influencerId": "alexandr_wang",
+    "handle": "alexandr_wang",
+    "profileUrl": "https://x.com/alexandr_wang"
+  },
+  "filters": {
+    "startDate": "2023-04-16",
+    "endDate": "2026-04-16",
+    "minWords": 10,
+    "excludeReplies": false,
+    "excludeReposts": false
+  },
+  "collectedAt": "2026-04-28T17:37:45.197Z",
+  "totalTweets": 95,
+  "tweets": [
+    {
+      "id": "2044454230614999441",
+      "url": "https://x.com/alexandr_wang/status/2044454230614999441",
+      "createdAt": "2026-04-15T16:34:07.000Z",
+      "text": "As we develop more capable models at the frontier, MSL is committed to safety and preparedness for AI. To demonstrate this commitment, we will be publishing preparedness reports for our models, in line with our new Advanced AI Scaling Framework. See our Muse Spark report below:",
+      "wordCount": 46
+    },
+    {
+      "id": "2044269086771921326",
+      "url": "https://x.com/alexandr_wang/status/2044269086771921326",
+      "createdAt": "2026-04-15T04:18:25.000Z",
+      "text": "this is not investment or tax advice… but very cool!",
+      "wordCount": 10
+    },
+    {
+      "id": "2043852284594139218",
+      "url": "https://x.com/xf1280/status/2043852284594139218",
+      "createdAt": "2026-04-14T00:42:12.000Z",
+      "text": "Fun visually-grounded 3d visualization with Muse Spark - by asking the model to generate a 3d visualization of how much each component cost on a xbox 360 motherboard (and put the bar on the component).",
+      "wordCount": 35
+    },
+    {
+      "id": "2043730980264128673",
+      "url": "https://x.com/xf1280/status/2043730980264128673",
+      "createdAt": "2026-04-13T16:40:11.000Z",
+      "text": "Muse Spark is agentic, which means you can ask it to leverage different test-compute scaling methods to improve quality. Here I ask the model to use parallel subagents to do counting and the results are greatly improved! https:// meta.ai/share/aD4KAPeV N9u …",
+      "wordCount": 41
+    },
+    {
+      "id": "2043432483006615806",
+      "url": "https://x.com/alexandr_wang/status/2043432483006615806",
+      "createdAt": "2026-04-12T20:54:03.000Z",
+      "text": "i find muse spark is very good at data analysis—both finding relevant open-source data and analyzing it. for example, here's my results for analyzing global share of GDP over past century: https:// meta.ai/share/cw54skLB Sqy …",
+      "wordCount": 35
+    },
+    {
+      "id": "2043177308803215811",
+      "url": "https://x.com/alexandr_wang/status/2043177308803215811",
+      "createdAt": "2026-04-12T04:00:05.000Z",
+      "text": "check out Contemplating mode for your most complex reasoning queries!",
+      "wordCount": 10
+    },
+    {
+      "id": "2043176328170705036",
+      "url": "https://x.com/alexandr_wang/status/2043176328170705036",
+      "createdAt": "2026-04-12T03:56:11.000Z",
+      "text": "MSL *really does* run like a startup :) join us if that sounds exciting to you!",
+      "wordCount": 16
+    },
+    {
+      "id": "2043175802578346466",
+      "url": "https://x.com/alexandr_wang/status/2043175802578346466",
+      "createdAt": "2026-04-12T03:54:06.000Z",
+      "text": "people are finding all the cool things we built into muse spark :)",
+      "wordCount": 13
+    },
+    {
+      "id": "2043023283789140167",
+      "url": "https://x.com/pitdesi/status/2043023283789140167",
+      "createdAt": "2026-04-11T17:48:03.000Z",
+      "text": "I added Meta ai to my Home Screen, finding it great for general queries. Surprised more people aren’t talking about it",
+      "wordCount": 21
+    },
+    {
+      "id": "2043016694910587228",
+      "url": "https://x.com/alexandr_wang/status/2043016694910587228",
+      "createdAt": "2026-04-11T17:21:52.000Z",
+      "text": "okay this is too exciting :) meta AI is now #2 in the app store, top AI app! we are so back!",
+      "wordCount": 22
+    },
+    {
+      "id": "2042948840689373579",
+      "url": "https://x.com/alexandr_wang/status/2042948840689373579",
+      "createdAt": "2026-04-11T12:52:14.000Z",
+      "text": "my last post on this for a while, but we’re now the top AI app in the App Store :)",
+      "wordCount": 20
+    },
+    {
+      "id": "2042808439852630073",
+      "url": "https://x.com/alexandr_wang/status/2042808439852630073",
+      "createdAt": "2026-04-11T03:34:20.000Z",
+      "text": "up to #3, coming for the crown that being said, MONOPOLY GO!Chat is now #1, so i’m learning a lot about the App Store",
+      "wordCount": 24
+    },
+    {
+      "id": "2042805863979626574",
+      "url": "https://x.com/alexandr_wang/status/2042805863979626574",
+      "createdAt": "2026-04-11T03:24:06.000Z",
+      "text": "honestly I didn’t even know our model could do some of these",
+      "wordCount": 12
+    },
+    {
+      "id": "2042714628283863503",
+      "url": "https://x.com/michaelgold3n/status/2042714628283863503",
+      "createdAt": "2026-04-10T21:21:33.000Z",
+      "text": "I gave the new Meta Muse Spark model a bunch of assorted assets and it was able to carefully extract them and place it into a functioning app. I've never seen something with a clear intuition for design and product-first thinking. This is the first AI that *gets* UI design.",
+      "wordCount": 50
+    },
+    {
+      "id": "2042614906059387211",
+      "url": "https://x.com/alexandr_wang/status/2042614906059387211",
+      "createdAt": "2026-04-10T14:45:18.000Z",
+      "text": "the muse spark API will be coming soon! we have been thrilled with the amount of excitement amongst developers who want to try muse spark inside their agentic harnesses stay tuned!",
+      "wordCount": 31
+    },
+    {
+      "id": "2042610847520809295",
+      "url": "https://x.com/alexandr_wang/status/2042610847520809295",
+      "createdAt": "2026-04-10T14:29:10.000Z",
+      "text": "muse spark is the best model I’ve personally used for Design & UI great to hear the community experience it as well!",
+      "wordCount": 22
+    },
+    {
+      "id": "2042360886195581330",
+      "url": "https://x.com/alexandr_wang/status/2042360886195581330",
+      "createdAt": "2026-04-09T21:55:55.000Z",
+      "text": "cool to see people finding new emergent capabilities within Muse Spark!",
+      "wordCount": 11
+    },
+    {
+      "id": "2042319811477467600",
+      "url": "https://x.com/ryansehrlich/status/2042319811477467600",
+      "createdAt": "2026-04-09T19:12:42.000Z",
+      "text": "Excited to share what we've been working on at MSL",
+      "wordCount": 10
+    },
+    {
+      "id": "2042310106864631959",
+      "url": "https://x.com/alexandr_wang/status/2042310106864631959",
+      "createdAt": "2026-04-09T18:34:08.000Z",
+      "text": "UPDATE: we have surpassed the 7-Eleven app, but a new challenger has emerged: The Masters Tournament app",
+      "wordCount": 17
+    },
+    {
+      "id": "2042254047244398978",
+      "url": "https://x.com/alexandr_wang/status/2042254047244398978",
+      "createdAt": "2026-04-09T14:51:22.000Z",
+      "text": "Meta AI is up to #6 in the App Store overnight, and still growing :) Also who knew the 7-Eleven app was so popular",
+      "wordCount": 24
+    },
+    {
+      "id": "2042049345554428376",
+      "url": "https://x.com/evergreencap3/status/2042049345554428376",
+      "createdAt": "2026-04-09T01:17:58.000Z",
+      "text": "I tested $META 's Muse Spark over the last few hours and came away net positive. 3 main takeaways: 1) Quality: It's a very good model. Not quite frontier but good. It showed comparable performance vs Opus 4.6 across web data search, PDF parsing, and general",
+      "wordCount": 46
+    },
+    {
+      "id": "2042042633061797892",
+      "url": "https://x.com/DewBaye/status/2042042633061797892",
+      "createdAt": "2026-04-09T00:51:17.000Z",
+      "text": "Just built a one shot Speed Test website through @AIatMeta #MuseSpark The results are quite almost same as http:// speedtest.net, and the UI looks great. Great work @alexandr_wang and team. People don’t realize what they are getting for FREE.",
+      "wordCount": 39
+    },
+    {
+      "id": "2042024651610861657",
+      "url": "https://x.com/alexandr_wang/status/2042024651610861657",
+      "createdAt": "2026-04-08T23:39:50.000Z",
+      "text": "try muse spark yourself! download the Meta AI app or go to http:// meta.ai!",
+      "wordCount": 14
+    },
+    {
+      "id": "2042024354125640115",
+      "url": "https://x.com/xinw_ai/status/2042024354125640115",
+      "createdAt": "2026-04-08T23:38:39.000Z",
+      "text": "Muse Spark is here: our first milestone towards personal intelligence! It’s been such an honor working with the coolest people for the past nine months cooking this model. Check out the model and let us know what you think!",
+      "wordCount": 39
+    },
+    {
+      "id": "2042024300648263957",
+      "url": "https://x.com/ZexuanZhong/status/2042024300648263957",
+      "createdAt": "2026-04-08T23:38:26.000Z",
+      "text": "Excited to share Muse Spark , a big step in MSL's journey towards personal superintelligence. Try it out on http:// meta.ai and let us know your feedback!",
+      "wordCount": 27
+    },
+    {
+      "id": "2042023138238853215",
+      "url": "https://x.com/RayanKrishnan/status/2042023138238853215",
+      "createdAt": "2026-04-08T23:33:49.000Z",
+      "text": "Actually performs quite well on held out real world tasks! Especially for practical agentic use cases in finance. I'm also pretty doubtful that ARC AGI is a good predictor for \"actual usefulness\"",
+      "wordCount": 32
+    },
+    {
+      "id": "2042017820633153842",
+      "url": "https://x.com/simonw/status/2042017820633153842",
+      "createdAt": "2026-04-08T23:12:41.000Z",
+      "text": "Pelicans for Meta's new Muse Spark models - plus I did a bit of a deep dive into the Code Interpreter and fascinating \"container.visual_grounding\" tools in their http:// meta.ai chat UI",
+      "wordCount": 31
+    },
+    {
+      "id": "2042009246074859734",
+      "url": "https://x.com/zijianwang30/status/2042009246074859734",
+      "createdAt": "2026-04-08T22:38:37.000Z",
+      "text": "Excited to share Muse Spark ! It’s been a privilege leading the data research effort behind this and working with an incredible team to build the best data for superintelligence. More to come!",
+      "wordCount": 33
+    },
+    {
+      "id": "2041995841356100081",
+      "url": "https://x.com/zy27962986/status/2041995841356100081",
+      "createdAt": "2026-04-08T21:45:21.000Z",
+      "text": "Excited to share our first model from MSL: Muse Spark. Proud to be part of the team and proud of what we have built in the past 9 months!",
+      "wordCount": 29
+    },
+    {
+      "id": "2041991027981218022",
+      "url": "https://x.com/alexandr_wang/status/2041991027981218022",
+      "createdAt": "2026-04-08T21:26:14.000Z",
+      "text": "a good writeup about Muse Spark on a few complex queries (multimodal, stock analysis, coding):",
+      "wordCount": 15
+    },
+    {
+      "id": "2041987950238458004",
+      "url": "https://x.com/benblainex/status/2041987950238458004",
+      "createdAt": "2026-04-08T21:14:00.000Z",
+      "text": "\"One shot a simple shooter game for iPad\" in Meta AI with Muse Spark!",
+      "wordCount": 14
+    },
+    {
+      "id": "2041985846950424760",
+      "url": "https://x.com/alexandr_wang/status/2041985846950424760",
+      "createdAt": "2026-04-08T21:05:38.000Z",
+      "text": "try for yourself! http:// meta.ai or download Meta AI app",
+      "wordCount": 10
+    },
+    {
+      "id": "2041983465101672790",
+      "url": "https://x.com/garrytan/status/2041983465101672790",
+      "createdAt": "2026-04-08T20:56:10.000Z",
+      "text": "You can make very impressive one shot arcade games with this!",
+      "wordCount": 11
+    },
+    {
+      "id": "2041981770187284903",
+      "url": "https://x.com/TheRealShane01/status/2041981770187284903",
+      "createdAt": "2026-04-08T20:49:26.000Z",
+      "text": "I asked Muse Spark to build me a Shopify clone website. It did so in about 2 minutes. Light and Dark mode work, a little mix-up with the nav bar functionality, but this is fair. Overall, better than the Llama series.",
+      "wordCount": 41
+    },
+    {
+      "id": "2041981357761425879",
+      "url": "https://x.com/MohammadErfanJ/status/2041981357761425879",
+      "createdAt": "2026-04-08T20:47:48.000Z",
+      "text": "probably the most unique answer to my question in the last 2 years. @AIatMeta @alexandr_wang Impressed. Thanks",
+      "wordCount": 17
+    },
+    {
+      "id": "2041979637404930290",
+      "url": "https://x.com/fanofaliens/status/2041979637404930290",
+      "createdAt": "2026-04-08T20:40:58.000Z",
+      "text": "Dang It one shotted this table tennis game in 3d with sound Great job Muse Aka Meta AI",
+      "wordCount": 18
+    },
+    {
+      "id": "2041969732077940845",
+      "url": "https://x.com/ElaineYaLe6/status/2041969732077940845",
+      "createdAt": "2026-04-08T20:01:36.000Z",
+      "text": "Muse spark is here! 9 months ago we started from scratch. Today we’ve rebuilt the entire stack and shipped a well-rounded, multimodal, and agent-native model. This is just the beginning of a new era toward personal superintelligence. We’re early, but the momentum is real.",
+      "wordCount": 44
+    },
+    {
+      "id": "2041964540389188030",
+      "url": "https://x.com/kimmonismus/status/2041964540389188030",
+      "createdAt": "2026-04-08T19:40:58.000Z",
+      "text": "Didn't expect Meta's model to outperform Opus 4.6 or GPT-5.4. But it still surprises me how well it performs and how close it is to other frontier models on toughest challenges.",
+      "wordCount": 31
+    },
+    {
+      "id": "2041962158595174420",
+      "url": "https://x.com/flavioAd/status/2041962158595174420",
+      "createdAt": "2026-04-08T19:31:31.000Z",
+      "text": "After MORE THAN A YEAR, Meta finally released a model that passes the Hexagon Test and I’m not gonna lie this is weirdly emotional sorry guys but history had to be documented!!",
+      "wordCount": 32
+    },
+    {
+      "id": "2041957040545808707",
+      "url": "https://x.com/LexnLin/status/2041957040545808707",
+      "createdAt": "2026-04-08T19:11:10.000Z",
+      "text": "I tried to recreate the Meta AI animation using different AI models 1/ (top left) original 2/ (top right) Gemini 3.1 Pro High 3/ (bottom left) Muse Spark 4/ (bottom right) ChatGPT 5.4 Thinking Extended for this round, muse spark won",
+      "wordCount": 41
+    },
+    {
+      "id": "2041956067706589329",
+      "url": "https://x.com/xf1280/status/2041956067706589329",
+      "createdAt": "2026-04-08T19:07:18.000Z",
+      "text": "Excited that this is out, and proud to be a part of it! This is our first step in scaling — an intelligent and useful multimodal model built on a foundation of scientific rigor and solid engineering. Incredible velocity and culture of the team and the best is yet to come!",
+      "wordCount": 51
+    },
+    {
+      "id": "2041953243895623913",
+      "url": "https://x.com/alexandr_wang/status/2041953243895623913",
+      "createdAt": "2026-04-08T18:56:05.000Z",
+      "text": "try muse spark via the Meta AI app or http:// meta.ai! check out this simulation i made:",
+      "wordCount": 17
+    },
+    {
+      "id": "2041952435833369060",
+      "url": "https://x.com/chatgpt21/status/2041952435833369060",
+      "createdAt": "2026-04-08T18:52:53.000Z",
+      "text": "Meta Muse: “Make a flappy bird clone” One shot in only a couple minutes in canvas not bad at all!",
+      "wordCount": 20
+    },
+    {
+      "id": "2041951711493795900",
+      "url": "https://x.com/haider1/status/2041951711493795900",
+      "createdAt": "2026-04-08T18:50:00.000Z",
+      "text": "guys, Meta is back i think \"muse spark\" looks like their strongest return to the frontier race in a while 52% on artificial analysis 80.4% on mmmu-pro 42.8% on HLE 42.5% on arc-agi-2 52.4% on swe-bench pro 77.4% on swe-bench verified 89.5% on GPQA diamond top-tier multimodal",
+      "wordCount": 47
+    },
+    {
+      "id": "2041947954202988757",
+      "url": "https://x.com/EpochAIResearch/status/2041947954202988757",
+      "createdAt": "2026-04-08T18:35:04.000Z",
+      "text": "We had pre-release access to Meta’s new Muse Spark model and evaluated it on FrontierMath. It scored 39% on Tiers 1-3 and 15% on Tier 4. This is competitive with several recent frontier models, though behind GPT-5.4.",
+      "wordCount": 37
+    },
+    {
+      "id": "2041947421341839743",
+      "url": "https://x.com/MinyangTian1/status/2041947421341839743",
+      "createdAt": "2026-04-08T18:32:57.000Z",
+      "text": "Congrats to @AIatMeta on the release of Muse Spark! Jumping from Llama 4 Maverick at 0 to 11.3 on CritPt is a huge leap. Given that CritPt consists of original, research-level physics problems designed by expert physicists, this is seriously impressive!",
+      "wordCount": 41
+    },
+    {
+      "id": "2041946208298791287",
+      "url": "https://x.com/t_xu/status/2041946208298791287",
+      "createdAt": "2026-04-08T18:28:08.000Z",
+      "text": "It’s always impressive to watch teams put their nose to the grind and ship with velocity and quality, especially in a sea of noise. Congrats @alexandr_wang and team on today’s milestone! Given the rate of change, I can’t wait to try all of the things you ship.",
+      "wordCount": 47
+    },
+    {
+      "id": "2041945386450087977",
+      "url": "https://x.com/TianheYu/status/2041945386450087977",
+      "createdAt": "2026-04-08T18:24:52.000Z",
+      "text": "Excited to see the release of our initial milestone Incredible progress in pretraining, RL and test-time scaling. The best is yet to come.",
+      "wordCount": 23
+    },
+    {
+      "id": "2041945085072609448",
+      "url": "https://x.com/zhuohan123/status/2041945085072609448",
+      "createdAt": "2026-04-08T18:23:40.000Z",
+      "text": "It’s been an exciting nine months training this model from scratch. I’m especially proud of the opportunity to rebuild the foundational infrastructure alongside the strongest infra team I’ve ever worked with. The systems we’ve built will serve as a solid foundation for many more",
+      "wordCount": 44
+    },
+    {
+      "id": "2041945027736432935",
+      "url": "https://x.com/ValsAI/status/2041945027736432935",
+      "createdAt": "2026-04-08T18:23:26.000Z",
+      "text": "Muse Spark is truly a frontier model. Check out our benchmark breakdowns-",
+      "wordCount": 12
+    },
+    {
+      "id": "2041940018953122092",
+      "url": "https://x.com/qhwang3/status/2041940018953122092",
+      "createdAt": "2026-04-08T18:03:32.000Z",
+      "text": "It’s been amazing to move so fast with the team here Still much more to do Give a try at http:// meta.ai and let us know your feedback!",
+      "wordCount": 28
+    },
+    {
+      "id": "2041939138891366839",
+      "url": "https://x.com/treadon/status/2041939138891366839",
+      "createdAt": "2026-04-08T18:00:02.000Z",
+      "text": "VERDICT: Meta Muse Spark is the REAL DEAL I ran several tests, including reading a menu. Newly released Meta Muse Spark was on the ONLY frontier AI to get all the items correct. Sorry ChatGPT, there is no \"Slapped Wagyu Dog\" on the menu. https://riteshkhanna.com/blog/muse-spark-arena…",
+      "wordCount": 45
+    },
+    {
+      "id": "2041934840879358223",
+      "url": "https://x.com/scale_AI/status/2041934840879358223",
+      "createdAt": "2026-04-08T17:42:58.000Z",
+      "text": "Breaking: @AIatMeta just released Muse Spark — now live across @ScaleAILabs leaderboards. Here’s how it stacks up: Tied for on SWE-Bench Pro Tied for on HLE Tied for on MCP Atlas Tied for on PR Bench - Legal Tied for on SWE Atlas Test Writing on PR Bench - Finance",
+      "wordCount": 50
+    },
+    {
+      "id": "2041930482179567966",
+      "url": "https://x.com/_jasonwei/status/2041930482179567966",
+      "createdAt": "2026-04-08T17:25:38.000Z",
+      "text": "Fun nine months! My first week i remember we had a long dinner in the cafeteria daydreaming about the cool research directions to pursue, then going to back to our desks to write a basic script to inference llama. Now we have a pretty complete stack and our first model is out",
+      "wordCount": 52
+    },
+    {
+      "id": "2041928159973798264",
+      "url": "https://x.com/RayanKrishnan/status/2041928159973798264",
+      "createdAt": "2026-04-08T17:16:25.000Z",
+      "text": "Today, we see the result: Muse Spark. I'll be honest, I was surprised how competitive this model is. Progress at OAI, Anthropic, and GDM has been continuous, built on compounding breakthroughs. But MSL's team seems to have taken a single binary leap, catching up on many fronts",
+      "wordCount": 47
+    },
+    {
+      "id": "2041926272226398393",
+      "url": "https://x.com/skirano/status/2041926272226398393",
+      "createdAt": "2026-04-08T17:08:55.000Z",
+      "text": "Ok this is actually pretty impressive and I truly didn't see any model doing this before or being able to do it to this extent. When I asked Muse Spark from Meta to convert this image into code, it cut out the assets from the screens so it could use them correctly!",
+      "wordCount": 52
+    },
+    {
+      "id": "2041925344165556379",
+      "url": "https://x.com/TrapitBansal/status/2041925344165556379",
+      "createdAt": "2026-04-08T17:05:13.000Z",
+      "text": "It’s been so much fun working with the extremely cracked team at Meta on this! This is just the start, even more capable models coming in the future. https:// ai.meta.com/blog/introduci ng-muse-spark-msl/ …",
+      "wordCount": 32
+    },
+    {
+      "id": "2041925332631183421",
+      "url": "https://x.com/jack_w_rae/status/2041925332631183421",
+      "createdAt": "2026-04-08T17:05:11.000Z",
+      "text": "Our first model from MSL, Muse Spark, is now available on http:// meta.ai! This is an efficient all-rounder model. It supports fast responses, deeper thinking, visual chain of thought, a higher inference “Contemplating” mode. Plus, it’s natively multimodal. 1/",
+      "wordCount": 39
+    },
+    {
+      "id": "2041922484040298796",
+      "url": "https://x.com/ren_hongyu/status/2041922484040298796",
+      "createdAt": "2026-04-08T16:53:51.000Z",
+      "text": "Check out Muse Spark, our first milestone in the quest for personal superintelligence! Scaling this with the team has been a total blast. Give it a spin and let us know what you think!",
+      "wordCount": 34
+    },
+    {
+      "id": "2041922041444757878",
+      "url": "https://x.com/ValsAI/status/2041922041444757878",
+      "createdAt": "2026-04-08T16:52:06.000Z",
+      "text": "A year after Llama 4, Meta is back at the frontier. Muse Spark’s strength isn’t isolated to one benchmark: it’s showing broad strength across hard evals (TaxEval SOTA and top placements on agentic finance and overall index). It also places 3rd on Terminal Bench 2, making it a",
+      "wordCount": 48
+    },
+    {
+      "id": "2041922037745381389",
+      "url": "https://x.com/ValsAI/status/2041922037745381389",
+      "createdAt": "2026-04-08T16:52:05.000Z",
+      "text": "Meta just released a frontier model, Muse Spark- it takes the #3 spot on our Vals Index.",
+      "wordCount": 17
+    },
+    {
+      "id": "2041921282879713692",
+      "url": "https://x.com/magpie_rayhou/status/2041921282879713692",
+      "createdAt": "2026-04-08T16:49:05.000Z",
+      "text": "We are releasing our new model muse spark today - our first step towards personal super-intelligence after 9 month great team effort! Please try it out and tell us what you think!",
+      "wordCount": 32
+    },
+    {
+      "id": "2041920966524035414",
+      "url": "https://x.com/bridgemindai/status/2041920966524035414",
+      "createdAt": "2026-04-08T16:47:50.000Z",
+      "text": "Muse Spark just launched and it's already #6 on the Artificial Analysis Coding Index. Day one. Sitting right behind GPT 5.4, Gemini 3.1 Pro, Claude Sonnet 4.6, and Claude Opus 4.6. Ahead of GLM 5.1, Qwen 3.6 Plus, MiniMax M2.7, and Grok 4.20. Meta went from irrelevant in",
+      "wordCount": 48
+    },
+    {
+      "id": "2041920954755117349",
+      "url": "https://x.com/andrew_n_carr/status/2041920954755117349",
+      "createdAt": "2026-04-08T16:47:47.000Z",
+      "text": "VERY nice gif showing different RL response length regimes Kudos @AIatMeta team",
+      "wordCount": 12
+    },
+    {
+      "id": "2041920794041970721",
+      "url": "https://x.com/EdwardSun0909/status/2041920794041970721",
+      "createdAt": "2026-04-08T16:47:09.000Z",
+      "text": "Excited to share Muse Spark, the first model from whole team’s work in MSL! It’s natively multimodal and agentic. I’ve been using it for my daily coding and research tasks. Still plenty of room to improve in agentic domains, but we’re moving with great velocity. It’s a",
+      "wordCount": 47
+    },
+    {
+      "id": "2041920570426822979",
+      "url": "https://x.com/RylanSchaeffer/status/2041920570426822979",
+      "createdAt": "2026-04-08T16:46:15.000Z",
+      "text": "TBD & MSL's velocity has been insane. Amazed by what the team has already built, and how quickly we're accelerating!",
+      "wordCount": 20
+    },
+    {
+      "id": "2041920462469656668",
+      "url": "https://x.com/rsumbaly/status/2041920462469656668",
+      "createdAt": "2026-04-08T16:45:49.000Z",
+      "text": "Say hi to Muse - Meta Superintelligence Lab's new foundation model series. Today we're releasing the first model Spark . Lots of goodness in this natively multimodal reasoning model that does well on several agentic and knowledge tasks. And it is available on",
+      "wordCount": 43
+    },
+    {
+      "id": "2041919790567322097",
+      "url": "https://x.com/hwchung27/status/2041919790567322097",
+      "createdAt": "2026-04-08T16:43:09.000Z",
+      "text": "We are releasing Muse Spark today. This is the first milestone from our scaling process at Meta Superintelligence Lab. Building from scratch was a humbling experience for me. It surfaced many things I thought I had already internalized. But it was worth it: a strong foundation",
+      "wordCount": 46
+    },
+    {
+      "id": "2041917165469839722",
+      "url": "https://x.com/pitdesi/status/2041917165469839722",
+      "createdAt": "2026-04-08T16:32:43.000Z",
+      "text": "It's really good, actually! Meta got their act together. New contender for America's Next Top Model I tested it against my last several Claude queries, and the Meta answers were better in my limited test. Stock up 8%. https://meta.ai",
+      "wordCount": 39
+    },
+    {
+      "id": "2041916401775268174",
+      "url": "https://x.com/mattdeitke/status/2041916401775268174",
+      "createdAt": "2026-04-08T16:29:41.000Z",
+      "text": "Grounding has shipped to prod. It's great for understanding explaining and understanding things better!",
+      "wordCount": 14
+    },
+    {
+      "id": "2041915503795671056",
+      "url": "https://x.com/mattdeitke/status/2041915503795671056",
+      "createdAt": "2026-04-08T16:26:07.000Z",
+      "text": "Excited to share Muse Spark! It's a strong natively multimodal model with many surprising properties that emerged. Here, the model is able to use Python tools to make a playable Sudoku game on the web from an image input of the board.",
+      "wordCount": 42
+    },
+    {
+      "id": "2041913529033486468",
+      "url": "https://x.com/jhyuxm/status/2041913529033486468",
+      "createdAt": "2026-04-08T16:18:16.000Z",
+      "text": "Happy to share Muse Spark, a natively multimodal reasoning model w/ tool-use, visual chain of thought, and multi-agent orchestration! It’s been a fulfilling journey not just building the model, but the team and culture behind it. Now live in product. https:// ai.meta.com/blog/introduci ng-muse-spark-msl/ …",
+      "wordCount": 44
+    },
+    {
+      "id": "2041913147842556390",
+      "url": "https://x.com/ananyaku/status/2041913147842556390",
+      "createdAt": "2026-04-08T16:16:46.000Z",
+      "text": "1/ It’s been so fun working with @shengjia_zhao, @alexandr_wang and the team to build muse spark from scratch. It is early and has rough edges, but excited to continue our research velocity. I especially love that we’re doubling down on the fundamental science. We’re focused on",
+      "wordCount": 46
+    },
+    {
+      "id": "2041913097968103636",
+      "url": "https://x.com/alexandr_wang/status/2041913097968103636",
+      "createdAt": "2026-04-08T16:16:34.000Z",
+      "text": "9/ this is MSL's first model and there are certainly rough edges we will polish over time in model behavior. regardless—we are excited for everyone to try it!",
+      "wordCount": 28
+    },
+    {
+      "id": "2041913045749002694",
+      "url": "https://x.com/ArtificialAnlys/status/2041913045749002694",
+      "createdAt": "2026-04-08T16:16:21.000Z",
+      "text": "Muse Spark is notably token efficient for its intelligence level. It used 58M output tokens to run the Intelligence Index, comparable to Gemini 3.1 Pro Preview (57M) and notably lower than Claude Opus 4.6 (Adaptive Reasoning, max effort, 157M), GPT-5.4 (xhigh, 120M) and GLM-5",
+      "wordCount": 44
+    },
+    {
+      "id": "2041913043379220801",
+      "url": "https://x.com/ArtificialAnlys/status/2041913043379220801",
+      "createdAt": "2026-04-08T16:16:21.000Z",
+      "text": "Meta is back! Muse Spark scores 52 on the Artificial Analysis Intelligence Index, behind only Gemini 3.1 Pro, GPT-5.4, and Claude Opus 4.6. Muse Spark is the first new release since Llama 4 in April 2025 and also Meta's first release that is not open weights Muse Spark is a new",
+      "wordCount": 51
+    },
+    {
+      "id": "2041911766586945770",
+      "url": "https://x.com/matthuang/status/2041911766586945770",
+      "createdAt": "2026-04-08T16:11:16.000Z",
+      "text": "Meta is back in the game! It's been fun to test out Muse Spark. Beyond benchmarks, it's actually a good day to day model... surprisingly good at technical problems and making arcade games. Never bet against @alexandr_wang @natfriedman @danielgross",
+      "wordCount": 39
+    },
+    {
+      "id": "2041910285653737975",
+      "url": "https://x.com/AIatMeta/status/2041910285653737975",
+      "createdAt": "2026-04-08T16:05:23.000Z",
+      "text": "Introducing Muse Spark, the first in the Muse family of models developed by Meta Superintelligence Labs. Muse Spark is a natively multimodal reasoning model with support for tool-use, visual chain of thought, and multi-agent orchestration. Muse Spark is available today at",
+      "wordCount": 41
+    },
+    {
+      "id": "2041909390241100113",
+      "url": "https://x.com/alexandr_wang/status/2041909390241100113",
+      "createdAt": "2026-04-08T16:01:50.000Z",
+      "text": "8/ read more about our research and muse spark here:",
+      "wordCount": 10
+    },
+    {
+      "id": "2041909376508985381",
+      "url": "https://x.com/alexandr_wang/status/2041909376508985381",
+      "createdAt": "2026-04-08T16:01:46.000Z",
+      "text": "1/ today we're releasing muse spark, the first model from MSL. nine months ago we rebuilt our ai stack from scratch. new infrastructure, new architecture, new data pipelines. muse spark is the result of that work, and now it powers meta ai.",
+      "wordCount": 42
+    },
+    {
+      "id": "2041909050728931581",
+      "url": "https://x.com/shengjia_zhao/status/2041909050728931581",
+      "createdAt": "2026-04-08T16:00:29.000Z",
+      "text": "Excited to share what we’ve been building at Meta Superintelligence Labs! We just released Muse Spark, our first AI model. It's a natively multimodal reasoning model and the first step on our path to personal superintelligence. We've overhauled our entire stack to support",
+      "wordCount": 43
+    },
+    {
+      "id": "2041901262594101497",
+      "url": "https://x.com/testingcatalog/status/2041901262594101497",
+      "createdAt": "2026-04-08T15:29:32.000Z",
+      "text": "Cyberpunk robot SVG from a newly released Muse Spark from Meta. Not bad",
+      "wordCount": 13
+    },
+    {
+      "id": "2024738010772775274",
+      "url": "https://x.com/alexandr_wang/status/2024738010772775274",
+      "createdAt": "2026-02-20T06:48:54.000Z",
+      "text": "I had an amazing first time in India, and the momentum of the country is undeniable!",
+      "wordCount": 16
+    },
+    {
+      "id": "2024553129283580197",
+      "url": "https://x.com/alexandr_wang/status/2024553129283580197",
+      "createdAt": "2026-02-19T18:34:15.000Z",
+      "text": "Thank you President Macron for a constructive dialogue. Our FAIR office in Paris has been an important part of our AI efforts, and we’re excited to keep building there. France continues to have much to offer for the development of AI and I look forward to continuing to work with",
+      "wordCount": 50
+    },
+    {
+      "id": "2018034713102102773",
+      "url": "https://x.com/alexandr_wang/status/2018034713102102773",
+      "createdAt": "2026-02-01T18:52:23.000Z",
+      "text": "the best part about moltbook/openclaw is that even AI will adhere to the carcinization theory nature always wants another crab",
+      "wordCount": 20
+    },
+    {
+      "id": "2007189007751622676",
+      "url": "https://x.com/alexandr_wang/status/2007189007751622676",
+      "createdAt": "2026-01-02T20:35:25.000Z",
+      "text": "a master class on the physics of language models by FAIR's @ZeyuanAllenZhu",
+      "wordCount": 12
+    },
+    {
+      "id": "2006413001293750738",
+      "url": "https://x.com/alexandr_wang/status/2006413001293750738",
+      "createdAt": "2025-12-31T17:11:51.000Z",
+      "text": "new @scale_AI era loaded - q4 was our biggest quarter ever - US gov business growing faster than ever - data business = profitable - multiple 9 figure enterprise + gov deals",
+      "wordCount": 32
+    },
+    {
+      "id": "2005766785237410107",
+      "url": "https://x.com/alexandr_wang/status/2005766785237410107",
+      "createdAt": "2025-12-29T22:24:01.000Z",
+      "text": "Fun fact: Manus is currently SOTA on the Remote Labor Index (RLI) benchmark that @scale_AI and @cais released earlier this year. https:// remotelabor.ai",
+      "wordCount": 23
+    },
+    {
+      "id": "2005766469771223106",
+      "url": "https://x.com/alexandr_wang/status/2005766469771223106",
+      "createdAt": "2025-12-29T22:22:46.000Z",
+      "text": "Excited to announce that @ManusAI has joined Meta to help us build amazing AI products! The Manus team in Singapore are world class at exploring the capability overhang of today’s models to scaffold powerful agents. Looking forward to working with you, @Red_Xiao_ !",
+      "wordCount": 43
+    },
+    {
+      "id": "2005766471516053736",
+      "url": "https://x.com/alexandr_wang/status/2005766471516053736",
+      "createdAt": "2025-12-29T22:22:46.000Z",
+      "text": "Also, MSL is hiring in Singapore! We already have some amazing researchers and engineers there, buoyed now by the 100-strong Manus team, and we’re growing fast. Feel free to DM with a resumé if interested!",
+      "wordCount": 35
+    },
+    {
+      "id": "2001217783497945140",
+      "url": "https://x.com/alexandr_wang/status/2001217783497945140",
+      "createdAt": "2025-12-17T09:07:55.000Z",
+      "text": "it’s true, i can code nyt didn’t fact check that one",
+      "wordCount": 11
+    },
+    {
+      "id": "2001007970210218381",
+      "url": "https://x.com/alexandr_wang/status/2001007970210218381",
+      "createdAt": "2025-12-16T19:14:11.000Z",
+      "text": "new open model release out of MSL: SAM Audio check it out!",
+      "wordCount": 12
+    },
+    {
+      "id": "1991216034666389919",
+      "url": "https://x.com/alexandr_wang/status/1991216034666389919",
+      "createdAt": "2025-11-19T18:44:32.000Z",
+      "text": "We also dropped SAM 3D, two state-of-the art models that enable 3D reconstruction of objects and humans from a single image",
+      "wordCount": 21
+    },
+    {
+      "id": "1991198465628459494",
+      "url": "https://x.com/alexandr_wang/status/1991198465628459494",
+      "createdAt": "2025-11-19T17:34:43.000Z",
+      "text": "Today we are releasing & open-sourcing Segment Anything 3 (SAM 3). It is a state-of-the-art model for image & video segmentation, and builds upon the work of SAM & SAM 2. SAM3 will also power features in Edits, Meta AI, & Facebook Marketplace soon.",
+      "wordCount": 44
+    },
+    {
+      "id": "1987976458422415767",
+      "url": "https://x.com/alexandr_wang/status/1987976458422415767",
+      "createdAt": "2025-11-10T20:11:37.000Z",
+      "text": "Meta Omnilingual ASR expands speech recognition to 1,600+ languages, including 500 never before supported, as a major step towards truly universal AI. We are open-sourcing a full suite of models and a dataset: https:// github.com/facebookresear ch/omnilingual-asr …",
+      "wordCount": 37
+    }
+  ]
+}
