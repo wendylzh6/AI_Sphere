@@ -7,7 +7,7 @@ import SentimentEvolutionChart from './components/SentimentEvolutionChart';
 import TopicChips from './components/TopicChips';
 import { INITIAL_DATA, LAST_UPDATED } from './constants';
 import { GraphData, GraphLink, GraphNode, SentimentScores } from './types';
-import { analyzeSentiment } from './services/geminiService';
+import { sentimentScores as STATIC_SENTIMENT } from './data/sentimentScores';
 import { X as XIcon, ChevronLeft, ChevronRight, Menu, Search, HelpCircle } from 'lucide-react';
 
 export default function App() {
@@ -26,8 +26,6 @@ export default function App() {
 
   // Sentiment Analysis State
   const [sentimentScores, setSentimentScores] = useState<SentimentScores | null>(null);
-  const [sentimentLoading, setSentimentLoading] = useState(false);
-  const sentimentCache = useRef<Map<string, SentimentScores>>(new Map());
 
   // Refs for scrolling
   const listContainerRef = useRef<HTMLDivElement>(null);
@@ -137,26 +135,13 @@ export default function App() {
     }
   }, [selectedNode]);
 
-  // Fetch sentiment when a node is selected
+  // Look up pre-scored sentiment when a node is selected
   useEffect(() => {
     if (!selectedNode) {
       setSentimentScores(null);
       return;
     }
-    const cached = sentimentCache.current.get(selectedNode.id);
-    if (cached) {
-      setSentimentScores(cached);
-      return;
-    }
-    setSentimentScores(null);
-    setSentimentLoading(true);
-    analyzeSentiment(selectedNode).then(scores => {
-      setSentimentLoading(false);
-      if (scores) {
-        sentimentCache.current.set(selectedNode.id, scores);
-        setSentimentScores(scores);
-      }
-    });
+    setSentimentScores(STATIC_SENTIMENT[selectedNode.id] ?? null);
   }, [selectedNode?.id]);
 
   // Per-node connection counts used in the X snapshot card (Network links stat).
@@ -386,25 +371,12 @@ export default function App() {
 
                 {/* Row 4 — AI Sentiment (Gemini) */}
                 <div className="bg-[#090A10]/95 backdrop-blur-xl border border-white/10 rounded-xl shadow-2xl pointer-events-auto px-3 py-2">
-                  <div className="flex items-center justify-between mb-2">
-                    <div className="flex items-center gap-2">
-                      <h3 className="text-sm font-semibold text-white">AI Sentiment</h3>
-                      <span className="text-[9px] font-semibold text-indigo-400 bg-indigo-500/10 border border-indigo-500/20 px-1.5 py-0.5 rounded-full">Gemini</span>
-                    </div>
-                    {sentimentLoading && (
-                      <div className="flex items-center gap-1.5">
-                        <div className="w-1.5 h-1.5 rounded-full bg-indigo-400 animate-bounce" style={{ animationDelay: '0ms' }} />
-                        <div className="w-1.5 h-1.5 rounded-full bg-indigo-400 animate-bounce" style={{ animationDelay: '150ms' }} />
-                        <div className="w-1.5 h-1.5 rounded-full bg-indigo-400 animate-bounce" style={{ animationDelay: '300ms' }} />
-                      </div>
-                    )}
+                  <div className="flex items-center gap-2 mb-2">
+                    <h3 className="text-sm font-semibold text-white">AI Sentiment</h3>
+                    <span className="text-[9px] font-semibold text-indigo-400 bg-indigo-500/10 border border-indigo-500/20 px-1.5 py-0.5 rounded-full">Gemini</span>
                   </div>
 
-                  {sentimentLoading && !sentimentScores && (
-                    <p className="text-xs text-slate-500 italic">Analyzing profile…</p>
-                  )}
-
-                  {sentimentScores && (
+                  {sentimentScores ? (
                     <>
                       {/* AI Trends badge */}
                       <div className="flex items-center gap-2 mb-3">
@@ -420,36 +392,14 @@ export default function App() {
                         </span>
                       </div>
 
-                      <SentimentBar
-                        label="Regulation"
-                        value={sentimentScores.regulation}
-                        leftLabel="Against"
-                        rightLabel="Pro"
-                      />
-                      <SentimentBar
-                        label="AI Usage"
-                        value={sentimentScores.usage}
-                        leftLabel="Restrictive"
-                        rightLabel="Enthusiastic"
-                      />
-                      <SentimentBar
-                        label="Trust vs. Risk"
-                        value={sentimentScores.trust}
-                        leftLabel="High Risk"
-                        rightLabel="High Trust"
-                      />
-                      <SentimentBar
-                        label="AI Agents"
-                        value={sentimentScores.agent}
-                        leftLabel="Skeptical"
-                        rightLabel="Bullish"
-                      />
-                      <p className="text-[10px] text-slate-600 mt-2 italic">Inferred from bio & focus areas via Gemini</p>
+                      <SentimentBar label="Regulation"    value={sentimentScores.regulation} leftLabel="Against"     rightLabel="Pro"          />
+                      <SentimentBar label="AI Usage"      value={sentimentScores.usage}      leftLabel="Restrictive" rightLabel="Enthusiastic" />
+                      <SentimentBar label="Trust vs. Risk" value={sentimentScores.trust}     leftLabel="High Risk"   rightLabel="High Trust"   />
+                      <SentimentBar label="AI Agents"     value={sentimentScores.agent}      leftLabel="Skeptical"   rightLabel="Bullish"      />
+                      <p className="text-[10px] text-slate-600 mt-2 italic">Scored from tweets via Gemini</p>
                     </>
-                  )}
-
-                  {!sentimentLoading && !sentimentScores && (
-                    <p className="text-xs text-slate-500 italic">No API key configured for sentiment analysis.</p>
+                  ) : (
+                    <p className="text-xs text-slate-500 italic">No sentiment data available.</p>
                   )}
                 </div>
 
