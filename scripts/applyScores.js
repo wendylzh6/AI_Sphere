@@ -9,6 +9,9 @@
  *
  * Dry run (preview changes without writing):
  *   node scripts/applyScores.js --dry-run
+ *
+ * Limit to specific person ids:
+ *   node scripts/applyScores.js --ids=person1,person2
  */
 
 import fs from 'fs';
@@ -19,6 +22,10 @@ const __dirname   = path.dirname(fileURLToPath(import.meta.url));
 const SCORES_PATH = path.join(__dirname, 'sentimentOutput.json');
 const HTML_PATH   = path.join(__dirname, '..', 'preview.html');
 const DRY_RUN     = process.argv.includes('--dry-run');
+const IDS_ARG     = process.argv.find(arg => arg.startsWith('--ids='));
+const ONLY_IDS    = IDS_ARG
+  ? new Set(IDS_ARG.slice('--ids='.length).split(',').map(id => id.trim()).filter(Boolean))
+  : null;
 
 if (!fs.existsSync(SCORES_PATH)) {
   console.error('sentimentOutput.json not found — run scoreSentiment.js first');
@@ -32,6 +39,7 @@ let patchCount = 0;
 let skipCount  = 0;
 
 for (const [personId, result] of Object.entries(scores)) {
+  if (ONLY_IDS && !ONLY_IDS.has(personId)) continue;
   if (!result) { skipCount++; continue; }
 
   const { sentiment, topics } = result;
