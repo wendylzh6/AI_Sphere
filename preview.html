@@ -1381,6 +1381,12 @@
     // Only show dims that actually changed meaningfully at this transition
     const changedDims = dims.filter(d => Math.abs(after[d.key] - before[d.key]) >= THRESHOLD);
 
+    if (changedDims.length === 0) {
+      container.innerHTML = '';
+      document.getElementById('sentiment-evolution-card').classList.add('hidden');
+      return;
+    }
+
     // Helper: value → short text label
     function valLabel(d, v) {
       if (v >=  0.5) return d.right;
