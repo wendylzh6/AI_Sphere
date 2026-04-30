@@ -130,6 +130,59 @@ export const linkedinExtras: Record<string, LinkedInExtra> = {
 };
 
 // ─────────────────────────────────────────────────────────────────────────────
+// LinkedIn headline bios (shown on the LinkedIn snapshot card)
+// ─────────────────────────────────────────────────────────────────────────────
+
+export const linkedinBios: Record<string, string> = {
+  satyanadella:    'Chairman and CEO at Microsoft',
+  levie:           'CEO at Box - Intelligent Content Management',
+  karpathy:        "(Former) Director of AI at Tesla, OpenAI, PhD @ Stanford. I don't use or check my LinkedIn, I only have an account for searching/hiring. Please use my X/email to contact.",
+  brian_armstrong: 'Co-founder & CEO at Coinbase',
+  andrewyng:       'DeepLearning.AI, AI Fund and AI Aspire',
+  ylecun:          'Executive Chairman, AMI Labs - Prof NYU',
+  gdb:             'President, Chairman, & Co-Founder',
+  demishassabis:   'Co-Founder & CEO, Google DeepMind',
+  palmerluckey:    'Founder',
+  fchollet:        'AI, etc.',
+  ilyasut:         'Co-Founder and Chief Scientist at Safe Superintelligence Inc',
+  drfeifei:        'Cofounder/CEO, World Labs; AI Researcher & Professor, Stanford University; Co-Director, Stanford Human-Centered AI Institute; Author ("The Worlds I See")',
+  paraga:          'Founder at Parallel. Previously, CEO/CTO at Twitter.',
+  _akhaliq:        'ML @ Hugging Face',
+  austen:          'Founder @ Gauntlet AI 🛡️',
+  miramurati:      'Co-Founder and CEO at Thinking Machines Lab',
+  jeffdean:        'Chief Scientist, Google DeepMind and Google Research, and Gemini overall co-technical lead',
+  rasbt:           'ML/AI research engineer. Author of Build a Large Language Model From Scratch (amzn.to/4fqvn0D) and Ahead of AI (magazine.sebastianraschka.com), on how LLMs work and the latest developments in the field.',
+  hardmaru:        'Co-Founder & CEO, Sakana AI 🎏',
+  alexandr_wang:   'founder CEO at Scale AI',
+  addyosmani:      'Director, Google Cloud AI. Best-selling Author. Speaker. AI, DX, UX. I want to see you win.',
+  goodfellow_ian:  'AI Startup Founder',
+  drjimfan:        "NVIDIA Director of AI & Distinguished Scientist. Co-Lead of Project GR00T (Humanoid Robotics) & GEAR Lab. Stanford Ph.D. OpenAI's first intern. Solving Physical AGI, one motor at a time.",
+  minchoi:         'Principal Infrastructure & Solutions Architect - Platform & AI | Artificial Intelligence (AI), Cloud, DevSecOps',
+  deryatr_:        'Professor at The Jackson Laboratory',
+  emostaque:       'Founder',
+  sriramk:         'Senior Policy Advisor for AI, White House.',
+  omarsar0:        'Lead of Developer Experience at Google DeepMind',
+  soumithchintala: 'CTO @ Thinking Machines. Co-founder PyTorch.',
+  officiallogank:  'Member of Technical Staff',
+  jeremyphoward:   'Deep learning @ Answer.AI, fast.ai and University of Queensland',
+  tunguz:          'Machine Learning Modeler | Physicist | Quadruple Kaggle Grandmaster',
+  bcherny:         "Creator & Head of Claude Code @Anthropic. Prev: Principal Engineer @Meta. Author, OReilly's Programming TypeScript",
+  mustafasuleyman: 'CEO, Microsoft AI',
+  gavinsbaker:     'CIO & Managing Partner at Atreides Management, LP',
+  esyudkowsky:     '--',
+  yacinemtb:       'Staff Software Engineer',
+  oriolvinyalsml:  'VP of Research, Gemini Technical Lead at Google DeepMind',
+  clementdelangue: 'Co-founder & CEO at Hugging Face',
+  aelluswamy:      'VP - Autopilot / AI Software at Tesla',
+  schmidhuberai:   '1990-91: linear Transformer, GAN, artificial curiosity & creativity, neural net distillation, very deep learning, world models. 1987-: meta learning. 2011: superhuman CNN. Our AI is used many billions of times every day.',
+  goodside:        'Formerly at Google DeepMind',
+  mitchellh:       'Prev: Co-founder of HashiCorp. Created popular tools like Vagrant, Terraform, Vault, Ghostty.',
+  darioamodei:     'CEO and Co-Founder at Anthropic',
+  arankomatsuzaki: "ML research & startup. I'm active on X!",
+  chrmanning:      'Thomas M. Siebel Professor, Stanford University; General Partner and Investment Partner, AIX Ventures; Distinguished Member of the Technical Staff, Moonlake AI',
+};
+
+// ─────────────────────────────────────────────────────────────────────────────
 // Career history (newest → oldest)
 // ─────────────────────────────────────────────────────────────────────────────
 

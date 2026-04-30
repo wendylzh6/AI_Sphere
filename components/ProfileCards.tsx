@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import { BadgeCheck, Building2, MapPin, X as XIcon } from 'lucide-react';
 import { GraphNode } from '../types';
-import { linkedinExtras, linkedinSlugFromUrl, linkedinUrls } from '../data/profileExtras';
+import { linkedinBios, linkedinExtras, linkedinSlugFromUrl, linkedinUrls } from '../data/profileExtras';
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Helpers
@@ -236,8 +236,8 @@ export function LinkedInProfileCard({ node, onClose }: LinkedInProfileCardProps)
         </div>
 
         {/* Bio */}
-        {node.bio && (
-          <p className="text-xs text-slate-300 leading-relaxed mb-2 line-clamp-4">{node.bio}</p>
+        {(linkedinBios[node.id] || node.bio) && (
+          <p className="text-xs text-slate-300 leading-relaxed mb-2 line-clamp-4">{linkedinBios[node.id] || node.bio}</p>
         )}
 
         {/* Stats */}
