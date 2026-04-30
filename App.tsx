@@ -144,12 +144,19 @@ export default function App() {
     setSentimentScores(STATIC_SENTIMENT[selectedNode.id] ?? null);
   }, [selectedNode?.id]);
 
-  // Per-node connection counts — outgoing only (people they follow)
+  // Per-node connection counts — unique undirected pairs
+  // (A→B and B→A both exist = 1 connection, not 2)
   const connectionCountMap = useMemo(() => {
+    const pairsSeen = new Set<string>();
     const map = new Map<string, number>();
     data.links.forEach((link: GraphLink) => {
       const s = typeof link.source === 'object' ? (link.source as any).id : link.source;
+      const t = typeof link.target === 'object' ? (link.target as any).id : link.target;
+      const key = [s, t].sort().join('|');
+      if (pairsSeen.has(key)) return;
+      pairsSeen.add(key);
       map.set(s, (map.get(s) || 0) + 1);
+      map.set(t, (map.get(t) || 0) + 1);
     });
     return map;
   }, [data]);
