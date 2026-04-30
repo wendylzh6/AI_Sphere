@@ -1401,7 +1401,7 @@
       document.getElementById('card-li-name').textContent        = p.name;
       document.getElementById('card-li-headline').textContent    = p.role;
       document.getElementById('card-li-company-text').textContent= p.associated;
-      document.getElementById('card-li-bio').textContent         = p.bio;
+      document.getElementById('card-li-bio').textContent         = p.liBio || p.bio;
       document.getElementById('card-li-connections').textContent = extra.connections || '500+';
       document.getElementById('card-li-location').textContent    = extra.location    || '—';
       document.getElementById('card-li-btn').href                = liUrl;

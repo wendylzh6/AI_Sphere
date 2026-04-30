@@ -235,7 +235,7 @@ export function LinkedInProfileCard({ node, onClose }: LinkedInProfileCardProps)
           </div>
         </div>
 
-        {/* Bio */}
+        {/* LinkedIn bio */}
         {(linkedinBios[node.id] || node.bio) && (
           <p className="text-xs text-slate-300 leading-relaxed mb-2 line-clamp-4">{linkedinBios[node.id] || node.bio}</p>
         )}
