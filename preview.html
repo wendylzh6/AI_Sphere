@@ -1858,74 +1858,113 @@
     const MODEL_NAME = "gemini-2.5-flash";
     const API_KEY_STORAGE = "aisphere_gemini_api_key";
 
+    // Build data context from the people/links/careerHistory arrays
+    function fmtFollowers(n) {
+      if (n >= 1e6) return (n/1e6).toFixed(1).replace(/\.0$/,'') + 'M';
+      if (n >= 1e3) return (n/1e3).toFixed(1).replace(/\.0$/,'') + 'K';
+      return String(n);
+    }
+    function sentLabel(v) {
+      if (v >= 0.5) return 'strongly positive';
+      if (v >= 0.2) return 'positive';
+      if (v > -0.2) return 'neutral';
+      if (v > -0.5) return 'negative';
+      return 'strongly negative';
+    }
+    const catLabels = {founder:'Founder / Builder', researcher:'Researcher / Academia', investor:'Investor'};
+
+    function buildDataContext() {
+      const connMap = {};
+      rawLinks.forEach(l => {
+        const s = l.source.trim(), t = l.target.trim();
+        if (!connMap[s]) connMap[s] = [];
+        connMap[s].push(t);
+      });
+      const nameById = {};
+      people.forEach(p => nameById[p.id] = p.name);
+      const sorted = [...people].sort((a,b) => (b.followers||0) - (a.followers||0));
+      const lines = [];
+      sorted.forEach((p, idx) => {
+        const parts = [];
+        parts.push('#' + (idx+1) + ' ' + p.name + ' (@' + p.handle + ')');
+        parts.push('Category: ' + (catLabels[p.group] || p.group));
+        parts.push('Role: ' + (p.role || 'N/A'));
+        if (p.bio) parts.push('Bio: ' + p.bio);
+        if (p.followers != null) parts.push('Followers: ' + fmtFollowers(p.followers) + ' (' + p.followers.toLocaleString() + ')');
+        if (p.bioTags && p.bioTags.length) parts.push('Focus areas: ' + p.bioTags.join(', '));
+        const li = liExtra[p.id];
+        if (li) parts.push('LinkedIn: ' + li.connections + ' connections, ' + li.location);
+        if (p.sentiment) {
+          const s = p.sentiment;
+          parts.push('AI Sentiment — Outlook: ' + s.trends +
+            ', Regulation: ' + sentLabel(s.regulation) + ' (' + s.regulation + ')' +
+            ', AI Usage: ' + sentLabel(s.usage) + ' (' + s.usage + ')' +
+            ', Trust: ' + sentLabel(s.trust) + ' (' + s.trust + ')' +
+            ', AI Agents: ' + sentLabel(s.agent) + ' (' + s.agent + ')');
+        }
+        const career = careerHistory[p.id];
+        if (career && career.length) {
+          parts.push('Career: ' + career.map(s => s.r + ' at ' + s.c + ' (' + s.y + ')').join(' → '));
+        }
+        const follows = connMap[p.id];
+        if (follows && follows.length) {
+          parts.push('Follows (in network): ' + follows.map(id => nameById[id] || id).join(', '));
+        }
+        const followedBy = [];
+        Object.keys(connMap).forEach(src => {
+          if (connMap[src].includes(p.id)) followedBy.push(nameById[src] || src);
+        });
+        if (followedBy.length) parts.push('Followed by (in network): ' + followedBy.join(', '));
+        lines.push(parts.join('\n'));
+      });
+      return 'NETWORK STATS: ' + sorted.length + ' influencers, ' + rawLinks.length + ' follow-links.\n\n' + lines.join('\n\n');
+    }
+
+    const DATA_BLOCK = buildDataContext();
+
     const APP_CONTEXT = `
 You are "${BOT_NAME}", a friendly, concise in-app assistant embedded
-inside the AI Sphere preview page. Your job is to help users understand
-and use AI Sphere. Always stay on-topic; if a user asks something
-unrelated, politely redirect them back to the app. If someone asks your
-name, say it is ${BOT_NAME}.
+inside the AI Sphere preview page. You have COMPLETE knowledge of every
+influencer in the app — their follower counts, bios, career histories,
+sentiment scores, who they follow, and who follows them. Answer data
+questions directly and accurately using the data below. Always stay
+on-topic; if a user asks something unrelated, politely redirect them
+back to the app. If someone asks your name, say it is ${BOT_NAME}.
 
 === ABOUT THE APP ===
 Name: AI Sphere (preview page)
 One-line pitch: An interactive 2D/3D map of the top AI influencers on X
 (Twitter) — explore who they are, what they do, and how they're
 connected.
-Target users: Anyone trying to navigate the AI community on X — newcomers
-who want to figure out which accounts to follow, and existing users who
-want to visualize the AI ecosystem.
-
-=== CORE EXPERIENCE (this preview) ===
-The preview shows the top ~50 individuals as a force-directed graph
-(powered by D3). Node color = category. Clicking a node highlights its
-connections and opens a detail card on the right with an AI Sentiment
-Analysis panel.
 
 === UI LAYOUT ===
-- Left sidebar ("Top AI Influencers on X"): ranked list of ~50 individuals
-  with a search box (search by name, handle, or role). Footer reads
-  "Created by WoW".
+- Left sidebar: ranked list of ~50 individuals with a search box.
 - Main area: the force-directed graph of people and follows.
-- Floating detail card (top-right, appears when a node is selected):
-  X snapshot + LinkedIn snapshot side by side, followed by Sentiment
-  Shift Across Career, Career Mobility timeline, AI Sentiment panel
-  (Regulation, AI Usage, Trust vs. Risk, AI Agents + optimistic /
-  pessimistic / neutral outlook, inferred via Gemini), and AI Topics
-  they follow.
-- Legend (bottom-right, above the chatbot button): color key for
-  Founder / Builder (blue), Researcher / Academia (purple),
-  Investor (green). Click a legend item to filter the graph and list
-  by that category; a "Clear filter" link appears while a filter is
-  active. A Methodology button below opens a modal explaining how the
-  shortlist is curated.
+- Floating detail card (top-right): X snapshot + LinkedIn, Sentiment
+  Shift Across Career, Career Mobility, AI Sentiment panel, AI Topics.
+- Legend (bottom-right): Founder / Builder (blue), Researcher / Academia
+  (purple), Investor (green). Click to filter.
 
-=== KEY WORKFLOWS ===
-1. Find an influencer: type a name, handle, or role in the left search
-   box, or scroll the ranked list.
-2. See connections: click a node to highlight their follows.
-3. Filter by role: click a category in the legend
-   (Founder / Researcher / Investor); click again or use "Clear filter"
-   to reset.
-4. Check someone's AI stance: select a node; the Sentiment card shows
-   four inferred dimensions + overall outlook.
+=== HOW TO ANSWER DATA QUESTIONS ===
+When users ask about a specific person (followers, career, sentiment,
+connections, etc.), look them up in the INFLUENCER DATABASE below and
+answer with exact data. When they ask comparative questions, scan the
+database. If someone is not in the database, say they're not tracked.
 
-=== COMMON QUESTIONS ===
-Q: What do node colors mean?
-A: Blue = Founder / Builder, Purple = Researcher / Academia,
-Green = Investor.
-
-Q: Is AI Sphere free?
-A: Yes — it's an open project by Jenny (@Jenny_the_Bunny on X).
-
-Q: How is sentiment inferred?
-A: Google's Gemini model reads the person's role, bio, and focus tags
-and returns four -1..+1 scores plus an outlook label. It's an
-inference, not a direct quote.
+For sentiment questions, explain the dimensions:
+- Regulation: -1 (anti-regulation) to +1 (pro-regulation)
+- AI Usage: -1 (restrictive) to +1 (enthusiastic adopter)
+- Trust: -1 (sees high risk in AI) to +1 (high trust in AI safety)
+- AI Agents: -1 (skeptical) to +1 (bullish on AI agents)
 
 === STYLE & TONE ===
 - Friendly, clear, and brief (2–4 short sentences by default).
-- Use bullet points for step-by-step instructions.
-- If you don't know, say so and point the user to @Jenny_the_Bunny on X.
-- Never invent features that aren't listed above.
+- Use bullet points for multi-item answers.
+- When citing numbers, use both short form and exact count.
+- Never invent data that isn't in the database below.
+
+=== INFLUENCER DATABASE ===
+${DATA_BLOCK}
     `.trim();
 
     const fab = document.getElementById('chatbot-fab');
@@ -2012,7 +2051,7 @@ inference, not a direct quote.
           body: JSON.stringify({
             systemInstruction: { parts: [{ text: APP_CONTEXT }] },
             contents: history,
-            generationConfig: { temperature: 0.4, maxOutputTokens: 512 },
+            generationConfig: { temperature: 0.3, maxOutputTokens: 1024 },
           }),
         }
       );
@@ -2069,7 +2108,7 @@ inference, not a direct quote.
       if (!msgsEl.dataset.seeded) {
         addMessage(
           'model',
-          `Hi, I'm ${BOT_NAME} — your guide to AI Sphere. Ask me how to find an influencer, what the colors mean, or how the sentiment analysis works.`
+          `Hi, I'm ${BOT_NAME} — your guide to AI Sphere! I know everything about the ${people.length} influencers in the app. Ask me things like "How many followers does Karpathy have?", "What's Sam Altman's career history?", or "Who follows Elon Musk?"`
         );
         msgsEl.dataset.seeded = '1';
       }
