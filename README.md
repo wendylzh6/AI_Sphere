@@ -4,7 +4,7 @@ An interactive 3D map of the top AI influencers — explore who they are, what t
 
 ## 🌐 Live Site
 
-**[wendylzh6.github.io/AI_Sphere/preview.html](https://wendylzh6.github.io/AI_Sphere/preview.html)**
+**[https://ai-sphere-indol.vercel.app/](https://ai-sphere-indol.vercel.app/)**
 
 ---
 
