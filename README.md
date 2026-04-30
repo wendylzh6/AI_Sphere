@@ -100,3 +100,8 @@ Additional scripts:
 | `npm run build` | Production build to `dist/`. |
 | `npm run typecheck` | Run `tsc --noEmit`. |
 | `npm run fetch-influencers` | Refresh X profile data via RapidAPI. |
+
+---
+
+## Contribution
+Inspired by https://github.com/mit-bunny/AI_Influencers_X
