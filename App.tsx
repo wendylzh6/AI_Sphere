@@ -401,7 +401,7 @@ export default function App() {
                       <SentimentBar label="AI Usage"      value={sentimentScores.usage}      leftLabel="Restrictive" rightLabel="Enthusiastic" />
                       <SentimentBar label="Trust vs. Risk" value={sentimentScores.trust}     leftLabel="High Risk"   rightLabel="High Trust"   />
                       <SentimentBar label="AI Agents"     value={sentimentScores.agent}      leftLabel="Skeptical"   rightLabel="Bullish"      />
-                      <p className="text-[10px] text-slate-600 mt-2 italic">Scored from tweets via Gemini</p>
+                      <p className="text-[10px] text-slate-600 mt-2 italic">Analyzed from X posts · Gemini</p>
                     </>
                   ) : (
                     <p className="text-xs text-slate-500 italic">No sentiment data available.</p>
