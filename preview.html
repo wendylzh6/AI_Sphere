@@ -590,7 +590,7 @@
       {source:'hardmaru        ', target:'arankomatsuzaki'},
       {source:'hardmaru        ', target:'schmidhuber'},
       {source:'hardmaru        ', target:'jeremyhoward'},
-      {source:'hardmaru        ', target:'kazu_fujisawa'},
+      {source:'hardmaru        ', target:'kazufujisawa'},
       {source:'hardmaru        ', target:'minchoi'},
       {source:'alexwang        ', target:'gdb'},
       {source:'alexwang        ', target:'rileygoodside'},
@@ -1634,8 +1634,11 @@
 
     const g = svgSel.append('g').attr('class', 'root');
 
-    const simLinks = links.map(l => ({...l}));
     const simNodes = people.map(p => ({...p}));
+    const nodeIds = new Set(simNodes.map(n => n.id));
+    const simLinks = links
+      .map(l => ({source: l.source.trim(), target: l.target.trim()}))
+      .filter(l => nodeIds.has(l.source) && nodeIds.has(l.target));
 
     simulation = d3.forceSimulation(simNodes)
       .force('link', d3.forceLink(simLinks).id(d => d.id).distance(100).strength(0.35))
