@@ -138,7 +138,7 @@ export function XProfileCard({ node, connectionCount, onClose, showClose }: XPro
           <p className="text-xs text-slate-300 leading-relaxed mb-2 line-clamp-4">{node.bio}</p>
         )}
 
-        {/* Stats + Follow on X inline */}
+        {/* Stats */}
         <div className="flex items-center gap-3 pt-1.5 border-t border-white/5">
           <div className="text-center whitespace-nowrap">
             <div className="font-bold text-white text-sm">{formatFollowers(node.followers)}</div>
@@ -148,18 +148,22 @@ export function XProfileCard({ node, connectionCount, onClose, showClose }: XPro
             <div className="font-bold text-white text-sm">{connectionCount}</div>
             <div className="text-slate-500 text-[10px]">Network links</div>
           </div>
-          {node.handle && (
+        </div>
+
+        {/* Follow on X button — pinned to card bottom */}
+        {node.handle && (
+          <div className="mt-auto pt-1">
             <a
               href={`https://x.com/${node.handle}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="ml-auto inline-flex items-center gap-1 px-2.5 py-1 bg-white hover:bg-white/90 text-black font-semibold text-[10px] rounded-full transition-all whitespace-nowrap"
+              className="inline-flex items-center gap-1 px-2.5 py-1 bg-white hover:bg-white/90 text-black font-semibold text-[10px] rounded-full transition-all"
             >
               <XLogo className="w-2.5 h-2.5" fill="currentColor" />
               Follow on X
             </a>
-          )}
-        </div>
+          </div>
+        )}
       </div>
     </div>
   );
