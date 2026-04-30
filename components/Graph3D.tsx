@@ -382,8 +382,9 @@ const Graph3D: React.FC<Graph3DProps> = ({ data, onNodeClick, onClearSelection, 
     if (!selectedNode) return true;
 
     const sId = typeof link.source === 'object' ? link.source.id : link.source;
+    const tId = typeof link.target === 'object' ? link.target.id : link.target;
 
-    return sId === selectedNode.id;
+    return sId === selectedNode.id || tId === selectedNode.id;
   }, [selectedNode]);
 
   // Link color - dimmer when showing all, brighter for selected node's links
