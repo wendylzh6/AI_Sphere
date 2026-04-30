@@ -107,12 +107,12 @@ export function XProfileCard({ node, connectionCount, onClose, showClose }: XPro
             </h2>
             {node.handle && <div className="text-slate-500 text-xs mb-1 truncate">@{node.handle}</div>}
             {(node.group || node.role) && (
-              <div className="flex items-center gap-1.5 flex-wrap">
-                <span className={`text-[10px] font-semibold px-1.5 py-0.5 rounded-full ${badgeClass}`}>
+              <div className="flex items-center gap-1.5">
+                <span className={`text-[10px] font-semibold px-1.5 py-0.5 rounded-full flex-shrink-0 ${badgeClass}`}>
                   {node.group.charAt(0).toUpperCase() + node.group.slice(1)}
                 </span>
                 {node.role && (
-                  <span className="text-xs text-slate-400 truncate max-w-[160px]">
+                  <span className="text-xs text-slate-400 truncate">
                     {node.role}
                     {node.associated && node.associated !== node.name ? ` · ${node.associated}` : ''}
                   </span>
@@ -140,11 +140,11 @@ export function XProfileCard({ node, connectionCount, onClose, showClose }: XPro
 
         {/* Stats + Follow on X inline */}
         <div className="flex items-center gap-3 pt-1.5 border-t border-white/5">
-          <div className="text-center">
+          <div className="text-center whitespace-nowrap">
             <div className="font-bold text-white text-sm">{formatFollowers(node.followers)}</div>
             <div className="text-slate-500 text-[10px]">Followers</div>
           </div>
-          <div className="text-center">
+          <div className="text-center whitespace-nowrap">
             <div className="font-bold text-white text-sm">{connectionCount}</div>
             <div className="text-slate-500 text-[10px]">Network links</div>
           </div>
@@ -153,7 +153,7 @@ export function XProfileCard({ node, connectionCount, onClose, showClose }: XPro
               href={`https://x.com/${node.handle}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="ml-auto inline-flex items-center gap-1 px-2.5 py-1 bg-white hover:bg-white/90 text-black font-semibold text-[10px] rounded-full transition-all"
+              className="ml-auto inline-flex items-center gap-1 px-2.5 py-1 bg-white hover:bg-white/90 text-black font-semibold text-[10px] rounded-full transition-all whitespace-nowrap"
             >
               <XLogo className="w-2.5 h-2.5" fill="currentColor" />
               Follow on X

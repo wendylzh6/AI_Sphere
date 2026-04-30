@@ -255,13 +255,13 @@
   </div>
 
   <!-- ── FLOATING DETAIL CARD ────────────────────────── -->
-  <div id="detail-card" class="fixed top-4 right-4 w-[420px] max-h-[calc(100vh-90px)] z-50 hidden flex-col gap-2">
+  <div id="detail-card" class="fixed top-6 right-6 w-[420px] max-w-[calc(100vw-48px)] max-h-[calc(100vh-90px)] z-50 hidden flex-col gap-2.5">
 
     <!-- ── ROW 1: X + LinkedIn snapshots side by side ── -->
-    <div class="flex gap-2.5">
+    <div class="flex gap-2.5 items-stretch">
 
       <!-- X Snapshot -->
-      <div class="flex-1 min-w-0 bg-[#090A10]/95 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl overflow-hidden slide-in">
+      <div class="flex-1 min-w-0 bg-[#090A10]/95 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl overflow-hidden slide-in flex flex-col">
         <div id="card-banner" class="h-12 relative">
           <div class="absolute inset-0 bg-gradient-to-t from-[#090A10]/80 to-transparent"></div>
           <!-- X logo (top-left, mirror of LinkedIn card) -->
@@ -273,15 +273,15 @@
             <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
           </button>
         </div>
-        <div class="px-3 pb-3">
+        <div class="px-3 pb-3 flex flex-col flex-1">
           <!-- Name info on left, avatar on right (overflows banner with -mt-6) — matches LinkedIn card -->
           <div class="flex justify-between items-start">
             <div class="mt-2 mb-1.5 flex-1 min-w-0">
               <h2 id="card-name" class="text-base font-bold text-white leading-tight mb-0 truncate"></h2>
               <div id="card-handle" class="text-slate-500 text-xs mb-1 truncate"></div>
-              <div class="flex items-center gap-1.5 flex-wrap">
-                <span id="card-group-badge" class="text-[10px] font-semibold px-1.5 py-0.5 rounded-full"></span>
-                <span id="card-role" class="text-xs text-slate-400 truncate max-w-[150px]"></span>
+              <div class="flex items-center gap-1.5">
+                <span id="card-group-badge" class="text-[10px] font-semibold px-1.5 py-0.5 rounded-full flex-shrink-0"></span>
+                <span id="card-role" class="text-xs text-slate-400 truncate"></span>
               </div>
             </div>
             <div class="relative -mt-6 mb-1.5 ml-2 flex-shrink-0">
@@ -293,16 +293,16 @@
           <p id="card-bio" class="text-xs text-slate-300 leading-relaxed mb-2 line-clamp-4"></p>
           <!-- Stats + Follow button in one row -->
           <div class="flex items-center gap-3 pt-1.5 border-t border-white/5">
-            <div class="text-center">
+            <div class="text-center whitespace-nowrap">
               <div id="card-followers" class="font-bold text-white text-sm"></div>
               <div class="text-slate-500 text-[10px]">Followers</div>
             </div>
-            <div class="text-center">
+            <div class="text-center whitespace-nowrap">
               <div id="card-connections" class="font-bold text-white text-sm"></div>
               <div class="text-slate-500 text-[10px]">Network links</div>
             </div>
             <a id="card-follow" href="#" target="_blank" rel="noopener noreferrer"
-              class="ml-auto inline-flex items-center gap-1 px-2.5 py-1 bg-white hover:bg-white/90 text-black font-semibold text-[10px] rounded-full transition-all flex-shrink-0">
+              class="ml-auto inline-flex items-center gap-1 px-2.5 py-1 bg-white hover:bg-white/90 text-black font-semibold text-[10px] rounded-full transition-all flex-shrink-0 whitespace-nowrap">
               <svg class="w-2.5 h-2.5" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.742l7.737-8.835L1.254 2.25H8.08l4.253 5.622 5.912-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
               Follow on X
             </a>
@@ -311,7 +311,7 @@
       </div>
 
       <!-- LinkedIn Snapshot — hidden entirely when no LinkedIn URL -->
-      <div id="li-card-wrapper" class="flex-1 min-w-0 bg-[#090A10]/95 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl overflow-hidden slide-in" style="animation-delay:0.04s">
+      <div id="li-card-wrapper" class="flex-1 min-w-0 bg-[#090A10]/95 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl overflow-hidden slide-in flex flex-col" style="animation-delay:0.04s">
         <div class="h-12 relative" style="background:linear-gradient(135deg,rgba(10,102,194,0.35),rgba(10,10,25,0.6))">
           <div class="absolute inset-0 bg-gradient-to-t from-[#090A10]/80 to-transparent"></div>
           <div class="absolute top-2 left-3 flex items-center">
@@ -321,7 +321,7 @@
             <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
           </button>
         </div>
-        <div class="px-3 pb-3">
+        <div class="px-3 pb-3 flex flex-col flex-1">
           <!-- Avatar overflows banner with same -mt-6 as X, but on the right -->
           <div class="flex justify-between items-start">
             <div class="mt-2 mb-1.5 flex-1 min-w-0">
@@ -339,7 +339,7 @@
             </div>
           </div>
           <!-- Bio -->
-          <p id="card-li-bio" class="text-[10px] text-slate-300 leading-relaxed mb-2 line-clamp-3"></p>
+          <p id="card-li-bio" class="text-xs text-slate-300 leading-relaxed mb-2 line-clamp-4"></p>
           <!-- Stats -->
           <div class="flex gap-3 pt-1 border-t border-white/5 mb-2">
             <div class="text-center">
@@ -351,11 +351,13 @@
               <div class="text-slate-600 text-[9px]">Location</div>
             </div>
           </div>
-          <a id="card-li-btn" href="#" target="_blank" rel="noopener noreferrer"
-            class="inline-flex items-center gap-1 px-2.5 py-1 bg-[#0A66C2]/20 hover:bg-[#0A66C2]/30 border border-[#0A66C2]/40 text-[#5AAAF0] font-semibold text-[10px] rounded-full transition-all">
-            <svg class="w-2.5 h-2.5" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-            View on LinkedIn
-          </a>
+          <div class="mt-auto pt-1">
+            <a id="card-li-btn" href="#" target="_blank" rel="noopener noreferrer"
+              class="inline-flex items-center gap-1 px-2.5 py-1 bg-[#0A66C2]/20 hover:bg-[#0A66C2]/30 border border-[#0A66C2]/40 text-[#5AAAF0] font-semibold text-[10px] rounded-full transition-all">
+              <svg class="w-2.5 h-2.5" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              View on LinkedIn
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -723,7 +725,7 @@
       {source:'palmerluckey    ', target:'elonmusk'}
     ];
   // Raw string-keyed copy for ID lookups (D3 mutates links[].source/target to objects)
-  const rawLinks = links.map(l => ({source: l.source, target: l.target}));
+  const rawLinks = links.map(l => ({source: l.source.trim(), target: l.target.trim()}));
 
   // ═══════════════════════════════════════════════
   // LINKEDIN URL MAP
@@ -1357,7 +1359,7 @@
 
     const gb = document.getElementById('card-group-badge');
     gb.textContent = p.group.charAt(0).toUpperCase() + p.group.slice(1);
-    gb.className   = `text-[9px] font-semibold px-1.5 py-0.5 rounded-full badge-${p.group}`;
+    gb.className   = `text-[10px] font-semibold px-1.5 py-0.5 rounded-full flex-shrink-0 badge-${p.group}`;
 
     document.getElementById('card-role').textContent = `${p.role} · ${p.associated}`;
     document.getElementById('card-bio').textContent  = p.bio;
@@ -1396,7 +1398,7 @@
       document.getElementById('card-li-name').textContent        = p.name;
       document.getElementById('card-li-headline').textContent    = p.role;
       document.getElementById('card-li-company-text').textContent= p.associated;
-      document.getElementById('card-li-bio').textContent         = p.liBio || p.bio;
+      document.getElementById('card-li-bio').textContent         = p.bio;
       document.getElementById('card-li-connections').textContent = extra.connections || '500+';
       document.getElementById('card-li-location').textContent    = extra.location    || '—';
       document.getElementById('card-li-btn').href                = liUrl;
