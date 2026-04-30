@@ -140,8 +140,8 @@ const Graph3D: React.FC<Graph3DProps> = ({ data, onNodeClick, onClearSelection, 
        const sId = typeof link.source === 'object' ? link.source.id : link.source;
        const tId = typeof link.target === 'object' ? link.target.id : link.target;
 
-       // Only highlight nodes that the selected node follows
-       if (sId === selectedNode.id) ids.add(String(tId));
+       if (sId === selectedNode.id) ids.add(String(tId)); // outgoing
+       if (tId === selectedNode.id) ids.add(String(sId)); // incoming
     });
     return ids;
   }, [selectedNode, processedData]);
