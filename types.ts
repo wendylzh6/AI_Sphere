@@ -63,17 +63,3 @@ export interface SentimentStage {
   tru: number; // trust
   age: number; // AI agents
 }
-
-export interface InfluencerResponse {
-  newNodes: Array<{ 
-    name: string; 
-    group: 'company' | 'founder' | 'researcher' | 'investor' | 'media';
-    role: string;
-    handle: string;
-    associated: string;
-    bioTags: string[];
-    joinedDate: string;
-    bio: string;
-  }>;
-  newLinks: Array<{ source: string; target: string }>;
-}

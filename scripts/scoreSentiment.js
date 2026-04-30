@@ -466,7 +466,7 @@ async function main() {
   const failed     = Object.values(results).filter(r => r === null).length;
   console.log(`From tweets: ${fromTweets} | Web search supplement: ${fromSearch} | Failed: ${failed}`);
   console.log(`\nOutput → ${OUTPUT}`);
-  console.log('Next: node scripts/applyScores.js --dry-run');
+  console.log('Next: node scripts/applyScoresToReact.js');
 }
 
 main().catch(console.error);

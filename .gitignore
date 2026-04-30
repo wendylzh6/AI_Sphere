@@ -29,3 +29,6 @@ dist-ssr
 
 # Local source data (not published)
 top51_ai_influencers_x+linkedin.xlsx
+
+# Build artifacts
+*.bak
