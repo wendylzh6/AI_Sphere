@@ -226,10 +226,11 @@ ${dataBlock}
 }
 
 /* ------------------------------------------------------------------ */
-/*  2. API KEY – AI Sphere's vite.config.ts exposes GEMINI_API_KEY as  */
-/*  both process.env.API_KEY and process.env.GEMINI_API_KEY.           */
+/*  2. API KEY – read from Vite's import.meta.env (VITE_ prefix is     */
+/*  automatically exposed to the client by Vite on any host).          */
 /* ------------------------------------------------------------------ */
 const API_KEY: string =
+  (import.meta.env.VITE_GEMINI_API_KEY as string) ||
   (typeof process !== "undefined" &&
     process.env &&
     (process.env.API_KEY || process.env.GEMINI_API_KEY)) ||
